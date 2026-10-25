@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T22:57:24Z",
+  "updated": "2026-10-25T23:07:13Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -714,6 +714,402 @@
         {
           "title": "Motley Fool: Santos at 52-week high (16 Sep 2026)",
           "url": "https://www.fool.com.au/2026/09/16/santos-ramsay-health-care-and-amp-shares-reach-new-52-week-highs-can-they-keep-climbing/"
+        }
+      ]
+    },
+    "ASX:BSL": {
+      "market": "ASX",
+      "code": "BSL",
+      "name": "BlueScope Steel Limited",
+      "date": "2026-10-25",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$32.36",
+      "verdict": "Reject",
+      "confidence": "medium",
+      "summary": "BlueScope's profit doubled in FY26 (underlying NPAT A$851.2m vs A$420.8m), driven by tariff-supported US spreads at North Star, and 1H FY27 EBIT guidance of A$860-960m beat consensus. But revenue was flat (FY26 A$16.69bn, +2.2%), so this is a spread-driven cyclical profit rebound, not SEPA-style sales growth. On a late-stage (base 4) setup, the sales FAIL decides the verdict.",
+      "catalyst": "US HRC at four-year highs on tariffs (Nucor CSP US$1,255/st, 19 Oct 2026, vs US$825-865 a year earlier); 1H FY27 EBIT guide A$860-960m (17 Aug 2026).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Underlying NPAT 1H FY26 A$382.0m (+117% vs A$176.4m); 2H FY26 A$469.2m (+92% vs A$244.4m); FY26 u-EPS 194.2c vs 95.9c. Slowing; not a record",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 revenue A$16,691.1m vs FY25 A$16,326.8m (+2.2%), essentially flat; half-year revenue split not found",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Underlying EBIT margin 7.6% FY26 vs 4.5% FY25; Australia EBIT fell (A$188.2m vs A$261.6m). No Code 33: sales flat",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "FY26 OCF A$1,725.6m vs statutory NPAT A$802.0m; u/s gap small (A$851.2m u). Main concern: profit relies on tariff-driven US spreads",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "FY26 u-NPAT A$851.2m vs consensus A$844.7m; 1H FY27 EBIT guide A$860-960m vs consensus A$819.5m (17 Aug 2026). Broker targets mixed",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: US HRC US$1,255/st (19 Oct 2026) vs US$825-865 a year earlier; A$150m FY27 cost benefits; A$3/sh CY27 returns plan",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical. US spreads late-cycle (HRC highest since May 2022, tariff-led); Aus HRC spread near cyclical lows (FY26 avg A$293/t). Peers not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "~438m shares (derived, FY26) so mkt cap ~A$14.2bn; listed 2002; AustralianSuper 13.52% (Jul 2026). 3-yr share count not found; no raises",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "Net debt A$600m at 30 Jun 2026 vs ~A$28m at 30 Jun 2025 (after A$1.65/sh paid); target up to A$1.5bn; u-ROIC 10.7% vs 6.2%; ROE not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "AGM 16 Nov 2026; 1H FY27 results 15 Feb 2027 (indicative). Short interest 0.76% (9 Jun 2026), falling; latest ASIC data not found. Hold: cushion only",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP or entitlement offer found in last 12 months; A$310m buyback switched to 70c special dividend (17 Aug 2026)",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "US tariff relief or a turn in US HRC prices would compress North Star spreads, which drove FY26 North America EBIT +101% to A$1,034m",
+        "Asian spreads stay depressed by Chinese overcapacity; Australia 2H FY26 EBIT A$66m was 45% below 1H",
+        "Takeover floor has faded: the A$32.35 effective bid (Feb 2026) was rejected 26 Feb 2026 and no live proposal was found since; price ~A$32.36 sits at that level",
+        "Late-stage base 4 on a cyclical near peak US spreads; consensus FY27 EPS 278.9c (+44%) leaves room for disappointment",
+        "Would change verdict: verified revenue growth of 20%+ in 1H FY27 (15 Feb 2027) or a renewed, higher takeover bid"
+      ],
+      "next_event": "AGM 16 Nov 2026 (indicative); 1H FY27 results 15 Feb 2027 (indicative)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY2026 Financial Results Supplementary Materials (ASX, 17 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260817/pdf/072t2cy7j8lnzn.pdf"
+        },
+        {
+          "title": "FY2026 Results Presentation (ASX, 17 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260817/pdf/072t29sn44423s.pdf"
+        },
+        {
+          "title": "FY2026 Results ASX Release (17 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260817/pdf/072t27my61ntqh.pdf"
+        },
+        {
+          "title": "BlueScope 1H FY2026 results release",
+          "url": "https://www.bluescope.com/news/BlueScope-delivers-1H-FY2026-results-announces-increase-in-shareholder-returns"
+        },
+        {
+          "title": "BlueScope shareholder update on rejected A$30 proposal (9 Jan 2026)",
+          "url": "https://www.bluescope.com/news/An-important-shareholder-update"
+        },
+        {
+          "title": "BlueScope investor calendar",
+          "url": "https://www.bluescope.com/investors/calendar-agms/calendar"
+        },
+        {
+          "title": "Reuters via Zawya: BlueScope spurns revised offer (26 Feb 2026)",
+          "url": "https://www.zawya.com/en/business/m-a/bluescope-spurns-107bln-offer-but-leaves-door-open-to-talks-ydyvy60y"
+        },
+        {
+          "title": "Kitco/Reuters: SGH-SDI best and final bid (18 Feb 2026)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-02-18/sgh-steel-dynamics-bid-106b-bluescope-best-and-final-offer"
+        },
+        {
+          "title": "Reuters via HL: 1H FY26 vs consensus (16 Feb 2026)",
+          "url": "https://www.hl.co.uk/news/australias-bluescope-steel-beats-profit-estimates-lifts-outlook-shares-fall"
+        },
+        {
+          "title": "Engineering News/Reuters: FY26 beat and 1H FY27 guide vs consensus (17 Aug 2026)",
+          "url": "https://www.engineeringnews.co.za/article/australias-bluescope-posts-profit-beat-sees-earnings-above-expectations-2026-08-17"
+        },
+        {
+          "title": "GMK Center: Nucor HRC CSP US$1,255/st (20 Oct 2026)",
+          "url": "https://gmk.center/en/news/nucor-has-increased-prices-for-hot-rolled-coils-by-15-t/"
+        },
+        {
+          "title": "FNArena consensus (aggregator)",
+          "url": "https://www.fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=BSL"
+        },
+        {
+          "title": "Market Index substantial holders (aggregator)",
+          "url": "https://www.marketindex.com.au/index.php/asx/bsl"
+        },
+        {
+          "title": "Fintel short interest (aggregator)",
+          "url": "https://fintel.io/ss/au/bsl"
+        }
+      ]
+    },
+    "ASX:EVT": {
+      "market": "ASX",
+      "code": "EVT",
+      "name": "EVT Limited",
+      "date": "2026-10-25",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$15.15",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "EVT owns cinemas, Rydges/QT hotels and Thredbo. Normalised NPAT is growing fast (1H FY26 +28.5%, FY26 +41.3%) and Q1 FY27 EBITDA rose 17%, while a A$800m property sale program and a Rothschild structure review add a catalyst. Revenue growth is only about 6%, well short of the 20% sales test, so this is Watch only.",
+      "catalyst": "A$800m non-core property divestment over 3 years plus a group structure review with Rothschild (24 Aug 2026); first sales done above book (23 Oct 2026).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Norm NPAT 1H FY26 A$40.5m +28.5%; 2H FY26 A$13.8m vs A$6.9m (calc, ~+100%); FY26 basic EPS 31.2c vs 20.6c. Accelerating",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 norm revenue A$1,314.9m +6.3% (FY25 +1.3%); 1H FY26 +5.4%. Organic and improving, but far below 20%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "FY26 norm EBITDA margin 13.3% vs 13.0%, NPAT margin 4.1% vs 3.1% (calc). Expanding; Code 33 not met as sales growth is low",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Statutory NPAT A$50.7m vs norm A$54.3m; sig items -A$8.8m (FY25 -5.9m) recur each year; no revaluation gains in P&L; OCF not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "FY26 result: shares +10.2% (24 Aug 26); Q1 FY27 EBITDA +17%; but hotel initiative EBITDA cut A$17m to A$13m and Thredbo FY27 guide A$16-20m",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: A$800m divestment and Rothschild structure review (24 Aug 26); Arawa Park sold NZ$18m, 38.5% above book (23 Oct 26)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical leisure turnaround with a property backing; Entertainment Q1 FY27 EBITDA +171%. Peer group strength not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "~162.5m shares, flat since FY24 (calc from dividends); Rydge-linked holders ~45%, Perpetual 15.8%; no recent raises. Long-listed",
+          "result": "PASS"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "Net debt A$476.1m vs A$750m facility (30 Jun 26); property carried A$1,317m, valued A$2,236.6m. OCF and ROE not found. No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next: 1H FY27 result late Feb 2027 (date TBA). Risks: film slate, Thredbo weather, review outcome. Short interest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in the last 12 months; DRP suspended Aug 2026",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Revenue growth is only about 6%, so profit growth relies on margin recovery and the film slate.",
+        "Thredbo FY27 EBITDA guidance is A$16-20m vs A$21.0m in FY26, after the worst snow in over 40 years.",
+        "Entertainment 2H FY27 film schedule is not yet fully formed, and Hotels Q1 FY27 EBITDA fell 2%.",
+        "Structure review or 525 George St sale could disappoint; first strike on the remuneration report at the 23 Oct 2026 AGM.",
+        "Next event: 1H FY27 results, expected late Feb 2027 (date not yet announced)."
+      ],
+      "next_event": "1H FY27 half-year results, expected late Feb 2027 (date not announced; 1H FY26 was 23 Feb 2026). AGM and Q1 update already held 23 Oct 2026",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY26 Appendix 4E and annual report (ASX, 24 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733cn6jf8p381.pdf"
+        },
+        {
+          "title": "FY26 results announcement (ASX, 24 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733f3w1tt7nn8.pdf"
+        },
+        {
+          "title": "FY26 results presentation (ASX, 24 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733hv6r4vtrc5.pdf"
+        },
+        {
+          "title": "FY26 Preliminary Final Report (evt.com)",
+          "url": "https://cdn.evt.com/wp-content/uploads/2026/08/24085028/Preliminary-Final-Report.pdf"
+        },
+        {
+          "title": "1H FY26 results announcement (ASX, 23 Feb 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260223/pdf/06wltxqvdcx1xp.pdf"
+        },
+        {
+          "title": "1H FY25 results announcement (ASX, 24 Feb 2025)",
+          "url": "https://announcements.asx.com.au/asxpdf/20250224/pdf/06fv1dd7pg3b9j.pdf"
+        },
+        {
+          "title": "1H FY25 half-yearly report",
+          "url": "https://quoteapi.com/resources/4ec85c869fdae450/announcements/evt.asx/2A1579863/EVT_Half_Yearly_Report_and_Accounts.pdf?embed=1"
+        },
+        {
+          "title": "FY25 Appendix 4E (ASX, 25 Aug 2025)",
+          "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n8hf8zx7bm3d.pdf"
+        },
+        {
+          "title": "FY26 reporting calendar and AGM date (ASX, 3 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260803/pdf/072cjgtf0vwszz.pdf"
+        },
+        {
+          "title": "AGM addresses: strong Q1, Hotels growth strategy advances (23 Oct 2026, Listcorp)",
+          "url": "https://www.listcorp.com/asx/evt/evt-limited/news/agm-addresses-strong-q1-hotels-growth-strategy-advances-3426273.html?ref=more_news"
+        },
+        {
+          "title": "AGM 2026 results: first strike (Kalkine, aggregator)",
+          "url": "https://kalkinemedia.com/au/news/announcements/evt-limited-agm-2026-all-resolutions-approved-amid-first-strike-on-remuneration-report"
+        },
+        {
+          "title": "FY26 earnings call transcript (Investing.com, aggregator)",
+          "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-evt-lifts-fy2026-profit-shares-jump-on-growth-outlook-93CH-4843727"
+        },
+        {
+          "title": "FNArena consensus (aggregator)",
+          "url": "https://fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=EVT"
+        },
+        {
+          "title": "Simply Wall St ownership (aggregator)",
+          "url": "https://simplywall.st/stocks/au/media/chia-evt/evt-shares/ownership"
+        }
+      ]
+    },
+    "ASX:NWS": {
+      "market": "ASX",
+      "code": "NWS",
+      "name": "News Corporation",
+      "date": "2026-10-25",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$48.49",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "News Corp (US$, FY ends 30 Jun; NWS = Class B CDIs on ASX) posted record FY26 profit: adjusted EPS US$1.18 vs US$0.89 (+33%), with Q4 (Apr-Jun 2026) adjusted EPS +84%, helped by REA Group, Dow Jones and a 4x-larger buyback. But revenue growth is only +4% adjusted/constant-currency for FY26, FX-assisted, and Q3 adjusted EPS was +24%, so sales fall well short of SEPA's 20% bar.",
+      "catalyst": "Margin step-up at REA Group and Dow Jones plus a US$2bn buyback (extra US$1bn authorised 15 Jul 2025); Foxtel sold 2 Apr 2025. Rated MODERATE.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS (US$) Q1-Q4 FY26 (Jul25-Jun26): +10%,+21%,+24%,+84% y/y; GAAP cont. ops Q4 $0.33 vs $0.09. FY26 adj $1.18 record",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q4 FY26 rev US$2,337M +11% (adj +7%, FX +4pts); FY26 US$9,028M +7%, adjusted +4%. Mostly organic but low growth",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Segment EBITDA margin Q4 FY26 18.1% vs 15.3%; FY26 18.0% vs 16.7%. Reported Code 33 Q2-Q4 FY26, but FX-assisted",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "FY26 op cash flow US$1,237M vs NI US$743M; impairment/restructuring recurs (Q4 $46M). Buyback: Q4 diluted shares -3.5%. Main issue: FX",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q4 FY26 adj EPS $0.35 vs $0.15 consensus, rev $2.34B vs $2.18B (Earnings Whispers, 5 Aug 2026). No numeric guidance; revisions not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: REA Q4 FY26 rev +21%, DJ EBITDA +20%; US$2bn buyback (Jul 2025); Foxtel exit Apr 2025; DJ US$1bn EBITDA target",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Diversified media/info large-cap (DJ, REA 62%, HarperCollins); mature, not a leader-growth name. Group strength not found; RS 73",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "541.1M shares (360.5M A, 180.5M B) at 31 Jul 2026; FY26 diluted shares -2.0%; float ~US$13.4B (Dec 2025); listed 2013; inst % not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 2026: cash US$2,095M, borrowings US$1,989M (net cash ~US$106M); FY26 FCF US$811M +42%. ROE not found. No raise needed",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q1 FY27 (Jul-Sep 2026) results 4 Nov 2026 US (5 Nov AEDT); consensus adj EPS $0.27 vs $0.22. Short interest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "ASX CDIs of US Class B. Last 10-Q 8 May 2026 (Q3 FY26); 10-K FY26 Aug 2026. No company offering/ATM found; Sep 2025 family trust sold Class B",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Revenue growth only +4% adjusted for FY26; EPS growth leans on margins, FX and buybacks rather than sales",
+        "FX tailwind (weak US$) added ~4pts to Q4 FY26 revenue; a US$ rebound would reverse it",
+        "Q4 FY26 +84% adj EPS was against a weak Q4 FY25 base; Q1 FY27 consensus implies only ~+23%",
+        "News Media segment EBITDA falling (Q4 FY26 -14%); Book Publishing FY26 EBITDA -3%",
+        "Australian housing listings cycle drives REA, the largest profit engine"
+      ],
+      "next_event": "Q1 FY27 (Jul-Sep 2026) results, 4 Nov 2026 after US close (5 Nov 2026 ASX time)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q4 FY2026 earnings release (8-K, 5 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001564708/000156470826000171/release-q4fy2026.htm"
+        },
+        {
+          "title": "Q3 FY2026 earnings release (8-K, 7 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001564708/000156470826000101/release-q3fy2026.htm"
+        },
+        {
+          "title": "Q2 FY2026 earnings release (8-K, 5 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000027/release-q2fy2026.htm"
+        },
+        {
+          "title": "Q1 FY2026 earnings release (8-K, 6 Nov 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000571/release-q1fy2026.htm"
+        },
+        {
+          "title": "FY2026 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001564708/000156470826000175/nws-20260630.htm"
+        },
+        {
+          "title": "Q3 FY2026 10-Q filing record (filed 8 May 2026)",
+          "url": "https://last10k.com/sec-filings/nwsa/0001564708-26-000103.htm"
+        },
+        {
+          "title": "New US$1bn buyback (8-K, 15 Jul 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000379/a07152025pressrelease-buyb.htm"
+        },
+        {
+          "title": "Foxtel sale completion (8-K, Apr 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000163/a040225991-foxtelclosingan.htm"
+        },
+        {
+          "title": "Earnings Whispers NWS (aggregator: next date, consensus)",
+          "url": "https://www.earningswhispers.com/stocks/nws"
+        },
+        {
+          "title": "Earnings Whispers Q4 FY26 detail (aggregator)",
+          "url": "https://earningswhispers.com/epsdetails/NWS/202606"
+        },
+        {
+          "title": "Axios: Murdoch family trust settlement (8 Sep 2025)",
+          "url": "https://www.axios.com/2025/09/08/murdoch-family-trust-lachlan-news-corp"
         }
       ]
     }
