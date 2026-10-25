@@ -40,7 +40,7 @@ vcp:
 
 fundamentals:
   enabled: true
-  max_names_per_market: 150   # only fetch fundamentals for the best trend-template names
+  max_names_per_market: 2000  # fetch fundamentals for every stock on the watchlist
   min_eps_growth_pct: 25
   min_sales_growth_pct: 20
 
