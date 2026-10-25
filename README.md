@@ -50,7 +50,7 @@ The fundamental prompts are in `prompts/prompts.yaml`. They are market-aware: `m
 1. **Evening**: check the market condition first. In a correction, mostly stay in cash and build the watchlist from stocks holding up best.
 2. Open each **Breaking out** and **Buy-ready** stock. Confirm the chart yourself: Stage 2, contractions getting smaller left to right, volume drying up at the right side of the base.
 3. Run the **Full SEPA fundamental review** prompt on the best few. Skip anything that fails on earnings.
-4. **Set price alerts at the pivot** in TradingView or CommSec. Buy as the stock trades through the pivot on volume at least 40% above average; don't chase more than about 5% above it.
+4. **Set price alerts at the pivot** in TradingView or CommSec. The page footer links to `sepa-watchlist.txt`, a TradingView import file of the Breaking out and Buy-ready stocks, rebuilt after each scan (watchlist menu → **Import list…**). Buy as the stock trades through the pivot on volume at least 40% above average; don't chase more than about 5% above it.
 5. **Before buying, write down your stop** (no more than 10% below entry; aim for 5-6% average losses) and size the position with the calculator so the stop costs no more than 1.25-2.5% of the account.
 6. Once the gain is 2-3 times your risk, move the stop to breakeven. Sell into strength on climax runs and late-stage bases; sell into weakness on the largest drop on the heaviest volume since the move began.
 

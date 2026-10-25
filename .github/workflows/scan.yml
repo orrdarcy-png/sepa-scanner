@@ -56,9 +56,10 @@ jobs:
           fi
       - name: Save the shortlist for the morning review
         # Stored on a separate "data" branch so main stays clean. The morning review reads it
-        # from there and writes reviews.json back to the same branch.
+        # from there and writes reviews.json back to the same branch. Also publishes the
+        # TradingView import file with the page, at <page address>/sepa-watchlist.txt.
         run: |
-          python -m scanner.shortlist site/data.json /tmp/shortlist.json
+          python -m scanner.shortlist site/data.json /tmp/shortlist.json site/sepa-watchlist.txt
           git config user.name "sepa-scanner"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if git fetch --depth 1 origin data 2>/dev/null; then

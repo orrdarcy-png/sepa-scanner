@@ -559,7 +559,7 @@ function render(){
   if(!DATA || !markets.length){ $("#rows").innerHTML = `<div class="empty">No scan data yet. Run the scanner once to fill this page.</div>`; return; }
   const M = DATA.markets[state.market];
   renderTop(); renderMarket(M); renderList(M);
-  $("#foot").innerHTML = `Scanned ${new Date(DATA.generated).toLocaleString("en-AU",{dateStyle:"medium",timeStyle:"short"})}. Rules from Mark Minervini's <i>Trade Like a Stock Market Wizard</i> and <i>Think &amp; Trade Like a Champion</i>. Prices from Yahoo Finance, which can be delayed or wrong. This is a screening tool, not financial advice; check every chart yourself before trading.`;
+  $("#foot").innerHTML = `Scanned ${new Date(DATA.generated).toLocaleString("en-AU",{dateStyle:"medium",timeStyle:"short"})}. Rules from Mark Minervini's <i>Trade Like a Stock Market Wizard</i> and <i>Think &amp; Trade Like a Champion</i>. Prices from Yahoo Finance, which can be delayed or wrong. This is a screening tool, not financial advice; check every chart yourself before trading.${DATA.demo?"":` <br><a href="sepa-watchlist.txt" download>TradingView watchlist</a>: the Breaking out and Buy-ready stocks, refreshed after each scan. In TradingView, open the watchlist menu, choose Import list… and pick this file.`}`;
 }
 $("#tvcopy").addEventListener("click", e=>{ const M=DATA.markets[state.market];
   const list=filtered(M).map(x=> M.name==="ASX" ? "ASX:"+x.code : x.code.replace("-",".")).join(",");
