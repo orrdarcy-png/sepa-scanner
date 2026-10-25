@@ -95,6 +95,7 @@ select{border:1px solid var(--line);background:var(--surface);border-radius:8px;
 .tk{min-width:0}
 .tk b{font:700 18px/1.1 var(--f-display);letter-spacing:.02em}
 .tk .nm{display:block;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fb{font-size:11px;font-weight:600;white-space:nowrap}.fb-pass{color:var(--up)}.fb-fail{color:var(--warn)}.fb-none{color:var(--muted);font-weight:400}
 .pill{display:inline-block;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:600;white-space:nowrap}
 .s-break{background:var(--accent-fill);color:var(--accent-ink)}
 .s-ready{background:var(--up-soft);color:var(--up);box-shadow:inset 0 0 0 1px var(--up)}
@@ -207,7 +208,8 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
         <select id="sort" aria-label="Sort"><option value="rank">Rank</option><option value="score">Score</option><option value="rs">RS rating</option><option value="pivot">Closest to pivot</option></select>
       </div>
     </div>
-    <div class="filters" id="filters" style="margin-bottom:10px"></div>
+    <div class="filters" id="filters" style="margin-bottom:8px"></div>
+    <div class="filters" id="ffilters" style="margin-bottom:10px" aria-label="Fundamentals filter"></div>
     <div class="rows" id="rows"></div>
   </section>
 
@@ -267,7 +269,7 @@ const ORDER = ["Breaking out","Buy-ready","Setting up","Trend only","Extended"];
 const store = {get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},
                set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const markets = Object.keys((DATA && DATA.markets) || {});
-let state = {market: markets.includes(store.get("mkt","ASX")) ? store.get("mkt","ASX") : markets[0], filter: "all", q: "", sort: "rank"};
+let state = {market: markets.includes(store.get("mkt","ASX")) ? store.get("mkt","ASX") : markets[0], filter: "all", fund: store.get("fund","any"), q: "", sort: "rank"};
 const h = location.hash.replace("#","").toUpperCase();
 if (markets.includes(h)) state.market = h;
 
@@ -354,6 +356,7 @@ function renderMarket(M){
 function filtered(M){
   let s = M.stocks.slice();
   if (state.filter!=="all") s = s.filter(x=>x.status===state.filter);
+  if (state.fund!=="any") s = s.filter(x=>(x.ff||{})[state.fund]);
   const q = state.q.trim().toLowerCase();
   if (q) s = s.filter(x=> x.code.toLowerCase().includes(q) || (x.name||"").toLowerCase().includes(q) || (x.industry||"").toLowerCase().includes(q));
   if (state.sort==="score") s.sort((a,b)=>b.score-a.score);
@@ -361,16 +364,26 @@ function filtered(M){
   else if (state.sort==="pivot") s.sort((a,b)=>Math.abs(a.dist_pivot??99)-Math.abs(b.dist_pivot??99));
   return s;
 }
+function fbadge(s){
+  const f=s.ff||{}; if(!f.data) return ` · <span class="fb fb-none">no fundamentals</span>`;
+  const b=[f.pass?`<span class="fb fb-pass">EPS+sales ✓</span>`:`<span class="fb fb-fail">growth ✗</span>`];
+  if(f.code33) b.push(`<span class="fb fb-pass">Code 33</span>`); else if(f.accel) b.push(`<span class="fb fb-pass">accelerating</span>`);
+  return " · "+b.join(" ");
+}
 function renderList(M){
   const counts={}; M.stocks.forEach(x=>counts[x.status]=(counts[x.status]||0)+1);
   $("#filters").innerHTML = [`<button class="fbtn" type="button" data-f="all" aria-pressed="${state.filter==='all'}">All<span class="num">${M.stocks.length}</span></button>`]
     .concat(ORDER.filter(k=>counts[k]).map(k=>`<button class="fbtn" type="button" data-f="${k}" aria-pressed="${state.filter===k}">${k}<span class="num">${counts[k]}</span></button>`)).join("");
   $("#filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.filter=b.dataset.f; renderList(M); });
+  const fc = k => M.stocks.filter(x=>(x.ff||{})[k]).length;
+  const FF = [["any","All",M.stocks.length],["data","Has data",fc("data")],["pass","Passes EPS 25% + sales 20%",fc("pass")],["accel","Accelerating",fc("accel")],["code33","Code 33",fc("code33")]];
+  $("#ffilters").innerHTML = `<span class="label" style="align-self:center;margin-right:2px">Fundamentals</span>` + FF.map(([k,l,n])=>`<button class="fbtn" type="button" data-ff="${k}" aria-pressed="${state.fund===k}">${l}<span class="num">${n}</span></button>`).join("");
+  $("#ffilters").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.fund=b.dataset.ff; store.set("fund",state.fund); renderList(M); });
   $("#listsub").textContent = `${M.stocks.length} of ${M.regime.universe} liquid ${M.name} stocks pass the Trend Template or show a power play. Tap a stock for its chart, checklist, trade plan and prompts.`;
   const rows = filtered(M);
   const hdr = `<div class="row rowhdr" aria-hidden="true"><span class="label">Stock</span><span class="label">Status · footprint</span><span class="label">90 days · pivot</span><span class="label rt">RS</span><span class="label rt">To pivot</span><span class="label rt">Score</span></div>`;
   $("#rows").innerHTML = rows.length ? hdr + rows.map((s,i)=>{
-    const st = `<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}</span>`;
+    const st = `<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}${fbadge(s)}</span>`;
     const dist = s.dist_pivot==null? "–" : pct(s.dist_pivot);
     return `<button class="row" type="button" data-i="${M.stocks.indexOf(s)}">
       <span class="tk"><b>${esc(s.code)}</b><span class="nm">${esc(s.name||s.industry||"")}</span></span>

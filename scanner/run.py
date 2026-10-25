@@ -145,7 +145,7 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
     # fundamentals for the strongest names
     fcfg = cfg["fundamentals"]
     if fcfg.get("enabled", True):
-        from .fundamentals import fundamental_score
+        from .fundamentals import fundamental_flags, fundamental_score
         if demo:
             from .synthetic import demo_fundamentals
             fund = {r["symbol"]: demo_fundamentals(r["symbol"]) for r in cands}
@@ -166,6 +166,8 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                         r["warnings"].append(f"Reports earnings in {days} days ({ne}): don't hold a full position "
                                              "into the report without a profit cushion")
     for r in cands:
+        r["ff"] = fundamental_flags(r.get("fund"), fcfg) if fcfg.get("enabled", True) else \
+            {"data": False, "pass": False, "accel": False, "code33": False}
         r["score"] = round(r["score_tech"] + r.get("fund_pts", 0))
         lst = r.get("listed")
         ft = (r.get("fund") or {}).get("first_trade")
@@ -224,6 +226,11 @@ def main(argv=None):
         for name, m in markets.items():
             print(f"::notice title={name} scan::{len(m.get('stocks', []))} stocks on the watchlist, "
                   f"{m.get('regime', {}).get('universe', '?')} liquid, data to {m.get('as_of')}")
+            st = m.get("stocks", [])
+            ff = [x.get("ff") or {} for x in st]
+            print(f"::notice title={name} fundamentals::{sum(1 for x in ff if x.get('data'))} of {len(st)} "
+                  f"have Yahoo fundamentals, {sum(1 for x in ff if x.get('pass'))} pass EPS/sales growth, "
+                  f"{sum(1 for x in ff if x.get('accel'))} accelerating, {sum(1 for x in ff if x.get('code33'))} Code 33")
         for name, e in errors.items():
             print(f"::error title={name} scan failed::{e}")
     build(data, outdir / "index.html")

@@ -210,3 +210,22 @@ def fundamental_score(f: dict, cfg: dict) -> tuple[int, list[str]]:
     if f.get("pe") is not None and f["pe"] < 6:
         notes.append(f"Very low P/E ({f['pe']:.1f}): book warns this can signal trouble")
     return min(20, pts), notes
+
+
+def fundamental_flags(f: dict | None, cfg: dict) -> dict:
+    """Simple pass/fail flags for the watchlist filter: has data, passes growth tests, accelerating."""
+    if not f or (not f.get("eps_yoy") and not f.get("rev_yoy")
+                 and f.get("eps_q_growth") is None and f.get("rev_growth") is None):
+        return {"data": False, "pass": False, "accel": False, "code33": False}
+    eps, rev = f.get("eps_yoy") or [], f.get("rev_yoy") or []
+    if eps:
+        eps_ok = (eps[-1]["yoy"] >= cfg["min_eps_growth_pct"] and not eps[-1]["from_loss"]) or \
+                 (eps[-1]["from_loss"] and eps[-1]["value"] > 0)
+    else:
+        eps_ok = f.get("eps_q_growth") is not None and f["eps_q_growth"] * 100 >= cfg["min_eps_growth_pct"]
+    if rev:
+        rev_ok = rev[-1]["yoy"] >= cfg["min_sales_growth_pct"]
+    else:
+        rev_ok = f.get("rev_growth") is not None and f["rev_growth"] * 100 >= cfg["min_sales_growth_pct"]
+    return {"data": True, "pass": bool(eps_ok and rev_ok),
+            "accel": bool(f.get("eps_accel") or f.get("rev_accel")), "code33": bool(f.get("code33"))}
