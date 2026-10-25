@@ -184,6 +184,15 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                                     if r["rs_line"]["new_high"] and ix["from_high"] < -5][:15],
         "stocks": [{k: v for k, v in r.items() if k not in ("score_tech", "listed")} for r in cands],
     }
+    fxc = mcfg.get("fx")  # e.g. "USD": convert to A$ for an Australian investor
+    if fxc:
+        if demo:
+            rate = 1.53
+        else:
+            from .data import aud_per
+            rate = aud_per(fxc)
+        if rate:
+            out["fx"] = {"code": fxc, "aud_per": round(rate, 4)}
     return clean(out)
 
 

@@ -18,6 +18,7 @@ markets:
     index_fallbacks: ["SPY"]
     suffix: ""
     currency: "US$"
+    fx: "USD"                 # show A$ equivalents and size trades from an A$ account
     min_price: 5.0
     min_turnover: 10000000
     universe: auto            # auto = S&P 500 + 400 + 600 (large, mid and small caps) from Wikipedia

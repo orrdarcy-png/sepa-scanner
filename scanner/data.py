@@ -63,3 +63,19 @@ def download_index(symbols: list[str], period: str = "2y", retries: int = 4) -> 
             log.warning("index %s attempt %d failed: %s", sym, attempt + 1, last_err)
             time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"could not download the market index ({last_err})")
+
+
+def aud_per(currency: str) -> float | None:
+    """Australian dollars per one unit of `currency` (e.g. 'USD'), from Yahoo's latest daily close."""
+    import yfinance as yf
+
+    for attempt in range(3):
+        try:
+            df = yf.Ticker(f"AUD{currency}=X").history(period="1mo", interval="1d")
+            c = df["Close"].dropna()
+            if len(c) and c.iloc[-1] > 0:
+                return float(1 / c.iloc[-1])
+        except Exception as e:  # noqa: BLE001
+            log.warning("FX AUD%s attempt %d failed: %s", currency, attempt + 1, e)
+        time.sleep(3 * (attempt + 1))
+    return None

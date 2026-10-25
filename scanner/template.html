@@ -429,30 +429,34 @@ function fundBlock(s, cur){
   const periods=[...new Set([...per, ...Object.keys(rev)])];
   const tbl = periods.length? `<div class="tbl"><table><thead><tr><th>Period (${esc(f.freq||"reported")})</th><th>EPS</th><th>EPS YoY</th><th>Sales YoY</th><th>Net margin</th></tr></thead><tbody>`+
     periods.map(p=>{ const e=(f.eps_yoy||[]).find(x=>x.period===p); return `<tr><td>${esc(p)}</td><td class="num">${e?e.value:"–"}</td><td class="num ${cls(e?.yoy)}">${e?pct(e.yoy):"–"}</td><td class="num ${cls(rev[p])}">${rev[p]!=null?pct(rev[p]):"–"}</td><td class="num">${mar[p]!=null?mar[p]+"%":"–"}</td></tr>`; }).join("")+`</tbody></table></div>` : "";
-  const kv=[["Market cap",cur+fmtBig(f.mcap)],["Free float",f.float?fmtBig(f.float)+" sh":"n/a"],["Institutions",f.inst_pct!=null?(f.inst_pct*100).toFixed(0)+"%":"n/a"],
+  const kv=[["Market cap",f.mcap&&FXR?"A$"+fmtBig(f.mcap*FXR)+" ("+cur+fmtBig(f.mcap)+")":cur+fmtBig(f.mcap)],["Free float",f.float?fmtBig(f.float)+" sh":"n/a"],["Institutions",f.inst_pct!=null?(f.inst_pct*100).toFixed(0)+"%":"n/a"],
     ["P/E (trailing)",f.pe!=null?f.pe.toFixed(1):"n/a"],["P/E (forward)",f.fwd_pe!=null?f.fwd_pe.toFixed(1):"n/a"],["ROE",f.roe!=null?(f.roe*100).toFixed(0)+"%":"n/a"],
     ["Next results",f.next_earnings||"n/a"],["Years listed",s.years_listed!=null?s.years_listed:"n/a"]];
   return `${(s.fund_notes||[]).length?`<ul class="notes">${s.fund_notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`:""}${tbl}
     <div class="kv" style="margin-top:10px">${kv.map(([k,v])=>`<div><span>${k}</span><b>${esc(v)}</b></div>`).join("")}</div>
     <p class="muted" style="font-size:12px;margin:8px 0 0">From Yahoo Finance. Coverage of ASX companies is patchy and most report half-yearly, so confirm with the prompts below before buying.</p>`;
 }
+let FXR = null; /* A$ per unit of the stock's currency, for US stocks */
 function planBlock(s, cur){
   const R = DATA.risk||{}; const acct=store.get("acct",R.default_account||10000), rp=store.get("riskpct",R.default_risk_pct||1.25), sp=store.get("stoppct",R.default_stop_pct||7);
   const entry = s.status==="Breaking out"||s.status==="Extended" ? s.price : (s.pivot || s.price);
   return `<div class="plan">
-    <label for="p-acct">Account size (${esc(cur)})<input id="p-acct" type="number" inputmode="decimal" min="0" step="100" value="${acct}"></label>
+    <label for="p-acct">Account size (A$)<input id="p-acct" type="number" inputmode="decimal" min="0" step="100" value="${acct}"></label>
     <label for="p-risk">Risk per trade (% of account)<input id="p-risk" type="number" inputmode="decimal" min="0.1" max="5" step="0.25" value="${rp}"></label>
-    <label for="p-entry">Entry (pivot or price)<input id="p-entry" type="number" inputmode="decimal" step="0.001" value="${(+entry).toFixed(entry<2?3:2)}"></label>
+    <label for="p-entry">Entry (pivot or price${FXR?", "+esc(cur):""})<input id="p-entry" type="number" inputmode="decimal" step="0.001" value="${(+entry).toFixed(entry<2?3:2)}"></label>
     <label for="p-stop">Stop below entry (%)<input id="p-stop" type="number" inputmode="decimal" min="1" max="15" step="0.5" value="${sp}"></label></div>
-    <div class="planout" id="planout"></div><div class="alert" id="planalert"></div>`;
+    <div class="planout" id="planout"></div><div class="alert" id="planalert"></div>
+    ${FXR?`<p class="muted" style="font-size:12px;margin:8px 0 0">Account, risk and position value are in A$ at A$1 = ${esc(cur)}${(1/FXR).toFixed(4)} (latest close). Entry and stop stay in ${esc(cur)}, the price you'll enter at your broker. Allow for your broker's currency fee.</p>`:""}`;
 }
 function calcPlan(cur){
   const a=+$("#p-acct").value, rp=+$("#p-risk").value, e=+$("#p-entry").value, sp=+$("#p-stop").value;
   store.set("acct",a); store.set("riskpct",rp); store.set("stoppct",sp);
-  const stop=e*(1-sp/100), riskAmt=a*rp/100, sh=Math.floor(riskAmt/(e-stop||1)), val=sh*e, posPct=a?val/a*100:0;
-  const capped = posPct>50 ? Math.floor(a*0.5/e) : sh;
-  $("#planout").innerHTML = [["Stop price",fmtPx(stop,cur)],["Dollar risk",cur+Math.round(riskAmt).toLocaleString()],["Shares",capped.toLocaleString()],
-    ["Position value",cur+Math.round(capped*e).toLocaleString()],["Share of account",(a?capped*e/a*100:0).toFixed(0)+"%"],["Breakeven stop once at",fmtPx(e*(1+2.5*sp/100),cur)]]
+  const fx=FXR||1, A="A$";
+  const stop=e*(1-sp/100), riskAmt=a*rp/100, sh=Math.floor(riskAmt/fx/(e-stop||1)), val=sh*e*fx, posPct=a?val/a*100:0;
+  const capped = posPct>50 ? Math.floor(a*0.5/(e*fx)) : sh;
+  const posA=capped*e*fx;
+  $("#planout").innerHTML = [["Stop price",fmtPx(stop,cur)],["Dollar risk",A+Math.round(riskAmt).toLocaleString()],["Shares",capped.toLocaleString()],
+    ["Position value",A+Math.round(posA).toLocaleString()+(FXR?` <span class="muted">(${cur}${Math.round(capped*e).toLocaleString()})</span>`:"")],["Share of account",(a?posA/a*100:0).toFixed(0)+"%"],["Breakeven stop once at",fmtPx(e*(1+2.5*sp/100),cur)]]
     .map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join("");
   const w=[]; if(sp>10) w.push("A stop wider than 10% breaks the book's maximum. Find a tighter entry or skip the trade.");
   if(posPct>50) w.push("Risk-based size would be over half your account; capped at 50% (the book's limit). Use a tighter stop or accept less risk.");
@@ -461,6 +465,7 @@ function calcPlan(cur){
   $("#planalert").textContent = w.join(" ");
 }
 function openSheet(M, s){
+  FXR = (M.fx&&M.fx.aud_per)||null;
   const cur=M.currency||"", tvSym=(M.name==="ASX"?"ASX:":"")+s.code.replace("-",".");
   const b=s.base, ts=(b?.contractions||[]), mx=Math.max(...ts,1);
   const facts = b? [["Base length",b.weeks+" weeks"],["Deepest correction",b.depth+"%"],["Final contraction",b.final+"%"],["Last 10 days range",b.tight10+"%"],
@@ -478,7 +483,7 @@ function openSheet(M, s){
    <div class="sheet-main">
      <div class="panel" style="padding:12px">
        <div style="display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px">
-         <b class="mono" style="font-size:22px">${fmtPx(s.price,cur)}</b><span class="num ${cls(s.chg1d)}">${pct(s.chg1d)}</span>
+         <b class="mono" style="font-size:22px">${fmtPx(s.price,cur)}</b>${FXR?`<span class="mono muted">≈ ${fmtPx(s.price*FXR,"A$")}</span>`:""}<span class="num ${cls(s.chg1d)}">${pct(s.chg1d)}</span>
          <span class="pill ${STATUS[s.status]}">${esc(s.status)}</span>${s.setup?`<span class="muted">${esc(s.setup)}</span>`:""}
          <span class="mono muted" style="margin-left:auto">Stage ${esc(s.stage)} · RS ${s.rs} · score ${s.score}</span></div>
        ${candles(s,cur)}
