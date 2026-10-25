@@ -1,0 +1,434 @@
+# Fundamental check prompts (SEPA element 2-3: fundamentals and catalyst).
+# The scanner page fills {CODE} {NAME} {EXCHANGE} {DATE} {INDUSTRY} {PRICE}.
+# Market-aware: markets.<ASX|US> supplies the sources and conventions for the shared header ({SOURCES},
+# {MARKET_RULES}, {MARKET_LABEL}), and each prompt's optional ASX / US text goes in at {MARKET_EXTRA}.
+
+common: |
+  You are helping me run Mark Minervini's SEPA checklist (from "Trade Like a Stock Market Wizard" and
+  "Think & Trade Like a Champion") on {NAME} ({EXCHANGE}: {CODE}), {MARKET_LABEL} stock, today {DATE}. The stock already passes
+  his technical Trend Template, so I only need the fundamental side.
+  Rules for your answer:
+  - Search for and use primary sources first: {SOURCES}. Use data aggregators only to fill gaps, and say so.
+  - Give the period and date for every number. If you cannot find something, write "not found" rather than estimating.
+  - Compare each period with the same period a year earlier (the prior corresponding period), not the previous period.
+  - Keep it short and scannable: a table first, then at most five bullet points, then a one-line verdict:
+    PASS, CAUTION or FAIL against the rule being tested, with the reason.
+  {MARKET_RULES}
+markets:
+  ASX:
+    label: an ASX-listed
+    exchange: ASX
+    sources: ASX announcements (asx.com.au), the company's half-year and full-year results (Appendix 4D/4E), quarterly activities and cash flow reports (Appendix 4C/5B) where they exist, investor presentations
+      and results-call notes. Most ASX companies report half-yearly, so use halves (1H/2H) where quarters don't exist
+    rules: |-
+      - ASX conventions: most financial years end 30 June, so label periods like 1H FY26 (Jul-Dec 2025). Amounts are A$
+        unless the company reports in US$ (many miners do): say which.
+      - Many ASX companies headline "underlying" profit or EBITDA. Use it only after checking the reconciliation to statutory profit.
+  US:
+    label: a US-listed
+    exchange: US
+    sources: SEC filings (10-Q, 10-K, 8-K), the company's quarterly earnings releases, investor presentations and earnings-call transcripts
+    rules: |-
+      - US conventions: fiscal quarters may not match calendar quarters, so give both (for example fiscal Q2 FY26, Jan-Mar 2026).
+        Amounts in US$.
+      - Say whether each EPS figure is GAAP or adjusted (non-GAAP).
+prompts:
+- id: master
+  title: Full SEPA fundamental review
+  when: First look at any new candidate. Runs every check briefly and gives a scorecard.
+  text: |
+    {COMMON}
+    Work through each check below in two or three lines each, then finish with a scorecard table
+    (check | finding | PASS/CAUTION/FAIL) and an overall verdict: "SEPA candidate", "Watch only" or "Reject".
+    1. Earnings: EPS growth in the last two to three reporting periods versus a year earlier (Minervini wants
+       +20-25% minimum, ideally 40-100%+ in a bull market), and whether growth is accelerating.
+    2. Sales: revenue growth and acceleration; earnings should be backed by sales, not cost cuts.
+    3. Margins: gross, operating and net margin trend; is there a "Code 33" (EPS, sales and margins all
+       accelerating for three periods)?
+    4. Earnings quality: one-off gains or charges, cash flow versus reported profit, inventories and
+       receivables growing faster than sales.
+    5. Surprises, guidance and analyst revisions over the last 90 days.
+    6. The catalyst: what new product, contract, market, regulation or management change is driving growth?
+    7. Category: market leader, top competitor, institutional favourite, turnaround, cyclical or laggard?
+    8. Industry group: are other stocks in its group also strong and making new highs?
+    9. Supply: market cap, free float, share count growth, recent capital raises, years since listing.
+    10. Red flags and upcoming events (next results date, capital raise risk, binary events).
+    {MARKET_EXTRA}
+  ASX: |-
+    11. ASX extras: any capital raise (placement, SPP, entitlement offer) or trading halt in the last 12 months, and
+        whether this is an explorer or developer with no real revenue. If so, say it can only qualify as a power play
+        or story stock, not on earnings.
+  US: |-
+    11. US extras: date of the last 10-Q and the next earnings date, and any secondary offering, shelf
+        registration or at-the-market share program.
+- id: earnings
+  title: Earnings growth and acceleration
+  when: The single most important fundamental. Run on every candidate.
+  text: |
+    {COMMON}
+    Rule being tested: the best stocks show strong earnings growth "on the table" in the most recent periods,
+    at least +20-25% year on year, and ideally the growth rate is accelerating (for example +10%, then +28%,
+    then +56%). Three of four superperformers had a meaningful EPS increase in the latest period.
+    1. Table of the last six reporting periods (quarters, or halves if the company reports half-yearly):
+       period end, reported EPS, underlying/normalised EPS if the company gives one, growth vs the same
+       period a year earlier, and whether the growth rate rose or fell versus the period before.
+    2. Annual EPS for the last four years with growth rates. Is the latest year a record ("breakout year")
+       above the prior trend or previous peak?
+    3. Smooth with a two-period rolling average if the numbers are lumpy, and say whether the trend is
+       improving, steady or decelerating.
+    4. Flag material deceleration (for example from 60% growth down to 25%) as a warning even if growth
+       is still positive.
+    5. What are consensus forecasts for the next period and the current and next financial year, and do they
+       imply acceleration continues?
+    {MARKET_EXTRA}
+    Verdict: PASS if the latest two periods are both +25% or better (or a strong turnaround), CAUTION if
+    growth is positive but slowing, FAIL if earnings are falling or there are none.
+  ASX: |-
+    ASX specifics: most companies report halves, so there may be only two or three comparable periods; say so
+    rather than inventing quarters. Fill gaps with quarterly activity reports, AGM trading updates (October-November)
+    and the February and August reporting seasons. If it is an explorer or pre-revenue company, write "no earnings:
+    not a SEPA earnings candidate" and stop.
+  US: |-
+    US specifics: use the last eight quarters and give both GAAP and adjusted (non-GAAP) EPS, saying which one
+    consensus uses.
+- id: sales
+  title: Sales growth and where it comes from
+  when: Confirms the earnings growth is real and sustainable.
+  text: |
+    {COMMON}
+    Rule being tested: earnings growth must be supported by revenue growth. New market leaders often show
+    strong, accelerating sales growth (sometimes triple digits). Growth from cost cutting alone "walks on short legs".
+    1. Table of revenue for the last six periods with growth vs a year earlier and the change in growth rate.
+    2. Break revenue growth into its sources as far as disclosures allow: volume, price, new products,
+       new markets or regions, acquisitions (strip out acquired revenue to get organic growth).
+    3. Concentration risk: does one product or one customer make up a large share of revenue?
+    4. For retailers or roll-out models: same-store (comparable) sales growth, new store count, and whether the
+       model has worked in several regions. Minervini sees 10%+ comps as healthy and 25-30%+ as unsustainable.
+    5. Recurring versus one-off revenue, and order book or backlog if relevant.
+    {MARKET_EXTRA}
+    Verdict: PASS if organic sales growth is 20%+ and steady or accelerating; CAUTION if growth relies on
+    acquisitions, one customer or one product; FAIL if sales are flat or falling.
+  ASX: |-
+    ASX specifics: for miners and energy, split revenue into volume sold x realised price, and show the A$/US$
+    effect. Quarterly activity reports give production and sales volumes.
+  US: |-
+    US specifics: use segment disclosure from the 10-Q; for software, also give ARR and net revenue retention
+    if reported.
+- id: margins
+  title: Margins and Code 33
+  when: Shows whether the company has pricing power and operating leverage.
+  text: |
+    {COMMON}
+    Rule being tested: the most powerful setups combine accelerating sales with expanding profit margins.
+    Minervini's "Code 33" is three consecutive periods of acceleration in EPS, sales and margins together.
+    1. Table for the last six periods: revenue growth, EPS growth, gross margin, operating (EBIT) margin and
+       net margin, each with the change from the prior period.
+    2. Does the company have a Code 33 now, or is it one period away?
+    3. Why are margins moving: pricing power, mix, scale, input costs, one-offs? Is the improvement likely
+       to last?
+    4. How do its margins compare with its two or three closest listed competitors?
+    {MARKET_EXTRA}
+    Verdict: PASS if margins are expanding alongside sales growth; CAUTION if margins are flat; FAIL if margins
+    are being squeezed.
+  ASX: |-
+    ASX specifics: for miners use cost per unit (AISC or C1) and margin per unit against the commodity price,
+    and note A$/US$ currency effects.
+  US: 'US specifics: use GAAP margins and note how much stock-based compensation is excluded from adjusted margins.'
+- id: quality
+  title: Earnings quality and accounting red flags
+  when: Before committing money. Catches growth that isn't what it seems.
+  text: |
+    {COMMON}
+    Rule being tested: earnings should come from core operations and real sales, not one-time gains,
+    repeated "one-off" charges, accounting changes or cost cutting.
+    1. List any non-recurring items in the last four periods (asset sales, revaluations, impairments,
+       restructuring, tax benefits, acquisition accounting) and restate growth without them.
+    2. Does the company take "one-time" charges repeatedly? That pattern is a red flag.
+    3. Cash conversion: operating cash flow versus net profit for the last four periods. Is profit turning
+       into cash?
+    4. Inventories and receivables: growth versus sales growth. Inventory (especially finished goods) or
+       receivables rising much faster than sales is a warning; both together is "double trouble".
+    5. Capitalised costs, changes in accounting policies or estimates, auditor changes or qualifications.
+    6. Differential disclosure: does the story in the investor presentation match the statutory accounts
+       and notes? Is the tax paid consistent with the profit reported?
+    7. Did the company lower guidance before a "beat"? That is a lowered bar, not a real surprise.
+    {MARKET_EXTRA}
+    Verdict: PASS, CAUTION or FAIL with the single biggest concern named.
+  ASX: |-
+    ASX specifics: check the gap between underlying and statutory NPAT and exactly what is excluded; significant
+    items that recur every half; capitalised exploration and development; and whether tax paid and franking credits
+    are consistent with reported profit.
+  US: |-
+    US specifics: compare GAAP and non-GAAP earnings, the size of stock-based compensation, whether buybacks are
+    flattering EPS growth, and any 8-K Item 4.01 or 4.02 (auditor change or restatement).
+- id: surprises
+  title: Surprises, guidance and analyst revisions
+  when: Upcoming or recent results; finding fuel for post-earnings drift.
+  text: |
+    {COMMON}
+    Rule being tested: stocks move on surprise. Minervini wants results that beat expectations by a meaningful
+    margin (not a cent or two), raised guidance, and analysts raising estimates for the current and next year
+    (upgrades of 5%+ tend to precede outperformance). Big downward revisions are a red flag.
+    1. Table of the last four results: actual versus consensus for revenue and EPS (or EBITDA/NPAT where
+       that's what is forecast locally), and the size of the beat or miss.
+    2. Company guidance: what was given, and was it raised, reaffirmed or cut? Was any guidance cut in the
+       last 12 months?
+    3. Analyst estimate changes for the current and next financial year over the last 30 and 90 days, plus
+       target price and rating changes.
+    4. The "cockroach effect": are peers in the same industry also beating?
+    {MARKET_EXTRA}
+    Verdict: PASS if beats are meaningful and estimates are rising; CAUTION if in line; FAIL if misses or downgrades.
+  ASX: |-
+    ASX specifics: consensus is often only on EBITDA or NPAT and from a few brokers, so say how many. Many ASX
+    companies are judged mainly against their own guidance range: compare the result with it, and note any guidance
+    "reaffirmed" or changed at the AGM.
+  US: |-
+    US specifics: use consensus EPS and revenue, and next-quarter guidance versus consensus, which often moves
+    the stock more than the quarter itself.
+- id: catalyst
+  title: The catalyst and the story
+  when: Every big winner has one. Do you know what it is?
+  text: |
+    {COMMON}
+    Rule being tested: behind every superperformance there is a catalyst that drives institutional interest:
+    a hot new product, a big contract, a regulatory change, a new CEO, a new market or a paradigm shift.
+    1. In two sentences, what does the company sell and to whom?
+    2. What has changed in the last 6-12 months that could drive earnings much higher? List each catalyst with
+       its date and source.
+    3. Is the opportunity scalable: how big is the addressable market relative to current revenue, and can
+       the model be repeated (new stores, new regions, new customers) without huge capital?
+    4. Is the company or its industry misunderstood or under-followed (few analysts, little media coverage)?
+    5. What would have to go wrong for the story to break?
+    {MARKET_EXTRA}
+    Verdict: STRONG, MODERATE or WEAK catalyst, with the reason.
+  ASX: |-
+    ASX specifics: typical catalysts include offtake agreements, JORC resource or reserve upgrades, drill results,
+    government contracts, S&P/ASX index inclusion at the quarterly rebalance, and takeover interest.
+  US: |-
+    US specifics: typical catalysts include FDA decisions, product launches, S&P index inclusion, large contract
+    wins and activist stakes (13D filings).
+- id: category
+  title: Company category and competitive position
+  when: Sets expectations for how big the move can be.
+  text: |
+    {COMMON}
+    Rule being tested: Minervini sorts companies into six categories: market leader, top competitor,
+    institutional favourite, turnaround, cyclical, and laggard/past leader. He makes most of his money in market
+    leaders (number 1-3 in their industry, gaining share, growing earnings 20%+) and avoids laggards and
+    broken leaders.
+    1. Which category fits {NAME} best, and why?
+    2. Who are the top three listed companies in its industry by sales and earnings growth, and where does
+       {NAME} rank? Is it gaining or losing market share?
+    3. What is its competitive advantage (brand, technology, cost position, network effect, licences)?
+    4. Is it a "category killer" or a "cookie cutter" roll-out? If a roll-out, how far through the roll-out is it?
+    5. Is a competitor emerging that could do to it what Netflix did to Blockbuster?
+    {MARKET_EXTRA}
+    Verdict: name the category and say whether it is the kind of company that can make a large move.
+  ASX: |-
+    ASX specifics: many ASX industries have only one or two listed players; add relevant overseas listed peers
+    where needed and say so.
+- id: group
+  title: Industry group leadership
+  when: More than 60% of superperformers were part of an industry group move.
+  text: |
+    {COMMON}
+    Rule being tested: new bull markets are led by a handful of industry groups; the best stocks in the leading
+    groups lead. A leader breaking down after a big run often warns the whole group is in trouble.
+    Industry (from my scanner): {INDUSTRY}.
+    1. List the five to eight most comparable listed peers and, for each: one-year share price performance,
+       whether it is above its 200-day moving average and near a 52-week high, and its latest earnings growth.
+    2. Is the group as a whole strong, mixed or weak? Are several names making new highs?
+    3. Is {NAME} the leader of that group on earnings, sales, margins and price strength, or a follower?
+    4. Has the group's original leader recently broken down (a possible early warning)?
+    5. Any industry-wide drivers right now (regulation, pricing cycle, demand shift, commodity prices)?
+    {MARKET_EXTRA}
+    Verdict: LEADING GROUP, NEUTRAL or LAGGING, and whether {NAME} is its leader.
+  ASX: |-
+    ASX specifics: group resources stocks by commodity (gold, lithium, copper, uranium, iron ore, rare earths),
+    because they move together far more than by GICS industry.
+  US: 'US specifics: use the GICS sub-industry and check whether the matching sector or industry ETF is in an uptrend.'
+- id: cyclical
+  title: Cyclical and commodity check
+  when: Miners, energy, steel, chemicals, building, autos. Very relevant on the ASX.
+  text: |
+    {COMMON}
+    Rule being tested: cyclicals work differently. Their P/E tends to be high near the bottom of the cycle and
+    low near the top (Peter Lynch: buying a cyclical on a low P/E after years of record earnings is a proven way
+    to lose half your money). The key question is whether the cycle turn is early or late.
+    1. What commodity or economic driver matters most for {NAME}? Show its price trend over 1 and 3 years and
+       where it sits against its long-run range.
+    2. Where is {NAME} on its own earnings cycle: earnings falling, P/E high and news bad (early) or earnings
+       rising, dividends being raised, P/E low and news good (late)?
+    3. Inventories and supply: is industry supply tightening or loosening? Any new capacity coming?
+    4. Where does {NAME} sit on the industry cost curve, and what are its costs per unit (AISC or similar)?
+    5. Production guidance versus actuals over the last year, and any operational problems.
+    {MARKET_EXTRA}
+    Verdict: EARLY CYCLE, MID CYCLE or LATE CYCLE, and what that means for the size of the move.
+  ASX: |-
+    ASX specifics: give the commodity price in both US$ and A$ (for gold producers the A$ price matters most),
+    and mention China demand indicators where relevant.
+  US: 'US specifics: note sensitivity to the US economic cycle and interest rates.'
+- id: turnaround
+  title: Turnaround test
+  when: Earnings recovering from losses or a slump.
+  text: |
+    {COMMON}
+    Rule being tested: for a turnaround Minervini insists on very strong recent results, generally +100% or more
+    in the latest one to three periods (easy comparisons make this a must), at least two strong periods, or
+    one period strong enough to lift trailing 12-month EPS to near its old peak, and margins back near their peak.
+    1. Trailing 12-month EPS now versus its prior peak, and the last three periods of growth.
+    2. Are margins recovering toward their peak? Is the recovery from cost cutting only, or from sales growth?
+    3. What is the company doing beyond cost cutting to grow (new products, markets, management)?
+    4. Cash, debt (bank debt is the worst kind) and burn rate: how long can it operate if the turnaround stalls?
+    5. Is the turnaround running ahead of, in line with, or behind what management promised?
+    {MARKET_EXTRA}
+    Verdict: PASS, CAUTION or FAIL as a turnaround candidate.
+- id: supply
+  title: Share supply, ownership and youth
+  when: Smaller float and newer companies can move further and faster.
+  text: |
+    {COMMON}
+    Rule being tested: superperformers are usually small or mid caps, often within 8-10 years of listing, with a
+    limited supply of shares, and with growing institutional sponsorship. Heavy dilution works against you.
+    1. Market capitalisation, shares on issue, free float, and the share count three years ago (dilution rate).
+    2. Capital raises in the last 24 months (share placements or offerings, rights issues, convertible notes): size, price
+       versus the market price at the time, and what the money was for. Any options, warrants or performance rights
+       that could convert soon?
+    3. Listing date and any upcoming escrow releases or lock-up expiries.
+    4. Major shareholders: the largest holders, filings of large stakes being built or sold in the last six
+       months, and director or insider buying and selling.
+    5. Is institutional ownership rising or falling?
+    {MARKET_EXTRA}
+    Verdict: FAVOURABLE, NEUTRAL or UNFAVOURABLE supply, with the main reason.
+  ASX: |-
+    ASX specifics: placements and SPPs are frequent. List every raise with its discount to the last close and
+    whether a trading halt came first. Check Appendix 2A/3B share and option issues, substantial holder notices
+    (Forms 603, 604, 605), director interest notices (Appendix 3Y) and escrow release dates from the prospectus.
+  US: |-
+    US specifics: check Form 4 insider trades, 13F changes in institutional holdings, 13D/13G stakes, shelf
+    registrations (S-3), at-the-market programs and IPO lock-up expiry (usually 180 days).
+- id: balance
+  title: Balance sheet and funding runway
+  when: Essential for small caps, explorers, biotech and anything burning cash.
+  text: |
+    {COMMON}
+    Rule being tested: Minervini looks for a good balance sheet, high return on equity and reasonable debt as
+    signs of good management, and warns that a stock with a fundamental problem can fall to zero.
+    1. Cash, debt (and what kind: bank debt, bonds, convertibles), net debt to EBITDA and interest cover.
+    2. Operating cash flow for the last four periods; if negative, the quarterly burn and months of runway.
+    3. Return on equity for the last three years.
+    4. Debt maturities or covenants in the next 18 months.
+    5. Likelihood of a capital raise in the next six months and how big it might be relative to market cap.
+    {MARKET_EXTRA}
+    Verdict: STRONG, ADEQUATE or WEAK, and whether a raise is likely.
+  ASX: |-
+    ASX specifics: for explorers and developers use the latest Appendix 5B or 4C: cash at quarter end, net
+    operating and investing outflows, and estimated quarters of funding available (item 8.7).
+  US: 'US specifics: use the latest 10-Q balance sheet and check for any going-concern language.'
+- id: valuation
+  title: Valuation and expectations (P/E as sentiment)
+  when: Not a buy filter. Use it to judge how far the move has run.
+  text: |
+    {COMMON}
+    Rule being tested: Minervini does not reject stocks for a high P/E; leaders usually look expensive. He uses
+    the P/E as a gauge of expectations: superperformers' P/Es typically expand two to three times from the start
+    to the end of a big move, so a P/E that has already doubled or tripled during a late-stage advance is a
+    warning. A very low P/E (3-5x, or far below the industry) can signal trouble, especially near 52-week lows.
+    Current price per my scanner: {PRICE}.
+    1. Trailing and forward P/E now, and the P/E at the start of the current advance (roughly when the stock
+       broke above its 200-day line or first made new highs).
+    2. How much has the P/E expanded since then? Is earnings growth keeping pace with the price (like Apollo
+       Group) or is price running ahead of earnings?
+    3. P/E versus its two or three closest peers and its own five-year range.
+    4. Using consensus EPS two years out and a P/E 2-3 times the starting P/E, what is the rough best-case
+       price, and how far is that from today?
+    {MARKET_EXTRA}
+    Verdict: EARLY (room to expand), MIDWAY or STRETCHED.
+  ASX: |-
+    ASX specifics: use June-year forecasts (FY26, FY27). Many ASX small caps have no meaningful P/E; then use
+    EV/EBITDA, or EV per resource unit for miners, and say so.
+- id: reaction
+  title: How the stock reacts to news
+  when: After any results or major announcement.
+  text: |
+    {COMMON}
+    Rule being tested: the market's reaction is the real verdict. After a good report Minervini wants a strong
+    initial response that holds, resistance to profit taking, and quick recovery from pullbacks (post-earnings
+    drift can last months). Good news that is sold hard on heavy volume is "differential disclosure": the big
+    holders know or suspect something you don't. Stay away.
+    1. For the last three results or major announcements: the date, the headline numbers, the share price
+       move on the day and over the following 5 and 20 trading days, and whether volume was unusually high.
+    2. Did the stock hold its gains, or give them back?
+    3. Was there any case of strong numbers followed by a big drop on heavy volume? What explanation, if any,
+       emerged later?
+    4. What were the main questions or concerns analysts raised on the results calls?
+    {MARKET_EXTRA}
+    Verdict: CONSTRUCTIVE, MIXED or NEGATIVE reaction pattern.
+  ASX: |-
+    ASX specifics: results are released before the open (around 7:30-9:30am), so day one is that session. Note any
+    trading halt and the price-sensitive flag, and compare with how peers reacted in the same reporting season.
+  US: |-
+    US specifics: results come out before the open or after the close, which is overnight in Brisbane. Include the
+    pre-market or after-hours move as the first reaction.
+- id: risks
+  title: Event risk and pre-mortem
+  when: Right before you buy. Decides position size and whether to hold into an event.
+  text: |
+    {COMMON}
+    Rule being tested: go in with a plan for every contingency. Minervini doesn't hold a full position into
+    earnings without a profit cushion (roughly 10%), because a report can gap a stock far through a stop.
+    1. Dates of the next results, trading updates, AGM, ex-dividend, index rebalance and any escrow release.
+    2. Binary events in the next three months (drill results, trial readouts, regulatory decisions, contract
+       awards, court cases) and what each could do to the share price.
+    3. Key-person, customer, country or licence risks.
+    4. Short interest and whether it is rising.
+    5. Pre-mortem: assume the stock falls 30% in the next three months. Write the three most likely reasons.
+    {MARKET_EXTRA}
+    Finish with: "Safe to hold through the next event?" YES, ONLY WITH A PROFIT CUSHION, or NO.
+  ASX: |-
+    ASX specifics: key dates are half-year results (February), full-year results (August), quarterly activity reports
+    (late January, April, July, October), the AGM (October-November), S&P/ASX index rebalances (effective after the
+    third Friday of March, June, September and December) and ex-dividend dates. Short interest: ASIC daily short
+    position reports.
+  US: |-
+    US specifics: key dates are quarterly earnings, Federal Reserve (FOMC) meetings, index rebalances and monthly
+    options expiry. Short interest: exchange data and days-to-cover. US news lands overnight in Brisbane, so you
+    cannot react before the next US open: size for gap risk, and remember the A$/US$ exchange rate moves the
+    position's value too.
+- id: results_day
+  title: 'Results day: good or bad?'
+  when: Reporting season. A fast read of a fresh result through the SEPA lens.
+  text: |
+    {COMMON}
+    {NAME} has just released results. Give me a quick "good or bad" read in this format:
+    1. Headline table: revenue, underlying EPS (or NPAT), margins, operating cash flow and guidance, each versus
+       the same period last year and versus consensus.
+    2. Acceleration check: is growth faster or slower than the previous period?
+    3. Quality check: any one-offs, and does cash flow back up the profit?
+    4. Guidance and outlook: raised, held or cut, and any change in tone.
+    5. Share price reaction so far and whether volume is heavy.
+    {MARKET_EXTRA}
+    Verdict in one word (GOOD, MIXED or BAD) plus one sentence on whether it strengthens or weakens the SEPA case.
+  ASX: |-
+    ASX specifics: include the dividend and franking, and compare the result with the guidance given at the AGM or
+    the prior result.
+  US: 'US specifics: put next-quarter guidance versus consensus in the headline table.'
+- id: holding
+  title: Holding check-up (is the story intact?)
+  when: For a stock you own. Run after each result or any big drop.
+  text: |
+    {COMMON}
+    I own {NAME}. Minervini's view is that the market usually knows first: stocks often top while earnings still
+    look good, and the largest daily or weekly drop on the heaviest volume since the advance began is a sell
+    signal in most cases, whatever the news says. Help me decide whether anything fundamental has changed.
+    1. Compare the latest result with the one before: has EPS or sales growth decelerated materially?
+    2. Any negative surprise, guidance cut, estimate downgrades, or management change since I would have bought?
+    3. Has a competitor, regulation or input cost changed the outlook?
+    4. Is the P/E now two or more times what it was at the start of the move, with the stock several bases into
+       its advance (late stage)?
+    5. List any of these warnings that apply: earnings deceleration, margin squeeze, inventory or receivables
+       build-up, insider selling, capital raise.
+    {MARKET_EXTRA}
+    Verdict: STORY INTACT, WEAKENING or BROKEN, and the one thing to watch next.
+  ASX: 'ASX specifics: check for any capital raise, trading halt or substantial holder selling since I bought.'
+  US: 'US specifics: check for clusters of Form 4 insider selling since I bought.'

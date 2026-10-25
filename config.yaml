@@ -1,0 +1,48 @@
+# Minervini SEPA scanner settings.
+# Every rule below comes from "Trade Like a Stock Market Wizard" (2013) and
+# "Think & Trade Like a Champion" (2017). Change the numbers here, not in the code.
+
+markets:
+  ASX:
+    enabled: true
+    index: "^AXJO"            # S&P/ASX 200, used for the RS line and market health
+    suffix: ".AX"
+    currency: "A$"
+    min_price: 0.20           # skip sub-20c stocks
+    min_turnover: 1000000     # 50-day average daily turnover (price x volume), A$
+    universe: auto            # auto = every listed company from the ASX directory; falls back to universes/asx_fallback.txt
+  US:
+    enabled: true
+    index: "^GSPC"
+    suffix: ""
+    currency: "US$"
+    min_price: 5.0
+    min_turnover: 10000000
+    universe: auto            # auto = S&P 500 + 400 + 600 (large, mid and small caps) from Wikipedia
+
+trend_template:
+  min_above_52w_low_pct: 25   # book 2 uses 25%, book 1 used 30%
+  max_below_52w_high_pct: 25
+  min_rs_rating: 70
+  ma200_up_days: 21           # 200-day line rising for at least 1 month
+
+vcp:
+  min_base_days: 15           # ~3 weeks
+  max_base_days: 325          # ~65 weeks
+  max_base_depth_pct: 50      # deeper bases fail; 60%+ is off the radar
+  ideal_base_depth_pct: 35
+  max_final_contraction_pct: 10
+  buy_zone_pct: 5             # within 5% below the pivot = buy-ready
+  max_chase_pct: 5            # more than 5% above the pivot = extended, don't chase
+  breakout_volume_mult: 1.4   # breakout volume vs 50-day average
+
+fundamentals:
+  enabled: true
+  max_names_per_market: 150   # only fetch fundamentals for the best trend-template names
+  min_eps_growth_pct: 25
+  min_sales_growth_pct: 20
+
+risk:
+  default_account: 10000
+  default_risk_pct: 1.25      # book: risk 1.25-2.5% of equity per trade
+  default_stop_pct: 7         # book: average loss 5-6%, never more than 10%
