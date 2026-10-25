@@ -11,6 +11,7 @@ import datetime as dt
 import json
 import logging
 import math
+import os
 from pathlib import Path
 
 import numpy as np
@@ -68,9 +69,23 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
         from .synthetic import demo_market
         uni, px = demo_market(name, mcfg["index"])
     else:
-        from .data import download_prices
+        from .data import download_index, download_prices
+        idx_used, idx_df = download_index([mcfg["index"]] + list(mcfg.get("index_fallbacks", [])))
         uni = load_universe(name, mcfg.get("universe", "auto"))
-        px = download_prices(list(uni["symbol"]) + [mcfg["index"]])
+        if len(uni) < 50:
+            raise RuntimeError(f"stock list for {name} came back with only {len(uni)} names")
+        px = download_prices(list(uni["symbol"]))
+        if not px:
+            raise RuntimeError("Yahoo returned no price data (probably rate limiting); the next run should work")
+        idx_df.index = idx_df.index.normalize()
+        for f in list(px):
+            d = px[f]
+            d.index = d.index.normalize()
+            d = d[~d.index.duplicated()].reindex(d.index.union(idx_df.index))
+            d[mcfg["index"]] = idx_df[f].reindex(d.index)
+            px[f] = d
+        if idx_used != mcfg["index"]:
+            log.warning("%s: using %s instead of %s for the index", name, idx_used, mcfg["index"])
     close, high, low, opn, vol = px["Close"], px["High"], px["Low"], px["Open"], px["Volume"]
     idx_sym = mcfg["index"]
     if idx_sym not in close.columns or close[idx_sym].dropna().empty:
@@ -188,7 +203,8 @@ def main(argv=None):
             prev = json.loads(pj.read_text()).get("markets", {})
         except Exception:  # noqa: BLE001
             prev = {}
-    markets = dict(prev)
+    markets = {k: v for k, v in prev.items() if k in cfg["markets"] and cfg["markets"][k].get("enabled", True)}
+    errors = {}
     for name, mcfg in cfg["markets"].items():
         if not mcfg.get("enabled", True) or (a.market and name not in a.market):
             continue
@@ -196,9 +212,17 @@ def main(argv=None):
             markets[name] = scan_market(name, mcfg, cfg, a.demo)
         except Exception as e:  # noqa: BLE001
             log.exception("%s scan failed: %s", name, e)
+            errors[name] = f"{type(e).__name__}: {e}"[:300]
     data = {"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "demo": a.demo, "risk": cfg["risk"], "markets": markets}
+            "demo": a.demo, "risk": cfg["risk"], "markets": markets, "errors": errors}
     pj.write_text(json.dumps(data, separators=(",", ":")))
+    if os.environ.get("GITHUB_ACTIONS"):
+        # surface a one-line summary per market in the Actions run page (and its API)
+        for name, m in markets.items():
+            print(f"::notice title={name} scan::{len(m.get('stocks', []))} stocks on the watchlist, "
+                  f"{m.get('regime', {}).get('universe', '?')} liquid, data to {m.get('as_of')}")
+        for name, e in errors.items():
+            print(f"::error title={name} scan failed::{e}")
     build(data, outdir / "index.html")
     log.info("wrote %s", outdir / "index.html")
 

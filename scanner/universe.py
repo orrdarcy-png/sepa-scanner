@@ -75,11 +75,36 @@ def asx_universe() -> pd.DataFrame:
                          "symbol": [c + ".AX" for c in codes]})
 
 
+WIKI_UA = {"User-Agent": "sepa-scanner/1.0 (personal stock screener; github.com) python-requests"}
+
+
+def _nasdaq_listed() -> pd.DataFrame:
+    """Every US-listed common stock from Nasdaq Trader's symbol directory (fallback if Wikipedia fails)."""
+    rows = []
+    for url, sym_col in (("https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt", "Symbol"),
+                         ("https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt", "ACT Symbol")):
+        try:
+            t = pd.read_csv(io.StringIO(requests.get(url, headers=UA, timeout=30).text), sep="|")
+            t = t[(t.get("ETF", "N") == "N") & (t.get("Test Issue", "N") == "N")]
+            name = t["Security Name"].astype(str)
+            t = t[~name.str.contains(r"Warrant|Right|Unit|Preferred|Depositary|Notes|Bond|Trust", case=False, regex=True)]
+            for sym, nm in zip(t[sym_col].astype(str), t["Security Name"].astype(str)):
+                if sym.isalpha() and len(sym) <= 5:
+                    rows.append({"code": sym, "name": nm.split(" - ")[0], "industry": ""})
+        except Exception as e:  # noqa: BLE001
+            log.warning("Nasdaq symbol list failed (%s): %s", url, e)
+    return pd.DataFrame(rows).drop_duplicates("code") if rows else pd.DataFrame(columns=["code", "name", "industry"])
+
+
 def us_universe() -> pd.DataFrame:
     frames = []
     for idx, url in WIKI.items():
         try:
-            html = requests.get(url, headers=UA, timeout=30).text
+            r = requests.get(url, headers=WIKI_UA, timeout=30)
+            if r.status_code != 200:
+                r = requests.get(url, headers=UA, timeout=30)
+            r.raise_for_status()
+            html = r.text
             for t in pd.read_html(io.StringIO(html)):
                 sym = _find_col(t, "symbol") or _find_col(t, "ticker")
                 if sym is None or len(t) < 100:
@@ -96,9 +121,11 @@ def us_universe() -> pd.DataFrame:
         except Exception as e:  # noqa: BLE001
             log.warning("Wikipedia %s failed: %s", idx, e)
     if not frames:
-        f = ROOT / "universes" / "us_fallback.txt"
-        codes = f.read_text().split() if f.exists() else []
-        return pd.DataFrame({"code": codes, "name": "", "industry": "", "listed": pd.NaT, "symbol": codes})
+        log.warning("Wikipedia S&P lists unavailable; using every US-listed stock from Nasdaq Trader instead")
+        out = _nasdaq_listed()
+        out["symbol"] = out["code"]
+        out["listed"] = pd.NaT
+        return out.reset_index(drop=True)
     out = pd.concat(frames).drop_duplicates("code")
     out["symbol"] = out["code"].str.replace(".", "-", regex=False)  # BRK.B -> BRK-B
     out["listed"] = pd.NaT

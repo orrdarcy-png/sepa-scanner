@@ -10,8 +10,8 @@ log = logging.getLogger(__name__)
 FIELDS = ["Open", "High", "Low", "Close", "Volume"]
 
 
-def download_prices(symbols: list[str], period: str = "2y", chunk: int = 150,
-                    retries: int = 3, pause: float = 2.0) -> dict[str, pd.DataFrame]:
+def download_prices(symbols: list[str], period: str = "2y", chunk: int = 100,
+                    retries: int = 4, pause: float = 3.0) -> dict[str, pd.DataFrame]:
     """Return {field: DataFrame(index=date, columns=symbols)} with split/dividend-adjusted prices."""
     import yfinance as yf
 
@@ -43,3 +43,23 @@ def download_prices(symbols: list[str], period: str = "2y", chunk: int = 150,
             d.index = pd.to_datetime(d.index).tz_localize(None)
             out[f] = d.sort_index()
     return out
+
+
+def download_index(symbols: list[str], period: str = "2y", retries: int = 4) -> tuple[str, pd.DataFrame]:
+    """Fetch the market index on its own (with ETF fallbacks), so one bad batch can't sink a market."""
+    import yfinance as yf
+
+    last_err = None
+    for sym in symbols:
+        for attempt in range(retries):
+            try:
+                df = yf.Ticker(sym).history(period=period, interval="1d", auto_adjust=True)
+                if df is not None and len(df) > 200:
+                    df.index = pd.to_datetime(df.index).tz_localize(None).normalize()
+                    return sym, df[FIELDS]
+                last_err = f"{sym}: only {0 if df is None else len(df)} rows"
+            except Exception as e:  # noqa: BLE001
+                last_err = f"{sym}: {e}"
+            log.warning("index %s attempt %d failed: %s", sym, attempt + 1, last_err)
+            time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"could not download the market index ({last_err})")

@@ -185,6 +185,7 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 </div></div>
 <div class="demo" id="demo" hidden><div class="wrap">Preview with synthetic sample data. Every DEMO ticker is fake. Your live page fills with real ASX and US stocks after each daily run.</div></div>
 
+<div class="demo" id="errs" hidden><div class="wrap" id="errtext"></div></div>
 <main class="wrap">
   <section class="market" aria-label="Market condition">
     <div class="panel regime" id="regime"></div>
@@ -496,6 +497,9 @@ $("#sheet").addEventListener("click", e=>{ if(e.target.id==="sheet") closeSheet(
 document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !$("#sheet").hidden) closeSheet(); });
 
 function render(){
+  const errs = Object.entries((DATA && DATA.errors) || {});
+  if (errs.length) { $("#errs").hidden = false;
+    $("#errtext").innerHTML = errs.map(([m,e])=>`<b>${esc(m)} scan didn't finish on the last run.</b> ${DATA.markets?.[m] ? "Showing the previous "+esc(m)+" results." : "No "+esc(m)+" results yet."} It retries on the next scheduled run. <span class="mono" style="font-size:12px">${esc(e)}</span>`).join("<br>"); }
   if(!DATA || !markets.length){ $("#rows").innerHTML = `<div class="empty">No scan data yet. Run the scanner once to fill this page.</div>`; return; }
   const M = DATA.markets[state.market];
   renderTop(); renderMarket(M); renderList(M);
