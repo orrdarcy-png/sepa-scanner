@@ -115,7 +115,7 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
             continue
         ic = pd.Series(index_c, index=cal).reindex(df.index).ffill().to_numpy()
         try:
-            r = tech.analyze(*(df[k].to_numpy(dtype=float) for k in "ohlcv"), float(rs.get(s, 1)), ic,
+            r = tech.analyze(*(df[k].to_numpy(dtype=float) for k in "ohlcv"), float(rs.get(s, 1)) if pd.notna(rs.get(s)) else 1.0, ic,
                              cfg["trend_template"], cfg["vcp"])
         except Exception as e:  # noqa: BLE001
             log.warning("analyze %s failed: %s", s, e)
@@ -129,7 +129,7 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
             "series": [round(float(x / rsl[-130:][0] * 100), 1) for x in rsl[-130:]] if len(rsl) >= 130 else None,
         }
         m = meta.loc[s] if s in meta.index else {}
-        r.update({"symbol": s, "code": s.replace(".AX", ""), "rs": int(rs.get(s, 1)),
+        r.update({"symbol": s, "code": s.replace(".AX", ""), "rs": int(rs.get(s, 1)) if pd.notna(rs.get(s)) else 1,
                   "name": (m.get("name") if hasattr(m, "get") else "") or "",
                   "industry": (m.get("industry") if hasattr(m, "get") else "") or "",
                   "listed": m.get("listed") if hasattr(m, "get") else None,
@@ -212,7 +212,10 @@ def main(argv=None):
             markets[name] = scan_market(name, mcfg, cfg, a.demo)
         except Exception as e:  # noqa: BLE001
             log.exception("%s scan failed: %s", name, e)
-            errors[name] = f"{type(e).__name__}: {e}"[:300]
+            import traceback
+            tb = traceback.extract_tb(e.__traceback__)
+            where = f" (at {Path(tb[-1].filename).name}:{tb[-1].lineno})" if tb else ""
+            errors[name] = f"{type(e).__name__}: {e}{where}"[:300]
     data = {"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "demo": a.demo, "risk": cfg["risk"], "markets": markets, "errors": errors}
     pj.write_text(json.dumps(data, separators=(",", ":")))

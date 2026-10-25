@@ -30,15 +30,15 @@ def rs_raw(close: pd.DataFrame) -> pd.Series:
     Young stocks use whatever history they have."""
     c = close.ffill()
     last = c.iloc[-1]
+    first = close.bfill().iloc[0]          # first traded price, for stocks listed less than a year ago
 
     def ret(n):
         if len(c) <= n:
-            return pd.Series(np.nan, index=c.columns)
-        return last / c.iloc[-1 - n] - 1
+            return last / first - 1
+        return last / c.iloc[-1 - n].fillna(first) - 1
 
     r63, r126, r189, r252 = ret(63), ret(126), ret(189), ret(252)
-    score = 0.4 * r63 + 0.2 * r126.fillna(r63) + 0.2 * r189.fillna(r126).fillna(r63) \
-        + 0.2 * r252.fillna(r189).fillna(r126).fillna(r63)
+    score = 0.4 * r63 + 0.2 * r126 + 0.2 * r189 + 0.2 * r252
     return score
 
 
