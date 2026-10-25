@@ -15,7 +15,7 @@ on:
         default: both
 
 permissions:
-  contents: read
+  contents: write   # lets the scan save the morning-review shortlist to the "data" branch
   pages: write
   id-token: write
 
@@ -54,6 +54,25 @@ jobs:
           else
             python -m scanner.run --out site
           fi
+      - name: Save the shortlist for the morning review
+        # Stored on a separate "data" branch so main stays clean. The morning review reads it
+        # from there and writes reviews.json back to the same branch.
+        run: |
+          python -m scanner.shortlist site/data.json /tmp/shortlist.json
+          git config user.name "sepa-scanner"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth 1 origin data 2>/dev/null; then
+            git worktree add /tmp/data FETCH_HEAD
+            cd /tmp/data && git switch -q -C data
+          else
+            git worktree add --orphan -b data /tmp/data
+            cd /tmp/data
+            echo '{"updated": null, "reviews": {}}' > reviews.json
+          fi
+          cp /tmp/shortlist.json shortlist.json
+          git add shortlist.json reviews.json
+          git commit -q -m "Shortlist for $(date -u +%F)" || echo "shortlist unchanged"
+          git push -q origin data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

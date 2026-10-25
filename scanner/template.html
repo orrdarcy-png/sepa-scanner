@@ -95,6 +95,9 @@ select{border:1px solid var(--line);background:var(--surface);border-radius:8px;
 .tk{min-width:0}
 .tk b{font:700 18px/1.1 var(--f-display);letter-spacing:.02em}
 .tk .nm{display:block;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv-c{background:var(--up-soft);color:var(--up)}.rv-w{background:var(--warn-soft);color:var(--warn)}.rv-r{background:var(--down-soft);color:var(--down)}
+.rvt td,.rvt th{text-align:left!important;vertical-align:top}.rvt td:last-child,.rvt th:last-child{text-align:right!important}
+.r-PASS{color:var(--up);font-weight:700}.r-CAUTION{color:var(--warn);font-weight:700}.r-FAIL{color:var(--down);font-weight:700}
 .fb{font-size:11px;font-weight:600;white-space:nowrap}.fb-pass{color:var(--up)}.fb-fail{color:var(--warn)}.fb-none{color:var(--muted);font-weight:400}
 .pill{display:inline-block;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:600;white-space:nowrap}
 .s-break{background:var(--accent-fill);color:var(--accent-ink)}
@@ -370,6 +373,7 @@ function fbadge(s){
   if(f.code33) b.push(`<span class="fb fb-pass">Code 33</span>`); else if(f.accel) b.push(`<span class="fb fb-pass">accelerating</span>`);
   return " · "+b.join(" ");
 }
+function rbadge(M, s){ const r=reviewFor(M,s); return r?` <span class="pill ${RVCLS[r.verdict]||'s-trend'}" style="font-size:11px;padding:1px 7px">${esc(r.verdict==="SEPA candidate"?"Review ✓":r.verdict==="Watch only"?"Review: watch":"Review ✗")}</span>`:""; }
 function renderList(M){
   const counts={}; M.stocks.forEach(x=>counts[x.status]=(counts[x.status]||0)+1);
   $("#filters").innerHTML = [`<button class="fbtn" type="button" data-f="all" aria-pressed="${state.filter==='all'}">All<span class="num">${M.stocks.length}</span></button>`]
@@ -383,7 +387,7 @@ function renderList(M){
   const rows = filtered(M);
   const hdr = `<div class="row rowhdr" aria-hidden="true"><span class="label">Stock</span><span class="label">Status · footprint</span><span class="label">90 days · pivot</span><span class="label rt">RS</span><span class="label rt">To pivot</span><span class="label rt">Score</span></div>`;
   $("#rows").innerHTML = rows.length ? hdr + rows.map((s,i)=>{
-    const st = `<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}${fbadge(s)}</span>`;
+    const st = `<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${rbadge(M,s)}${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}${fbadge(s)}</span>`;
     const dist = s.dist_pivot==null? "–" : pct(s.dist_pivot);
     return `<button class="row" type="button" data-i="${M.stocks.indexOf(s)}">
       <span class="tk"><b>${esc(s.code)}</b><span class="nm">${esc(s.name||s.industry||"")}</span></span>
@@ -435,6 +439,39 @@ function fundBlock(s, cur){
   return `${(s.fund_notes||[]).length?`<ul class="notes">${s.fund_notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`:""}${tbl}
     <div class="kv" style="margin-top:10px">${kv.map(([k,v])=>`<div><span>${k}</span><b>${esc(v)}</b></div>`).join("")}</div>
     <p class="muted" style="font-size:12px;margin:8px 0 0">From Yahoo Finance. Coverage of ASX companies is patchy and most report half-yearly, so confirm with the prompts below before buying.</p>`;
+}
+/* ---------- morning SEPA reviews (written by the scheduled Claude task to the "data" branch) ---------- */
+let REVIEWS = {}, REVIEWS_UPDATED = null;
+const RVCLS = {"SEPA candidate":"rv-c","Watch only":"rv-w","Reject":"rv-r"};
+function reviewFor(M, s){ return REVIEWS[M.name+":"+s.code] || null; }
+function daysOld(d){ return d ? Math.round((Date.now()-Date.parse(d))/864e5) : null; }
+function reviewUrl(){
+  const h=location.hostname, seg=location.pathname.split("/").filter(Boolean);
+  if(!h.endsWith(".github.io")) return null;
+  return `https://raw.githubusercontent.com/${h.split(".")[0]}/${seg[0]||h}/data/reviews.json`;
+}
+function loadReviews(){
+  const u=reviewUrl(); if(!u) return;
+  fetch(u+"?t="+Math.floor(Date.now()/3e5), {cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+    if(!j||!j.reviews) return; REVIEWS=j.reviews; REVIEWS_UPDATED=j.updated||null;
+    if(DATA && markets.length) renderList(DATA.markets[state.market]);
+  }).catch(()=>{});
+}
+function reviewBlock(M, s){
+  const r=reviewFor(M,s);
+  const ask=`Ask Claude: <b class="mono">run SEPA on ${esc(s.code)}${M.name==="US"?" (US)":""}</b>, or use the prompts below.`;
+  if(!r) return `<p class="muted" style="margin:0;font-size:14px">No review yet. The morning review covers up to 10 Breaking out and Buy-ready stocks each weekday. ${ask}</p>`;
+  const age=daysOld(r.date);
+  const rows=(r.scorecard||[]).map(c=>`<tr><td>${esc(c.check)}</td><td>${esc(c.finding)}</td><td class="r-${esc(c.result)}">${esc(c.result)}</td></tr>`).join("");
+  return `<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px"><span class="pill ${RVCLS[r.verdict]||'s-trend'}">${esc(r.verdict)}</span><span class="muted" style="font-size:13px">${esc(r.confidence||"")} confidence · reviewed ${esc(r.date)}${age!=null&&age>0?` (${age} day${age===1?"":"s"} ago)`:""}</span></div>
+    ${age!=null&&age>14?`<div class="alert" style="margin-bottom:8px">This review is over two weeks old. Re-run it before buying.</div>`:""}
+    <p style="margin:0 0 8px;font-size:14.5px">${esc(r.summary||"")}</p>
+    ${r.catalyst?`<p style="margin:0 0 10px;font-size:14px"><b>Catalyst:</b> ${esc(r.catalyst)}</p>`:""}
+    ${rows?`<div class="tbl"><table class="rvt"><thead><tr><th>Check</th><th>Finding</th><th>Result</th></tr></thead><tbody>${rows}</tbody></table></div>`:""}
+    ${(r.risks||[]).length?`<div class="label" style="margin-top:12px">Risks</div><ul class="notes">${r.risks.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${r.next_event?`<p style="margin:10px 0 0;font-size:14px"><b>Next event:</b> ${esc(r.next_event)}${r.hold_through_event?` · hold through it? <b>${esc(r.hold_through_event)}</b>`:""}</p>`:""}
+    ${(r.sources||[]).length?`<div class="label" style="margin-top:12px">Sources</div><ul class="notes" style="font-size:13px">${r.sources.filter(x=>/^https?:\/\//.test(x.url||"")).slice(0,10).map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title||x.url)}</a></li>`).join("")}</ul>`:""}
+    <p class="muted" style="font-size:12px;margin:10px 0 0">Written by Claude with web search. A strong first pass, not a final answer: open the announcements before you buy. ${ask}</p>`;
 }
 let FXR = null; /* A$ per unit of the stock's currency, for US stocks */
 function planBlock(s, cur){
@@ -500,6 +537,7 @@ function openSheet(M, s){
        <div style="font-size:13px;margin-top:10px" class="muted">RS line ${rsl.new_high?"<b class='pos'>at a new high</b>":"not at a new high"} · rising over 6 weeks: ${rsl.up_6w?"yes":"no"} · over 13 weeks: ${rsl.up_13w?"yes":"no"}</div>
      </div>
      <div class="panel"><h3 style="margin-bottom:8px">Trend Template · ${s.tt.passed}/${s.tt.applicable}</h3><ul class="checks">${ttRows(s.tt)}</ul></div>
+     <div class="panel"><h3 style="margin-bottom:8px">SEPA review</h3>${reviewBlock(M,s)}</div>
      <div class="panel"><h3 style="margin-bottom:8px">Fundamentals</h3>${fundBlock(s,cur)}</div>
      <div class="panel"><h3 style="margin-bottom:8px">Trade plan</h3>${planBlock(s,cur)}</div>
      <div class="panel"><h3 style="margin-bottom:4px">Fundamental prompts for ${esc(s.code)}</h3><p class="muted" style="font-size:13px;margin:0 0 10px">Copies the prompt with ${esc(s.code)}'s details filled in. Start with the full review, then go deeper where it flags CAUTION.</p><div class="plist" id="sh-prompts"></div></div>
@@ -530,4 +568,5 @@ $("#q").addEventListener("input", e=>{ state.q=e.target.value; renderList(DATA.m
 $("#sort").addEventListener("change", e=>{ state.sort=e.target.value; renderList(DATA.markets[state.market]); });
 promptList($("#plist"), ()=>{ const c=($("#pcode").value||"TICKER").trim().toUpperCase(), m=$("#pmkt").value; return {market:m, ticker:m==="ASX"?c+".AX":c, code:c, name:$("#pname").value.trim()||c}; });
 render();
+loadReviews();
 </script>
