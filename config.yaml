@@ -6,6 +6,7 @@ markets:
   ASX:
     enabled: true
     index: "^AXJO"            # S&P/ASX 200, used for the RS line and market health
+    index_fallbacks: ["STW.AX"]  # ETF that tracks it, used if Yahoo won't serve the index
     suffix: ".AX"
     currency: "A$"
     min_price: 0.20           # skip sub-20c stocks
@@ -14,6 +15,7 @@ markets:
   US:
     enabled: true
     index: "^GSPC"
+    index_fallbacks: ["SPY"]
     suffix: ""
     currency: "US$"
     min_price: 5.0
