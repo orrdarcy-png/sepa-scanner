@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T19:17:43Z",
+  "updated": "2026-10-27T22:22:47Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -262,7 +262,7 @@
           "result": "CAUTION"
         },
         {
-          "check": "Surprises, guidance, revisions",
+          "check": "Surprises, guidance and revisions",
           "finding": "1H FY26 NPAT A$54.3m missed A$82m consensus (17 Mar 2026). FY26 vs consensus not found. Bell Potter target A$5.00->5.30, still Sell (20 Oct 2026)",
           "result": "CAUTION"
         },
@@ -1480,7 +1480,7 @@
           "result": "CAUTION"
         },
         {
-          "check": "Surprises, guidance, revisions",
+          "check": "Surprises, guidance and revisions",
           "finding": "No FY27 guidance. AGM 7 Oct: 1Q ahead of Morningstar but FY27 estimates unchanged. Shares -3% on 20 Aug result. Consensus EPS not found",
           "result": "CAUTION"
         },
@@ -2332,7 +2332,7 @@
           "result": "CAUTION"
         },
         {
-          "check": "Surprises, guidance, revisions",
+          "check": "Surprises, guidance and revisions",
           "finding": "1H26 roughly in line (EBITDA +1% vs cons; PM missed by 7%). FY26 guide: NPATA growth (cc). No updates found in last 90 days",
           "result": "CAUTION"
         },
@@ -2916,6 +2916,834 @@
         {
           "title": "H1/H2 FY25 summaries (Quartr, aggregator)",
           "url": "https://quartr.com/events/wagners-holding-company-limited-wgn-h2-2025_FYkxF551"
+        }
+      ]
+    },
+    "US:ADI": {
+      "market": "US",
+      "code": "ADI",
+      "name": "Analog Devices",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$425.35",
+      "verdict": "SEPA candidate",
+      "confidence": "high",
+      "summary": "Analog/mixed-signal leader in a strong upcycle, with AI data-center power and optical products growing >100% and a price increase landing. Adjusted EPS growth has accelerated from +35% to +68% over four quarters on revenue up to +40%, with margins expanding and estimates rising. The main caveat is technical: a late-stage (base 6) breakout four weeks before Q4 FY26 results.",
+      "catalyst": "AI data-center power and optical revenue each >100% YoY, AI ~20% of sales (Q3 FY26 call, 19 Aug 2026), plus an announced price increase and the Empower acquisition (closed 7 Jul 2026); STRONG.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS YoY: Q4FY25 +35%, Q1FY26 +51%, Q2 +67%, Q3 (May-Jul 26) $3.45 vs $2.05 +68%; GAAP $2.74 vs $1.04. Q4 guide $3.86 (+71%)",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Rev YoY: Q4FY25 +26%, Q1FY26 +30%, Q2 +37%, Q3 $4.02B +40% (Ind +53%, Comms +84%, Auto +16%). Q4 guide $4.3B (+40%). Mostly organic",
+          "result": "PASS"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q3FY26 adj GM 72.5% vs 69.2%, adj op 50.0% vs 42.2%, GAAP op 40.1% vs 28.4%; EPS, sales, margins accelerated 3+ qtrs (Code 33)",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Q3 OCF $1.60B > NI $1.34B; GAAP-adj gap is mainly Maxim amortization. Concern: receivables $2.39B (1 Aug 26) vs $1.44B (1 Nov 25), +66%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 adj EPS $3.45 beat guide $3.30 and $3.34 consensus (aggregator); FY26 consensus $11.38 (Apr) -> $12.88; FY27 $16.50 (aggregator)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "STRONG: data-center power/optical >100% YoY, AI ~20% of revenue, price increase, record Q4 guide (Q3 FY26 call, 19 Aug 2026)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Analog leader, institutional favourite, cyclical mid-cycle (no customer restock yet). Peer TXN Q3 CY26 rev +28%, analog +32% (21 Oct 2026)",
+          "result": "PASS"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap $202B, float 434M (aggregator); shares 484.6M (1 Aug 26) vs 489.7M (1 Nov 25); no offerings; inst 86.8%, insiders 0.4% (aggregator)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "1 Aug 26: cash+ST inv $2.33B, debt $9.12B, net debt $6.80B, net leverage 0.9x; TTM OCF $5.55B, FCF $4.94B; ROE ~12% (calc). No raise needed",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q4 FY26 results 24 Nov 2026; no binary events found; short interest 2.08% of float, up (aggregator). Late-stage base 6 breakout",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q filed 19 Aug 2026 (Q3 FY26); next earnings 24 Nov 2026. No secondary, ATM or new shelf found; $7.4B buyback remaining",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "AI data-center capex pause or digestion hits the fastest-growing Comms/data-center segment",
+        "Cycle risk: growth partly pricing and channel refill; receivables up 66% since Nov 2025 could signal pull-ins",
+        "Late-stage base 6 and ~50x GAAP P/E (aggregator): vulnerable to semis rotation or a failed breakout",
+        "Q1 FY27 seasonal shutdown and inflation may pressure the guide on 24 Nov 2026",
+        "Would change verdict: Q4 miss, Q1 FY27 guide below consensus, or EPS growth decelerating below +25%"
+      ],
+      "next_event": "Q4 FY26 results (Aug-Oct 2026), 24 Nov 2026",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "ADI Q3 FY26 results press release (investor.analog.com)",
+          "url": "https://investor.analog.com/news-releases/news-release-details/analog-devices-reports-record-fiscal-third-quarter-2026"
+        },
+        {
+          "title": "ADI Q3 FY26 results (analog.com newsroom)",
+          "url": "https://www.analog.com/en/newsroom/press-releases/2026/8-19-2026-adi-reports-record-fiscal-3q2026-financial-results.html"
+        },
+        {
+          "title": "ADI Q2 FY26 results press release",
+          "url": "https://investor.analog.com/news-releases/news-release-details/analog-devices-reports-record-fiscal-second-quarter-2026"
+        },
+        {
+          "title": "ADI Q1 FY26 earnings release, 8-K Exhibit 99.1 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000015/adi1q26exhibit991earnings.htm"
+        },
+        {
+          "title": "ADI Q4 FY25 results release PDF",
+          "url": "https://investor.analog.com/node/29911/pdf"
+        },
+        {
+          "title": "ADI Q4 FY25 results (analog.com newsroom)",
+          "url": "https://www.analog.com/en/newsroom/press-releases/2025/11-25-2025-adi-reports-4th-qtr-fiscal-2025-financial-results.html"
+        },
+        {
+          "title": "ADI 10-Q for quarter ended 1 Aug 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000073/adi-20260801.htm"
+        },
+        {
+          "title": "ADI Q3 FY26 earnings call transcript (Webull)",
+          "url": "https://www.webull.com/news/15432330876175360"
+        },
+        {
+          "title": "ADI 10-Q filing list (StockTitan, aggregator)",
+          "url": "https://www.stocktitan.net/sec-filings/ADI/10-q.html"
+        },
+        {
+          "title": "ADI Q4 2026 earnings estimates (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-24-analog-devices-inc-stock/"
+        },
+        {
+          "title": "ADI short interest and ownership (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/ADI/?Vote=1"
+        },
+        {
+          "title": "ADI quote and forecast (StockAnalysis, aggregator)",
+          "url": "https://stockanalysis.com/stocks/adi/forecast/"
+        },
+        {
+          "title": "ADI overview (StockAnalysis, aggregator)",
+          "url": "https://stockanalysis.com/stocks/adi/"
+        },
+        {
+          "title": "ADI ownership (Benzinga, aggregator)",
+          "url": "https://www.benzinga.com/quote/ADI/ownership"
+        },
+        {
+          "title": "ADI earnings preview, Apr 2026 (Barchart/Yahoo, aggregator)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-analog-devices-121111456.html"
+        },
+        {
+          "title": "Why is Analog Devices stock going up? (Trefis, aggregator)",
+          "url": "https://www.trefis.com/stock/adi/articles/620759/why-is-analog-devices-stock-going-up/2026-10-27"
+        },
+        {
+          "title": "ADI moved up 4.7% on Oct 26 (TradingKey, aggregator)",
+          "url": "https://www.tradingkey.com/news/market-movers/262240015-market-movers-adi-20261026"
+        },
+        {
+          "title": "Texas Instruments Q3 2026 results (24/7 Wall St)",
+          "url": "https://247wallst.com/cards/texas-instruments-q3-2026-earnings-txn-01m5g1n6r3j45hcsgta6qbhjgw"
+        }
+      ]
+    },
+    "US:APOG": {
+      "market": "US",
+      "code": "APOG",
+      "name": "Apogee Enterprises, Inc.",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$45.03",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "Apogee, an architectural glass/metals and coatings maker, beat big in Q2 FY27 (Jun-Aug 2026; adj EPS $1.17 vs $0.98) and raised guidance, helped by the Kalwall deal and Project Fortify savings. But adj EPS growth is only +1.8% and +19.4% in the last two quarters, organic sales grew +4.6%, and FY27 adj EPS guidance ($3.00-3.40) is still below FY26's $3.47. This is a cyclical recovery story, not a SEPA earnings leader.",
+      "catalyst": "Kalwall (closed 1 Jul 2026, ~$85M revenue) and Groglass (announced 2 Sep 2026, ~$30M revenue) deals, plus Fortify savings, led to a FY27 guidance raise on 6 Oct 2026 (MODERATE).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS: Q3FY26 -14%, Q4 +3%, Q1FY27 +2%, Q2FY27 (Jun-Aug26) $1.17 +19%. GAAP Q2 $1.07 -3%. FY27 guide $3.00-3.40 vs FY26 $3.47",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q2 FY27 $391.1M +9.2% YoY (organic +4.6%, Kalwall +4.6%); 6M +4.1% (organic +1.8%). FY26 organic -1.6%. Growth comes from acquisitions",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q2 FY27 GM 24.6% vs 23.1%, op margin 8.6% vs 7.5%; Q1 op 5.5% vs 2.0%. Still below FY25 GM 26.4%. No Code 33: sales not accelerating",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Recurring 'one-offs': FY26 Fortify $27.4M, CEO $3.0M, acq costs each quarter. 6M OCF $43.3M vs NI $33.9M OK. Inventory +19% since Feb vs sales +4%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2 FY27 (6 Oct 2026) adj EPS $1.17 vs $0.63 consensus; revenue $391.1M vs $359.5M (aggregator). FY27 guide raised to $3.00-3.40 from $2.70-3.25",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Kalwall closed 1 Jul 2026 ($105M + earnout) and Groglass announced 2 Sep 2026 (up to EUR62.5M); Fortify Phase 2 savings",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical turnaround in nonresidential construction; management says glass market 'challenging' and demand 'mixed' (Q2 call). Peer group strength not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "20.90M shares (2 Oct 2026); float 20.24M; mkt cap ~$871M (19 Oct 2026); shares -2% YoY; institutions 94%, insiders 3% (aggregator). Long-listed",
+          "result": "PASS"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "29 Aug 2026: cash $36.5M, debt $335.5M, net debt $299.0M, leverage 1.7x; FY26 OCF $122.5M; ROE 13.1% (aggregator). Groglass will add debt. No raise",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3 FY27 results ~6 Jan 2027 (scanner date, not confirmed). Short interest 3.89% of float, down from 935k to 787k shares (aggregator). Hold: profit cushion only",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: quarter ended 29 Aug 2026 (cover dated 2 Oct 2026). Next earnings ~6 Jan 2027. No shelf, ATM or secondary offering found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "FY27 adj EPS guidance midpoint ($3.20) is still below FY26 ($3.47), so this is not a breakout year",
+        "Nonresidential construction is cyclical: glass orders are weak and project delays continue",
+        "Debt rose to $335.5M after Kalwall and will rise further with Groglass, while integration risk is building",
+        "Pre-mortem for a 30% fall: Q3 misses after a one-off Q2 beat; aluminium and material costs squeeze margins; organic sales turn negative",
+        "Next event: Q3 FY27 results ~6 Jan 2027. Two quarters of +25% adj EPS with organic growth would change the verdict"
+      ],
+      "next_event": "Q3 FY27 results (Sep-Nov 2026), ~6 Jan 2027",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Apogee FY27 Q2 results, 8-K Ex.99 (6 Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000100/a82926fy27q2results.htm"
+        },
+        {
+          "title": "Apogee FY27 Q1 results, 8-K Ex.99 (26 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000058/a53026fy27q1results.htm"
+        },
+        {
+          "title": "Apogee FY26 Q4 and full-year results, 8-K Ex.99 (24 Apr 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000020/a22826fy26q4results.htm"
+        },
+        {
+          "title": "Apogee FY26 Q3 results, 8-K Ex.99 (7 Jan 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000005/a112925fy26q3results.htm"
+        },
+        {
+          "title": "Apogee 10-Q, quarter ended 29 Aug 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000103/apog-20260829.htm"
+        },
+        {
+          "title": "Apogee to acquire Kalwall, 8-K (28 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000044/apog-20260527_d3.htm"
+        },
+        {
+          "title": "Apogee to acquire Groglass (2 Sep 2026)",
+          "url": "https://ir.apog.com/node/25571"
+        },
+        {
+          "title": "Apogee Q2 earnings call highlights (Nasdaq)",
+          "url": "https://nasdaq.com/articles/apogee-enterprises-q2-earnings-call-highlights"
+        },
+        {
+          "title": "APOG crushes Q2 estimates (aggregator)",
+          "url": "https://parameter.io/apogee-enterprises-apog-crushes-q2-estimates-shares-surge-over-20/"
+        },
+        {
+          "title": "APOG statistics (aggregator)",
+          "url": "https://stockanalysis.com/stocks/apog/statistics/"
+        }
+      ]
+    },
+    "US:AR": {
+      "market": "US",
+      "code": "AR",
+      "name": "Antero Resources",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$42.10",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Appalachian gas/NGL producer whose GAAP EPS jumped in Q1-Q2 2026 (calendar = fiscal) after the US$2.8B HG Energy Marcellus acquisition, lower unit costs and strong NGL/oil prices. Sales growth is mostly acquired: Q2 product revenue rose only ~11% y/y while Henry Hub sat below $3 through summer. The VCP breakout comes one day before Q3 results, with Q3 gas prices weak.",
+      "catalyst": "HG Energy acquisition closed 3 Feb 2026 (+~850 MMcfe/d), plus Appalachian power/data-centre demand and new LPG export capacity (MODERATE).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil EPS Q1'26 $1.72 vs $0.66 (+161%), Q2'26 $0.90 vs $0.50 (+80%); adj NI Q2 +114%, Q1 +45%; Q4'25 adj NI -26%. No co. adj EPS",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Revenue Q2'26 $1.56B +20% y/y (incl $161M hedge gains); product sales +11%; Q1 +44%. Growth mostly from HG acquisition, not organic",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q2'26 op margin 24% vs 16%; adj EBITDAX $595M +57%; cash costs $2.22 vs $2.48/Mcfe. Q1 EBITDAX margin fell (37% vs 41%). No Code 33",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Q2'26 OCF $439M -11% y/y vs GAAP NI +78%; adj FCF $93M vs $262M; GAAP NI > adj NI (hedge gains). Biggest concern: derivative-driven profit",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2'26 (29 Jul) adj EPS $0.72 vs $0.73 (EW) / $0.76 vs $0.75 (Zacks) (aggregator); rev beat; FY26 output guide raised to 4.15-4.2 Bcfe/d",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: HG Energy $2.8B buy (closed 3 Feb 2026), ~6 Bcf/d Appalachian power demand at FID, LPG export growth; exit-2026 ~4.5 Bcfe/d",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical, mid-cycle. Henry Hub <$3 Jul-Sep 2026, $3.03 on 30 Sep; storage ~4 Tcf near record. C3+ NGL $44.33 Q2 vs $37.92 (+17%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~$12.9B (aggregator); 307.4M sh (24 Jul 2026); diluted sh 311.6M FY23 -> 310.6M Q2'26; NYSE since 2013; inst/insider % not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "Net debt $2.61B (30 Jun 2026) vs $1.19B (Dec 2025), ~1.3x TTM adj EBITDAX $2.06B; 1H26 OCF $1.30B; ROE ~14% TTM (calc). No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3'26 results 28 Oct 2026 AMC; consensus $0.91 (EW)/$0.77 (MB) (aggregator); Q3 gas weak. Short int 12.8M (15 Oct) down from 14.2M (31 Aug)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q (Q2'26) filed 29 Jul 2026; next earnings 28 Oct 2026. No secondary offering or ATM found; shelf registration not found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Q3 2026 (Jul-Sep) Henry Hub averaged below $3 (EIA Aug forecast $2.87) and ~5 Bcfe curtailed; a miss vs $0.77-0.91 consensus could break the pivot",
+        "Storage heading to ~4 Tcf (near record) by end-Oct 2026; a mild winter would cap gas prices into 2027",
+        "Growth is acquisition-driven; organic volumes flat-ish and FCF after working capital fell 65% y/y in Q2 2026",
+        "Net debt more than doubled to $2.61B after HG deal; deleveraging depends on commodity prices",
+        "VLGC freight and LPG export bottlenecks could narrow NGL realisations"
+      ],
+      "next_event": "Q3 2026 results, 28 Oct 2026 after close (call 29 Oct 2026, 9:00 am MT)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q2 2026 results, Form 8-K Ex 99.1 (SEC EDGAR, 29 Jul 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001433270/000110465926088204/tm2621397d1_ex99-1.htm"
+        },
+        {
+          "title": "Q2 2026 Form 10-Q (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001433270/000110465926088153/ar-20260630x10q.htm"
+        },
+        {
+          "title": "Q1 2026 results, Ex 99.1 (29 Apr 2026)",
+          "url": "https://www.anteroresources.com/investors/sec-filings/all-sec-filings/content/0001104659-26-051537/tm2612870d1_ex99-1.htm"
+        },
+        {
+          "title": "Q4 2025 results and 2026 guidance, Form 8-K Ex 99.1 (SEC EDGAR, 11 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1433270/000110465926013420/tm265893d1_ex99-1.htm"
+        },
+        {
+          "title": "Q3 2025 results, Form 8-K Ex 99.1 (SEC EDGAR, 29 Oct 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1433270/000110465925103768/tm2529747d1_ex99-1.htm"
+        },
+        {
+          "title": "HG Energy acquisition and Utica divestiture, Form 8-K Ex 99.1 (SEC EDGAR, 8 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1433270/000110465925119058/tm2532931d1_ex99-1.htm"
+        },
+        {
+          "title": "Q3 2026 earnings date announcement",
+          "url": "https://www.miningstockeducation.com/2026/10/antero-resources-announces-third-quarter-2026-earnings-release-date-and-conference-call/"
+        },
+        {
+          "title": "Q2 2026 earnings call transcript (aggregator)",
+          "url": "https://www.webull.com/news/15364343985873920"
+        },
+        {
+          "title": "AR Q2 earnings vs estimates, Zacks via Nasdaq (aggregator)",
+          "url": "https://www.nasdaq.com/articles/ar-q2-earnings-beat-estimates-record-production-gains"
+        },
+        {
+          "title": "Earnings Whispers AR (aggregator)",
+          "url": "https://www.earningswhispers.com/stocks/AR"
+        },
+        {
+          "title": "Earnings Whispers AR EPS details (aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/AR"
+        },
+        {
+          "title": "MarketBeat AR earnings estimates (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/AR/earnings"
+        },
+        {
+          "title": "AGA Natural Gas Market Indicators, 1 Oct 2026",
+          "url": "https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-october-1-2026/"
+        },
+        {
+          "title": "EIA cuts Henry Hub forecast, storage outlook (GreentechLead, 11 Aug 2026)",
+          "url": "https://greentechlead.com/energy-news/us-natural-gas-inventories-to-hit-3985-bcf-as-eia-cuts-henry-hub-price-forecast-54687"
+        },
+        {
+          "title": "Equibles AR short interest (aggregator)",
+          "url": "https://equibles.com/stocks/ar/shortinterest"
+        },
+        {
+          "title": "Equibles AR financials (aggregator)",
+          "url": "https://equibles.com/stocks/ar/financials"
+        }
+      ]
+    },
+    "US:CSX": {
+      "market": "US",
+      "code": "CSX",
+      "name": "CSX Corporation",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$52.27",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "CSX is a mature Eastern US Class I railroad in a productivity turnaround under CEO Steve Angel: Q3 2026 (Jul-Sep, reported 21 Oct 2026) GAAP EPS $0.57 vs $0.37 (+54%), +30% vs adjusted $0.44, and operating margin 39.1% vs 34.9% adjusted. But revenue growth is only +12%, more than half of it from fuel surcharge, Q2 EPS growth was +23% (below +25%), and the chart shows a late-stage base 4. That makes it a margin-driven trade, not a Minervini growth leader.",
+      "catalyst": "Steve Angel (CEO since Sep 2025) has a cost and productivity programme with 100+ initiatives; FY26 guide raised to high-single-digit revenue growth, 350bp+ margin expansion, FCF +80% (Q3 call, 21 Oct 2026). MODERATE.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil. EPS vs yr ago: Q4'25 $0.39 vs $0.38 (+3%); Q1'26 $0.43 vs $0.34 (+26%); Q2'26 $0.54 vs $0.44 (+23%); Q3'26 $0.57 vs adj $0.44 (+30%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Revenue Q1'26 $3.48B +2%, Q2 $3.94B +10%, Q3 $4.02B +12% YoY, all organic. Fuel surcharge $466M vs $234M, so ex-fuel only ~+6% (derived)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Op margin Q3'26 39.1% vs 34.9% adj (30.3% GAAP); Q2 38.3% +240bp. Margins expanding, but EPS growth dipped in Q2 (26%→23%→30%), so no Code 33",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "GAAP +54% is flattered by a $164M Q3'25 goodwill impairment. 9M'26 CFO $4.22B vs net $2.86B. Diluted shares -0.7% YoY. AR +14% YTD, in line with sales",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3'26 EPS $0.57 vs $0.52 consensus; rev $4.02B vs $3.95B (aggregator). FY26 revenue guide raised to high single digits; Q1 also beat ($0.43 vs $0.39)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "New CEO Angel (Sep 2025) productivity drive; I-95 double-stack via Baltimore for 2027 intermodal bids. UP-NS merger could add rail M&A optionality. MODERATE",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical turnaround, one of 4 large US Class Is. Intermodal record (+7% Q3). Peer strength near highs not verified; freight cycle phase not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "1,843M shares (30 Sep 2026); ~US$94B mkt cap (aggregator). Buybacks 23M shares/$1.05B 9M'26; $5.2B authority. Large float, listed since 1980",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash+ST inv $1.61B, debt $18.80B, net debt ~$17.2B. 9M'26 FCF $2.65B vs $1.07B. TTM ROE ~25% (derived). No raise risk",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next: Q4'26 results ~late Jan 2027 (date not found). UP-NS STB review ongoing, decision expected 2027. Fuel-surcharge antitrust appeal argued 11 Dec 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "10-Q for quarter to 30 Sep 2026 filed Oct 2026. No equity offering or ATM found; no new long-term debt in 9M'26. Next earnings ~Jan 2027",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Revenue growth is lean and fuel-dependent: $232M of the $430M Q3 revenue increase was fuel surcharge, which reverses if diesel falls.",
+        "UP-NS merger (STB accepted revised application 28 May 2026; schedule set 18 Aug 2026): CSX opposes it as a competitive threat, and BNSF-CSX tie-up talk adds headline volatility.",
+        "Late-stage base 4 in a mature large-cap: treat as a trade, sell into strength. Management flags 200-300bp sequential margin compression in Q4 from winter seasonality.",
+        "Pre-mortem for a 30% fall: freight or industrial recession hits merchandise and coal volume; export coal price slump; service meltdown or a fresh STB or regulatory blow.",
+        "Verdict would improve if revenue ex-fuel reaches double digits and EPS stays above +25% in Q4'26 (aggregator consensus $0.51 vs $0.39)."
+      ],
+      "next_event": "Q4 and FY2026 results, ~late January 2027 (exact date not found)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "CSX Q3 2026 earnings press release (8-K Ex-99.1, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000039/pressrelease_q32026.htm"
+        },
+        {
+          "title": "CSX Q3 2026 Quarterly Financial Report (PDF)",
+          "url": "https://s2.q4cdn.com/859568992/files/content_files/Q3-2026-QFR-Final.pdf"
+        },
+        {
+          "title": "CSX Form 10-Q, quarter ended 30 Sep 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000040/csx-20260930.htm"
+        },
+        {
+          "title": "CSX Q2 2026 earnings press release (8-K Ex-99.1, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000031/pressrelease_q22026.htm"
+        },
+        {
+          "title": "CSX Q1 2026 earnings press release (8-K Ex-99.1, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000013/pressrelease_q12026.htm"
+        },
+        {
+          "title": "CSX Q4 and FY2025 earnings press release (8-K Ex-99.1, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000003/pressrelease_q42025.htm"
+        },
+        {
+          "title": "CSX Q3 2026 earnings call summary (BigGo Finance, aggregator)",
+          "url": "https://finance.biggo.com/news/US_CSX_2026-10-21"
+        },
+        {
+          "title": "CSX Q3 earnings beat estimates (Yahoo/Zacks, aggregator)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/csx-q3-earnings-beat-estimates-145100559.html"
+        },
+        {
+          "title": "CSX earnings and estimates (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/CSX/earnings/"
+        },
+        {
+          "title": "Wolfe Research raises CSX target, 23 Apr 2026 (aggregator)",
+          "url": "https://allmind.ai/news/349db1f542e4f3511f7a659299ef9bdffd990e09d001c86b1550b87d5e5ce3bc"
+        },
+        {
+          "title": "STB UP-NS merger resources",
+          "url": "https://www.stb.gov/resources/major-railroad-mergers/"
+        },
+        {
+          "title": "STB press release PR-26-13, 28 May 2026",
+          "url": "https://www.stb.gov/wp-content/uploads/PR-26-13.pdf"
+        },
+        {
+          "title": "CSX joins fight to prevent UP-NS merger (Herald-Dispatch, 5 May 2026)",
+          "url": "https://www.herald-dispatch.com/business/csx-joins-fight-to-prevent-up-ns-merger/article_16396661-f4d6-48dc-8a35-811bb5d5e992.html"
+        },
+        {
+          "title": "Proposed merger between Union Pacific and Norfolk Southern (Wikipedia, aggregator)",
+          "url": "https://en.wikipedia.org/wiki/Proposed_merger_between_Union_Pacific_and_Norfolk_Southern"
+        }
+      ]
+    },
+    "US:NUE": {
+      "market": "US",
+      "code": "NUE",
+      "name": "Nucor",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$270.79",
+      "verdict": "SEPA candidate",
+      "confidence": "medium",
+      "summary": "The largest US steelmaker is in a tariff-supported upcycle. Q3 2026 (Jul-Sep, ended 3 Oct) GAAP EPS was $5.80, up 121% YoY, on sales up 32% and gross margin of about 20.7% vs 13.9%, all reported 26 Oct 2026. The fundamentals pass, but this is a cyclical on a late-stage base 4 with steel prices near highs and tariff policy as the swing factor, so treat it as a trade.",
+      "catalyst": "Section 232 tariffs at 50% are holding US HRC near $1,210-1,220/st (2 Oct 2026, vs $825-865 a year earlier), and steel mill shipments hit records in Q1-Q2 2026 with 89-91% utilisation.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil EPS YoY: Q4'25 $1.64 +34%; Q1'26 $3.23 +382%; Q2'26 $5.04 +94% (adj $4.84); Q3'26 $5.80 +121%. FY26e $19.62 (aggregator)",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Net sales YoY: Q4'25 +9%, Q1'26 +21%, Q2'26 +23%, Q3'26 $11.25B +32%. Organic: ASP +19%, tons +11% (Q3'26)",
+          "result": "PASS"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q3'26 gross ~20.7% vs 13.9%; net ~11.7% vs 7.1% (calc). Sales accel 21/23/32%, EPS re-accel: Code 33 broadly met",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "9M'26 OCF $4.52B vs NI $3.22B. Q2'26 helped by $0.20 Helion gain and $130M refunds. Q3 clean. Concern: earnings driven by peak pricing",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3'26 $5.80 beat own $5.55-5.65 guide, in line with $5.80 consensus; sales $11.25B vs $10.84B est. FY26e 19.18 to 19.62 (aggregator)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: 50% Sec 232 tariffs keep HRC ~$1,215/st (2 Oct 2026, +~42% YoY). Record mill shipments Q1-Q2'26 (8-K, 27 Jul 2026)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical market leader, mid-to-late cycle; HRC rising (CSP $1,230/t, 5 Oct). Peer STLD missed Q3, fell ~6% on 20 Oct 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~$58B (aggregator, 19 Oct); diluted shares 248.9M Q3'23 to 226.7M Q3'26 (-9%); insiders 0.62%; inst. not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "3 Oct 2026: cash+STI $3.64B, debt ~$7.09B, net debt ~$3.45B; 9M OCF $4.52B; TTM ROE ~16% (calc); rated A-/A3",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next results 25 Jan 2027 (scanner); mid-Dec Q4 guide likely. Canada tariff talks are binary. Short int 4.87M, up 3 periods (15 Oct)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q2 (ended 4 Jul 2026), filing date not found; Q3 10-Q pending. No offering/ATM found; $3.62B buyback left",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Tariff relief: an Aug 2026 report of Canadian steel tariffs being cut from 50% to 25% sent NUE down ~6% in a day",
+        "Steel prices near cycle highs (HRC +~42% YoY) and could roll over; Q4'26 guide is only flat to modestly up",
+        "Late-stage base 4 in a cyclical: peer STLD missed Q3 2026 on lower prices and narrower spreads",
+        "Seasonally lower Q4 volumes and higher costs, plus $124M/qtr in start-up costs from new mills",
+        "Next event: Q4 2026 results, 25 Jan 2027 (scanner date, not confirmed); Q4 guidance usually comes mid-December"
+      ],
+      "next_event": "Q4 2026 guidance (typically mid-Dec 2026); Q4 2026 results 25 Jan 2027 (scanner date)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Nucor Q3 2026 results, 8-K Ex 99.1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000073309/000119312526432117/d129328dex991.htm"
+        },
+        {
+          "title": "Nucor Q2 2026 results, 8-K Ex 99.1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000073309/000119312526318190/d468854dex991.htm"
+        },
+        {
+          "title": "Nucor Q1 2026 results, 8-K Ex 99.1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000073309/000119312526182332/d150975dex991.htm"
+        },
+        {
+          "title": "Nucor Q4 2025 results (press release)",
+          "url": "https://s202.q4cdn.com/531038915/files/doc_news/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025-2026.pdf"
+        },
+        {
+          "title": "Nucor Q3 2026 guidance (press release)",
+          "url": "https://s202.q4cdn.com/531038915/files/doc_news/Nucor-Announces-Guidance-for-the-Third-Quarter-of-2026-Earnings-2026.pdf"
+        },
+        {
+          "title": "Nucor Q3 2026 conference call notice",
+          "url": "https://s202.q4cdn.com/531038915/files/doc_news/Nucor-Invites-You-to-Join-Its-Third-Quarter-of-2026-Conference-Call-on-the-Web-2026.pdf"
+        },
+        {
+          "title": "Nucor 10-Q, quarter ended 4 Jul 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000073309/000119312526345891/nue-20260704.htm"
+        },
+        {
+          "title": "Nucor Q3 2023 results, 8-K Ex 99.1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312523260894/d454674dex991.htm"
+        },
+        {
+          "title": "TIKR: Nucor Q3 guide vs consensus (aggregator)",
+          "url": "https://www.tikr.com/blog/nucor-missed-consensus-but-its-q3-guide-is-its-best-since-q2-2023-heres-what-that-means-for-the-stock"
+        },
+        {
+          "title": "MarketBeat: NUE Q3 2026 preview (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-nucor-nue-expected-to-announce-earnings-on-monday-2026-10-19/"
+        },
+        {
+          "title": "GMK Center: Nucor HRC CSP $1,230/t (6 Oct 2026)",
+          "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-to-1-230-per-tonne/"
+        },
+        {
+          "title": "Finviz: Steel Dynamics Q3 2026 miss (aggregator)",
+          "url": "https://finviz.com/news/404354/steel-dynamics-shares-fall-58-premarket-as-q3-earnings-miss-estimates"
+        },
+        {
+          "title": "Stocktwits: Canada steel tariff cut report (19 Aug 2026)",
+          "url": "https://stocktwits.com/news-articles/markets/equity/nue-stld-cenx-clf-stocks-slide-as-trump-halves-import-tariff-on-canadian-steel-and-aluminum/cZYduaiRJlA"
+        },
+        {
+          "title": "TIKR: US-Canada trade talks collapse (aggregator)",
+          "url": "https://www.tikr.com/blog/nucor-stock-rallies-us-canada-trade-talks-collapse"
+        },
+        {
+          "title": "Equibles: NUE short interest (aggregator)",
+          "url": "https://equibles.com/stocks/nue/shortinterest"
+        }
+      ]
+    },
+    "US:UNP": {
+      "market": "US",
+      "code": "UNP",
+      "name": "Union Pacific Corporation",
+      "date": "2026-10-27",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$299.88",
+      "verdict": "Watch only",
+      "confidence": "high",
+      "summary": "Union Pacific is the most profitable US Class I railroad and is waiting on STB approval to buy Norfolk Southern and form the first US transcontinental railroad. Adjusted EPS growth sped up from -3% in Q4 2025 to +15% in Q3 2026 (quarter ended 30 Sep, reported 22 Oct). That is still well below the +25% SEPA bar, and much of the Q3 sales growth came from fuel surcharges, so it is not a SEPA earnings leader yet.",
+      "catalyst": "Pending Norfolk Southern merger (1 UNP share + US$88.82 cash per NS share; ~US$2.75B synergy target). STB comments are due 18 Nov 2026 and a decision is unlikely before fall 2027 (MODERATE).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS YoY: Q4'25 -3% ($2.86), Q2'26 +13% ($3.41), Q3'26 +15% ($3.53); GAAP Q3 $3.49 +16%. Accelerating but <25%; FY25 GAAP $11.98 +8%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q3'26 revenue $7.20B +15% YoY (Q1 +3%, Q2 +12%), but freight ex-fuel surcharge only +6%; fuel price +64%. Organic, no acquisition yet",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q3'26 GAAP OR 59.1% vs 59.2%; adj OR 58.8% vs 58.5% (worse); Q2 adj 59.2% vs 58.1%. Margins flat to slightly down. No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "9M'26 operating cash flow $8.30B vs net income $5.77B. Buybacks paused ($26M vs $2.68B), so EPS not flattered. Main concern: fuel-inflated revenue",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 adj EPS $3.53 vs $3.47 consensus (aggregator). 2026 guide raised from mid- to high-single-digit EPS growth. TD Cowen 2026E $13.12 (from $13.15)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: NS merger (agreed 29 Jul 2025), STB accepted 28 May 2026; EPS accretion only from 2nd full year after close; decision fall 2027 at earliest",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Market leader and institutional favourite; cyclical. Peers Q3'26: CSX adj EPS +30%, NSC adj EPS +10%. Group near highs: not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "594.25M shares (16 Oct 2026); ~US$178B mkt cap (calc). 9M diluted shares 594.0M vs 596.7M. ~225M new shares at NS close (~27% of combined)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash $2.21B + ST inv $0.88B, debt $30.32B; adj debt/EBITDA 2.4x (2.7x Dec-25); FY25 ROE 40.4%; ~3.3x leverage planned at close",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "STB comments/protests due 18 Nov 2026; DOJ/DOT comments 3 Dec 2026; Q4 results ~late Jan 2027 (date not found). Short interest 4.63% of float (15 Sep 2026)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Q3'26 10-Q filed Oct 2026 (exact date not found). No secondary offering or ATM found. Merger shares registered (424B3, 2025). No debt issued in 9M'26",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "STB opposition (18 Nov comments, 3 Dec DOJ/DOT) could push back the merger, add conditions or block it",
+        "Q3 growth was fuel-driven: freight ex-fuel only +6%. Q4 fuel cost seen roughly doubling YoY (TD Cowen summary)",
+        "About 225M new shares plus extra debt at close (leverage to ~3.3x), with EPS accretion only from the 2nd full year",
+        "Short interest is 14.4 days to cover (15 Sep 2026), likely merger-arb hedging that can cap the price",
+        "Upgrade to SEPA candidate needs adjusted EPS of +25% or more for two quarters, or ex-fuel revenue acceleration"
+      ],
+      "next_event": "STB comment and protest deadline, 18 Nov 2026; Q4 2026 results ~late Jan 2027 (date not found)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "UNP Q3 2026 earnings release (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000319/a2026-10x228xkex991earning.htm"
+        },
+        {
+          "title": "UNP Q3 2026 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000321/unp-20260930.htm"
+        },
+        {
+          "title": "UNP Q2 2026 earnings release (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000249/a2026-07x238xkex991earning.htm"
+        },
+        {
+          "title": "UNP Q1 2026 earnings release (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000154/a2026-04x238xkex991earning.htm"
+        },
+        {
+          "title": "UNP Q4 and FY2025 earnings release (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000032/a2026-01x278xkex991earning.htm"
+        },
+        {
+          "title": "UNP-NS merger announcement (8-K Ex 99.1, 29 Jul 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/100885/000119312525167154/d64537dex991.htm"
+        },
+        {
+          "title": "NSC Q3 2026 earnings release (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000702165/000119312526428384/nsc-ex99_1.htm"
+        },
+        {
+          "title": "Hogan Lovells: STB issues procedural schedule in UP/NS",
+          "url": "https://hlc.com/en/publications/all-aboard-surface-transportation-board-stb-issues-procedural-schedule-in-union-pacificnorfolk"
+        },
+        {
+          "title": "Progressive Railroading: STB sets procedural schedule for UP-NS merger",
+          "url": "https://www.progressiverailroading.com/m_a/news/STB-sets-procedural-schedule-for-consideration-of-UPNS-merger--77584"
+        },
+        {
+          "title": "Railway Age: UP reports 16% increase in 3Q26 earnings",
+          "url": "https://www.railwayage.com/news/up-reports-16-increase-in-3q26-earnings/"
+        },
+        {
+          "title": "Railway Age: UP, NS shareholders greenlight merger",
+          "url": "https://www.railwayage.com/freight/class-i/up-ns-shareholders-greenlight-merger/"
+        },
+        {
+          "title": "FMP: UNP Q3 2026 earnings vs estimates (aggregator)",
+          "url": "https://site.financialmodelingprep.com/market-news/union-pacific-q3-2026-earnings-beat-estimates"
+        },
+        {
+          "title": "MarketBeat: UNP short interest (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/UNP/short-interest/"
+        },
+        {
+          "title": "AJOT: CSX Q3 2026 results",
+          "url": "https://www.ajot.com/news/csx-corp-announces-third-quarter-2026-results"
         }
       ]
     }
