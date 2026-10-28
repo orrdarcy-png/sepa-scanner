@@ -67,6 +67,16 @@ Give each check a result of PASS, CAUTION or FAIL.
 8. **Supply and ownership.** Market cap, free float, share count growth over 3 years, recent capital
    raises or offerings, years since listing, and institutional and insider ownership. A smaller float and
    a newer company can move further.
+   - **Institutional ownership:** give the percentage of shares held by institutions, with its date, its
+     trend over the last 2-4 quarters, and the number of holders if found. 20-80% is fine. Below 20% (little
+     sponsorship) or above 80% (over-owned: few new buyers left, many potential sellers) is CAUTION.
+     ASX: use substantial holder notices and the top-20 holders in the annual report if no percentage is
+     found.
+   - **Insider activity:** list insider and major-holder transactions in the last 12 months (US: Form 4
+     and Form 144, 13D/13G amendments; ASX: Appendix 3Y director notices and substantial holder notices
+     Form 603/604/605). Separate open-market buys from sales, option exercises and planned (10b5-1) sales.
+     Open-market insider buying is a positive. Clustered selling (several insiders within about 3 months)
+     or repeated block sales by a director or major holder is FAIL.
 9. **Balance sheet.** Cash, debt and net debt, operating cash flow and ROE. If the company is burning
    cash, give its months of runway (ASX: Appendix 4C/5B item 8.7) and the likelihood of a capital raise
    in the next 6 months. FAIL if a dilutive raise looks likely.
@@ -84,9 +94,10 @@ Give each check a result of PASS, CAUTION or FAIL.
 ## 4. Verdict
 
 - **SEPA candidate:** earnings and sales PASS (or a verified turnaround), a catalyst you can name, no
-  FAIL on quality or balance sheet, and no likely raise.
+  FAIL on quality, balance sheet or supply and ownership, and no likely raise.
 - **Watch only:** the story is promising, but earnings or sales aren't there yet, or there's one
-  CAUTION that matters.
+  CAUTION that matters. A FAIL on supply and ownership (insider or major-holder selling) caps the verdict
+  at Watch only, even when everything else qualifies.
 - **Reject:** earnings or sales FAIL, a quality red flag, a likely dilutive raise, or no catalyst.
 
 Also give a confidence of high, medium or low, depending on how complete the data was (ASX half-yearly
