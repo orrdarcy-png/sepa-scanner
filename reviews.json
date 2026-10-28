@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T02:53:11Z",
+  "updated": "2026-10-28T19:23:27Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -4722,6 +4722,534 @@
           "url": "https://vcpscanner.com/stock/lgnd/institutional-holders"
         }
       ]
+    },
+    "ASX:SBM": {
+      "market": "ASX",
+      "code": "SBM",
+      "name": "St Barbara Limited",
+      "date": "2026-10-28",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "St Barbara is selling its remaining Simberi stake to Lingbao for A$453M cash plus royalties, leaving ~A$880M pro forma cash against a ~A$1.03B market cap, while restarting Touquoy and advancing 15-Mile in Nova Scotia. It has no real earnings or sales (FY26 underlying loss A$27.8M; statutory profit is a one-off gain), so it qualifies only as a cash-backed power play/story stock, not on earnings.",
+      "catalyst": "Lingbao sale of Simberi interest for A$453M cash plus NSRs (10 Sep 2026), with proposed A$0.13 dividend and up to 100M-share buy-back after completion.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "FY26 underlying NPAT A$(27.8)M vs A$(17.5)M FY25; statutory A$490M is a one-off Simberi deconsolidation gain. No real earnings",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Continuing revenue FY26 A$3.6M vs A$15.0M FY25 (-76%); Simberi deconsolidated, Touquoy restart not yet producing",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "FY26 EBITDA ex-items A$(17.5)M vs A$0.8M; Simberi Q1 FY27 AISC A$6,011/oz vs A$6,053/oz realised. No Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: FY26 statutory profit rests on A$499M non-cash deconsolidation gain; underlying loss A$(27.8)M",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Last 90d: Lingbao sale 10 Sep, 15-Mile PFS update 28 Sep (FS pulled to Mar-qtr 2027), A$0.05 div; consensus not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "STRONG: Simberi sale to Lingbao A$453M cash + 2.75% NSR (10 Sep 2026); pro forma ~A$880M cash vs ~A$1.03B mcap; Touquoy restart",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Turnaround/developer, cash-backed; gold cycle mid-late, FY26 realised A$6,232/oz vs A$4,428 (+41%); group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "1.226B shares (30 Sep 26); substantials ~25% (Baker Steel, Paradice, Vanguard, IPConcept); CEO only rights vesting, no insider sales",
+          "result": "PASS"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 26: A$416M cash (A$82M restricted), no debt; ~A$880M pro forma post-sale; 15-Mile capex C$289M funded; raise unlikely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Touquoy commissioning Nov 2026; Lingbao PRC/PNG/vote approvals, completion Mar-qtr 2027; short interest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "A$58M placement 7 Oct 2025 (just >12m); trading halts 10 Dec 2025, 27 Jan 2026; no producing revenue: power play/story only",
+          "result": "CAUTION"
+        }
+      ],
+      "risks": [
+        "Lingbao deal fails PRC/PNG approvals or MAE clause before Mar-qtr 2027 completion",
+        "Touquoy restart commissioning (Nov 2026) slips or underperforms on recovery/cost",
+        "Gold price pullback in A$ hits Touquoy economics and royalty value",
+        "No earnings: price is anchored to cash/NAV, limiting upside once deal is priced in",
+        "Proposed A$0.13 dividend and buy-back not guaranteed; capital may go to 15-Mile capex"
+      ],
+      "next_event": "Dec-qtr FY27 quarterly report, late Jan 2027 (date not announced); 1H FY27 results Feb 2027 (date not found)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Quarterly Report Q1 FY27 (27 Oct 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/10/2026.10.27-quarterly-report-q1-fy27.pdf"
+        },
+        {
+          "title": "FY26 financial results (28 Aug 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/08/2026.08.28-fy26-financial-results.pdf"
+        },
+        {
+          "title": "St Barbara to sell Simberi interest to Lingbao (10 Sep 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/09/2026.09.10-st-barbara-to-sell-simberi-interest-to-lingbao.pdf"
+        },
+        {
+          "title": "15-Mile Processing Hub PFS updated (28 Sep 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/09/2026.09.28-15-mile-processing-hub-project-pfs-updated.pdf"
+        },
+        {
+          "title": "2026 Annual Report (16 Oct 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/10/2026.10.16_-asx_2026-annual-report.pdf"
+        },
+        {
+          "title": "Appendix 3Y Andrew Strelein (28 Aug 2026)",
+          "url": "https://stbarbara.com.au/wp-content/uploads/2026/08/2026.08.28-appendix-3y-andrew-strelein.pdf"
+        },
+        {
+          "title": "Form 603 IPConcept (Luxembourg) 5.17% (Jun 2026)",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260619/499502693/9e2be376d1855656879e060bbe9cf089.pdf"
+        },
+        {
+          "title": "St Barbara announcements list",
+          "url": "https://stbarbara.com.au/investors/announcements/"
+        },
+        {
+          "title": "Market Index SBM (substantial holders, aggregator)",
+          "url": "https://www.marketindex.com.au/asx/sbm"
+        }
+      ],
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$0.84"
+    },
+    "ASX:DBI": {
+      "market": "ASX",
+      "code": "DBI",
+      "name": "Dalrymple Bay Infrastructure",
+      "date": "2026-10-28",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "DBI owns the fully contracted, take-or-pay Dalrymple Bay met-coal export terminal and is growing steadily: 1H26 EPS +13.8% and FFO +10.2% with an 8.1% TIC lift from July 2026. It is a sound yield/infrastructure name, but EPS and sales growth are far below SEPA's 25%+/20%+ thresholds, so it is a technical trade at best, not a fundamental SEPA leader.",
+      "catalyst": "TIC up 8.1% to ~A$4.02/t from 1 Jul 2026, a further ~A$0.53/t NECAP uplift expected 1 Jul 2027, and the possible ADEX expansion (up to 14.9Mtpa).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "1H26 (Jan-Jun) EPS 9.9c vs 8.7c 1H25 (+13.8%); 1H25 NPAT +17.1%; 2H25 stat. loss on $103m refi cost. Slowing, <25%. Consensus not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "1H26 income A$433.3m +9.6%, but core TIC rev only +3.6% and handling +6.1%; capital works pass-through +27.5%. Organic, far below 20%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "1H26 EBITDA +4.7% vs income +9.6% (margin ~34.7% vs 36.4%, pass-through mix); NPAT margin ~11.4% vs 10.9%. No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: capitalised interest A$7.3m vs 3.8m flatters NPAT; 1H26 OCF A$128.7m vs 68.1m incl. A$42.9m timing inflow",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance, revisions",
+          "finding": "25 Aug 2026 1H26 in line (no consensus found); TY26/27 DPS guide 28.62c (+8.5%) reaffirmed; RBC Hold A$5.40 (30 Sep 2026)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: TIC +8.1% to A$4.02/t from 1 Jul 2026; ~A$0.53/t NECAP uplift 1 Jul 2027; ADEX up to 14.9Mtpa unapproved",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Contracted met-coal port (14% of seaborne met coal), defensive yield name, not a growth leader. PHCC ~US$265.5/t (24 Sep 2026); peers not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~A$2.8B, ~496m shares, no new shares (issued capital flat); BlackRock 5.00%->6.03% (7 Oct 2026); inst % not found; director buy",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 2026 net debt A$2,012m, cash A$44.9m, liquidity A$261m, BBB; all-in rate ~7%. High leverage but cash generative; raise unlikely",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next results ~22 Feb 2027 (aggregator); SL1A/Reclaimer 4 commissioning end-2026; shorts up ~0.9m->7.8m shares (25 Sep-22 Oct 2026)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; A$350m AMTN debt issue Mar 2026. Revenue-generating",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Growth is structurally single-digit: EPS +13.8%, core TIC revenue +3.6% (1H26)",
+        "Interest rate ~7% and capitalised interest moving to expense from Jul 2027 will weigh on FFO",
+        "Short interest rose ~9x from late Sep to 22 Oct 2026",
+        "Coal policy/royalties deterring new mines; contract renewals (to 2033) due by 30 Jun 2027",
+        "Late-stage base 5 and heaviest recent volume on a down day (scanner warnings)"
+      ],
+      "next_event": "FY2026 full-year results, ~22 Feb 2027 (aggregator date, not yet confirmed by DBI)",
+      "hold_through_event": "YES",
+      "sources": [
+        {
+          "title": "DBI 2026 Half Year results announcement (ASX, 25 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260825/pdf/0734y13074ps5n.pdf"
+        },
+        {
+          "title": "DBI Appendix 4D / half-year financial report 1H26 (ASX, 25 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260825/pdf/0734xwtt2zdy99.pdf"
+        },
+        {
+          "title": "DBI 2025 full-year results (ASX, 24 Feb 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260224/pdf/06wn4xfbpx18f1.pdf"
+        },
+        {
+          "title": "DBI 2025 half-year results (ASX, 25 Aug 2025)",
+          "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n7wr4672c055.pdf"
+        },
+        {
+          "title": "DBI 2026 AGM addresses (ASX, 20 May 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260520/pdf/06zrxj4t2xzq10.pdf"
+        },
+        {
+          "title": "1H26 earnings call transcript (Investing.com)",
+          "url": "https://ca.investing.com/news/transcripts/earnings-call-transcript-dalrymple-bay-infrastructure-lifts-h1-2026-payout-93CH-4814871"
+        },
+        {
+          "title": "BlackRock change in substantial holding (Listcorp, 9 Oct 2026)",
+          "url": "https://www.listcorp.com/asx/dbi/dalrymple-bay-infrastructure-limited/news/change-in-substantial-holding-3419685.html"
+        },
+        {
+          "title": "Director Laidlaw on-market purchase (TipRanks)",
+          "url": "https://www.tipranks.com/news/company-announcements/dalrymple-bay-infrastructure-director-laidlaw-acquires-first-stake-of-20000-stapled-securities"
+        },
+        {
+          "title": "Brookfield exits DBI (DCN, Sep 2025)",
+          "url": "https://www.thedcn.com.au/news/brookfield-out-of-dalrymple-bay"
+        },
+        {
+          "title": "DBI short interest (Fintel, aggregator)",
+          "url": "https://fintel.io/ss/au/dbi"
+        },
+        {
+          "title": "RBC Hold, A$5.40 target (ad-hoc-news)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/rbc-sets-aud-5-40-target-for-dalrymple-bay-infrastructure-stock/70367480"
+        },
+        {
+          "title": "Oct/Nov 2026 investor presentation summary (Kalkine)",
+          "url": "https://kalkinemedia.com/au/news/announcements/dalrymple-bay-infrastructure-unveils-october-november-2026-investor-presentation-highlighting-strong-h1-financials"
+        },
+        {
+          "title": "Premium coking coal price, 24 Sep 2026 (SMM)",
+          "url": "https://news.metal.com/newscontent/104134637-global-premium-coking-coal-spot-benchmark-rises-to-26550tonne"
+        }
+      ],
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$5.57"
+    },
+    "ASX:ASX": {
+      "market": "ASX",
+      "code": "ASX",
+      "name": "ASX Limited",
+      "date": "2026-10-28",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "ASX Ltd posted record FY26 revenue (+13.3%) and record underlying EPS (275.8c, +4.9%), but statutory EPS fell 3.8% and cost growth (+21%, guided +18-21% in FY27) is compressing margins, with consensus seeing FY27 profit below FY26. The chart (Stage 2 cheat setup, near 1-year high) is driven by a re-rating on volumes and the new CEO, not by SEPA-grade earnings acceleration.",
+      "catalyst": "New CEO Anthony Attia (from 1 Sep 2026) resetting strategy after the ASIC inquiry, with strong futures volumes and a possible later release of the A$150m capital charge.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "FY26 underlying EPS 275.8c +4.9% (record), statutory 249.3c -3.8%; 1H26 u-NPAT +3.9%, 2H +6.4% (derived); consensus FY27 NPAT A$514m < FY26",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 operating revenue A$1,254.6m +13.3%, all organic (Markets +18.6%, S&P +19.4%); 1H26 +11.2%; below 20% bar, consensus FY27 ~A$1,328m (+6%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins / Code 33",
+          "finding": "FY26 EBIT margin 55.6% vs 58.4% (EBITDA 61.0% vs 62.8%); expenses +21.1% vs revenue +13.3%; FY27 expense growth guided 18-21%. No Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Recurring significant items (FY26 A$51.5m: ASIC penalty, CHESS, Sympli; FY25 A$7.4m); stat NPAT -3.5%. OCF pre-margin moves A$620m vs NPAT A$485m",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises / guidance / revisions",
+          "finding": "FY26 result 13 Aug 2026 lifted shares 11.9%; FY27 expense/capex guidance reaffirmed at AGM 22 Oct; consensus sees FY27-28 NPAT below FY26",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: new CEO Anthony Attia from 1 Sep 2026 (fix/grow/expand, CMD 1H CY27); Q1 FY27 futures vol +32%, cash +7%; possible release of A$150m charge",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category / group",
+          "finding": "Market leader/near-monopoly exchange; turnaround from CHESS/ASIC issues; RS 76, 1-yr high Oct 2026; global exchange peers' strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply / ownership",
+          "finding": "Mkt cap ~A$12.6bn; 195.4m sh (+0.9% in 3y) plus DRP issue Sep 2026; listed 1998; substantial holders ~37.5%, top-20 71%; chair on-mkt buy Aug 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 2026: no drawn corporate debt (A$400m facility undrawn); available cash A$250.2m; must add A$150m NTA by Jun 2027 via 75% payout + DRP; ROE 13.7%",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "1H FY27 results ~mid-Feb 2027 (date not announced); shareholder derivative action (CHESS) in Fed Court; short interest ~5.5-5.6% (Jul-Aug 2026)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in 12 months; FY26 final DRP partly underwritten by Barrenjoey (to 50%, ~A$38.7m), Sep 2026",
+          "result": "CAUTION"
+        }
+      ],
+      "risks": [
+        "Expense growth 18-21% in FY27 vs consensus revenue ~+6% squeezes margins and EPS",
+        "Further outages/CHESS delivery problems or new ASIC action; derivative action ongoing",
+        "Market volumes revert from volatile, record levels; listings capital down in Sep 2026",
+        "Payout held at 75% and DRP issuance dilutes until A$150m capital built (Jun 2027)",
+        "Verdict changes only if 1H FY27 shows EPS growth near 25%+ with margins expanding"
+      ],
+      "next_event": "1H FY27 half-year results, mid-Feb 2027 (date not yet announced; 1H FY26 was 12 Feb 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "ASX FY26 Appendix 4E and Annual Report (13 Aug 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/financial-results/2026/full-year/01-full-year-2026-appendix-4e-and-annual-report.pdf"
+        },
+        {
+          "title": "ASX FY26 results market announcement (13 Aug 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2026/47-13-august-2026-full-year-results-market-announcement.pdf"
+        },
+        {
+          "title": "ASX 1H FY26 half-year market release (12 Feb 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/financial-results/2026/half-year/01-asx-half-year-market-release-february-2026.pdf"
+        },
+        {
+          "title": "ASX 2026 AGM addresses (22 Oct 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20261022/pdf/075mdsbj49lt0j.pdf"
+        },
+        {
+          "title": "ASX Group monthly activity report September 2026",
+          "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2026/80-07-october-2026%20-asx-group-monthly-activity-report-september-2026.pdf"
+        },
+        {
+          "title": "Appendix 3Y David Clarke (28 Aug 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2026/61-28-august-appendix-3y-david-clarke.pdf"
+        },
+        {
+          "title": "Appendix 3Y Anthony Attia (15 Sep 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2026/70-15-september-2026-appendix-3y-anthony-attia.pdf"
+        },
+        {
+          "title": "Applications related to statutory derivative action (9 Oct 2026)",
+          "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2026/81-09-october-2026-applications-related-to-statutory-derivative-action.pdf"
+        },
+        {
+          "title": "ASX media centre (announcement list)",
+          "url": "https://www.asx.com.au/about/media-centre"
+        },
+        {
+          "title": "Motley Fool: DRP participation and underwriting (26 Aug 2026)",
+          "url": "https://www.fool.com.au/2026/08/26/asx-limited-fy26-final-dividend-drp-participation-and-underwriting-revealed/"
+        },
+        {
+          "title": "Reuters via AOL: ASX says turning point reached (22 Oct 2026)",
+          "url": "https://www.aol.com/articles/australias-asx-says-turning-point-002053000.html"
+        },
+        {
+          "title": "Simply Wall St consensus forecasts (aggregator)",
+          "url": "https://simplywall.st/stocks/au/diversified-financials/asx-asx/asx-shares/future"
+        },
+        {
+          "title": "FNArena Short Report 27 Aug 2026",
+          "url": "https://fnarena.com/the-short-report-27-aug-2026.htm"
+        },
+        {
+          "title": "Investing.com: FY26 presentation summary",
+          "url": "https://ng.investing.com/news/company-news/asx-fy26-presentation-record-revenue-growth-offset-by-technology-costs-93CH-2656957"
+        }
+      ],
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$64.37"
+    },
+    "ASX:SUN": {
+      "market": "ASX",
+      "code": "SUN",
+      "name": "Suncorp Group Limited",
+      "date": "2026-10-28",
+      "verdict": "Reject",
+      "confidence": "medium",
+      "summary": "Suncorp is now a pure trans-Tasman general insurer whose FY26 earnings fell on A$2.02bn of natural hazard costs: cash earnings -28% and basic EPS -34% vs FY25, on GWP growth of only +2.7%. The 2H26 rebound, the new aggregate reinsurance cover and takeover chatter explain the chart, but earnings and sales both fail the SEPA tests, and the CEO sold shares on market twice in Aug-Sep 2026.",
+      "catalyst": "The 5-year A$800m p.a. aggregate reinsurance cover (Apr 2026, effective 30 Jun 2026) caps hazard costs near A$1.85bn in ~90% of years; Tokio Marine bid talk was denied 1 Oct 2026. MODERATE.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "FY26 basic EPS 96c vs 144c (-34%); 1H26 cash earnings A$270m vs A$828m (-67%); 2H26 A$772m vs A$624m (+24%, calc). FY27 consensus +23%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 GWP A$15,407m vs A$15,009m (+2.7%), 1H26 +2.7%; FY27 guidance +3-5%. All organic, but far below 20%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "FY26 underlying ITR 11.8% vs 11.9%, flat at top of 10-12% target; net margin 6.8% vs 10.4% (aggregator). No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "FY25 NPAT included bank-sale gains; FY26 relied on A$177m C&PI reserve releases; investment income guided A$750-800m vs A$1.23bn in FY25",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "1H26 cash earnings missed consensus by 13% (A$270m vs A$311m). FY26 in line with Jul pre-release. Aug-Sep 2026: brokers' targets edged up; consensus Hold",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "Aggregate reinsurance cover from 30 Jun 2026 (cuts volatility); A$250m FY27 buyback; Tokio Marine bid talk denied 1 Oct 2026. MODERATE",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "No.2 Aust/NZ general insurer; mature, cyclical. Commercial and NZ premium cycle softening (mgmt). Peers' strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~A$20.9bn; ~1.06bn shares, shrinking via buybacks. Vanguard 7.0% (8 Jul 26). CEO on-market sales: 150k @A$18.41 (18 Aug) and 75k @A$19.28 (2 Sep)",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "CET1 A$518m above target mid-point after FY26 final dividend (Aug 2026); ~A$100m capital release from new cover; no raise needed. ROE not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Investor Day 29 Oct 2026; storm season Nov-Mar; 1H FY27 results 17 Feb 2027; takeover premium could unwind. Short interest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP or entitlement offer in the last 12 months; DRP active; ASX price query answered 1 Oct 2026; no trading halt found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Investor Day on 29 Oct 2026 (tomorrow) could reset targets or disappoint after the run from A$15.12 in Feb",
+        "Summer storm/hail season (Nov-Mar): 1H26 hazards ran A$453m over allowance; the new cover attaches only at ~A$1.85bn",
+        "Takeover premium from the Tokio Marine report (30 Sep) may unwind after Suncorp's denial",
+        "Falling investment income (FY26 A$750-800m vs A$1.23bn) and a softening commercial/NZ premium cycle cap growth",
+        "Would change only on two halves of 25%+ EPS growth (1H27 on 17 Feb 2027 vs a weak 1H26 base) plus faster GWP growth"
+      ],
+      "next_event": "Investor Day, 29 Oct 2026; 1H FY27 results, 17 Feb 2027 (shortlist next_earnings 2026-08-12 is stale)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY26 Appendix 4E (ASX, 12 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260812/pdf/072nf4z53z3bsr.pdf"
+        },
+        {
+          "title": "Chairman's letter, HY26 results (Suncorp)",
+          "url": "https://www.suncorpgroup.com.au/assets/documents/suncorpgroup/chairmans-letter-to-shareholders-hy26-results.pdf"
+        },
+        {
+          "title": "FY26 results summary (StockwireX)",
+          "url": "https://stockwirex.com/asx-stock-news/financials-fintech/sun-suncorp-group-fy26-full-year-results-august-2026/"
+        },
+        {
+          "title": "FY26 earnings (Motley Fool AU, 12 Aug 2026)",
+          "url": "https://www.fool.com.au/2026/08/12/suncorp-group-fy26-earnings-profit-falls-dividends-paid-buy-back-coming/"
+        },
+        {
+          "title": "1H26 cash earnings vs consensus (MarketScreener/Reuters)",
+          "url": "https://www.marketscreener.com/news/insurer-suncorp-s-cash-earnings-tumble-on-surging-natural-hazard-costs-shares-fall-ce7e5dd9dc8aff23"
+        },
+        {
+          "title": "1H26 profit and EPS (MT Newswires via Tiger)",
+          "url": "https://www-web.itiger.com/news/2612174413"
+        },
+        {
+          "title": "FY26 EPS and margins (Webull)",
+          "url": "https://www.webull.com/news/15394849515922432"
+        },
+        {
+          "title": "FY27 reinsurance and FY26 guidance update (Motley Fool AU, 3 Jul 2026)",
+          "url": "https://www.fool.com.au/2026/07/03/suncorp-reveals-fy27-reinsurance-plans-and-fy26-guidance-update/"
+        },
+        {
+          "title": "Five-year aggregate cover (Reinsurance News, Apr 2026)",
+          "url": "https://www.reinsurancene.ws/suncorp-buys-aud-2-4bn-five-year-aggregate-reinsurance-cover/"
+        },
+        {
+          "title": "Appendix 3Y Steve Johnston, 18 Aug 2026 sale",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260824/499501869/b1f0d1e15151566e47f501a91657976b.pdf"
+        },
+        {
+          "title": "Appendix 3Y Steve Johnston, 2 Sep 2026 sale",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260908/499507361/19f172b41d8ed72928e183f19f3505da.pdf"
+        },
+        {
+          "title": "Form 604 Vanguard, 8 Jul 2026",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260714/499501869/d9fc39b446ad72600047d13c38b17f8c.pdf"
+        },
+        {
+          "title": "Takeover talk denial after ASX price query (insuranceNEWS, 1 Oct 2026)",
+          "url": "https://www.insurancenews.com.au/breaking-news/suncorp-says-not-in-takeover-discussions"
+        },
+        {
+          "title": "UBS target and Investor Day date (ad-hoc-news, 20 Oct 2026)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ubs-keeps-aud-21-25-target-for-suncorp-stock/70378355"
+        },
+        {
+          "title": "Consensus forecasts (StockAnalysis, aggregator)",
+          "url": "https://stockanalysis.com/quote/asx/SUN/forecast/"
+        },
+        {
+          "title": "Announcements, calendar and market cap (InvestSMART)",
+          "url": "https://www.investsmart.com.au/security/asx/sun/suncorp-group-limited"
+        }
+      ],
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$19.76"
     }
   }
 }
