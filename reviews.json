@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T22:30:43Z",
+  "updated": "2026-10-28T22:30:45Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -6564,6 +6564,170 @@
         {
           "title": "Finviz/Zacks: XOP hits 52-week high, 6 Mar 2026 (aggregator)",
           "url": "https://finviz.com/news/332624/energy-etf-xop-hits-new-52-week-high"
+        }
+      ]
+    },
+    "US:NPK": {
+      "market": "US",
+      "code": "NPK",
+      "name": "National Presto Industries",
+      "date": "2026-10-28",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "US$150.78",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "National Presto is now mainly a defense ammunition maker (40mm, warheads), with a shrinking tariff-hit housewares arm. Defense backlog is a record $1.81B and Q2 2026 (Apr-Jul) GAAP EPS jumped 207% to $2.21 on sales up 22%. But the three quarters before Q2 all had falling EPS, Q2 and the coming Q3 are flattered by tariff refunds, and the activist holder Albion River sold about 108K shares in repeated blocks in May-Jun 2026. That supply FAIL caps the verdict at Watch only.",
+      "catalyst": "Defense backlog rose to a record $1.81B by 5 Jul 2026 (from $1.09B at end-2024), helped by $159.1M of 40mm and Small Diameter Bomb warhead awards on 13 Aug 2026 and a $90M medium-caliber ammo plant due in 2028.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP EPS YoY: Q3'25 $0.74 -35%; Q4'25 $2.10 -28% (calc); Q1'26 $0.93 -13%; Q2'26 $2.21 +207%. FY25 $4.63 -20%, not a record. Q3'26 not yet out",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Sales YoY: Q3'25 +26%; Q4'25 +22% (calc); Q1'26 +14.5%; Q2'26 $146.6M +21.7%, all organic. Defense +27%, Housewares -6%: relies on Army 40mm work",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q2'26 gross 19.5% vs 15.4%, net 10.8% vs 4.3% (calc); Q1'26 gross 14.7% vs 17.5%. Q2 helped by tariff refund. Code 33 not met",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Q2'26 had $2.2M tariff refund; Q3'26 will book $7.6M more (10-Q). 1H26 OCF $44.1M vs NI $22.5M, but FY25 OCF -$9.1M, FY24 -$53.4M",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2'26 EPS $2.21 vs $0.72; consensus not found; stock +13% after. No guidance. Q3'26e $1.97 (MarketBeat, 1-2 analysts). Revisions not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Defense backlog $1.81B (5 Jul 2026) vs $1.09B (Dec 2024); $159.1M 40mm/SDB awards (8-K, 14 Aug 2026); $90M ammo plant by 2028",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Small-cap ammo maker plus housewares; defense upcycle mid-stage. Primes lag: NOC $534 (20 Oct) vs $737 (19 Feb), RTX $193 vs $205",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Albion River (13D) sold ~108K sh in 10 sales 20 May-11 Jun 2026 incl. 40.6K and 40.2K blocks; CFO and director sold Mar 2026. Inst 58.6%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "5 Jul 2026: cash $15.8M, no debt (credit line $23.6M repaid); equity $411.3M; 1H26 OCF $44.1M; TTM ROE ~11% (calc). $90M capex, no raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3'26 results due now (scanner 28 Oct; not on EDGAR yet); refund will inflate EPS. Short int 179,915 (15 Oct), down from 306,714 (31 Jul)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q 14 Aug 2026 (Q2, ended 5 Jul 2026). Next earnings 28 Oct 2026 (scanner). No secondary, shelf (S-3) or ATM found on EDGAR",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Q3 2026 results are due now and will include a $7.55M tariff refund, so headline EPS growth will overstate the underlying trend",
+        "Earnings track record is weak: EPS fell YoY in Q3'25, Q4'25 and Q1'26, and FY25 EPS of $4.63 was 20% below FY24",
+        "Former 13D holder Albion River (4.01% after its sales) can keep selling without reporting; daily volume is thin (~92K shares)",
+        "Concentration on US Army 40mm contracts plus tariff-hit housewares; any defense budget delay or new tariffs would hit margins",
+        "Next event: Q3 2026 results, 28 Oct 2026 per scanner (not on EDGAR as of review; prior years released 24-25 Oct)"
+      ],
+      "next_event": "Q3 2026 results (quarter to about 4 Oct 2026), 28 Oct 2026 per scanner; not yet filed on EDGAR at review",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "NPK Q2 2026 results, 8-K Ex 99.1 (SEC, 31 Jul 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000080172/000143774926025460/ex_997628.htm"
+        },
+        {
+          "title": "NPK 10-Q, quarter ended 5 Jul 2026 (SEC, 14 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926027999/npk20260615_10q.htm"
+        },
+        {
+          "title": "NPK Q1 2026 results, 8-K Ex 99.1 (SEC, 1 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926014873/ex_956204.htm"
+        },
+        {
+          "title": "NPK FY2025 results, 8-K Ex 99.1 (SEC, 27 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926006907/ex_927991.htm"
+        },
+        {
+          "title": "NPK Q3 2025 results, 8-K Ex 99.1 (SEC, 24 Oct 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774925031807/ex_876956.htm"
+        },
+        {
+          "title": "NPK 10-K FY2025 (SEC, 13 Mar 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926008214/npk20251231_10k.htm"
+        },
+        {
+          "title": "NPK 2026 proxy statement, ownership table (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926012242/npk20260403_def14a.htm"
+        },
+        {
+          "title": "NPK defense awards $159.1M, 8-K Ex 99.1 (SEC, 14 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926028014/ex_1005284.htm"
+        },
+        {
+          "title": "NPK Clear Lake ammo plant, 8-K Ex 99.1 (SEC, 15 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926020791/ex_977484.htm"
+        },
+        {
+          "title": "Albion River Schedule 13D/A and sales schedule (SEC, 15 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000149315226028722/exa.htm"
+        },
+        {
+          "title": "Albion River Schedule 13D (SEC, 5 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000149315225026280/primary_doc.xml"
+        },
+        {
+          "title": "Form 4, R. Lieble sale 11 Mar 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926007691/"
+        },
+        {
+          "title": "Form 4, D. Peuse sale 17 Mar 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926008803/"
+        },
+        {
+          "title": "State Street Schedule 13G, 5.5% (SEC, 12 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/80172/000009375126000271/primary_doc.xml"
+        },
+        {
+          "title": "NPK EDGAR filing index (SEC)",
+          "url": "https://data.sec.gov/submissions/CIK0000080172.json"
+        },
+        {
+          "title": "MarketBeat: NPK Q3 2026 preview (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-national-presto-industries-npk-expected-to-post-earnings-on-friday-2026-10-16/"
+        },
+        {
+          "title": "MarketBeat: NPK price and institutional ownership, 27 Oct 2026 (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-national-presto-industries-nyse-npk-stock-breaks-above-50-day-moving-average-time-to-sell-2026-10-27/"
+        },
+        {
+          "title": "Equibles: NPK short interest (aggregator)",
+          "url": "https://equibles.com/stocks/npk/shortinterest"
+        },
+        {
+          "title": "Zacks via Yahoo: NPK Q2 2026 earnings reaction (aggregator)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/national-presto-q2-earnings-surge-180600227.html"
+        },
+        {
+          "title": "Finviz/PR Newswire: defense Q3 2026 earnings week (21 Oct 2026)",
+          "url": "https://finviz.com/news/405352/defense-earnings-week-opens-with-three-raised-forecasts-and-two-record-backlogs"
+        },
+        {
+          "title": "Fintool: defense stocks at 52-week highs (19 Feb 2026)",
+          "url": "https://fintool.com/news/defense-stocks-record-highs-iran-supercycle"
         }
       ]
     }
