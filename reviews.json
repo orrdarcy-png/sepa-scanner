@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T02:43:23Z",
+  "updated": "2026-10-28T02:53:11Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -4126,9 +4126,9 @@
       "date": "2026-10-28",
       "status_at_review": "Buy-ready",
       "price_at_review": "US$93.89",
-      "verdict": "SEPA candidate",
+      "verdict": "Watch only",
       "confidence": "medium",
-      "summary": "Acadian is a systematic/quant asset manager (formerly BrightSphere) whose AUM rose from $151.1B (Jun 2025) to a record $232.7B (Jun 2026) on 10 straight quarters of net inflows, including a ~$16B St. James's Place mandate. ENI (adjusted) diluted EPS rose +94% in Q1'26 and +108% in Q2'26, with revenue +45% and ENI margin up ~960bp, and beat consensus by 22-30%. Fundamentals qualify, but GAAP EPS lags ENI by a wide margin, the chart is a late base 7, and Q3'26 results land on 29 Oct 2026, so size it as a trade.",
+      "summary": "Acadian is a systematic/quant asset manager whose AUM rose from $151.1B (Jun 2025) to a record $232.7B (Jun 2026) on 10 straight quarters of net inflows; ENI diluted EPS rose +94% in Q1'26 and +108% in Q2'26 on revenue +45%, beating consensus by 22-30%. Earnings, sales and catalyst still qualify, but supply now FAILs: chairman John Paulson's funds block-sold 1.9M shares at $77.25 on 17 Jun 2026 (after 1.21M in Sep 2025), four other insiders sold in Feb-Aug 2026 with no open-market buys, and 13F institutions hold ~100% of shares. Under the updated rules the supply FAIL caps the verdict at Watch only; Q3'26 results land 29 Oct 2026.",
       "catalyst": "Record Q1'26 net inflows of $21.4B incl. a ~$16B St. James's Place enhanced mandate funded late Q1 (Q1 call, 30 Apr 2026), plus 96% of strategies beating benchmarks over 3/5/10 yrs. MODERATE.",
       "scorecard": [
         {
@@ -4168,8 +4168,8 @@
         },
         {
           "check": "Supply and ownership",
-          "finding": "35.49M shares (4 Aug 2026), mkt cap ~US$3.3B (derived); ~58% of shares bought back 2020-25. Paulson (21.8%) sold 1.9M at $77.25 in Jun 2026",
-          "result": "CAUTION"
+          "finding": "13F inst ~101% (Q2'26, 303 holders; 98% Q3'25); Paulson block 1.9M@$77.25 Jun'26 after 1.21M Sep'25; 4 other insider sales Feb-Aug'26, 0 buys",
+          "result": "FAIL"
         },
         {
           "check": "Balance sheet",
@@ -4183,16 +4183,16 @@
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q (to 30 Jun 2026) filed Aug 2026; next earnings 29 Oct 2026. WKSI status; no company offering/ATM found, but Paulson block sales recur",
+          "finding": "Last 10-Q (to 30 Jun 2026) filed 6 Aug 2026; next earnings 29 Oct 2026. No company offering, ATM or 424B since 2019; Paulson blocks were unregistered trades",
           "result": "PASS"
         }
       ],
       "risks": [
         "Earnings in 1 day (29 Oct 2026): the Q3'26 consensus of $1.22 is below Q2's $1.33 because management flagged a fee-rate headwind as the low-fee Enhanced mandate fully flows through.",
-        "AUM business with high market beta: a 10-15% equity drawdown, or a weak run in quant factors, cuts fees and performance fees directly.",
-        "Supply overhang: chairman John Paulson sold blocks in Sep 2025 and Jun 2026 (1.9M shares at $77.25) and remains the largest holder; more sales are possible after a strong run.",
-        "Pre-mortem for a 30% fall: Q3 miss on fee rate or outflows, a market sell-off, or quant underperformance (1-yr outperformance by revenue was 77% vs 85% a year earlier) triggering redemptions.",
-        "GAAP vs ENI gap and a late base 7 limit upside; the verdict weakens if Q3 net flows turn negative or ENI EPS growth falls below +25%."
+        "Major-holder overhang: Paulson & Co. still holds 5,843,282 shares (16.4%, 13D/A 22 Jun 2026) after block sales of 1,206,839 (Sep 2025) and 1,900,000 (Jun 2026); another block after a strong run is likely.",
+        "Over-owned: 13F institutions report ~98-101% of shares outstanding over the last four quarters, so few new buyers remain and many potential sellers exist.",
+        "AUM business with high market beta: a 10-15% equity drawdown or a weak run in quant factors cuts management and performance fees directly.",
+        "Pre-mortem for a 30% fall: Q3 miss on fee rate or flows, a new Paulson block, or a market sell-off. Upgrade only if insider selling stops for several months and earnings keep +25%."
       ],
       "next_event": "Q3 2026 results, 29 Oct 2026 (7:30am ET release, 11:00am ET call)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
@@ -4254,12 +4254,48 @@
           "url": "https://www.marketbeat.com/stocks/NYSE/AAMI/short-interest"
         },
         {
-          "title": "Paulson & Co sold $146.8M of AAMI shares, Form 4 (Quantisnow, aggregator)",
-          "url": "https://new.quantisnow.com/insight/large-owner-paulson-co-inc-sold-146775000-worth-of-shares-6611190"
+          "title": "Paulson & Co. Form 4, 1.9M-share sale 17 Jun 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000101359426000681/xslF345X06/form4.xml"
         },
         {
-          "title": "Acadian chairman Paulson sells shares, Sep 2025 (Investing.com)",
-          "url": "https://ng.investing.com/news/company-news/acadian-chairman-paulson-sells-shares-remains-largest-stockholder-93CH-2094234"
+          "title": "Paulson & Co. Schedule 13D/A No. 7, 16.4% after block trade (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000101359426000680/xslSCHEDULE_13D_X02/primary_doc.xml"
+        },
+        {
+          "title": "Paulson & Co. Schedule 13D/A No. 6, 1.21M sold 3 Sep 2025, 21.6% (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000101359425001141/xslSCHEDULE_13D_X01/primary_doc.xml"
+        },
+        {
+          "title": "R. J. Hart (CLO/CAO) Form 4, 100,000 shares sold 4 May 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026030782/xslF345X06/wk-form4_1778018797.xml"
+        },
+        {
+          "title": "C. Wiater (PAO) Form 4, 25,614 shares sold 3-4 Aug 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026053337/xslF345X06/wk-form4_1785960464.xml"
+        },
+        {
+          "title": "B. Trebbi (director) Form 4, 9,691 shares sold 10 Feb 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026007836/xslF345X05/wk-form4_1770937799.xml"
+        },
+        {
+          "title": "R. J. Chersi (director) Form 4, 28,753 shares sold 11 Feb 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026007838/xslF345X05/wk-form4_1770938059.xml"
+        },
+        {
+          "title": "AAMI EDGAR filing index (Form 4, 144, 13D/13G)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001748824&type=&dateb=&owner=include&count=100"
+        },
+        {
+          "title": "AAMI quarterly 13F institutional ownership trend (vcpscanner, aggregator)",
+          "url": "https://vcpscanner.com/stock/aami/institutional-holders"
+        },
+        {
+          "title": "AAMI 13F holders and concentration (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/aami/holdings"
+        },
+        {
+          "title": "AAMI institutional ownership (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/AAMI/institutional-ownership/news/news/news"
         }
       ]
     },
