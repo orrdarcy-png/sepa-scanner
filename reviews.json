@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:27:35Z",
+ "updated": "2026-10-29T22:35:13Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -5639,42 +5639,42 @@
    "market": "US",
    "code": "CHE",
    "name": "Chemed Corp.",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "status_at_review": "Breaking out",
-   "price_at_review": "US$533.36",
+   "price_at_review": "US$541.92",
    "verdict": "Watch only",
-   "confidence": "medium",
-   "summary": "Chemed owns VITAS (hospice) and Roto-Rooter (plumbing). Q3 2026 (Jul-Sep), reported 27 Oct 2026: adjusted EPS $6.75, up 28%, on revenue up 10.6%. VITAS is driving the gains with census up 9.4% and Medicare cap charges almost gone. But the EPS jump is coming off a weak 2025 base, helped by a 9% cut in share count, and sales growth is under 20%. Repeated open-market selling by three insiders from Jul to Sep 2026 caps the verdict at Watch only.",
-   "catalyst": "VITAS re-acceleration: ADC +9.4% in Q3'26 (vs +2.2% in Q1'26), Medicare cap limit $3.7M 9M'26 vs $24.8M, FY27 hospice rate +2.3% from 1 Oct 2026; guide raised twice.",
+   "confidence": "high",
+   "summary": "Chemed owns VITAS (hospice) and Roto-Rooter (plumbing). Q3 2026 (Jul-Sep): adjusted EPS $6.75, up 28%, and GAAP $5.45, up 22%, on revenue up 10.6%, driven by VITAS census +9.4% and Medicare cap charges almost gone. The Q3 10-Q (filed 29 Oct) adds some negatives: receivables up 18%, Q3 operating cash flow below net income, audit write-downs doubling, and $236M of revolver debt funding buybacks and acquisitions. Discretionary open-market selling by the CEO, an EVP and a director (Jul-Sep 2026, none under 10b5-1 plans) caps the verdict at Watch only, with sales growth also under 20%.",
+   "catalyst": "VITAS re-acceleration: ADC +9.4% and admissions +7.2% in Q3'26, Medicare cap $3.7M in 9M'26 vs $24.8M, no Florida cap expected for 2026-27, FY27 hospice rate +2.3%; MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS YoY: Q4'25 $6.42 -6%; Q1'26 $5.65 +0.4%; Q2'26 $6.06 +42%; Q3'26 $6.75 +28% (GAAP $5.45 +22%). FY26 ~$25.75 record vs $23.13",
+     "finding": "Adj EPS YoY: Q4'25 $6.42 -6%; Q1'26 $5.65 +0.4%; Q2'26 $6.06 +42%; Q3'26 $6.75 +28% (GAAP $5.45 +22%, 10-Q). FY26 ~$25.75 record vs FY25 ~$21.58 (calc)",
      "result": "PASS"
     },
     {
      "check": "Sales",
-     "finding": "Revenue YoY: Q4'25 flat, Q1'26 +1.6%, Q2'26 +8.8%, Q3'26 $690.9M +10.6% (VITAS +12.2%, Roto +7.5% incl franchise buys). Accelerating, <20%",
+     "finding": "Rev YoY: Q4'25 flat, Q1'26 +1.6%, Q2'26 +8.8%, Q3'26 $690.9M +10.6% (VITAS +12.2%; Roto +7.5%, same-store +5.5%). Accelerating but <20%",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q3'26 gross 33.7% vs 32.0%, op 14.0% vs 12.0%, net 10.4% vs 10.3% (calc). VITAS margin +318bp; Roto -213bp. EPS growth slowed 42% to 28%: no Code 33",
+     "finding": "Q3'26 gross 33.7% vs 32.0%, op 14.0% vs 12.0%, net 10.4% vs 10.3% (calc). VITAS gross 25.2% vs 22.0%; Roto op 14.9% vs 17.8% (calc). No Code 33",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "9M'26 OCF $229.6M vs NI $205.6M (calc), OCF -10% YoY. Q3 AR +18% vs sales +11%. Diluted shares -8.8% YoY lift EPS (NI +11.5%, GAAP EPS +22%)",
+     "finding": "Q3'26 OCF $56.6M vs NI $71.6M (calc); AR $254.9M +18% YoY vs sales +11%; VITAS audit concessions $7.7M vs $3.6M. Shares -8.8% lift EPS",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3'26 adj $6.75 vs $6.44 est, rev $690.9M vs $684.5M (aggregator). FY26 guide raised Apr and Jul to $25.00-25.75; now at or above high end",
+     "finding": "Q3'26 adj $6.75 vs $6.44 est (aggregator). FY26 guide $25.00-25.75 raised Apr and Jul; 27 Oct: at or slightly above high end. FY27e $27.52 +8%",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: VITAS ADC +9.4% Q3'26, Medicare cap 9M $3.7M vs $24.8M, Florida $34M cushion; Roto bought CA franchises $62.5M (27 Oct 2026 8-K)",
+     "finding": "MODERATE: VITAS ADC +9.4%, admits +7.2% Q3'26; 9M Medicare cap $3.7M vs $24.8M; RotoCo CA franchise bought $60.6M 16 Sep 2026 (10-Q)",
      "result": "PASS"
     },
     {
@@ -5684,38 +5684,42 @@
     },
     {
      "check": "Supply and ownership",
-     "finding": "Mkt cap ~$7.0B (calc). Diluted shares 15.20M Q3'23 to 13.14M Q3'26 (-14%). Inst ~102% (Q2'26). Open-mkt sells: CEO x4, EVP, director, Jul 31-Sep 28",
+     "finding": "Mkt cap $7.05B; 13.01M sh 30 Sep 2026 (-14% vs Q3'23 diluted). Inst ~102% (Q2'26, aggr). Non-10b5-1 open-mkt sells: CEO x4, EVP, director, 31 Jul-28 Sep",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 2026: cash $48.4M, LT debt $236.0M, net debt ~$188M; 9M OCF $229.6M; equity $861M; TTM ROE ~29% (calc). Buybacks funded partly by debt",
+     "finding": "30 Sep 2026: cash $48.4M, revolver $236.0M, net debt $187.6M (calc), $166.7M undrawn; equity $861M; TTM ROE ~29%, TTM OCF $363M (calc)",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Next results ~late Feb 2027 (est., not confirmed). VITAS audits: $12-14M revenue under review. Short int 431k, 3.1%, falling (13 Mar 2026; latest not found)",
+     "finding": "Q4'26 results ~late Feb 2027 (not confirmed). VITAS audits ($12-14M under review) ongoing. Short int 686k, 5.3% of shares, rising (15 Oct 2026, aggr)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2 (Apr-Jun 2026), filed 31 Jul 2026; Q3 10-Q pending. No S-3 shelf, ATM or secondary on EDGAR in 2026; $73.7M buyback left",
+     "finding": "Last 10-Q: Q3 (Jul-Sep 2026), filed 29 Oct 2026; next earnings ~late Feb 2027 (unconfirmed). No S-3 shelf, ATM or secondary; $73.7M buyback left",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Hospice regulation: CMS audits are pushing up VITAS write-offs ($12-14M under review), and the new SSVI flags put more scrutiny on high-utilisation hospices",
-    "Roto-Rooter margins are shrinking: paid leads rose to ~60% of the mix and Google free leads fell 11.8%. Fuel costs are up, and franchise buys dilute margins",
-    "Growth is set to slow: NTM consensus EPS is only about +5% ($24.88 to $26.18, aggregator) once the easy 2025 comps are lapped",
-    "Debt-funded buybacks ($350M in 9M'26) flatter EPS. Only $73.7M of the authorisation remains, so that tailwind is fading",
-    "Next event: Q4 2026 results and 2027 guidance, around late Feb 2027 (est. from the 25 Feb 2026 date, not confirmed)"
+    "Hospice audits: CMS reviews of $12-14M of VITAS revenue doubled Q3 implicit price concessions to $7.7M (vs $3.6M); management expects heightened review to persist",
+    "Cash conversion: Q3 OCF $56.6M was below NI $71.6M and AR rose 18% YoY; Medicare share of VITAS AR jumped to 72% from 58% (timing per 10-Q)",
+    "Roto-Rooter margins shrinking: op margin 14.9% vs 17.8% (calc), job counts down (plumbing -5.1%), paid leads ~60%, fuel up, RotoCo margins sub-10%",
+    "Debt-funded buybacks ($350M 9M'26) and slowing growth: FY27 consensus EPS only +8% ($27.52); just $73.7M of buyback authorisation left",
+    "Next event: Q4 2026 results and FY2027 guidance, ~late Feb 2027 (est. from 25 Feb 2026, not confirmed); verdict upgrades if insider selling stops"
    ],
    "next_event": "Q4 2026 results and FY2027 guidance, ~late Feb 2027 (est.; last year 25 Feb 2026, not confirmed)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "Chemed Q3 2026 results (GlobeNewswire, 27 Oct 2026)",
-     "url": "https://www.globenewswire.com/news-release/2026/10/27/3389637/0/en/chemed-reports-third-quarter-2026-results.html"
+     "title": "Chemed Form 10-Q, quarter ended 30 Sep 2026, filed 29 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000024/che-20260930x10q.htm"
+    },
+    {
+     "title": "Chemed Q3 2026 results, 8-K Ex 99, 27 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000022/che-20261027xex99.htm"
     },
     {
      "title": "Chemed Q2 2026 results, 8-K Ex 99 (SEC)",
@@ -5730,28 +5734,32 @@
      "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000002/che-20260225xex99.htm"
     },
     {
+     "title": "Chemed XBRL company facts: AR, net income, OCF history (SEC)",
+     "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000019584/us-gaap/AccountsReceivableNetCurrent.json"
+    },
+    {
+     "title": "Chemed SEC filings index, Form 4s (EDGAR)",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019584&type=&dateb=&owner=include&count=40"
+    },
+    {
+     "title": "Form 4: K. McNamara sale, 28 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/19584/000119312526408869/"
+    },
+    {
      "title": "Chemed Q3 2026 earnings call transcript (Motley Fool)",
      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/28/chemed-che-q3-2026-earnings-call-transcript/"
     },
     {
-     "title": "Chemed SEC filings index, Form 4s and 10-Qs (EDGAR)",
-     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019584&type=&dateb=&owner=include&count=40"
+     "title": "StockAnalysis: CHE forecast, FY26/FY27 consensus (aggregator)",
+     "url": "https://stockanalysis.com/stocks/che/forecast/"
     },
     {
-     "title": "Form 4: K. McNamara option grant, 20 Oct 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000019584/000119312526428562/ownership.xml"
+     "title": "StockAnalysis: CHE overview, market cap (aggregator)",
+     "url": "https://www.stockanalysis.com/stocks/che/"
     },
     {
-     "title": "MarketBeat: CHE insider sales list (aggregator)",
-     "url": "https://www.marketbeat.com/instant-alerts/insider-selling-chemed-nyseche-ceo-sells-107902000-in-stock-2026-08-04/"
-    },
-    {
-     "title": "StockStory: CHE Q3 2026 vs consensus (aggregator)",
-     "url": "https://stockstory.org/us/stocks/nyse/che/news/earnings/chemed-nyseche-exceeds-q3-2026-expectations"
-    },
-    {
-     "title": "Investing.com: Q3 2026 call, shares +9.3% (aggregator)",
-     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-chemed-tops-q3-2026-estimates-as-shares-jump-93-93CH-4980012"
+     "title": "Equibles: CHE short interest (aggregator)",
+     "url": "https://equibles.com/stocks/che/shortinterest"
     },
     {
      "title": "VCP Scanner: CHE institutional holders Q2 2026 (aggregator)",
@@ -5760,10 +5768,6 @@
     {
      "title": "VCP Scanner: hospice/home health peer compare (aggregator)",
      "url": "https://vcpscanner.com/compare/avah-vs-pntg-vs-adus-vs-ensg"
-    },
-    {
-     "title": "Equibles: CHE short interest (aggregator)",
-     "url": "https://equibles.com/stocks/che/shortinterest"
     },
     {
      "title": "Applied Policy: CMS FY2027 hospice final rule +2.3%",
@@ -7956,6 +7960,446 @@
     {
      "title": "ISM Manufacturing PMI September 2026 (Textile World)",
      "url": "https://www.textileworld.com/textile-world/2026/10/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report/"
+    }
+   ]
+  },
+  "US:VRTX": {
+   "market": "US",
+   "code": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "date": "2026-10-29",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$540.00",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Vertex is the profitable cystic fibrosis leader diversifying into pain (Journavx), gene therapy (Casgevy), kidney disease (povetacicept, FDA decision 30 Nov 2026) and endocrinology via the ~$10B Crinetics deal closed 1 Sep 2026. Revenue grows about 10-12% and adjusted EPS only +4.6% in Q2 2026, far below SEPA's 25% bar, and Crinetics costs push consensus Q3 EPS negative. Clustered insider selling in Feb-Jul 2026 and 95% institutional ownership also cap it at Watch only.",
+   "catalyst": "Non-CF launches (Alyftrek, Journavx, Casgevy), the Crinetics acquisition closed 1 Sep 2026 and the povetacicept IgAN FDA decision due 30 Nov 2026.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS Q3'25 $4.80 +9.6%, Q4 $5.03 +26% (agg base $3.98), Q1'26 $4.47 +10.1%, Q2 $4.73 +4.6% (calc). Slowing; FY25 GAAP $15.32 record",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Rev Q3'25 +11%, Q4 +10%, Q1'26 +8%, Q2 +12% ($3.33B), organic, ~1.5pt FX help. Below 20%; CF ~95% of sales, Trikafta -2% as Alyftrek cannibalizes",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 GAAP gross 85.3% vs 86.3%, adj op 42.7% vs 44.7%, net 33.0% vs 34.8% (calc); adj SG&A +45%. Flat to slightly down; no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "1H26 OCF $2.55B vs GAAP NI $2.13B; AR +4% YTD. Concern: adj EPS excludes ~$337M 1H SBC; $802M buybacks; Crinetics charges will distort EPS",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q2 rev $3.33B vs $3.22B est, adj EPS $4.73 vs $4.75 (agg); FY26 rev guide raised to $13.1-13.2B. Q3 EPS est cut to -$1.20 from $4.91 (Crinetics)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: Alyftrek Q2 $574M (vs $157M), Journavx 4x, Casgevy +151%; Crinetics (Palsonify) closed 1 Sep 2026; povetacicept PDUFA 30 Nov 2026",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "CF monopoly leader, institutional favourite (33 analysts, 24 Strong Buy). XLV +22% 1yr; Gilead near record high 15 Oct 2026. Not cyclical",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Inst 95.1% (30 Jun 2026). Clustered sales, no buys: CEO 40k 27 Feb (10b5-1), Sachdev 58.6k Feb, McKechnie, Bozic, Liu; Bozic/Tatsis 10b5-1 May-Jul",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026 cash $13.6B, no borrowings shown; ~$10B Crinetics paid 1 Sep (cash + $4.5B bridge facility). 1H26 OCF $2.55B; TTM ROE ~22% (calc)",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 results 2 Nov 2026 AMC; povetacicept PDUFA 30 Nov; inaxaplin Ph2 data this fall. Short int 4.50M (1.8%) 30 Sep, down from 4.72M. Fell ~10% after Q3'25",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 4 Aug 2026 (Q2); next earnings 2 Nov 2026 (company PR 7 Oct). Routine S-3ASR shelf Feb 2025; no offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 report 2 Nov 2026 AMC with first Crinetics accounting; consensus EPS -$1.20 (range -$29.51 to $5.06) means a messy print",
+    "Povetacicept PDUFA 30 Nov 2026: a CRL or weak label vs Otsuka's Voyxact would hit the renal story",
+    "Crinetics accretive only in 2029; opex step-up could cut FY27 EPS (consensus ~$18.29)",
+    "Trikafta down 2% in Q2 as Alyftrek cannibalizes; non-CF must reach $500M+ in 2026",
+    "Pivot $537.81 and price $540: no profit cushion 4 days before earnings"
+   ],
+   "next_event": "Q3 2026 results, 2 Nov 2026 after market close (verified, company PR 7 Oct 2026); povetacicept PDUFA 30 Nov 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q2 2026 earnings release, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000256/ex-991_q22026.htm"
+    },
+    {
+     "title": "Q2 2026 10-Q (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000259/vrtx-20260630.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/vertex-reports-first-quarter-2026-financial-results"
+    },
+    {
+     "title": "Q4 and FY2025 earnings release (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/vertex-reports-fourth-quarter-and-full-year-2025-financial-results"
+    },
+    {
+     "title": "Q3 2025 earnings release (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/vertex-reports-third-quarter-2025-financial-results"
+    },
+    {
+     "title": "Vertex to announce Q3 2026 results 2 Nov (company PR, BioSpace)",
+     "url": "https://www.biospace.com/press-releases/vertex-to-announce-third-quarter-2026-financial-results-november-2nd"
+    },
+    {
+     "title": "Vertex completes Crinetics acquisition (American Pharmaceutical Review)",
+     "url": "https://www.americanpharmaceuticalreview.com/1315-News/627846-Vertex-Completes-10-Billion-Crinetics-Acquisition-Reshapes-Leadership-Team/"
+    },
+    {
+     "title": "CEO Form 4, 27 Feb 2026 (StockTitan)",
+     "url": "https://www.stocktitan.net/sec-filings/VRTX/form-4-vertex-pharmaceuticals-inc-ma-insider-trading-activity-7dcbe349d706.html"
+    },
+    {
+     "title": "VRTX SEC filings list Jul-Aug 2026 (StockTitan)",
+     "url": "https://www.stocktitan.net/sec-filings/VRTX/page-2.html"
+    },
+    {
+     "title": "VRTX insider transactions (aggregator)",
+     "url": "https://new.quantisnow.com/insiders/VRTX"
+    },
+    {
+     "title": "Povetacicept FDA review and IgAN competition (BioSpace)",
+     "url": "https://www.biospace.com/business/vertex-unfazed-by-competitive-igan-space-as-fda-verdict-looms"
+    },
+    {
+     "title": "Q3 2026 preview, consensus (24/7 Wall St, aggregator)",
+     "url": "https://247wallst.com/investing/2026/10/26/the-500-million-non-cf-factor-vertex-investors-cant-ignore-on-nov-2/"
+    },
+    {
+     "title": "Q3 2026 preview, Zacks (aggregator)",
+     "url": "https://www.tradingview.com/news/zacks:af9787de9094b:0-vertex-gears-up-to-report-q3-earnings-is-a-beat-in-the-cards/"
+    },
+    {
+     "title": "Earnings preview, Barchart (aggregator)",
+     "url": "https://finance.yahoo.com/healthcare/articles/know-ahead-vertex-pharmaceuticals-earnings-124412257.html"
+    },
+    {
+     "title": "Q2 2026 vs estimates (aggregator)",
+     "url": "https://app.sentisense.ai/stories/vertex-pharmaceuticals-beats-q2-earnings-estimates-raises-guidance-08042026"
+    },
+    {
+     "title": "Q4 2025 vs estimates (Chartmill, aggregator)",
+     "url": "https://www.chartmill.com/news/VRTX/Chartmill-41911-Vertex-Pharmaceuticals-Inc-NASDAQVRTX-Posts-Mixed-Q4-2025-Results-Provides-2026-Guidance"
+    },
+    {
+     "title": "Q4 2024 adjusted EPS (StockStory, aggregator)",
+     "url": "https://itiger.com/news/2510147813"
+    },
+    {
+     "title": "Institutional holdings (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/vrtx/holdings"
+    },
+    {
+     "title": "Short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/vrtx/short-interest"
+    },
+    {
+     "title": "S-3ASR shelf, Feb 2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/875320/000119312525026189/d914887ds3asr.htm"
+    },
+    {
+     "title": "Gilead on track for record high close (Dow Jones/Morningstar)",
+     "url": "https://www.morningstar.com/news/dow-jones/202610155755/gilead-sciences-on-track-for-record-high-close-data-talk"
+    }
+   ]
+  },
+  "US:LAMR": {
+   "market": "US",
+   "code": "LAMR",
+   "name": "Lamar Advertising Company",
+   "date": "2026-10-29",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$159.03",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Lamar, the largest US billboard REIT (~US$16.2B cap, calc), is seeing ad demand re-accelerate: Q2'26 revenue +6.5%, AFFO/share +8% to $2.40, record 49.2% EBITDA margin and a raised FY26 AFFO guide of $8.75-8.90. But it is a mid-single-digit grower: GAAP diluted EPS fell 10% in H1'26 (Q2 +4%) and FY26 EPS guidance implies only +3-4%, far from SEPA's 25%+ bar.",
+   "catalyst": "Ad demand re-acceleration (AI/tech advertisers, 2026 midterm political spend, programmatic) lifted acq-adjusted revenue growth to 6.1% in Q2'26 and drove a guidance raise on 6 Aug 2026; MODERATE.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q3'25 $1.40 -3%; Q1'26 $1.00 -26% (Vistar gain in base); Q2'26 $1.58 +4%; H1'26 -10%. AFFO/sh Q2 $2.40 +8%. FY26 EPS guide +3-4%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue YoY: Q3'25 +3.8%; Q4'25 +2.8%; Q1'26 $528M +4.5%; Q2'26 $617M +6.5% (acq-adj +6.1%, best since Q2'22). Mostly organic; far under 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Adj EBITDA margin Q2'26 49.2% record vs 48.1% (calc); Q1 42.9% vs 41.6% (calc). GAAP op margin Q2 33.7% vs 34.1% (calc). No Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "H1'26 OCF $400M vs NI $267M; 2026 gains small ($15M H1). Concern: GAAP EPS swung by gains (Vistar $68M Q1'25); receivables +9% vs sales +6.5%",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 AFFO/sh $2.40 vs $2.21 est (agg); rev $616.7M vs $608M. 6 Aug: FY26 AFFO/sh guide raised to $8.75-8.90 from $8.50-8.70; EPS to $5.95-5.99",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Ad demand re-accelerating: AI/tech and political spend, programmatic; acq-adj revenue +6.1% in Q2'26, guide raised 6 Aug 2026. MODERATE",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Largest US billboard REIT, institutional favourite, mid-cycle ad market. Peer OUT +36% YTD at 1 Jul (trade press); CCO being sold to Mubadala",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "~101.6M sh (Jul 26), -0.4% vs Jul 23 (calc); no raises. Inst 84-94% (agg): over-owned. Sales: CFO Mar/May, EVP Mar, dir Sep (~$3.7M calc); no buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 26: debt $3.51B, cash $68M, net debt ~3.1x TTM adj EBITDA (calc); liquidity $720M; H1 OCF $400M. ROE ~57% (calc, low book). No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 results 5 Nov 2026 pre-mkt (verified); midterms 3 Nov. Short int 3.16M sh (15 Oct, 3.1% of shares), down 26% in 6 mths. Hold: profit cushion only",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 6 Aug 2026 (Q2). Next earnings 5 Nov 2026. Auto shelf (Jul 2024) and US$400M ATM both unused; no secondary; no buybacks in 2026",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 results 5 Nov 2026: Q3 consensus AFFO/sh ~$2.26 (+3%, agg) and rev ~$621M; Q4/2027 pacing is the swing factor",
+    "2026 midterm political spend rolls off after 3 Nov, making 2027 comparisons harder",
+    "Ad recession or tariff-driven pullback by local and national advertisers",
+    "Higher bond yields could de-rate REITs; ~US$3.5B debt and AR facility at variable rates",
+    "Insiders only sell (CFO, EVP, director in 2026) and institutions own 84-94%: little new sponsorship"
+   ],
+   "next_event": "Q3 2026 results, 5 Nov 2026 before market open (call 8:00am CT), confirmed by company release 7 Oct 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000021/lamr8kexhibit9912026q2.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000014/lamr8kexhibit9912026q1.htm"
+    },
+    {
+     "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (20 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000006/lamr8kexhibit9912025q4.htm"
+    },
+    {
+     "title": "Q3 2025 earnings release, 8-K Ex 99.1 (6 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042525000008/lamr8kexhibit9912025q3.htm"
+    },
+    {
+     "title": "Q2 2026 Form 10-Q (6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000024/lamr-20260630.htm"
+    },
+    {
+     "title": "8-K AR securitization amendment (6 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526415546/d180378d8k.htm"
+    },
+    {
+     "title": "8-K dividend and buyback extension (26 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526076937/d25344d8k.htm"
+    },
+    {
+     "title": "Form 4 filings, SEC EDGAR LAMR filing index",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090425&type=4"
+    },
+    {
+     "title": "Q3 2026 results date announcement (7 Oct 2026, via Finviz)",
+     "url": "https://finviz.com/news/400094/lamar-advertising-company-to-release-third-quarter-ended-september-30-2026-operating-results"
+    },
+    {
+     "title": "Nasdaq: Q2 AFFO increases, raises FY26 guidance (prior guide)",
+     "url": "https://www.nasdaq.com/articles/lamar-advertising-q2-affo-increases-raises-fy26-guidance"
+    },
+    {
+     "title": "Q2 2026 call transcript excerpt (aggregator)",
+     "url": "https://statementdog.com/analysis/LAMR/earnings_calls/316225"
+    },
+    {
+     "title": "Earnings Whispers: Q2 consensus vs actual (aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/LAMR"
+    },
+    {
+     "title": "Benzinga earnings forecasts (aggregator)",
+     "url": "https://www.benzinga.com/quote/LAMR/earnings-forecasts"
+    },
+    {
+     "title": "Equibles short interest and institutional ownership (aggregator)",
+     "url": "https://equibles.com/stocks/lamr/shortinterest"
+    },
+    {
+     "title": "InsiderTrades/MarketBeat: institutional ownership 93.78% (aggregator)",
+     "url": "https://www.insidertrades.com/alerts/nasdaq-lamr-insider-buying-and-selling-2026-03-26"
+    },
+    {
+     "title": "Billboard Insider: Lamar and OUTFRONT outperform in 2Q 2026",
+     "url": "https://billboardinsider.com/lamar-and-outfront-outperform-market-in-2q-2026/"
+    }
+   ]
+  },
+  "US:ICUI": {
+   "market": "US",
+   "code": "ICUI",
+   "name": "ICU Medical",
+   "date": "2026-10-29",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$168.65",
+   "verdict": "Reject",
+   "confidence": "medium",
+   "summary": "ICU Medical is a post-Smiths Medical integration story: Infusion Systems (Plum Solo/Duo platform) grew 12% organic in Q2 2026 and FY26 adjusted EPS guidance was raised to $8.60-9.00. But reported sales are flat after the IV Solutions divestiture (Q2 2026 +0.5% GAAP, +6% organic) and adjusted EPS growth is only +13-15%. Six insiders sold on the open market within four weeks in Aug-Sep 2026, so the verdict is Reject.",
+   "catalyst": "Plum Solo/Duo IV pump platform (FDA 510(k) Apr 2025) driving Infusion Systems +12% organic in Q2 2026, plus FY26 guidance raise on 6 Aug 2026 (MODERATE).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS: Q2'26 $2.37 +13% (calc), Q1'26 $1.97 +15%, Q4'25 $1.91 -9%, Q3'25 $2.03 +28%. GAAP Q2'26 $0.76 vs $1.43. Below +25%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q2'26 (Apr-Jun) rev $551.7M, +0.5% GAAP (calc), +6% organic; Q1'26 -12% GAAP, +1% organic; IV Solutions divested May 2025",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 adj GM 41% vs 40%; adj EBITDA margin 19.9% vs 18.3% (calc); GAAP op margin 7.1% vs 1.9% (calc). No Code 33: sales flat",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Biggest concern: GAAP EPS $0.76 vs adj $2.37 in Q2'26; ~$52M restructuring every year, $50M SBC. H1'26 OCF $119.1M vs GAAP NI $49.2M",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS $2.37 vs $1.91 consensus (aggregator), rev beat; FY26 adj EPS guide raised to $8.60-9.00 from $7.75-8.45 (6 Aug 2026)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: Plum Solo/Duo pump platform cleared Apr 2025; Infusion Systems Q2'26 $189.0M, +12% organic; tariff refund $18.9M (non-recurring)",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround / integration story in health care supplies, not a growth leader; FY25 rev $2.23B down from $2.38B; group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "6 insiders (COO, CFO, CIO, GC, VP, director) sold open-market 11 Aug-3 Sep 2026, no buys in 12m; 13F holdings ~105% of 25.0M shares (aggregator)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash $298.3M, debt $1,231.2M, net debt $941.5M, 2.28x EBITDA; H1'26 FCF $89.3M; TTM GAAP ROE ~1.4% (calc). No raise likely",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3'26 results 5 Nov 2026 after close (company-confirmed 22 Oct). Short interest 1.71M sh, 6.8% of shares, 7.8 days, up 32% since Apr",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2'26 (period 30 Jun 2026), filed Aug 2026; next earnings 5 Nov 2026. No secondary, shelf or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 2026 results on 5 Nov 2026 (after close), 7 days away: guidance already raised, so the bar is higher (consensus adj EPS ~$2.14, aggregator).",
+    "Clustered open-market insider selling at $168-$183 in Aug-Sep 2026 after the post-earnings rally.",
+    "Short interest rising to a 6-month high (1.71M shares, 7.8 days to cover, 15 Oct 2026).",
+    "2025 FDA warning letter (MedFusion 4000, CADD Solis) still unresolved; recall/remediation costs ~$25M a year.",
+    "To change the verdict: organic growth sustained near 10%+, adj EPS growth of 25%+, and no further insider selling."
+   ],
+   "next_event": "Q3 2026 results, 5 Nov 2026 after close (call 4:30 pm ET), confirmed by company release 22 Oct 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000883984/000088398426000040/exhibit991q22026er.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000883984/000088398426000028/exhibit991q12026er.htm"
+    },
+    {
+     "title": "Q4 2025 earnings release and FY26 guidance, 8-K Ex 99.1 (19 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000007/exhibit991q42025er.htm"
+    },
+    {
+     "title": "Q3 2025 earnings release, 8-K Ex 99.1 (6 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398425000034/exhibit991q32025er.htm"
+    },
+    {
+     "title": "10-Q for quarter ended 30 Jun 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000883984/000088398426000041/icui-20260630.htm"
+    },
+    {
+     "title": "Form 4, Ben Sousa (CIO) sale 12 Aug 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000883984/000201341226000003/edgardoc.xml"
+    },
+    {
+     "title": "Insider transaction history (aggregator)",
+     "url": "https://www.secform4.com/insider-trading/883984.htm"
+    },
+    {
+     "title": "Q3 2026 earnings call timing release, 22 Oct 2026 (aggregator)",
+     "url": "https://www.biopharmawatch.com/news/ICUI/icu-medical-q3-2026-earnings-call"
+    },
+    {
+     "title": "Earnings date and consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/icui"
+    },
+    {
+     "title": "Q2 CY2026 results vs consensus (aggregator)",
+     "url": "https://stocks.observer-reporter.com/observerreporter/article/stockstory-2026-8-6-icu-medical-nasdaqicui-reports-strong-q2-cy2026"
+    },
+    {
+     "title": "Institutional holdings, 13F (aggregator)",
+     "url": "https://equibles.com/stocks/icui/holdings"
+    },
+    {
+     "title": "Short interest (aggregator)",
+     "url": "https://equibles.com/stocks/icui/shortinterest"
+    },
+    {
+     "title": "Plum Solo / Plum Duo FDA 510(k) clearance (aggregator)",
+     "url": "https://www.tipranks.com/news/the-fly/icu-medical-announces-fda-510k-clearance-for-plum-solo-plum-duo-pumps"
     }
    ]
   }
