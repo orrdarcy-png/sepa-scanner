@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:18:50Z",
+ "generated": "2026-10-29T22:16:16Z",
  "stocks": [
   {
    "code": "ADI",
@@ -8,15 +8,15 @@
    "industry": "Semiconductors",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 428.27,
-   "pivot": 427.27,
-   "dist_pivot": 0.2,
+   "price": 433.28,
+   "pivot": 429.64,
+   "dist_pivot": 0.8,
    "rs": 89,
-   "score": 64,
+   "score": 65,
    "stage": "2",
-   "base_no": 6,
+   "base_no": 7,
    "warnings": [
-    "Late-stage base (\u2248 base 6): treat as a trade, sell into strength"
+    "Late-stage base (\u2248 base 7): treat as a trade, sell into strength"
    ],
    "ff": {
     "data": true,
@@ -26,69 +26,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "footprint": "18W 22/10 3T",
    "next_earnings": "2026-11-24",
    "priority": 1
-  },
-  {
-   "code": "LGND",
-   "symbol": "LGND",
-   "name": "Ligand Pharmaceuticals, Inc.",
-   "industry": "Biotechnology",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 318.78,
-   "pivot": 317.64,
-   "dist_pivot": 0.4,
-   "rs": 91,
-   "score": 63,
-   "stage": "2",
-   "base_no": 5,
-   "warnings": [
-    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength",
-    "Reports earnings in 1 days (2026-10-29): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "16W 17/5 3T",
-   "next_earnings": "2026-10-29",
-   "priority": 2
-  },
-  {
-   "code": "STLD",
-   "symbol": "STLD",
-   "name": "Steel Dynamics",
-   "industry": "Steel",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 249.99,
-   "pivot": 248.96,
-   "dist_pivot": 0.4,
-   "rs": 82,
-   "score": 53,
-   "stage": "2",
-   "base_no": 3,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "19W 25/7 4T",
-   "next_earnings": "2026-10-19",
-   "priority": 3
   },
   {
    "code": "AMP",
@@ -116,54 +57,25 @@
    "as_of": "2026-10-29",
    "footprint": "5W 16/5 2T",
    "next_earnings": "2026-08-06",
-   "priority": 4
+   "priority": 2
   },
   {
-   "code": "AR",
-   "symbol": "AR",
-   "name": "Antero Resources",
-   "industry": "Oil & Gas Exploration & Production",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 42.11,
-   "pivot": 42.1,
-   "dist_pivot": 0.0,
-   "rs": 79,
-   "score": 49,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Reports earnings in 0 days (2026-10-28): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "29W 29/9 6T",
-   "next_earnings": "2026-10-28",
-   "priority": 5
-  },
-  {
-   "code": "ALKS",
-   "symbol": "ALKS",
-   "name": "Alkermes plc",
+   "code": "AMRX",
+   "symbol": "AMRX",
+   "name": "Amneal Pharmaceuticals",
    "industry": "Pharmaceuticals",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 45.25,
-   "pivot": 45.2,
-   "dist_pivot": 0.1,
-   "rs": 80,
-   "score": 44,
+   "price": 21.35,
+   "pivot": 21.14,
+   "dist_pivot": 1.0,
+   "rs": 95,
+   "score": 54,
    "stage": "2",
-   "base_no": 2,
+   "base_no": 5,
    "warnings": [
-    "Reports earnings in 6 days (2026-11-03): don't hold a full position into the report without a profit cushion"
+    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength",
+    "Reports earnings in 5 days (2026-11-03): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -173,10 +85,188 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "16W 30/5 2T",
+   "as_of": "2026-10-29",
+   "footprint": "5W 12/10 2T",
    "next_earnings": "2026-11-03",
+   "priority": 3
+  },
+  {
+   "code": "FTDR",
+   "symbol": "FTDR",
+   "name": "Frontdoor, Inc.",
+   "industry": "Specialized Consumer Services",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 87.35,
+   "pivot": 87.0,
+   "dist_pivot": 0.4,
+   "rs": 87,
+   "score": 54,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [
+    "Reports earnings in 7 days (2026-11-05): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": true,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "11W 25/5 2T",
+   "next_earnings": "2026-11-05",
+   "priority": 4
+  },
+  {
+   "code": "AIZ",
+   "symbol": "AIZ",
+   "name": "Assurant",
+   "industry": "Multi-line Insurance",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 292.69,
+   "pivot": 289.58,
+   "dist_pivot": 1.1,
+   "rs": 79,
+   "score": 50,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [
+    "Reports earnings in 5 days (2026-11-03): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "12W 14/2 3T",
+   "next_earnings": "2026-11-03",
+   "priority": 5
+  },
+  {
+   "code": "DGX",
+   "symbol": "DGX",
+   "name": "Quest Diagnostics",
+   "industry": "Health Care Services",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 252.92,
+   "pivot": 246.0,
+   "dist_pivot": 2.8,
+   "rs": 85,
+   "score": 47,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "5W 10/3 3T",
+   "next_earnings": "2026-10-22",
    "priority": 6
+  },
+  {
+   "code": "ASH",
+   "symbol": "ASH",
+   "name": "Ashland Global",
+   "industry": "Diversified Chemicals",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 74.38,
+   "pivot": 73.9,
+   "dist_pivot": 0.6,
+   "rs": 83,
+   "score": 47,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [
+    "Reports earnings in 5 days (2026-11-03): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "11W 14/7 2T",
+   "next_earnings": "2026-11-03",
+   "priority": 7
+  },
+  {
+   "code": "GWW",
+   "symbol": "GWW",
+   "name": "W. W. Grainger",
+   "industry": "Industrial Machinery & Supplies & Components",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 1371.86,
+   "pivot": 1370.61,
+   "dist_pivot": 0.1,
+   "rs": 75,
+   "score": 46,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [
+    "Reports earnings in 6 days (2026-11-04): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": true,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "14W 13/3 3T",
+   "next_earnings": "2026-11-04",
+   "priority": 8
+  },
+  {
+   "code": "VRTX",
+   "symbol": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "industry": "Biotechnology",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 540.0,
+   "pivot": 537.81,
+   "dist_pivot": 0.4,
+   "rs": 77,
+   "score": 44,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [
+    "Reports earnings in 4 days (2026-11-02): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "8W 14/5 2T",
+   "next_earnings": "2026-11-02",
+   "priority": 9
   },
   {
    "code": "CHE",
@@ -185,11 +275,11 @@
    "industry": "Health Care Services",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 533.36,
+   "price": 541.92,
    "pivot": 522.59,
-   "dist_pivot": 2.1,
-   "rs": 71,
-   "score": 42,
+   "dist_pivot": 3.7,
+   "rs": 73,
+   "score": 44,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -201,29 +291,26 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "footprint": "11W 12/5 3T",
    "next_earnings": "2026-10-27",
-   "priority": 7
+   "priority": 10
   },
   {
-   "code": "DNOW",
-   "symbol": "DNOW",
-   "name": "NOW Inc",
-   "industry": "Trading Companies & Distributors",
+   "code": "GFF",
+   "symbol": "GFF",
+   "name": "Griffon Corporation",
+   "industry": "Building Products",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 16.5,
-   "pivot": 16.41,
-   "dist_pivot": 0.5,
-   "rs": 77,
-   "score": 42,
+   "price": 102.92,
+   "pivot": 101.68,
+   "dist_pivot": 1.2,
+   "rs": 82,
+   "score": 41,
    "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Largest one-day drop in 6 months happened in the last 2 weeks",
-    "Reports earnings in 8 days (2026-11-05): don't hold a full position into the report without a profit cushion"
-   ],
+   "base_no": 3,
+   "warnings": [],
    "ff": {
     "data": true,
     "pass": false,
@@ -232,10 +319,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "36W 37/9 6T",
-   "next_earnings": "2026-11-05",
-   "priority": 8
+   "as_of": "2026-10-29",
+   "footprint": "11W 18/10 2T",
+   "next_earnings": "2026-11-18",
+   "priority": 11
   },
   {
    "code": "EMR",
@@ -244,15 +331,15 @@
    "industry": "Electrical Components & Equipment",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 167.71,
+   "price": 170.74,
    "pivot": 165.24,
-   "dist_pivot": 1.5,
+   "dist_pivot": 3.3,
    "rs": 77,
-   "score": 40,
+   "score": 41,
    "stage": "2",
    "base_no": 3,
    "warnings": [
-    "Reports earnings in 7 days (2026-11-04): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 6 days (2026-11-04): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -262,10 +349,70 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "footprint": "10W 13/6 2T",
    "next_earnings": "2026-11-04",
-   "priority": 9
+   "priority": 12
+  },
+  {
+   "code": "LAMR",
+   "symbol": "LAMR",
+   "name": "Lamar Advertising Company",
+   "industry": "Other Specialized REITs",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 159.03,
+   "pivot": 157.76,
+   "dist_pivot": 0.8,
+   "rs": 75,
+   "score": 40,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [
+    "Reports earnings in 7 days (2026-11-05): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "13W 14/3 2T",
+   "next_earnings": "2026-11-05",
+   "priority": 13
+  },
+  {
+   "code": "ICUI",
+   "symbol": "ICUI",
+   "name": "ICU Medical",
+   "industry": "Health Care Supplies",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 168.65,
+   "pivot": 168.62,
+   "dist_pivot": 0.0,
+   "rs": 77,
+   "score": 39,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [
+    "Reports earnings in 7 days (2026-11-05): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-10-29",
+   "footprint": "11W 22/6 3T",
+   "next_earnings": "2026-11-05",
+   "priority": 14
   },
   {
    "code": "SM",
@@ -274,15 +421,15 @@
    "industry": "Oil & Gas Exploration & Production",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 39.56,
+   "price": 39.58,
    "pivot": 40.61,
-   "dist_pivot": -2.6,
-   "rs": 95,
+   "dist_pivot": -2.5,
+   "rs": 96,
    "score": 72,
    "stage": "2",
    "base_no": 3,
    "warnings": [
-    "Reports earnings in 6 days (2026-11-03): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 5 days (2026-11-03): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -292,10 +439,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "footprint": "6W 22/4 2T",
    "next_earnings": "2026-11-03",
-   "priority": 10
+   "priority": 15
   },
   {
    "code": "VCTR",
@@ -304,15 +451,15 @@
    "industry": "Asset Management & Custody Banks",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 111.87,
+   "price": 113.81,
    "pivot": 114.23,
-   "dist_pivot": -2.1,
-   "rs": 93,
-   "score": 68,
+   "dist_pivot": -0.4,
+   "rs": 94,
+   "score": 70,
    "stage": "2",
    "base_no": 2,
    "warnings": [
-    "Reports earnings in 7 days (2026-11-04): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 6 days (2026-11-04): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -322,130 +469,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "8W 18/11 2T",
+   "as_of": "2026-10-29",
+   "footprint": "9W 18/11 2T",
    "next_earnings": "2026-11-04",
-   "priority": 11
-  },
-  {
-   "code": "MTDR",
-   "symbol": "MTDR",
-   "name": "Matador Resources",
-   "industry": "Oil & Gas Exploration & Production",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 59.84,
-   "pivot": 60.95,
-   "dist_pivot": -1.8,
-   "rs": 87,
-   "score": 65,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Reports earnings in 6 days (2026-11-03): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "29W 32/4 2T",
-   "next_earnings": "2026-11-03",
-   "priority": 12
-  },
-  {
-   "code": "CRGY",
-   "symbol": "CRGY",
-   "name": "Crescent Energy Company",
-   "industry": "Oil & Gas Exploration & Production",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 13.75,
-   "pivot": 14.025,
-   "dist_pivot": -2.0,
-   "rs": 90,
-   "score": 65,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Reports earnings in 5 days (2026-11-02): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "6W 20/4 2T",
-   "next_earnings": "2026-11-02",
-   "priority": 13
-  },
-  {
-   "code": "WKC",
-   "symbol": "WKC",
-   "name": "World Kinect Corporation",
-   "industry": "Oil & Gas Refining & Marketing",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 36.61,
-   "pivot": 37.49,
-   "dist_pivot": -2.3,
-   "rs": 82,
-   "score": 64,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [
-    "Reports earnings in 1 days (2026-10-29): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "13W 16/6 2T",
-   "next_earnings": "2026-10-29",
-   "priority": 14
-  },
-  {
-   "code": "OXY",
-   "symbol": "OXY",
-   "name": "Occidental Petroleum",
-   "industry": "Oil & Gas Exploration & Production",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 62.86,
-   "pivot": 64.96,
-   "dist_pivot": -3.2,
-   "rs": 84,
-   "score": 61,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Reports earnings in 12 days (2026-11-09): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "29W 29/4 5T",
-   "next_earnings": "2026-11-09",
-   "priority": 15
+   "priority": 16
   },
   {
    "code": "PWH",
@@ -473,36 +500,6 @@
    "as_of": "2026-10-29",
    "footprint": "10W 25/5 2T",
    "next_earnings": "2025-08-11",
-   "priority": 16
-  },
-  {
-   "code": "NPK",
-   "symbol": "NPK",
-   "name": "National Presto Industries, Inc.",
-   "industry": "Aerospace & Defense",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 150.78,
-   "pivot": 154.5,
-   "dist_pivot": -2.4,
-   "rs": 83,
-   "score": 59,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [
-    "Reports earnings in 0 days (2026-10-28): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": true,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-10-28",
-   "footprint": "9W 10/7 3T",
-   "next_earnings": "2026-10-28",
    "priority": 17
   },
   {
