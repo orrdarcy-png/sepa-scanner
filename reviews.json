@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T22:30:45Z",
+  "updated": "2026-10-29T19:32:06Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -6728,6 +6728,426 @@
         {
           "title": "Fintool: defense stocks at 52-week highs (19 Feb 2026)",
           "url": "https://fintool.com/news/defense-stocks-record-highs-iran-supercycle"
+        }
+      ]
+    },
+    "ASX:AMP": {
+      "market": "ASX",
+      "code": "AMP",
+      "name": "AMP Limited",
+      "date": "2026-10-29",
+      "status_at_review": "Breaking out",
+      "price_at_review": "A$2.51",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "AMP is a wealth/platform/bank turnaround whose shares have doubled from the A$1.14 March low on strong 1H26 profit growth, buybacks and a re-rating of its China pension stakes. Underlying EPS is growing about 33%, but group revenue is only growing 4-6% and almost all of the 1H26 profit increase came from equity-accounted China partnerships, not core sales growth, so it falls short of a SEPA candidate.",
+      "catalyst": "China partnerships (20% CLPC, 15% CLAMP) earnings doubled to $56m in 1H26 with ROI guidance raised to 12-15% (6 Aug 2026); Macquarie upgrade 23 Sep 2026 values CLPC stake at A$1.06-1.21bn vs $589m book.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Underlying EPS 1H26 6.9c +32.7% vs 5.2c; 2H25 ~6.1c ~+33% (derived from FY25 11.3c); 1H25 +18%. Accelerating; not a record year",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "1H26 total revenue $1,425m +3.6% (statutory) / $671m +6.2% (presentation) vs 1H25; growth led by partnerships income +68%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "1H26 cost-to-income 60.5% vs 63.0% 1H25; underlying ROE 9.8% vs 7.4%; bank NIM 1.25% -5bps. No Code 33 (sales not accelerating)",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "1H26 stat NPAT $154m vs underlying $174m (items -$20m vs -$33m); FY25 gap $152m. Of +$43m NPAT growth, +$41m from Partnerships & Group",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "16 Jul 26 1H guide $170-180m, delivered $174m; div 3c vs 2c guide; Macquarie FY26 EPS +7% (23 Sep); Ord Minnett to Buy, TP A$2.80 (16 Oct)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: China pension stakes $56m 1H26 NPAT (+107%), ROI guide 12-15%; $150m buyback #2 (Aug 26); 4Q26 bank capital relief",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Turnaround, not leader; core platforms NPAT +15% 1H26 vs HUB24 record inflows. Not cyclical. Peer strength not verified for Oct 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~A$5.9bn (15 Oct 26); shares 2.43bn Jun 26 vs 2.53bn Dec 25 (buybacks). Director on-market buys Feb & Jun 26; inst % not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "CET1 surplus $322m 30 Jun 26 (FY25 $287m); underlying ROE 9.8%; returning capital via buybacks; bank deposits $17.6bn -15% y/y (3Q26)",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next: FY26 results ~17 Feb 2027 (estimate, not confirmed). Short 2.21% (26 Mar) to 1.51% (14 Sep 26). FY25 result day fell 31% (12 Feb 26)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; ongoing on-market buyback ($75m of $150m done at 15 Oct 26)",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "About a third of 1H26 underlying NPAT ($56m of $174m) comes from equity-accounted China stakes, which carry regulatory, disclosure and reporting-lag risk",
+        "Core revenue growth is only mid-single digit; Platforms and S&I revenue margins are guided lower (40-41bps, 60-61bps FY26)",
+        "AMP Bank earnings are falling (1H26 NPAT $20m vs $30m) as deposits shrink -15% y/y and the bank is run for capital release",
+        "Repeated litigation and simplification charges every period; one-off $13m carried interest in 1H26",
+        "History of sharp results reactions (-31% on 12 Feb 2026); next FY26 result ~Feb 2027. A clear acceleration in revenue would upgrade this to SEPA candidate"
+      ],
+      "next_event": "FY26 full-year results, ~17 Feb 2027 (third-party estimate; AMP has not published the date)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "AMP 1H26 Half Year Results and Appendix 4D (6 Aug 2026)",
+          "url": "https://www.amp.com.au/content/dam/corporate/shareholdercentre/files/reports/2026/AMP%20Limited-HY%2026%20Half%20Year%20Results%20and%20Appendix%204D.pdf"
+        },
+        {
+          "title": "AMP 1H26 results presentation (6 Aug 2026)",
+          "url": "https://www.amp.com.au/content/dam/corporate/shareholdercentre/files/reports/2026/AMP%201H%2026%20Results%20presentation_FINAL%20FOR%20ASX.pdf"
+        },
+        {
+          "title": "AMP 3Q26 cashflows and business update (15 Oct 2026, Listcorp)",
+          "url": "https://www.listcorp.com/asx/amp/amp-limited/news/amp-limited-provides-3q-26-cashflows-and-business-update-3422293.html"
+        },
+        {
+          "title": "AMP announces FY25 results (12 Feb 2026)",
+          "url": "https://www.amp.com.au/about-amp/news/2026/february/AMP-announces-FY-25-results-"
+        },
+        {
+          "title": "AMP announces 1H25 results (Aug 2025)",
+          "url": "https://www.amp.com.au/about-amp/news/2025/august/ASX-Release---AMP-announces-1H-25-results"
+        },
+        {
+          "title": "AMP 1H26 earnings call transcript (Investing.com)",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-amp-h1-2026-profit-jumps-as-buyback-lifts-shares-93CH-4839952"
+        },
+        {
+          "title": "AMP lifts 1H26 underlying profit outlook (16 Jul 2026, Kalkine)",
+          "url": "https://kalkine.com.au/news/announcements/amp-limited-lifts-first-half-2026-underlying-profit-outlook-to-170180-million-on-china-partnership-strength-and-carried-interest-recognition"
+        },
+        {
+          "title": "Fool: AMP share price nosedives 31% on FY25 result (12 Feb 2026)",
+          "url": "https://www.fool.com.au/2026/02/12/amp-share-price-nosedives-31-on-earnings-miss-and-disappointing-guidance/"
+        },
+        {
+          "title": "The Bull: Macquarie upgrades AMP (23 Sep 2026)",
+          "url": "https://thebull.com.au/news/amp-shares-stretch-highs-further-as-analyst-raises-price-target/"
+        },
+        {
+          "title": "Ord Minnett AMP target A$2.80 (Oct 2026)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ord-minnett-keeps-aud-2-80-target-for-amp-stock/70422812"
+        },
+        {
+          "title": "ASIC short position report 14 Sep 2026",
+          "url": "https://download.asic.gov.au/short-selling/RR20260914-001-SSDailyAggShortPos.pdf"
+        },
+        {
+          "title": "ASIC short position report 26 Mar 2026",
+          "url": "https://download.asic.gov.au/short-selling/RR20260326-001-SSDailyAggShortPos.pdf"
+        },
+        {
+          "title": "Market Index AMP (director trades, substantial holders; aggregator)",
+          "url": "https://www.marketindex.com.au/asx/amp"
+        },
+        {
+          "title": "InvestSMART AMP announcements list (aggregator)",
+          "url": "https://www.investsmart.com.au/security/asx/amp/amp-limited/announcements"
+        },
+        {
+          "title": "AMP share information / key dates",
+          "url": "https://www.amp.com.au/about-amp/shareholder-centre/share-information"
+        },
+        {
+          "title": "TipRanks AMP next earnings date (aggregator estimate)",
+          "url": "https://www.tipranks.com/stocks/AMLTF/earnings"
+        }
+      ]
+    },
+    "ASX:CDA": {
+      "market": "ASX",
+      "code": "CDA",
+      "name": "Codan Limited",
+      "date": "2026-10-29",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$58.94",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Codan is in a record, accelerating earnings run: statutory EPS rose 54% in 1H FY26 and 81% in 2H FY26, and 1H FY27 NPAT is guided at >=A$162m (vs A$71.2m), driven by unmanned/defence radios and Minelab gold detectors, with no underlying adjustments and cash flow above profit. The verdict is capped at Watch only by insider and major-holder selling: Pamela Wall's ~8m-share block on 5 May 2026, the CEO's sale on 1 Jun 2026 and his further ~43k-share sale flagged at the 20 Oct AGM. On top of that, about 50% of Communications revenue now comes from conflict regions, and the 22 Oct -8.1% drop came on news of Ukraine peace talks.",
+      "catalyst": "29 Sep 2026 trading update and 20 Oct 2026 AGM upgrade: 1H FY27 Communications revenue A$410-420m (vs A$221.8m) at ~40% EBIT margin, NPAT >=A$162m; ASX 100 inclusion Sep 2026 (STRONG).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Stat EPS 1H FY26 39.2c +54% vs 25.4c; 2H FY26 57.3c +81% vs 31.7c; FY26 96.5c +69%, record; 1H FY27 NPAT guide >=$162m (+128%)",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Rev 1H FY26 $393.5m +29%; 2H FY26 $481.5m +31%; FY26 $875.0m +30%, mainly organic; 1H FY27 Comms guide $410-420m vs $221.8m",
+          "result": "PASS"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "EBIT margin 1H FY26 25.4% (21.5%), 2H 30.0% (21.8%); FY26 GM 59.3% vs 56.2%; Comms 1H FY27 ~40% vs 26%. Code 33 likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Statutory only, no underlying adj. FY26 OCF $249.3m vs NPAT $175.2m; inventory -5%, receivables -5% vs sales +30%. Concern: ~50% Comms conflict",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "FY26 slightly above 29 Apr guide; 1H FY27 upgraded 29 Sep and 20 Oct; BP TP 60->73, Moelis 57.56->73.55 (30 Sep); cons FY27 EPS 151.2c",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "STRONG: unmanned/defence radio surge (orderbook $380m +50%, Jun 26), 2 guidance upgrades Sep-Oct 2026, ASX 100 inclusion Sep 2026",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Leader. Group weak 28 Oct: DRO -69%, ASB -48%, EOS -27% off 52w highs. Gold US$4,022 (~A$5,720), 24% off high. Demand conflict-linked",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "~182m sh, flat 3y; mkt cap ~A$10.7bn; inst 12.8% (Feb 26). Wall ~8m-sh block 5 May 26; CEO sold 54k 1 Jun 26, ~43k more flagged 20 Oct",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 2026: cash $50.7m, debt $15.0m, net cash $35.7m (net debt $88.2m Dec 25); FY26 OCF $249.3m; ROE ~31% (calc). No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "1H FY27 result ~Feb 2027 (date TBA; 1H FY26 was 19 Feb). 22 Oct -8.1% on Ukraine peace-talk news. Short 2.03m->0.52m sh (28 Sep-23 Oct)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement/SPP/entitlement or halt found in last 12m. Adaptive Dynamics bought Jul 2026; Chair: capital structure may evolve for M&A",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Conflict demand: ~50% of 1H FY27 Communications revenue from conflict regions (vs ~20% pcp); management says visibility is low and H2 is uncertain. A ceasefire would hit orders and margin.",
+        "Insider and major-holder supply: Wall ~8m-share block at A$39 (5 May 2026); CEO sale 1 Jun 2026; CEO plans to sell ~43k more by Dec 2026.",
+        "Valuation and late-stage base 9: price is ~2x Morningstar's A$28.41 fair value (25 Oct 2026); the stock broke below A$60 on 22 Oct with an 8.1% drop.",
+        "Minelab depends on gold (US$4,022, 24% off its high) and on African demand (Africa A$184m, +60% FY26).",
+        "Possible equity raise to fund a large Communications acquisition (Chair's AGM address, 20 Oct 2026); none announced."
+      ],
+      "next_event": "1H FY27 half-year results, expected mid-to-late Feb 2027 (date not yet announced; 1H FY26 reported 19 Feb 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY26 results announcement, 20 Aug 2026 (ASX)",
+          "url": "https://codan.com.au/wp-content/uploads/2026/08/Codan-FY26-Results-Announcement.pdf"
+        },
+        {
+          "title": "FY26 Appendix 4E and financial report, 20 Aug 2026",
+          "url": "https://codan.com.au/wp-content/uploads/2026/08/3105451.pdf"
+        },
+        {
+          "title": "Annual Report 2026 (top 20 holders, substantial holders)",
+          "url": "https://codan.com.au/wp-content/uploads/2026/09/CODAN-Annual-Report-2026-Web.pdf"
+        },
+        {
+          "title": "1H FY26 statutory accounts, Feb 2026",
+          "url": "https://codan.com.au/wp-content/uploads/2026/02/CDA-H1-FY26-Statutory-Accounts.pdf"
+        },
+        {
+          "title": "1H FY27 trading update, 29 Sep 2026 (Listcorp copy of ASX release)",
+          "url": "https://www.listcorp.com/asx/cda/codan-limited/news/trading-update-3413814.html"
+        },
+        {
+          "title": "2026 AGM Chair's and CEO's addresses, 20 Oct 2026 (ASX)",
+          "url": "https://www.asx.com.au/markets/trade-our-cash-market/announcements.cda"
+        },
+        {
+          "title": "Appendix 3Y A. Ianniello, 28 Aug 2026",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260828/499501695/c64c4b42baf0e09cb37017e4978d4a8c.pdf"
+        },
+        {
+          "title": "Appendix 3Y H. Mackay-Cruise, 25 Jun 2026",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260629/499501695/fac1a9cc638763c916fc7630f503f9e3.pdf"
+        },
+        {
+          "title": "Market Index: A. Ianniello director transactions",
+          "url": "https://www.marketindex.com.au/asx/directors/alf-ianniello"
+        },
+        {
+          "title": "The Bull: block trade 5 May 2026",
+          "url": "https://thebull.com.au/news/codan-shares-fall-back-from-overbought-highs-on-heavy-volume/"
+        },
+        {
+          "title": "The Bull: 22 Oct 2026 drop",
+          "url": "https://thebull.com.au/news/codan-rally-hits-pause-as-shares-slide-into-correction-territory-the-latest/"
+        },
+        {
+          "title": "FNArena CDA consensus (aggregator)",
+          "url": "https://fnarena.com/stock-price-analysis/hardware-equipment/CDA/"
+        },
+        {
+          "title": "Fintel CDA short interest (aggregator)",
+          "url": "https://fintel.io/ss/au/cda"
+        },
+        {
+          "title": "Simply Wall St CDA ownership (aggregator)",
+          "url": "https://simplywall.st/stocks/au/tech/asx-cda/codan-shares/ownership"
+        },
+        {
+          "title": "Stockwirex: Morningstar fair value, 25 Oct 2026",
+          "url": "https://stockwirex.com/?p=52476"
+        },
+        {
+          "title": "ad-hoc-news: AGM guidance lift, 20 Oct 2026",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/codan-lifts-first-half-outlook-what-it-means-for-codan-stock/70407309"
+        }
+      ]
+    },
+    "ASX:MMS": {
+      "market": "ASX",
+      "code": "MMS",
+      "name": "McMillan Shakespeare Limited",
+      "date": "2026-10-29",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$20.07",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Market leader in salary packaging and novated leasing, riding the EV FBT exemption: FY26 (to Jun 2026) UNPATA was a record A$107.9m and Q1 FY27 novated sales rose 14%. But the headline +13.8% EPS growth is against a restated (non-normalised) FY25; against the FY25 normalised EPS reported at the time it is only about +4.6%, 1H FY26 was +1.4%, and FY27 consensus is about +6%. Earnings and sales are far below SEPA thresholds, so this is a quality compounder, not a SEPA earnings leader.",
+      "catalyst": "EV FBT exemption certainty and the BEV shift (75% of Q1 FY27 new novated sales, AGM 23 Oct 2026), plus Oly SME growth (Oly novated sales +77% in FY26); MODERATE.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "FY26 UNPATA EPS 155c, +13.8% vs restated FY25 136c but only +4.6% vs FY25 normalised 148.2c; 1H FY26 72.3c +1.4%; 2H ~+7.5%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 revenue A$602.1m +6.8% vs restated FY25; 1H FY26 A$297.4m +11.2%; 2H FY26 A$304.4m implies slowing; organic. Below 20%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "FY26 operating margin 41.5% vs 39.0%; EBITDA margin 30.0% vs 28.1%; 2H 42.6% vs 1H 40.3%. Expanding, but no Code 33 (sales slowing)",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "FY26 UNPATA-statutory gap small (A$1.2m); concern: dropped normalisation flatters growth. OCF A$68.5m vs NPAT A$106.7m (tax timing)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "1H FY26 UNPATA 7% below consensus (23 Feb 2026); no FY27 guidance; Canaccord FY27 EPS +4.8% (1 Sep 2026); consensus FY27 EPS 162.1c (+6.4%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: EV FBT certainty, BEVs 75% of new novated sales and novated sales +14% in Q1 FY27 (AGM 23 Oct 2026); Oly sales +77% in FY26",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Market leader in salary packaging/novated; mature, mid-cycle. Peer Smartgroup (SIQ) is Watch only (EPS ~+11%); no group earnings momentum",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "~69.6m shares (-0.36% YoY, Aug 2026); inst ~32%; Perpetual cut 10.33%->9.25% (31 Aug 2026), more notices Sep 2026; no open-market director sales found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "Jun 2026 cash A$95.9m; corporate net debt/EBITDA 0.4x; debt mostly Onboard Finance warehouse; ROCE 62.1%; 6.6% yield; no raise expected",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "1H FY27 results ~22 Feb 2027 (forecast, unconfirmed); EV discount review, NDIS reforms; short interest 5.88% (12 May 2026), falling; latest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; on-market buyback of up to A$10m running; established revenue business",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Growth is mostly a rebasing: FY26 EPS was only about +4.6% vs FY25 normalised, and FY27 consensus is about +6%",
+        "Policy risk: Electric Car Discount (FBT exemption) review due by mid-2027, and NDIS pricing and reform hit PSS",
+        "Q1 FY27: novated yield -4% and AMS remarketing profits -15% as demand for used ICE vehicles softens",
+        "Major holder Perpetual trimming (10.33% to 9.25%, 31 Aug 2026); further notices in Sep 2026",
+        "Verdict changes if 1H FY27 (Feb 2027) shows UNPATA EPS of +25% or more on a like-for-like basis"
+      ],
+      "next_event": "1H FY27 half-year results, about 22 Feb 2027 (forecast, not confirmed)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY26 Results ASX announcement (28 Aug 2026)",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260828/499500455/408f937f9902ac2ddc16042e22027f8f.pdf"
+        },
+        {
+          "title": "FY26 Results investor presentation (28 Aug 2026)",
+          "url": "https://bulletin.webull.com/qbd/announcement/20260828/499500455/8378fa67e3bdec519e36eca5fcc4144d.pdf"
+        },
+        {
+          "title": "1H FY26 Results ASX announcement (23 Feb 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260223/pdf/06wl9wtjxjg5fv.pdf"
+        },
+        {
+          "title": "FY25 Results ASX announcement (28 Aug 2025)",
+          "url": "https://announcements.asx.com.au/asxpdf/20250828/pdf/06nj91rzv5hq22.pdf"
+        },
+        {
+          "title": "1H FY25 Results announcement (27 Feb 2025)",
+          "url": "https://quoteapi.com/resources/4ec85c869fdae450/announcements/mms.asx/3A662750/MMS_1HFY25_Results_Market_Announcement.pdf?embed=1"
+        },
+        {
+          "title": "AGM presentation and Q1 FY27 update coverage (23 Oct 2026)",
+          "url": "https://stockwirex.com/asx-stock-news/industrials/mms-mcmillan-shakespeare-fy26-record-unpata-october-2026/"
+        },
+        {
+          "title": "Motley Fool: 1H FY26 vs expectations (23 Feb 2026)",
+          "url": "https://www.fool.com.au/2026/02/23/this-asx-300-stock-has-shed-over-5-following-half-year-results/"
+        },
+        {
+          "title": "FNArena consensus (aggregator)",
+          "url": "https://fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=MMS"
+        },
+        {
+          "title": "Perpetual substantial holding change (2 Sep 2026)",
+          "url": "https://filingreader.com/news-wire/sydney/2026-09-02/perpetual-cuts-stake-in-mcmillan-shakespeare-to-925"
+        },
+        {
+          "title": "InvestSMART MMS announcements list",
+          "url": "https://www.investsmart.com.au/security/asx/mms/mcmillan-shakespeare-limited/announcements"
+        },
+        {
+          "title": "StockAnalysis statistics (aggregator, Aug 2026)",
+          "url": "https://stockanalysis.com/quote/asx/MMS/statistics/"
+        },
+        {
+          "title": "Market Index MMS (dates, director trades)",
+          "url": "https://www.marketindex.com.au/asx/mms"
+        },
+        {
+          "title": "StockWire X short interest (18 May 2026)",
+          "url": "https://stockwirex.com/?p=23194"
         }
       ]
     }
