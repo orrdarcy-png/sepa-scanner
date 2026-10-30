@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T22:16:16Z",
+ "generated": "2026-10-30T08:18:45Z",
  "stocks": [
   {
    "code": "ADI",
@@ -32,34 +32,6 @@
    "priority": 1
   },
   {
-   "code": "AMP",
-   "symbol": "AMP.AX",
-   "name": "AMP LIMITED",
-   "industry": "Financial Services",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 2.51,
-   "pivot": 2.5,
-   "dist_pivot": 0.4,
-   "rs": 91,
-   "score": 63,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "5W 16/5 2T",
-   "next_earnings": "2026-08-06",
-   "priority": 2
-  },
-  {
    "code": "AMRX",
    "symbol": "AMRX",
    "name": "Amneal Pharmaceuticals",
@@ -88,7 +60,7 @@
    "as_of": "2026-10-29",
    "footprint": "5W 12/10 2T",
    "next_earnings": "2026-11-03",
-   "priority": 3
+   "priority": 2
   },
   {
    "code": "FTDR",
@@ -118,7 +90,7 @@
    "as_of": "2026-10-29",
    "footprint": "11W 25/5 2T",
    "next_earnings": "2026-11-05",
-   "priority": 4
+   "priority": 3
   },
   {
    "code": "AIZ",
@@ -148,7 +120,7 @@
    "as_of": "2026-10-29",
    "footprint": "12W 14/2 3T",
    "next_earnings": "2026-11-03",
-   "priority": 5
+   "priority": 4
   },
   {
    "code": "DGX",
@@ -176,7 +148,7 @@
    "as_of": "2026-10-29",
    "footprint": "5W 10/3 3T",
    "next_earnings": "2026-10-22",
-   "priority": 6
+   "priority": 5
   },
   {
    "code": "ASH",
@@ -206,7 +178,7 @@
    "as_of": "2026-10-29",
    "footprint": "11W 14/7 2T",
    "next_earnings": "2026-11-03",
-   "priority": 7
+   "priority": 6
   },
   {
    "code": "GWW",
@@ -236,7 +208,7 @@
    "as_of": "2026-10-29",
    "footprint": "14W 13/3 3T",
    "next_earnings": "2026-11-04",
-   "priority": 8
+   "priority": 7
   },
   {
    "code": "VRTX",
@@ -266,7 +238,7 @@
    "as_of": "2026-10-29",
    "footprint": "8W 14/5 2T",
    "next_earnings": "2026-11-02",
-   "priority": 9
+   "priority": 8
   },
   {
    "code": "CHE",
@@ -294,7 +266,7 @@
    "as_of": "2026-10-29",
    "footprint": "11W 12/5 3T",
    "next_earnings": "2026-10-27",
-   "priority": 10
+   "priority": 9
   },
   {
    "code": "GFF",
@@ -322,7 +294,7 @@
    "as_of": "2026-10-29",
    "footprint": "11W 18/10 2T",
    "next_earnings": "2026-11-18",
-   "priority": 11
+   "priority": 10
   },
   {
    "code": "EMR",
@@ -352,7 +324,7 @@
    "as_of": "2026-10-29",
    "footprint": "10W 13/6 2T",
    "next_earnings": "2026-11-04",
-   "priority": 12
+   "priority": 11
   },
   {
    "code": "LAMR",
@@ -382,7 +354,7 @@
    "as_of": "2026-10-29",
    "footprint": "13W 14/3 2T",
    "next_earnings": "2026-11-05",
-   "priority": 13
+   "priority": 12
   },
   {
    "code": "ICUI",
@@ -412,7 +384,7 @@
    "as_of": "2026-10-29",
    "footprint": "11W 22/6 3T",
    "next_earnings": "2026-11-05",
-   "priority": 14
+   "priority": 13
   },
   {
    "code": "SM",
@@ -442,7 +414,7 @@
    "as_of": "2026-10-29",
    "footprint": "6W 22/4 2T",
    "next_earnings": "2026-11-03",
-   "priority": 15
+   "priority": 14
   },
   {
    "code": "VCTR",
@@ -472,7 +444,7 @@
    "as_of": "2026-10-29",
    "footprint": "9W 18/11 2T",
    "next_earnings": "2026-11-04",
-   "priority": 16
+   "priority": 15
   },
   {
    "code": "PWH",
@@ -481,11 +453,11 @@
    "industry": "Automobiles & Components",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 11.48,
+   "price": 11.44,
    "pivot": 11.77,
-   "dist_pivot": -2.5,
-   "rs": 86,
-   "score": 59,
+   "dist_pivot": -2.8,
+   "rs": 87,
+   "score": 58,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -497,10 +469,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "10W 25/5 2T",
    "next_earnings": "2025-08-11",
-   "priority": 17
+   "priority": 16
   },
   {
    "code": "WGN",
@@ -509,15 +481,15 @@
    "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 4.72,
+   "price": 4.75,
    "pivot": 4.91,
-   "dist_pivot": -3.9,
+   "dist_pivot": -3.3,
    "rs": 87,
    "score": 54,
    "stage": "2",
-   "base_no": 12,
+   "base_no": 11,
    "warnings": [
-    "Late-stage base (\u2248 base 12): treat as a trade, sell into strength"
+    "Late-stage base (\u2248 base 11): treat as a trade, sell into strength"
    ],
    "ff": {
     "data": true,
@@ -527,10 +499,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "19W 26/8 6T",
    "next_earnings": "2025-08-19",
-   "priority": 18
+   "priority": 17
   },
   {
    "code": "CDA",
@@ -539,11 +511,11 @@
    "industry": "Technology Hardware & Equipment",
    "status": "Buy-ready",
    "setup": "low cheat",
-   "price": 58.94,
+   "price": 59.5,
    "pivot": 60.18,
-   "dist_pivot": -2.1,
-   "rs": 94,
-   "score": 48,
+   "dist_pivot": -1.1,
+   "rs": 95,
+   "score": 49,
    "stage": "2",
    "base_no": 9,
    "warnings": [
@@ -558,38 +530,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "4W 23/23 1T",
    "next_earnings": "2026-08-20",
-   "priority": 19
-  },
-  {
-   "code": "SBM",
-   "symbol": "SBM.AX",
-   "name": "ST BARBARA LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "Power play",
-   "price": 0.85,
-   "pivot": 0.8769,
-   "dist_pivot": -3.1,
-   "rs": 97,
-   "score": 67,
-   "stage": "2-",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": false,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": null,
-   "next_earnings": "2026-09-02",
-   "priority": 20
+   "priority": 18
   },
   {
    "code": "BVS",
@@ -598,11 +542,11 @@
    "industry": "Software & Services",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 3.39,
+   "price": 3.38,
    "pivot": 3.455,
-   "dist_pivot": -1.9,
-   "rs": 94,
-   "score": 62,
+   "dist_pivot": -2.2,
+   "rs": 95,
+   "score": 64,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -614,10 +558,38 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "11W 14/9 2T",
+   "as_of": "2026-10-30",
+   "footprint": "11W 14/3 3T",
    "next_earnings": "2026-08-12",
-   "priority": 21
+   "priority": 19
+  },
+  {
+   "code": "WTM",
+   "symbol": "WTM.AX",
+   "name": "WARATAH MINERALS LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 0.77,
+   "pivot": 0.795,
+   "dist_pivot": -3.1,
+   "rs": 89,
+   "score": 51,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": false,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-10-30",
+   "footprint": "5W 28/8 3T",
+   "next_earnings": "2025-08-14",
+   "priority": 20
   },
   {
    "code": "SIQ",
@@ -644,10 +616,66 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "11W 26/3 2T",
    "next_earnings": "2025-08-28",
+   "priority": 21
+  },
+  {
+   "code": "AMP",
+   "symbol": "AMP.AX",
+   "name": "AMP LIMITED",
+   "industry": "Financial Services",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 2.54,
+   "pivot": 2.54,
+   "dist_pivot": 0.0,
+   "rs": 93,
+   "score": 51,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-10-30",
+   "footprint": "5W 16/16 1T",
+   "next_earnings": "2026-08-06",
    "priority": 22
+  },
+  {
+   "code": "MMS",
+   "symbol": "MMS.AX",
+   "name": "MCMILLAN SHAKESPEARE LIMITED",
+   "industry": "Commercial & Professional Services",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 20.23,
+   "pivot": 20.595,
+   "dist_pivot": -1.8,
+   "rs": 81,
+   "score": 50,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": false,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-10-30",
+   "footprint": "9W 16/3 2T",
+   "next_earnings": "2026-08-28",
+   "priority": 23
   },
   {
    "code": "NHC",
@@ -656,11 +684,11 @@
    "industry": "Energy",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.99,
+   "price": 5.94,
    "pivot": 6.2,
-   "dist_pivot": -3.4,
+   "dist_pivot": -4.2,
    "rs": 88,
-   "score": 51,
+   "score": 50,
    "stage": "2",
    "base_no": 4,
    "warnings": [
@@ -674,37 +702,9 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "6W 11/6 2T",
+   "as_of": "2026-10-30",
+   "footprint": "7W 11/6 2T",
    "next_earnings": "2026-09-15",
-   "priority": 23
-  },
-  {
-   "code": "MMS",
-   "symbol": "MMS.AX",
-   "name": "MCMILLAN SHAKESPEARE LIMITED",
-   "industry": "Commercial & Professional Services",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 20.07,
-   "pivot": 20.595,
-   "dist_pivot": -2.5,
-   "rs": 78,
-   "score": 46,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": false,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "9W 16/3 2T",
-   "next_earnings": "2026-08-28",
    "priority": 24
   },
   {
@@ -714,15 +714,15 @@
    "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 3.96,
-   "pivot": 4.03,
-   "dist_pivot": -1.7,
-   "rs": 77,
-   "score": 46,
+   "price": 3.99,
+   "pivot": 4.04,
+   "dist_pivot": -1.2,
+   "rs": 79,
+   "score": 48,
    "stage": "2",
    "base_no": 2,
    "warnings": [
-    "Reports earnings in 11 days (2026-11-09): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 10 days (2026-11-09): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -732,38 +732,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "6W 10/7 3T",
    "next_earnings": "2026-11-09",
    "priority": 25
-  },
-  {
-   "code": "SDF",
-   "symbol": "SDF.AX",
-   "name": "STEADFAST GROUP LIMITED",
-   "industry": "Insurance",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 5.81,
-   "pivot": 5.81,
-   "dist_pivot": 0.0,
-   "rs": 81,
-   "score": 42,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "51W 41/0 22T",
-   "next_earnings": "2026-08-26",
-   "priority": 26
   },
   {
    "code": "SOL",
@@ -772,11 +744,11 @@
    "industry": "Financial Services",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 45.59,
+   "price": 45.77,
    "pivot": 46.93,
-   "dist_pivot": -2.9,
-   "rs": 71,
-   "score": 41,
+   "dist_pivot": -2.5,
+   "rs": 74,
+   "score": 45,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -788,25 +760,53 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "5W 9/4 3T",
    "next_earnings": "2026-09-24",
+   "priority": 26
+  },
+  {
+   "code": "SDF",
+   "symbol": "SDF.AX",
+   "name": "STEADFAST GROUP LIMITED",
+   "industry": "Insurance",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 5.8,
+   "pivot": 5.81,
+   "dist_pivot": -0.2,
+   "rs": 84,
+   "score": 44,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-10-30",
+   "footprint": "51W 41/0 22T",
+   "next_earnings": "2026-08-26",
    "priority": 27
   },
   {
-   "code": "EVT",
-   "symbol": "EVT.AX",
-   "name": "EVT LIMITED",
-   "industry": "Media & Entertainment",
+   "code": "CCP",
+   "symbol": "CCP.AX",
+   "name": "CREDIT CORP GROUP LIMITED",
+   "industry": "Financial Services",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 14.98,
-   "pivot": 15.49,
-   "dist_pivot": -3.3,
-   "rs": 80,
-   "score": 41,
+   "price": 15.01,
+   "pivot": 15.34,
+   "dist_pivot": -2.2,
+   "rs": 88,
+   "score": 44,
    "stage": "2",
-   "base_no": 1,
+   "base_no": 2,
    "warnings": [],
    "ff": {
     "data": true,
@@ -816,9 +816,9 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "61W 36/5 13T",
-   "next_earnings": "2026-08-24",
+   "as_of": "2026-10-30",
+   "footprint": "63W 46/6 11T",
+   "next_earnings": "2026-08-04",
    "priority": 28
   },
   {
@@ -828,11 +828,11 @@
    "industry": "Energy",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 32.74,
-   "pivot": 34.12,
-   "dist_pivot": -4.0,
-   "rs": 78,
-   "score": 40,
+   "price": 33.33,
+   "pivot": 33.68,
+   "dist_pivot": -1.0,
+   "rs": 80,
+   "score": 42,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
@@ -844,25 +844,25 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "footprint": "30W 24/6 6T",
    "next_earnings": "2026-08-24",
    "priority": 29
   },
   {
-   "code": "CCP",
-   "symbol": "CCP.AX",
-   "name": "CREDIT CORP GROUP LIMITED",
-   "industry": "Financial Services",
+   "code": "EVT",
+   "symbol": "EVT.AX",
+   "name": "EVT LIMITED",
+   "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 14.83,
-   "pivot": 15.34,
-   "dist_pivot": -3.3,
-   "rs": 84,
-   "score": 37,
+   "price": 15.22,
+   "pivot": 15.49,
+   "dist_pivot": -1.7,
+   "rs": 79,
+   "score": 41,
    "stage": "2",
-   "base_no": 2,
+   "base_no": 1,
    "warnings": [],
    "ff": {
     "data": true,
@@ -872,9 +872,9 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-10-29",
-   "footprint": "63W 46/11 10T",
-   "next_earnings": "2026-08-04",
+   "as_of": "2026-10-30",
+   "footprint": "61W 36/5 13T",
+   "next_earnings": "2026-08-24",
    "priority": 30
   }
  ]
