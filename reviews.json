@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:35:13Z",
+ "updated": "2026-10-30T22:26:59Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -6418,23 +6418,23 @@
   "US:CRGY": {
    "market": "US",
    "code": "CRGY",
-   "name": "Crescent Energy",
-   "date": "2026-10-28",
-   "status_at_review": "Buy-ready",
-   "price_at_review": "US$13.75",
+   "name": "Crescent Energy Company",
+   "date": "2026-10-30",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$14.20",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "Crescent is a KKR-managed oil and gas roll-up riding a war-driven oil spike. Q2 2026 (Apr-Jun) adjusted EPS was $0.69, up 73% YoY, on revenue up 55%, but that is the first YoY gain in four quarters, sales growth is mostly acquired, and hedges cap the upside. The verdict is capped at Watch only because supply fails: a 10% holder dumped a 32.6M-share block in May 2026, and a US$1.15B equity raise in Oct 2026 lifted the share count to about 422M.",
-   "catalyst": "Devon Eagle Ford acquisition (8 Oct 2026: about 68 Mboe/d for a ~$3.85B net price, $140M synergies) plus Permian synergy target raised to $250-300M, with WTI near $108-110 (19-20 Oct 2026).",
+   "summary": "Crescent is a KKR-managed oil and gas roll-up riding a war-driven oil spike (WTI $104.12 on 30 Oct 2026, a six-month high). Q2 2026 (Apr-Jun) adjusted EPS was $0.69, up 73% YoY, on revenue up 55%, but it is the first YoY EPS gain in four quarters and sales growth is mostly acquired. Nothing new since 28 Oct changes the verdict: supply still fails (10% holder block sale May 2026, share count ~422M after the Oct 2026 raise), capping it at Watch only ahead of Q3 results on 2 Nov.",
+   "catalyst": "Devon Eagle Ford acquisition (8 Oct 2026: ~68 Mboe/d, $140M synergies) plus Permian synergy target raised to $250-300M, with WTI at $104.12 (30 Oct 2026).",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS YoY: Q3'25 $0.35 -10%; Q4'25 $0.49 -6%; Q1'26 $0.53 -7%; Q2'26 $0.69 +73% (GAAP $1.30). Q3'26e $0.60 +72% (aggregator)",
+     "finding": "Adj EPS YoY: Q3'25 $0.35 -10%; Q4'25 $0.49 -6%; Q1'26 $0.53 -7%; Q2'26 $0.69 +73%. Q3'26e $0.60 +71% (calc; aggregator, 30 Oct)",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Revenue YoY: Q3'25 +16%, Q4'25 -1%, Q1'26 +24%, Q2'26 $1.39B +55%. Mostly acquired (Vital, Dec 2025) plus oil at $96.61/bbl",
+     "finding": "Revenue YoY: Q3'25 +16%, Q4'25 -1%, Q1'26 +24%, Q2'26 $1.395B vs $0.898B +55% (calc). Mostly acquired (Vital, Dec 2025) plus oil price",
      "result": "CAUTION"
     },
     {
@@ -6449,7 +6449,7 @@
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2'26 adj EPS $0.69 vs $0.59 est; rev $1.39B vs $1.23B (3 Aug 2026). FY26 output guide raised, opex cut. Zacks upgrade 7 Oct (aggregator)",
+     "finding": "Q2'26 adj EPS $0.69 vs $0.58-0.59 est; rev $1.39B vs $1.28B (3 Aug). FY26 output guide raised. 4 straight EPS beats (aggregator)",
      "result": "PASS"
     },
     {
@@ -6459,38 +6459,38 @@
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical acquirer, late-cycle spike: WTI ~$108-110 (19-20 Oct 2026) on Mideast war; XOP at highs since Mar 2026. Realised gas only $0.52/Mcf in Q2'26",
+     "finding": "Cyclical acquirer, late-cycle spike: WTI $104.12, Brent $117.64 (30 Oct 2026, 6-month high) on Iran/Hormuz war. Q2'26 realised gas $0.52/Mcf",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "10% holder sold 32.6M shs at $12.33 (7 May 2026), director sold 40k (6 May). Shares 253M (Dec 2024) to ~422M (Oct 2026). Inst 90.8% (aggregator)",
+     "finding": "10% holder sold 32.6M at $12.33 (7 May 2026), director sold 40k (6 May). Shs 253M->422M. KKR 15.7% (13 Oct); BlackRock 13.1% (30 Sep)",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Jun 2026: debt $5.17B, cash $265M, net debt $4.90B, 1.6x; 1H OCF $1.12B; ROE ~10.5% (aggregator). $4.22B cash Devon deal adds debt",
+     "finding": "30 Jun 2026: debt $5.17B, cash $265M, net debt $4.90B, 1.6x. Q2 OCF $707M. 14 Oct credit amendment allows $2.0B bridge for Devon deal",
      "result": "CAUTION"
     },
     {
      "check": "Event risk",
-     "finding": "Q3'26 results 2 Nov 2026 (after close). Devon deal close Q4'26/early '27; Mideast peace risk to oil. Short int 36.2M, ~11% (15 Oct, aggregator)",
+     "finding": "Q3'26 results 2 Nov 2026 after close. Devon deal close pending; Iran diplomacy could cut oil. Short int 36.2M, ~11% shs out (15 Oct, aggregator)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2 (Jun 2026), filing date not found. S-3ASR 8 Oct 2026; 92M shs at $12.50 (~$1.15B), KKR bought 40M; closed ~13 Oct",
+     "finding": "Last 10-Q: Q2 (Jun 2026) filed 3 Aug 2026. S-3ASR 8 Oct 2026; 92M shs at $12.50 (~$1.15B) closed ~13 Oct. Next earnings 2 Nov 2026",
      "result": "CAUTION"
     }
    ],
    "risks": [
-    "Oil spike reversal: WTI ~$108-110 rests on Middle East conflict; a peace deal could cut realised prices fast, and gas is already near zero",
+    "Oil spike reversal: WTI $104 rests on the Iran/Hormuz conflict; US-Iran diplomacy or a ceasefire could cut realised prices fast; gas already near zero",
     "Supply overhang: share count up ~67% since Dec 2024 (Vital all-stock deal, $1.15B Oct 2026 raise); 10% holder Liberty exited via block in May",
-    "Leverage and execution: $4.22B cash Devon deal on top of $4.9B net debt; HSR and integration risk; more debt or equity funding possible",
-    "Hedges and volumes: hedges cost $343M cash in 1H'26; management guided lower H2'26 volumes and slightly lower 2027 production",
-    "Next event: Q3 2026 results after close 2 Nov 2026, call 3 Nov 11am ET; consensus adj EPS $0.60, revenue $1.24B (aggregator)"
+    "Leverage and execution: ~$4.2B cash Devon deal on top of $4.9B net debt, up to $2.0B bridge permitted (14 Oct 2026); more debt or equity possible",
+    "Hedges and volumes: hedges cost $343M cash in 1H'26, capping upside to the oil spike; lower H2'26 volumes guided",
+    "Next event: Q3 2026 results 2 Nov 2026 after close, call 3 Nov; consensus adj EPS $0.53-0.60, revenue ~$1.2B (aggregators differ)"
    ],
-   "next_event": "Q3 2026 results, 2 Nov 2026 after close (call 3 Nov 2026, 11am ET)",
+   "next_event": "Q3 2026 results, 2 Nov 2026 after close (call 3 Nov 2026)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
@@ -6586,12 +6586,52 @@
      "url": "https://equibles.com/stocks/crgy/shortinterest"
     },
     {
-     "title": "Crude Oil Now: WTI/Brent weekly recap Oct 2026 (aggregator)",
-     "url": "https://crudeoilnow.com/news/weekly-recap.php"
-    },
-    {
      "title": "Finviz/Zacks: XOP hits 52-week high, 6 Mar 2026 (aggregator)",
      "url": "https://finviz.com/news/332624/energy-etf-xop-hits-new-52-week-high"
+    },
+    {
+     "title": "KKR/Independence Energy Aggregator Schedule 13D/A No. 12 (SEC, 13 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000114036126039479/xslSCHEDULE_13D_X02/primary_doc.xml"
+    },
+    {
+     "title": "KKR Group Partnership Form 3 (SEC, 23 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000114036126040665/xslF345X06/form3.xml"
+    },
+    {
+     "title": "BlackRock Schedule 13G/A No. 4 (SEC, 27 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000201238326003794/xslSCHEDULE_13G_X02/primary_doc.xml"
+    },
+    {
+     "title": "BlackRock Schedule 13G/A No. 3 (SEC, 27 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000201238326002249/xslSCHEDULE_13G_X02/primary_doc.xml"
+    },
+    {
+     "title": "Credit agreement amendment 8-K (SEC, 15 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000186617526000138/crgy-20261014.htm"
+    },
+    {
+     "title": "Rockecharlie Form 4, 23 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1866175/000186617526000132/xslF345X06/wk-form4_1790368187.xml"
+    },
+    {
+     "title": "Korea Times/Reuters: oil settles at 6-month highs, 30 Oct 2026",
+     "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
+    },
+    {
+     "title": "DTN: WTI below $100 ahead of Hormuz diplomacy, 27 Oct 2026",
+     "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/27/wti-100-ahead-hormuz-diplomacy-fed"
+    },
+    {
+     "title": "Benzinga: CRGY earnings forecasts (aggregator)",
+     "url": "https://www.benzinga.com/quote/CRGY/earnings-forecasts"
+    },
+    {
+     "title": "TheRightTrader: CRGY earnings calendar (aggregator)",
+     "url": "https://therighttrader.com/earnings-calendar/crgy"
+    },
+    {
+     "title": "StockAnalysis: CRGY overview and analyst actions (aggregator)",
+     "url": "https://stockanalysis.com/stocks/crgy/"
     }
    ]
   },
@@ -8402,6 +8442,606 @@
      "url": "https://www.tipranks.com/news/the-fly/icu-medical-announces-fda-510k-clearance-for-plum-solo-plum-duo-pumps"
     }
    ]
+  },
+  "US:FANG": {
+   "market": "US",
+   "code": "FANG",
+   "name": "Diamondback Energy",
+   "date": "2026-10-30",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Diamondback is the largest Permian pure-play. Its earnings have swung up with the 2026 Iran war oil spike: Q2 2026 adj EPS was US$6.48 (+143% YoY), realized oil US$96.82, and Q3 consensus is rising. One strong quarter follows a Q4 2025 loss and a weak Q1 2026, the growth is commodity-driven, and the verdict is capped at Watch only by heavy, clustered selling. SGF/Stephens sold ~31M shares in 2026 and still holds 23.2%; executives and directors sold through Aug-Oct.",
+   "catalyst": "The 2026 Iran war and Hormuz disruption lifted realized oil to US$96.82 (Q2) and US$87.30 (Q3, 8-K 8 Oct 2026); production passed 1.0 MMBOE/d and the buyback doubled to US$16B (3 Aug 2026). Rated MODERATE: commodity-driven, not company-specific.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS: Q4'25 1.74 (-52%), Q1'26 4.23 (-7%), Q2'26 6.48 (+143%); GAAP Q2 6.65 vs 2.38. Q3 cons ~4.92-5.72 vs 3.08",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue Q4'25 3.38B (-9%), Q1'26 4.24B (+5%), Q2'26 5.56B (+51%). Driven by oil price, plus Double Eagle/Sitio deals and purchased-oil sales",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 op margin 45.2% vs 31.0% Q2'25 (calc); Q1'26 2.7% after US$1.4B impairment. Only one quarter expanding, not Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Repeated impairments: US$3.7B Q4'25, US$1.4B Q1'26. H1'26 OCF US$5.4B vs NI US$2.2B is strong. Buybacks cut shares -3.3% YoY (calc)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q2'26 beat (6.48 vs 5.96); production guide raised to 1,000+ MBOE/d (3 Aug). Q3 cons up from ~4.52 to ~5.60 in 90 days",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "2026 Iran/Hormuz oil spike: realized oil US$96.82 Q2'26, US$87.30 Q3'26 vs US$63.23 Q2'25. MODERATE; commodity-dependent",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Permian leader and cyclical; oil peers up 40-50% YTD (10 Sep). Oil cycle is late and geopolitical: WTI US$103 (27 Oct). Late base 4",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "SGF sold 12.65M (Mar), 10M (Jun) and 9.08M (16 Sep), still 23.2%. CEO, COO, CFO, CLO, CAO and directors sold Aug-Oct 2026; no buys. Inst 73% (aggr)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: net debt US$12.3B (down US$1.6B QoQ), liquidity US$3.4B, H1 FCF US$4.0B. GAAP TTM ROE ~3.9% (calc, impairments). No raise risk",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 results 2 Nov 2026 after close. Iran/Hormuz headlines; SGF lock-up ended 16 Oct. Short int 6.88M (15 Oct), lowest of 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 5 Aug 2026 (Q2); next ER 2 Nov 2026. S-3ASR shelf 21 Nov 2025; SGF secondary 424B7 Mar 2026. No ATM found",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Oil geopolitical premium unwinds on an Iran/Hormuz deal: WTI fell from US$114 to <US$70 in Apr-Jun 2026",
+    "SGF (23.2%, ~65M shares) is free to sell again since its lock-up expired 16 Oct 2026; it has sold in blocks every quarter",
+    "Q3 2026 report on 2 Nov: Q3 realized oil (US$87.30) fell from Q2 (US$96.82), so results may disappoint after the run-up",
+    "Late-stage base (#4) only 1.6% above pivot into earnings, with no profit cushion",
+    "Upgrade to SEPA candidate needs a Q3 beat with EPS +25%+ and a pause in insider and SGF selling"
+   ],
+   "next_event": "Q3 2026 results, 2 Nov 2026 after close (call 3 Nov, 8am CT)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "SEC EDGAR submissions and XBRL company facts (CIK 1539838)",
+     "url": "https://data.sec.gov/submissions/CIK0001539838.json"
+    },
+    {
+     "title": "Q2 2026 results, 8-K Ex 99.1 (3 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000137/diamondbackex991-8x3x26.htm"
+    },
+    {
+     "title": "Q3 2026 realized prices and derivatives, 8-K (8 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000177/fang-20261008.htm"
+    },
+    {
+     "title": "Q4 2025 results, 8-K Ex 99.1 (23 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000006/diamondbackex991-2x23x26.htm"
+    },
+    {
+     "title": "Q4 2025 shareholder letter, 8-K Ex 99.2 ($3.7B impairment)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000006/diamondbackex992-2x23x26.htm"
+    },
+    {
+     "title": "Q3 2025 results, 8-K Ex 99.1 (3 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000144/diamondbackex991-11x3x25.htm"
+    },
+    {
+     "title": "Q2 2025 results, 8-K Ex 99.1 (4 Aug 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000124/diamondbackex991-8x4x25.htm"
+    },
+    {
+     "title": "SGF secondary offering, 8-K (12 Mar 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000110465926027075/tm268329d3_8k.htm"
+    },
+    {
+     "title": "SGF Schedule 13D/A No. 7 (16 Sep 2026 sale, 23.2%)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000114036126037012/primary_doc.xml"
+    },
+    {
+     "title": "Stockholders Agreement amendment and board stepdown, 8-K (30 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000110465926112325/tm2626600d1_8k.htm"
+    },
+    {
+     "title": "SGF repurchase letter agreement, 8-K (1 Dec 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1539838/000110465925117053/tm2532418d1_8k.htm"
+    },
+    {
+     "title": "Zacks Q3 2026 preview (aggregator, 27 Oct 2026)",
+     "url": "https://finance.yahoo.com/energy/articles/factors-know-ahead-diamondbacks-q3-145300098.html"
+    },
+    {
+     "title": "24/7 Wall St Q3 2026 preview (aggregator, 27 Oct 2026)",
+     "url": "https://247wallst.com/investing/2026/10/27/will-the-26b-endeavor-merger-fuel-a-massive-earnings-beat-for-fang/"
+    },
+    {
+     "title": "MarketBeat via ad-hoc-news: Q3 date and consensus (aggregator)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/diamondback-energy-stock-results-due-november-2-before-the-open/70417889"
+    },
+    {
+     "title": "Q3 2026 earnings date announcement (aggregator)",
+     "url": "https://www.quiverquant.com/news/Diamondback+Energy+Announces+Third+Quarter+2026+Earnings+Release+Date+and+Conference+Call"
+    },
+    {
+     "title": "Zacks Q1 2026 recap (aggregator)",
+     "url": "https://www.nasdaq.com/articles/diamondback-energy-q1-earnings-beat-estimates-dividend-raised"
+    },
+    {
+     "title": "Zacks Q4 2025 recap (aggregator)",
+     "url": "https://www.nasdaq.com/articles/diamondback-fang-142-last-earnings-report-can-it-continue"
+    },
+    {
+     "title": "Institutional holders (aggregator)",
+     "url": "https://vcpscanner.com/stock/fang/institutional-holders"
+    },
+    {
+     "title": "Short interest (aggregator, FINRA data)",
+     "url": "https://equibles.com/stocks/fang/shortinterest"
+    },
+    {
+     "title": "Weekly crude oil recap, Oct 2026",
+     "url": "https://crudeoilnow.com/news/weekly-recap.php"
+    },
+    {
+     "title": "2026-2028 world oil market chronology (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology"
+    },
+    {
+     "title": "Oil above $100, energy stocks YTD (24/7 Wall St, 10 Sep 2026)",
+     "url": "https://247wallst.com/investing/2026/09/10/oil-just-blew-past-100-a-barrel-and-these-5-energy-stocks-are-in-the-line-of-fire/"
+    }
+   ],
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$212.08"
+  },
+  "US:CNO": {
+   "market": "US",
+   "code": "CNO",
+   "name": "CNO Financial Group",
+   "date": "2026-10-30",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Mid-cap ($5.3B calc) middle-income life/health insurer whose operating EPS growth has accelerated to +47% in 3Q26 (+48% ex significant items), with 2026 guidance raised twice to $5.05-5.15, a record year. But it is margin, investment income and buybacks rather than sales: insurance policy income grew only +4.5% and new sales (NAP) slowed to +1.3%, and insiders have been steady 10b5-1 sellers with no buys, so it is Watch only.",
+   "catalyst": "Guidance raised twice in 2026 (30 Jul +8%, 29 Oct +9% at midpoint, to $5.05-5.15 op EPS ex significant items), helped by Bermuda reinsurance deals and Medicare Supplement demand from MA disruption.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Op EPS (non-GAAP) YoY: 4Q25 +12% (calc), 1Q26 +33%, 2Q26 +45%, 3Q26 $1.90 +47% (ex-sig $1.42 +48%). FY26 guide $5.05-5.15 = record",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "3Q26 policy income $688.2M +4.5%; policy income+GA NII +8.5% (calc), accelerating from +4.2% 1Q26. Total rev -8.6%; NAP only +1.3%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Op pre-tax/core rev (calc) 3Q26 19.5% vs 15.6% (ex-sig 14.5% vs 11.7%); expanding 3 qtrs. Code 33 on core revenue only, not total revenue",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "3Q26 has $0.48 actuarial release (recurs each Q3) and alt income $37.4M vs $15.8M; TTM GAAP NI $417.6M vs op $543.3M; diluted shares -4%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "3Q26 op EPS $1.90 (ex-sig $1.42) vs ~$1.10 cons (aggregator); 2Q26 $1.26 vs $0.97. FY26 guide raised Jul and 29 Oct; FY27 est up 5.10->5.15",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: guidance up 8% (Jul) and 9% (Oct); 3rd Bermuda reinsurance deal 1 Oct 2026; Med Supp NAP +41% in 3Q26 as MA disrupts",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Improving mid-cap life/health insurer, not a group leader; new 52-wk high 30 Oct 2026. Peers GL, UNM, MET hit 52-wk highs Jun-Aug 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "91.7M sh, -18% in 3 yrs (calc); inst ~95% (aggregator, Oct 26). 0 insider buys in 12m; 10b5-1 sales by CEO (~237k sh) and 4 others Jun-Sep 26",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 26: holdco cash $230.7M, corporate debt $1,336.7M, debt/cap ex-AOCI 25.7%, RBC 374%; TTM GAAP ROE 16.4%; H1 26 OCF $305.4M. No raise",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next: 4Q26 results ~early Feb 2027 (not confirmed). Short int 2.62M sh (2.9% float) 30 Sep, up 21% vs 15 Sep, rising since Jul (aggregator)",
+     "result": "PASS"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 6 Aug 2026 (2Q); 3Q 10-Q due early Nov. S-3ASR shelf May 2024 used only for debt; no equity offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 boosted by annual actuarial release ($0.48) and alt investment income that management says may not last; Q4 run-rate could disappoint",
+    "Top line is slow: policy income +4.5%, NAP +1.3% in 3Q26 and decelerating from +11% in 1Q26",
+    "Steady 10b5-1 insider selling (CEO ~237k shares in 12m), no buys; institutions own ~95%",
+    "Credit/realized losses rising (3Q26 $48.3M) and DTA valuation allowance; regulatory scrutiny of offshore (Bermuda) reinsurance",
+    "Next event: 4Q26 results and new long-term ROE targets, ~early Feb 2027"
+   ],
+   "next_event": "4Q26 results and new long-term ROE targets, ~early Feb 2027 (date not yet announced)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "CNO 3Q26 earnings release, 8-K Ex 99.1 (29 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000162828026068264/exhibit991-09302026earnings.htm"
+    },
+    {
+     "title": "CNO 3Q26 financial supplement, 8-K Ex 99.2 (29 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000162828026068264/exhibit992-09302026investo.htm"
+    },
+    {
+     "title": "CNO 3Q26 investor presentation (guidance)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000162828026068264/cnofinancial_invxpresx3q.htm"
+    },
+    {
+     "title": "CNO 2Q26 earnings release (30 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000061/exhibit991-06302026earnings.htm"
+    },
+    {
+     "title": "CNO 2Q26 investor presentation (guidance)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000061/inv_presx2qx2026final.htm"
+    },
+    {
+     "title": "CNO 4Q25 earnings release (5 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000008/exhibit991-12312025earnings.htm"
+    },
+    {
+     "title": "CNO 4Q25 investor presentation (2026 guidance)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000008/inv_presx4qx2025xfinal.htm"
+    },
+    {
+     "title": "CNO investor briefing 8-K (1 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000071/september2026investorbri.htm"
+    },
+    {
+     "title": "CNO 8-K director retirement (11 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000011/a8k_2026feb11xexhibit991.htm"
+    },
+    {
+     "title": "SEC EDGAR submissions (Form 4, Form 144, 10-Q, S-3ASR list)",
+     "url": "https://data.sec.gov/submissions/CIK0001224608.json"
+    },
+    {
+     "title": "SEC XBRL company facts (OCF, share count)",
+     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001224608.json"
+    },
+    {
+     "title": "MarketBeat: CNO hits 12-month high after earnings (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/price-cno-financial-group-nyse-cno-hits-new-12-month-high-following-better-than-expected-earnings-2026-10-30/"
+    },
+    {
+     "title": "TradingView/StockStory: CNO Q3 2026 vs estimates (aggregator)",
+     "url": "https://www.tradingview.com/news/stockstory:b17ad509b094b:0-cno-financial-group-nyse-cno-posts-better-than-expected-sales-in-q3-2026/"
+    },
+    {
+     "title": "StockStory: CNO Q3 call deep dive (aggregator)",
+     "url": "https://stockstory.org/us/stocks/nyse/cno/news/earnings-call/cno-q3-deep-dive-margin-expansion-and-product-mix-drive-profit-amid-top-line-shortfall"
+    },
+    {
+     "title": "Cerbat Gem: FY2027 EPS estimate revision (aggregator)",
+     "url": "https://www.thecerbatgem.com/2026/10/15/equities-analysts-offer-predictions-for-cno-fy2027-earnings.html"
+    },
+    {
+     "title": "MarketBeat: CNO short interest (aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/CNO/short-interest"
+    },
+    {
+     "title": "MarketBeat: MET, GL, UNM at 52-week highs (aggregator)",
+     "url": "https://www.marketbeat.com/articles/these-3-insurance-stocks-made-new-52-week-highs-still-time-to-buy/"
+    }
+   ],
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$57.67"
+  },
+  "US:HRB": {
+   "market": "US",
+   "code": "HRB",
+   "name": "H&R Block",
+   "date": "2026-10-30",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "H&R Block is a mature, seasonal tax-prep leader. Its EPS growth comes mostly from buybacks and a one-off tax benefit: FY26 (Jul 2025-Jun 2026) adjusted EPS rose 13.9% on revenue up only 4.9%, and Q4 FY26 adjusted EPS rose just 4.8%. The chart breakout has support (FY27 guidance above consensus, rising estimates, IRS Direct File ended), but sales growth is near-flat and slowing, and earnings growth is far below SEPA's 25% bar. It does not qualify as a growth leader.",
+   "catalyst": "FY27 guidance (11 Aug 2026): adj. EPS $6.04-6.24 (+14-18% vs $5.31) and revenue $4.11-4.16B, above consensus, plus first assisted-share gain in years and IRS Direct File ended (Nov 2025). MODERATE.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS Q3 FY26 (Jan-Mar 26) $6.02 +11.9%, Q4 (Apr-Jun) $2.38 +4.8%: slowing; FY26 $5.31 +13.9% (record); GAAP +28.7% incl $0.65 tax gain",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue Q4 FY26 $1.145B +3.0% (calc), Q3 +5.3%, Q2 +11.1%, Q1 +5.0%; FY26 $3.945B +4.9%, mostly organic; near-flat vs 20% bar",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "FY26 op margin 23.0% vs 22.0%, pretax 21.6% vs 20.8% (calc): modest widening; Code 33 not met (sales and EPS decelerating)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "OCF FY26 $839M vs NI $734M (good); biggest concern: $84.1M one-off IRS tax benefit and 6.3% fewer diluted shares (Q4) flattering EPS",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q4 FY26 (11 Aug 26) adj EPS $2.38 vs $2.21 est; FY27 guide $6.04-6.24 vs $5.86 est; Zacks FY est +8.1% in 3 mo, #2 Buy (26 Oct)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: FY27 guide above consensus (11 Aug 26), IRS Direct File ended for 2026 season, new CEO Campbell since 1 Jan 26, assisted share up",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mature market leader in US assisted tax prep, value/buyback name, not a growth leader; Zacks Consumer Svcs-Misc ranked #61; HRB +14% YTD (26 Oct)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Cap ~$6.3B (calc); 123.3M sh; diluted shares -18% over 3 yrs (calc); inst 90% (agg, over-owned); insider sales: Darling 2.7k 30 Sep 26, ex-CEO $13.9M Nov 25",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 26: cash $959M, LT debt $1.49B, net debt $533M (calc); FY26 OCF $839M +23%; equity $117M (ROE n/m, buybacks); no raise risk",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q1 FY27 results 9 Nov 2026 (seasonal loss quarter); short interest 18.6M sh, ~15% of shares, rising (15 Oct 26, agg), 10 days to cover",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 6 May 26; 10-K 14 Aug 26; next earnings 9 Nov 26; Aug 2025 $350M notes via 424B (debt refi); no equity offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q1 FY27 (9 Nov 2026) is a seasonal loss quarter; any trim to FY27 guidance or weak early-season commentary could reverse the breakout",
+    "Growth depends on buybacks: revenue growth is only 3-5% and adjusted EPS grew 4.8% in Q4 FY26",
+    "AI-enabled DIY tax software (Intuit and others) and pricing pressure could take assisted-tax share",
+    "Crowded positioning: ~90% institutional ownership and ~15% short interest, which is rising (agg)",
+    "Regulatory or political risk around free government tax filing returning, and tax-law changes"
+   ],
+   "next_event": "Fiscal Q1 FY27 (Jul-Sep 2026) results, 9 Nov 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "H&R Block Q4/FY2026 earnings release, 8-K Ex.99.1 (11 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265926000019/q4fy26earningsrelease.htm"
+    },
+    {
+     "title": "H&R Block Q3 FY2026 earnings release, 8-K Ex.99.1 (6 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265926000015/q3fy26earningrelease.htm"
+    },
+    {
+     "title": "H&R Block Q2 FY2026 earnings release, 8-K Ex.99.1 (3 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265926000005/q2fy26earningrelease.htm"
+    },
+    {
+     "title": "H&R Block Q1 FY2026 earnings release, 8-K Ex.99.1 (6 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265925000014/q1fy26earningrelease.htm"
+    },
+    {
+     "title": "SEC EDGAR submissions and XBRL company facts, CIK 12659 (10-K, 10-Q, Form 4, Form 144)",
+     "url": "https://data.sec.gov/submissions/CIK0000012659.json"
+    },
+    {
+     "title": "Form 4 Mark Darling open-market sale, 30 Sep 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000122520826008114/xslF345X06/doc4.xml"
+    },
+    {
+     "title": "CEO succession 8-K Ex.99.1 (11 Aug 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/12659/000110465925076182/tm2523074d1_ex99-1.htm"
+    },
+    {
+     "title": "Fiscal 2027 Q1 results date announcement (9 Nov 2026) (search listing)",
+     "url": "https://easternherald.com/press-release/hr-block-to-release-fiscal-2027-first-quarter-results-on-november-9-2026/"
+    },
+    {
+     "title": "MarketBeat: HRB shares climb 3.6% (14 Oct 2026) (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/price-hr-block-nyse-hrb-shares-climb-36-heres-what-happened-2026-10-14/"
+    },
+    {
+     "title": "Zacks/Yahoo: Is HRB outpacing consumer discretionary peers (26 Oct 2026) (aggregator)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-hrb-stock-125002724.html"
+    },
+    {
+     "title": "Equibles HRB short interest (aggregator)",
+     "url": "https://equibles.com/stocks/hrb/shortinterest"
+    },
+    {
+     "title": "StockAnalysis HRB overview (aggregator)",
+     "url": "https://stockanalysis.com/stocks/HRB"
+    }
+   ],
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$51.31"
+  },
+  "US:ALL": {
+   "market": "US",
+   "code": "ALL",
+   "name": "Allstate",
+   "date": "2026-10-30",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Allstate is a record-profit personal-lines insurer (FY25 adj EPS $34.83, +90%) whose earnings came from cat-loss normalisation, rate hikes and reserve releases rather than growth; premiums are rising only ~3-5% and auto pricing is turning soft. Q3 2026 has not been reported yet (due 4 Nov after the close) and consensus already expects adjusted EPS to fall 37% to $7.03 after Q3 cats of $1.65B (vs $558M), with FY27 EPS seen down ~20%. Sales FAIL and clustered officer selling make this a cyclical peak-earnings story, not a SEPA growth leader.",
+   "catalyst": "Weak: Transformative Growth new-business gains and a $4B buyback (Feb 2026) support EPS per share, but nothing is set to accelerate earnings.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS +186%/+87%/+202%/+51% (Q3'25-Q2'26, $8.99 Q2); decelerating. Q3'26 est $7.03 (-37%); FY27 est $28.84 (-20%) vs FY26 $36.21",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q2'26 P-L premiums earned +4.0%, written +2.6% (auto written +0.4%); revenue +11.8% only via $1.06B inv. gains; ex-gains ~+4.6% (calc)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 combined ratio 86.6 vs 91.1, but underlying 79.4 vs 79.5 (flat); gains from lower cats/reserve releases. Code 33: no",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Biggest concern: prior-year reserve releases 5.8 pts of 1H'26 CR (~$1.7B calc); Q2 GAAP incl $1.06B inv gains; buybacks cut shares 3.9% YoY",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 $8.99 vs $6.06 est (beat, 4th straight); Q3 est +4.6% in 30d (Zacks), but FY27 est -20%; no formal guidance",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: Transformative Growth new-business gains (auto NB +8.8%, home NB +16.4%, Q2'26), $4B buyback (Feb 2026). Nothing lifts EPS growth",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Cyclical P&C leader, late cycle: auto pricing softening (TRV auto renewal -0.6% Q3'26; CPI car ins -5% y/y Sep'26); ALL auto rates flat",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$65.7B (calc); shares -3.3% in 3 yrs; inst 76.5% (aggregator, Sep'26). No buys; officer sales Jun-Aug'26 (Dugenske $8.9M, Rizzo $14.9M)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun'26: debt $7.49B, cash $0.84B; 1H'26 OCF $6.20B vs $3.84B; TTM ROE 49.1% (adj 44.2%); $9.5B holdco capital. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3'26 results 4 Nov AMC: Q3 cats $1.65B vs $558M Q3'25. Short int 6.1M sh (~2.4%), down from 9.0M May (aggregator). Hold through: NO",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 5 Aug 2026 (Q2); next earnings 4 Nov 2026 (call 5 Nov). S-3ASR shelf 30 Apr 2024 (debt only used, Jun 2024); no equity offering/ATM",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 2026 report 4 Nov (AMC): adj EPS consensus $7.03 vs $11.17 a year ago; Q3 cats $1.65B, Jul $682M, Aug $748M, Sep $220M",
+    "Auto pricing softening industry-wide (TRV auto renewals -0.6%, Progressive margins down) could compress ALL's 83-88 auto combined ratio",
+    "Earnings flattered by prior-year reserve releases (4.6 pts in Q2'26); fewer releases would cut EPS sharply",
+    "Officer selling cluster Jun-Aug 2026 (Brady, Prindiville Form 144s; Dugenske, Rizzo Form 4s), no open-market buying in 12 months",
+    "Would change verdict: written premium growth re-accelerating toward 10%+ with rising FY27 estimates"
+   ],
+   "next_event": "Q3 2026 results, 4 Nov 2026 after close (call 5 Nov 2026)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "Allstate 8-K 15 Oct 2026: September 2026 monthly release (Q3 cat losses $1.65B)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000150/exhibit99newsrelease101526.htm"
+    },
+    {
+     "title": "Allstate 8-K 17 Sep 2026: August 2026 monthly release",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000135/exhibit99newsrelease091726.htm"
+    },
+    {
+     "title": "Allstate 8-K 20 Aug 2026: July 2026 monthly release",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000127/exhibit99newsrelease082026.htm"
+    },
+    {
+     "title": "Allstate Q2 2026 earnings release (8-K, 5 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000117/allcorp63026earningsreleas.htm"
+    },
+    {
+     "title": "Allstate Q1 2026 earnings release (8-K, 29 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000074/allcorp33126earningsreleas.htm"
+    },
+    {
+     "title": "Allstate Q3 2025 earnings release (8-K, 5 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905125000100/allcorp93025earningsreleas.htm"
+    },
+    {
+     "title": "Allstate 8-K 14 Jul 2026: Christian Lown named CFO",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000109/exhibit991lowncfoappointme.htm"
+    },
+    {
+     "title": "SEC EDGAR Allstate filings index (Form 4/144, 10-Q, S-3ASR)",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000899051"
+    },
+    {
+     "title": "SEC XBRL company facts (shares outstanding, operating cash flow)",
+     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000899051.json"
+    },
+    {
+     "title": "PR Newswire: September 2026 Monthly Release",
+     "url": "https://www.prnewswire.com/news-releases/september-2026-monthly-release-302910017.html"
+    },
+    {
+     "title": "Nasdaq/Zacks: Allstate Q4 2025 earnings beat (adj EPS $14.31, FY25 $34.83)",
+     "url": "https://www.nasdaq.com/articles/allstate-q4-earnings-beat-estimates-property-liability-unit-strength"
+    },
+    {
+     "title": "Yahoo Finance: What to expect from Allstate's next quarterly report (aggregator)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/expect-allstate-corporations-next-quarterly-104226425.html"
+    },
+    {
+     "title": "ad-hoc-news: Allstate heads into Q3 report with higher EPS estimates (aggregator, 30 Oct 2026)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/allstate-stock-heads-into-q3-report-with-higher-eps-estimates/70433913"
+    },
+    {
+     "title": "MarketBeat: Zacks forecast for Allstate Q3 (aggregator, 18 Sep 2026)",
+     "url": "https://www.marketbeat.com/instant-alerts/estimates-what-is-zacks-researchs-forecast-for-allstate-q3-earnings-2026-09-18/"
+    },
+    {
+     "title": "BigGo Finance: ALL Q2 2026 earnings call summary (aggregator)",
+     "url": "https://finance.biggo.com/news/US_ALL_2026-08-06"
+    },
+    {
+     "title": "Equibles: ALL short interest (aggregator)",
+     "url": "https://equibles.com/stocks/all/shortinterest"
+    },
+    {
+     "title": "InsiderSet: ALL institutional holders Q2 2026 (aggregator)",
+     "url": "https://www.insiderset.com/stocks/all/institutional-ownership"
+    },
+    {
+     "title": "Insurance Business: Travelers Q3 2026 results, cooling pricing",
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/travelers-q3-2026-record-investment-income-masks-cooling-commercial-pricing-593915.aspx"
+    },
+    {
+     "title": "StockTitan: Progressive Q3 2026, car insurance prices falling",
+     "url": "https://www.stocktitan.net/articles/progressive-earnings-car-insurance-prices-falling"
+    }
+   ],
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$259.87"
   }
  }
 }
