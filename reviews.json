@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:27:05Z",
+ "updated": "2026-11-01T19:34:24Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -9350,6 +9350,126 @@
    ],
    "status_at_review": "Buy-ready",
    "price_at_review": "US$54.43"
+  },
+  "ASX:WTM": {
+   "market": "ASX",
+   "code": "WTM",
+   "name": "Waratah Minerals",
+   "date": "2026-11-01",
+   "verdict": "Reject",
+   "confidence": "medium",
+   "summary": "Pre-resource gold explorer (31 Dec year end) drilling the Spur/Consols/Goldenclad corridor near Orange, NSW, with strong recent intercepts (e.g. GCD001 83m @ 1.27 g/t from 6m, 20 Oct 2026) and a maiden resource targeted for Q1/1H 2027. It has no revenue and a growing loss (1H 2026 loss A$20.1m, -6.07c/sh), so it can only qualify as a power play/story stock, not on earnings. That is the reason for Reject under SEPA rules; the cash balance after the A$48m May 2026 placement is solid.",
+   "catalyst": "Spur/Consols discovery growth (best Spur intercept 22 Sep 2026, Consols step-outs 14 Oct, Goldenclad shallow hit 20 Oct) heading to a maiden Mineral Resource in Q1/1H 2027; Shaw target A$1.55 (28 Oct 2026). Rated MODERATE.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "No earnings: 1H 2026 (Jan-Jun) loss A$20.06m vs A$5.75m 1H 2025; EPS -6.07c vs -2.74c. Explorer, losses widening",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "No revenue; only interest income A$0.62m in 1H 2026 (vs A$0.07m). Pre-production explorer",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "n/a: no sales, so no margins and no Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "n/a for profit; 1H 2026 exploration expensed A$19.1m, operating cash outflow A$15.5m. Value rests on drill results, no resource yet",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "No earnings guidance. Drill news strong (Sep-Oct 2026) but stock fell ~10% on 23 Oct; Shaw target A$1.55 (28 Oct). Estimate revisions: not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "6km Spur-Consols-Ironclad-Goldenclad corridor; >89% gold recoveries (16 Sep 2026); maiden resource due Q1/1H 2027",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Junior explorer/story stock. Gold ~A$5,713/oz (26 Oct 2026), ~26% below Jan 2026 record A$7,701, down ~5% in Oct: late/pulling-back cycle",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "388m shares (May 2026), ~A$264m cap; +77.4m placement shares May 2026. Inst. % not found (19% Jan 2026). No insider open-mkt sales found in 12m",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Cash A$57.7m at 30 Jun 2026, no debt; 1H op. outflow A$15.5m. Sep-qtr 5B (30 Oct 2026) not readable, runway (item 8.7) not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Pending assays (GCD001 rest, GCD002, SPD091A-101); maiden MRE Q1/1H 2027; FY2026 accounts ~Mar 2027. Short interest: not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "A$48m placement at A$0.62 (May 2026). Explorer with no revenue: can only qualify as a power play or story stock, not on earnings",
+     "result": "FAIL"
+    }
+   ],
+   "risks": [
+    "Maiden resource (Q1/1H 2027) disappoints vs ~3Moz market expectation (Shaw) on grade, depth (much of Consols is 500-950m) or continuity",
+    "Gold falling: ~A$5,713/oz on 26 Oct 2026, ~26% below the Jan 2026 record; down ~6.6% in US$ in October",
+    "Further equity raise to fund the 80,000m, 10-rig program once cash falls (A$86m raised in the 12 months to May 2026)",
+    "Assay flow from pending holes is binary for the share price; stock dropped ~10% on 23 Oct despite good results",
+    "Would change only with a resource and a path to production; under SEPA earnings rules it cannot become a candidate before then"
+   ],
+   "next_event": "Pending drill assays (no dates); maiden Spur Mineral Resource Q1 2027 (company) / 1H 2027 (Shaw); FY2026 annual report ~24 Mar 2027 (forecast)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "Half-year financial statements to 30 June 2026 (ASX, 21 Aug 2026)",
+     "url": "https://api.investi.com.au/api/announcements/wtm/d2f1b249-f2f.pdf"
+    },
+    {
+     "title": "2026 AGM Chair address and MD presentation (ASX, 25 May 2026)",
+     "url": "https://api.investi.com.au/api/announcements/wtm/18df7887-893.pdf"
+    },
+    {
+     "title": "WTM announcements list (Investsmart)",
+     "url": "https://www.investsmart.com.au/security/asx/wtm/waratah-minerals-limited/announcements"
+    },
+    {
+     "title": "Goldenclad GCD001 results summary (Discovery Alert, 20 Oct 2026)",
+     "url": "https://discoveryalert.com/asx-stock-news/mining/wtm-waratah-minerals-goldenclad-drilling-results-october-2026/"
+    },
+    {
+     "title": "Consols drill results summary (Discovery Alert, 14 Oct 2026)",
+     "url": "https://discoveryalert.com/asx-stock-news/mining/wtm-waratah-minerals-consols-gold-zone-drill-results-october-2026/"
+    },
+    {
+     "title": "S&P DJI September 2026 quarterly rebalance (All Ords addition)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260904/pdf/073rbz4q8nrckg.pdf"
+    },
+    {
+     "title": "Shaw & Partners A$1.55 target (Motley Fool, 28 Oct 2026)",
+     "url": "https://fool.com.au/2026/10/28/brokers-say-these-2-asx-gold-developers-could-rise-more-than-100"
+    },
+    {
+     "title": "WTM quote and market cap (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/quote/asx/WTM/"
+    },
+    {
+     "title": "Gold price update October 2026 in A$ (The Gold King)",
+     "url": "https://thegoldking.com.au/news-education/gold-market-update-october-2026"
+    },
+    {
+     "title": "Ownership and insider transactions (Simply Wall St, aggregator)",
+     "url": "https://simplywall.st/stocks/au/materials/chia-wtm/waratah-minerals-shares/ownership"
+    }
+   ],
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$0.77"
   }
  }
 }
