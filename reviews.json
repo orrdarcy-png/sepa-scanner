@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:31:35Z",
+ "updated": "2026-11-02T22:31:37Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -10324,6 +10324,694 @@
     {
      "title": "24/7 Wall St: energy drink sector, Celsius (10 Aug 2026)",
      "url": "https://247wallst.com/investing/2026/08/10/the-energy-drink-buyout-prize-beverage-giants-are-circling/"
+    }
+   ]
+  },
+  "US:NIC": {
+   "market": "US",
+   "code": "NIC",
+   "name": "Nicolet Bankshares",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$174.74",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Wisconsin regional bank (~$15B assets) that closed the all-stock MidWestOne deal on 13 Feb 2026, issuing ~6.6M shares. Q3 2026 GAAP diluted EPS was $2.96 (+8% YoY) and core EPS $3.15 (beat $3.06 consensus), reported 20 Oct 2026. Revenue is up ~69% but nearly all of it is acquired; per-share growth is well short of +25% and 9M GAAP EPS is down 8%, so it stays on watch until a clean Q4 shows the merged earnings power.",
+   "catalyst": "MidWestOne acquisition (closed 13 Feb 2026; guided ~37% accretive to 2026 EPS ex-charges) with integration done and a 'cleaner fourth quarter' guided (Q3 release, 20 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q4'25 $2.65 +21%; Q1'26 $0.81 -61%; Q2'26 $2.62 +12%; Q3'26 $2.96 +8%. Core Q3 $3.15. 9M GAAP $6.57 vs $7.14",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue (NII+nonint) Q3'26 $174.4M vs $102.9M +69%; Q2 +86% (calc). Acquired: Q3 period-end loans +$34M QoQ, ~1% annualised (calc)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 NIM 4.19% vs 3.86%; efficiency 51.7% vs 49.1%; net margin ~36.5% vs ~40.6% (calc). Per-share growth slowing; no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Repeated merger costs: $40.7M Q1, $7.4M Q2, $4.6M Q3'26, more flagged for Q4; $102.7M YTD buybacks. Concern: core vs GAAP gap",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 core EPS $3.15 vs $3.06 consensus, +2.9% beat (aggregator); no formal guidance; estimate revisions not found",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: MidWestOne closed 13 Feb 2026 (+$6.1B assets), guided ~37% EPS accretive ex-charges; integration done, Denver sale closed 28 Jul",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Serial acquirer, top Midwest regional bank; RS 77, base 5 (scanner). Regional bank group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$3.67B; shares 15.1M (3/25) to 20.85M (9/26) via stock deal; inst 43.1% (aggregator); director Atwell sold 5x Feb-Oct'26, no buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $510.5M, LT borrowings $92.8M, TCE 9.04%; Q3 ROE 11.2%, ROATCE 20.8%; NPAs 0.52% of assets",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results 19 Jan 2027 (company). Short int 1.09M (~5.2% of shares, 6.8 days), 15 Oct, up from 0.95M in Aug (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q (period 30 Sep 2026) on EDGAR, filing date not found; next earnings 19 Jan 2027. No shelf/ATM/offering found since 2018 S-3",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Per-share growth is slow: the 6.6M-share MidWestOne issue (~30% of the combined company) means revenue +69% became only +8% GAAP EPS in Q3 2026",
+    "More non-core merger items flagged for Q4 2026; a messy quarter would delay the 'clean earnings' story",
+    "Organic loan growth looks weak (~1% annualised, calc) once the Denver branch sale is stripped out",
+    "Late-stage base 5 and repeated director selling (R. Atwell, 5 sales Feb-Oct 2026, mostly after option exercises) with no insider buys",
+    "Next event: Q4/FY2026 results 19 Jan 2027; NIM or credit (NPAs $77.7M) slippage would hit the stock"
+   ],
+   "next_event": "Q4 and FY2026 results, 19 Jan 2027 (company-stated)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Nicolet Q3 2026 earnings release, 8-K Ex 99.1 (SEC, 20 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001174850/000117485026000172/exhibit99_13q2026pressrele.htm"
+    },
+    {
+     "title": "Nicolet Q2 2026 earnings release, 8-K Ex 99.1 (SEC, 21 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001174850/000117485026000157/exhibit99_12q2026pressrele.htm"
+    },
+    {
+     "title": "Nicolet Q1 2026 earnings release (Business Wire, 21 Apr 2026)",
+     "url": "https://www.businesswire.com/news/home/20260421530305/en"
+    },
+    {
+     "title": "Nicolet Q4 2025 record earnings, 8-K Ex 99.1 (SEC, 20 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1174850/000117485026000004/exhibit99_14q2025pressrele.htm"
+    },
+    {
+     "title": "Nicolet announces merger with MidWestOne (Business Wire, 23 Oct 2025)",
+     "url": "https://www.businesswire.com/news/home/20251023414214/en/Nicolet-Bankshares-Inc.-Announces-Merger-with-MidWestOne-Financial-Group-Inc."
+    },
+    {
+     "title": "Form 4, E. Witczak sale July 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001174850/000117485026000162/form4.xml"
+    },
+    {
+     "title": "Quantisnow: NIC insider transactions (aggregator)",
+     "url": "https://www.quantisnow.com/insiders/NIC"
+    },
+    {
+     "title": "InsiderTrades: Director Atwell sales Feb-Mar 2026 (aggregator)",
+     "url": "https://www.insidertrades.com/alerts/nyse-nic-insider-buying-and-selling-2026-03-17"
+    },
+    {
+     "title": "MarketBeat: NIC ownership and analyst ratings (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/nicolet-bankshares-nysenic-evp-sells-5881032-in-stock-2026-07-29/"
+    },
+    {
+     "title": "Earnings Whispers: NIC Q3 2026 vs consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/NIC/202609"
+    },
+    {
+     "title": "Equibles: NIC short interest (aggregator)",
+     "url": "https://equibles.com/stocks/nic/shortinterest"
+    }
+   ]
+  },
+  "US:VOYA": {
+   "market": "US",
+   "code": "VOYA",
+   "name": "Voya Financial",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$99.42",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Voya is a mature retirement, asset management and employee benefits company that is growing EPS mostly through cost cuts and buybacks. Q3 2026 results came out after the close on 2 Nov 2026: adjusted operating EPS was $2.60, up just 6% YoY and a cent below the $2.61 consensus. Total revenue fell 5% and Q2 2026 adjusted EPS was down 39%. Earnings and sales both fail the SEPA growth tests, so it's a Reject even though the chart is breaking out.",
+   "catalyst": "WEAK: the OneAmerica integration is done, ~$40M-plus of severance-led efficiency actions should lift H2 2026 margins, and the dividend rises 21% to $0.57 (8-K, 2 Nov 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj op EPS YoY: Q4'25 $1.94 +39%; Q1'26 $2.26 +13%; Q2'26 $1.51 -39%; Q3'26 $2.60 +6%. GAAP Q3'26 $2.09 vs $1.80. FY25 adj $8.85 +22%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Total revenue YoY: Q4'25 +5%, Q1'26 +3%, Q2'26 -4%, Q3'26 $2,025M -5%. Q3'26 TTM segment net revenue +5-10%. FY25 +2%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 net margin ~9.5% vs ~8.3% (calc). Retirement TTM margin 37.8% vs 39.8%; Emp Benefits 11.4% vs 6.0%. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3'26 GAAP NI $193M vs adj $240M; net investment losses $108M. 1H'26 OCF $467M vs $563M. Concern: buybacks (~$300M 1H'26) flatter EPS",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 adj EPS $2.60 vs $2.61 consensus, $2.66 whisper (aggregator): slight miss. No numeric guidance. Estimate revisions not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: OneAmerica integration done (Q2'26); severance-led cost savings; Retirement client assets $878B, +12% YoY (8-K, 2 Nov 2026)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mature diversified financial/retirement player, not a growth leader. Benefits from equity markets. Industry-group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$8.8B (aggregator); 90.6M shs (31 Jul 2026). Inst % not found; 498 13F holders (Q2'26). 2 insiders sold in 10b5-1 plans Aug-Oct'26; no buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: debt $2.10B, cash $1.01B; excess capital ~$250M (30 Sep 2026). ~90% capital conversion. ROE not found. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 call 3 Nov 2026; Q4'26 results ~early Feb 2027 (not announced). Short int 3.6M, ~4% of float, falling MoM (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2'26 (ended 30 Jun, filed Aug 2026). S-3ASR shelf Feb 2026, used for $400M 5.05% notes due 2036. No equity offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "No real growth: Q3 2026 revenue fell 5% and adjusted EPS rose only 6%, helped by a lower share count",
+    "Q3 2026 adjusted EPS of $2.60 was a slight miss vs $2.61 consensus; the stock could fade after the 3 Nov call",
+    "Equity-market and alternative-investment sensitivity: Retirement margin fell to 37.8% on lower alternative income",
+    "Two insiders sold under 10b5-1 plans (CTO 35,587 shares on 21 Aug 2026; CLO 2,093 on 26 Oct 2026), with no open-market buys",
+    "Next event: Q3 2026 earnings call 3 Nov 2026, 10am ET; Q4 2026 results expected early Feb 2027 (date not announced)"
+   ],
+   "next_event": "Q3 2026 earnings call 3 Nov 2026 (results out 2 Nov after close); Q4 2026 results ~early Feb 2027 (not announced)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Voya Q3 2026 results, 8-K press release (SEC, 2 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000185/a2026q3pressrelease.htm"
+    },
+    {
+     "title": "Voya Q2 2026 results, 8-K press release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000149/a2026q2pressrelease.htm"
+    },
+    {
+     "title": "Voya Q1 2026 results, 8-K press release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000080/a2026q1pressrelease.htm"
+    },
+    {
+     "title": "Voya Q4 and FY2025 results, 8-K press release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535929/000153592926000009/a2025q4pressrelease.htm"
+    },
+    {
+     "title": "Voya 10-Q, quarter ended 30 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000157/voya-20260630.htm"
+    },
+    {
+     "title": "Form 4: T. Ogle sale, 26 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000181/form4.xml"
+    },
+    {
+     "title": "Form 4: S. Keshavan sale, 21 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000164/form4.xml"
+    },
+    {
+     "title": "Form 4: C. T. Brannigan RSU vest, 16 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535929/000153592926000162/form4.xml"
+    },
+    {
+     "title": "Voya 424B2: $400M 5.05% notes due 2036 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535929/000119312526068601/d117478d424b2.htm"
+    },
+    {
+     "title": "Voya S-3ASR shelf registration (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535929/000119312526061629/d78026ds3asr.htm"
+    },
+    {
+     "title": "Voya schedules Q3 2026 results announcement",
+     "url": "https://www.voya.com/news/2026/10/voya-financial-schedules-announcement-third-quarter-2026-results"
+    },
+    {
+     "title": "Earnings Whispers: VOYA Q3 2026 EPS vs consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/VOYA"
+    },
+    {
+     "title": "Equibles: VOYA summary, short interest (aggregator)",
+     "url": "https://equibles.com/stocks/voya/summary"
+    },
+    {
+     "title": "InsiderSet: VOYA institutional holders (aggregator)",
+     "url": "https://www.insiderset.com/stocks/voya"
+    }
+   ]
+  },
+  "US:STBA": {
+   "market": "US",
+   "code": "STBA",
+   "name": "S&T Bancorp, Inc.",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$52.03",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "S&T is a ~$9.9B-asset Pennsylvania regional bank. It reported record Q3 2026 GAAP diluted EPS of $1.09 (+20% YoY) on 22 Oct 2026, helped by NIM widening to 4.06% and an ~8% cut in share count from buybacks. Total revenue grew only +4.6% and EPS growth is below the 25% bar, so this is a steady compounder, not a SEPA earnings leader: Watch only.",
+   "catalyst": "Rising rates (Sep 2026 hike) are lifting NIM to a record 4.06% in Q3 2026, plus $133M of buybacks since Q4 2025 (8.3% of shares) and a new $100M authorization (Jul 2026). Rated WEAK.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q4'25 $0.89 +3%; Q1'26 $0.94 +8%; Q2'26 $1.02 +23%; Q3'26 $1.09 +20% (record). FY26e $3.94 (aggregator, Jul)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Total rev (NII+fees) YoY: Q4'25 +11.5%, Q1'26 +8.9%, Q2'26 +5.2%, Q3'26 $107.8M +4.6%. Organic, but slowing and well below 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 NIM 4.06% vs 3.93%; efficiency 53.2% vs 54.4%; net margin 35.8% vs 33.9% (calc). Sales decelerating, so no Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3'26 NI +10% vs EPS +20%: buybacks flatter EPS. ACL fell to 1.16% from 1.23%. No one-offs in Q3. OCF not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 $1.09 vs $0.99 consensus (aggregator). Q4 guide: NIM up a few bp, flat to low-single-digit loans. 3 PTs raised 27 Jul (aggregator)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: rate hike lifted NIM to a record 4.06% (Q3'26 call, 22 Oct 2026); $100M buyback (8-K, 23 Jul 2026). No new business driver",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mid-size regional bank, consensus Hold (6 of 7 analysts). KRE $73.73 on 2 Nov 2026, ~6% below its $78.35 52-wk high, +26% 1-yr",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$1.84B (calc); shares 38.26M (Dec'24) to 35.27M (Sep'26), -8%. Inst 72.6% (Jun'26, aggregator). Director sold 17,289 sh, Aug'26",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: CET1 14.02%, TCE/TA 10.85%, borrowings $215M, loans/deposits ~100%, NPA 0.45%, ROE 10.84%, ROTE 14.81%",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next results ~21 Jan 2027 (scanner, unconfirmed). Short int 2.38M (~6.8% of shares), 10.8 days to cover, up from 2.10M in Jul (15 Oct)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2'26, filed 6 Aug 2026. Q3 10-Q not yet found. No S-3, ATM or offering found Jul-Oct 2026. $100M buyback runs to Aug 2027",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Revenue growth is slowing (+11.5% to +4.6% over 4 quarters) and loan growth is flat, so EPS gains depend on NIM and buybacks",
+    "Buybacks paused in Q3 2026; without them, net income growth is only ~10% YoY (Q3'26)",
+    "Rate sensitivity: NIM gains rest on further hikes. Rate cuts or deposit competition would reverse them",
+    "Short interest up ~13% since late Jul to 2.38M with ~11 days to cover; a director sold ~$0.89M of stock at ~$51 in Aug 2026",
+    "Next event: Q4 2026 results ~21 Jan 2027 (scanner date, unconfirmed); possible M&A (management calls it a priority)"
+   ],
+   "next_event": "Q4 2026 results, ~21 Jan 2027 (scanner date, not confirmed by company)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "S&T Q3 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000719220/000071922026000114/stba-ex991earningspressrel.htm"
+    },
+    {
+     "title": "S&T Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000719220/000071922026000087/stba-ex991earningspressrel.htm"
+    },
+    {
+     "title": "S&T Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000719220/000071922026000038/stba-ex991earningspressrel.htm"
+    },
+    {
+     "title": "S&T Q4 and FY2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/719220/000071922026000004/stba-ex991earningspressrel.htm"
+    },
+    {
+     "title": "Form 4, director William J. Hieb, Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000719220/000071922026000107/wk-form4_1786655597.xml"
+    },
+    {
+     "title": "Form 4, director Peter R. Barsz RSU grant, May 2026 (Quantisnow)",
+     "url": "https://qnow.quantisnow.com/insight/sec-form-4-filed-by-director-barsz-peter-richard-6553479"
+    },
+    {
+     "title": "MarketBeat: Q3 2026 earnings call highlights (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-st-bancorp-q3-earnings-call-highlights-2026-10-22/"
+    },
+    {
+     "title": "Earnings Whispers: STBA Q3 2026 EPS vs consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/STBA/202609"
+    },
+    {
+     "title": "StockTitan: STBA SEC filings list (aggregator)",
+     "url": "https://stocktitan.net/sec-filings/STBA/"
+    },
+    {
+     "title": "InsiderScreener: STBA insider transactions (aggregator)",
+     "url": "https://www.insiderscreener.com/en/company/s-t-bancorp-inc"
+    },
+    {
+     "title": "Equibles: STBA institutional holdings (aggregator)",
+     "url": "https://equibles.com/stocks/stba/holdings"
+    },
+    {
+     "title": "Equibles: STBA short interest (aggregator)",
+     "url": "https://equibles.com/stocks/stba/shortinterest"
+    },
+    {
+     "title": "StockAnalysis: STBA analyst forecast (aggregator)",
+     "url": "https://stockanalysis.com/stocks/stba/forecast/"
+    },
+    {
+     "title": "StockAnalysis: KRE regional bank ETF (aggregator)",
+     "url": "https://stockanalysis.com/stocks/kre/"
+    }
+   ]
+  },
+  "US:USFD": {
+   "market": "US",
+   "code": "USFD",
+   "name": "US Foods Holding",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$105.8",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "The No. 2 US broadline foodservice distributor is compounding steadily. Q2 FY26 (Mar-Jun, ended 27 Jun 2026) adj EPS rose 21% to a record $1.44 on sales up only 4.5%, with margin programmes and buybacks doing most of the work. Sales growth in the low single digits and adj EPS growth below 25% mean it is a quality compounder, not a SEPA earnings leader. Q3 results land 5 Nov 2026, three days away.",
+   "catalyst": "Weak: margin programmes (over $300M vendor savings targeted by 2027, $75M+ indirect procurement in 2026), a fifth straight quarter of faster independent case growth (+5.1%), and a $1B buyback launched Nov 2025 after PFGC merger talks ended (Q2 call, 6 Aug 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj dil EPS YoY: Q3'25 $1.07 +26%; Q4'25 $1.04 +24%; Q1'26 $0.78 +15%; Q2'26 $1.44 +21% (GAAP $1.24 +29%). FY25 record $3.98. Q3e $1.18-1.25 (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net sales YoY: Q3'25 +4.8%, Q4'25 +3.3%, Q1'26 +2.8%, Q2'26 $10.53B +4.5%. Organic cases +1.7%; FY26 guide +4-6%. Far below 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 gross 18.2% vs 17.6%, adj EBITDA 5.7% vs 5.4%, net 2.6% vs 2.2% (calc). Q1'26 gross 17.2% vs 17.3%. Sales not accelerating, so no Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "H1'26 OCF $725M, flat YoY while NI rose. Diluted shares down 5.4% YoY (Q2'26). Q1 GAAP $0.52 vs adj $0.78. Main concern: buybacks lift EPS",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS $1.44 vs $1.36 est; sales $10.53B vs $10.46B (6 Aug 2026). FY26 guide reaffirmed, not raised. Estimate revisions not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: cost programmes ($300M+ by 2027), independent cases +5.1% (Q2'26), $1B buyback after PFGC talks ended (Nov 2025). Incremental, not transformative",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Institutional favourite, defensive distributor gaining share for 21 straight quarters. Peer group strength not verified; Sysco reports 3 Nov 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$22.9B (calc, 216.3M sh at 31 Jul 2026). Diluted sh 251.0M Q2'23 to 220.5M Q2'26 (-12%). Inst 98.8% (aggregator). 5 insider sellers in 12m, 0 buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "27 Jun 2026: cash $56M, debt $5.24B, net debt $5.18B, 2.6x leverage. FY25 OCF $1.37B. TTM ROE ~17% (calc). No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 results 5 Nov 2026 BMO, 3 days away; Sysco reports 3 Nov. Short interest 13.9M, 7.6 days to cover (15 Oct), up 29% since 14 Aug",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q (Q2, ended 27 Jun 2026) posted 6 Aug 2026. Next earnings 5 Nov 2026. No shelf, ATM or offering found. $640M buyback left",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Pre-mortem 1: Q3 shows slower gross profit per case (lapping a Food Fanatics event) and FY26 guide is cut or held while estimates imply only +10-17% EPS",
+    "Pre-mortem 2: restaurant traffic weakens (chain cases -1.5% in Q2'26) or food deflation squeezes the 4-6% sales guide",
+    "Pre-mortem 3: over-ownership (inst ~98.8%) plus rising short interest (13.9M, 7.6 days) creates heavy supply on any miss",
+    "Insider supply: officers Hancock (7 Aug 2026, $2.4M) and Taylor (13 Aug 2026, $1.3M) sold, not under 10b5-1 plans; no insider buys in 12 months",
+    "Next event: Q3 FY26 results 5 Nov 2026 BMO. A raised FY26 guide with sales accelerating toward 6%+ would improve the case, but it still would not meet SEPA sales criteria"
+   ],
+   "next_event": "Q3 FY26 results and call, 5 Nov 2026, before the open (confirmed in company release, 15 Oct 2026); Sysco Q1 FY27, 3 Nov 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "US Foods Q2 FY26 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000043/usfd06272026ex991.htm"
+    },
+    {
+     "title": "US Foods Q1 FY26 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000030/usfd03282026ex991.htm"
+    },
+    {
+     "title": "US Foods Q4 and FY25 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591826000005/usfd12272025ex991.htm"
+    },
+    {
+     "title": "US Foods Q3 FY25 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591825000144/usfd09272025ex991.htm"
+    },
+    {
+     "title": "US Foods Q2 FY23 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591823000124/usfd712023ex991.htm"
+    },
+    {
+     "title": "US Foods 10-Q, quarter ended 27 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000045/usfd-20260627.htm"
+    },
+    {
+     "title": "EDGAR filing index for Q2 FY26 10-Q (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591826000045/"
+    },
+    {
+     "title": "Form 4: W. S. Hancock sale, 7 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000183193926000006/wk-form4_1786480238.xml"
+    },
+    {
+     "title": "Form 4: D. Flitman gifts, 14 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000136768826000008/wk-form4_1786996820.xml"
+    },
+    {
+     "title": "US Foods Q3 2026 conference call notice (15 Oct 2026)",
+     "url": "https://s21.q4cdn.com/460693622/files/doc_news/US-Foods-to-Host-Third-Quarter-2026-Financial-Results-Conference-Call-and-Webcast-2026.pdf"
+    },
+    {
+     "title": "Q2 2026 earnings call transcript (Webull, aggregator)",
+     "url": "https://www.webull.com/news/15706654075323392"
+    },
+    {
+     "title": "MarketBeat: Q2 2026 results vs consensus (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/us-foods-nyseusfd-updates-fy-2026-earnings-guidance-2026-08-06/"
+    },
+    {
+     "title": "InsiderTrades: USFD insider trades and ownership (aggregator)",
+     "url": "https://www.insidertrades.com/us-foods-holding-corp-stock"
+    },
+    {
+     "title": "Equibles: USFD insider trading (aggregator)",
+     "url": "https://equibles.com/stocks/usfd/insider-trading"
+    },
+    {
+     "title": "InsiderSet: USFD 13F holders, Q2 2026 (aggregator)",
+     "url": "https://www.insiderset.com/stocks/USFD/institutional-ownership"
+    },
+    {
+     "title": "Equibles: USFD short interest (aggregator)",
+     "url": "https://equibles.com/stocks/usfd/short-interest?range=3m"
+    },
+    {
+     "title": "Earnings Whispers: USFD Q3 2026 date and consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/usfd"
+    },
+    {
+     "title": "FreightWaves: PFG and US Foods end merger talks (Nov 2025)",
+     "url": "https://www.freightwaves.com/news/performance-food-group-us-foods-end-merger-talks"
+    },
+    {
+     "title": "Finviz: Sysco to report Q1 FY27 on 3 Nov",
+     "url": "https://finviz.com/news/401694/sysco-to-announce-first-quarter-fiscal-year-2027-financial-results-on-november-3"
+    }
+   ]
+  },
+  "US:HCSG": {
+   "market": "US",
+   "code": "HCSG",
+   "name": "Healthcare Services Group",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$25.76",
+   "verdict": "Reject",
+   "confidence": "medium",
+   "summary": "HCSG provides housekeeping and dietary services to nursing homes. It is recovering from 2025's Genesis bad-debt hit, and Q3 2026 (Jul-Sep, reported 21 Oct 2026) GAAP EPS of $0.36 beat the $0.22 consensus. Organic sales growth is only about 3% a year, GAAP EPS fell 39% YoY against an ERC-inflated Q3 2025, and several insiders have sold, so it fails the SEPA sales test. Growth now depends on the NEXDINE acquisition.",
+   "catalyst": "NEXDINE acquisition closed 6 Oct 2026 ($93.5M cash, >$150M annual revenue), and management raised 2027 revenue growth to low double digits (Q3 release, 21 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q4'25 $0.44 vs $0.16; Q1'26 $0.37 vs $0.23; Q2'26 $0.32 vs -$0.44; Q3'26 $0.36 vs $0.59 (-39%, Q3'25 had $0.39 ERC)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue YoY: Q4'25 +6.6%, Q1'26 +3.4%, Q2'26 +2.7%, Q3'26 $479.6M +3.3%. Q4'26 guide $535-545M is lifted by the NEXDINE acquisition",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 cost of services 83.2% vs 79.2% (Q3'25 had ERC); adj EBITDA margin 8.0% vs 12.1%; 9M'26 8.0% vs 3.6%. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "9M'26 OCF $95.8M vs NI $73.6M; Q3 OCF ex-payroll $20.7M < NI $24.9M. Q3 had $3.6M net bad-debt benefit. AR +10% since Dec'25",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 EPS $0.36 vs $0.22 consensus; revenue $479.6M vs $479.9M (Zacks, 28 Oct). 2027 growth guide raised to low double digits; Zacks Rank #1",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: NEXDINE acquisition closed 6 Oct 2026, $93.5M, >$150M revenue, accretive (8-K, 21 Oct 2026). The growth is acquired, not organic",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround of a nursing-home services contractor after the Genesis bankruptcy; not a growth leader. Peer group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Feb 2026 sales: Orr, Shea, Brophy. Kush sold 4 Aug; Bundick sold 18,239 sh at $25.11 on 26 Oct, not under 10b5-1. 13F >100% of shares",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash+securities $204.3M, no borrowings, $300M revolver unused; $93.5M paid for NEXDINE in Oct. TTM ROE ~20% (calc)",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results expected mid-Feb 2027, date not announced (Q4'25 was 11 Feb 2026). Short interest 2.72M sh (~4% of shares, 15 Oct), flat to up",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filed (cover dated 21 Oct 2026). No shelf/ATM/offering found since 2014 S-3ASR. Buying back stock: $56.6M YTD of $75M plan",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Organic growth is only ~3%. Most of the 2027 low-double-digit outlook comes from the NEXDINE acquisition and its integration",
+    "Customer credit risk: nursing-home clients like Genesis went bankrupt; AR is $309.6M with a $114M allowance (30 Sep 2026)",
+    "Repeated insider selling: 3 officers in Feb 2026, the COO in Aug 2026, and the GC on 26 Oct 2026 after the earnings pop",
+    "Over-owned: 13F holdings exceed 67.4M shares outstanding, and BlackRock holds ~17%. Late-stage base 8 per scanner",
+    "Next event: Q4 2026 results ~mid-Feb 2027 (not announced). Cost of services is running below the 86% target and could revert"
+   ],
+   "next_event": "Q4 2026 results, expected mid-Feb 2027 (date not announced; Q4 2025 reported 11 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "HCSG Q3 2026 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000731012/000073101226000055/ex99-2026xq3xpressrelease.htm"
+    },
+    {
+     "title": "HCSG Q1 2026 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000731012/000073101226000025/ex99-2026xq1xpressrelease.htm"
+    },
+    {
+     "title": "HCSG Q4 2025 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/731012/000073101226000004/ex99-2025xq4xpressrelease.htm"
+    },
+    {
+     "title": "HCSG 10-Q, quarter ended 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000731012/000073101226000059/hcsg-20260930.htm"
+    },
+    {
+     "title": "Form 4, Jason Bundick, 26 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000731012/000159474826000007/wk-form4_1793132195.xml"
+    },
+    {
+     "title": "HCSG Q2 2026 results press release (Finviz)",
+     "url": "https://finviz.com/news/370912/healthcare-services-group-reports-second-quarter-results"
+    },
+    {
+     "title": "HCSG Q3 2025 results press release (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20251022762475/en"
+    },
+    {
+     "title": "Zacks: HCSG Q3 call highlights (aggregator)",
+     "url": "https://www.zacks.com/stock/news/3017140/hcsg-q3-earnings-call-highlights-higher-2027-growth-outlook"
+    },
+    {
+     "title": "Finviz/Earnings Whispers: Q3 2026 vs consensus (aggregator)",
+     "url": "https://finviz.com/news/405545/healthcare-services-group-crushes-eps-consensus-but-the-real-story-is-the-nexdine-fueled-growth-reset"
+    },
+    {
+     "title": "MarketBeat: HCSG insider trades (aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/HCSG/insider-trades"
+    },
+    {
+     "title": "InsiderScreener: HCSG insider transactions (aggregator)",
+     "url": "https://www.insiderscreener.com/en/company/healthcare-services-group-inc"
+    },
+    {
+     "title": "Equibles: HCSG 13F holdings (aggregator)",
+     "url": "https://equibles.com/stocks/hcsg/holdings"
+    },
+    {
+     "title": "Equibles: HCSG short interest (aggregator)",
+     "url": "https://equibles.com/stocks/hcsg/shortinterest"
+    },
+    {
+     "title": "StockAnalysis: HCSG analyst forecast (aggregator)",
+     "url": "https://stockanalysis.com/stocks/hcsg/forecast/"
     }
    ]
   }
