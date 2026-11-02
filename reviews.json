@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:31:37Z",
+ "updated": "2026-11-02T22:31:40Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -11012,6 +11012,298 @@
     {
      "title": "StockAnalysis: HCSG analyst forecast (aggregator)",
      "url": "https://stockanalysis.com/stocks/hcsg/forecast/"
+    }
+   ]
+  },
+  "US:FCF": {
+   "market": "US",
+   "code": "FCF",
+   "name": "First Commonwealth Financial Corp.",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$21.5",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "A ~$2.1B Pennsylvania regional bank that is widening its NIM (4.11% in Q3 2026 vs 3.92%) and buying back stock hard (4.16M shares in Q3). But Q3 2026 GAAP EPS of $0.45 was only +15% YoY, about $0.05 of it came from a one-off renewable energy tax credit, and revenue grew just 5% with loans down YoY (8-K, 27 Oct 2026). Weak sales growth, rising problem loans and clustered insider selling make this a Reject on SEPA terms.",
+   "catalyst": "Weak: NIM expansion (4.11% Q3'26 vs 3.92%) plus heavy buybacks ($88M in Q3 2026, new $25M authorization on 27 Oct 2026); nothing that changes the earnings trajectory.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q4'25 $0.43 +23%; Q1'26 $0.37 +16%; Q2'26 $0.44 +38% (core +16%); Q3'26 $0.45 +15% (~$0.05 tax credit). FY26e $1.74 (agg)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue (NII+nonint) YoY: Q4'25 +15%, Q1'26 +13% (CenterGroup deal-aided), Q3'26 $143.0M +5%; loans $9.54B vs $9.69B (30 Sep)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 NIM 4.11% vs 3.92%, but core efficiency 53.15% vs 52.30%; pre-tax income -9.9% QoQ (agg). Sales decelerating: no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3'26 had a $4.7M renewable tax credit (~$0.05/sh); NPLs $95.2M, 0.99% vs 0.91%; Q3 provision $14.2M. Buybacks cut shares 7% YoY",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 $0.45 vs $0.46 consensus, a miss (agg); Q2'26 beat ($0.44 vs $0.42); Q1'26 missed by $0.03. No formal guidance; revisions neutral",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: NIM expansion and buybacks ($88M Q3'26; new $25M authorization 27 Oct 2026). No new product, market or deal",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mid-size PA/OH regional bank, not a leader; scanner RS 73. Peer strength in the group not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "~$2.1B cap (calc); 96.9M sh (30 Sep 2026). Inst. 13F shares 113.5M (>100%, Fintel, 30 Sep). 3 insiders sold Aug-Oct 2026, 2 not under 10b5-1 plans",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: CET1 11.9%, ROE 11.44%, ROTCE 15.73%, deposits $10.27B vs loans $9.54B; TBV/sh $11.20 (-3.3% QoQ, agg)",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results expected 26 Jan 2027 (unconfirmed). Classified loans up 17.6% QoQ (agg). Short int 4.31M, 15 Oct, down after 3 rises",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q2'26 10-Q filed 10 Aug 2026; Q3 10-Q pending. Universal S-3ASR shelf 20 Dec 2024, no takedown found; no ATM. Net buyer of own stock",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Credit: NPLs rose to $95.2M (0.99% of loans) at 30 Sep 2026; Q3 reserves were added for three commercial credits, two of them moved to nonaccrual",
+    "Low-quality Q3 beat: about $0.05 of the $0.45 EPS came from a $4.7M renewable energy tax credit; underlying EPS was roughly flat YoY",
+    "Loans fell YoY ($9.54B vs $9.69B) and Q3 grew only 2.6% annualised, short of the 4-6% H2 target",
+    "Insider selling: a director sold 15,000 shares (6 Aug 2026) and the chief audit executive sold 25,000 (10 Aug 2026), neither under a 10b5-1 plan",
+    "Next event: Q4 2026 results, expected 26 Jan 2027 after the close (not confirmed). Turning to Watch only would need loan growth, stable credit and EPS growth back above 25%"
+   ],
+   "next_event": "Q4 2026 results, expected 26 Jan 2027 after close (Earnings Whispers/scanner, not confirmed)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "FCF Q3 2026 earnings release, 8-K Ex 99.1 (SEC, 27 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000071253726000039/fcf-ex991_20261027x8k.htm"
+    },
+    {
+     "title": "FCF Q2 2026 earnings release, 8-K Ex 99.1 (SEC, 28 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000071253726000026/fcf-ex991_20260728x8k.htm"
+    },
+    {
+     "title": "FCF Q1 2026 earnings release, 8-K Ex 99.1 (SEC, 28 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000071253726000018/fcf-ex991_20260428x8k.htm"
+    },
+    {
+     "title": "FCF Q4/FY2025 earnings release, 8-K Ex 99.1 (SEC, 27 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253726000003/fcf-ex991_20260127x8k.htm"
+    },
+    {
+     "title": "FCF 8-K: Chief Accounting Officer appointment (SEC, 17 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000071253726000037/fcf-20260914.htm"
+    },
+    {
+     "title": "FCF S-3ASR universal shelf (SEC, 20 Dec 2024)",
+     "url": "https://www.sec.gov/Archives/edgar/data/712537/000119312524282548/d805571ds3asr.htm"
+    },
+    {
+     "title": "Form 4: J. Reske sale, 5 Aug 2026, 10b5-1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000143564826000029/wk-form4_1786033388.xml"
+    },
+    {
+     "title": "Form 4: J. Reske sale, 4 Sep 2026, 10b5-1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000143564826000031/wk-form4_1788559421.xml"
+    },
+    {
+     "title": "Form 4: J. Grebenc (director) sale, 6 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000148355826000022/wk-form4_1786391321.xml"
+    },
+    {
+     "title": "Form 4: L. Lyon (chief audit executive) sale, 10 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000712537/000209102226000010/wk-form4_1786391633.xml"
+    },
+    {
+     "title": "Earnings Whispers: FCF insider transactions (aggregator)",
+     "url": "https://www.earningswhispers.com/whales/FCF/insiders"
+    },
+    {
+     "title": "Earnings Whispers: FCF next earnings date (aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/FCF"
+    },
+    {
+     "title": "Finsee: FCF Q3 2026 earnings review (aggregator)",
+     "url": "https://finsee.ai/earnings/fcf/2026/q3/en/"
+    },
+    {
+     "title": "AAII: FCF Q3 2026 vs consensus (aggregator)",
+     "url": "https://www.aaii.com/investingideas/article/521314-what-you-need-to-know-about-first-commonwealth-financial-corporations-q3-earnings"
+    },
+    {
+     "title": "MarketBeat: FCF Q2 2026 beat, FY estimates (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/first-commonwealth-financial-nysefcf-sets-new-1-year-high-following-better-than-expected-earnings-2026-07-28/"
+    },
+    {
+     "title": "Fintel: FCF institutional ownership (aggregator)",
+     "url": "https://fintel.io/so/us/fcf"
+    },
+    {
+     "title": "InsiderSet: FCF top institutional holders (aggregator)",
+     "url": "https://www.insiderset.com/stocks/FCF/institutional-ownership"
+    },
+    {
+     "title": "Equibles: FCF short interest (aggregator)",
+     "url": "https://equibles.com/stocks/fcf/short-interest"
+    },
+    {
+     "title": "Equibles: FCF SEC filing list (aggregator)",
+     "url": "https://equibles.com/stocks/fcf/documents"
+    }
+   ]
+  },
+  "US:CCK": {
+   "market": "US",
+   "code": "CCK",
+   "name": "Crown Holdings",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$123.24",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Crown is a mature global beverage-can maker. Can volumes are healthy (+6% in Q3 2026) and buybacks are shrinking the share count about 6% a year. But Q3 2026 (Jul-Sep, reported 19 Oct 2026) adjusted EPS grew only 7% YoY. Sales growth of 16% is mostly aluminium pass-through, gross margin is down about 3 points, and the Q4 guide midpoint of $1.68 is below Q4 2025's $1.74. Earnings are nowhere near SEPA growth rates, and insider selling clustered in Dec 2025-Feb 2026.",
+   "catalyst": "WEAK: North America is expected to be 'full' in 2027, with new plants in India, Brazil and Europe and a 2027 look-back recovery of 2026 cost inflation (Q3 2026 call, 20 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj dil EPS YoY: Q4'25 $1.74 +9%; Q1'26 $1.86 +11%; Q2'26 $2.49 +16%; Q3'26 $2.39 +7%. Q4'26 guide $1.63-1.73 vs $1.74. FY26 guide $8.35-8.45",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net sales YoY: Q4'25 +8%, Q1'26 +13%, Q2'26 +16%, Q3'26 $3.71B +16%. Mostly pass-through ($395M in Q2'26); can volume +6% in Q3'26",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Gross margin (calc): Q1'26 19.8% vs 21.6%; Q2 20.4% vs 22.6%; Q3 19.5% vs 22.6%. Q3 segment income $484M vs $490M. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "9M'26 OCF $1,065M vs NI; adj FCF $771M vs $887M. Restructuring is low ($12M 9M'26). Concern: buybacks (-6.4% shares) give about half of EPS growth",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 adj EPS $2.39 vs $2.26 consensus; sales $3.71B vs $3.45B. Q4 guide $1.68 mid vs $1.79 consensus; FY midpoint flat at $8.40",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: NA capacity 'full' for 2027; India, Brazil and EU plants; 2027 recovery of about half of 2026 inflation (Q3 call, 20 Oct 2026)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mature, cyclical-defensive #2 global can maker. Volumes healthy, Asia double-digit. Peer BALL Q3'26 strength not verified. Aluminium LME about 20% off peak",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$12.5B (aggregator, 26 Oct); 108.1M shs vs 119.4M FY24 dil. Inst 99.5% (13F, 30 Sep 2026, aggregator). Insider sales: CEO, COO, CAO Dec'25-Feb'26",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $629M, debt $5.85B, net debt $5.22B, 2.5x adj leverage. FY25 OCF $1.53B; FY25 ROE ~26% (calc). FY26 FCF guide at least $950M",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next: Q4'26 results ~9 Feb 2027 (aggregator estimate, unconfirmed); FY27 guide late Jan. Short int 2.6M, 2.4% of float, rising (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filed about 28 Oct 2026. No equity offering, shelf take-down or ATM found; about $716M buyback authorisation left through 2027",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Earnings growth is low and slowing: adj EPS +7% in Q3'26, and the Q4'26 guide midpoint ($1.68) is below Q4'25 ($1.74) and the $1.79 consensus",
+    "Middle East-related energy, gas and freight inflation now costs $0.20-0.25 of FY26 EPS. Gulf volumes fell 4% and transit packaging is weak",
+    "Clustered insider selling: CEO 10b5-1 sales Dec'25-Jul'26, plus COO (19 Feb 2026) and CAO (19 Feb 2026) open-market sales",
+    "Over-owned: about 99.5% institutional (aggregator), so there are few new buyers. EPS growth relies on $600-800M a year of buybacks",
+    "Next event: FY27 guidance and Q4'26 results around 9 Feb 2027 (estimate, unconfirmed); a weak 2027 guide would hit a breakout stock"
+   ],
+   "next_event": "Q4 2026 results and FY2027 guidance, about 9 Feb 2027 (aggregator estimate, not confirmed by the company)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Crown Q3 2026 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001219601/000162828026066281/ex99sep2026.htm"
+    },
+    {
+     "title": "Crown Q2 2026 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001219601/000162828026048820/ex99jun2026.htm"
+    },
+    {
+     "title": "Crown Q1 2026 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001219601/000162828026027502/ex99mar2026.htm"
+    },
+    {
+     "title": "Crown Q4 and FY2025 results, 8-K Ex 99 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026005444/ex99dec2025.htm"
+    },
+    {
+     "title": "Form 4, T. Donahue sale 23 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001219601/000143774926021411/rdgdoc.xml"
+    },
+    {
+     "title": "Crown Q3 2026 earnings call transcript (Earnings Whispers)",
+     "url": "https://www.earningswhispers.com/transcript/CCK/Q32026"
+    },
+    {
+     "title": "Finviz: CCK Q4 outlook misses estimates (20 Oct 2026, aggregator)",
+     "url": "https://finviz.com/news/404353/crown-holdings-shares-fall-17-premarket-as-q4-earnings-outlook-misses-estimates"
+    },
+    {
+     "title": "StockAnalysis: CCK overview and news (aggregator)",
+     "url": "https://stockanalysis.com/stocks/cck"
+    },
+    {
+     "title": "Rava: CCK news feed Oct 2026 (aggregator)",
+     "url": "https://www.rava.com/noticias?ticker=CCK_US"
+    },
+    {
+     "title": "Massive: CCK insider trading (aggregator)",
+     "url": "https://massive.com/quote/cck/insider-trading"
+    },
+    {
+     "title": "Quantisnow: CCK insider transactions (aggregator)",
+     "url": "https://www.quantisnow.com/insiders/CCK"
+    },
+    {
+     "title": "Equibles: CCK ownership and short interest (aggregator)",
+     "url": "https://equibles.com/stocks/CCK"
+    },
+    {
+     "title": "Fintel: CCK institutional holders (aggregator)",
+     "url": "https://fintel.io/so/us/cck"
+    },
+    {
+     "title": "TipRanks: CCK earnings calendar (aggregator)",
+     "url": "https://www.tipranks.com/stocks/cck/earnings-calendar"
     }
    ]
   }
