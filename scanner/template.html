@@ -180,17 +180,53 @@ details.panel summary{cursor:pointer;font-family:var(--f-display);font-size:20px
 .pfill input{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 10px;min-width:0}
 footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 @media (prefers-reduced-motion:no-preference){.row{transition:background .12s}}
+[hidden]{display:none!important}
+
+/* trade journal */
+.s-held{background:var(--ink);color:var(--surface)}
+.jhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.jhead h2{margin-right:auto}
+.sync{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);flex-wrap:wrap}
+.sync .dot{width:9px;height:9px}
+.sync>span:nth-child(2){flex:1;min-width:0}
+.sync.ok .dot{background:var(--up)}.sync.syncing .dot{background:var(--info)}.sync.error .dot{background:var(--down)}.sync.local .dot{background:var(--warn)}
+.sync.error{color:var(--down)}
+.pcards{display:grid;gap:10px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:grid;gap:10px}
+.pcard-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pcard-h b.code{font:700 22px/1 var(--f-display);letter-spacing:.02em}
+.pcard-h .pl{margin-left:auto;text-align:right;font:600 20px/1.1 var(--f-mono)}
+.pcard-h .pl small{display:block;font:500 12px var(--f-mono);color:var(--muted)}
+.pcard .kv b{font-size:14px}
+.jal{list-style:none;margin:0;padding:0;display:grid;gap:5px;font-size:13.5px}
+.jal li{border-radius:7px;padding:6px 9px}
+.jal .bad{background:var(--down-soft);color:var(--down);font-weight:600}
+.jal .good{background:var(--up-soft);color:var(--up);font-weight:600}
+.jal .warn{background:var(--warn-soft);color:var(--warn)}
+.jal .info{background:var(--info-soft);color:var(--info)}
+.acts{display:flex;gap:6px;flex-wrap:wrap}
+.acts .btn{padding:5px 11px;font-size:13.5px}
+.btn.danger{color:var(--down);border-color:var(--down)}
+.ctable tbody tr{cursor:pointer}.ctable tbody tr:hover{background:var(--sunken)}
+.coach{margin:10px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px}
+.plan textarea,.plan select{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 9px;width:100%;font:14px var(--f-body);color:var(--ink)}
+.plan .wide{grid-column:1/-1}
+.steps{margin:6px 0 0;padding-left:20px;display:grid;gap:6px;font-size:14px;max-width:70ch}
+.ferr{color:var(--down);font-size:13.5px;margin-top:8px}
+.held{background:var(--sunken);border-radius:8px;padding:8px 10px;font-size:14px;margin-bottom:10px}
 </style>
 
 <div class="top"><div class="wrap">
   <div class="brand"><h1>SEPA Scanner</h1><span class="tag" id="tag"></span></div>
+  <div class="seg" id="views" role="group" aria-label="View"><button type="button" data-v="scan" aria-pressed="true">Scanner</button><button type="button" data-v="journal" aria-pressed="false">Journal</button></div>
   <div class="seg" id="mkts" role="group" aria-label="Market"></div>
   <span class="asof" id="asof"></span>
 </div></div>
 <div class="demo" id="demo" hidden><div class="wrap">Preview with synthetic sample data. Every DEMO ticker is fake. Your live page fills with real ASX and US stocks after each daily run.</div></div>
 
 <div class="demo" id="errs" hidden><div class="wrap" id="errtext"></div></div>
-<main class="wrap">
+<main class="wrap" id="journal" hidden></main>
+<main class="wrap" id="scanview">
   <section class="market" aria-label="Market condition">
     <div class="panel regime" id="regime"></div>
     <div class="panel">
@@ -387,7 +423,7 @@ function renderList(M){
   const rows = filtered(M);
   const hdr = `<div class="row rowhdr" aria-hidden="true"><span class="label">Stock</span><span class="label">Status · footprint</span><span class="label">90 days · pivot</span><span class="label rt">RS</span><span class="label rt">To pivot</span><span class="label rt">Score</span></div>`;
   $("#rows").innerHTML = rows.length ? hdr + rows.map((s,i)=>{
-    const st = `<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${rbadge(M,s)}${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}${fbadge(s)}</span>`;
+    const st = `${heldOf(M.name,s.code).length?`<span class="pill s-held" style="font-size:11px;padding:1px 7px">Held</span> `:""}<span class="pill ${STATUS[s.status]||'s-trend'}">${esc(s.status)}</span>${rbadge(M,s)}${s.setup&&s.setup!=='VCP'?` <span class="muted" style="font-size:12px">${esc(s.setup)}</span>`:""}<span class="foot">${esc(s.base?.footprint||"no base")}${fbadge(s)}</span>`;
     const dist = s.dist_pivot==null? "–" : pct(s.dist_pivot);
     return `<button class="row" type="button" data-i="${M.stocks.indexOf(s)}">
       <span class="tk"><b>${esc(s.code)}</b><span class="nm">${esc(s.name||s.industry||"")}</span></span>
@@ -477,12 +513,15 @@ let FXR = null; /* A$ per unit of the stock's currency, for US stocks */
 function planBlock(s, cur){
   const R = DATA.risk||{}; const acct=store.get("acct",R.default_account||10000), rp=store.get("riskpct",R.default_risk_pct||1.25), sp=store.get("stoppct",R.default_stop_pct||7);
   const entry = s.status==="Breaking out"||s.status==="Extended" ? s.price : (s.pivot || s.price);
-  return `<div class="plan">
+  const held = heldOf(PLAN_M.name, s.code);
+  return `${held.map(t=>`<div class="held">In your journal: <b class="mono">${left(t).toLocaleString()}</b> shares bought ${esc(fmtDate(t.opened))} at <b class="mono">${fmtPx(t.entry,cur)}</b>, stop <b class="mono">${fmtPx(t.stop,cur)}</b>. <a href="#journal" data-gojournal>Open the journal</a></div>`).join("")}
+    <div class="plan">
     <label for="p-acct">Account size (A$)<input id="p-acct" type="number" inputmode="decimal" min="0" step="100" value="${acct}"></label>
     <label for="p-risk">Risk per trade (% of account)<input id="p-risk" type="number" inputmode="decimal" min="0.1" max="5" step="0.25" value="${rp}"></label>
     <label for="p-entry">Entry (pivot or price${FXR?", "+esc(cur):""})<input id="p-entry" type="number" inputmode="decimal" step="0.001" value="${(+entry).toFixed(entry<2?3:2)}"></label>
     <label for="p-stop">Stop below entry (%)<input id="p-stop" type="number" inputmode="decimal" min="1" max="15" step="0.5" value="${sp}"></label></div>
     <div class="planout" id="planout"></div><div class="alert" id="planalert"></div>
+    <div class="acts" style="margin-top:12px"><button class="btn primary" type="button" id="p-log">Log this trade in the journal</button></div>
     ${FXR?`<p class="muted" style="font-size:12px;margin:8px 0 0">Account, risk and position value are in A$ at A$1 = ${esc(cur)}${(1/FXR).toFixed(4)} (latest close). Entry and stop stay in ${esc(cur)}, the price you'll enter at your broker. Allow for your broker's currency fee.</p>`:""}`;
 }
 function calcPlan(cur){
@@ -492,6 +531,7 @@ function calcPlan(cur){
   const stop=e*(1-sp/100), riskAmt=a*rp/100, sh=Math.floor(riskAmt/fx/(e-stop||1)), val=sh*e*fx, posPct=a?val/a*100:0;
   const capped = posPct>50 ? Math.floor(a*0.5/(e*fx)) : sh;
   const posA=capped*e*fx;
+  LAST_PLAN = {entry:e, stop:+stop.toFixed(e<2?4:3), shares:capped};
   $("#planout").innerHTML = [["Stop price",fmtPx(stop,cur)],["Dollar risk",A+Math.round(riskAmt).toLocaleString()],["Shares",capped.toLocaleString()],
     ["Position value",A+Math.round(posA).toLocaleString()+(FXR?` <span class="muted">(${cur}${Math.round(capped*e).toLocaleString()})</span>`:"")],["Share of account",(a?posA/a*100:0).toFixed(0)+"%"],["Breakeven stop once at",fmtPx(e*(1+2.5*sp/100),cur)]]
     .map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join("");
@@ -501,8 +541,9 @@ function calcPlan(cur){
   if(rp>2.5) w.push("More than 2.5% of the account at risk on one trade is above the book's range.");
   $("#planalert").textContent = w.join(" ");
 }
+let LAST_PLAN = null, PLAN_M = null;
 function openSheet(M, s){
-  FXR = (M.fx&&M.fx.aud_per)||null;
+  FXR = (M.fx&&M.fx.aud_per)||null; PLAN_M = M;
   const cur=M.currency||"", tvSym=(M.name==="ASX"?"ASX:":"")+s.code.replace("-",".");
   const b=s.base, ts=(b?.contractions||[]), mx=Math.max(...ts,1);
   const facts = b? [["Base length",b.weeks+" weeks"],["Deepest correction",b.depth+"%"],["Final contraction",b.final+"%"],["Last 10 days range",b.tight10+"%"],
@@ -544,6 +585,10 @@ function openSheet(M, s){
    </div>`;
   ["#p-acct","#p-risk","#p-entry","#p-stop"].forEach(id=>$(id).addEventListener("input",()=>calcPlan(cur)));
   calcPlan(cur);
+  $("#p-log").onclick=()=>{ const p=LAST_PLAN||{};
+    tradeForm(null, {market:M.name, code:s.code, name:s.name||"", entry:p.entry, stop:p.stop, shares:p.shares,
+      setup:{status:s.status, footprint:s.base?.footprint||null, setup:s.setup||null, pivot:s.pivot??null, rs:s.rs, score:s.score, regime:M.regime?.label||null, stage:s.stage??null}}); };
+  $("#sheetbody").querySelectorAll("[data-gojournal]").forEach(a=>a.onclick=e=>{ e.preventDefault(); closeSheet(); setView("journal"); });
   promptList($("#sh-prompts"), ()=>({market:M.name, ticker:s.symbol, code:s.code, name:s.name, industry:s.industry, price:fmtPx(s.price,cur)}));
   $("#close").onclick=closeSheet;
   $("#sheet").hidden=false; document.body.style.overflow="hidden"; $("#sheetbody").scrollTop=0; $("#close").focus();
@@ -551,6 +596,387 @@ function openSheet(M, s){
 function closeSheet(){ $("#sheet").hidden=true; document.body.style.overflow=""; }
 $("#sheet").addEventListener("click", e=>{ if(e.target.id==="sheet") closeSheet(); });
 document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !$("#sheet").hidden) closeSheet(); });
+
+/* ================= trade journal =================
+   Trades live in journal.json in a PRIVATE GitHub repo (the scanner repo is public), written through the
+   GitHub API with a fine-grained token kept in this browser. A copy is cached on the device, so the journal
+   works offline and before it's connected; the two are merged by trade id (newest edit wins) on every sync. */
+const J = {trades: [], sha: null, synced: null, status: "local", msg: ""};
+const jcfg = () => store.get("jcfg", null);
+(function jload(){ const c=store.get("journal",null); if(c){ J.trades=c.trades||[]; J.sha=c.sha||null; J.synced=c.synced||null; } })();
+function jsaveLocal(){ store.set("journal",{trades:J.trades, sha:J.sha, synced:J.synced}); }
+const todayISO = () => new Date().toLocaleDateString("en-CA");
+const uid = () => Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const liveTrades = () => J.trades.filter(t=>!t.deleted);
+const sold = t => (t.exits||[]).reduce((a,x)=>a+(+x.shares||0),0);
+const left = t => +(t.shares - sold(t)).toFixed(6);
+const isOpen = t => left(t) > 0;
+const heldOf = (mkt, code) => liveTrades().filter(t=>isOpen(t) && t.market===mkt && t.code===code);
+const curOf = mkt => DATA?.markets?.[mkt]?.currency || (mkt==="US"?"US$":"A$");
+const fxNow = mkt => mkt==="ASX" ? 1 : (DATA?.markets?.[mkt]?.fx?.aud_per || null);
+const daysBetween = (a,b) => Math.max(0, Math.round((Date.parse(b)-Date.parse(a))/864e5));
+function fmtDate(d){ if(!d) return ""; const x=new Date(d+"T00:00:00"); return isNaN(x)?d:x.toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"2-digit"}); }
+function money(x, sign=false){ if(x==null||!isFinite(x)) return "n/a"; const r=Math.round(x); return (r<0?"−":sign&&r>0?"+":"")+"A$"+Math.abs(r).toLocaleString("en-AU"); }
+const z = x => x!=null && Math.abs(x)<0.05 ? 0 : x;  /* no "-0.0%" */
+function rfmt(r){ r=z(r); return r==null||!isFinite(r) ? "n/a" : (r>0?"+":"")+r.toFixed(1)+"R"; }
+function stockOf(t){ return DATA?.markets?.[t.market]?.stocks?.find(x=>x.code===t.code) || null; }
+function lastPx(t){
+  const M=DATA?.markets?.[t.market], p=M?.px?.[t.code], s=stockOf(t), mp=t.manual_px;
+  let o=null;
+  if(p) o={c:p[0], chg:p[1], m50:p[2], vr:p[3], asof:M.as_of, src:"scan"};
+  else if(s) o={c:s.price, chg:s.chg1d, asof:M.as_of, src:"scan"};
+  if(mp && (!o || mp.date > o.asof)) o={c:mp.price, asof:mp.date, src:"manual"};
+  return o;
+}
+function tm(t){
+  const fxE=t.fx||1, riskSh=t.entry-t.stop0, n=left(t), lp=n>0?lastPx(t):null, fxN=fxNow(t.market)||fxE;
+  const ex=t.exits||[];
+  const real=ex.reduce((a,x)=>a+(x.price-t.entry)*x.shares,0);
+  const realA=ex.reduce((a,x)=>a+(x.price*(x.fx||fxE)-t.entry*fxE)*x.shares,0);
+  const unreal=lp?(lp.c-t.entry)*n:0, unrealA=lp?(lp.c*fxN-t.entry*fxE)*n:0;
+  const R0=riskSh>0?riskSh*t.shares:null;
+  const lastExit=ex.length?ex.map(x=>x.date).sort().slice(-1)[0]:null;
+  return {riskSh, n, lp, fxN, real, realA, unreal, unrealA, lastExit,
+    pct: (real+unreal)/(t.entry*t.shares)*100,           // whole trade, open part marked to the last close
+    r: R0 ? (real+unreal)/R0 : null,
+    days: daysBetween(t.opened, n>0 ? todayISO() : (lastExit||t.opened)),
+    openPct: lp ? (lp.c/t.entry-1)*100 : null, openR: lp&&riskSh>0 ? (lp.c-t.entry)/riskSh : null};
+}
+function alertsFor(t, m){
+  const a=[], lp=m.lp, cur=curOf(t.market);
+  if(!lp) return [{lvl:"warn", txt:"No price for this stock in the latest scan. Use Edit to type in the last price."}];
+  if(lp.c <= t.stop) a.push({lvl:"bad", txt:`Closed at or below your stop of ${fmtPx(t.stop,cur)}. The book's rule: sell, no exceptions.`});
+  if(m.openR!=null && m.openR>=2 && t.stop < t.entry) a.push({lvl:"good", txt:`Up ${m.openR.toFixed(1)}R. Move your stop to breakeven (${fmtPx(t.entry,cur)}) or higher so this can't turn into a loss.`});
+  if(lp.m50 && lp.c < lp.m50 && (lp.vr||0) >= 1.4) a.push({lvl:"bad", txt:`Closed below the 50-day (${fmtPx(lp.m50,cur)}) on volume ${Math.round((lp.vr-1)*100)}% above average: a sell signal in the book.`});
+  else if(lp.m50 && lp.c < lp.m50) a.push({lvl:"warn", txt:`Below the 50-day average (${fmtPx(lp.m50,cur)}). Sell if it breaks on heavy volume.`});
+  const s=stockOf(t);
+  if(s) (s.warnings||[]).forEach(w=>a.push({lvl:"warn", txt:w}));
+  else if(DATA?.markets?.[t.market]?.stocks && lp.src==="scan") a.push({lvl:"info", txt:"Off the watchlist: it no longer passes the Trend Template."});
+  if(m.days>=15 && m.openR!=null && m.openR<0.5 && m.openR>-1) a.push({lvl:"info", txt:`Held ${m.days} days without getting going. Leaders usually move soon after a proper breakout; consider freeing up the money.`});
+  if(lp.src==="manual") a.push({lvl:"info", txt:`Using the price you entered on ${fmtDate(lp.asof)}.`});
+  return a;
+}
+function jstats(list){
+  if(!list.length) return null;
+  const ms=list.map(t=>({t, m:tm(t)})), W=ms.filter(x=>x.m.real>0), L=ms.filter(x=>x.m.real<=0);
+  const avg=a=>a.length?a.reduce((s,v)=>s+v,0)/a.length:null, bat=W.length/ms.length;
+  const ag=avg(W.map(x=>x.m.pct)), al=avg(L.map(x=>-x.m.pct)), rs=ms.map(x=>x.m.r).filter(r=>r!=null);
+  return {n:ms.length, wins:W.length, bat:bat*100, ag, al, wl:ag!=null&&al?ag/al:null,
+    adj:ag!=null&&al&&bat>0&&bat<1?(ag*bat)/(al*(1-bat)):null, expR:avg(rs),
+    totalA:ms.reduce((s,x)=>s+x.m.realA,0), best:Math.max(...ms.map(x=>x.m.pct)), worst:Math.min(...ms.map(x=>x.m.pct)),
+    dW:avg(W.map(x=>x.m.days)), dL:avg(L.map(x=>x.m.days))};
+}
+
+/* ---- GitHub sync ---- */
+const GH="https://api.github.com";
+function b64e(s){ const b=new TextEncoder().encode(s); let o=""; for(let i=0;i<b.length;i+=0x8000) o+=String.fromCharCode.apply(null,b.subarray(i,i+0x8000)); return btoa(o); }
+function b64d(s){ const bin=atob(s.replace(/\s/g,"")), b=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) b[i]=bin.charCodeAt(i); return new TextDecoder().decode(b); }
+const ghH = c => ({"Accept":"application/vnd.github+json","Authorization":"Bearer "+c.token,"X-GitHub-Api-Version":"2022-11-28"});
+function ghErr(r, what){
+  if(r.status===401) return "GitHub rejected the token. It may have expired: make a new one (step 2 in Settings).";
+  if(r.status===403) return "The token can't "+what+". Check it has Contents: Read and write on this repo.";
+  if(r.status===404) return "Can't see the repo. Check the owner and name, and that the token was given access to it.";
+  return "GitHub said "+r.status+" while trying to "+what+".";
+}
+const fileUrl = c => `${GH}/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/journal.json`;
+async function ghGet(c){
+  const r=await fetch(fileUrl(c), {headers:ghH(c), cache:"no-store"});
+  if(r.status===404){ const rr=await fetch(`${GH}/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}`, {headers:ghH(c), cache:"no-store"});
+    if(!rr.ok) throw new Error(ghErr(rr,"read the repo")); return {trades:[], sha:null}; }
+  if(!r.ok) throw new Error(ghErr(r,"read journal.json"));
+  const j=await r.json(); let body={};
+  try{ body=JSON.parse(b64d(j.content||"")||"{}"); }catch(e){ throw new Error("journal.json in the repo isn't valid JSON. Fix or delete it on GitHub."); }
+  return {trades:body.trades||[], sha:j.sha};
+}
+async function ghPut(c, trades, sha){
+  const text=JSON.stringify({version:1, updated:new Date().toISOString(), trades}, null, 1)+"\n";
+  const body={message:`Journal: ${liveTrades().filter(isOpen).length} open, ${liveTrades().filter(t=>!isOpen(t)).length} closed`, content:b64e(text)};
+  if(sha) body.sha=sha;
+  const r=await fetch(fileUrl(c), {method:"PUT", headers:{...ghH(c),"Content-Type":"application/json"}, body:JSON.stringify(body)});
+  if(r.status===409||r.status===422) return {conflict:true};
+  if(!r.ok) throw new Error(ghErr(r,"save journal.json"));
+  const j=await r.json(); return {sha:j.content?.sha};
+}
+function jmerge(a,b){ const m=new Map(); [...a,...b].forEach(t=>{ const o=m.get(t.id); if(!o||(t.updated||"")>(o.updated||"")) m.set(t.id,t); }); return [...m.values()]; }
+const jsig = a => a.map(t=>t.id+":"+(t.updated||"")).sort().join("|");
+let SYNCING=null, AGAIN=false;
+function jsync(){
+  const c=jcfg(); if(!c){ J.status="local"; renderJStatus(); return Promise.resolve(); }
+  if(SYNCING){ AGAIN=true; return SYNCING; }
+  J.status="syncing"; renderJStatus();
+  SYNCING=(async()=>{
+    try{
+      let done=false;
+      for(let i=0;i<4 && !done;i++){
+        const g=await ghGet(c), merged=jmerge(J.trades, g.trades), changed=jsig(merged)!==jsig(J.trades);
+        J.trades=merged;
+        if(g.sha && jsig(merged)===jsig(g.trades)){ J.sha=g.sha; done=true; }
+        else { const p=await ghPut(c, merged, g.sha); if(!p.conflict){ J.sha=p.sha; done=true; } }
+        if(changed) jrefresh();
+      }
+      if(!done) throw new Error("Another device kept saving at the same moment. Try again.");
+      J.synced=new Date().toISOString(); J.status="ok"; J.msg="";
+    }catch(e){ J.status="error"; J.msg=e.message||String(e); }
+    jsaveLocal(); SYNCING=null; renderJStatus();
+    if(AGAIN){ AGAIN=false; jsync(); }
+  })();
+  return SYNCING;
+}
+function jcommit(t){ t.updated=new Date().toISOString(); if(!J.trades.includes(t)) J.trades.push(t); jsaveLocal(); jrefresh(); jsync(); }
+function jrefresh(){ if(state.view==="journal") renderJournal(); else if(DATA&&markets.length) renderList(DATA.markets[state.market]); }
+
+/* ---- journal view ---- */
+function syncHtml(){
+  const c=jcfg(), ago=J.synced?Math.round((Date.now()-Date.parse(J.synced))/6e4):null;
+  const t = J.status==="syncing" ? "Saving to GitHub…" :
+    J.status==="error" ? "Not synced: "+esc(J.msg) :
+    J.status==="ok" ? `Synced to ${esc(c.owner)}/${esc(c.repo)}${ago!=null?" · "+(ago<1?"just now":ago+" min ago"):""}` :
+    "Saved on this device only. Connect your private repo in Settings to sync with your other devices.";
+  return `<span class="dot"></span><span>${t}</span>${J.status==="error"?` <button class="btn" type="button" data-jretry style="padding:3px 9px;font-size:12.5px">Retry</button>`:""}`;
+}
+function renderJStatus(){ const el=$("#jsync"); if(!el) return; el.className="sync "+J.status; el.innerHTML=syncHtml(); const b=el.querySelector("[data-jretry]"); if(b) b.onclick=()=>jsync(); }
+function renderJournal(){
+  const all=liveTrades(), open=all.filter(isOpen).sort((a,b)=>b.opened.localeCompare(a.opened));
+  const closed=all.filter(t=>!isOpen(t)).map(t=>({t,m:tm(t)})).sort((a,b)=>(b.m.lastExit||"").localeCompare(a.m.lastExit||""));
+  const om=open.map(t=>({t,m:tm(t)}));
+  const acct=store.get("acct",(DATA?.risk||{}).default_account||10000);
+  const value=om.reduce((s,x)=>s+(x.m.lp?x.m.lp.c*x.m.n*x.m.fxN:x.t.entry*x.m.n*(x.t.fx||1)),0);
+  const atRisk=om.reduce((s,x)=>s+(x.m.lp?Math.max(0,x.m.lp.c-x.t.stop)*x.m.n*x.m.fxN:0),0);
+  const unreal=om.reduce((s,x)=>s+x.m.unrealA,0), realised=all.reduce((s,t)=>s+tm(t).realA,0);
+  const st=jstats(closed.map(x=>x.t));
+  const tile=(v,l,c="")=>`<div class="stat"><b class="${c}">${v}</b><span>${l}</span></div>`;
+
+  const cards = om.map(({t,m})=>{ const cur=curOf(t.market), lp=m.lp, al=alertsFor(t,m);
+    const stopGap = lp ? (t.stop/lp.c-1)*100 : null;
+    return `<div class="pcard">
+      <div class="pcard-h"><b class="code">${esc(t.code)}</b><span class="pill s-trend">${esc(t.market)}</span><span class="muted" style="font-size:13px;min-width:0">${esc(t.name||"")}</span>
+        <span class="pl ${cls(z(m.openPct))}">${m.openPct!=null?pct(z(m.openPct)):"–"}<small>${money(m.unrealA,true)} · ${rfmt(m.openR)}</small></span></div>
+      <div class="kv">
+        <div><span>Shares</span><b>${m.n.toLocaleString()}${m.n<t.shares?` <span class="muted">of ${t.shares.toLocaleString()}</span>`:""}</b></div>
+        <div><span>Entry · ${esc(fmtDate(t.opened))}</span><b>${fmtPx(t.entry,cur)}</b></div>
+        <div><span>Last${lp?" · "+esc(fmtDate(lp.asof)):""}</span><b>${lp?fmtPx(lp.c,cur):"n/a"}</b></div>
+        <div><span>Stop${stopGap!=null?` · ${pct(stopGap)}`:""}</span><b>${fmtPx(t.stop,cur)}</b></div>
+        <div><span>Value</span><b>${lp?money(lp.c*m.n*m.fxN):"n/a"}</b></div>
+        <div><span>Days held</span><b>${m.days}</b></div></div>
+      ${al.length?`<ul class="jal">${al.map(x=>`<li class="${x.lvl}">${esc(x.txt)}</li>`).join("")}</ul>`:""}
+      <div class="acts"><button class="btn primary" type="button" data-sell="${t.id}">Sell</button><button class="btn" type="button" data-stop="${t.id}">Move stop</button><button class="btn" type="button" data-edit="${t.id}">Edit</button>${stockOf(t)?`<button class="btn" type="button" data-chart="${t.id}">Chart</button>`:""}</div>
+    </div>`; }).join("");
+
+  const coach=[]; if(st && st.n>=3){
+    if(st.al!=null && st.al>8) coach.push(`Average loss is ${st.al.toFixed(1)}%. The book aims for 5-6% and never more than 10%: cut losses sooner.`);
+    if(st.ag!=null && st.al!=null && st.ag<st.al) coach.push("Average gain is smaller than average loss. Let winners run further, or cut losers faster.");
+    if(st.dW!=null && st.dL!=null && st.dL>st.dW) coach.push(`Losers are held longer (${st.dL.toFixed(0)} days) than winners (${st.dW.toFixed(0)} days). It should be the other way round.`);
+    if(st.adj!=null && st.adj<1) coach.push("Adjusted win/loss ratio under 1: as traded, this loses money over time.");
+    if(!coach.length) coach.push("Losses are smaller than gains and cut faster. Keep doing that.");
+  }
+  const groupRows = (key, label) => { const g={}; closed.forEach(x=>{ const k=key(x.t)||"Not recorded"; (g[k]=g[k]||[]).push(x.t); });
+    const ks=Object.keys(g); if(ks.length<2 && ks[0]==="Not recorded") return "";
+    return ks.sort().map(k=>{ const s=jstats(g[k]); return `<tr><td>${esc(label)}: ${esc(k)}</td><td>${s.n}</td><td>${s.bat.toFixed(0)}%</td><td class="pos">${s.ag!=null?pct(s.ag):"–"}</td><td class="neg">${s.al!=null?"−"+s.al.toFixed(1)+"%":"–"}</td><td>${rfmt(s.expR)}</td></tr>`; }).join(""); };
+
+  $("#journal").innerHTML = `
+  <section class="panel">
+    <div class="jhead"><h2>Trade journal</h2><button class="btn primary" type="button" id="j-add">Add a trade</button><button class="btn" type="button" id="j-set">Settings</button></div>
+    <div class="sync ${J.status}" id="jsync" style="margin-top:6px"></div>
+    <div class="stats" style="margin-top:12px">
+      ${tile(open.length,"Open positions")}
+      ${tile(money(unreal,true),"Open profit (A$)",Math.round(unreal)?cls(unreal):"")}
+      ${tile(acct?Math.round(value/acct*100)+"%":"n/a","Invested ("+money(value)+" of "+money(acct)+")")}
+      ${tile(money(atRisk),"Given back if every stop hits")}
+      ${tile(money(realised,true),"Realised profit (A$)",Math.round(realised)?cls(realised):"")}
+    </div>
+    <p class="muted" style="font-size:12px;margin:8px 0 0">Prices are the last scan's close. US positions are shown in A$ at today's rate; profit includes the currency move since you bought. Account size comes from the trade plan (${money(acct)}).</p>
+  </section>
+
+  <section><h2 style="margin-bottom:10px">Open positions</h2>
+    ${cards?`<div class="pcards">${cards}</div>`:`<div class="panel empty">No open positions. Open a stock on the Scanner and tap <b>Log this trade</b> in its trade plan, or use <b>Add a trade</b>.</div>`}
+  </section>
+
+  <section class="panel"><h2 style="margin-bottom:10px">Results</h2>
+    ${st?`<div class="stats">
+      ${tile(st.n,"Closed trades")}
+      ${tile(st.bat.toFixed(0)+"%","Batting average (winners)")}
+      ${tile(st.ag!=null?pct(st.ag):"–","Average gain","pos")}
+      ${tile(st.al!=null?"−"+st.al.toFixed(1)+"%":"–","Average loss","neg")}
+      ${tile(st.wl!=null?st.wl.toFixed(2):"–","Win/loss ratio")}
+      ${tile(st.adj!=null?st.adj.toFixed(2):"–","Adjusted win/loss")}
+      ${tile(rfmt(st.expR),"Average result per trade")}
+      ${tile(st.dW!=null?st.dW.toFixed(0)+" / "+(st.dL!=null?st.dL.toFixed(0):"–"):"– / "+(st.dL!=null?st.dL.toFixed(0):"–"),"Days held, winners / losers")}
+    </div>
+    ${coach.length?`<ul class="coach">${coach.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:`<p class="muted" style="font-size:13px;margin:10px 0 0">Coaching notes appear after 3 closed trades.</p>`}
+    ${closed.length>=4?`<div class="tbl" style="margin-top:14px"><table><thead><tr><th>Group</th><th>Trades</th><th>Won</th><th>Avg gain</th><th>Avg loss</th><th>Avg R</th></tr></thead><tbody>${groupRows(t=>t.market,"Market")}${groupRows(t=>t.setup?.status,"Status at entry")}</tbody></table></div>`:""}
+    <p class="muted" style="font-size:12px;margin:10px 0 0">Adjusted win/loss weighs gains and losses by how often each happens; above 1 makes money, and Minervini aims for 2 or more. R is profit measured in units of the risk you planned (entry minus first stop).</p>
+    `:`<p class="muted" style="margin:0;font-size:14px">Your batting average, average gain and loss, and win/loss ratio appear here once you close a trade.</p>`}
+  </section>
+
+  ${closed.length?`<section class="panel"><h2 style="margin-bottom:8px">Closed trades</h2><div class="tbl"><table class="ctable"><thead><tr><th>Stock</th><th>Sold</th><th>Days</th><th>Gain</th><th>R</th><th>A$</th><th>Why sold</th></tr></thead><tbody>
+    ${closed.map(({t,m})=>`<tr data-edit="${t.id}"><td><b>${esc(t.code)}</b> <span class="muted">${esc(t.market)}</span></td><td>${esc(fmtDate(m.lastExit))}</td><td class="num">${m.days}</td><td class="num ${cls(m.pct)}">${pct(m.pct)}</td><td class="num">${rfmt(m.r)}</td><td class="num ${cls(m.realA)}">${money(m.realA,true)}</td><td style="text-align:left">${esc(t.exits.slice(-1)[0]?.reason||"")}</td></tr>`).join("")}
+    </tbody></table></div><p class="muted" style="font-size:12px;margin:8px 0 0">Tap a trade to see its notes or fix it.</p></section>`:""}`;
+  renderJStatus();
+  $("#j-add").onclick=()=>tradeForm(null,{market:state.market});
+  $("#j-set").onclick=settingsForm;
+  const byId=id=>J.trades.find(t=>t.id===id);
+  $("#journal").querySelectorAll("[data-sell]").forEach(b=>b.onclick=()=>sellForm(byId(b.dataset.sell)));
+  $("#journal").querySelectorAll("[data-stop]").forEach(b=>b.onclick=()=>stopForm(byId(b.dataset.stop)));
+  $("#journal").querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>tradeForm(byId(b.dataset.edit)));
+  $("#journal").querySelectorAll("[data-chart]").forEach(b=>b.onclick=()=>{ const t=byId(b.dataset.chart); openSheet(DATA.markets[t.market], stockOf(t)); });
+}
+
+/* ---- forms (shown in the side sheet) ---- */
+function formSheet(title, sub, body, onSave, extra){
+  $("#sheetbody").innerHTML = `<div class="sheet-top"><div class="in"><div style="min-width:0;flex:1"><h2 id="sh-code">${esc(title)}</h2><div class="nm">${esc(sub||"")}</div></div>
+      <button class="btn" type="button" id="close">Cancel</button><button class="btn primary" type="button" id="fsave">Save</button></div></div>
+    <form class="sheet-main" id="jform" novalidate><div class="panel">${body}<div class="ferr" id="ferr"></div></div>${extra||""}</form>`;
+  const f=$("#jform"), save=()=>{ const err=onSave(f); if(err){ $("#ferr").textContent=err; return; } closeSheet(); };
+  $("#fsave").onclick=save; f.onsubmit=e=>{ e.preventDefault(); save(); };
+  $("#close").onclick=closeSheet;
+  $("#sheet").hidden=false; document.body.style.overflow="hidden"; $("#sheetbody").scrollTop=0;
+  const first=f.querySelector("input:not([type=hidden]),select"); if(first && !first.value) first.focus();
+}
+const fv = (f,n) => (f.elements[n]?.value||"").trim();
+const fn = (f,n) => { const v=fv(f,n); return v===""?NaN:+v; };
+const inp = (n,l,v,a="") => `<label>${l}<input name="${n}" value="${esc(v??"")}" ${a}></label>`;
+const numI = (n,l,v,a="") => inp(n,l,v,`type="number" inputmode="decimal" step="any" min="0" ${a}`);
+function tradeForm(t, pre={}){
+  const edit=!!t, x=t||{}, p={...pre};
+  const mkt=x.market||p.market||"ASX", fx=x.fx||fxNow(mkt)||"";
+  const setupTxt = x.setup ? [x.setup.status, x.setup.footprint, x.setup.rs!=null?"RS "+x.setup.rs:null, x.setup.regime?"market: "+x.setup.regime:null].filter(Boolean).join(" · ")
+                 : p.setup ? [p.setup.status, p.setup.footprint, "RS "+p.setup.rs, p.setup.regime?"market: "+p.setup.regime:null].filter(Boolean).join(" · ") : "";
+  const exitsHtml = (x.exits||[]).length ? `<div class="panel"><h3 style="margin-bottom:6px">Sales</h3><div class="tbl"><table><thead><tr><th>Date</th><th>Shares</th><th>Price</th><th>Why</th><th></th></tr></thead><tbody>${x.exits.map((e,i)=>`<tr><td>${esc(fmtDate(e.date))}</td><td class="num">${e.shares.toLocaleString()}</td><td class="num">${fmtPx(e.price,curOf(mkt))}</td><td style="text-align:left">${esc(e.reason||"")}${e.note?` <span class="muted">${esc(e.note)}</span>`:""}</td><td><button class="btn" type="button" data-undo="${i}" style="padding:2px 8px;font-size:12px">Remove</button></td></tr>`).join("")}</tbody></table></div></div>` : "";
+  const stopsHtml = (x.stops||[]).length>1 ? `<p class="muted" style="font-size:13px;margin:10px 0 0">Stop history: ${x.stops.map(s=>`${esc(fmtDate(s.date))} ${fmtPx(s.stop,curOf(mkt))}`).join(" → ")}</p>` : "";
+  const body = `<div class="plan">
+      <label>Market<select name="market">${["ASX","US"].map(m=>`<option ${m===mkt?"selected":""}>${m}</option>`).join("")}</select></label>
+      ${inp("code","Code",x.code||p.code,'autocapitalize="characters" autocomplete="off" required')}
+      ${inp("name","Company name",x.name??p.name)}
+      ${inp("opened","Date bought",x.opened||todayISO(),'type="date"')}
+      ${numI("entry","Entry price (average fill)",x.entry??(p.entry!=null?(+p.entry).toFixed(p.entry<2?3:2):""))}
+      ${numI("shares","Shares",x.shares??p.shares,'step="1"')}
+      ${numI("stop0","First stop price",x.stop0??p.stop)}
+      ${edit?numI("stop","Current stop",x.stop):""}
+      <label class="fxrow" ${mkt==="ASX"?"hidden":""}>A$ per US$ when bought<input name="fx" type="number" inputmode="decimal" step="any" value="${esc(mkt==="ASX"?"":fx)}"></label>
+      ${edit&&isOpen(x)?numI("mpx","Last price, if the scan has none",x.manual_px?.price):""}
+      <label class="wide">Setup at entry<input name="setuptxt" value="${esc(setupTxt)}" placeholder="e.g. Breaking out · 8W 22/2 3T · RS 92"></label>
+      <label class="wide">Why I bought<textarea name="notes" rows="3" placeholder="The setup, the catalyst, what the review said">${esc(x.notes||"")}</textarea></label>
+      ${edit?`<label class="wide">Lesson / review<textarea name="lesson" rows="3" placeholder="What went right or wrong, and what to repeat or avoid">${esc(x.lesson||"")}</textarea></label>`:""}
+    </div>${stopsHtml}`;
+  const extra = exitsHtml + (edit?`<div class="acts" style="padding-bottom:10px"><button class="btn danger" type="button" id="jdel">Delete this trade</button></div>`:"");
+  formSheet(edit?`Edit ${x.code}`:"Log a trade", edit?(isOpen(x)?"Open position":"Closed trade"):"Records the buy. Sell from the journal later.", body, f=>{
+    const code=fv(f,"code").toUpperCase().replace(/\.AX$/,""), entry=fn(f,"entry"), shares=fn(f,"shares"), stop0=fn(f,"stop0"), market=fv(f,"market");
+    if(!code) return "Enter the stock code.";
+    if(!(entry>0)) return "Enter the entry price.";
+    if(!(shares>0)) return "Enter the number of shares.";
+    if(!(stop0>0)) return "Enter your stop. The book: decide it before you buy.";
+    if(stop0>=entry) return "The first stop has to be below the entry price.";
+    if(edit && shares < sold(x)) return `You've already sold ${sold(x)} shares; shares bought can't be less than that.`;
+    const fxv=market==="ASX"?1:fn(f,"fx");
+    if(market!=="ASX" && !(fxv>0)) return "Enter the A$ per US$ rate when you bought (about "+(fxNow("US")||1.5).toFixed(2)+").";
+    const T=t||{id:uid(), exits:[], created:new Date().toISOString()};
+    const opened=fv(f,"opened")||todayISO();
+    Object.assign(T,{market, code, name:fv(f,"name"), opened, entry, shares, stop0, fx:fxv, notes:fv(f,"notes")});
+    if(!edit){ T.stop=stop0; T.stops=[{date:opened, stop:stop0}]; T.setup={...(p.setup||{})}; }
+    else { const s=fn(f,"stop"); if(s>0 && s!==T.stop){ T.stop=s; (T.stops=T.stops||[]).push({date:todayISO(), stop:s}); } T.lesson=fv(f,"lesson");
+      if(T.stops?.[0]) T.stops[0].stop=stop0;
+      const mp=fn(f,"mpx"); if(mp>0 && mp!==x.manual_px?.price) T.manual_px={price:mp, date:todayISO()}; else if(isNaN(mp)) delete T.manual_px; }
+    T.setup=T.setup||{}; T.setup.text=fv(f,"setuptxt");
+    jcommit(T);
+    if(!edit && state.view!=="journal") setView("journal");
+  }, extra);
+  const f=$("#jform");
+  f.elements.market.onchange=()=>{ const us=f.elements.market.value!=="ASX"; f.querySelector(".fxrow").hidden=!us; if(us && !f.elements.fx.value) f.elements.fx.value=fxNow("US")||""; };
+  f.querySelectorAll("[data-undo]").forEach(b=>b.onclick=()=>{ x.exits.splice(+b.dataset.undo,1); jcommit(x); tradeForm(x); });
+  const d=$("#jdel"); if(d) d.onclick=()=>{ if(d.dataset.sure){ x.deleted=true; jcommit(x); closeSheet(); } else { d.dataset.sure=1; d.textContent="Tap again to delete for good"; } };
+}
+const REASONS=["Stop hit","Breakeven stop hit","Sold into strength","Climax run","Heavy-volume break of the 50-day","Largest drop on heaviest volume","Not working (time stop)","Before earnings","Market turned down","Other"];
+function sellForm(t){
+  const m=tm(t), cur=curOf(t.market);
+  formSheet(`Sell ${t.code}`, `${m.n.toLocaleString()} shares held · entry ${fmtPx(t.entry,cur)} · stop ${fmtPx(t.stop,cur)}`, `<div class="plan">
+      ${inp("date","Date sold",todayISO(),'type="date"')}
+      ${numI("price","Price (average fill, "+cur+")",m.lp?.c)}
+      ${numI("shares","Shares sold",m.n,'step="1"')}
+      <label>Why<select name="reason">${REASONS.map(r=>`<option>${r}</option>`).join("")}</select></label>
+      <label class="wide">Note<input name="note" placeholder="Optional"></label>
+      <label class="wide">Lesson (if this closes the trade)<textarea name="lesson" rows="3" placeholder="What went right or wrong">${esc(t.lesson||"")}</textarea></label>
+    </div><div class="planout" id="sellout"></div>`, f=>{
+    const price=fn(f,"price"), sh=fn(f,"shares");
+    if(!(price>0)) return "Enter the sale price.";
+    if(!(sh>0)) return "Enter how many shares you sold.";
+    if(sh>m.n+1e-9) return `You only hold ${m.n.toLocaleString()} shares.`;
+    (t.exits=t.exits||[]).push({date:fv(f,"date")||todayISO(), price, shares:sh, reason:fv(f,"reason"), note:fv(f,"note"), fx:fxNow(t.market)||t.fx||1});
+    if(fv(f,"lesson")) t.lesson=fv(f,"lesson");
+    jcommit(t);
+  });
+  const f=$("#jform"), upd=()=>{ const p=fn(f,"price"), sh=fn(f,"shares"); if(!(p>0&&sh>0)){ $("#sellout").innerHTML=""; return; }
+    const g=(p-t.entry)*sh, fxx=fxNow(t.market)||t.fx||1, ga=(p*fxx-t.entry*(t.fx||1))*sh, r=m.riskSh>0?(p-t.entry)/m.riskSh:null;
+    $("#sellout").innerHTML=[["Gain on these shares",pct((p/t.entry-1)*100)],["In A$",money(ga,true)],["R multiple",rfmt(r)]].map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join(""); };
+  ["price","shares"].forEach(n=>f.elements[n].addEventListener("input",upd)); upd();
+  const rs=f.elements.reason; if(m.lp && m.lp.c<=t.stop) rs.value = t.stop>=t.entry?"Breakeven stop hit":"Stop hit";
+}
+function stopForm(t){
+  const m=tm(t), cur=curOf(t.market), be=t.entry;
+  formSheet(`Move stop · ${t.code}`, `Entry ${fmtPx(t.entry,cur)} · current stop ${fmtPx(t.stop,cur)}${m.lp?" · last "+fmtPx(m.lp.c,cur):""}`, `<div class="plan">
+      ${numI("stop","New stop price ("+cur+")","")}
+      <div class="acts wide"><button class="btn" type="button" id="sbe">Breakeven (${fmtPx(be,cur)})</button>${m.lp?.m50?`<button class="btn" type="button" id="s50">Just under the 50-day (${fmtPx(m.lp.m50*0.99,cur)})</button>`:""}</div>
+    </div><p class="muted" style="font-size:13px;margin:10px 0 0">Raise stops, don't lower them. Once a stock is up 2-3 times your risk, the book moves the stop to breakeven or better.</p>`, f=>{
+    const s=fn(f,"stop"); if(!(s>0)) return "Enter the new stop price.";
+    if(s<t.stop && !f.dataset.ok){ f.dataset.ok=1; return "That lowers your stop, which the book warns against. Tap Save again to do it anyway."; }
+    if(m.lp && s>=m.lp.c && !f.dataset.ok2){ f.dataset.ok2=1; return "That's at or above the last price, so it would be hit straight away. Tap Save again if you mean it."; }
+    t.stop=s; (t.stops=t.stops||[]).push({date:todayISO(), stop:s}); jcommit(t);
+  });
+  const f=$("#jform");
+  $("#sbe").onclick=()=>{ f.elements.stop.value=(+be).toFixed(be<2?3:2); };
+  const b50=$("#s50"); if(b50) b50.onclick=()=>{ const v=m.lp.m50*0.99; f.elements.stop.value=v.toFixed(v<2?3:2); };
+}
+function settingsForm(){
+  const c=jcfg()||{}, owner=c.owner||(location.hostname.endsWith(".github.io")?location.hostname.split(".")[0]:"");
+  formSheet("Journal settings", "Sync your trades through a private GitHub repo", `
+    <h3 style="margin-bottom:4px">Set up once</h3>
+    <ol class="steps">
+      <li><a href="https://github.com/new" target="_blank" rel="noopener">Create a new repository</a> called <b class="mono">sepa-journal</b>. Choose <b>Private</b>, tick <b>Add a README file</b>, then <b>Create repository</b>.</li>
+      <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Make a fine-grained token</a>: name it <i>SEPA journal</i>, set an expiry (a year is fine), under <b>Repository access</b> pick <b>Only select repositories</b> → <b>sepa-journal</b>, then under <b>Permissions</b> → <b>Repository permissions</b> set <b>Contents</b> to <b>Read and write</b>. Generate it and copy it.</li>
+      <li>Paste it below and tap Save. Do this once on each device (phone, Mac). The token stays in that browser and can only touch the journal repo.</li>
+    </ol>
+    <div class="plan" style="margin-top:12px">
+      ${inp("owner","GitHub username",owner,'autocapitalize="none" autocomplete="off"')}
+      ${inp("repo","Private repo",c.repo||"sepa-journal",'autocapitalize="none" autocomplete="off"')}
+      <label class="wide">Token${c.token?" (saved; leave blank to keep it)":""}<input name="token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+    </div>`, f=>{
+      const o=fv(f,"owner"), r=fv(f,"repo"), tk=fv(f,"token")||c.token;
+      if(!o||!r) return "Enter your GitHub username and the repo name.";
+      if(!tk) return "Paste the token from step 2.";
+      if(f.dataset.busy) return "Checking…";
+      f.dataset.busy=1; $("#ferr").textContent="Checking the repo…"; $("#ferr").style.color="var(--muted)";
+      fetch(`${GH}/repos/${encodeURIComponent(o)}/${encodeURIComponent(r)}`, {headers:ghH({token:tk}), cache:"no-store"}).then(async res=>{
+        delete f.dataset.busy; $("#ferr").style.color="";
+        if(!res.ok){ $("#ferr").textContent=ghErr(res,"read the repo"); return; }
+        const j=await res.json();
+        if(!j.private){ $("#ferr").textContent=`${o}/${r} is public, so anyone could read your trades. Make it private on GitHub (Settings → Danger Zone → Change visibility) or use a different repo.`; return; }
+        if(j.permissions && !j.permissions.push){ $("#ferr").textContent="The token can read the repo but not write to it. Set Contents to Read and write."; return; }
+        store.set("jcfg",{owner:o, repo:r, token:tk}); closeSheet(); jsync();
+      }).catch(()=>{ delete f.dataset.busy; $("#ferr").style.color=""; $("#ferr").textContent="Couldn't reach GitHub. Check your connection."; });
+      return "Checking the repo…";
+    }, `<div class="panel"><h3 style="margin-bottom:6px">Backup</h3>
+      <p class="muted" style="font-size:14px;margin:0 0 10px">Download every trade as a file, or load one back in. Loading merges with what's here; nothing is lost.</p>
+      <div class="acts"><button class="btn" type="button" id="jexp">Download backup</button><label class="btn" style="cursor:pointer">Load a backup<input type="file" id="jimp" accept=".json,application/json" hidden></label>
+      ${c.token?`<button class="btn danger" type="button" id="jdisc">Disconnect this device</button>`:""}</div><div class="ferr" id="jbk"></div></div>`);
+  // formSheet's save closes the sheet unless an error string comes back; the async check closes it itself
+  $("#jexp").onclick=()=>{ const blob=new Blob([JSON.stringify({version:1, exported:new Date().toISOString(), trades:J.trades},null,1)],{type:"application/json"});
+    const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`sepa-journal-${todayISO()}.json`; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();},500); };
+  $("#jimp").onchange=e=>{ const file=e.target.files[0]; if(!file) return; file.text().then(s=>{ const j=JSON.parse(s); if(!Array.isArray(j.trades)) throw 0;
+      J.trades=jmerge(J.trades,j.trades); jsaveLocal(); jrefresh(); jsync(); $("#jbk").style.color="var(--up)"; $("#jbk").textContent=`Loaded ${j.trades.length} trades.`; })
+    .catch(()=>{ $("#jbk").textContent="That file isn't a journal backup."; }); };
+  const dc=$("#jdisc"); if(dc) dc.onclick=()=>{ store.set("jcfg",null); try{localStorage.removeItem("jcfg")}catch(e){} J.status="local"; closeSheet(); jrefresh(); };
+}
+
+/* ---- view switch ---- */
+function setView(v){
+  state.view=v;
+  $("#scanview").hidden = v!=="scan"; $("#journal").hidden = v!=="journal";
+  $("#mkts").hidden = v!=="scan" || !markets.length; $("#asof").hidden = v!=="scan";
+  $("#views").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", b.dataset.v===v));
+  if(v==="journal") renderJournal(); else if(DATA&&markets.length) renderList(DATA.markets[state.market]);
+  try{ history.replaceState(null,"","#"+(v==="journal"?"journal":(state.market||"").toLowerCase())); }catch(e){}
+  window.scrollTo(0,0);
+}
+$("#views").querySelectorAll("button").forEach(b=>b.onclick=()=>setView(b.dataset.v));
 
 function render(){
   const errs = Object.entries((DATA && DATA.errors) || {});
@@ -567,6 +993,11 @@ $("#tvcopy").addEventListener("click", e=>{ const M=DATA.markets[state.market];
 $("#q").addEventListener("input", e=>{ state.q=e.target.value; renderList(DATA.markets[state.market]); });
 $("#sort").addEventListener("change", e=>{ state.sort=e.target.value; renderList(DATA.markets[state.market]); });
 promptList($("#plist"), ()=>{ const c=($("#pcode").value||"TICKER").trim().toUpperCase(), m=$("#pmkt").value; return {market:m, ticker:m==="ASX"?c+".AX":c, code:c, name:$("#pname").value.trim()||c}; });
+state.view = "scan";
 render();
+if (h === "JOURNAL") setView("journal"); else $("#mkts").hidden = !markets.length;
 loadReviews();
+jsync();
+// pick up trades logged on another device when you come back to the page
+document.addEventListener("visibilitychange", ()=>{ if(!document.hidden && jcfg() && (!J.synced || Date.now()-Date.parse(J.synced)>6e4)) jsync(); });
 </script>

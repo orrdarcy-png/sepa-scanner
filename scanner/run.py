@@ -64,6 +64,28 @@ def tech_score(r: dict) -> float:
     return s
 
 
+def price_map(close: pd.DataFrame, vol: pd.DataFrame) -> dict:
+    """Latest close for every stock with recent data, so the trade journal can price any holding,
+    including ones that have dropped off the watchlist. code -> [close, 1-day %, 50-day avg, volume / 50-day avg volume]."""
+    out = {}
+    c = close.ffill()
+    last, prev = c.iloc[-1], c.iloc[-2]
+    m50 = close.iloc[-50:].mean()
+    v_last = vol.iloc[-1]
+    v50 = vol.iloc[-51:-1].mean()
+    fresh = close.iloc[-5:].notna().any()
+    for s in close.columns:
+        p = last.get(s)
+        if not fresh.get(s, False) or p is None or not np.isfinite(p) or p <= 0:
+            continue
+        def r(x, n):
+            return round(float(x), n) if x is not None and np.isfinite(x) else None
+        chg = (p / prev[s] - 1) * 100 if prev.get(s) and np.isfinite(prev[s]) and prev[s] > 0 else None
+        vr = v_last[s] / v50[s] if np.isfinite(v_last.get(s, np.nan)) and v50.get(s) and np.isfinite(v50[s]) and v50[s] > 0 else None
+        out[s.replace(".AX", "")] = [r(p, 4 if p < 2 else 3), r(chg, 2), r(m50.get(s), 4 if p < 2 else 3), r(vr, 2)]
+    return out
+
+
 def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
     if demo:
         from .synthetic import demo_market
@@ -184,6 +206,7 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                                     if r["rs_line"]["new_high"] and ix["from_high"] < -5][:15],
         "stocks": [{k: v for k, v in r.items() if k not in ("score_tech", "listed")} for r in cands],
     }
+    out["px"] = price_map(close[stocks], vol[stocks])
     fxc = mcfg.get("fx")  # e.g. "USD": convert to A$ for an Australian investor
     if fxc:
         if demo:

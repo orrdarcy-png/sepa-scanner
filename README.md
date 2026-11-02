@@ -54,6 +54,17 @@ The fundamental prompts are in `prompts/prompts.yaml`. They are market-aware: `m
 5. **Before buying, write down your stop** (no more than 10% below entry; aim for 5-6% average losses) and size the position with the calculator so the stop costs no more than 1.25-2.5% of the account.
 6. Once the gain is 2-3 times your risk, move the stop to breakeven. Sell into strength on climax runs and late-stage bases; sell into weakness on the largest drop on the heaviest volume since the move began.
 
+## Trade journal
+
+Tap **Journal** at the top of the page. Log a buy from any stock's trade plan (**Log this trade in the journal**) or with **Add a trade**. Then:
+
+- **Open positions** show profit in % and A$, R multiple (profit in units of the risk you planned), stop distance and days held, priced from the last scan. The scan saves the close of every stock it checks, so holdings that drop off the watchlist still get a price.
+- **Alerts** on each position: closed at or below your stop; up 2R or more with the stop still under entry (move it to breakeven); a heavy-volume close below the 50-day; the scanner's own warnings (climax run, late-stage base, earnings due); dropped out of the Trend Template; going nowhere after 3 weeks.
+- **Sell** (partial or full, with the reason), **Move stop** (keeps a history) and **Edit**.
+- **Results**: batting average, average gain and loss, win/loss and adjusted win/loss ratios, average R, days held for winners vs losers, a breakdown by market and by status at entry, and coaching notes from Minervini's rules.
+
+**Where trades are stored.** This repo is public, so trades are never saved here. They live in `journal.json` in a separate **private** repo (`sepa-journal`) and are written through the GitHub API with a fine-grained token that can only touch that repo. The Journal's **Settings** walks you through making both; paste the token once on each device. Until you connect, trades are saved in that browser only. Each device keeps a copy and the two are merged on every sync, so it also works offline. Settings has a backup download and restore.
+
 ## What each part of the code does
 
 | File | Job |
@@ -63,8 +74,8 @@ The fundamental prompts are in `prompts/prompts.yaml`. They are market-aware: `m
 | `scanner/technical.py` | Trend Template, stage, RS rating, base/VCP, power play, cheat, base count, sell warnings |
 | `scanner/fundamentals.py` | EPS and sales growth, acceleration, margins, Code 33, ownership, next results date |
 | `scanner/market.py` | Index trend, breadth, new highs/lows, leading groups, market call |
-| `scanner/run.py` | Runs everything and writes `site/index.html` and `site/data.json` |
-| `scanner/template.html` | The web page |
+| `scanner/run.py` | Runs everything and writes `site/index.html` and `site/data.json`, including the latest close of every scanned stock for the journal |
+| `scanner/template.html` | The web page, including the trade journal |
 | `prompts/prompts.yaml` | The 18 fundamental-check prompts, with ASX and US versions |
 | `tests/` | Pattern tests on synthetic charts: `python -m pytest -q` |
 
