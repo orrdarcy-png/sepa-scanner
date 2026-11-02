@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:34:24Z",
+ "updated": "2026-11-02T19:25:25Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -233,135 +233,115 @@
    "market": "ASX",
    "code": "NHC",
    "name": "New Hope Corporation Limited",
-   "date": "2026-10-25",
+   "date": "2026-11-02",
    "status_at_review": "Buy-ready",
-   "price_at_review": "A$6.10",
+   "price_at_review": "A$5.93",
    "verdict": "Reject",
    "confidence": "high",
-   "summary": "Thermal coal producer (Bengalla, New Acland; July year end) whose chart is strong on a coal price rebound to ~US$150/t, near a 3-year high, plus the all-scrip Malabar merger. Reported fundamentals are in decline: FY26 (Aug 2025-Jul 2026) EPS fell 63% to 19.1c and revenue was flat, so the earnings and sales checks fail. Any upturn rests on FY27 consensus (EPS +94%) and the coal price, not on reported results.",
-   "catalyst": "Newcastle coal ~US$150.70/t on 23 Oct 2026 (+45% YoY) after the Middle East LNG shock, plus the Malabar/Maxwell scrip merger announced 19 Oct 2026.",
+   "summary": "Thermal coal producer (Bengalla, New Acland; FY ends 31 July) with a strong chart driven by Newcastle coal at ~US$152/t and the all-scrip Malabar merger. Reported results are falling: FY26 NPAT A$161.0m was down 63% and revenue was flat, so earnings and sales fail. The bull case rests on FY27 consensus (EPS ~+109%) and the coal price, not on reported growth. No new ASX announcements since 19 Oct 2026.",
+   "catalyst": "Newcastle coal US$152.45/t on 30 Oct 2026 (+38% YoY), plus the Malabar/Maxwell scrip merger (19 Oct 2026) and broker target upgrades on 19-21 Oct 2026.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "FY26 EPS 19.1c vs FY25 52.0c (-63%); 1H FY26 NPAT A$54.3m (-84%); derived 2H FY26 NPAT A$106.7m vs A$99.1m (+8%). FY27 consensus EPS 37.0c",
+     "finding": "FY26 NPAT A$161.0m vs A$439.4m (-63%), EPS 19.1c vs 52.0c; 1H FY26 NPAT A$54.3m (-84%), derived 2H A$106.7m (+8%). FY27 cons EPS ~40c",
      "result": "FAIL"
     },
     {
      "check": "Sales",
-     "finding": "FY26 revenue A$1,766.5m vs FY25 A$1,775.5m (-0.5%); sales volume +11.8% offset by realised price -10% (A$145.2/t)",
+     "finding": "FY26 (to 31 Jul 2026) revenue A$1,766.5m vs A$1,775.5m (-0.5%); sales volume +11.8% offset by lower realised price. FY27 cons rev A$2.22b",
      "result": "FAIL"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "FY26 underlying EBITDA margin 29% vs 43% in FY25; FOB cost A$88.9/t (+7.9%). Derived 2H FY26 EBITDA A$299.5m (+21% YoY). No Code 33",
+     "finding": "FY26 underlying EBITDA A$514.3m vs A$765.8m (-33%), margin ~29% vs ~43%; FOB cost A$88.9/t (+7.9%). No Code 33",
      "result": "FAIL"
     },
     {
      "check": "Earnings quality",
-     "finding": "FY26 OCF A$564.1m vs NPAT A$161.0m (good). FY25 NPAT included A$68.9m impairment reversal; FY26 had A$41.1m note-buyback cost. No other major flags",
+     "finding": "FY26 OCF A$564.1m vs NPAT A$161.0m (good cash backing). FY25 had A$68.9m impairment reversal; FY26 note-buyback cost A$41.1m (prior-review lead)",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "1H FY26 NPAT A$54.3m missed A$82m consensus (17 Mar 2026). FY26 vs consensus not found. Bell Potter target A$5.00->5.30, still Sell (20 Oct 2026)",
+     "finding": "FY26 vs consensus not found. Oct 2026 targets up: Ord Minnett to Buy A$6.40 (21 Oct), Morgans A$6.30, Jefferies A$6.60; Bell Potter Sell A$5.30",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: gC NEWC ~US$150.70/t (23 Oct 2026, +45% YoY); Malabar merger (19 Oct 2026); New Acland ramp toward ~5Mtpa; FY27 guidance ~12.7Mt",
+     "finding": "MODERATE: gC NEWC US$152.45/t (30 Oct 2026, +38% YoY); Malabar merger to ~19Mtpa (19 Oct 2026); Maxwell longwall since Apr 2026",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical coal producer; coal at 3-yr high, so a mid-cycle rebound. Peer WHC only +9% over 12 months (Fool, 23 Oct 2026), so group strength is mixed",
+     "finding": "Cyclical thermal coal producer; coal near multi-year high after Middle East LNG shock = mid-to-late cycle rebound. Peer WHC +9% over 12m (23 Oct 2026)",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "844.2m shares (flat over 3 yrs); ~227.8m new shares (+27%) to be issued for Malabar ~Mar 2027. Soul Patts ~39% (Aug 2025). Listed 2003",
-     "result": "FAIL"
+     "finding": "844.2m shares (~flat 3 yrs); ~227.8m (+27%) scrip for Malabar ~Mar 2027. No director sells found (Jun-Oct 2026 list). Inst % not found. Listed 2003",
+     "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "31 Jul 2026: available cash A$778.5m; net cash ex-leases A$482.2m; A$300m CN due 2032. ROE 6.1% FY26 (aggregator). Malabar adds ~A$627m net debt",
+     "finding": "31 Jul 2026 available cash A$778.5m; A$300m CN due 2032; FY26 OCF A$564.1m. Malabar adds ~A$627m net debt (30 Jun 2026). No raise needed",
      "result": "CAUTION"
     },
     {
      "check": "Event risk",
-     "finding": "Q1 FY27 quarterly due 16 Nov 2026; AGM 19 Nov 2026; Malabar scheme booklet Dec26/Jan27. Short interest 4.12% on 19 Oct 2026 (-0.81pp over 30d)",
+     "finding": "Q1 FY27 quarterly 16 Nov 2026; AGM 19 Nov 2026; Malabar scheme booklet Dec26/Jan27, vote Jan/Feb 2027. Short interest not re-verified",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "No placement/SPP/entitlement found in last 12m; A$300m convertible notes (FY26); DRP on final dividend; Malabar scrip issue; buyback of up to A$100m",
+     "finding": "No placement/SPP/entitlement in last 12m; 412,523 DRP shares (15 Oct 2026); A$300m converts (FY26); ~227.8m Malabar scrip issue pending",
      "result": "CAUTION"
     }
    ],
    "risks": [
-    "Coal price reversal: the US$150/t level depends on LNG disruption; Bell Potter models US$141/t in FY27 and US$110/t in FY28",
-    "27% share-count dilution from the Malabar scrip deal; accretion is not quantified, and the deal adds Maxwell ramp-up risk and ~A$627m of debt",
-    "Cost inflation: FOB A$88.9/t (+7.9%) and diesel at A$1.23/L in Aug 2026 vs A$1.12 in FY26",
-    "Late-stage base (base 4) on a reported earnings decline; the stock trades on hope of an FY27 earnings rebound",
-    "Next event: Q1 FY27 quarterly on 16 Nov 2026. A 2H-style realised-price uplift with lower costs would move this to Watch only"
+    "Coal price reversal: US$152/t depends on LNG disruption; Bell Potter models US$141/t FY27 and US$110/t FY28",
+    "27% scrip dilution from Malabar with no quantified EPS accretion, plus Maxwell ramp-up risk and ~A$627m of acquired net debt",
+    "Cost inflation: FY26 FOB cost A$88.9/t (+7.9%)",
+    "Late-stage base 4 on a reported earnings decline; trades on hope of an FY27 rebound",
+    "Next event: Q1 FY27 quarterly on 16 Nov 2026. A strong realised-price uplift with lower costs would lift this to Watch only"
    ],
    "next_event": "Q1 FY27 quarterly activities report (Aug-Oct 2026), 16 Nov 2026; AGM 19 Nov 2026",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
      "title": "FY26 Full Year Results ASX release (15 Sep 2026)",
-     "url": "https://newhopegroup.com.au/wp-content/uploads/2026/09/FY26-Full-Year-Results-ASX-Release.pdf"
+     "url": "https://announcements.asx.com.au/asxpdf/20260915/pdf/074353r6vzz8n0.pdf"
     },
     {
-     "title": "Appendix 4E and Annual Report 2026",
-     "url": "https://newhopegroup.com.au/wp-content/uploads/2026/09/Appendix-4E-and-Annual-Report-2026.pdf"
+     "title": "New Hope and Malabar to combine ASX release (19 Oct 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20261019/pdf/075glj3s5n10y2.pdf"
     },
     {
-     "title": "FY26 Half Year Results (16 Mar 2026)",
-     "url": "https://newhopegroup.com.au/fy26-half-year-results/"
+     "title": "NHC announcements list (InvestSMART, to 19 Oct 2026)",
+     "url": "https://www.investsmart.com.au/security/asx/nhc/new-hope-corporation-limited/announcements?page=1"
     },
     {
-     "title": "Quarterly Activities Report 31 July 2026",
-     "url": "https://newhopegroup.com.au/wp-content/uploads/2026/08/Quarterly-Activities-Report-31-July-2026.pdf"
+     "title": "NHC announcements list (investorpa)",
+     "url": "https://investorpa.com/company/nhc-asx/"
     },
     {
-     "title": "New Hope key dates 2026",
-     "url": "https://newhopegroup.com.au/investors/key-dates/"
+     "title": "DRP share issue 412,523 shares (TipRanks, 8 Oct 2026)",
+     "url": "https://www.tipranks.com/news/company-announcements/new-hope-to-list-over-412000-new-shares-under-dividend-plan"
     },
     {
-     "title": "Results and reports index",
-     "url": "https://newhopegroup.com.au/results-and-reports/"
+     "title": "MarketScreener NHC calendar (aggregator)",
+     "url": "https://au.marketscreener.com/quote/stock/NEW-HOPE-CORPORATION-LIMI-6496556/calendar/"
     },
     {
-     "title": "Capital Brief: 1H NPAT -84% vs consensus",
+     "title": "StockAnalysis NHC forecasts and analyst actions (aggregator)",
+     "url": "https://stockanalysis.com/quote/asx/NHC/forecast/"
+    },
+    {
+     "title": "Trading Economics coal news stream (30 Oct 2026)",
+     "url": "https://tradingeconomics.com/commodity/coal/news/510944"
+    },
+    {
+     "title": "Prior review sources: FY26 Appendix 4E, 1H FY26 results (Capital Brief), Fool WHC Q1 FY27",
      "url": "https://www.capitalbrief.com/briefing/new-hopes-half-year-npat-falls-84-on-bad-weather-low-coal-prices-700321ba-5ef3-4091-b558-da72a0d64a8b/"
-    },
-    {
-     "title": "Investing.com FY26 results slides summary",
-     "url": "https://ng.investing.com/news/stock-market-news/new-hope-fy26-slides-output-growth-drives-33-shareholder-return-93CH-2695628"
-    },
-    {
-     "title": "Malabar scheme announcement summary (19 Oct 2026)",
-     "url": "https://discoveryalert.com/asx-stock-news/energy/nhc-new-hope-corporation-malabar-maxwell-mine-scheme-october-2026/"
-    },
-    {
-     "title": "Kalkine: NHC to issue 227.8m shares for Malabar",
-     "url": "https://kalkinemedia.com/au/news/announcements/new-hope-corporation-to-issue-2278-million-shares-for-malabar-resources-acquisition-via-scheme-of-arrangement"
-    },
-    {
-     "title": "FNArena consensus (aggregator)",
-     "url": "https://fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=NHC"
-    },
-    {
-     "title": "Shorted.com.au NHC financials and short interest (aggregator)",
-     "url": "https://shorted.com.au/shorts/NHC/financials"
-    },
-    {
-     "title": "Trading Economics coal price",
-     "url": "https://tradingeconomics.com/commodity/coal"
-    },
-    {
-     "title": "Fool: Whitehaven Q1 FY27 (23 Oct 2026)",
-     "url": "https://www.fool.com.au/2026/10/23/whitehaven-coal-posts-record-q1-production-and-keeps-fy27-guidance/"
     }
    ]
   },
@@ -493,22 +473,22 @@
    "market": "ASX",
    "code": "SOL",
    "name": "Washington H. Soul Pattinson (Soul Patts)",
-   "date": "2026-10-25",
+   "date": "2026-11-02",
    "status_at_review": "Buy-ready",
-   "price_at_review": "A$46.20",
+   "price_at_review": "A$45.54",
    "verdict": "Reject",
    "confidence": "medium",
-   "summary": "Diversified investment house (FY ends 31 Jul) that merged with Brickworks on 23 Sep 2025. Statutory FY26 NPAT +502% to A$2,191m is almost all merger one-offs (A$1,529m non-recurring); operating NPAT fell 10% to A$319m and NCFI/share rose only 8.3%. Strong chart and balance sheet, but no SEPA-grade underlying earnings growth.",
-   "catalyst": "Brickworks merger (completed 23 Sep 2025) gives A$3.8b liquidity to deploy plus Brickworks cost savings from FY27 (FY26 results, 24 Sep 2026); MODERATE.",
+   "summary": "Diversified investment house (FY ends 31 Jul) that merged with Brickworks on 23 Sep 2025. Statutory FY26 NPAT +502% to A$2,191m is almost all merger one-offs (A$1,529m non-recurring), while operating NPAT fell 10% to A$319m and NCFI/share rose only 8.3%. Strong chart and balance sheet, but no SEPA-grade underlying earnings growth; nothing material announced in the last 2 weeks beyond the AGM notice.",
+   "catalyst": "Brickworks merger (completed 23 Sep 2025): ~A$4.2b post-year-end liquidity to deploy plus Brickworks cost-out savings from FY27 (FY26 result/call, 24 Sep 2026); MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "FY26 operating NPAT A$319m vs A$355m FY25 (-10%); NCFI/sh 151c +8.3%. Statutory EPS ~590c vs 111.55c is merger one-offs; 2H26 statutory NPAT ~-A$112m",
+     "finding": "FY26 operating NPAT A$319m vs A$355m (-10%); 1H26 A$304m +6.7%, so 2H26 implied ~A$15m vs A$70m. NCFI/sh A$1.51 +8.3%. Statutory EPS is merger one-offs",
      "result": "FAIL"
     },
     {
      "check": "Sales",
-     "finding": "FY26 revenue A$1,872m vs A$955m (+96%), driven by consolidating Brickworks from 23 Sep 2025; like-for-like organic growth not found",
+     "finding": "FY26 revenue A$1,872m vs A$955m (+96%), driven by consolidating Brickworks from 23 Sep 2025; organic growth not found",
      "result": "CAUTION"
     },
     {
@@ -518,94 +498,86 @@
     },
     {
      "check": "Earnings quality",
-     "finding": "FY26 non-recurring +A$1,529m (bargain purchase A$506m, DTL cut A$1,039m, derecog A$436m). 1H26 statutory op cash flow -A$544m vs +A$267m",
+     "finding": "FY26 non-recurring +A$1,529m (merger A$1,314m, derecognition A$436m, restructuring -A$72m); statutory NPAT A$2,191m vs operating A$319m",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "FY26 (24 Sep 2026): no earnings guidance, FY27 'uncertain'; avg analyst target A$40.17 below price (The Bull, 24 Sep 2026); revisions not found",
+     "finding": "FY26 (24 Sep 2026): no guidance, FY27 'uncertain'. MarketScreener 2 analysts, avg target A$41.25 below price (2 Nov 2026); revisions not found",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: Brickworks merger done 23 Sep 2025, A$3.8b liquidity to deploy, cost savings from FY27, A$2.65b offshore private commitments",
+     "finding": "MODERATE: Brickworks merger done 23 Sep 2025, ~A$4.2b liquidity post year-end, cost-out savings from FY27, A$662m new offshore commitments",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Defensive diversified investment house/institutional favourite; ATH A$49.43 on 24 Sep 2026; +24.8% YTD vs ASX200 +6.2% (6 Aug 2026); not cyclical",
+     "finding": "Defensive diversified investment house; Bell Potter buying (8 Oct 2026); ATH ~A$48.8 on 24 Sep 2026 FY26 result day; not cyclical",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "~380m shares (31 Jul 2026) vs 367.7m (31 Jul 2025); mkt cap ~A$17.6b at A$46.20; A$1.3b raise of 34.3m shares for merger; large, old listing",
+     "finding": "380m shares (31 Jul 2026), ~A$17.3b cap at A$45.54; Millner 27.9m sh; only NED fee-rights grant 12 Oct 2026; inst % not found",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "31 Jul 2026: WHSP Holdings nil borrowings; cash+liquid funds A$2.7b, group cash exceeds debt by A$2.3b; liquidity A$3.8b; ROE not reported",
+     "finding": "31 Jul 2026: WHSP Holdings nil borrowings; group cash+liquid funds exceed debt by A$2.3b; A$3.8b liquidity; ROE not found",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "AGM 27 Nov 2026; 1H27 results ~Mar 2027 (date not confirmed). No binary events found; ASIC short interest not found",
+     "finding": "AGM 27 Nov 2026 (notice 26 Oct); 1H27 results ~late Mar 2027 (not confirmed). No binary events found; ASIC short interest not found",
      "result": "PASS"
     },
     {
      "check": "Market extras",
-     "finding": "A$1.3b merger-linked equity raise (34.3m shares, Sep 2025, ~13 months ago); DRP reactivated for FY26 final (5 Nov 2026); no trading halt found",
+     "finding": "A$1.3b merger-linked equity issue (Sep 2025); DRP active for FY26 final paid 5 Nov 2026 via new shares; no trading halt found",
      "result": "CAUTION"
     }
    ],
    "risks": [
-    "Headline EPS growth is merger accounting; underlying operating NPAT fell 10% in FY26",
-    "Shares trade ~21% above post-tax NAV A$38.17 (31 Jul 2026); premium can compress",
-    "~31% of NAV valued by third parties (private markets), less transparent in a downturn",
-    "Cash drag: ~A$2.7-3.1b in cash/liquid funds awaiting deployment",
-    "Scanner next_earnings 2026-09-24 is stale (that was FY26 result); next is AGM 27 Nov 2026, then 1H27 ~Mar 2027"
+    "Headline EPS growth is merger accounting; operating NPAT fell 10% in FY26 and 2H26 was weak",
+    "Analyst targets (avg A$41.25, 2 brokers) sit below the A$45.54 price",
+    "Premium to post-tax NAV (A$14.5b, 31 Jul 2026) can compress in a risk-off market",
+    "Cash drag: ~A$4b liquidity awaiting deployment; New Hope (coal) profit weakness hit FY26",
+    "Scanner next_earnings 2026-09-24 is stale; next events are AGM 27 Nov 2026 and 1H27 ~Mar 2027"
    ],
    "next_event": "2026 AGM, 27 Nov 2026; 1H FY27 results ~late Mar 2027 (not confirmed)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "FY26 Appendix 4E / results (ASX, 24 Sep 2026)",
+     "title": "FY26 Appendix 4E and Annual Report (ASX, 24 Sep 2026)",
      "url": "https://investorpa.com/announcement-pdf/20260924/346650.pdf"
     },
     {
-     "title": "FY26 results announcement (ASX, 24 Sep 2026)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260924/pdf/074fz1j48qrdsj.pdf"
+     "title": "FY26 results release (Listcorp, 24 Sep 2026)",
+     "url": "https://www.listcorp.com/asx/sol/washington-h.-soul-pattinson-and-company-limited/news/2026-asx-results-release-3411200.html"
     },
     {
-     "title": "FY26 results presentation (ASX, 24 Sep 2026)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260924/pdf/074g3ckv1bfbsy.pdf"
+     "title": "1H26 results announcement (ASX, 26 Mar 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260326/pdf/06xtnrm2bkxtjf.pdf"
     },
     {
-     "title": "1H26 Half Year Financial Report (26 Mar 2026)",
-     "url": "https://www.datocms-assets.com/104850/1774567679-half-year-financial-report-2026.pdf"
+     "title": "FY26 earnings call transcript (Investing.com, 24 Sep 2026)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-soul-patts-h2-2026-profit-jumps-502-as-shares-rise-93CH-4914373"
     },
     {
-     "title": "FY25 Appendix 4E (30 Sep 2025)",
-     "url": "https://investorpa.com/announcement-pdf/20250930/196157.pdf"
+     "title": "AGM notice coverage (ad-hoc-news, 1 Nov 2026)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/soul-patts-sets-november-27-agm-after-brickworks-merger/70440579"
     },
     {
-     "title": "FY26 key dates incl. AGM (Listcorp, 14 Sep 2026)",
-     "url": "https://www.listcorp.com/asx/sol/washington-h.-soul-pattinson-and-company-limited/news/fy26-full-year-results-presentation-webcast-and-key-dates-3405614.html"
+     "title": "Director rights grant, Loveridge (ad-hoc-news, 25 Oct 2026)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/soul-patts-grants-10-rights-what-it-means-for-soul-patts-stock/70407190"
     },
     {
-     "title": "Simply Wall St FY26 EPS (aggregator, 6 Oct 2026)",
-     "url": "https://simplywall.st/stocks/au/diversified-financials/asx-sol/washington-h-soul-pattinson-shares/news/will-full-year-earnings-change-washington-h-soul-pattinson-s"
+     "title": "Analyst consensus (MarketScreener aggregator, 2 Nov 2026)",
+     "url": "https://marketscreener.com/quote/stock/WASHINGTON-H-SOUL-PATTINS-6492057/consensus"
     },
     {
-     "title": "The Bull: new ATH on FY26 result (24 Sep 2026)",
-     "url": "https://thebull.com.au/news/soul-patts-makes-new-ath-fy26-results-push-shares-into-breakout-territory/"
-    },
-    {
-     "title": "The Bull: breakout to ATH (6 Aug 2026)",
-     "url": "https://thebull.com.au/news/soul-patts-shares-make-a-controlled-break-to-new-aths/"
-    },
-    {
-     "title": "Snowball Investor FY26 deep dive (6 Oct 2026)",
-     "url": "https://thesnowballinvestor.substack.com/p/soul-patts-fy26-results-deep-dive"
+     "title": "Bell Potter buying Soul Patts (Motley Fool, 8 Oct 2026)",
+     "url": "https://www.fool.com.au/2026/10/08/why-this-top-broker-is-buying-charter-hall-soul-patts-and-wesfarmers-shares/"
     }
    ]
   },
@@ -613,27 +585,27 @@
    "market": "ASX",
    "code": "WDS",
    "name": "Woodside Energy Group",
-   "date": "2026-10-25",
+   "date": "2026-11-02",
    "status_at_review": "Buy-ready",
-   "price_at_review": "A$32.86",
+   "price_at_review": "A$33.42",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "Woodside (US$ reporter, calendar FY) is riding an oil/LNG price shock tied to Middle East/Hormuz disruption, with Q3 2026 revenue up 27% to US$4.28bn while Scarborough nears first LNG in Q4 2026. But growth is price-driven on falling volumes. Underlying 1H 2026 NPAT rose only 7%, so earnings don't meet SEPA's +25% bar.",
-   "catalyst": "Scarborough first LNG cargo on track for Q4 2026 (Q3 report, 20 Oct 2026), plus Brent ~US$100+ in Oct 2026 vs ~US$65 a year earlier.",
+   "summary": "Woodside (US$ reporter, calendar FY, half-yearly results plus quarterlies) is riding an oil/LNG price shock: Q3 2026 revenue was US$4.28bn (+27% YoY), and Scarborough is 99% complete with first LNG due in Q4 2026. But growth comes from price while volumes fall, and underlying 1H26 NPAT rose only 7%. Earnings don't meet SEPA's +25% bar, so this stays Watch only. Since 25 Oct: Greater Sunrise stake sale agreed (27 Oct); Capital Markets Day is 5 Nov; no first LNG announced yet.",
+   "catalyst": "Scarborough first LNG cargo, on track for Q4 2026 (Q3 report, 20 Oct 2026), plus Brent ~US$115 (26 Oct 2026), up ~65% YoY.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "1H26 stat EPS 88.2c vs 69.4c (+27%) but underlying NPAT +7% (US$1,334m); FY25 EPS 143c vs 189c (-24%). Not 2 halves of +25%",
+     "finding": "1H26 stat EPS 88.2 USc vs 69.4c (+27%) but underlying NPAT US$1,334m +7%; FY25 NPAT -24%, underlying -8%. No 2 periods of +25% underlying",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "1H26 rev US$7,446m +13% YoY; Q3 26 US$4,281m +27% YoY (accel). Price-led: Q3 output -9% YoY, realised US$84 vs US$60/boe",
+     "finding": "1H26 rev US$7,446m +13% YoY; Q3 26 US$4,281m +27% (accelerating) but price-led: Q3 output -9% YoY, realised US$84 vs US$60/boe",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "1H26 EBIT margin ~29.0% vs ~27.6% 1H25 (derived), but EBITDA flat (US$4,647m vs 4,600m) on +13% rev; no Code 33",
+     "finding": "1H26 EBITDA US$4,647m vs 4,600m (+1%) on +13% revenue, so EBITDA margin down; EBIT +19%. No Code 33",
      "result": "CAUTION"
     },
     {
@@ -643,32 +615,32 @@
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3 26 rev US$4.28bn beat Visible Alpha US$4.11bn (21 Oct); 2026 output guide narrowed down to 174-181 MMboe; revisions not found",
+     "finding": "Q3 26 rev US$4.28bn beat Visible Alpha US$4.11bn (21 Oct); 2026 output guide cut to 174-181 MMboe from 174-185; revisions not found",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: Scarborough 99% complete, first LNG Q4 2026 (Q3 rpt 20 Oct 26); LNG realised US$13.3 vs 9.5/MMBtu YoY; Trion 2028, LA LNG 2029",
+     "finding": "MODERATE: Scarborough 99% done, first LNG Q4 26 (20 Oct); brief Greenpeace pause 17-19 Oct; Greater Sunrise exit 27 Oct; Trion 2028",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical large-cap LNG leader; late/shock-stage cycle: Brent ~US$102.6 (5 Oct 26) vs ~US$65 yr ago, US$72 Jul 26. Santos at 52w high 16 Sep 26",
+     "finding": "Cyclical large-cap LNG leader; late/shock-stage cycle, Brent ~US$115 (26 Oct 26) +~65% YoY. WDS +41% YTD, still ~7% below Apr high A$35.80",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "1,901.1m shares (30 Jun 26), flat vs YE25; mkt cap ~A$62.5bn at A$32.86 (derived); no raises; mega-cap float; insider/inst % not found",
-     "result": "CAUTION"
+     "finding": "1,901.1m sh (30 Jun 26), mkt cap ~A$63.5bn (derived); inst 44.1% (SWS, 9 Oct 26); NED buys 27 Aug 26; exec Abbotsford sold 22.5k Mar 26",
+     "result": "PASS"
     },
     {
      "check": "Balance sheet",
-     "finding": "Net debt ~US$8.9bn incl leases, liquidity ~US$7.8bn (30 Sep 26); gearing 20.6% (30 Jun 26); 1H26 OCF US$3.0bn; FY25 ROE 7.6%. No raise risk",
+     "finding": "Net debt ~US$8.9bn incl leases, liquidity ~US$7.8bn (30 Sep 26); gearing 20.6% (30 Jun 26); 1H26 OCF US$3.0bn; ROE not found. No raise risk",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Capital Markets Day 5 Nov 26; Scarborough first LNG Q4; Q4 rpt 28 Jan 27; oil reversal if Hormuz reopens. Short 3.04% (20 Apr 26, Fintel), falling",
+     "finding": "Capital Markets Day 5 Nov 26; Scarborough first LNG Q4; Q4 report 28 Jan 27; oil reversal risk. Short 3.04% (Apr 26, Fintel), current not found",
      "result": "CAUTION"
     },
     {
@@ -678,54 +650,66 @@
     }
    ],
    "risks": [
-    "Oil/LNG price reversal if Middle East/Hormuz disruption eases; Brent fell to ~US$72 in Jul 2026 before rebounding",
-    "Volumes falling: YTD 2026 production 132.7 MMboe vs 149.9 MMboe (-11%); guidance trimmed again 20 Oct 2026",
-    "Statutory profit flattered by tax DTA recognition; underlying 1H26 NPAT only +7%",
-    "Scarborough start-up slip or Beaumont ammonia safety/operating issues (Tier 1 event, ~30-day suspension in Q3)",
-    "Verdict upgrades if FY26 underlying EPS (due Feb 2027) grows 25%+ with Scarborough volumes ramping"
+    "Oil/LNG price reversal if Middle East supply normalises (Middle East crude exports reportedly near pre-war levels, 26 Oct 2026)",
+    "Volumes falling: YTD 2026 production 132.7 MMboe vs 149.9 MMboe (-11%); 2026 guidance trimmed 20 Oct 2026",
+    "Statutory profit flattered by tax DTA recognition; underlying 1H26 NPAT only +7%; brokers average Hold (Market Index avg target A$30.21, 26 Oct)",
+    "Capital Markets Day (5 Nov) could reset capex or targets; Scarborough start-up slip or more protest disruptions",
+    "Verdict upgrades if FY26 underlying EPS (due 23 Feb 2027) grows 25%+ with Scarborough volumes ramping"
    ],
-   "next_event": "Capital Markets Day 5 Nov 2026 (AU), 12 Nov (US); Q4 2026 report 28 Jan 2027; FY26 results ~23 Feb 2027 (scanner date 2026-08-24 is stale)",
+   "next_event": "Capital Markets Day 5 Nov 2026 (Sydney), 12 Nov (NY); Scarborough first LNG Q4 2026; Q4 report 28 Jan 2027 (scanner date 2026-08-24 is stale)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "Woodside Half-Year 2026 Report (PDF)",
-     "url": "https://www.woodside.com/docs/default-source/investor-documents/quarterly-and-half-yearly-pdfs-and-data-tables/2026/half-year-2026-report.pdf"
-    },
-    {
-     "title": "Woodside Third Quarter Report, period ended 30 Sep 2026",
+     "title": "Woodside Third Quarter Report, period ended 30 Sep 2026 (company release, 20 Oct 2026)",
      "url": "https://investingnews.com/woodside-energy-third-quarter-report-for-period-ended-30-september-2026/"
     },
     {
-     "title": "Woodside FY2025 results investor presentation (ASX announcement)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260224/pdf/06wnjwtzp8c7n4.pdf"
+     "title": "Woodside Half-Year Report, period ended 30 Jun 2026 (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260824865396/en/Woodside-Energy-Half-Year-Report-for-Period-Ended-30 June 2026/"
     },
     {
-     "title": "Woodside FY2025 results release (Business Wire)",
-     "url": "https://www.businesswire.com/news/home/20260223899485/en"
+     "title": "Woodside Full-Year 2025 Results (company release)",
+     "url": "https://investingnews.com/woodside-energy-releases-full-year-2025-results/"
     },
     {
-     "title": "Baird Maritime: Woodside trims output forecast as oil rally fuels revenue leap (21 Oct 2026)",
+     "title": "Appendix 3Y, NED Share Plan purchases, 27 Aug 2026 (ASX announcement)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260902/499500570/f2e177ab22580a8a10b088cee0224946.pdf"
+    },
+    {
+     "title": "Appendix 3Y, B Woods STI vesting, 1 Jul 2026 (ASX announcement)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260708/499501140/ee05254f3594d7b4bae66789cead2882.pdf"
+    },
+    {
+     "title": "Baird Maritime/Reuters: Woodside trims output forecast as oil rally fuels revenue leap (21 Oct 2026)",
      "url": "https://www.bairdmaritime.com/offshore/drilling-production/woodside-trims-output-forecast-even-as-oil-rally-fuels-revenue-leap"
     },
     {
-     "title": "MoneyMagpie: Oil price prediction October 2026 (Trading Economics data)",
-     "url": "https://www.moneymagpie.com/investment-articles/oil-price-prediction-october-2026"
+     "title": "LNG Prime: Woodside resumes Scarborough commissioning after protests (19 Oct 2026)",
+     "url": "https://lngprime.com/lng-terminals/woodside-resumes-scarborough-commissioning-work-after-protests/198616/"
     },
     {
-     "title": "Motley Fool: Oil price crash sparks broker upgrades (6 Jul 2026)",
-     "url": "https://www.fool.com.au/2026/07/06/oil-price-crash-sparks-broker-upgrades-for-asx-energy-shares/"
+     "title": "Discovery Alert: Scarborough Greenpeace boarding (19 Oct 2026)",
+     "url": "https://discoveryalert.com/news/scarborough-lng-project-greenpeace-boarding-october-2026/"
     },
     {
-     "title": "S&P Global: JKM anchored to LNG fundamentals amid 2026 supply shocks",
-     "url": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/101926-infographic-jkm-stays-anchored-to-lng-fundamentals-amid-2026-supply-shocks"
+     "title": "The Bull: Greater Sunrise sale, WDS first positive month in three (27-28 Oct 2026)",
+     "url": "https://thebull.com.au/news/woodside-energy-shares-on-track-for-first-positive-month-in-three/"
+    },
+    {
+     "title": "Motley Fool: Can Woodside shares rally to fresh 52-week high? (26 Oct 2026)",
+     "url": "https://www.fool.com.au/2026/10/26/can-woodside-shares-rally-to-fresh-52-week-high/"
+    },
+    {
+     "title": "Motley Fool: Woodside earnings forecast to 2028 (CommSec, 18 Sep 2026)",
+     "url": "https://www.fool.com.au/2026/09/18/heres-the-earnings-forecast-out-to-2028-for-woodside-shares-2/"
+    },
+    {
+     "title": "Simply Wall St: WDS ownership (aggregator, 9 Oct 2026)",
+     "url": "https://simplywall.st/stocks/au/energy/asx-wds/woodside-energy-group-shares/ownership"
     },
     {
      "title": "Fintel: WDS ASX short interest (aggregator)",
      "url": "https://fintel.io/ss/au/wds"
-    },
-    {
-     "title": "Motley Fool: Santos at 52-week high (16 Sep 2026)",
-     "url": "https://www.fool.com.au/2026/09/16/santos-ramsay-health-care-and-amp-shares-reach-new-52-week-highs-can-they-keep-climbing/"
     }
    ]
   },
@@ -857,95 +841,99 @@
    "market": "ASX",
    "code": "EVT",
    "name": "EVT Limited",
-   "date": "2026-10-25",
+   "date": "2026-11-02",
    "status_at_review": "Buy-ready",
-   "price_at_review": "A$15.15",
+   "price_at_review": "A$15.18",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "EVT owns cinemas, Rydges/QT hotels and Thredbo. Normalised NPAT is growing fast (1H FY26 +28.5%, FY26 +41.3%) and Q1 FY27 EBITDA rose 17%, while a A$800m property sale program and a Rothschild structure review add a catalyst. Revenue growth is only about 6%, well short of the 20% sales test, so this is Watch only.",
-   "catalyst": "A$800m non-core property divestment over 3 years plus a group structure review with Rothschild (24 Aug 2026); first sales done above book (23 Oct 2026).",
+   "summary": "EVT runs Event Cinemas, Rydges/QT/LyLo hotels and Thredbo on a property base valued at A$2.24bn (30 Jun 2026). Normalised NPAT is growing fast (1H FY26 +28.5%, FY26 +41.3%) and Q1 FY27 EBITDA rose 17%; an A$800m non-core property sale program and a Rothschild structure review add a catalyst. Revenue growth is only 6.3% (FY26), far short of the 20% sales test, so it stays Watch only.",
+   "catalyst": "A$800m non-core property divestment program and Rothschild group structure review, due within FY27 (24 Aug 2026); Arawa Park sold NZ$18m, 38.5% above book (AGM, 23 Oct 2026).",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Norm NPAT 1H FY26 A$40.5m +28.5%; 2H FY26 A$13.8m vs A$6.9m (calc, ~+100%); FY26 basic EPS 31.2c vs 20.6c. Accelerating",
+     "finding": "Norm NPAT 1H FY25 +8.3%, 2H FY25 ~+38% (calc), 1H FY26 A$40.5m +28.5%, 2H FY26 A$13.8m ~+100% (calc); FY26 EPS 31.2c vs 20.6c",
      "result": "PASS"
     },
     {
      "check": "Sales",
-     "finding": "FY26 norm revenue A$1,314.9m +6.3% (FY25 +1.3%); 1H FY26 +5.4%. Organic and improving, but far below 20%",
+     "finding": "FY26 norm revenue A$1,314.9m +6.3% (FY25 +1.3%); 1H FY26 A$683.8m +5.4%. Organic, improving, but far below 20%",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "FY26 norm EBITDA margin 13.3% vs 13.0%, NPAT margin 4.1% vs 3.1% (calc). Expanding; Code 33 not met as sales growth is low",
+     "finding": "FY26 norm EBITDA margin 13.3% vs 13.0%, norm NPAT margin 4.1% vs 3.1% (calc). Expanding; no Code 33 as sales growth is low",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "Statutory NPAT A$50.7m vs norm A$54.3m; sig items -A$8.8m (FY25 -5.9m) recur each year; no revaluation gains in P&L; OCF not found",
+     "finding": "Stat NPAT A$50.7m vs norm A$54.3m; sig items -A$8.8m (FY25 -A$5.9m) recur. OCF after leases A$151.1m (FY25 A$120.4m); dividends A$66.6m > NPAT",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "FY26 result: shares +10.2% (24 Aug 26); Q1 FY27 EBITDA +17%; but hotel initiative EBITDA cut A$17m to A$13m and Thredbo FY27 guide A$16-20m",
+     "finding": "FY26 beat-driven rally (24 Aug 26); AGM 23 Oct 26: Q1 FY27 EBITDA A$72.5m +17%, FY27 growth reaffirmed; Thredbo A$16-20m; revisions not found",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: A$800m divestment and Rothschild structure review (24 Aug 26); Arawa Park sold NZ$18m, 38.5% above book (23 Oct 26)",
+     "finding": "MODERATE: A$800m divestments + Rothschild structure review (24 Aug 26); Arawa Park NZ$18m 38.5% above book, LyLo Fremantle A$8m (23 Oct 26)",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical leisure turnaround with a property backing; Entertainment Q1 FY27 EBITDA +171%. Peer group strength not found",
+     "finding": "Cyclical leisure/hotel turnaround with property backing; Q1 FY27 Entertainment EBITDA +171%. Removed from ASX 200 (21 Sep 26). Peer strength not found",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "~162.5m shares, flat since FY24 (calc from dividends); Rydge-linked holders ~45%, Perpetual 15.8%; no recent raises. Long-listed",
+     "finding": "162.9m shares (ASIC 27 Oct 26), ~flat; Rydge-linked ~45%, Perpetual 15.8% (agg); inst 44.8%. Insiders: Grant buy 1k (Mar 26); no sales in 12m",
      "result": "PASS"
     },
     {
      "check": "Balance sheet",
-     "finding": "Net debt A$476.1m vs A$750m facility (30 Jun 26); property carried A$1,317m, valued A$2,236.6m. OCF and ROE not found. No raise likely",
+     "finding": "30 Jun 26: cash A$64.9m, bank debt A$541.1m, net debt A$476.1m (FY25 ~A$311.9m calc), A$750m facility to Mar 2029; ROE ~5.5% (calc). No raise likely",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Next: 1H FY27 result late Feb 2027 (date TBA). Risks: film slate, Thredbo weather, review outcome. Short interest not found",
+     "finding": "Next: 1H FY27 result ~late Feb 2027 (TBA). Structure review outcome in FY27. Short interest 3.62% (29 Jul) to 1.65% (27 Oct 26), falling",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "No placement, SPP, entitlement offer or trading halt found in the last 12 months; DRP suspended Aug 2026",
+     "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; no ASX announcements since 23 Oct 2026; DRP suspended",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Revenue growth is only about 6%, so profit growth relies on margin recovery and the film slate.",
-    "Thredbo FY27 EBITDA guidance is A$16-20m vs A$21.0m in FY26, after the worst snow in over 40 years.",
-    "Entertainment 2H FY27 film schedule is not yet fully formed, and Hotels Q1 FY27 EBITDA fell 2%.",
-    "Structure review or 525 George St sale could disappoint; first strike on the remuneration report at the 23 Oct 2026 AGM.",
-    "Next event: 1H FY27 results, expected late Feb 2027 (date not yet announced)."
+    "Revenue growth is only ~6%, so profit growth relies on margin recovery and the cinema film slate (2H FY27 slate not yet formed).",
+    "Thredbo FY27 EBITDA guided A$16-20m after Q1 EBITDA fell A$9.0m on the worst snow in 40+ years; Hotels Q1 EBITDA -A$0.4m.",
+    "Net debt rose to A$476.1m and FY26 dividends (A$66.6m) exceeded statutory NPAT; asset sales need to deliver to deleverage.",
+    "Structure review or 525 George St sale could disappoint; first strike on remuneration report at 23 Oct 2026 AGM; ASX 200 exit cut index demand.",
+    "Next event: 1H FY27 results, expected late Feb 2027 (date not yet announced; 1H FY26 was 23 Feb 2026)."
    ],
-   "next_event": "1H FY27 half-year results, expected late Feb 2027 (date not announced; 1H FY26 was 23 Feb 2026). AGM and Q1 update already held 23 Oct 2026",
+   "next_event": "1H FY27 half-year results, expected late Feb 2027 (date not announced; 1H FY26 released 23 Feb 2026). Structure review outcome possible any time in FY27",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "FY26 Appendix 4E and annual report (ASX, 24 Aug 2026)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733cn6jf8p381.pdf"
+     "title": "ASX announcements list for EVT (ASX API, checked 2 Nov 2026: latest 23 Oct 2026)",
+     "url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/evt/announcements"
     },
     {
-     "title": "FY26 results announcement (ASX, 24 Aug 2026)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733f3w1tt7nn8.pdf"
+     "title": "AGM addresses - Strong Q1, Hotels growth strategy advances (ASX, 23 Oct 2026)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152108-2A1705747?access_token=83ff96335c2d45a094df02a206a39ff4"
+    },
+    {
+     "title": "Results of AGM, first strike (ASX, 23 Oct 2026)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152331-2A1705838?access_token=83ff96335c2d45a094df02a206a39ff4"
+    },
+    {
+     "title": "FY26 Appendix 4E and financial report (ASX, 24 Aug 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733cn6jf8p381.pdf"
     },
     {
      "title": "FY26 results presentation (ASX, 24 Aug 2026)",
      "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733hv6r4vtrc5.pdf"
-    },
-    {
-     "title": "FY26 Preliminary Final Report (evt.com)",
-     "url": "https://cdn.evt.com/wp-content/uploads/2026/08/24085028/Preliminary-Final-Report.pdf"
     },
     {
      "title": "1H FY26 results announcement (ASX, 23 Feb 2026)",
@@ -956,36 +944,44 @@
      "url": "https://announcements.asx.com.au/asxpdf/20250224/pdf/06fv1dd7pg3b9j.pdf"
     },
     {
-     "title": "1H FY25 half-yearly report",
-     "url": "https://quoteapi.com/resources/4ec85c869fdae450/announcements/evt.asx/2A1579863/EVT_Half_Yearly_Report_and_Accounts.pdf?embed=1"
+     "title": "FY25 results announcement (ASX, 25 Aug 2025)",
+     "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n8l6mjyqcmqn.pdf"
     },
     {
-     "title": "FY25 Appendix 4E (ASX, 25 Aug 2025)",
-     "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n8hf8zx7bm3d.pdf"
-    },
-    {
-     "title": "FY26 reporting calendar and AGM date (ASX, 3 Aug 2026)",
+     "title": "Key FY26 dates (ASX, 3 Aug 2026)",
      "url": "https://announcements.asx.com.au/asxpdf/20260803/pdf/072cjgtf0vwszz.pdf"
     },
     {
-     "title": "AGM addresses: strong Q1, Hotels growth strategy advances (23 Oct 2026, Listcorp)",
-     "url": "https://www.listcorp.com/asx/evt/evt-limited/news/agm-addresses-strong-q1-hotels-growth-strategy-advances-3426273.html?ref=more_news"
+     "title": "Notice of AGM (ASX, 21 Sep 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260921/pdf/0749ybs4s4x8hk.pdf"
     },
     {
-     "title": "AGM 2026 results: first strike (Kalkine, aggregator)",
-     "url": "https://kalkinemedia.com/au/news/announcements/evt-limited-agm-2026-all-resolutions-approved-amid-first-strike-on-remuneration-report"
+     "title": "Appendix 3Y J. Hastings rights vesting (3 Sep 2026, via Webull)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260903/499502611/4c1b1db1f118c9f72ecdc1c1840f7641.pdf"
     },
     {
-     "title": "FY26 earnings call transcript (Investing.com, aggregator)",
-     "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-evt-lifts-fy2026-profit-shares-jump-on-growth-outlook-93CH-4843727"
+     "title": "ASIC short position report 27 Oct 2026",
+     "url": "https://download.asic.gov.au/short-selling/RR20261027-001-SSDailyAggShortPos.csv"
     },
     {
-     "title": "FNArena consensus (aggregator)",
-     "url": "https://fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=EVT"
+     "title": "S&P/ASX 200 removal, Sep 2026 rebalance (InvestSMART, aggregator)",
+     "url": "https://www.investsmart.com.au/investment-tools/shares/asx-price-sensitive-announcements/asx-evt/2572313"
     },
     {
-     "title": "Simply Wall St ownership (aggregator)",
-     "url": "https://simplywall.st/stocks/au/media/chia-evt/evt-shares/ownership"
+     "title": "Director interest changes (InvestSMART, aggregator)",
+     "url": "https://www.investsmart.com.au/security/asx/evt/evt-limited/change-in-directors-interest"
+    },
+    {
+     "title": "Ownership and insider trades (Simply Wall St, aggregator, 25 Aug 2026)",
+     "url": "https://simplywall.st/stocks/au/media/asx-evt/evt-shares/ownership"
+    },
+    {
+     "title": "Perpetual substantial holding change Dec 2025 (FilingReader, aggregator)",
+     "url": "https://filingreader.com/news-wire/sydney/2025-12-19/perpetual-limited-adjusts-holdings-in-aspen-clover-and-evt"
+    },
+    {
+     "title": "Christmas film season article, price A$15.18 (Kalkine, aggregator, 2 Nov 2026)",
+     "url": "https://kalkinemedia.com/au/stocks/consumer/blockbuster-season-can-evt-asxevt-cash-in-on-christmas-movies"
     }
    ]
   },
@@ -9470,6 +9466,146 @@
    ],
    "status_at_review": "Buy-ready",
    "price_at_review": "A$0.77"
+  },
+  "ASX:MND": {
+   "market": "ASX",
+   "code": "MND",
+   "name": "Monadelphous Group",
+   "date": "2026-11-02",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Monadelphous, an engineering contractor serving resources and energy, had a record FY26: revenue incl. JVs A$2.98bn (+31.5%), NPAT A$127.3m (+52.1%) and EPS 127.6c (+50.1%). The trailing earnings fit SEPA, but on 25 Aug 2026 management called FY27 a year of consolidation, with revenue 'flattish' and margins at best held. The shares fell 12%, and estimates and targets have been reset lower since. The forward earnings path is the single biggest reason this is Watch only and not a candidate.",
+   "catalyst": "Record A$2.7bn in contracts won in FY26 and more than A$680m since 1 Jul 2026, plus about A$150m from Rio Tinto, BHP and Whitehaven announced 28 Oct 2026; but FY27 revenue is guided flat (MODERATE).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "EPS 1H FY26 65.2c (+50.6% vs 43.3c); 2H FY26 62.4c (+49.6%, derived). FY26 127.6c is a record (+50.1%); FY27 guided flat; consensus not found",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "FY26 revenue incl. JVs A$2.98bn (+31.5%); 1H +45.6% then 2H +19.3% (derived); FY27 guided 'flattish'; acquisitions' share not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "FY26 EBITDA margin 7.58% vs 6.98%; NPAT margin 4.57% vs 3.89% (statutory). FY27 aim is to hold margins. No Code 33: sales decelerating",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY26 OCF A$245.1m vs NPAT A$127.3m (147% conversion), lifted by customer advances that may unwind. NPAT is not split into underlying",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "FY26 NPAT A$127.3m vs A$125m consensus (25 Aug 2026), but flat FY27 guidance cut estimates; stock -12%; SWS target A$33.25 to A$31 (23 Sep)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: A$2.7bn in FY26 wins; more than A$680m in FY27 by 25 Aug 2026; about A$150m announced 28 Oct 2026. Little FY27 earnings lift guided",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Leading cyclical resources/energy maintenance contractor; mining capex cycle mid-to-late; strength of peer group near highs not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Institutions 35.8% (SWS, 21 Sep 2026; trend not found). No director open-market sales found in 12 months; Buratto bought 500 shares 27 Aug 2026. No raise",
+     "result": "PASS"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Cash A$293.6m at 30 Jun 2026 (A$205.8m FY25), boosted by advances. Debt, net cash and ROE not found. Pays 85% of profit as dividends; no raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "AGM 24 Nov 2026 (possible trading update); 1H FY27 results date not found (Feb 2027 last year). Short interest 237,777 shares, 22 Oct 2026, falling",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months. DRP (no discount) and rights-vesting issues only (429,648 shares, Jun 2026)",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "FY27 guided as a consolidation year: flat revenue and margins at best held, so EPS growth may stall",
+    "Maintenance revenue to fall as FY26 turnaround and shutdown work normalises (FY26 call, 25 Aug 2026)",
+    "Customer advances flattered FY26 cash and could reverse in working capital",
+    "Several brokers at Hold or Underperform (Bell Potter, RBC, Macquarie, Morgans, Jefferies), and the valuation premium is high",
+    "Verdict would improve if AGM update (24 Nov 2026) lifts FY27 guidance or estimates start rising again"
+   ],
+   "next_event": "AGM 24 Nov 2026 (possible trading update); 1H FY27 results ~late Feb 2027 (date not found)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "FY26 full year results release, 25 Aug 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260825/pdf/0734xk6cw9l05h.pdf"
+    },
+    {
+     "title": "FY26 results presentation, 25 Aug 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260825/pdf/0734xh0lg3xym0.pdf"
+    },
+    {
+     "title": "FY26 Appendix 4E, 25 Aug 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260825/pdf/0734x8nbrqbfvh.pdf"
+    },
+    {
+     "title": "1H FY26 half year results, 24 Feb 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260224/pdf/06wn3f06s18sbv.pdf"
+    },
+    {
+     "title": "1H FY25 half year results, 18 Feb 2025 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20250218/pdf/06fm2bx8c79jyt.pdf"
+    },
+    {
+     "title": "Business update, 10 Nov 2025 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20251110/pdf/06rpzr8mmr097m.pdf"
+    },
+    {
+     "title": "FY26 earnings call transcript (Investing.com, aggregator)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-monadelphous-h2-2026-profit-jumps-shares-sink-13-93CH-4874433"
+    },
+    {
+     "title": "FY26 result vs consensus (The Bull, aggregator)",
+     "url": "https://thebull.com.au/news/monadelphous-shares-todays-asx-200-laggard-despite-record-earnings-what-happened/"
+    },
+    {
+     "title": "1H FY26 vs consensus and broker views (Market Index, aggregator)",
+     "url": "https://www.marketindex.com.au/news/monadelphous-jumps-on-clean-half-year-beat-but-valuation-bites-back"
+    },
+    {
+     "title": "A$150m contracts, 28 Oct 2026 (Motley Fool, aggregator)",
+     "url": "https://fool.com.au/2026/10/28/monadelphous-group-wins-150m-in-new-contracts"
+    },
+    {
+     "title": "Ownership and insider trades (Simply Wall St, aggregator)",
+     "url": "https://simplywall.st/stocks/au/capital-goods/asx-mnd/monadelphous-group-shares/ownership"
+    },
+    {
+     "title": "Short interest (Fintel, aggregator)",
+     "url": "https://fintel.io/ss/au/mnd"
+    },
+    {
+     "title": "AGM date 24 Nov 2026 (ad-hoc-news, aggregator)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/monadelphous-schedules-november-24-annual-meeting-for-monadelphous-stock/70350538"
+    },
+    {
+     "title": "Target cut to A$31 (ad-hoc-news, aggregator)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/simply-wall-st-cites-aud-31-00-target-for-monadelphous-stock/70377642"
+    },
+    {
+     "title": "Annual financials FY22-FY26 (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/quote/asx/MND/financials/"
+    }
+   ],
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$29.67"
   }
  }
 }
