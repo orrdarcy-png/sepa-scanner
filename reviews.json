@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:25:25Z",
+ "updated": "2026-11-02T22:31:35Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -9606,6 +9606,726 @@
    ],
    "status_at_review": "Buy-ready",
    "price_at_review": "A$29.67"
+  },
+  "US:PGNY": {
+   "market": "US",
+   "code": "PGNY",
+   "name": "Progyny, Inc.",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$29.41",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Progyny, the fertility-benefits manager, is recovering from losing a large client in 2025. A record selling season points to about 1.2M new covered lives in 1H 2027. Q2 2026 (Apr-Jun, reported 6 Aug 2026) GAAP EPS was $0.34, up 79% YoY, but revenue grew only 5.3% and adjusted EPS only 15%, so the GAAP jump mostly reflects lower stock-based pay and a share count cut by about 12.5%. Sales are far below the SEPA bar until the 2027 lives start to show up in revenue.",
+   "catalyst": "On 7 Oct 2026 Progyny said its selling season was pacing at a record level, with commitments for about 1.2M new covered lives in 1H 2027 and most 2027 retention risk already removed (Q2 call, 6 Aug 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP EPS YoY: Q3'25 $0.15 +36%; Q4'25 $0.14 +17%; Q1'26 $0.29 +71%; Q2'26 $0.34 +79%. Adj EPS only +13/+14/+4/+15%. FY26 guide $1.26-1.32 vs $0.65",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue YoY: Q3'25 +9.3%, Q4'25 +6.7%, Q1'26 $328.5M +1.4%, Q2'26 $350.5M +5.3% (+11% ex lost client). Q3'26 guide +6.9-10.1%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Gross margin Q1'26 25.3% vs 23.4%, Q2'26 25.5% vs 23.7%; adj EBITDA margin 17.2% vs 17.8%, 17.7% vs 17.4%. Sales too slow for Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "1H'26 OCF $96.4M vs NI $52.3M. Concern: GAAP gain driven by SBC falling to $40.2M from $64.9M (1H) and buybacks; Q2 adj EBITDA up only 7%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS $0.55 beat $0.50-0.53 guide. FY26 revenue guide cut to $1.36-1.385B from $1.365-1.405B; adj EPS raised to $2.04-2.10. Stock -7% on 7 Aug",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: record selling season, about 1.2M new covered lives committed for 1H'27 (press release, 7 Oct 2026); 604 clients vs 542 (30 Jun 2026)",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Fertility-benefits leader recovering from a 2025 client loss; competes with carrier plans and Carrot/Maven (private). Group strength not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap $2.24B, 76.7M shs (aggregator, 30 Oct). Inst 94.9% (aggregator, 7 Oct). CEO bought $1.93M (Nov 2025); small 10b5-1/option sales Sep-Oct 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash+securities $236.9M, no debt, $200M revolver undrawn; TTM OCF $201.2M; ROE not found. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3'26 results 4 Nov 2026 (2 days away); consensus adj EPS $0.51, revenue $339.7M. Short interest 4.8M (6.3% of float), falling (Oct). Engagement is key",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 7 Aug 2026 (aggregator); next earnings 4 Nov 2026. No shelf, ATM or offering found; about $142.5M buyback left (6 Aug 2026)",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 engagement: management flagged a sharper summer dip and lowered its utilization assumption; a miss on 4 Nov could repeat the -7% reaction of 7 Aug 2026",
+    "Organic revenue growth (+5.3% reported in Q2'26) is far below SEPA levels; GAAP EPS gains lean on lower SBC and a ~12.5% share count cut",
+    "Over-owned: institutions hold ~95% (aggregator, Oct 2026), leaving few new buyers; insiders made small, steady 10b5-1/option sales Sep-Oct 2026",
+    "Rising competition: more brownfield bake-offs against carrier-provided fertility plans and venture-backed rivals could pressure pricing",
+    "Next event: Q3 2026 results 4 Nov 2026; would upgrade if 2027 lives turn into 15%+ revenue growth guidance with EPS staying strong"
+   ],
+   "next_event": "Q3 2026 results, 4 Nov 2026 (scanner and Earnings Whispers)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Progyny Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001551306/000155130626000135/exhibit991q22026.htm"
+    },
+    {
+     "title": "Progyny Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001551306/000155130626000062/exhibit991q12026.htm"
+    },
+    {
+     "title": "Progyny Q4 2025 results (press release)",
+     "url": "https://investors.progyny.com/news-releases/news-release-details/progyny-inc-announces-fourth-quarter-2025-results"
+    },
+    {
+     "title": "Progyny Q3 2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1551306/000155130625000186/exhibit991q32025.htm"
+    },
+    {
+     "title": "Progyny Q2 2026 earnings call transcript (Webull)",
+     "url": "https://www.webull.com/news/15398140721062912"
+    },
+    {
+     "title": "BriefGlance: Progyny record selling season, 1.2M new lives (7 Oct 2026)",
+     "url": "https://briefglance.com/companies/progyny-inc/pulses/85477"
+    },
+    {
+     "title": "Finviz/Earnings Whispers: Q3 2026 preview (aggregator)",
+     "url": "https://finviz.com/news/409591/progynys-summer-engagement-dip-faces-its-test-as-selling-season-momentum-builds"
+    },
+    {
+     "title": "MarketBeat: PGNY ownership, ratings, insider sales (aggregator, 7 Oct 2026)",
+     "url": "https://www.marketbeat.com/instant-alerts/price-progyny-nasdaq-pgny-shares-up-29-heres-why-2026-10-07/"
+    },
+    {
+     "title": "MarketBeat: FY2026 guidance and consensus (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/progyny-nasdaqpgny-issues-fy-2026-earnings-guidance-2026-08-06/"
+    },
+    {
+     "title": "QuantisNow: PGNY insider transactions (aggregator)",
+     "url": "https://quantisnow.com/insiders/PGNY"
+    },
+    {
+     "title": "Motley Fool: CEO Anevski buys $1.9M of stock",
+     "url": "https://www.fool.com/coverage/filings/2025/12/02/ceo-peter-anevski-buys-usd1-9-million-of-progyny-stock-should-investors-buy-too"
+    },
+    {
+     "title": "Equibles: PGNY market cap, short interest, filings (aggregator)",
+     "url": "https://equibles.com/stocks/PGNY"
+    }
+   ]
+  },
+  "US:VAC": {
+   "market": "US",
+   "code": "VAC",
+   "name": "Marriott Vacations Worldwide",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$117.5",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "A timeshare turnaround under new CEO Matt Avril (appointed 17 Feb 2026): Q2 2026 (Apr-Jun, reported 6 Aug) contract sales rose 22%, adjusted EPS $2.31 beat $1.97 consensus, and FY26 adjusted EPS guidance was raised to $8.25-9.05. But GAAP EPS was negative in Q3-Q4 2025 and down 56% in Q1 2026, Q2's +20% GAAP / +18% adjusted is below the +25% bar, and revenue ex-reimbursements grew only 10%, so earnings and sales don't qualify yet; Q3 results on 4 Nov are the test.",
+   "catalyst": "New management (Avril CEO, Flaskey President/COO, 17 Feb 2026) with a modernization program targeting a $150-200M adjusted EBITDA benefit by end-2026; Q2 2026 contract sales +22% and FY26 guidance raised (6 Aug 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS YoY: Q3'25 -$0.07 vs $2.12; Q4'25 -$12.43 (impairments); Q1'26 $0.64 -56%; Q2'26 $2.12 +20%. Adj: -8%, -6%, -25%, +18%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Rev ex-reimb YoY: Q3'25 -2%, Q4'25 -3%, Q1'26 flat, Q2'26 $920M +10%. Contract sales Q2'26 +22% (VPG +23%, tours -1%); organic",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 adj EBITDA margin 23.4% vs 24.3%; net ~5.8% vs ~5.5% (calc). Mkt & sales cost -150bp of contract sales. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY25 $577M impairments; modernization $122M FY25, $26M 1H26; restructuring again. 1H26 OCF $76M vs NI $99M; loan loss prov $122M vs $108M",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS $2.31 vs $1.97 est (6 Aug). FY26 adj EPS guide raised to $8.25-9.05 from $7.05-7.80; FY est +16% in 3 mo (aggregator)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: new CEO Avril (17 Feb 2026) reset; modernization targets $150-200M EBITDA by end-2026; Q2'26 contract sales +22%, guide raised",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround, not leader; stock +46% in 6 mo to 10 Sep vs industry -0.8% and HGV -7% (aggregator). Group not confirming",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Cap ~$4.0B (calc); shs 35.5M (Oct'23) to 34.4M (Jul'26); inst 89.5% (Aug'26). Impactive 13D sold 750k @$111.49, CAO 2.5k, Aug'26; no buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash $211M, corp debt $3.1B, non-recourse $2.4B; net corp lev 4.0x; equity $2.06B; TTM GAAP NI -$334M (calc); 1H OCF $76M",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3'26 results 4 Nov 2026 BMO; est adj EPS $2.57 vs $1.69 (aggregator). Short int 2.02M, 5.9% of shs, down from 2.69M Jul (15 Oct)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2 (Apr-Jun 2026) filed 6 Aug 2026. Next earnings 4 Nov 2026. No 2026 offering, shelf or ATM found; $575M convert repaid Jan 2026",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 2026 results 4 Nov 2026 (pre-market, call 8:30 ET): consensus ~$2.57 adj EPS vs $1.69 a year ago is a high bar after the guide raise",
+    "Activist Impactive (9.8%, director seat) sold 750,000 shares at $111.49 on 19 Aug 2026 'rebalancing'; further sales would be an overhang",
+    "Over-owned: ~89.5% institutional (MarketBeat, Aug 2026); 593 holders with net shares -0.6% in the latest quarter (Fintel)",
+    "Leverage 4.0x net corporate debt plus rising loan loss provisions ($122M 1H26 vs $108M) leave it exposed to a consumer or travel slowdown",
+    "Late-stage base 4 bought at the pivot with no cushion; recurring modernization/restructuring charges keep GAAP far below adjusted EPS"
+   ],
+   "next_event": "Q3 2026 results, 4 Nov 2026 (before open; call 8:30 a.m. ET)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "VAC Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000035/a2026q2pressreleaseschedul.htm"
+    },
+    {
+     "title": "VAC Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000020/a2026q1pressreleaseschedul.htm"
+    },
+    {
+     "title": "VAC Q4 and FY2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000006/a2025q4earningsreleasesche.htm"
+    },
+    {
+     "title": "VAC Q3 2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435825000163/a2025q3pressreleaseschedul.htm"
+    },
+    {
+     "title": "VAC 10-Q, quarter ended 30 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000037/vac-20260630.htm"
+    },
+    {
+     "title": "VAC 10-Q, quarter ended 30 Sep 2023 (SEC, share count)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435823000039/vac-20230930.htm"
+    },
+    {
+     "title": "Impactive Capital Form 4, 19 Aug 2026 sale (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000090266426003590/ownership.xml"
+    },
+    {
+     "title": "Impactive Capital Schedule 13D/A No. 4 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000090266426003591/primary_doc.xml"
+    },
+    {
+     "title": "Form 4: K. Pighini sale, 17 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000191480726000008/wk-form4_1787058191.xml"
+    },
+    {
+     "title": "Form 4: R. Bukkapatnam tax withholding, 17 Aug 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000198414026000008/wk-form4_1787058258.xml"
+    },
+    {
+     "title": "Form 4: D. Morgan director award, 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000130057226000010/wk-form4_1790886567.xml"
+    },
+    {
+     "title": "Form 4: C. E. Andrews director award, 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000121515026000010/wk-form4_1790886375.xml"
+    },
+    {
+     "title": "Quantisnow: VAC insider transactions list (aggregator)",
+     "url": "https://www.quantisnow.com/insiders/VAC"
+    },
+    {
+     "title": "Reuters via Tiger: Avril named CEO, Flaskey President (17 Feb 2026)",
+     "url": "https://www-web.itiger.com/news/2612845450"
+    },
+    {
+     "title": "Earnings Whispers: Q3 2026 report date",
+     "url": "https://www.earningswhispers.com/article/VAC/2610071035"
+    },
+    {
+     "title": "Benzinga: Q2 2026 vs consensus (aggregator)",
+     "url": "https://www.benzinga.com/markets/earnings/26/08/60993947"
+    },
+    {
+     "title": "Zacks: VAC up 46% in 6 months (aggregator)",
+     "url": "https://www.zacks.com/stock/news/2987834/marriott-vacations-stock-jumps-46-in-6-months-is-more-upside-ahead"
+    },
+    {
+     "title": "StockAnalysis: VAC analyst forecasts (aggregator)",
+     "url": "https://stockanalysis.com/stocks/vac/forecast/"
+    },
+    {
+     "title": "AAII: VAC estimate revisions (aggregator)",
+     "url": "https://www.aaii.com/investingideas/article/528076-what-you-need-to-know-about-marriott-vacations-worldwide-corporations-q3-earnings"
+    },
+    {
+     "title": "Ticker Report: Q3 2026 preview, consensus (aggregator)",
+     "url": "https://www.tickerreport.com/banking-finance/13639874/marriott-vacations-worldwide-vac-expected-to-release-quarterly-earnings-on-wednesday.html"
+    },
+    {
+     "title": "InsiderTrades/MarketBeat: Asmar sale, inst. ownership (aggregator)",
+     "url": "https://www.insidertrades.com/alerts/nyse-vac-insider-buying-and-selling-2026-08-21/"
+    },
+    {
+     "title": "Fintel: VAC institutional holders (aggregator)",
+     "url": "https://fintel.io/so/us/vac"
+    },
+    {
+     "title": "Equibles: VAC short interest (aggregator)",
+     "url": "https://equibles.com/stocks/vac/shortinterest"
+    },
+    {
+     "title": "Barron's via Tiger: timeshare stocks (26 Dec 2025)",
+     "url": "https://www-web.itiger.com/news/2594211758"
+    }
+   ]
+  },
+  "US:PAG": {
+   "market": "US",
+   "code": "PAG",
+   "name": "Penske Automotive Group",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$213.25",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "The 'breakout' is a merger-arbitrage move, not a SEPA setup. On 15 Oct 2026 PAG agreed to be taken private by Penske Corp and Mitsui at $212.00 cash per share, closing expected Q1 2027, so the stock (US$213.25) already trades above the deal price and the upside is capped. The fundamentals also fail: Q3 2026 (Jul-Sep) GAAP EPS was $3.36, down 1.5% YoY, the fourth straight quarterly decline, on revenue up 4.5%.",
+   "catalyst": "Definitive merger agreement (15 Oct 2026, 8-K): Penske Corp and Mitsui to buy all public shares at $212.00 cash. This caps the price; it is not an earnings catalyst.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP EPS YoY: Q4'25 $2.83 -24%; Q1'26 $3.56 -8%; Q2'26 $3.96 -2% (adj $3.62); Q3'26 $3.36 -1.5%. FY25 $14.13 -2.5%, not a record",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue YoY: Q4'25 -3.8%; Q1'26 -1.1%; Q2'26 +6.0%; Q3'26 $8.42B +4.5%. Q3 same-store retail auto +1.9%; truck +22%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Gross margin Q3'26 15.7% vs 16.1%; Q2 15.9% vs 16.8%. SG&A/GP 73.7% vs 72.7%; Q3 op income -2.5%. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "1H'26 OCF $419M vs NI $496M (1H'25 $500M vs $526M). Q2'26 incl $30.5M dealer-sale gain. Inventory $5.11B vs $4.81B at Dec'25",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 EPS $3.36 vs $3.34 est, rev $8.42B vs $8.14B est (aggregator). No call or guidance (pending deal). Revisions not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: only catalyst is the $212 cash take-private by Penske Corp/Mitsui (8-K, 15 Oct 2026). Caps upside; no earnings driver",
+     "result": "FAIL"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Diversified auto/truck retail leader, cyclical; 9M'26 same-store rev +2.7%. Price now pinned to the deal, not trading with its group",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "65.7M sh (16 Jul 2026); Penske 52.3% + Mitsui ~20% = 72.6% (13D/A 15 Oct). Inst 28.2% / 77% (aggr). Director sold $238K May'26",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $68M, LT debt $2.37B, leverage 1.6x, debt/cap 28.4%, liquidity ~$1.6B. Equity $5.83B (Jun'26). No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 reported 28 Oct 2026; deal vote (majority of unaffiliated) date not found; close Q1 2027. Short int 2.7M, 4.1% float, rising (aggr)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2 (ended 30 Jun 2026), filing date not found; Q3 10-Q pending. No shelf/ATM/offering found. Buybacks halted by deal",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Price US$213.25 is above the $212.00 cash deal price: if the deal closes, holders get $212; there is no SEPA upside",
+    "Deal break risk: needs a majority of unaffiliated holders and regulatory approval; a break could send the stock back toward pre-bid levels ($212 is an 8.6% premium to the 21 Jul 2026 unaffected close, ~$195 calc)",
+    "Fundamentals are weak on their own: GAAP EPS down YoY four quarters running, gross margin squeezed (15.7% vs 16.1% in Q3'26)",
+    "Buyer has committed debt financing; the release lists its unavailability as a risk. $383M termination fee in certain cases",
+    "Next event: stockholder vote on the merger (date not found); close expected Q1 2027. Scanner date of 28 Oct 2026 has passed"
+   ],
+   "next_event": "Stockholder vote on $212 take-private (date not found; proxy pending); deal close expected Q1 2027. Q3 2026 results already out 28 Oct 2026",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "PAG Q3 2026 results press release (27/28 Oct 2026)",
+     "url": "https://s203.q4cdn.com/686706497/files/doc_financials/2026/q3/PAG_PR_Q3-26-Exhibit-99_1-10-27-2026-Final.pdf"
+    },
+    {
+     "title": "PAG merger announcement, 8-K Ex 99.1 (SEC, 15 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001019849/000114036126039664/ef20083688_ex99-1.htm"
+    },
+    {
+     "title": "Penske Corp Schedule 13D/A No. 34 (SEC, 15 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001019849/000119312526422280/primary_doc.xml"
+    },
+    {
+     "title": "PAG Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001019849/000162828026050469/q226exhibit99_1.htm"
+    },
+    {
+     "title": "PAG Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001019849/000162828026028227/q126exhibit99_1.htm"
+    },
+    {
+     "title": "PAG Q4 2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828026007173/q425exhibit99_1.htm"
+    },
+    {
+     "title": "PAG 10-Q, quarter ended 30 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001019849/000162828026051036/pag-20260630.htm"
+    },
+    {
+     "title": "RTTNews: PAG Q3 2025 results (prior-year comparison)",
+     "url": "https://www.rttnews.com/3587388/penske-automotive-group-inc-announces-retreat-in-q3-bottom-line.aspx"
+    },
+    {
+     "title": "24/7 Wall St: Q3 2026 vs consensus (aggregator)",
+     "url": "https://247wallst.com/cards/penske-automotive-group-q3-2026-earnings-pag-01m61a2vr8snza73q1temjg80n"
+    },
+    {
+     "title": "Sharesgrow: PAG insider transactions (aggregator)",
+     "url": "https://sharesgrow.com/ownership/PAG/"
+    },
+    {
+     "title": "MarketBeat: PAG institutional ownership (aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/PAG/institutional-ownership/"
+    },
+    {
+     "title": "Equibles: PAG short interest and institutional holders (aggregator)",
+     "url": "https://equibles.com/stocks/PAG"
+    }
+   ]
+  },
+  "US:ACIW": {
+   "market": "US",
+   "code": "ACIW",
+   "name": "ACI Worldwide",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$58.4",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "ACI Worldwide sells payments software to banks and billing services to billers. It is a steady, buyback-driven compounder, not a SEPA growth leader. Revenue grew 8% in Q1 2026 and 7% in Q2 2026 (Q2 reported 6 Aug 2026). The company's own Q3 guide of $417-427M is 12-14% below Q3 2025's $482.4M, and Q3 consensus EPS is $0.61 vs $1.09 a year earlier. That makes the Q3 report on 5 Nov 2026 a likely ugly year-on-year print, even though FY26 guidance was raised.",
+   "catalyst": "ACI Connetic for Cards, a cloud-native card platform, launched 4 Mar 2026; Issuing & Acquiring revenue grew 33% in constant currency in Q2 2026; FY26 guide raised twice (7 May and 6 Aug 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS YoY: Q3'25 $1.09 +12%; Q4'25 $0.90 -17%; Q1'26 $0.61 +20%; Q2'26 $0.54 +54%. GAAP Q1 -33%, Q2 +158%. Q3e $0.61 vs $1.09 (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue YoY (organic): Q3'25 +7%, Q4'25 +6%, Q1'26 +8%, Q2'26 $430.4M +7%. Q3 guide $417-427M vs $482.4M (down 12-14%); FY26 guide +8-9%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 adj EBITDA margin 34% vs 32%; gross margin ~42.2% vs 41.5% (calc). Sales growth only 7%: no Code 33. Lumpy license timing",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q1'25 had a $21.7M after-tax Mindgate gain. 6M'26 adj EPS $1.16 vs GAAP $0.69; SBC $35.6M (+27%). Buybacks cut diluted shares ~3.5% YoY. Concern: adj/GAAP gap",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS $0.54 vs $0.51 est; revenue $430.4M vs $429.7M (aggregator). FY26 guide raised to $1.895-1.925B and adj EBITDA $545-560M (6 Aug 2026)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: Connetic for Cards launched 4 Mar 2026; I&A revenue +33% cc in Q2'26. TTM ARR bookings $67.7M vs $79.5M (falling)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Established payments-software player, not a growth leader. P/E 26.8 trailing, 17.8 forward (aggregator). Whether its industry group is strong was not checked",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$5.9B; 100.96M shs (3 Aug 2026). Inst 94.7% (aggregator, over-owned). Insiders 1.2%. Only RSU tax withholding; 1 director buy (3 Mar 2026)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash $167.4M, debt $822M, net leverage 1.2x; 6M'26 OCF $135.0M; TTM ROE ~15% (calc). No raise needed; $349M buyback left",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 results 5 Nov 2026 (in 3 days); EPS and revenue expected down YoY. Short interest 6.30M (6.2% of shs, 9.7 days to cover, 15 Oct), up from 4.74M (15 Jul)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q2 (ended 30 Jun 2026), filed Aug 2026, exact date not found. Q3 report 5 Nov 2026. No shelf, ATM or equity offering found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Q3 2026 guide implies revenue down 12-14% and adj EBITDA $90-95M vs $170.6M; a headline miss on 5 Nov could break the breakout",
+    "Growth is single-digit (7-8%); the 60% of H2 revenue guided into Q4 rests on lumpy Payment Software license deals",
+    "TTM ARR bookings fell to $67.7M from $79.5M (Q2 2026); Biller revenue net of interchange fell 3% in Q2 and its margin fell to 51% from 56%",
+    "About 95% institutional ownership (aggregator) and short interest of about 9.7 days to cover leave few new buyers and room for sharp moves",
+    "Next event: Q3 2026 results and call on 5 Nov 2026 at 8:30 ET. A strong Q4 guide and bookings recovery would improve the view; sustained 20%+ growth is needed for SEPA"
+   ],
+   "next_event": "Q3 2026 results, 5 Nov 2026 (8:30 a.m. ET call)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "ACI Worldwide Q2 2026 results, 8-K Ex 99.1 (SEC, 6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000093503626000026/aciw-20260806_exx991.htm"
+    },
+    {
+     "title": "ACI Worldwide Q1 2026 results, 8-K Ex 99.1 (SEC, 7 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000093503626000019/aciw-20260507_exx991.htm"
+    },
+    {
+     "title": "ACI Worldwide Q4/FY2025 results, 8-K Ex 99.1 (SEC, 26 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000009/aciw-20260226_ex991.htm"
+    },
+    {
+     "title": "ACI Worldwide Q3 2025 results, 8-K Ex 99.1 (SEC, 6 Nov 2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/935036/000093503625000029/aciw-2025116_exx991.htm"
+    },
+    {
+     "title": "ACI Worldwide 10-Q, quarter ended 30 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000093503626000028/aciw-20260630.htm"
+    },
+    {
+     "title": "Form 4: R. Leibrock (CFO), 24 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000208045226000013/wk-form4_1790372961.xml"
+    },
+    {
+     "title": "Form 4: R. Leibrock (CFO), 24 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000208045226000009/wk-form4_1782511723.xml"
+    },
+    {
+     "title": "Form 4: R. Shultz (GM Speedpay), Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000935036/000206390026000014/wk-form4_1788993374.xml"
+    },
+    {
+     "title": "Finviz: ACI Worldwide to report Q3 2026 results (22 Oct 2026)",
+     "url": "https://finviz.com/news/406179/aci-worldwide-to-report-third-quarter-2026-financial-results"
+    },
+    {
+     "title": "Blarkad: ACIW insider transactions, 180 days (aggregator)",
+     "url": "https://blarkad.com/ticker/ACIW/insiders"
+    },
+    {
+     "title": "InsiderTrades: director purchase 3 Mar 2026 (aggregator)",
+     "url": "https://www.insidertrades.com/alerts/nasdaq-aciw-insider-buying-and-selling-2026-03-05/"
+    },
+    {
+     "title": "Rallies: Connetic for Cards launch and director buy (aggregator)",
+     "url": "https://rallies.ai/news/aci-worldwide-launches-aci-connetic-platform-director-purchases-2400-shares"
+    },
+    {
+     "title": "Equibles: ACIW 13F holdings (aggregator)",
+     "url": "https://equibles.com/stocks/aciw/holdings"
+    },
+    {
+     "title": "Equibles: ACIW short interest (aggregator)",
+     "url": "https://equibles.com/stocks/aciw/shortinterest"
+    },
+    {
+     "title": "MarketBeat: ACIW ownership, valuation, ratings (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/aci-worldwide-nasdaqaciw-upgraded-at-zacks-research-2026-08-22/"
+    },
+    {
+     "title": "Benzinga: ACIW earnings forecasts (aggregator)",
+     "url": "https://www.benzinga.com/quote/ACIW/earnings-forecasts"
+    },
+    {
+     "title": "Earnings Whispers: ACIW Q2 2026 vs estimates (aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/ACIW"
+    }
+   ]
+  },
+  "US:MNST": {
+   "market": "US",
+   "code": "MNST",
+   "name": "Monster Beverage",
+   "date": "2026-11-02",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$48.02",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "The global energy-drink leader is growing sales about 20% on international expansion (Q2 2026, Apr-Jun, net sales +20.2%, ex-US +34.6%, reported 6 Aug 2026), but EPS growth has slowed from +41% to +19% GAAP and July sales rose only 14%. Clustered open-market insider selling in May 2026 (three insiders, ~$13.7M) caps the verdict at Watch only, and Q3 results land on 5 Nov 2026.",
+   "catalyst": "International expansion is driving growth (ex-US sales +34.6% to $1.16B in Q2 2026, 46% of sales; 8-K 6 Aug 2026), with selective US price increases planned for Q4 2026 and an investor meeting on 1 Dec 2026.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Pre-split GAAP dil EPS YoY: Q3'25 $0.53 +41%; Q4'25 $0.46 +65%; Q1'26 $0.58 +28%; Q2'26 $0.59 +19% (adj +15%). Slowing; Q3'26e $0.30 post-split, ~+7%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net sales YoY: Q3'25 +17%, Q4'25 +18%, Q1'26 +27%, Q2'26 $2.54B +20% (FX-neutral +18%). Organic; ex-US +35%. July 2026 only +14%",
+     "result": "PASS"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2'26 gross 55.9% vs 55.7%, op 29.2% vs 29.9%, net ~23.0% vs 23.2% (calc); Q1'26 gross 55.0% vs 56.5%. Flat; no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "1H'26 OCF $1.11B vs NI $1.15B; adj vs GAAP gap small; Q4'25 +65% flattered by impairment base. Concern: AR +18% since Dec 2025",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q2'26 adj EPS beat $0.60 vs $0.58 (pre-split), sales $2.54B vs $2.43B est; 5 straight beats. FY26e -0.1% 1M, +0.6% 3M (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: international surge (ex-US +34.6% Q2'26, 8-K 6 Aug 2026); selective US price rises planned Q4'26; investor day 1 Dec 2026",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Global energy-drink leader, defensive growth. Group weak: CELH down ~39% YTD (Aug 2026). MNST near 52w high $50.17 (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$92.7B; inst 72.4% (aggregator). Clustered open-mkt sales May 2026: Tirre $8.5M, Hall $4.6M, CFO Kelly $0.6M; no buys",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash+investments $4.20B, no debt; 1H'26 OCF $1.11B; ROE ~26% (aggregator). No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3'26 results 5 Nov 2026 AMC (unconfirmed); investor day 1 Dec. Short int 44.5M (2.3%) 15 Oct, up from 36.7M 31 Jul. P/E ~44",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 7 Aug 2026 (Q2); next earnings 5 Nov 2026. No S-3, ATM or offering found; ~$900M buyback left (5 Aug 2026)",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "EPS growth is slowing: adj EPS +36%, +30%, +24%, +15% over the last four quarters; Q3'26 consensus $0.30 vs $0.28 a year ago (~+7%, aggregator)",
+    "July 2026 sales ex-alcohol up only 14.3% vs +20.8% in Q2; a Q3 sales miss on 5 Nov could break the breakout",
+    "Aluminum, Midwest premium and tariffs are rising through end-2026; Q2 operating margin already fell to 29.2% from 29.9%",
+    "Insider selling clustered in May-Jun 2026 (Tirre, Hall, Kelly, Carling); no insider buys in 12 months; short interest up ~21% since 31 Jul",
+    "Next event: Q3 2026 results 5 Nov 2026 after close (Nasdaq calendar via aggregator, not company-confirmed); investor meeting 1 Dec 2026"
+   ],
+   "next_event": "Q3 2026 results, 5 Nov 2026 after close (unconfirmed); investor meeting, New York, 1 Dec 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Monster Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000865752/000110465926092046/tm2622396d1_ex99-1.htm"
+    },
+    {
+     "title": "Monster Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000865752/000110465926057188/tm2613885d1_ex99-1.htm"
+    },
+    {
+     "title": "Monster Q4/FY2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926020525/tm267393d1_ex99-1.htm"
+    },
+    {
+     "title": "Monster Q3 2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465925107778/tm2530426d1_ex99-1.htm"
+    },
+    {
+     "title": "Monster 10-Q, quarter ended 30 Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926092193/mnst-20260630x10q.htm"
+    },
+    {
+     "title": "Form 4: Emelie Tirre, May 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000174709026000002/xslF345X06/form4-05152026_060517.xml"
+    },
+    {
+     "title": "Form 4: Rodney Sacks trust transfer, May 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000128435326000005/xslF345X06/form4-05272026_070501.xml"
+    },
+    {
+     "title": "Nasdaq: Monster Q2 2026 call highlights",
+     "url": "https://www.nasdaq.com/articles/monster-beverage-q2-earnings-call-highlights"
+    },
+    {
+     "title": "Quantisnow: MNST insider transactions (aggregator)",
+     "url": "https://quantisnow.com/insiders/MNST"
+    },
+    {
+     "title": "Chartrow: MNST SEC filings list (aggregator)",
+     "url": "https://chartrow.com/quote/mnst/filings"
+    },
+    {
+     "title": "Chartrow: MNST earnings date and surprises (aggregator)",
+     "url": "https://chartrow.com/quote/mnst/earnings"
+    },
+    {
+     "title": "AAII: MNST estimate revisions (aggregator)",
+     "url": "https://www.aaii.com/investingideas/article/528199-what-you-need-to-know-about-monster-beverage-corporations-q3-earnings"
+    },
+    {
+     "title": "MarketBeat: MNST institutional ownership and analysts (aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/filing-monster-beverage-corporation-mnst-shares-bought-by-north-dakota-state-investment-board-2026-10-31/"
+    },
+    {
+     "title": "Equibles: MNST short interest (aggregator)",
+     "url": "https://equibles.com/stocks/mnst/shortinterest"
+    },
+    {
+     "title": "24/7 Wall St: energy drink sector, Celsius (10 Aug 2026)",
+     "url": "https://247wallst.com/investing/2026/08/10/the-energy-drink-buyout-prize-beverage-giants-are-circling/"
+    }
+   ]
   }
  }
 }
