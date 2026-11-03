@@ -522,7 +522,7 @@ function planBlock(s, cur){
     <label for="p-stop">Stop below entry (%)<input id="p-stop" type="number" inputmode="decimal" min="1" max="15" step="0.5" value="${sp}"></label></div>
     <div class="planout" id="planout"></div><div class="alert" id="planalert"></div>
     <div class="acts" style="margin-top:12px"><button class="btn primary" type="button" id="p-log">Log this trade in the journal</button></div>
-    ${FXR?`<p class="muted" style="font-size:12px;margin:8px 0 0">Account, risk and position value are in A$ at A$1 = ${esc(cur)}${(1/FXR).toFixed(4)} (latest close). Entry and stop stay in ${esc(cur)}, the price you'll enter at your broker. Allow for your broker's currency fee.</p>`:""}`;
+    ${FXR?`<p class="muted" style="font-size:12px;margin:8px 0 0">Account, risk and position value are in A$ at A$1 = ${esc(cur)}${(1/FXR).toFixed(4)} (latest close). Entry and stop stay in ${esc(cur)}, the price you'll enter at your broker. Fees include CommSec's ${feeCfg().fxPct}% currency fee each way.</p>`:""}`;
 }
 function calcPlan(cur){
   const a=+$("#p-acct").value, rp=+$("#p-risk").value, e=+$("#p-entry").value, sp=+$("#p-stop").value;
@@ -532,13 +532,17 @@ function calcPlan(cur){
   const capped = posPct>50 ? Math.floor(a*0.5/(e*fx)) : sh;
   const posA=capped*e*fx;
   LAST_PLAN = {entry:e, stop:+stop.toFixed(e<2?4:3), shares:capped};
+  /* round-trip CommSec cost if sold near the entry price: brokerage both ways, plus 0.55% each way on US trades */
+  const mk=PLAN_M?.name==="ASX"?"ASX":"US", pv=capped*e, bb=brokerage(mk,pv), feeA=capped>0 ? 2*bb*fx + buyFxAuto(mk,pv,bb,fx) + sellFxAuto(mk,pv,bb,fx) : 0;
   $("#planout").innerHTML = [["Stop price",fmtPx(stop,cur)],["Dollar risk",A+Math.round(riskAmt).toLocaleString()],["Shares",capped.toLocaleString()],
-    ["Position value",A+Math.round(posA).toLocaleString()+(FXR?` <span class="muted">(${cur}${Math.round(capped*e).toLocaleString()})</span>`:"")],["Share of account",(a?posA/a*100:0).toFixed(0)+"%"],["Breakeven stop once at",fmtPx(e*(1+2.5*sp/100),cur)]]
+    ["Position value",A+Math.round(posA).toLocaleString()+(FXR?` <span class="muted">(${cur}${Math.round(capped*e).toLocaleString()})</span>`:"")],["Share of account",(a?posA/a*100:0).toFixed(0)+"%"],["Breakeven stop once at",fmtPx(e*(1+2.5*sp/100),cur)],
+    ["CommSec fees, in and out",cents(feeA)+(posA?` <span class="muted">${(feeA/posA*100).toFixed(1)}%</span>`:"")]]
     .map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join("");
   const w=[]; if(sp>10) w.push("A stop wider than 10% breaks the book's maximum. Find a tighter entry or skip the trade.");
   if(posPct>50) w.push("Risk-based size would be over half your account; capped at 50% (the book's limit). Use a tighter stop or accept less risk.");
   else if(posPct>25) w.push("Over 25% of the account in one name: the book reserves that for your very best ideas.");
   if(rp>2.5) w.push("More than 2.5% of the account at risk on one trade is above the book's range.");
+  if(posA && feeA/posA>0.015) w.push(`Fees in and out are ${(feeA/posA*100).toFixed(1)}% of this position, a big bite out of a 5-7% stop. A larger position cuts that.`);
   $("#planalert").textContent = w.join(" ");
 }
 let LAST_PLAN = null, PLAN_M = null;
@@ -616,7 +620,30 @@ const curOf = mkt => DATA?.markets?.[mkt]?.currency || (mkt==="US"?"US$":"A$");
 const fxNow = mkt => mkt==="ASX" ? 1 : (DATA?.markets?.[mkt]?.fx?.aud_per || null);
 const daysBetween = (a,b) => Math.max(0, Math.round((Date.parse(b)-Date.parse(a))/864e5));
 function fmtDate(d){ if(!d) return ""; const x=new Date(d+"T00:00:00"); return isNaN(x)?d:x.toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"2-digit"}); }
-function money(x, sign=false){ if(x==null||!isFinite(x)) return "n/a"; const r=Math.round(x); return (r<0?"−":sign&&r>0?"+":"")+"A$"+Math.abs(r).toLocaleString("en-AU"); }
+function money(x, sign=false, cur="A$"){ if(x==null||!isFinite(x)) return "n/a"; const r=Math.round(x); return (r<0?"−":sign&&r>0?"+":"")+cur+Math.abs(r).toLocaleString("en-AU"); }
+function cents(x, cur="A$"){ return x==null||!isFinite(x) ? "n/a" : cur+Number(x).toLocaleString("en-AU",{minimumFractionDigits:2,maximumFractionDigits:2}); }
+
+/* ---- CommSec fees ----
+   Australian shares, online, CHESS sponsored, settled to a CDIA (commsec.com.au Rates & Fees, checked Nov 2026):
+   A$5 up to A$1,000; A$10 to A$3,000; A$19.95 to A$10,000; A$29.95 to A$25,000; then 0.12%.
+   US shares (International Shares, standard account): US$5 or 0.12%, whichever is greater (SEC/FINRA fees included).
+   Currency: 0.55% on each A$<->US$ conversion, i.e. on every US buy and every US sale.
+   Fees are worked out when a buy or sale is logged and saved with it, so later price changes don't rewrite history;
+   trades logged before fees existed get the schedule applied when they're shown. US numbers are editable in Settings. */
+const FEE_DEF = {asx:[[1000,5],[3000,10],[10000,19.95],[25000,29.95]], asxPct:0.12, usMin:5, usPct:0.12, fxPct:0.55};
+const feeCfg = () => ({...FEE_DEF, ...(store.get("fees",null)||{})});
+const r2 = x => Math.round(x*100)/100;
+function brokerage(mkt, value){ if(!(value>0)) return 0; const c=feeCfg();
+  if(mkt==="ASX"){ for(const [lim,f] of c.asx) if(value<=lim+1e-9) return f; return r2(value*c.asxPct/100); }
+  return r2(Math.max(c.usMin, value*c.usPct/100)); }
+function fxFee(mkt, aud){ return mkt==="ASX" || !(aud>0) ? 0 : r2(aud*feeCfg().fxPct/100); }
+/* buy: you convert enough A$ to pay for the shares plus brokerage; sale: you convert the proceeds less brokerage */
+const buyFxAuto = (mkt, value, brok, fx) => fxFee(mkt, (value+brok)*(fx||1));
+const sellFxAuto = (mkt, value, brok, fx) => fxFee(mkt, Math.max(0,value-brok)*(fx||1));
+const buyBrok = t => t.fee ?? brokerage(t.market, t.entry*t.shares);
+const buyFx = t => t.market==="ASX" ? 0 : (t.fxfee ?? buyFxAuto(t.market, t.entry*t.shares, buyBrok(t), t.fx));
+const exBrok = (t,x) => x.fee ?? brokerage(t.market, x.price*x.shares);
+const exFx = (t,x) => t.market==="ASX" ? 0 : (x.fxfee ?? sellFxAuto(t.market, x.price*x.shares, exBrok(t,x), x.fx||t.fx));
 const z = x => x!=null && Math.abs(x)<0.05 ? 0 : x;  /* no "-0.0%" */
 function rfmt(r){ r=z(r); return r==null||!isFinite(r) ? "n/a" : (r>0?"+":"")+r.toFixed(1)+"R"; }
 function stockOf(t){ return DATA?.markets?.[t.market]?.stocks?.find(x=>x.code===t.code) || null; }
@@ -630,17 +657,33 @@ function lastPx(t){
 }
 function tm(t){
   const fxE=t.fx||1, riskSh=t.entry-t.stop0, n=left(t), lp=n>0?lastPx(t):null, fxN=fxNow(t.market)||fxE;
-  const ex=t.exits||[];
-  const real=ex.reduce((a,x)=>a+(x.price-t.entry)*x.shares,0);
-  const realA=ex.reduce((a,x)=>a+(x.price*(x.fx||fxE)-t.entry*fxE)*x.shares,0);
-  const unreal=lp?(lp.c-t.entry)*n:0, unrealA=lp?(lp.c*fxN-t.entry*fxE)*n:0;
+  const ex=t.exits||[], sh=t.shares||1;
+  /* Everything below is after fees. Brokerage is in the stock's currency, the currency fee in A$.
+     The buy fees are split across the shares, so a partial sale carries its share of them.
+     "real" is in the stock's currency (currency fees converted at the rate used), "realA" in A$. */
+  const bB=buyBrok(t), bF=buyFx(t), part=k=>k/sh;
+  let real=0, realA=0, feesA=0;
+  ex.forEach(x=>{ const fx=x.fx||fxE, b=exBrok(t,x), f=exFx(t,x), cb=bB*part(x.shares), cf=bF*part(x.shares);
+    real  += (x.price-t.entry)*x.shares - b - cb - f/fx - cf/fxE;
+    realA += (x.price*fx - t.entry*fxE)*x.shares - b*fx - cb*fxE - f - cf;
+    feesA += b*fx + f; });
+  feesA += bB*fxE + bF;                                     // fees paid so far (whole buy + every sale)
+  let unreal=0, unrealA=0, estSellA=0;
+  if(lp && n>0){ const v=lp.c*n, sb=brokerage(t.market,v), sf=sellFxAuto(t.market,v,sb,fxN), cb=bB*part(n), cf=bF*part(n);
+    unreal  = (lp.c-t.entry)*n - sb - cb - sf/fxN - cf/fxE;  // if sold at the last close
+    unrealA = (lp.c*fxN - t.entry*fxE)*n - sb*fxN - cb*fxE - sf - cf;
+    estSellA = sb*fxN + sf; }
+  const cost=t.entry*t.shares + bB + bF/fxE;
   const R0=riskSh>0?riskSh*t.shares:null;
   const lastExit=ex.length?ex.map(x=>x.date).sort().slice(-1)[0]:null;
-  return {riskSh, n, lp, fxN, real, realA, unreal, unrealA, lastExit,
-    pct: (real+unreal)/(t.entry*t.shares)*100,           // whole trade, open part marked to the last close
+  const openCost = n>0 ? t.entry*n + (bB+bF/fxE)*part(n) : 0;
+  return {riskSh, n, lp, fxN, real, realA, unreal, unrealA, lastExit, feesA, estSellA, buyFeeN:bB, buyFxA:bF,
+    pct: (real+unreal)/cost*100,                          // whole trade, open part marked to the last close
     r: R0 ? (real+unreal)/R0 : null,
     days: daysBetween(t.opened, n>0 ? todayISO() : (lastExit||t.opened)),
-    openPct: lp ? (lp.c/t.entry-1)*100 : null, openR: lp&&riskSh>0 ? (lp.c-t.entry)/riskSh : null};
+    openPct: lp&&openCost ? unreal/openCost*100 : null,   // after fees both ways
+    openRnet: lp&&riskSh>0&&n>0 ? unreal/(riskSh*n) : null,
+    openR: lp&&riskSh>0 ? (lp.c-t.entry)/riskSh : null};  // price only: drives the stop alerts
 }
 function alertsFor(t, m){
   const a=[], lp=m.lp, cur=curOf(t.market);
@@ -735,28 +778,41 @@ function syncHtml(){
   return `<span class="dot"></span><span>${t}</span>${J.status==="error"?` <button class="btn" type="button" data-jretry style="padding:3px 9px;font-size:12.5px">Retry</button>`:""}`;
 }
 function renderJStatus(){ const el=$("#jsync"); if(!el) return; el.className="sync "+J.status; el.innerHTML=syncHtml(); const b=el.querySelector("[data-jretry]"); if(b) b.onclick=()=>jsync(); }
+function jMarket(){ const m=store.get("jmkt",null); return m==="ASX"||m==="US" ? m : (state.market==="US"?"US":"ASX"); }
 function renderJournal(){
-  const all=liveTrades(), open=all.filter(isOpen).sort((a,b)=>b.opened.localeCompare(a.opened));
+  const jm=jMarket(), US=jm!=="ASX", cur=curOf(jm);
+  const every=liveTrades(), all=every.filter(t=>t.market===jm);
+  const open=all.filter(isOpen).sort((a,b)=>b.opened.localeCompare(a.opened));
   const closed=all.filter(t=>!isOpen(t)).map(t=>({t,m:tm(t)})).sort((a,b)=>(b.m.lastExit||"").localeCompare(a.m.lastExit||""));
   const om=open.map(t=>({t,m:tm(t)}));
   const acct=store.get("acct",(DATA?.risk||{}).default_account||10000);
   const value=om.reduce((s,x)=>s+(x.m.lp?x.m.lp.c*x.m.n*x.m.fxN:x.t.entry*x.m.n*(x.t.fx||1)),0);
   const atRisk=om.reduce((s,x)=>s+(x.m.lp?Math.max(0,x.m.lp.c-x.t.stop)*x.m.n*x.m.fxN:0),0);
-  const unreal=om.reduce((s,x)=>s+x.m.unrealA,0), realised=all.reduce((s,t)=>s+tm(t).realA,0);
+  const sum=(a,f)=>a.reduce((s,x)=>s+f(x),0);
+  const unreal=sum(om,x=>x.m.unrealA), unrealN=sum(om,x=>x.m.unreal);
+  const allM=all.map(t=>tm(t)), realised=sum(allM,m=>m.realA), realisedN=sum(allM,m=>m.real), fees=sum(allM,m=>m.feesA);
   const st=jstats(closed.map(x=>x.t));
   const tile=(v,l,c="")=>`<div class="stat"><b class="${c}">${v}</b><span>${l}</span></div>`;
+  /* US tab: the trading result in US$ with the A$ figure (which also carries the currency move) underneath */
+  const pl=(n,a,label)=>US ? tile(money(n,true,cur),`${label} (US$) · ${money(a,true)} in A$`,Math.round(n)?cls(n):"")
+                           : tile(money(a,true),label+" (A$)",Math.round(a)?cls(a):"");
+  const counts=m=>every.filter(t=>t.market===m&&isOpen(t)).length;
+  const otherM=US?"ASX":"US", other=every.filter(t=>t.market===otherM).map(t=>tm(t));
 
-  const cards = om.map(({t,m})=>{ const cur=curOf(t.market), lp=m.lp, al=alertsFor(t,m);
+  const cards = om.map(({t,m})=>{ const lp=m.lp, al=alertsFor(t,m);
     const stopGap = lp ? (t.stop/lp.c-1)*100 : null;
+    const valTxt = lp ? (US ? `${money(lp.c*m.n,false,cur)} <span class="muted">${money(lp.c*m.n*m.fxN)}</span>` : money(lp.c*m.n*m.fxN)) : "n/a";
+    const plTxt = US ? `${money(m.unreal,true,cur)} · ${money(m.unrealA,true)}` : money(m.unrealA,true);
     return `<div class="pcard">
-      <div class="pcard-h"><b class="code">${esc(t.code)}</b><span class="pill s-trend">${esc(t.market)}</span><span class="muted" style="font-size:13px;min-width:0">${esc(t.name||"")}</span>
-        <span class="pl ${cls(z(m.openPct))}">${m.openPct!=null?pct(z(m.openPct)):"–"}<small>${money(m.unrealA,true)} · ${rfmt(m.openR)}</small></span></div>
+      <div class="pcard-h"><b class="code">${esc(t.code)}</b><span class="muted" style="font-size:13px;min-width:0">${esc(t.name||"")}</span>
+        <span class="pl ${cls(z(m.openPct))}">${m.openPct!=null?pct(z(m.openPct)):"–"}<small>${plTxt} · ${rfmt(m.openRnet)}</small></span></div>
       <div class="kv">
         <div><span>Shares</span><b>${m.n.toLocaleString()}${m.n<t.shares?` <span class="muted">of ${t.shares.toLocaleString()}</span>`:""}</b></div>
         <div><span>Entry · ${esc(fmtDate(t.opened))}</span><b>${fmtPx(t.entry,cur)}</b></div>
         <div><span>Last${lp?" · "+esc(fmtDate(lp.asof)):""}</span><b>${lp?fmtPx(lp.c,cur):"n/a"}</b></div>
         <div><span>Stop${stopGap!=null?` · ${pct(stopGap)}`:""}</span><b>${fmtPx(t.stop,cur)}</b></div>
-        <div><span>Value</span><b>${lp?money(lp.c*m.n*m.fxN):"n/a"}</b></div>
+        <div><span>Value</span><b>${valTxt}</b></div>
+        <div><span>Fees paid${lp?" · to sell ≈"+money(m.estSellA):""}</span><b>${cents(m.feesA)}</b></div>
         <div><span>Days held</span><b>${m.days}</b></div></div>
       ${al.length?`<ul class="jal">${al.map(x=>`<li class="${x.lvl}">${esc(x.txt)}</li>`).join("")}</ul>`:""}
       <div class="acts"><button class="btn primary" type="button" data-sell="${t.id}">Sell</button><button class="btn" type="button" data-stop="${t.id}">Move stop</button><button class="btn" type="button" data-edit="${t.id}">Edit</button>${stockOf(t)?`<button class="btn" type="button" data-chart="${t.id}">Chart</button>`:""}</div>
@@ -767,6 +823,7 @@ function renderJournal(){
     if(st.ag!=null && st.al!=null && st.ag<st.al) coach.push("Average gain is smaller than average loss. Let winners run further, or cut losers faster.");
     if(st.dW!=null && st.dL!=null && st.dL>st.dW) coach.push(`Losers are held longer (${st.dL.toFixed(0)} days) than winners (${st.dW.toFixed(0)} days). It should be the other way round.`);
     if(st.adj!=null && st.adj<1) coach.push("Adjusted win/loss ratio under 1: as traded, this loses money over time.");
+    if(st.n && fees && realised!==0 && fees > Math.abs(realised)*0.3) coach.push(`Fees (${money(fees)}) are eating a big slice of the result. Fewer, larger positions cut CommSec's minimums as a share of each trade.`);
     if(!coach.length) coach.push("Losses are smaller than gains and cut faster. Keep doing that.");
   }
   const groupRows = (key, label) => { const g={}; closed.forEach(x=>{ const k=key(x.t)||"Not recorded"; (g[k]=g[k]||[]).push(x.t); });
@@ -775,23 +832,29 @@ function renderJournal(){
 
   $("#journal").innerHTML = `
   <section class="panel">
-    <div class="jhead"><h2>Trade journal</h2><button class="btn primary" type="button" id="j-add">Add a trade</button><button class="btn" type="button" id="j-set">Settings</button></div>
+    <div class="jhead"><h2>Trade journal</h2>
+      <div class="seg" id="jmkts" role="group" aria-label="Journal market">${["ASX","US"].map(m=>`<button type="button" data-jm="${m}" aria-pressed="${m===jm}">${m}${counts(m)?` · ${counts(m)}`:""}</button>`).join("")}</div>
+      <button class="btn primary" type="button" id="j-add">Add a${US?" US":"n ASX"} trade</button><button class="btn" type="button" id="j-set">Settings</button></div>
     <div class="sync ${J.status}" id="jsync" style="margin-top:6px"></div>
     <div class="stats" style="margin-top:12px">
-      ${tile(open.length,"Open positions")}
-      ${tile(money(unreal,true),"Open profit (A$)",Math.round(unreal)?cls(unreal):"")}
-      ${tile(acct?Math.round(value/acct*100)+"%":"n/a","Invested ("+money(value)+" of "+money(acct)+")")}
+      ${tile(open.length,"Open "+jm+" positions")}
+      ${pl(unrealN,unreal,"Open profit")}
+      ${tile(acct?Math.round(value/acct*100)+"%":"n/a",`In ${jm} (${money(value)} of ${money(acct)})`)}
       ${tile(money(atRisk),"Given back if every stop hits")}
-      ${tile(money(realised,true),"Realised profit (A$)",Math.round(realised)?cls(realised):"")}
+      ${pl(realisedN,realised,"Realised profit")}
+      ${tile(cents(fees),"CommSec fees paid (A$)")}
     </div>
-    <p class="muted" style="font-size:12px;margin:8px 0 0">Prices are the last scan's close. US positions are shown in A$ at today's rate; profit includes the currency move since you bought. Account size comes from the trade plan (${money(acct)}).</p>
+    <p class="muted" style="font-size:12px;margin:8px 0 0">${US
+      ? "Prices are the last US scan's close. Profit is after CommSec fees: US$5 or 0.12% brokerage each way and 0.55% on each currency conversion; open positions include the estimated cost to sell today. The A$ figures also include the currency move since you bought."
+      : "Prices are the last ASX scan's close. Profit is after CommSec brokerage both ways (A$5 to A$1,000, A$10 to A$3,000, A$19.95 to A$10,000, A$29.95 to A$25,000, then 0.12%); open positions include the estimated cost to sell today."}
+      ${other.length?` <br>${otherM} journal: ${money(sum(other,m=>m.realA),true)} realised, ${money(sum(other,m=>m.unrealA),true)} open, ${cents(sum(other,m=>m.feesA))} fees (A$).`:""}</p>
   </section>
 
-  <section><h2 style="margin-bottom:10px">Open positions</h2>
-    ${cards?`<div class="pcards">${cards}</div>`:`<div class="panel empty">No open positions. Open a stock on the Scanner and tap <b>Log this trade</b> in its trade plan, or use <b>Add a trade</b>.</div>`}
+  <section><h2 style="margin-bottom:10px">Open ${jm} positions</h2>
+    ${cards?`<div class="pcards">${cards}</div>`:`<div class="panel empty">No open ${jm} positions. Open a stock on the Scanner and tap <b>Log this trade</b> in its trade plan, or use <b>Add a trade</b>.</div>`}
   </section>
 
-  <section class="panel"><h2 style="margin-bottom:10px">Results</h2>
+  <section class="panel"><h2 style="margin-bottom:10px">${jm} results</h2>
     ${st?`<div class="stats">
       ${tile(st.n,"Closed trades")}
       ${tile(st.bat.toFixed(0)+"%","Batting average (winners)")}
@@ -803,16 +866,17 @@ function renderJournal(){
       ${tile(st.dW!=null?st.dW.toFixed(0)+" / "+(st.dL!=null?st.dL.toFixed(0):"–"):"– / "+(st.dL!=null?st.dL.toFixed(0):"–"),"Days held, winners / losers")}
     </div>
     ${coach.length?`<ul class="coach">${coach.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:`<p class="muted" style="font-size:13px;margin:10px 0 0">Coaching notes appear after 3 closed trades.</p>`}
-    ${closed.length>=4?`<div class="tbl" style="margin-top:14px"><table><thead><tr><th>Group</th><th>Trades</th><th>Won</th><th>Avg gain</th><th>Avg loss</th><th>Avg R</th></tr></thead><tbody>${groupRows(t=>t.market,"Market")}${groupRows(t=>t.setup?.status,"Status at entry")}</tbody></table></div>`:""}
-    <p class="muted" style="font-size:12px;margin:10px 0 0">Adjusted win/loss weighs gains and losses by how often each happens; above 1 makes money, and Minervini aims for 2 or more. R is profit measured in units of the risk you planned (entry minus first stop).</p>
-    `:`<p class="muted" style="margin:0;font-size:14px">Your batting average, average gain and loss, and win/loss ratio appear here once you close a trade.</p>`}
+    ${closed.length>=4?`<div class="tbl" style="margin-top:14px"><table><thead><tr><th>Group</th><th>Trades</th><th>Won</th><th>Avg gain</th><th>Avg loss</th><th>Avg R</th></tr></thead><tbody>${groupRows(t=>t.setup?.status,"Status at entry")}</tbody></table></div>`:""}
+    <p class="muted" style="font-size:12px;margin:10px 0 0">All results are after fees, so a trade that only just covers its brokerage counts as a loss. Adjusted win/loss weighs gains and losses by how often each happens; above 1 makes money, and Minervini aims for 2 or more. R is profit measured in units of the risk you planned (entry minus first stop).</p>
+    `:`<p class="muted" style="margin:0;font-size:14px">Your ${jm} batting average, average gain and loss, and win/loss ratio appear here once you close a trade.</p>`}
   </section>
 
-  ${closed.length?`<section class="panel"><h2 style="margin-bottom:8px">Closed trades</h2><div class="tbl"><table class="ctable"><thead><tr><th>Stock</th><th>Sold</th><th>Days</th><th>Gain</th><th>R</th><th>A$</th><th>Why sold</th></tr></thead><tbody>
-    ${closed.map(({t,m})=>`<tr data-edit="${t.id}"><td><b>${esc(t.code)}</b> <span class="muted">${esc(t.market)}</span></td><td>${esc(fmtDate(m.lastExit))}</td><td class="num">${m.days}</td><td class="num ${cls(m.pct)}">${pct(m.pct)}</td><td class="num">${rfmt(m.r)}</td><td class="num ${cls(m.realA)}">${money(m.realA,true)}</td><td style="text-align:left">${esc(t.exits.slice(-1)[0]?.reason||"")}</td></tr>`).join("")}
-    </tbody></table></div><p class="muted" style="font-size:12px;margin:8px 0 0">Tap a trade to see its notes or fix it.</p></section>`:""}`;
+  ${closed.length?`<section class="panel"><h2 style="margin-bottom:8px">Closed ${jm} trades</h2><div class="tbl"><table class="ctable"><thead><tr><th>Stock</th><th>Sold</th><th>Days</th><th>Gain</th><th>R</th>${US?"<th>US$</th>":""}<th>A$</th><th>Fees A$</th><th>Why sold</th></tr></thead><tbody>
+    ${closed.map(({t,m})=>`<tr data-edit="${t.id}"><td><b>${esc(t.code)}</b></td><td>${esc(fmtDate(m.lastExit))}</td><td class="num">${m.days}</td><td class="num ${cls(m.pct)}">${pct(m.pct)}</td><td class="num">${rfmt(m.r)}</td>${US?`<td class="num ${cls(m.real)}">${money(m.real,true,"")}</td>`:""}<td class="num ${cls(m.realA)}">${money(m.realA,true)}</td><td class="num">${m.feesA.toFixed(2)}</td><td style="text-align:left">${esc(t.exits.slice(-1)[0]?.reason||"")}</td></tr>`).join("")}
+    </tbody></table></div><p class="muted" style="font-size:12px;margin:8px 0 0">Gain, R and profit are after fees. Tap a trade to see its notes or fix it.</p></section>`:""}`;
   renderJStatus();
-  $("#j-add").onclick=()=>tradeForm(null,{market:state.market});
+  $("#jmkts").querySelectorAll("button").forEach(b=>b.onclick=()=>{ store.set("jmkt",b.dataset.jm); renderJournal(); });
+  $("#j-add").onclick=()=>tradeForm(null,{market:jm});
   $("#j-set").onclick=settingsForm;
   const byId=id=>J.trades.find(t=>t.id===id);
   $("#journal").querySelectorAll("[data-sell]").forEach(b=>b.onclick=()=>sellForm(byId(b.dataset.sell)));
@@ -841,7 +905,7 @@ function tradeForm(t, pre={}){
   const mkt=x.market||p.market||"ASX", fx=x.fx||fxNow(mkt)||"";
   const setupTxt = x.setup ? [x.setup.status, x.setup.footprint, x.setup.rs!=null?"RS "+x.setup.rs:null, x.setup.regime?"market: "+x.setup.regime:null].filter(Boolean).join(" · ")
                  : p.setup ? [p.setup.status, p.setup.footprint, "RS "+p.setup.rs, p.setup.regime?"market: "+p.setup.regime:null].filter(Boolean).join(" · ") : "";
-  const exitsHtml = (x.exits||[]).length ? `<div class="panel"><h3 style="margin-bottom:6px">Sales</h3><div class="tbl"><table><thead><tr><th>Date</th><th>Shares</th><th>Price</th><th>Why</th><th></th></tr></thead><tbody>${x.exits.map((e,i)=>`<tr><td>${esc(fmtDate(e.date))}</td><td class="num">${e.shares.toLocaleString()}</td><td class="num">${fmtPx(e.price,curOf(mkt))}</td><td style="text-align:left">${esc(e.reason||"")}${e.note?` <span class="muted">${esc(e.note)}</span>`:""}</td><td><button class="btn" type="button" data-undo="${i}" style="padding:2px 8px;font-size:12px">Remove</button></td></tr>`).join("")}</tbody></table></div></div>` : "";
+  const exitsHtml = (x.exits||[]).length ? `<div class="panel"><h3 style="margin-bottom:6px">Sales</h3><div class="tbl"><table><thead><tr><th>Date</th><th>Shares</th><th>Price</th><th>Fees A$</th><th>Why</th><th></th></tr></thead><tbody>${x.exits.map((e,i)=>`<tr><td>${esc(fmtDate(e.date))}</td><td class="num">${e.shares.toLocaleString()}</td><td class="num">${fmtPx(e.price,curOf(mkt))}</td><td class="num">${(exBrok(x,e)*(e.fx||x.fx||1)+exFx(x,e)).toFixed(2)}</td><td style="text-align:left">${esc(e.reason||"")}${e.note?` <span class="muted">${esc(e.note)}</span>`:""}</td><td><button class="btn" type="button" data-undo="${i}" style="padding:2px 8px;font-size:12px">Remove</button></td></tr>`).join("")}</tbody></table></div></div>` : "";
   const stopsHtml = (x.stops||[]).length>1 ? `<p class="muted" style="font-size:13px;margin:10px 0 0">Stop history: ${x.stops.map(s=>`${esc(fmtDate(s.date))} ${fmtPx(s.stop,curOf(mkt))}`).join(" → ")}</p>` : "";
   const body = `<div class="plan">
       <label>Market<select name="market">${["ASX","US"].map(m=>`<option ${m===mkt?"selected":""}>${m}</option>`).join("")}</select></label>
@@ -853,6 +917,9 @@ function tradeForm(t, pre={}){
       ${numI("stop0","First stop price",x.stop0??p.stop)}
       ${edit?numI("stop","Current stop",x.stop):""}
       <label class="fxrow" ${mkt==="ASX"?"hidden":""}>A$ per US$ when bought<input name="fx" type="number" inputmode="decimal" step="any" value="${esc(mkt==="ASX"?"":fx)}"></label>
+      <label>Brokerage (<span data-cur>${esc(curOf(mkt))}</span>, CommSec)<input name="fee" type="number" inputmode="decimal" step="0.01" min="0" value="${x.fee!=null?x.fee:""}"></label>
+      <label class="fxrow" ${mkt==="ASX"?"hidden":""}>Currency fee (A$, ${feeCfg().fxPct}%)<input name="fxfee" type="number" inputmode="decimal" step="0.01" min="0" value="${x.fxfee!=null?x.fxfee:""}"></label>
+      <p class="muted wide" style="font-size:12px;margin:0">Fees fill in from CommSec's schedule as you type. Change them if your contract note differs (a $0 brokerage offer, say); then they stay as you set them.</p>
       ${edit&&isOpen(x)?numI("mpx","Last price, if the scan has none",x.manual_px?.price):""}
       <label class="wide">Setup at entry<input name="setuptxt" value="${esc(setupTxt)}" placeholder="e.g. Breaking out · 8W 22/2 3T · RS 92"></label>
       <label class="wide">Why I bought<textarea name="notes" rows="3" placeholder="The setup, the catalyst, what the review said">${esc(x.notes||"")}</textarea></label>
@@ -871,7 +938,9 @@ function tradeForm(t, pre={}){
     if(market!=="ASX" && !(fxv>0)) return "Enter the A$ per US$ rate when you bought (about "+(fxNow("US")||1.5).toFixed(2)+").";
     const T=t||{id:uid(), exits:[], created:new Date().toISOString()};
     const opened=fv(f,"opened")||todayISO();
-    Object.assign(T,{market, code, name:fv(f,"name"), opened, entry, shares, stop0, fx:fxv, notes:fv(f,"notes")});
+    const fee=fn(f,"fee"), fxfee=market==="ASX"?0:fn(f,"fxfee");
+    if(!(fee>=0) || !(fxfee>=0)) return "Fees can't be blank or negative (use 0 for none).";
+    Object.assign(T,{market, code, name:fv(f,"name"), opened, entry, shares, stop0, fx:fxv, fee:r2(fee), fxfee:r2(fxfee), notes:fv(f,"notes")});
     if(!edit){ T.stop=stop0; T.stops=[{date:opened, stop:stop0}]; T.setup={...(p.setup||{})}; }
     else { const s=fn(f,"stop"); if(s>0 && s!==T.stop){ T.stop=s; (T.stops=T.stops||[]).push({date:todayISO(), stop:s}); } T.lesson=fv(f,"lesson");
       if(T.stops?.[0]) T.stops[0].stop=stop0;
@@ -881,34 +950,61 @@ function tradeForm(t, pre={}){
     if(!edit && state.view!=="journal") setView("journal");
   }, extra);
   const f=$("#jform");
-  f.elements.market.onchange=()=>{ const us=f.elements.market.value!=="ASX"; f.querySelector(".fxrow").hidden=!us; if(us && !f.elements.fx.value) f.elements.fx.value=fxNow("US")||""; };
+  /* fee fields follow the schedule until you type in them; a saved fee that differs from the schedule counts as typed */
+  const E=f.elements, autoFees=()=>{ const mk=E.market.value, v=(+E.entry.value)*(+E.shares.value), fxr=+E.fx.value||fxNow(mk)||1;
+    const b=brokerage(mk,v); if(!E.fee.dataset.typed) E.fee.value=v>0?b.toFixed(2):"";
+    const bf=E.fee.value===""?b:+E.fee.value;
+    if(!E.fxfee.dataset.typed) E.fxfee.value=mk==="ASX"?"":(v>0?buyFxAuto(mk,v,bf,fxr).toFixed(2):""); };
+  if(edit){ const v=x.entry*x.shares; if(x.fee!=null && Math.abs(x.fee-brokerage(x.market,v))>0.005) E.fee.dataset.typed=1;
+    if(x.fxfee!=null && Math.abs(x.fxfee-buyFxAuto(x.market,v,x.fee??brokerage(x.market,v),x.fx))>0.005) E.fxfee.dataset.typed=1; }
+  ["fee","fxfee"].forEach(n=>E[n].addEventListener("input",()=>{ E[n].dataset.typed=E[n].value===""?"":"1"; if(n==="fee") autoFees(); }));
+  ["entry","shares","fx"].forEach(n=>E[n].addEventListener("input",autoFees));
+  E.market.onchange=()=>{ const us=E.market.value!=="ASX"; f.querySelectorAll(".fxrow").forEach(r=>r.hidden=!us); f.querySelector("[data-cur]").textContent=curOf(E.market.value);
+    if(us && !E.fx.value) E.fx.value=fxNow("US")||""; delete E.fee.dataset.typed; delete E.fxfee.dataset.typed; autoFees(); };
+  autoFees();
   f.querySelectorAll("[data-undo]").forEach(b=>b.onclick=()=>{ x.exits.splice(+b.dataset.undo,1); jcommit(x); tradeForm(x); });
   const d=$("#jdel"); if(d) d.onclick=()=>{ if(d.dataset.sure){ x.deleted=true; jcommit(x); closeSheet(); } else { d.dataset.sure=1; d.textContent="Tap again to delete for good"; } };
 }
 const REASONS=["Stop hit","Breakeven stop hit","Sold into strength","Climax run","Heavy-volume break of the 50-day","Largest drop on heaviest volume","Not working (time stop)","Before earnings","Market turned down","Other"];
 function sellForm(t){
-  const m=tm(t), cur=curOf(t.market);
+  const m=tm(t), cur=curOf(t.market), US=t.market!=="ASX";
   formSheet(`Sell ${t.code}`, `${m.n.toLocaleString()} shares held · entry ${fmtPx(t.entry,cur)} · stop ${fmtPx(t.stop,cur)}`, `<div class="plan">
       ${inp("date","Date sold",todayISO(),'type="date"')}
       ${numI("price","Price (average fill, "+cur+")",m.lp?.c)}
       ${numI("shares","Shares sold",m.n,'step="1"')}
       <label>Why<select name="reason">${REASONS.map(r=>`<option>${r}</option>`).join("")}</select></label>
+      ${US?numI("fx","A$ per US$ when sold",fxNow(t.market)||t.fx||""):""}
+      ${numI("fee","Brokerage ("+cur+", CommSec)","",'step="0.01"')}
+      ${US?numI("fxfee",`Currency fee (A$, ${feeCfg().fxPct}%)`,"",'step="0.01"'):""}
       <label class="wide">Note<input name="note" placeholder="Optional"></label>
       <label class="wide">Lesson (if this closes the trade)<textarea name="lesson" rows="3" placeholder="What went right or wrong">${esc(t.lesson||"")}</textarea></label>
     </div><div class="planout" id="sellout"></div>`, f=>{
-    const price=fn(f,"price"), sh=fn(f,"shares");
+    const price=fn(f,"price"), sh=fn(f,"shares"), fx=US?fn(f,"fx"):1, fee=fn(f,"fee"), fxfee=US?fn(f,"fxfee"):0;
     if(!(price>0)) return "Enter the sale price.";
     if(!(sh>0)) return "Enter how many shares you sold.";
     if(sh>m.n+1e-9) return `You only hold ${m.n.toLocaleString()} shares.`;
-    (t.exits=t.exits||[]).push({date:fv(f,"date")||todayISO(), price, shares:sh, reason:fv(f,"reason"), note:fv(f,"note"), fx:fxNow(t.market)||t.fx||1});
+    if(US && !(fx>0)) return "Enter the A$ per US$ rate when you sold.";
+    if(!(fee>=0) || !(fxfee>=0)) return "Fees can't be blank or negative (use 0 for none).";
+    (t.exits=t.exits||[]).push({date:fv(f,"date")||todayISO(), price, shares:sh, reason:fv(f,"reason"), note:fv(f,"note"), fx, fee:r2(fee), fxfee:r2(fxfee)});
     if(fv(f,"lesson")) t.lesson=fv(f,"lesson");
     jcommit(t);
   });
-  const f=$("#jform"), upd=()=>{ const p=fn(f,"price"), sh=fn(f,"shares"); if(!(p>0&&sh>0)){ $("#sellout").innerHTML=""; return; }
-    const g=(p-t.entry)*sh, fxx=fxNow(t.market)||t.fx||1, ga=(p*fxx-t.entry*(t.fx||1))*sh, r=m.riskSh>0?(p-t.entry)/m.riskSh:null;
-    $("#sellout").innerHTML=[["Gain on these shares",pct((p/t.entry-1)*100)],["In A$",money(ga,true)],["R multiple",rfmt(r)]].map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join(""); };
-  ["price","shares"].forEach(n=>f.elements[n].addEventListener("input",upd)); upd();
-  const rs=f.elements.reason; if(m.lp && m.lp.c<=t.stop) rs.value = t.stop>=t.entry?"Breakeven stop hit":"Stop hit";
+  const f=$("#jform"), E=f.elements;
+  const upd=()=>{ const p=fn(f,"price"), sh=fn(f,"shares"), fx=US?(fn(f,"fx")||t.fx||1):1;
+    const v=p*sh, b=brokerage(t.market,v);
+    if(!E.fee.dataset.typed) E.fee.value=v>0?b.toFixed(2):"";
+    const bf=E.fee.value===""?b:+E.fee.value;
+    if(US && !E.fxfee.dataset.typed) E.fxfee.value=v>0?sellFxAuto(t.market,v,bf,fx).toFixed(2):"";
+    if(!(p>0&&sh>0)){ $("#sellout").innerHTML=""; return; }
+    /* preview: the same maths as the journal, on a copy of the trade with this sale added */
+    const T={...t, exits:[{date:todayISO(), price:p, shares:sh, fx, fee:bf, fxfee:US?(+E.fxfee.value||0):0}], shares:sh,
+             fee:buyBrok(t)*sh/t.shares, fxfee:buyFx(t)*sh/t.shares}, mm=tm(T);
+    const rows=[["Gain after fees",pct(mm.pct)],[US?"Profit (US$ · A$)":"Profit after fees",US?`${money(mm.real,true,cur)} · ${money(mm.realA,true)}`:money(mm.realA,true)],
+      ["R multiple",rfmt(mm.r)],["Fees, buy + this sale",cents(mm.feesA)]];
+    $("#sellout").innerHTML=rows.map(([k,v])=>`<div><span>${k}</span><b>${v}</b></div>`).join(""); };
+  ["fee","fxfee"].forEach(n=>E[n]&&E[n].addEventListener("input",()=>{ E[n].dataset.typed=E[n].value===""?"":"1"; upd(); }));
+  ["price","shares","fx"].forEach(n=>E[n]&&E[n].addEventListener("input",upd)); upd();
+  const rs=E.reason; if(m.lp && m.lp.c<=t.stop) rs.value = t.stop>=t.entry?"Breakeven stop hit":"Stop hit";
 }
 function stopForm(t){
   const m=tm(t), cur=curOf(t.market), be=t.entry;
@@ -953,7 +1049,15 @@ function settingsForm(){
         store.set("jcfg",{owner:o, repo:r, token:tk}); closeSheet(); jsync();
       }).catch(()=>{ delete f.dataset.busy; $("#ferr").style.color=""; $("#ferr").textContent="Couldn't reach GitHub. Check your connection."; });
       return "Checking the repo…";
-    }, `<div class="panel"><h3 style="margin-bottom:6px">Backup</h3>
+    }, `<div class="panel"><h3 style="margin-bottom:6px">CommSec fees</h3>
+      <p class="muted" style="font-size:14px;margin:0 0 10px">Used to fill in fees when you log a buy or sale (you can still change them on each trade). ASX, online and settled to your CDIA: A$5 up to A$1,000, A$10 to A$3,000, A$19.95 to A$10,000, A$29.95 to A$25,000, then ${FEE_DEF.asxPct}%. US: the numbers below. Changing these doesn't alter fees already saved on trades.</p>
+      <div class="plan">
+        <label>US minimum brokerage (US$)<input id="fz-min" type="number" inputmode="decimal" step="0.01" min="0" value="${feeCfg().usMin}"></label>
+        <label>US brokerage (% of trade)<input id="fz-pct" type="number" inputmode="decimal" step="0.01" min="0" value="${feeCfg().usPct}"></label>
+        <label>Currency fee (% per conversion)<input id="fz-fx" type="number" inputmode="decimal" step="0.01" min="0" value="${feeCfg().fxPct}"></label>
+      </div>
+      <div class="acts" style="margin-top:10px"><button class="btn" type="button" id="fz-save">Save fees</button><button class="btn" type="button" id="fz-reset">Back to CommSec standard</button></div><div class="ferr" id="fz-msg"></div></div>
+    <div class="panel"><h3 style="margin-bottom:6px">Backup</h3>
       <p class="muted" style="font-size:14px;margin:0 0 10px">Download every trade as a file, or load one back in. Loading merges with what's here; nothing is lost.</p>
       <div class="acts"><button class="btn" type="button" id="jexp">Download backup</button><label class="btn" style="cursor:pointer">Load a backup<input type="file" id="jimp" accept=".json,application/json" hidden></label>
       ${c.token?`<button class="btn danger" type="button" id="jdisc">Disconnect this device</button>`:""}</div><div class="ferr" id="jbk"></div></div>`);
@@ -963,6 +1067,11 @@ function settingsForm(){
   $("#jimp").onchange=e=>{ const file=e.target.files[0]; if(!file) return; file.text().then(s=>{ const j=JSON.parse(s); if(!Array.isArray(j.trades)) throw 0;
       J.trades=jmerge(J.trades,j.trades); jsaveLocal(); jrefresh(); jsync(); $("#jbk").style.color="var(--up)"; $("#jbk").textContent=`Loaded ${j.trades.length} trades.`; })
     .catch(()=>{ $("#jbk").textContent="That file isn't a journal backup."; }); };
+  $("#fz-save").onclick=()=>{ const v={usMin:+$("#fz-min").value, usPct:+$("#fz-pct").value, fxPct:+$("#fz-fx").value};
+    if(![v.usMin,v.usPct,v.fxPct].every(x=>x>=0 && isFinite(x))){ $("#fz-msg").textContent="Enter zero or a positive number in each box."; return; }
+    store.set("fees",v); $("#fz-msg").style.color="var(--up)"; $("#fz-msg").textContent="Saved on this device."; jrefresh(); };
+  $("#fz-reset").onclick=()=>{ store.set("fees",null); $("#fz-min").value=FEE_DEF.usMin; $("#fz-pct").value=FEE_DEF.usPct; $("#fz-fx").value=FEE_DEF.fxPct;
+    $("#fz-msg").style.color="var(--up)"; $("#fz-msg").textContent="Back to CommSec's standard rates."; jrefresh(); };
   const dc=$("#jdisc"); if(dc) dc.onclick=()=>{ store.set("jcfg",null); try{localStorage.removeItem("jcfg")}catch(e){} J.status="local"; closeSheet(); jrefresh(); };
 }
 

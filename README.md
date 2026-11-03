@@ -56,12 +56,13 @@ The fundamental prompts are in `prompts/prompts.yaml`. They are market-aware: `m
 
 ## Trade journal
 
-Tap **Journal** at the top of the page. Log a buy from any stock's trade plan (**Log this trade in the journal**) or with **Add a trade**. Then:
+Tap **Journal** at the top of the page. Log a buy from any stock's trade plan (**Log this trade in the journal**) or with **Add a trade**. ASX and US trades are kept apart: the **ASX / US** switch at the top of the Journal shows each market's own positions, results and closed trades (US figures in US$ with the A$ result alongside), with a one-line summary of the other market underneath. Then:
 
 - **Open positions** show profit in % and A$, R multiple (profit in units of the risk you planned), stop distance and days held, priced from the last scan. The scan saves the close of every stock it checks, so holdings that drop off the watchlist still get a price.
 - **Alerts** on each position: closed at or below your stop; up 2R or more with the stop still under entry (move it to breakeven); a heavy-volume close below the 50-day; the scanner's own warnings (climax run, late-stage base, earnings due); dropped out of the Trend Template; going nowhere after 3 weeks.
 - **Sell** (partial or full, with the reason), **Move stop** (keeps a history) and **Edit**.
-- **Results**: batting average, average gain and loss, win/loss and adjusted win/loss ratios, average R, days held for winners vs losers, a breakdown by market and by status at entry, and coaching notes from Minervini's rules.
+- **Results** (per market): batting average, average gain and loss, win/loss and adjusted win/loss ratios, average R, days held for winners vs losers, a breakdown by status at entry, and coaching notes from Minervini's rules.
+- **CommSec fees** are filled in automatically when you log a buy or sale, and every profit, %, R and result figure is after fees (open positions include the estimated cost to sell today). ASX, online and settled to a CDIA: A$5 up to A$1,000, A$10 to A$3,000, A$19.95 to A$10,000, A$29.95 to A$25,000, then 0.12%. US: US$5 or 0.12%, whichever is greater, plus CommSec's 0.55% currency fee on each conversion (every US buy and sale). You can overwrite the fee on any trade (for example during a $0-brokerage offer); the US rates and currency fee can be changed in the Journal's **Settings**. The trade plan on each stock also shows the round-trip fees for the suggested position.
 
 **Where trades are stored.** This repo is public, so trades are never saved here. They live in `journal.json` in a separate **private** repo (`sepa-journal`) and are written through the GitHub API with a fine-grained token that can only touch that repo. The Journal's **Settings** walks you through making both; paste the token once on each device. Until you connect, trades are saved in that browser only. Each device keeps a copy and the two are merged on every sync, so it also works offline. Settings has a backup download and restore.
 
