@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T19:24:07Z",
+  "updated": "2026-11-03T19:24:13Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -11584,6 +11584,142 @@
         {
           "title": "StockAnalysis statistics (aggregator)",
           "url": "https://stockanalysis.com/quote/asx/MQG/statistics/"
+        }
+      ]
+    },
+    "ASX:JHX": {
+      "market": "ASX",
+      "code": "JHX",
+      "name": "James Hardie Industries plc",
+      "date": "2026-11-03",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$39.35",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Fiber-cement leader now merged with AZEK; Q1 FY27 (Apr-Jun 2026) beat and FY27 guidance was raised, and Q2 consensus implies adj EPS +48% YoY. But reported EPS growth is only just turning (adj +13%, GAAP +23%), sales growth is mostly acquired, and a director made large non-10b5-1 sales in Aug 2026, which caps the verdict at Watch only.",
+      "catalyst": "Raised FY27 guidance (6 Aug 2026), Fermacell sale to Holcim for EUR840M plus a US$250M buyback (20 Aug 2026), and AZEK cost synergies running ahead of plan (Investor Day, 15 Sep 2026).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj dil EPS (US$) YoY: Q2FY26 -27%, Q3 -31%, Q4 -19%, Q1FY27 +13% ($0.36). GAAP Q1FY27 $0.18 +23%. Turning, but not yet +25%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q1FY27 sales $1,475M +64% reported, mostly AZEK; pro forma +12%, Siding&Trim organic +20%, DR&A pro forma -5%. FY26 organic -2%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q1FY27 gross margin 37.2% vs 37.4%; op margin 14.8% (-60bp); adj EBITDA margin 28.6% (+230bp, recast ex-SBC). No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Adj EPS is 2x GAAP (AZEK amortization, deal costs, asbestos); adj EBITDA now excludes SBC. Q1FY27 OCF $344M vs NI $104M is solid",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q1FY27 pre-released above guide (22 Jul); adj EPS $0.36 vs $0.32 est; FY27 guide raised 6 Aug. FY EPS est $1.24 to $1.26; Citi cut, Baird lowered target",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Fermacell sold for EUR840M plus $250M buyback (20 Aug 2026); AZEK synergies ahead of plan (Investor Day, 15 Sep 2026)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Fiber-cement siding leader; cyclical, tied to US housing near the trough (mgmt: no recovery assumed). Group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Diluted shares 431M to 584M (+35%, AZEK). Inst 50% (30 Sep 26, 403 holders). Director Singh sold ~871K shares 21-24 Aug 26, not 10b5-1",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 26: debt $4.28B, cash $290M, net ~$3.99B (about 2.9x FY26 pro forma EBITDA). FCF guide >=$500M; no raise likely; ROE ~10.6%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q2 FY27 results 5 Nov 2026 after US close (6 Nov AEDT). Short interest 2.16% (31 Jul 26), falling. Hold through: only with a profit cushion",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "No placement, SPP or entitlement offer in the last 12 months (AZEK shares issued Jul 2025). Trading halts, shelf and ATM: not found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Q2 FY27 (5 Nov): guide is adj EBITDA $420-455M; the $0.385 consensus needs adj EPS +48% YoY",
+        "Deck/Rail (AZEK) pro forma sales fell 5% in Q1 FY27; a weak FY guide or weak US housing could hit the stock",
+        "High leverage (~$4.0B net debt) and asbestos liabilities; GAAP EPS is half of adjusted EPS",
+        "Director selling: J. Singh sold ~871K shares 21-24 Aug 2026 (not 10b5-1); J. Skelly sold 65K on 25 Aug",
+        "Would upgrade if Q2 adj EPS is +25% or more with organic growth and the FY27 guide is raised again"
+      ],
+      "next_event": "Q2 FY27 results (Jul-Sep 2026), 5 Nov 2026 after US close / 6 Nov 2026 AEDT; call 9am AEDT",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q1 FY27 results (8-K Ex 99.2, 6 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159152/000162828026054382/ex992erq1fy27.htm"
+        },
+        {
+          "title": "Q1 FY27 preliminary results (8-K, 22 Jul 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159152/000162828026049246/fyq127pre-release_vf.htm"
+        },
+        {
+          "title": "Q4 and FY26 results (8-K Ex 99.2, 19 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159152/000162828026036497/ex992erq4fy26.htm"
+        },
+        {
+          "title": "Q3 FY26 results (Ex 99.2)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159152/000115915226000015/ex992erq3fy26.htm"
+        },
+        {
+          "title": "Q2 FY26 results (17 Nov 2025)",
+          "url": "https://d1io3yog0oux5.cloudfront.net/_66b1a28e881ab432d7d75c7f091cc2a4/jameshardie/news/2025-11-17_James_Hardie_Reports_Second_Quarter_FY26_Results_100.pdf"
+        },
+        {
+          "title": "Fermacell divestiture and buyback (20 Aug 2026)",
+          "url": "https://s21.q4cdn.com/242028226/files/doc_news/James-Hardie-Announces-Strategic-Divestiture-of-European-Operations-Including-Sale-of-Fermacell-to-Holcim-for-840-Million-2026.pdf"
+        },
+        {
+          "title": "2026 Investor Day (IR)",
+          "url": "https://ir.jameshardie.com/news/news-details/2026/James-Hardie-Hosts-2026-Investor-Day-Outlines-Path-to-Long-term-Value-Creation/default.aspx"
+        },
+        {
+          "title": "Q2 FY27 results timing (financial calendar)",
+          "url": "https://www.webull.com/news/15794026670171136"
+        },
+        {
+          "title": "Form 4, J. Singh (Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159152/000162828026058879/wk-form4_1787688608.xml"
+        },
+        {
+          "title": "Insider transactions (tenk.fyi, aggregator)",
+          "url": "https://tenk.fyi/company/JHX/insiders"
+        },
+        {
+          "title": "Institutional ownership (Fintel, aggregator)",
+          "url": "https://fintel.io/so/us/jhx"
+        },
+        {
+          "title": "Consensus preview (MarketBeat, 29 Oct 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-james-hardie-industries-jhx-projected-to-announce-quarterly-earnings-on-thursday-2026-10-29/"
+        },
+        {
+          "title": "Analyst actions (MarketBeat, 13 Oct 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-issues-pessimistic-forecast-for-james-hardie-industries-nyse-jhx-stock-price-2026-10-13/"
+        },
+        {
+          "title": "Short interest (MarketBeat)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/JHX/short-interest"
         }
       ]
     }
