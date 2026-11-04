@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:16:03Z",
+  "updated": "2026-11-04T19:21:00Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -2355,17 +2355,17 @@
       "market": "ASX",
       "code": "ALL",
       "name": "Aristocrat Leisure",
-      "date": "2026-10-27",
+      "date": "2026-11-04",
       "status_at_review": "Buy-ready",
-      "price_at_review": "A$63.72",
+      "price_at_review": "A$64.93",
       "verdict": "Reject",
       "confidence": "medium",
-      "summary": "Aristocrat is a high-quality, cash-generative leader in gaming machines and social casino, but it is a mid-teens compounder, not a SEPA earnings accelerator. 1H FY26 (Oct25-Mar26) normalised revenue was flat (-0.2% reported, +6.4% cc), EPSA rose +10.9% (+19.1% cc), and growth was helped by A$679m of buybacks. The sales FAIL plus sub-25% EPS growth rules it out, and FY26 results land on about 12 Nov 2026.",
-      "catalyst": "Installed-base growth at the top of the 4-5k guidance range, the A$100m FY27 cost-out and the buyback lifted to A$2.5bn (1H FY26 result, 13 May 2026): MODERATE.",
+      "summary": "Aristocrat is a cash-generative global leader in gaming machines and social casino, but it compounds in the low to mid teens rather than accelerating the way SEPA requires. 1H FY26 (Oct25-Mar26) normalised revenue was flat (-0.2% reported, +6.4% cc) and EPSA rose +10.9%, helped by buybacks. Brokers expect an in-line FY26 result (consensus EPS +11.5%) and the stock sits at the consensus target. Sales FAIL plus sub-25% EPS growth rule it out, and the company confirms results on 12 Nov 2026.",
+      "catalyst": "Installed-base growth at the top of the 4-5k guide, the A$100m FY27 cost-out and the buyback lifted to A$2.5bn (1H FY26 result, 13 May 2026): MODERATE.",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "EPSA (normalised, diluted) 1H26 129.0c +10.9% (+19.1% cc); FY25 247.2c +14.5%; 1H25 116.3c vs 1H24 118.5c. Below 25%, not accelerating",
+          "finding": "EPSA 1H26 129.0c +10.9% (+19.1% cc); FY25 247.2c +14.5%; 1H25 -1.9%. FY26 cons EPS 255.6c +11.5% (FNArena 3 Nov). Below 25%",
           "result": "CAUTION"
         },
         {
@@ -2375,32 +2375,32 @@
         },
         {
           "check": "Margins and Code 33",
-          "finding": "1H26 EBITDA margin 43.5% vs 41.1%; Gaming margin 54.2% vs 55.2%, Interactive 27.9% vs 33.2%. No Code 33 because sales are flat",
+          "finding": "1H26 EBITDA margin 43.5% vs 41.1%; Gaming 54.2% vs 55.2%, Interactive 27.9% vs 33.2%. No Code 33 because sales are flat",
           "result": "CAUTION"
         },
         {
           "check": "Earnings quality",
-          "finding": "Statutory continuing NPAT +56% from A$100m L&W settlement; normalised NPAT +9.1%. Buybacks lift EPSA (+10.9%) above NPATA (+8.4%). OCF A$820m",
+          "finding": "Statutory NPAT +56% on A$100m L&W settlement vs normalised +9.1%; buybacks lift EPSA (+10.9%) over NPATA (+8.4%). 1H26 OCF A$820m",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "1H26 roughly in line (EBITDA +1% vs cons; PM missed by 7%). FY26 guide: NPATA growth (cc). No updates found in last 90 days",
+          "finding": "Pre-result trims: Morgans NPATA -1% FY26-27, PT A$69 (2 Oct); Jarden cut to Overweight, sees in-line FY26 (28 Oct). Not rising",
           "result": "CAUTION"
         },
         {
           "check": "Catalyst",
-          "finding": "MODERATE: NA unit adds at top of 4-5k, A$100m FY27 cost-out, buyback to A$2.5bn, iCasino state launches (13-21 May 2026)",
+          "finding": "MODERATE: NA unit adds at top of 4-5k, A$100m FY27 cost-out, buyback to A$2.5bn, iCasino launches (May 2026). Jarden: Dragon Link peaking",
           "result": "CAUTION"
         },
         {
           "check": "Category and group",
-          "finding": "Global leader (NA installed share 43%) and institutional favourite; defensive mid-teens grower. Group (L&W, IGT) strength not verified",
-          "result": "PASS"
+          "finding": "Global leader (NA installed share 43%), institutional favourite, defensive grower. Peer L&W (ASX:LNW) ~40% below 52w high (Jun 2026); group weak",
+          "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "Mkt cap ~A$39bn; 598m shares (-2.0% YoY via buybacks); float 527m; inst 44%, insider 0.13% (aggregator). Large cap, limited torque",
+          "finding": "Cap ~A$39bn; 598m sh (-2.0% YoY); inst ~44% (agg); CEO Croker sold 121,685 sh A$7.5m on-market 13-15 Jul 2026; NEDs bought Jan-Mar 26",
           "result": "CAUTION"
         },
         {
@@ -2410,25 +2410,29 @@
         },
         {
           "check": "Event risk",
-          "finding": "FY26 results ~12 Nov 2026 (aggregators; not confirmed by ASX notice found) inside 3 weeks. Short interest not found",
+          "finding": "FY26 results 12 Nov 2026 (company key dates page), 8 days away. Short interest ~0.96% (26 Oct), falling from 7.3m to 5.6m sh in Oct",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "No placement, SPP, entitlement or trading halt found in last 12 months; on-market buyback active (Sep 2026 notices). Profitable operator",
+          "finding": "No placement, SPP, entitlement or trading halt in last 12 months; on-market buyback active (update 29 Sep 2026). Profitable operator",
           "result": "PASS"
         }
       ],
       "risks": [
-        "FY26 result about 12 Nov 2026 is binary: consensus 2H EPSA ~131c is flat on 2H25 per TipRanks",
-        "Product Madness (~25% of segment profit) flat, missed by 7% in 1H26; social casino growth stalling",
+        "FY26 result 12 Nov 2026: consensus 2H EPSA ~132c vs 131c in 2H25 (TipRanks), so the 2H implies almost no growth; a soft FY27 guide is the main risk",
+        "Price A$64.93 sits on the consensus target (A$65.59, FNArena 3 Nov); Jarden calls it fully priced at 22x FY27 PE",
+        "Product Madness and Interactive margin falling (27.9% vs 33.2%); Jarden sees Dragon Link peaking and FY27 installs 3% below consensus",
         "AUD strength: reported growth trails constant currency by 7-8 pts",
-        "Light & Wonder competition squeezing NA gaming margin (-1.2 pts in 1H26)",
-        "Pre-mortem: FY26 miss or soft FY27 guide; FX headwind; PM/Interactive decline sparks de-rating from ~24x forward PE"
+        "Pre-mortem: FY26 miss or soft FY27 guide; FX headwind; slots cycle peaking and peer weakness drive a de-rating"
       ],
-      "next_event": "FY26 full-year results, ~12 Nov 2026 (aggregator date, not confirmed by an ASX notice)",
+      "next_event": "FY26 full-year results, 12 Nov 2026 (company key dates page; indicative)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
+        {
+          "title": "Aristocrat key dates (company IR)",
+          "url": "https://aristocratleisurelimited.gcs-web.com/shareholder-information/key-dates"
+        },
         {
           "title": "1H FY26 results announcement, 13 May 2026 (ASX)",
           "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjn1f843kn6k.pdf"
@@ -2438,20 +2442,24 @@
           "url": "https://investgame.net/news/pdf/aristocrat-leisure-fy2025-earnings-release/"
         },
         {
-          "title": "1H FY24 results announcement, 16 May 2024 (ASX)",
-          "url": "https://announcements.asx.com.au/asxpdf/20240516/pdf/063lzgxx5v28mc.pdf"
+          "title": "Appendix 3Y T. Croker, Jul 2026",
+          "url": "https://investorpa.com/announcement-pdf/20260716/317548.pdf"
         },
         {
-          "title": "Aristocrat IR ASX announcements",
-          "url": "https://ir.aristocrat.com/company-news-performance/asx-announcements"
+          "title": "InvestSmart director trades and announcements (aggregator)",
+          "url": "https://www.investsmart.com.au/security/asx/all/aristocrat-leisure-limited/change-in-directors-interest"
         },
         {
-          "title": "FNArena broker wrap, 21 May 2026",
-          "url": "https://fnarena.com/index.php/2026/05/21/aristocrats-ongoing-double-digit-growth-promise/"
+          "title": "FNArena consensus and broker calls, 3 Nov 2026",
+          "url": "https://fnarena.com/stock-price-analysis/sector/ALL/"
         },
         {
-          "title": "Motley Fool HY26 summary, 13 May 2026",
-          "url": "https://www.fool.com.au/2026/05/13/aristocrat-leisure-posts-double-digit-profit-and-dividend-growth-in-hy26/"
+          "title": "Motley Fool: Morgans view, 2 Oct 2026",
+          "url": "https://www.fool.com.au/2026/10/02/buy-hold-sell-aristocrat-liontown-and-navigator-global-shares/"
+        },
+        {
+          "title": "Fintel short interest (aggregator)",
+          "url": "https://fintel.io/ss/au/all"
         },
         {
           "title": "StockAnalysis statistics (aggregator)",
@@ -2460,6 +2468,10 @@
         {
           "title": "TipRanks earnings calendar (aggregator)",
           "url": "https://www.tipranks.com/stocks/AU:ALL/earnings"
+        },
+        {
+          "title": "StockAnalysis Light & Wonder ASX:LNW (aggregator)",
+          "url": "https://stockanalysis.com/quote/asx/LNW/"
         }
       ]
     },
@@ -2467,127 +2479,123 @@
       "market": "ASX",
       "code": "CCP",
       "name": "Credit Corp Group",
-      "date": "2026-10-27",
+      "date": "2026-11-04",
       "status_at_review": "Buy-ready",
-      "price_at_review": "A$14.54",
+      "price_at_review": "A$15.19",
       "verdict": "Watch only",
       "confidence": "medium",
-      "summary": "Debt buyer and consumer lender (AU/NZ, US, new UK lending) that posted a record FY26 NPAT of A$105.5m (+12%), driven by the US book (+57%), and lifted FY27 guidance after buying HSBC's A$150m card run-off book. But growth is far below SEPA standards: 1H FY26 NPAT flat, FY26 EPS +12%, revenue +7%, and FY27 EPS guidance only about +10%. This is a cheap value compounder, not a Minervini earnings-acceleration leader.",
-      "catalyst": "HSBC Australia card run-off book (~A$150m, 21 Aug 2026) lifted FY27 guidance to NPAT A$112-120m; US collections +23% in 1Q FY27; UK lending launched Jul 2026.",
+      "summary": "Debt buyer and consumer lender (AU/NZ, US, new UK lending) with a record FY26 NPAT of A$105.5m (+12%), led by US debt buying (+57%). FY27 guidance was raised after the ~A$150m HSBC card book deal and reaffirmed on 27 Oct, and five directors bought on market in Aug-Sep 2026. But growth is far below SEPA standards: FY27 EPS guided ~+10% and 1H FY27 NPAT A$45-50m vs A$44.1m. That makes it a cheap value compounder, not an earnings-acceleration leader.",
+      "catalyst": "HSBC Australia card run-off book (~A$150m, announced 21 Aug 2026, completion early 2H FY27) lifted FY27 NPAT guidance to A$112-120m; 1Q FY27 US collections +23%, lending volume +19%.",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "FY26 EPS 155.0c +12% vs 138.2c (record); 1H FY26 NPAT A$44.1m flat; FY27 guide EPS 164-176c, ~+10%. Well below +25%",
+          "finding": "FY26 NPAT A$105.5m +12% (record), EPS 155c; 1H FY26 NPAT A$44.1m flat; FY27 guide EPS 164-176c (~+10%), consensus 168.1c +8.4%",
           "result": "CAUTION"
         },
         {
           "check": "Sales",
-          "finding": "FY26 revenue A$586.0m +7%; 1H FY26 A$283.6m +4%. US +26%, ANZ lending +8%, ANZ debt buying flat. Mostly organic, far below 20%",
+          "finding": "FY26 revenue A$586.0m +7%; 1Q FY27 PDL collections +15% cc, US +23%, AU/NZ +6%, lending vol +19%, loan book A$509m +12%. Organic, below 20%",
           "result": "CAUTION"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "Net margin FY26 18.0% vs FY25 17.2%; ANZ lending NPAT only +3% due to growth provisioning and start-ups. No Code 33",
+          "finding": "Net margin FY26 ~18.0% vs ~17.2% FY25; lending NPAT only +3% (provisioning, UK start-up); AU/NZ productivity -7% in 1Q FY27. No Code 33",
           "result": "CAUTION"
         },
         {
           "check": "Earnings quality",
-          "finding": "Statutory NPAT is the headline, with no underlying gap in FY26. TTM OCF A$2.7m (aggregator) as PDL buys sit in OCF; profit relies on collection curves",
+          "finding": "Statutory NPAT headline, no underlying gap. TTM OCF A$2.7m (aggregator) as PDL buys sit in OCF; profit depends on collection-curve assumptions",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "FY27 guide raised 21 Aug (NPAT A$112-120m), reaffirmed at 1Q update 27 Oct. Shares fell ~7-9% on FY26 result; JPM target cut A$19.60 to A$18.60",
+          "finding": "FY27 guide raised 21 Aug, reaffirmed 27 Oct; Canaccord Buy A$19.80 kept 28 Oct; Morgans cut to A$18.25 5 Aug. No upgrades since; shares -9% on FY26",
           "result": "CAUTION"
         },
         {
           "check": "Catalyst",
-          "finding": "MODERATE: HSBC card book ~A$150m (21 Aug 2026, completion early CY27), US NPAT +57% FY26, UK lending live Jul 2026",
+          "finding": "MODERATE: HSBC card book ~A$150m (21 Aug 2026, completion early 2H FY27), US NPAT +57% FY26, US legal collections +50%, UK lending live Jul 2026",
           "result": "CAUTION"
         },
         {
           "check": "Category and group",
-          "finding": "Top competitor and leader in AU debt buying; mature, competitive market with tight PDL supply. Strength of peer group not found",
+          "finding": "Leader in AU debt buying and a top competitor in US; mature market, tight AU/NZ PDL supply. Peer group strength (ECPG, PRAA, ASX lenders) not found",
           "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "Mkt cap ~A$1.0b, 68.07m shares (-1.2% YoY), inst 65%, insiders 1.5% (aggregator). Listed 2000. No raises found",
+          "finding": "Cap ~A$1.0b, 68.07m sh (-1.2% YoY), inst 65% (trend n/f), insiders 1.5%. 5 director on-market buys Aug-Sep 2026 ~A$426k; no sales",
           "result": "PASS"
         },
         {
           "check": "Balance sheet",
-          "finding": "Debt A$491m, cash A$61.5m, net debt ~A$430m (aggregator); gearing 32% vs 40% target, >A$100m undrawn; ROE 13% FY26. Raise unlikely",
+          "finding": "Debt A$491m, cash A$61.5m (aggregator); pro-forma gearing 40% at 27 Oct incl HSBC; ROE 13% FY26 (co.); 50% payout. Raise unlikely",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "1H FY27 results ~1 Feb 2027 (aggregator, unconfirmed); 1H guide NPAT A$45-55m; HSBC regulatory approval. Short ~2.0%, trend not found",
+          "finding": "1H FY27 results ~1 Feb 2027 (aggregator, unconfirmed); 1H guide NPAT A$45-50m; HSBC completion. Short 1.97% (Halo, undated), trend not found",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; AGM held 27 Oct 2026",
+          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; AGM 27 Oct 2026 passed all resolutions, auditor changed",
           "result": "PASS"
         }
       ],
       "risks": [
-        "Growth of ~10% guided for FY27 is far below the SEPA threshold; this is a value or yield story, not a leader",
-        "1H FY27 NPAT guidance of A$45-55m is wide; the low end would be nearly flat on 1H FY26 (A$44.1m)",
-        "AU/NZ PDL supply is tight and competitive; higher prices on large US tenders",
-        "Lending growth provisioning, UK and Wizit start-up losses compress margins; consumer credit regulation",
-        "HSBC deal needs regulatory approval (completion early CY2027); timing could shift FY27"
+        "FY27 EPS growth of ~10% (consensus +8.4%) is far below the SEPA threshold; this is a value or yield story, not a leader",
+        "1H FY27 NPAT guide of A$45-50m implies only +2% to +13% on 1H FY26 (A$44.1m); a low-end print could hit the stock as in Feb 2026 (-14%)",
+        "AU/NZ PDL supply tight and competitive, AU/NZ productivity -7% in 1Q FY27; US purchasing guidance cut 31% at FY26",
+        "Gearing now at the 40% pro-forma target with record investment; lending growth provisioning and UK start-up losses",
+        "HSBC deal completion timing (early 2H FY27) and consumer credit regulation could shift FY27"
       ],
       "next_event": "1H FY27 half-year results, ~1 Feb 2027 (aggregator date, not yet confirmed by company)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
         {
-          "title": "FY26 media release, 4 Aug 2026 (company/ASX)",
-          "url": "https://www.creditcorpgroup.com.au/media/2004/asx-4-august-2026-credit-corp-group-fy26-media-release.pdf"
+          "title": "CEO AGM presentation / FY27 performance update, 27 Oct 2026 (ASX announcement)",
+          "url": "https://announcements.asx.com.au/asxpdf/20261027/pdf/075tclrwqwlsdh.pdf"
         },
         {
-          "title": "FY26 results release (ASX announcement)",
+          "title": "FY26 results release, 4 Aug 2026 (ASX announcement)",
           "url": "https://announcements.asx.com.au/asxpdf/20260804/pdf/072d8tqdrpdh62.pdf"
+        },
+        {
+          "title": "HSBC card book acquisition, 21 Aug 2026 (ASX announcement)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260821/pdf/0730vzhs4zbf6s.pdf"
         },
         {
           "title": "1H FY26 results release, 3 Feb 2026 (ASX announcement)",
           "url": "https://announcements.asx.com.au/asxpdf/20260203/pdf/06vwry20gtdb3d.pdf"
         },
         {
-          "title": "AGM date notice, 1 Sep 2026 (ASX release)",
-          "url": "https://bulletin.webull.com/qbd/announcement/20260901/499500112/588a7b1b9291c5261f7d80ba8e27dab9.pdf"
+          "title": "CCP announcements list incl. substantial holder notices to 2 Nov 2026 (InvestSMART)",
+          "url": "https://www.investsmart.com.au/security/asx/ccp/credit-corp-group-limited/announcements?page=1"
         },
         {
-          "title": "FY26 slides summary (Investing.com)",
-          "url": "https://www.investing.com/news/company-news/credit-corp-fy2026-slides-record-profit-as-us-business-surges-57-93CH-4832584"
+          "title": "Director interest changes (InvestSMART)",
+          "url": "https://www.investsmart.com.au/security/asx/ccp/credit-corp-group-limited/change-in-directors-interest?page=1"
         },
         {
-          "title": "FY26 earnings call transcript (Investing.com)",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-credit-corp-posts-record-h2-2026-profit-as-us-gains-jump-93CH-4832568"
+          "title": "Broker ratings and consensus (FNArena)",
+          "url": "https://fnarena.com/stock-price-analysis/sector/CCP"
         },
         {
-          "title": "HSBC acquisition and FY27 guidance upgrade (Kalkine)",
-          "url": "https://kalkine.com.au/news/financial/credit-corp-asxccp-lifts-fy27-guidance-after-150m-hsbc-credit-card-acquisition"
-        },
-        {
-          "title": "1Q FY27 trading update, 27 Oct 2026 (Market Index)",
-          "url": "https://www.marketindex.com.au/news/asx-200-live-today-tuesday-27th-october"
+          "title": "Greg Cooper appointed chair, 25 May 2026 (iTiger)",
+          "url": "https://www.itiger.com/news/2638889145"
         },
         {
           "title": "FY26 result coverage (Rask Media)",
           "url": "https://www.raskmedia.com.au/2026/08/04/credit-corp-asxccp-share-price-falls-9-despite-solid-profit-growth-in-fy26-result/"
         },
         {
+          "title": "FY26 earnings call transcript (Investing.com)",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-credit-corp-posts-record-h2-2026-profit-as-us-gains-jump-93CH-4832568"
+        },
+        {
           "title": "1H FY26 result coverage (Motley Fool)",
           "url": "https://www.fool.com.au/2026/02/03/credit-corp-share-price-crashes-14-following-h1-fy26-result/"
-        },
-        {
-          "title": "FY25 result coverage (Rask Media)",
-          "url": "https://www.raskmedia.com.au/2025/08/05/credit-corp-asxccp-share-price-soars-19-on-strong-fy25-result-and-outlook/"
-        },
-        {
-          "title": "JPMorgan rating note, 5 Aug 2026",
-          "url": "https://ad-hoc-news.de/boerse/news/nebenwerte/jpmorgan-rates-credit-corp-group-stock-buy-with-aud-18-60-target/70376646"
         },
         {
           "title": "Statistics (StockAnalysis, aggregator)",
