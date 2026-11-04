@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:55:53Z",
+  "updated": "2026-11-04T22:55:55Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -7459,151 +7459,135 @@
       "market": "US",
       "code": "AIZ",
       "name": "Assurant, Inc.",
-      "date": "2026-10-29",
+      "date": "2026-11-04",
       "status_at_review": "Breaking out",
-      "price_at_review": "US$292.69",
+      "price_at_review": "US$308.52",
       "verdict": "Watch only",
       "confidence": "medium",
-      "summary": "Assurant is a steady specialty insurer (device protection, auto, lender-placed housing) posting record quarters: Q2'26 adj EPS $6.41 (+26%) and GAAP EPS $5.95 (+30%) on revenue +9%, with FY26 guidance raised twice. But headline growth leans on lower catastrophe losses (ex-cats EPS +9% Q1, +19% Q2), sales growth is single-digit, and five insiders sold in May-Aug 2026 with 93% institutional ownership, a supply FAIL that caps the verdict at Watch only.",
-      "catalyst": "Connected Living growth (Q2'26 adj EBITDA +29%, T-Mobile/US Cellular book migration) plus the Freedom Mortgage lender-placed win (~2.6M loans ramping over 12 months); MODERATE.",
+      "summary": "Assurant beat again on 3 Nov 2026: Q3'26 adj EPS $6.15 vs $4.57-4.79 consensus, revenue $3.53B (+9%), and FY26 guidance raised a third time (adj EPS ex-cats now low double digits). But adj EPS growth slowed to +7% YoY (about +12% ex-cats) from +26% in Q2, Q4 consensus ($5.32) sits below last year's $5.61, and sales growth stays single-digit. Clustered insider selling in May-Aug 2026 plus 93-97% institutional ownership remains a supply FAIL that caps the verdict at Watch only.",
+      "catalyst": "Connected Living growth (Q3'26 adj EBITDA +23%; US Cellular, Best Buy, Chase programs; devices serviced +2.8M YoY) plus Freedom Mortgage lender-placed win (~2.6M loans ramping); MODERATE.",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "Adj EPS YoY: Q3'25 $5.73 +91%; Q4 $5.61 +17%; Q1'26 $5.95 +76%; Q2 $6.41 +26%. Ex-cats only +13/+4/+9/+19%. FY25 GAAP $16.93 record",
+          "finding": "Adj EPS YoY: Q4'25 $5.61 +17%; Q1'26 $5.95 +76%; Q2 $6.41 +26%; Q3 $6.15 vs $5.73 +7% (ex-cats ~+12%). Q4 cons $5.32 vs $5.61. GAAP Q3 not found",
           "result": "CAUTION"
         },
         {
           "check": "Sales",
-          "finding": "Q2'26 revenue $3.45B vs $3.16B (+9%); Q1 +11% (calc), Q4'25 +8% (calc). Organic, steady but well below 20%",
+          "finding": "Q3'26 revenue $3.53B vs $3.23B (+9%); Q2 +9%, Q1 +11%. Lifestyle $2.66B +11%, Housing $745M +6%. Organic but well below 20%",
           "result": "CAUTION"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "Q2 adj EBITDA ex-cats margin 14.2% vs 13.2%; net 8.6% vs 7.5% (calc). Expanding, but EPS/sales not accelerating 3 qtrs: no Code 33",
+          "finding": "Q3'26 adj EBITDA ex-cats +12% vs revenue +9%; pre-tax margin 9.9%. Modest expansion; EPS decelerating so no Code 33",
           "result": "PASS"
         },
         {
           "check": "Earnings quality",
-          "finding": "Biggest concern: YoY gains lean on low cats ($37M vs $187M 6M) and PYD ($42M). 6M CFO $695M > NI $573M; buybacks cut diluted shares 2.5%",
+          "finding": "Biggest concern: low cats and PYD drive headline growth ($52M less PYD in FY26); 1H CL had $13M one-off JV gains; half of auto premium +25% is timing",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "Q2 adj EPS $6.41 vs $5.17 est (8 straight beats); FY26 guide raised 5 Aug to mid-single-digit ex-cats. FY26 cons ~$22.3-22.4; mixed revisions",
+          "finding": "Q3'26 adj EPS $6.15 vs $4.57 Zacks (+35%), 4 of 4 beats; FY26 guide raised 3 Nov (3rd raise) to adj EBITDA ~+10%, EPS low-double-digit ex-cats",
           "result": "PASS"
         },
         {
           "check": "Catalyst",
-          "finding": "Connected Living (+29% EBITDA Q2, T-Mobile/US Cellular migration) and Freedom Mortgage 2.6M-loan lender-placed win (Q2'26). MODERATE",
+          "finding": "MODERATE: Connected Living EBITDA +23% Q3'26 (new carrier/retail programs, 69M devices) and Freedom Mortgage 2.6M-loan ramp (Q2-Q3'26)",
           "result": "PASS"
         },
         {
           "check": "Category and group",
-          "finding": "Steady specialty insurer/compounder, not a fast grower. Stock +36% in 52 wks vs XLF +7% (18 Oct); peer group strength not verified",
+          "finding": "Steady specialty insurer/compounder, not a fast grower. Stock +23% YTD vs S&P +10%; Zacks Multi-line insurance group in bottom 39% of industries",
           "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "Cap ~$14B; shares -6% in 3 yrs (calc). Inst 92.7% (over-owned). 5 insiders sold May-Aug 2026 (~$10.4M, 2 under 10b5-1), no buys",
+          "finding": "Cap ~$14.7B, 49.7M sh (buybacks). Inst ~93-97% (over-owned). 5 insiders sold May-Aug 2026 (~$10.4M), no buys; none since 6 Aug",
           "result": "FAIL"
         },
         {
           "check": "Balance sheet",
-          "finding": "30 Jun 26: debt $2.21B, holdco liquidity $911M (net ~$1.30B, calc), equity $6.10B; 6M CFO $695M; TTM ROE ~17% (calc). No raise needed",
+          "finding": "Holdco liquidity $954M (30 Sep 26) vs $911M Q2; debt ~$2.2B (Q2); buybacks $305M YTD to 31 Oct, FY26 $350M. TTM ROE ~17% (prior calc). No raise",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "Q3 results 3 Nov 2026 (confirmed). Quiet Q3 hurricane season; Q3 cons $4.57-4.75 vs $5.73. Short int 1.44M (15 Oct), up from 0.83M (Jan)",
+          "finding": "Q4'26 results ~early Feb 2027 (est.); Q4 cons $5.32 below $5.61 yr-ago; late cat/PYD risk. Short int 1.7% of float, up from Jan",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q (Q2'26) filed ~6 Aug 2026; next earnings 3 Nov 2026. Universal WKSI shelf S-3ASR (Jan 2024); no offering or ATM found",
+          "finding": "Last 10-Q: Q2'26 filed 6 Aug 2026 (Q3 10-Q not yet filed); next earnings ~Feb 2027. WKSI S-3ASR Jan 2024, S-8 May 2026; no offering/ATM",
           "result": "PASS"
         }
       ],
       "risks": [
-        "Q3 report 3 Nov 2026: consensus $4.57-4.75 vs $5.73 a year ago; quiet hurricane season makes a beat likely but is priced in",
-        "Ex-catastrophe growth is only mid-single to high-teens; FY26 guide is mid-single-digit ex-cats, FY27 cons +4.8%",
-        "Favorable reserve development shrinking ($71M less in FY26 guide); a late-season or Q4 cat event would hit Housing",
-        "Clustered insider selling (CFO 25k shares May 2026, four other execs May-Aug) and 93% institutional ownership",
-        "Pre-mortem: cat losses spike; Connected Living client loss or device-cycle slowdown; rotation out of defensive financials"
+        "EPS growth decelerated sharply: Q3'26 adj EPS +7% (ex-cats ~+12%) after +26% in Q2; Q4 consensus $5.32 is below Q4'25 $5.61",
+        "Headline growth leans on benign catastrophes and reserve releases; FY26 guide already absorbs $52M less favorable PYD in Housing",
+        "Clustered insider selling (CFO, CLO, CSTO, CAO, Connected Living head; May-Aug 2026) and 93-97% institutional ownership",
+        "Pre-mortem: Q4/winter cat losses; Connected Living client loss or wireless disruption (AI price shopping, Starlink); rotation out of defensive financials",
+        "Would upgrade if ex-cat EPS reaccelerates toward 25%+ with sales growth rising and no further insider selling"
       ],
-      "next_event": "Q3 2026 results, 3 Nov 2026 after close (call 4 Nov, 8:00 ET), confirmed by company release 5 Oct 2026",
+      "next_event": "Q4/FY2026 results, ~early-mid Feb 2027 (estimated from Feb 2026 timing; not yet confirmed)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
         {
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (3 Nov 2026) - located via search; sec.gov fetch failed, figures taken from wires below",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000043/aiz-20260930exx991pressrel.htm"
+        },
+        {
+          "title": "Q3 2026 earnings call transcript (Investing.com, 4 Nov 2026)",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-assurant-beats-q3-2026-estimates-shares-rise-premarket-93CH-4999735"
+        },
+        {
+          "title": "What Assurant said on its Q3 call (MarketBeat, 4 Nov 2026, aggregator)",
+          "url": "https://marketbeat.com/instant-alerts/transcript-what-assurant-aiz-said-on-its-q3-earnings-call-2026-11-04/?amp="
+        },
+        {
+          "title": "Assurant (AIZ) beats Q3 earnings and revenue estimates (Zacks via Yahoo, 3 Nov 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-beats-q3-earnings-235503387.html"
+        },
+        {
+          "title": "Assurant Q3 2026 beats on revenue (StockStory, aggregator)",
+          "url": "https://stockstory.org/us/stocks/nyse/aiz/news/earnings/assurants-nyseaiz-q3-2026-beats-on-revenue"
+        },
+        {
+          "title": "Assurant Q3 2026 earnings card (247 Wall St, aggregator)",
+          "url": "https://247wallst.com/cards/assurant-q3-2026-earnings-aiz-01m6hnk9976ewhpp67dj2gezjg"
+        },
+        {
+          "title": "AIZ Q3 2026 earnings and insider trades (Quiver Quant, aggregator)",
+          "url": "https://www.quiverquant.com/news/ASSURANT+($AIZ)+Releases+Q3+2026+Earnings,+Stock+Rises"
+        },
+        {
+          "title": "Q3 2025 results (RTTNews, year-ago comparison)",
+          "url": "https://www.rttnews.com/3590706/assurant-inc-q3-profit-increases-beats-estimates.aspx"
+        },
+        {
           "title": "Q2 2026 earnings release, 8-K Ex 99.1 (4 Aug 2026)",
           "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000039/aiz-20260630exx991pressrel.htm"
-        },
-        {
-          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (5 May 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000024/aiz-20260331exx991pressrel.htm"
-        },
-        {
-          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (Feb 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000006/aiz-20251231exx991pressrel.htm"
-        },
-        {
-          "title": "Q3 2025 earnings release, 8-K Ex 99.1 (4 Nov 2025)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723825000049/aiz-20250930exx991pressrel.htm"
         },
         {
           "title": "Q2 2026 Form 10-Q",
           "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000041/aiz-20260630.htm"
         },
         {
-          "title": "Q3 2023 Form 10-Q (share count)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723823000052/aiz-20230930.htm"
+          "title": "AIZ SEC filings list 2026 (Chartrow, aggregator)",
+          "url": "https://chartrow.com/quote/aiz/filings"
         },
         {
-          "title": "S-3ASR shelf registration (22 Jan 2024)",
-          "url": "https://sec.gov/Archives/edgar/data/1267238/000119312524012172/d576640ds3asr.htm"
+          "title": "AIZ ownership and short float (Chartmill, aggregator)",
+          "url": "https://www.chartmill.com/stock/quote/AIZ/ownership"
         },
         {
-          "title": "Assurant to Announce Q3 2026 Results (5 Oct 2026)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-announce-third-quarter-2026-203000955.html"
-        },
-        {
-          "title": "Q2 2026 call highlights (aggregator)",
-          "url": "https://www.nasdaq.com/articles/assurant-q2-earnings-call-highlights"
-        },
-        {
-          "title": "Form 4: CFO Keith Meier sale 15 May 2026 (aggregator)",
-          "url": "https://www.stocktitan.net/sec-filings/AIZ/form-4-assurant-inc-insider-trading-activity-6fa27eb31609.html"
-        },
-        {
-          "title": "Form 4: EVP Robert Lonergan sale 22 Jun 2026 (aggregator)",
-          "url": "https://www.stocktitan.net/sec-filings/AIZ/form-4-assurant-inc-insider-trading-activity-9ebd6d769b5a.html"
-        },
-        {
-          "title": "Form 4: EVP Biju Nair sale 6 Aug 2026 (aggregator)",
-          "url": "https://www.stocktitan.net/sec-filings/AIZ/form-4-assurant-inc-insider-trading-activity-9be6cddd39f5.html"
-        },
-        {
-          "title": "Insider trades and institutional ownership (aggregator)",
-          "url": "https://www.insidertrades.com/assurant-inc-stock/"
-        },
-        {
-          "title": "Q3 2026 earnings preview, Barchart 18 Oct 2026 (aggregator)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-assurant-report-183006889.html"
-        },
-        {
-          "title": "Q3 2026 consensus (aggregator)",
-          "url": "https://www.marketbeat.com/earnings/reports/2026-11-3-assurant-inc-stock/"
-        },
-        {
-          "title": "Short interest history (aggregator)",
-          "url": "https://equibles.com/stocks/aiz/shortinterest"
-        },
-        {
-          "title": "Institutional holders (aggregator)",
+          "title": "Previous review context: institutional holders (Fintel, aggregator)",
           "url": "https://fintel.io/so/us/aiz"
         },
         {
-          "title": "Nine-month cat losses lowest since 2019 (Royal Gazette, 22 Oct 2026)",
-          "url": "https://www.royalgazette.com/reinsurance/business/article/20261022/insured-nine-month-catastrophe-losses-lowest-since-2019/"
+          "title": "Short interest history (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/aiz/shortinterest"
         }
       ]
     },
@@ -12852,6 +12836,290 @@
         {
           "title": "Fintel short interest (aggregator)",
           "url": "https://fintel.io/s/us/mtn"
+        }
+      ]
+    },
+    "US:TFX": {
+      "market": "US",
+      "code": "TFX",
+      "name": "Teleflex",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$149.87",
+      "verdict": "Reject",
+      "confidence": "medium",
+      "summary": "Q3 2026 results are not out yet (due 5 Nov 2026 before the open). Teleflex is mid-breakup: OEM sold 3 Aug 2026, Acute Care and Interventional Urology sale pending (Q4 2026), all reported as discontinued ops, while the Biotronik Vascular Intervention deal inflates reported sales growth (+29%) against only ~+5% pro forma constant-currency growth. Adjusted EPS from continuing ops is flat (Q2 2026 $1.76 vs $1.73) and adjusted margins are down 3-5 points, so this is a buyback/restructuring and activist story, not a SEPA earnings leader.",
+      "catalyst": "Portfolio reset: OEM sale closed 3 Aug 2026 (~$1.5B), Acute Care/Urology sale due Q4 2026, $1B buyback incl. $250M ASR from 7 Aug 2026, new CEO Jason Weidman from 8 Jun 2026, Irenic activist pressure (8-Ks/10-Q). WEAK for earnings growth.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS (cont. ops) Q4 25 $1.93 vs $1.91, Q1 26 $1.39 vs $1.44 (-3%), Q2 26 $1.76 vs $1.73 (+2%). GAAP Q2 $0.96 vs $1.54. FY26 guide $6.90-7.20 vs FY25 $6.98",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q2 26 rev $570.3M +28.9% reported but only +4.7% pro forma cc; Q1 +32.3%/+5.1%. Growth is the Biotronik VI deal; FY26 organic guide cut to 3.5-4.5%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Adj GM Q2 26 61.7% vs 64.5%, Q1 61.4% vs 66.1%; adj op margin Q2 19.6% vs 24.8%, Q1 18.1% vs 23.2% (tariffs, mix, stranded costs). No Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: large GAAP/adj gap (1H26 GAAP $0.84 vs adj $3.14), repeated restructuring/separation charges; Q2 had $25M litigation gain. 1H OCF $139M",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2 26 adj EPS $1.76 beat $1.28 consensus (MarketBeat); FY26 adj EPS guide raised to $6.90-7.20 but revenue guide cut (6 Aug 2026). Truist PT cut 14 Oct",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "WEAK: divestitures + $1B buyback/$800M debt paydown, new CEO 8 Jun 2026, Irenic activist push; supports per-share math, not organic EPS acceleration",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Mid-cap medtech in restructuring/turnaround; RS 79, new 52-wk high Aug 2026. Health care equipment group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "42.37M shs (4 Aug 26), ~US$6.3B cap; shares -4.1% YoY on buybacks; inst. ~96% (aggregator, over-owned); 12m Form 4s only grants/tax, no open-mkt sales",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 26: cash $300M, debt $2,808M; $700M term loan repaid after OEM close Aug 26; 1H26 OCF $139M; ROE -0.7% (aggregator). No raise likely",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3 26 results 5 Nov 2026 BMO, consensus adj EPS $1.84 / rev $581M; Acute Care/Urology close Q4 26; short 9.6% of float (26 Oct), rising slightly",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q2 26 (qtr to 30 Jun 2026, filed ~Aug 2026); next earnings 5 Nov 2026; no secondary, shelf or ATM found; $250M ASR running",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Q3 2026 results 5 Nov before the open, one day after the breakout; a miss vs $1.84 consensus or another organic revenue guide cut could reverse it",
+        "Organic growth only ~4-5% and Biotronik integration running behind plan (Q2 2026 guidance cut)",
+        "Adjusted margins down 3-5 points YoY from tariffs, mix and ~$90M stranded divestiture costs",
+        "Acute Care/Urology sale (pending, Q4 2026) could slip; reported comparisons will keep shifting with discontinued-ops restatements",
+        "Would only revisit if continuing-ops adj EPS grows 25%+ for two quarters with organic sales clearly accelerating"
+      ],
+      "next_event": "Q3 2026 results (Jul-Sep 2026), 5 Nov 2026 ~6:30am ET before the open, call 8am ET",
+      "hold_through_event": "NO",
+      "sources": [
+        {
+          "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000096943/000009694326000091/ex991to8-6x2026req2earning.htm"
+        },
+        {
+          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000096943/000009694326000048/ex991to5-6x2026req12026ear.htm"
+        },
+        {
+          "title": "Q4/FY2025 results and 2026 outlook (Business Wire, 26 Feb 2026)",
+          "url": "https://www.businesswire.com/news/home/20260226570435/en"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Jun 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000096943/000009694326000095/tfx-20260630.htm"
+        },
+        {
+          "title": "CEO appointment, 8-K Ex 99.1 (30 Apr 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000096943/000009694326000042/ex991to4-30x2026receoannou.htm"
+        },
+        {
+          "title": "MyChesCo: Q3 results date 5 Nov 2026",
+          "url": "https://www.mychesco.com/a/news/business/finance/teleflex-sets-november-5-date-for-third-quarter-results/"
+        },
+        {
+          "title": "MyChesCo: Teleflex responds to Irenic (Apr 2026)",
+          "url": "https://www.mychesco.com/a/news/business/public-companies/teleflex-responds-to-irenic-reaffirms-strategy-and-asset-sales/"
+        },
+        {
+          "title": "Panabee Q2 2026 summary (AI aggregator; OEM close, Q4 close timing)",
+          "url": "https://www.panabee.com/news/teleflex-earnings-q2-2026-report"
+        },
+        {
+          "title": "Earnings Whispers Q3 consensus (aggregator)",
+          "url": "https://beta.earningswhispers.com/go/w/TFX"
+        },
+        {
+          "title": "MarketBeat Q2 beat vs consensus (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/teleflex-nysetfx-posts-quarterly-earnings-results-beats-estimates-by-048-eps-2026-08-06/"
+        },
+        {
+          "title": "MarketBeat analyst ratings (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/TFX/price-target/"
+        },
+        {
+          "title": "StockAnalysis statistics: short interest, shares (aggregator)",
+          "url": "https://stockanalysis.com/stocks/tfx/statistics/"
+        },
+        {
+          "title": "InsiderTrades: institutional ownership (aggregator)",
+          "url": "https://www.insidertrades.com/teleflex-incorporated-stock"
+        },
+        {
+          "title": "Insiderset insider transactions (aggregator)",
+          "url": "https://www.insiderset.com/stocks/TFX/insider-transactions"
+        }
+      ]
+    },
+    "US:ROST": {
+      "market": "US",
+      "code": "ROST",
+      "name": "Ross Stores",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$245.74",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Off-price leader Ross is in a traffic-led growth spurt under CEO Jim Conroy: comps +17% in Q1 FY26 and +10% in Q2 FY26, GAAP EPS +37% and +71% (+32% ex a $0.60 tariff refund), and FY26 EPS guidance raised to $8.61-8.77 from $6.61. But sales growth (+13% in Q2) is below the 20% SEPA bar and guided to slow to +9-11% in Q3, and insiders have sold in clusters (six insiders in Mar 2026, then a $11.3M non-10b5-1 CEO sale on 14 Sep 2026), which caps the verdict at Watch only.",
+      "catalyst": "New CEO Jim Conroy's customer-acquisition push: comps accelerated to +17% in Q1 FY26 and +10% in Q2 FY26, with FY26 EPS guidance raised on 21 May and 20 Aug 2026 (earnings releases).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil EPS Q3 FY25 $1.58 (+7%), Q4 $2.00 (+12%), Q1 FY26 $2.02 (+37%), Q2 FY26 $2.66 (+71%; $2.06 ex refund, +32%). Q3 guide +11-16%",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Sales Q3 FY25 +10%, Q4 +12%, Q1 FY26 +21%, Q2 FY26 +13% ($6.26B); all organic (comps +10%). Q3 guide +9-11%. Below 20%, slowing",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Op margin Q2 FY26 17.6% vs 11.5% (13.5% ex refund), Q1 13.4% vs 12.2%; merch margin +110bp. No Code 33: sales growth 21%->13%",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: Q2 has $253M ($0.60/sh) one-off tariff refund; inventory +18% vs sales +13%. 1H OCF $1.71B vs NI $1.50B; buybacks ~1.6%/yr",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2 EPS $2.66 vs consensus $1.94 (FMP) and guide $1.85-1.93; FY26 guide raised 20 Aug to $8.61-8.77 (was $7.50-7.74). PTs raised to $285-290",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: CEO Conroy's traffic-led comp acceleration (+17%/+10% 1H FY26), new/lapsed shoppers, 115 new stores in FY26; guide raised twice",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "No. 2 US off-price leader, institutional favourite; RS 73. Peer TJX beat and raised 19 Aug 2026 but fell on Q3 guide; group highs not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "319.45M sh (14 Aug 2026), -6.6% vs 342.0M (Mar 2023); inst 94.4% (agg). Clustered insider sales Mar 2026 (6 names) and CEO $11.3M on 14 Sep 2026",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "1 Aug 2026: cash $4.29B, debt $1.02B (net cash $3.27B); 1H FY26 OCF $1.71B; TTM ROE ~43% (calculated). No raise needed",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3 FY26 results 19 Nov 2026 after close; guide EPS $1.75-1.83, consensus $1.82 (top of range); Q4 comp guide +4-5%. Short ~3.1%, 4.6 days",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed late Aug 2026 (exact date not found); next earnings 19 Nov 2026; no offering, shelf or ATM found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Sales growth +13% in Q2 FY26 and guided to +9-11% in Q3, below the SEPA 20% bar; Q4 comps guided only +4-5% against a +9% comparison",
+        "Q3 FY26 report on 19 Nov 2026 (15 days away) with consensus $1.82 at the top of the $1.75-1.83 guide; a soft Q4 outlook could break the new breakout",
+        "Insider selling: six insiders sold in Mar-Apr 2026 (~$21M per Form 144s) and the CEO sold $11.3M on 14 Sep 2026 outside a 10b5-1 plan",
+        "Over-owned: ~94% institutional (aggregator), so few new buyers left; FY26 EPS flattered by a ~$0.60 one-off tariff refund",
+        "Would upgrade if Q3 beats, Q4 guide rises and sales growth holds near 15-20% with no further insider selling"
+      ],
+      "next_event": "Q3 FY26 results (Aug-Oct 2026), 19 Nov 2026 after the close (Earnings Whispers; scanner)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q2 FY2026 earnings release (IR site, 20 Aug 2026)",
+          "url": "https://investors.rossstores.com/node/23266"
+        },
+        {
+          "title": "Q2 FY2026 earnings release, 8-K Ex 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000745732/000074573226000038/q226exhibit991.htm"
+        },
+        {
+          "title": "Q1 FY2026 earnings release (IR site, 21 May 2026)",
+          "url": "https://investors.rossstores.com/node/23161"
+        },
+        {
+          "title": "Q4/FY2025 earnings release (IR site, 3 Mar 2026)",
+          "url": "https://investors.rossstores.com/node/22901"
+        },
+        {
+          "title": "Q3 FY2025 earnings release (IR site, 20 Nov 2025)",
+          "url": "https://investors.rossstores.com/node/22846/pdf"
+        },
+        {
+          "title": "10-Q for quarter ended 1 Aug 2026 (cover data R1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000041/R1.htm"
+        },
+        {
+          "title": "10-K FY2022 cover (shares outstanding Mar 2023)",
+          "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573223000013/rost-20230128.htm"
+        },
+        {
+          "title": "Form 4, J. Conroy (sale 14 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000745732/000162353426000006/form4-09152026_050901.xml"
+        },
+        {
+          "title": "Form 4, K. Fleming (11 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000745732/000201584126000008/form4-09152026_050901.xml"
+        },
+        {
+          "title": "Q2 FY2026 call highlights (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/ross-stores-q2-earnings-call-highlights-2026-08-20/"
+        },
+        {
+          "title": "Citi PT $290, Q2 vs estimates (FMP, aggregator)",
+          "url": "https://site.financialmodelingprep.com/market-news/citigroup-raises-price-target-ross-stores-rost-q2-performance"
+        },
+        {
+          "title": "Jefferies PT $285, stock reaction (Finviz, 21 Aug 2026)",
+          "url": "https://finviz.com/news/384434/ross-stores-shares-surge-after-strong-q2-prompts-earnings-guidance-increase"
+        },
+        {
+          "title": "Form 144 proposed sales (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/rost/proposed-sales"
+        },
+        {
+          "title": "Institutional ownership (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/ROST"
+        },
+        {
+          "title": "Short interest (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/rost/shortinterest"
+        },
+        {
+          "title": "Next earnings date and consensus (Earnings Whispers, aggregator)",
+          "url": "https://www.earningswhispers.com/stocks/ROST"
+        },
+        {
+          "title": "TJX Q2 FY27 beat and raise (SentiSense, aggregator)",
+          "url": "https://app.sentisense.ai/stories/tjx-beats-q2-estimates-and-raises-fy2027-outlook-yet-shares-slip-on-weak-q3-guid-08192026"
         }
       ]
     }
