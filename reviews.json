@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T19:21:00Z",
+  "updated": "2026-11-04T22:55:50Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -11756,6 +11756,710 @@
         {
           "title": "Short interest (MarketBeat)",
           "url": "https://www.marketbeat.com/stocks/NYSE/JHX/short-interest"
+        }
+      ]
+    },
+    "US:CPAY": {
+      "market": "US",
+      "code": "CPAY",
+      "name": "Corpay",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$418.6",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Corpay reported Q3 2026 after the close on 4 Nov 2026: adjusted EPS $7.54 (+32%) beat its $7.15 guide and $7.20 consensus, revenue rose 18% to $1.38B, and FY26 guidance was raised a third time to adj EPS $27.90-28.10 (+31%, a record). But organic growth is only 11%, with the rest from acquisitions (Alpha Group) and buybacks (diluted shares -6.6%). In Aug 2026 the CEO sold about $88M of stock and other insiders also sold, all outside 10b5-1 plans. That clustered selling is a supply FAIL, which caps the verdict at Watch only.",
+      "catalyst": "Corporate Payments mix shift: segment organic growth +16-18% in 2026, plus Alpha Group (closed Q4 2025) and the 34% AvidXchange stake with an option to buy the rest (Oct 2025). FY26 guide raised 7 May, ~5 Aug and 4 Nov 2026 (8-Ks).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS Q3'25 +14%, Q4'25 +13%, Q1'26 +29%, Q2'26 +36% ($7.00), Q3'26 +32% ($7.54). FY26 guide $28 (+31%, record); FY27 consensus ~+15%",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Rev Q3'26 $1,382M +18% (Q1 +25%, Q2 +21%) but organic only 11%; gap is acquired (Alpha, AvidXchange-linked). FY27 consensus rev ~+9%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Adj EBITDA margin Q3'26 57.4% vs 57.7%; Q2 57.3% vs 56.3%; Q1 54.6% vs 55.2%. Margins flat. No Code 33 (sales growth slowing 25%->18%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: 9M'26 OCF $716M vs adj NI $1,362M (Q3 OCF negative); receivables +38% since Dec. Buybacks drive ~8pts of EPS growth; $100M FTC charge",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3'26 adj EPS $7.54 vs $7.15 guide and $7.20 consensus (StockStory); FY26 guide raised 3 times, from $25.50-26.50 (Feb) to $27.90-28.10 (4 Nov)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Corporate Payments +18% organic in Q3'26 (57% EBITDA margin); Alpha FX deal (Q4'25); 34% AvidXchange stake with option to buy the rest (Oct 2025)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Leader in fleet and corporate payments; institutional favourite; RS 87; +40% in a year (Barchart). Payments group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Insiders sold Aug 2026, none under 10b5-1: CEO Clarke 213,860 sh (~$88M) and Grp Pres King (Form 4s); director Stull per aggregator. Institutions ~99%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash $3.07B, debt $8.93B (net ~$5.9B), leverage 2.55x at Q2. $1.85B buybacks YTD. ROE not found. No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3 already reported; next is Q4'26 ~early Feb 2027 (est.). Stock -1.1% after hours on Q3. Short interest 5.3% of shares, 6.5 days to cover, edging up",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q2 2026 (to 30 Jun; filed Aug 2026), Q3 10-Q due. Next earnings ~early Feb 2027 (est.). No secondary, ATM or new shelf found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Clustered insider selling in Aug 2026 near $410-420, led by the CEO's ~$88M exercise-and-sell outside a 10b5-1 plan: supply overhang near the pivot",
+        "Organic growth stuck at ~11%; the 2027 consensus slows to ~+15% EPS and ~+9% revenue once the Alpha deal is in the prior-year base",
+        "Cash conversion: 9M OCF $716M vs adj NI $1.36B and receivables up 38% YTD; debt up to $8.9B while buybacks continue",
+        "Exposure to fuel prices, FX and spreads (guide assumes $4.90/gal US fuel); regulatory history (FTC $100M settlement)",
+        "Would upgrade if insider selling stops and Corporate Payments keeps organic growth near 18%+, lifting total organic growth toward the mid-teens"
+      ],
+      "next_event": "Q4 2026 results (Oct-Dec 2026), ~early Feb 2027 after the close (estimated from Q4 2025 release on 4 Feb 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q3 2026 earnings release (StockTitan copy of Business Wire, 4 Nov 2026)",
+          "url": "https://www.stocktitan.net/news/CPAY/corpay-reports-third-quarter-financial-rgjmxi1bo21f.html"
+        },
+        {
+          "title": "Q2 2026 earnings release, 8-K Ex 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000117545426000045/ex991q2_2026.htm"
+        },
+        {
+          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000117545426000029/ex991q1_2026.htm"
+        },
+        {
+          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (4 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000008/ex991q4_2025.htm"
+        },
+        {
+          "title": "Q3 2025 earnings release, 8-K Ex 99.1 (5 Nov 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545425000025/ex991q3_2025.htm"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Jun 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000117545426000050/cpay-20260630.htm"
+        },
+        {
+          "title": "Form 4: Ronald Clarke (21-25 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000119312526365658/ownership.xml"
+        },
+        {
+          "title": "Form 4: Alan King (14-18 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000119312526355956/ownership.xml"
+        },
+        {
+          "title": "Form 4: Alan King (20 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000119312526361107/ownership.xml"
+        },
+        {
+          "title": "Form 4: Alan King (21 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001175454/000119312526365660/ownership.xml"
+        },
+        {
+          "title": "StockStory Q3 2026 vs consensus (aggregator)",
+          "url": "https://stockstory.org/us/stocks/nyse/cpay/news/earnings/corpays-nysecpay-q3-2026-sales-beat-estimates"
+        },
+        {
+          "title": "Quantisnow insider list (aggregator)",
+          "url": "https://www.quantisnow.com/insiders/CPAY"
+        },
+        {
+          "title": "Equibles short interest and institutional ownership (aggregator)",
+          "url": "https://equibles.com/stocks/CPAY"
+        },
+        {
+          "title": "StockAnalysis consensus forecast (aggregator)",
+          "url": "https://stockanalysis.com/stocks/cpay/forecast/"
+        },
+        {
+          "title": "Barchart/Yahoo Q3 2026 preview (aggregator)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-corpay-q3-2026-earnings-150019404.html"
+        },
+        {
+          "title": "AvidXchange 34% stake news brief (Oct 2025, aggregator)",
+          "url": "https://www.itiger.com/news/2575780298"
+        }
+      ]
+    },
+    "US:FIVE": {
+      "market": "US",
+      "code": "FIVE",
+      "name": "Five Below",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$252.01",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Five Below's growth has re-accelerated: five straight double-digit comp quarters, adjusted EPS +158% in Q1 FY26 and +107% in Q2 FY26, sales +23-33%, and FY26 guidance raised twice. Fundamentals pass the SEPA bar, but three insiders sold within days of the Q2 report (4-9 Sep 2026; the two Form 4s checked were not 10b5-1), which counts as clustered selling and caps the verdict at Watch only. Guidance also implies growth slowing in 2H (Q3 comps +8-10% vs +14.1%).",
+      "catalyst": "CEO Winnie Park's turnaround: trend-led product and traffic gains drove comps +22.7% Q1 and +14.1% Q2 FY26, with FY26 guidance raised 3 Jun and 2 Sep 2026 (8-K releases) and ~150 new stores a year.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS Q3 FY25 $0.68 (+62%), Q4 $4.31 (+24%), Q1 FY26 $2.22 (+158%), Q2 FY26 (May-Jul) $1.68 vs $0.81 (+107%). FY26 guide adj $9.83-10.31",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Net sales +23.1% Q3 FY25, +24.3% Q4, +32.5% Q1 FY26, +22.9% Q2 FY26 ($1,261.5M); organic (comps +14.1%, stores +8.8%). Q3 guide ~+18%",
+          "result": "PASS"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Adj op margin Q2 FY26 9.0% vs 5.4%, Q1 12.0% vs 6.1%; adj GM 35.6% vs 33.4%. No Code 33: sales growth slowed 32.5%->22.9%",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: Q2 GAAP EPS $3.99 incl. $163.6M IEEPA tariff refund ($2.33/sh), excluded from adj. 1H OCF $443M vs $226M; inventory +17.7% < sales",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q2 adj EPS $1.68 vs Zacks consensus $1.34 (+25%), sales $1.26B vs $1.19B; FY26 adj EPS guide raised 2 Sep to $9.83-10.31 from $8.65-9.05",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "STRONG: Park-led turnaround, 5 straight double-digit comp qtrs, FY26 guide raised 3 Jun and 2 Sep 2026; ~150 net new stores/yr, Puerto Rico 2H27",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Turnaround / leader in teen-tween value retail; RS 82. Discount-retail group strength (OLLI, DG, TJX) not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "55.05M shs (2 Sep 2026), ~US$13.9B cap; inst ~106% (Chartmill, aggregator). 4-9 Sep 2026: Devine, Bull, Gellerman sold (2 checked: not 10b5-1)",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "1 Aug 2026: cash+ST inv $1,188M, no debt, leases $2.04B; 1H FY26 OCF $443M; $600M buyback authorised 29 Aug 2026. ROE not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q3 FY26 results ~3 Dec 2026 (EW; scanner 2 Dec); guide comps +8-10%, EPS $1.01-1.13, consensus $1.12; securities class action certified; SI ~4.1%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed ~Sep 2026; next earnings ~3 Dec 2026; no shelf, ATM or secondary found; $60M buyback in Q2",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Clustered insider selling after the Q2 report (4-9 Sep 2026): director Devine, COO Bull and CHRO Gellerman sold on the open market (Devine and Gellerman Form 4s not 10b5-1). Director Sargent also sold 20,000 shares in Mar 2026",
+        "Growth is set to slow in 2H FY26: the Q3 comp guide is +8-10% vs +14.1% in Q2, and FY guidance implies Q4 adj EPS growth of roughly +13-24%",
+        "Pre-mortem: a holiday-quarter comp miss as trend items fade, fuel and labor costs eating margins, or derating from a premium multiple after tripling in 12 months",
+        "Legal overhang: securities class action certified 3 Aug 2026, consumer suits seeking IEEPA tariff refunds, derivative suits",
+        "Would upgrade to SEPA candidate if insider selling stops and Q3 (3 Dec) beats with comps above 10% and another guidance raise"
+      ],
+      "next_event": "Q3 FY26 results (Aug-Oct 2026), ~3 Dec 2026 after the close (Earnings Whispers; scanner shows 2 Dec)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q2 FY2026 earnings release, 8-K Ex 99.1 (2 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000023/q22026fivebelowexhibit991.htm"
+        },
+        {
+          "title": "10-Q for quarter ended 1 Aug 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000027/five-20260801.htm"
+        },
+        {
+          "title": "Q1 FY2026 earnings release, 8-K Ex 99.1 (3 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000015/q12026fivebelowexhibit991.htm"
+        },
+        {
+          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (18 Mar 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000006/q42025fivebelowexhibit991.htm"
+        },
+        {
+          "title": "Q3 FY2025 earnings release, 8-K Ex 99.1 (3 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760925000048/q32025fivebelowexhibit991.htm"
+        },
+        {
+          "title": "Form 4: M. Devine sale (4 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000034/form4.xml"
+        },
+        {
+          "title": "Form 4: M. Gellerman sale (9 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000038/form4.xml"
+        },
+        {
+          "title": "Motley Fool: insiders trim positions after Q2 (13 Sep 2026)",
+          "url": "https://fool.com/investing/2026/09/13/insiders-trim-positions-in-five-below-stock-after"
+        },
+        {
+          "title": "Nasdaq: Q2 earnings call highlights (2 Sep 2026)",
+          "url": "https://www.nasdaq.com/articles/five-below-q2-earnings-call-highlights"
+        },
+        {
+          "title": "Zacks: post-earnings estimate revisions (2 Oct 2026, aggregator)",
+          "url": "https://www.zacks.com/stock/news/2999572/five-below-five-down-7-8-since-last-earnings-report-can-it-rebound"
+        },
+        {
+          "title": "Chartmill ownership and short interest (aggregator)",
+          "url": "https://chartmill.com/stock/quote/FIVE/ownership"
+        },
+        {
+          "title": "secform4.com insider holdings list (aggregator)",
+          "url": "https://www.secform4.com/insider-holders/1177609.html"
+        },
+        {
+          "title": "Rallies.ai: director Sargent sale, Mar 2026 (aggregator)",
+          "url": "https://rallies.ai/news/five-below-slides-as-insider-sale-headlines-and-valuation-jitters-hit-momentum-trade"
+        },
+        {
+          "title": "Earnings Whispers next date and consensus (aggregator)",
+          "url": "https://www.earningswhispers.com/stocks/five"
+        }
+      ]
+    },
+    "US:RHP": {
+      "market": "US",
+      "code": "RHP",
+      "name": "Ryman Hospitality Properties",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$136.37",
+      "verdict": "Watch only",
+      "confidence": "high",
+      "summary": "Ryman (Gaylord group-meeting resorts plus Opry Entertainment) beat and raised on 2 Nov 2026: Q3 AFFO/share $1.79 (+9.8%) vs ~$1.60 consensus, with FY26 AFFO guide lifted to $9.29 midpoint and record group bookings. This review uses AFFO/share as the main earnings measure (GAAP EPS shown too). But AFFO/share growth runs +10-18%, well under the 25% SEPA bar, and revenue growth (+10.7% in Q3) leans on acquisitions, so this is a quality REIT breakout rather than a SEPA earnings leader.",
+      "catalyst": "Grande Lakes Orlando acquisition (~$1.38B, closed 1 Sep 2026) plus a record Q3 2026 for future group room nights booked (653k at ~$293 ADR), per the 2 Nov 2026 8-K.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "AFFO/sh Q4'25 $2.38 +10.7%, Q1'26 $2.32 +10.5%, Q2 $2.77 +17.9%, Q3 $1.79 +9.8%. GAAP EPS Q3 $0.58 +9.4%. FY26 guide $9.29 = record",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Revenue Q4'25 +13.9%, Q1'26 +13.2%, Q2 +13.6%, Q3 +10.7% ($655.8M); same-store hospitality Q3 +8.0%, rest from acquisitions",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Adj EBITDAre margin Q3'26 29.2% flat (Q2 34.5% vs 32.1%); GAAP op margin Q3 14.4% vs 15.0%; same-store margin +1.2pt. No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "YTD Sep-26 OCF $515.6M vs $426.0M (+21%); Q3 $4.9M impairment, attrition fees -$2.8M. Main concern: Aug-26 5.9M-share issue dilutes AFFO/sh",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 AFFO/sh $1.79 vs ~$1.60 est, rev $655.8M vs ~$623-629M (Earnings Whispers); FY26 AFFO guide raised to $9.16-9.43 vs $9.21 consensus",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Grande Lakes Orlando bought for ~$1.38B (closed 1 Sep 2026); record Q3 group bookings, 2027-28 pace improving (8-K, 2 Nov 2026)",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Leader in large group-meeting resorts (Gaylord); RS 89. Hotel REIT peer HST made repeated 52-week highs Apr-Jul 2026. Cyclical, mid-to-late cycle",
+          "result": "PASS"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "68.99M sh (30 Oct 2026), ~US$9.4B cap; +9.5% shares in 2026 via $117 offering; inst ~94% (aggregator); chair Reed bought 8,993 sh 7 Nov 2025",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash $348M, debt $4,659M, net ~$4.31B (~4.6x FY26 Adj EBITDAre guide, derived); revolvers $930M undrawn. ROE not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next: Q4 2026 results ~late Feb 2027 (est.); no binary events found. Short 3.03M sh (~4.4%) 15 Oct 2026, down from 3.39M",
+          "result": "PASS"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q3 2026 (to 30 Sep), filed ~3 Nov 2026; WKSI shelf 333-298164 (10 Aug 2026); Aug-26 secondary 5.865M sh at $117; no ATM found",
+          "result": "CAUTION"
+        }
+      ],
+      "risks": [
+        "AFFO/share growth of ~10% (FY26 guide midpoint) is far below the 25%+ SEPA bar; 2027 growth may slow as Grande Lakes is integrated",
+        "Leverage of about US$4.3B net debt (~4.6x EBITDAre); higher rates or a group-travel slowdown would hit a levered REIT",
+        "Over-owned: ~94% institutional (aggregator), so there are few new buyers; WKSI shelf allows quick further offerings for acquisitions",
+        "Pre-mortem: corporate meeting cancellations in a recession, a weak Q4 Gaylord National comparison, or a REIT sell-off on rising yields",
+        "Would upgrade if 2027 guidance (due ~Feb 2027) points to AFFO/share growth of 20%+ with Grande Lakes accretion"
+      ],
+      "next_event": "Q4/FY2026 results and 2027 guidance, ~late Feb 2027 (estimated from the 23 Feb 2026 date last year)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (2 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926121676/tmb-ex99d1.htm"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Sep 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926121837/rhp-20260930x10q.htm"
+        },
+        {
+          "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926092380/tmb-20260806xex99d1.htm"
+        },
+        {
+          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (30 Apr 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926053499/tmb-20260430xex99d1.htm"
+        },
+        {
+          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (23 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926018817/tmb-20260223xex99d1.htm"
+        },
+        {
+          "title": "Preliminary prospectus supplement 424B5, Grande Lakes equity offering (10 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926093026/tm2622522-3_424b5.htm"
+        },
+        {
+          "title": "Form 4, M. Fioravanti RSU dividend equivalents (Jul 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000119312526304303/ownership.xml"
+        },
+        {
+          "title": "Earnings Whispers Q3 consensus and date (aggregator)",
+          "url": "https://www.earningswhispers.com/stocks/RHP"
+        },
+        {
+          "title": "Earnings Whispers Q3 preview, FY guide and consensus (aggregator, 26 Oct 2026)",
+          "url": "https://finviz.com/news/407971/rymans-group-boom-meets-a-trimmed-ffo-range-as-street-sits-near-the-top"
+        },
+        {
+          "title": "InsiderTrades insider and institutional ownership (aggregator)",
+          "url": "https://www.insidertrades.com/ryman-hospitality-properties-inc-stock/"
+        },
+        {
+          "title": "Equibles short interest (aggregator)",
+          "url": "https://equibles.com/stocks/rhp/short-interest"
+        },
+        {
+          "title": "MarketBeat: HST new 52-week high (28 Jul 2026, aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/host-hotels-resorts-nasdaqhst-hits-new-52-week-high-still-a-buy-2026-07-28/"
+        }
+      ]
+    },
+    "US:THC": {
+      "market": "US",
+      "code": "THC",
+      "name": "Tenet Healthcare Corporation",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$292.25",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Tenet's adjusted EPS is accelerating: +52% in Q2 and +79% in Q3 2026 (Q3 $6.64 vs $3.70). Drivers are margin expansion, cost control, a high-margin USPI ambulatory mix and buybacks that cut the diluted share count 9% YoY. FY26 adjusted EPS guidance has been raised three times. Sales growth is only about 6-7%, GAAP profit is inflated by $1.5B YTD of CommonSpirit/Conifer contract-termination revenue, and consensus sees FY27 EPS falling. Clustered open-market insider selling in Jun-Jul 2026 (CEO $27.6M, COO, CIO and six directors) is a supply-and-ownership FAIL, which caps the verdict at Watch only.",
+      "catalyst": "WEAK-MODERATE: hospital margin expansion and the ambulatory (USPI) mix drove three FY26 guidance raises (Apr 30, Jul 23, Oct 29 2026), but FY27 consensus EPS ($20.5) is below FY26 adj guide ($22.53 mid).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS Q4'25 $4.70 (+37%), Q1'26 $4.82 (~+13%), Q2'26 $6.12 vs $4.02 (+52%), Q3'26 $6.64 vs $3.70 (+79%); FY26 guide $22.53 mid, a record",
+          "result": "PASS"
+        },
+        {
+          "check": "Sales",
+          "finding": "Revenue Q4'25 +8.9%, Q1'26 +2.8%, Q2'26 +6.8%, Q3'26 +6.5% ($5,631M), all organic; well under 20%. Q3 ex-timing about +4.6%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q3'26 adj EBITDA margin 24.1% vs ~20.8% (ex $147M timing ~21.8%); SWB fell to 38.6% of revenue. No Code 33: sales not accelerating",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Top concern: Q3 GAAP EPS $12.41 includes $646M Conifer termination revenue ($1.5B YTD); adj EBITDA has $147M timing; buybacks lift EPS",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 adj EPS $6.64 vs $4.68 consensus; rev $5.63B vs $5.51B. FY26 adj EPS guide raised Oct 29 to $22.05-23.01 from $20.30-21.69",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "WEAK-MODERATE: margin gains and USPI mix (3 guide raises in 2026), but the CommonSpirit/Conifer contract ends after 2026 and FY27 EPS is seen lower",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Hospital-chain leader by RS (91); group weak: HCA -4% and UHS -6% on 27 Oct 2026 after HCA guided 2027 flat on exchange and Medicaid losses",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "79.6M shares (23 Oct 26), ~$23B cap; inst ~99% (over-owned). Clustered sales Jun-Jul 26: CEO 100k ($27.6M), COO, CIO, 6 directors",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash $2,674M, debt $13,243M, net debt/adj EBITDA 2.11x; 9M OCF $3,507M; $1.62B buybacks YTD. ROE not found. No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q4'26 results and first 2027 outlook ~mid-Feb 2027 (est.); risks: Medicaid SDP caps, ACA exchange losses. Short 1.8M sh, ~2.3%, 3.3 days (15 Oct)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q3 2026 (qtr to 30 Sep), cover dated 23 Oct 2026; next earnings ~Feb 2027. No shelf, ATM or secondary found; $2.0B notes refi 2026",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Insider distribution: CEO Sutaria sold 100,000 shares (~$27.6M, ~Jul 2026), and COO Foo, CIO Arbour and six directors also sold in Jun-Jul 2026. Whether these were 10b5-1 plan sales was not verified.",
+        "2027 earnings cliff: CommonSpirit/Conifer services end after 2026; consensus FY27 EPS is $20.5 vs the FY26 adjusted guide of $22.05-23.01 (MarketScreener). Watch the 2027 outlook in Feb 2027.",
+        "Policy headwinds: the enhanced ACA exchange subsidies expired at end-2025, and federal caps on Medicaid state-directed payments start in 2027. HCA guided 2027 flat on 27 Oct 2026.",
+        "Pre-mortem for a 30% drop: weak 2027 guidance in Feb; adverse Medicaid or exchange policy; a hospital-group de-rating as peers (HCA, UHS) guide lower.",
+        "Would upgrade if insider selling stops and the 2027 outlook shows adjusted EPS growth of 20% or more without contract-termination revenue."
+      ],
+      "next_event": "Q4 2026 results and initial 2027 outlook, ~mid-Feb 2027 (estimated from the 11 Feb 2026 Q4'25 release; not confirmed)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q3 2026 10-Q (SEC, quarter to 30 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000070318/000007031826000050/thc-20260930.htm"
+        },
+        {
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (SEC; page unreachable, figures taken from coverage)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000070318/000007031826000045/thc-20260930ex991earningsr.htm"
+        },
+        {
+          "title": "Becker's: Tenet Q3 2026 operating margin and outlook (29 Oct 2026)",
+          "url": "https://www.beckershospitalreview.com/finance/tenet-posts-31-1-q3-operating-margin-raises-2026-outlook/"
+        },
+        {
+          "title": "Becker's: Tenet Q2 2026 results (Jul 2026)",
+          "url": "https://www.beckershospitalreview.com/finance/tenet-posts-26-7-q2-margin-raises-2026-outlook/"
+        },
+        {
+          "title": "Finsee Q3 2026 earnings review, guidance table (aggregator)",
+          "url": "https://finsee.ai/earnings/thc/2026/q3/en/"
+        },
+        {
+          "title": "StockStory Q3 2026 vs consensus (aggregator)",
+          "url": "https://stockstory.org/us/stocks/nyse/thc/news/earnings/tenet-healthcare-nysethc-exceeds-q3-2026-expectations"
+        },
+        {
+          "title": "QuiverQuant Q3 2026 summary and insider trades (aggregator)",
+          "url": "https://www.quiverquant.com/news/Tenet+Posts+%241+Billion+Q3+Profit+and+Raises+2026+Outlook"
+        },
+        {
+          "title": "Q4/FY2025 results release (11 Feb 2026, mirror)",
+          "url": "https://www.biopharmawatch.com/news/THC/tenet-reports-strong-fourth-quarter-and-fy-2025-results-provides-2026-financial-outlook-ne-thc-20260211"
+        },
+        {
+          "title": "Quartr Q1 2026 summary (aggregator)",
+          "url": "https://quartr.com/events/tenet-healthcare-corporation-thc-q1-2026_3P7PG9oN"
+        },
+        {
+          "title": "MarketBeat Q2 2026 EPS vs consensus (aggregator)",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-7-24-tenet-healthcare-co-stock/"
+        },
+        {
+          "title": "RTTNews Q3 2025 results (prior-year comparison)",
+          "url": "https://www.rttnews.com/3586647/tenet-healthcare-corp-q3-profit-decreases-but-beats-estimates.aspx"
+        },
+        {
+          "title": "QuantisNow Form 4 insider transactions (aggregator)",
+          "url": "https://quantisnow.com/insiders/THC"
+        },
+        {
+          "title": "Chartmill ownership (aggregator)",
+          "url": "https://www.chartmill.com/stock/quote/THC/ownership"
+        },
+        {
+          "title": "Fintel institutional holders (aggregator)",
+          "url": "https://fintel.io/so/us/thc"
+        },
+        {
+          "title": "Options Analysis Suite short interest (aggregator)",
+          "url": "https://www.optionsanalysissuite.com/stocks/thc/short-interest"
+        },
+        {
+          "title": "MarketScreener calendar and EPS forecasts (aggregator)",
+          "url": "https://uk.marketscreener.com/quote/stock/TENET-HEALTHCARE-CORPORAT-11877509/calendar/"
+        },
+        {
+          "title": "TIKR: HCA guides 2027 flat, hospital stocks fall (27 Oct 2026)",
+          "url": "https://www.tikr.com/blog/universal-health-services-fell-6-as-rival-hca-guides-2027-earnings-generally-consistent-with-2026"
+        }
+      ]
+    },
+    "US:XHR": {
+      "market": "US",
+      "code": "XHR",
+      "name": "Xenia Hotels & Resorts, Inc.",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$21.9",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Xenia, a luxury/upper-upscale hotel REIT (calendar-year quarters), is breaking out after a strong Q3 2026: Adjusted FFO/share (used here as the earnings measure; GAAP EPS is still a loss) +56.5% to $0.36 on same-property RevPAR +12.5%, and FY26 AFFO guidance raised a third time to $2.08-2.14. But the Q3 jump is off an easy Houston-hurt Q3 2025 comp, Q2 AFFO/share grew only +7% and revenue growth is ~12% at best, below the SEPA bar. Clustered open-market selling by three officers (Feb-May 2026) and 90%+ institutional ownership cap it at Watch only.",
+      "catalyst": "MODERATE: Grand Hyatt Scottsdale post-renovation ramp plus strong group demand; Q3 2026 same-property RevPAR +12.5%, October ~+8%, FY26 AFFO guide raised 1 May, 30 Jul and 3 Nov 2026 (8-K releases).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "AFFO/sh Q4'25 $0.45 +15%, Q1'26 $0.63 +24%, Q2 $0.61 +7%, Q3 $0.36 +57% (easy comp). GAAP EPS Q3 -$0.03 vs -$0.14; FY26 guide +20%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Total revenue Q1'26 $295.4M +2.2%, Q2 $295.5M +2.8%, Q3 $263.8M +11.6%; organic (RevPAR +12.5%), accelerating but under 20%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Same-prop hotel EBITDA margin Q3 22.9% (+295bp), Q2 28.7% (-65bp), Q1 29.7% (+270bp); YTD 27.4% (+145bp). No Code 33",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Concern: Q3 AFFO jump off weak Q3'25 base; 9M OCF $167.0M only +7.7% vs AFFO +16.1%; GAAP loss from $38.8M Q2 impairment; no buybacks in 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 rev $263.8M vs $251.2M consensus (Benzinga); FY26 AFFO/sh guide raised 3x to $2.08-2.14 (3 Nov) vs $1.81 consensus pre-report (EW)",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Grand Hyatt Scottsdale ramp + group strength; RevPAR guide raised to +7.75-8.25% (3 Nov 2026), Oct RevPAR ~+8%",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Cyclical hotel REIT, mid/late cycle; RS 91. Peers also raising: PEB Q3 RevPAR +8.3%, guide up (29 Oct); HST +18.8% in 3 mo to Jul 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Clustered open-market sells: Bloom 202.5k sh (25-26 Feb), CFO Shah 120k (7 May), CAO Johnson 24.9k (6 May); inst. 92-98% (aggregators)",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: debt ~$1.37B @5.55%, cash ~$161M, net debt ~$1.21B (calc, ~4.3x EBITDAre); liquidity $661M; ROE ~-0.6% TTM. No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Next: Q4 2026 results ~late Feb 2027 (est.); Andaz Napa & Ritz Denver renovations from Dec 2026; short 3.5% of float, falling",
+          "result": "PASS"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Q3 10-Q filed ~3 Nov 2026; next earnings ~late Feb 2027 (est.); $200M ATM available (unused 2026); shelf details not found",
+          "result": "CAUTION"
+        }
+      ],
+      "risks": [
+        "Q3 AFFO +56.5% laps a weak Q3 2025 (Houston RevPAR -21%); growth may normalize toward the +7-24% seen in Q4 2025-Q2 2026",
+        "Officers Bloom, Shah and Johnson sold ~347k shares on the open market Feb-May 2026; institutional ownership 92-98% leaves few new buyers",
+        "Cyclical hotel demand: a macro or travel slowdown and Q4/Q1 renovation disruption at Andaz Napa and Ritz-Carlton Denver could hit RevPAR",
+        "Leverage ~4.3x net debt/EBITDAre (calc) and a $200M ATM that could be used if the stock runs",
+        "Would upgrade if Q4 2026 and 2027 guidance show sustained 25%+ AFFO/share growth and insider selling stops"
+      ],
+      "next_event": "Q4/FY2026 results, ~late Feb 2027 (estimated from 24 Feb 2026 prior-year date; not yet announced)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (3 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001616000/000162828026069069/ex991q32026xhrearningsrele.htm"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Sep 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001616000/000162828026069588/xhr-20260930.htm"
+        },
+        {
+          "title": "Q2 2026 earnings release, 8-K Ex 99.1 (30 Jul 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001616000/000162828026050765/ex991q22026xhrearningsrele.htm"
+        },
+        {
+          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (1 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001616000/000162828026029092/ex991q12026xhrearningsrele.htm"
+        },
+        {
+          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (24 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1616000/000162828026010860/ex991q42025xhrearningsrele.htm"
+        },
+        {
+          "title": "Form 4: Atish Shah sale (7 May 2026), via Stock Titan",
+          "url": "https://stocktitan.net/sec-filings/XHR/form-4-xenia-hotels-resorts-inc-insider-trading-activity-1523e877a5b0.html"
+        },
+        {
+          "title": "Form 4: Joseph Johnson sale (6 May 2026), via Stock Titan",
+          "url": "https://stocktitan.net/sec-filings/XHR/form-4-xenia-hotels-resorts-inc-insider-trading-activity-f57ee0f85386.html"
+        },
+        {
+          "title": "Insider transactions list (aggregator)",
+          "url": "https://equibles.com/stocks/xhr/insidertrading"
+        },
+        {
+          "title": "MarketBeat insider trades (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/XHR/insider-trades"
+        },
+        {
+          "title": "Insider Trades: Bloom sale, institutional ownership 92.43% (aggregator)",
+          "url": "https://www.insidertrades.com/alerts/nyse-xhr-insider-buying-and-selling-2026-02-27"
+        },
+        {
+          "title": "StockAnalysis statistics: short interest, ownership, ROE (aggregator)",
+          "url": "https://stockanalysis.com/stocks/xhr/statistics"
+        },
+        {
+          "title": "Benzinga earnings forecasts (aggregator)",
+          "url": "https://www.benzinga.com/quote/XHR/earnings-forecasts"
+        },
+        {
+          "title": "Earnings Whispers Q3 2026 preview (26 Oct 2026, via Finviz)",
+          "url": "https://finviz.com/news/408287/xenias-accelerating-second-half-faces-its-first-real-test-as-shares-lag-despite-raises"
+        },
+        {
+          "title": "Midas: Q2 2026 vs FactSet consensus (aggregator)",
+          "url": "https://www.getmidas.com/midasin-kulaklari/xenia-hotels-resorts-geliri-artti-2026-duzeltilmis-ffo-rehberini-yukseltti-p-644878"
+        },
+        {
+          "title": "CoStar: Q3 2025 Houston drag (31 Oct 2025)",
+          "url": "https://www.costar.com/article/967613870/xenias-third-quarter-earnings-show-drag-in-houston-steady-group-hotel-performance"
+        },
+        {
+          "title": "Pebblebrook Q3 2026 release, 8-K Ex 99.1 (29 Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001474098/000147409826000074/a8kq3-2026erex991.htm"
+        },
+        {
+          "title": "Zacks/Nasdaq: Host Hotels gains 18.8% (7 Jul 2026)",
+          "url": "https://www.nasdaq.com/articles/host-hotels-gains-188-three-months-will-trend-last"
         }
       ]
     }
