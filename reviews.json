@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:55:50Z",
+  "updated": "2026-11-04T22:55:53Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -3135,119 +3135,131 @@
       "market": "US",
       "code": "APOG",
       "name": "Apogee Enterprises, Inc.",
-      "date": "2026-10-27",
+      "date": "2026-11-04",
       "status_at_review": "Breaking out",
-      "price_at_review": "US$45.03",
+      "price_at_review": "US$47.99",
       "verdict": "Reject",
       "confidence": "high",
-      "summary": "Apogee, an architectural glass/metals and coatings maker, beat big in Q2 FY27 (Jun-Aug 2026; adj EPS $1.17 vs $0.98) and raised guidance, helped by the Kalwall deal and Project Fortify savings. But adj EPS growth is only +1.8% and +19.4% in the last two quarters, organic sales grew +4.6%, and FY27 adj EPS guidance ($3.00-3.40) is still below FY26's $3.47. This is a cyclical recovery story, not a SEPA earnings leader.",
-      "catalyst": "Kalwall (closed 1 Jul 2026, ~$85M revenue) and Groglass (announced 2 Sep 2026, ~$30M revenue) deals, plus Fortify savings, led to a FY27 guidance raise on 6 Oct 2026 (MODERATE).",
+      "summary": "Apogee makes architectural glass, metals, services and coatings. It beat Q2 FY27 (Jun-Aug 2026; adj EPS $1.17 vs ~$0.64 consensus) and raised guidance, helped by the Kalwall and Groglass deals and Project Fortify savings. Nothing has changed since the 27 Oct Reject. The biggest problem is that raised FY27 guidance of $3.00-3.40 still implies 2H adj EPS of $1.26-1.66, against $1.94 a year earlier. Consensus has Q3 at $0.80 vs $1.02, a 22% fall. This is a cyclical, acquisition-led recovery, not a SEPA earnings leader.",
+      "catalyst": "Kalwall (closed 1 Jul 2026, ~$85M revenue) and Groglass (announced 2 Sep, reported closed Sep 2026, ~$30M revenue), plus Fortify savings, drove the 6 Oct 2026 FY27 guidance raise (MODERATE).",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "Adj EPS: Q3FY26 -14%, Q4 +3%, Q1FY27 +2%, Q2FY27 (Jun-Aug26) $1.17 +19%. GAAP Q2 $1.07 -3%. FY27 guide $3.00-3.40 vs FY26 $3.47",
+          "finding": "Adj EPS Q3FY26 $1.02 -14%, Q4 $0.92 +3%, Q1FY27 $0.57 +2%, Q2FY27 (Jun-Aug26) $1.17 +19%. FY27 guide $3.00-3.40 < FY26 $3.47",
           "result": "FAIL"
         },
         {
           "check": "Sales",
-          "finding": "Q2 FY27 $391.1M +9.2% YoY (organic +4.6%, Kalwall +4.6%); 6M +4.1% (organic +1.8%). FY26 organic -1.6%. Growth comes from acquisitions",
+          "finding": "Q2 FY27 $391.1M +9.2% (organic +4.6%, Kalwall +4.6pts); 6M +4.1% (organic +1.8%); Q1 -1.1%; FY26 organic -1.6%. Acquisition-led",
           "result": "CAUTION"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "Q2 FY27 GM 24.6% vs 23.1%, op margin 8.6% vs 7.5%; Q1 op 5.5% vs 2.0%. Still below FY25 GM 26.4%. No Code 33: sales not accelerating",
+          "finding": "Q2 FY27 GM 24.6% vs 23.1%, op margin 8.6% vs 7.5%; 6M op 7.1% vs 4.8%. Still below FY25 GM 26.4%/op 8.7%. No Code 33",
           "result": "PASS"
         },
         {
           "check": "Earnings quality",
-          "finding": "Recurring 'one-offs': FY26 Fortify $27.4M, CEO $3.0M, acq costs each quarter. 6M OCF $43.3M vs NI $33.9M OK. Inventory +19% since Feb vs sales +4%",
+          "finding": "Recurring adj items (Fortify restructuring, acq/integration costs); Q2 GAAP $1.07 vs adj $1.17. 6M OCF $43.3M vs NI $33.9M OK; inventory up (10-Q)",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "Q2 FY27 (6 Oct 2026) adj EPS $1.17 vs $0.63 consensus; revenue $391.1M vs $359.5M (aggregator). FY27 guide raised to $3.00-3.40 from $2.70-3.25",
+          "finding": "Q2 FY27 (6 Oct) adj EPS $1.17 vs ~$0.64 est, rev $391.1M vs ~$351M; FY27 guide raised to $3.00-3.40. Zacks to Strong Buy 16 Oct",
           "result": "PASS"
         },
         {
           "check": "Catalyst",
-          "finding": "MODERATE: Kalwall closed 1 Jul 2026 ($105M + earnout) and Groglass announced 2 Sep 2026 (up to EUR62.5M); Fortify Phase 2 savings",
+          "finding": "MODERATE: Kalwall closed 1 Jul 2026; Groglass closed Sep 2026 (adviser Oaklins); Fortify savings. Mgmt: adds revenue but only modest FY27 EPS",
           "result": "CAUTION"
         },
         {
           "check": "Category and group",
-          "finding": "Cyclical turnaround in nonresidential construction; management says glass market 'challenging' and demand 'mixed' (Q2 call). Peer group strength not found",
+          "finding": "Cyclical turnaround in nonresidential construction; mgmt says glass demand soft, fewer jobs and project delays (Q2 call). Services backlog $833M +5% YoY",
           "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "20.90M shares (2 Oct 2026); float 20.24M; mkt cap ~$871M (19 Oct 2026); shares -2% YoY; institutions 94%, insiders 3% (aggregator). Long-listed",
-          "result": "PASS"
+          "finding": "20.89M shs, ~$1.0B cap; shs ~-2% YoY; ~232 13F holders ~92% (Q2 2026, implied): over-owned. Only open-mkt sale: 1,200 shs 28 Oct",
+          "result": "CAUTION"
         },
         {
           "check": "Balance sheet",
-          "finding": "29 Aug 2026: cash $36.5M, debt $335.5M, net debt $299.0M, leverage 1.7x; FY26 OCF $122.5M; ROE 13.1% (aggregator). Groglass will add debt. No raise",
+          "finding": "29 Aug 2026: cash $36.5M, LT debt $335.5M (vs $232.3M Feb), leverage 1.7x; FY26 OCF $122.5M; Groglass adds debt. ROE not verified. No raise",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "Q3 FY27 results ~6 Jan 2027 (scanner date, not confirmed). Short interest 3.89% of float, down from 935k to 787k shares (aggregator). Hold: profit cushion only",
+          "finding": "Q3 FY27 results ~6 Jan 2027 (not yet confirmed). Consensus Q3 $0.80 vs $1.02 a year ago. Short 0.87M shs, 4.3% of float, up from ~0.79M",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q: quarter ended 29 Aug 2026 (cover dated 2 Oct 2026). Next earnings ~6 Jan 2027. No shelf, ATM or secondary offering found",
+          "finding": "Last 10-Q: quarter ended 29 Aug 2026 (filed ~2 Oct 2026). Next earnings ~6 Jan 2027. No shelf, ATM or secondary offering found",
           "result": "PASS"
         }
       ],
       "risks": [
-        "FY27 adj EPS guidance midpoint ($3.20) is still below FY26 ($3.47), so this is not a breakout year",
-        "Nonresidential construction is cyclical: glass orders are weak and project delays continue",
-        "Debt rose to $335.5M after Kalwall and will rise further with Groglass, while integration risk is building",
-        "Pre-mortem for a 30% fall: Q3 misses after a one-off Q2 beat; aluminium and material costs squeeze margins; organic sales turn negative",
-        "Next event: Q3 FY27 results ~6 Jan 2027. Two quarters of +25% adj EPS with organic growth would change the verdict"
+        "Guidance implies 2H FY27 adj EPS down 14-35% YoY; consensus Q3 $0.80 vs $1.02, Q4 $0.81 vs $0.92",
+        "Nonresidential construction cycle: glass demand soft, project delays, and organic growth is only low single digits",
+        "Debt up ~$100M+ after Kalwall and Groglass; integration and aluminium cost risk",
+        "Pre-mortem for a 30% fall: the Q2 beat proves one-off and Q3 misses; margins slip back as glass orders weaken; the ~92% institutional base sells on a cut",
+        "Next event: Q3 FY27 results ~6 Jan 2027. Two quarters of +25% adj EPS with real organic growth would change the verdict"
       ],
-      "next_event": "Q3 FY27 results (Sep-Nov 2026), ~6 Jan 2027",
+      "next_event": "Q3 FY27 results (Sep-Nov 2026), ~6 Jan 2027 (estimated, not yet confirmed)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
         {
-          "title": "Apogee FY27 Q2 results, 8-K Ex.99 (6 Oct 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000100/a82926fy27q2results.htm"
+          "title": "Apogee FY27 Q2 results release (6 Oct 2026, via Finviz/Business Wire)",
+          "url": "https://finviz.com/news/399029/apogee-enterprises-reports-fiscal-2027-second-quarter-results"
         },
         {
-          "title": "Apogee FY27 Q1 results, 8-K Ex.99 (26 Jun 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000058/a53026fy27q1results.htm"
+          "title": "Apogee FY26 Q4 and full-year results (IR site, 24 Apr 2026)",
+          "url": "https://www.apog.com/node/25216"
         },
         {
-          "title": "Apogee FY26 Q4 and full-year results, 8-K Ex.99 (24 Apr 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000020/a22826fy26q4results.htm"
+          "title": "Apogee Q2 FY27 earnings call transcript (Earnings Whispers)",
+          "url": "https://earningswhispers.com/transcript/APOG/Q22027"
         },
         {
-          "title": "Apogee FY26 Q3 results, 8-K Ex.99 (7 Jan 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000005/a112925fy26q3results.htm"
+          "title": "Q1 FY27 results vs estimates (Earnings Whispers, aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/APOG"
         },
         {
-          "title": "Apogee 10-Q, quarter ended 29 Aug 2026",
+          "title": "Q3 FY26 results summary (Rallies.ai, aggregator)",
+          "url": "https://rallies.ai/news/apogee-reports-q3-sales-of-3486m-eps-falls-to-077-and-cuts-fy26-outlook"
+        },
+        {
+          "title": "Q2 FY27 vs estimates (StockStory via Webull, aggregator)",
+          "url": "https://www.webull.com/news/15701133396476928"
+        },
+        {
+          "title": "Groglass acquisition closing (Oaklins deal page)",
+          "url": "https://www.oaklins.com/au/en/deals/112241/"
+        },
+        {
+          "title": "Benzinga earnings forecasts (aggregator)",
+          "url": "https://www.benzinga.com/quote/APOG/earnings-forecasts"
+        },
+        {
+          "title": "MarketBeat price targets (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/APOG/price-target/"
+        },
+        {
+          "title": "Blarkad insider transactions (Form 4 aggregator)",
+          "url": "https://blarkad.com/ticker/APOG/insiders"
+        },
+        {
+          "title": "InsiderSet institutional ownership, 13F Q2 2026 (aggregator)",
+          "url": "https://www.insiderset.com/stocks/APOG/institutional-ownership"
+        },
+        {
+          "title": "Fintel short interest (aggregator)",
+          "url": "https://fintel.io/s/us/apog"
+        },
+        {
+          "title": "Previous review's SEC 10-Q, quarter ended 29 Aug 2026 (not re-fetched; SEC blocked)",
           "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000103/apog-20260829.htm"
-        },
-        {
-          "title": "Apogee to acquire Kalwall, 8-K (28 May 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000044/apog-20260527_d3.htm"
-        },
-        {
-          "title": "Apogee to acquire Groglass (2 Sep 2026)",
-          "url": "https://ir.apog.com/node/25571"
-        },
-        {
-          "title": "Apogee Q2 earnings call highlights (Nasdaq)",
-          "url": "https://nasdaq.com/articles/apogee-enterprises-q2-earnings-call-highlights"
-        },
-        {
-          "title": "APOG crushes Q2 estimates (aggregator)",
-          "url": "https://parameter.io/apogee-enterprises-apog-crushes-q2-estimates-shares-surge-over-20/"
-        },
-        {
-          "title": "APOG statistics (aggregator)",
-          "url": "https://stockanalysis.com/stocks/apog/statistics/"
         }
       ]
     },
@@ -7755,37 +7767,37 @@
       "market": "US",
       "code": "ASH",
       "name": "Ashland Inc.",
-      "date": "2026-10-29",
+      "date": "2026-11-04",
       "status_at_review": "Breaking out",
-      "price_at_review": "US$74.38",
+      "price_at_review": "US$76.44",
       "verdict": "Reject",
       "confidence": "high",
-      "summary": "Ashland (pharma/personal-care/coatings additives, ~$3.4B cap) is an activist-driven turnaround story: Standard Investments owns 8.9% and Ancora won two board seats and a capital allocation committee in July 2026. But adjusted EPS has fallen YoY for four straight quarters (Q3 FY26 $1.02 vs $1.04), sales are flat over 9M FY26 (+1%), margins are squeezed and FY26 guidance was cut twice. With earnings and sales both failing, it is a Reject on SEPA fundamentals despite the breakout.",
-      "catalyst": "Activist pressure: Standard Investments raised its stake to 8.9% (13D/A, May 2026) and Ancora's 27 Jul 2026 cooperation pact added two directors and a Capital Allocation Advisory Committee.",
+      "summary": "Ashland (pharma/personal-care/coatings additives, ~$3.4B cap) is an activist-backed turnaround; Q4 FY26 (Jul-Sep 2026, released 3 Nov) showed only +4% adj EPS ($1.12 vs $1.08), missing the $1.27 consensus, on +4% sales. FY26 adj EPS fell 2% to $3.31 and adj EBITDA margin slipped to 20.7% from 22.0%. Earnings and sales both still fail SEPA thresholds, so it remains a Reject despite the post-results breakout.",
+      "catalyst": "Activist pressure: Standard Investments 8.9% stake (13D/A, May 2026) and Ancora's 27 Jul 2026 pact (two directors, capital allocation committee); FY27 guide calls for adj EBITDA $405-435M vs $385M in FY26.",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "Adj EPS ex-amort YoY: Q4 FY25 $1.08 -14%; Q1 FY26 $0.26 -7%; Q2 $0.91 -8%; Q3 (Apr-Jun 26) $1.02 -2% (calc). FY25 $3.38 -24%. Q4e $1.27",
+          "finding": "Adj EPS ex-amort YoY: Q1 FY26 $0.26 -7%; Q2 $0.91 -8%; Q3 $1.02 -2%; Q4 (Jul-Sep 26) $1.12 +4% (calc). FY26 $3.31 -2% (calc). GAAP Q4 -$0.35",
           "result": "FAIL"
         },
         {
           "check": "Sales",
-          "finding": "Sales YoY: Q4 FY25 -8% (organic -1%); Q1 FY26 -5%; Q2 +1% (FX +3%); Q3 $497M +7% (vol +6%). 9M FY26 $1,365M +1% (calc). Accelerating but far below 20%",
+          "finding": "Q4 FY26 $498M +4% (vol +3%, price +2%, FX -1%); Q3 +7%; Q2 +1%; Q1 -5%. FY26 $1,863M +2%, organic +3% ex Avoca. FY27 guide +2-6%",
           "result": "FAIL"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "Adj EBITDA margin: Q3 FY26 21.9% vs 24.4%; Q2 20.3% vs 22.5% (calc); Q1 15.0% vs 15.1% (calc). Squeezed by Hopewell ramp, costs. No Code 33",
+          "finding": "Adj EBITDA margin Q4 FY26 24.3% vs 24.9%; FY26 20.7% vs 22.0%. Specialty Additives Q4 EBITDA -31% (Hopewell). No Code 33",
           "result": "FAIL"
         },
         {
           "check": "Earnings quality",
-          "finding": "Recurring 'key items' every quarter (env. reserves, restructuring, plant costs); $706M goodwill hit Q3 FY25. 9M OCF $295M incl $103M tax refund",
+          "finding": "Recurring key items: Q4 $1.25/sh (impairments, Argentina, restructuring), FY26 $1.72/sh. FY OCF $385M vs GAAP NI $4M, incl $103M tax refund",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "Q3 adj EPS $1.02 vs $1.03 Zacks (agg); sales beat. FY26 EBITDA guide cut to $385-400M (Apr) from $400-430M; EPS outlook cut again (Jul)",
+          "finding": "Q4 adj EPS $1.12 vs $1.27 consensus (agg), sales $498M vs ~$502M (agg): miss. FY27 EBITDA guide $405-435M; no EPS guide. FY26 guide was cut twice",
           "result": "CAUTION"
         },
         {
@@ -7795,59 +7807,51 @@
         },
         {
           "check": "Category and group",
-          "finding": "Specialty additives turnaround, not a leader in growth. Stock 52-wk $47.12-78.25 (agg); spec chem industry YTD +14.7% vs S&P +12.0% (agg)",
+          "finding": "Specialty additives turnaround, not a growth leader. 52-wk $47.12-78.25 (agg); closed $72.97 3 Nov, ~$76.44 4 Nov after results (scanner)",
           "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "45.79M sh (30 Jun 26), -10.6% vs Jun 23 (calc); no offerings. Inst ~94% (agg): over-owned. No insider open-mkt trades 12m; Franklin 7.9% to 5.6%",
+          "finding": "45.79M sh (30 Jun 26), -10.6% vs Jun 23 (calc); no buybacks FY26, no offerings. Inst ~94% (agg): over-owned. No insider open-mkt trades found",
           "result": "CAUTION"
         },
         {
           "check": "Balance sheet",
-          "finding": "30 Jun 26: cash $440M, debt $1,374M, net debt $934M (calc), covenant net leverage 2.3x; asbestos reserves $399M. TTM GAAP ROE ~4% (calc). No raise",
+          "finding": "30 Sep 26: cash ~$480M, net debt $891M, net leverage 2.3x, liquidity $976M. FY26 OCF $385M, FCF $297M. GAAP ROE ~0% (FY NI $4M). No raise",
           "result": "CAUTION"
         },
         {
           "check": "Event risk",
-          "finding": "Q4 FY26 results + FY27 guide 3 Nov 2026 after close (confirmed). Short interest ~10-11% of float, rising (agg). Hold through: NO",
+          "finding": "Next results ~1 Feb 2027 (scanner, not confirmed by company). Short interest ~10-11% of float (agg, Oct). Hold through: NO",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q 29 Jul 2026 (Q3 FY26). Next earnings 3 Nov 2026. No secondary, shelf or ATM found on EDGAR in 12m; $520M buyback authority left",
+          "finding": "Last 10-Q 29 Jul 2026; FY26 10-K not yet found (results preliminary). Next earnings ~1 Feb 2027. No secondary, shelf or ATM found",
           "result": "PASS"
         }
       ],
       "risks": [
-        "Q4 FY26 results and FY27 guidance on 3 Nov 2026 after close: guidance has been cut twice in FY26",
-        "Hopewell HEC plant ramp and lingering low production rates keep pressuring Specialty Additives margins",
-        "Raw material and freight inflation may outrun the 3-8% price increases",
-        "Short interest ~10-11% of float and rising; institutions own ~94%, so few new buyers left",
-        "Upgrade needs adj EPS growth of 25%+ for two quarters (Q4 consensus $1.27 would be +18%) and sales growth back near 20%"
+        "Q4 FY26 adj EPS missed consensus by $0.15; estimate cuts likely to follow",
+        "Hopewell HEC plant productivity keeps hurting Specialty Additives (Q4 adj EBITDA -31%)",
+        "FY27 FX headwind of $7-10M to adj EBITDA; no EPS guidance given",
+        "Institutions own ~94% and short interest ~10-11% of float: crowded and contested",
+        "Upgrade needs adj EPS growth of 25%+ for two quarters and sales growth near 20%"
       ],
-      "next_event": "Q4 FY26 (Jul-Sep 2026) results, 3 Nov 2026 after close; call 4 Nov 2026 9am ET",
+      "next_event": "Q1 FY27 (Oct-Dec 2026) results, around 1 Feb 2027 (scanner date, not yet confirmed); FY26 10-K expected in Nov 2026",
       "hold_through_event": "NO",
       "sources": [
         {
-          "title": "Q3 FY26 earnings release, 28 Jul 2026 (8-K Ex 99.1)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526321238/ash-ex99_1.htm"
-        },
-        {
-          "title": "Q2 FY26 earnings release, 28 Apr 2026 (8-K Ex 99.1)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526187700/ash-ex99_1.htm"
-        },
-        {
-          "title": "Q1 FY26 earnings release, 2 Feb 2026 (8-K Ex 99.1)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526033842/ash-ex99_1.htm"
-        },
-        {
-          "title": "Q4 FY25 earnings release and FY26 outlook, 4 Nov 2025 (8-K Ex 99.1)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312525264974/ash-ex99_1.htm"
+          "title": "Q4 and FY26 earnings release, 3 Nov 2026 (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001674862/000119312526445650/ash-ex99_1.htm"
         },
         {
           "title": "Form 10-Q for quarter ended 30 Jun 2026",
           "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526324226/ash-20260630.htm"
+        },
+        {
+          "title": "Q3 FY26 earnings release, 28 Jul 2026 (8-K Ex 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526321238/ash-ex99_1.htm"
         },
         {
           "title": "8-K: Ancora cooperation agreement and new directors, 28 Jul 2026",
@@ -7858,40 +7862,16 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1674862/000110465926063028/primary_doc.xml"
         },
         {
-          "title": "Schedule 13G/A, Franklin Templeton (5.6%, 30 Sep 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1674862/000003877726000275/primary_doc.xml"
+          "title": "Ashland posts earnings, misses estimates by $0.15 (Stock Observer) (aggregator)",
+          "url": "https://www.thestockobserver.com/2026/11/03/ashland-nyseash-posts-earnings-results-misses-estimates-by-0-15-eps.html"
         },
         {
-          "title": "SEC EDGAR filing index (Form 4s, 8-Ks)",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674862"
-        },
-        {
-          "title": "Ashland sets date for Q4 FY26 earnings release, 27 Oct 2026 (GlobeNewswire)",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3388834/0/en/ashland-sets-date-for-fourth-quarter-fiscal-2026-earnings-release-and-conference-call-webcast.html"
-        },
-        {
-          "title": "Ashland's Q3 earnings miss estimates (Zacks via Yahoo) (aggregator)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ashlands-q3-earnings-miss-estimates-121100696.html"
-        },
-        {
-          "title": "Q3 FY26 earnings call highlights (GuruFocus via Yahoo) (aggregator)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-inc-ash-q3-2026-210048007.html"
-        },
-        {
-          "title": "Ashland expected to announce earnings, 27 Oct 2026 (MarketBeat) (aggregator)",
-          "url": "https://www.marketbeat.com/instant-alerts/upcoming-ashland-ash-expected-to-announce-earnings-on-tuesday-2026-10-27/"
+          "title": "Ashland Q4 revenue vs estimate (Rallies) (aggregator)",
+          "url": "https://rallies.ai/news/ashland-q4-revenue-498-million-vs-estimate-of-5018-million-2c5eda54a274243f"
         },
         {
           "title": "ASH ownership and short interest (MarketBeat) (aggregator)",
           "url": "https://www.marketbeat.com/stocks/NYSE/ASH/"
-        },
-        {
-          "title": "ASH short interest and holders (Equibles) (aggregator)",
-          "url": "https://equibles.com/stocks/ASH"
-        },
-        {
-          "title": "Specialty chemicals industry performance (Yahoo Finance) (aggregator)",
-          "url": "https://finance.yahoo.com/sectors/basic-materials/specialty-chemicals/"
         }
       ]
     },
@@ -12460,6 +12440,418 @@
         {
           "title": "Zacks/Nasdaq: Host Hotels gains 18.8% (7 Jul 2026)",
           "url": "https://www.nasdaq.com/articles/host-hotels-gains-188-three-months-will-trend-last"
+        }
+      ]
+    },
+    "US:EPC": {
+      "market": "US",
+      "code": "EPC",
+      "name": "Edgewell Personal Care",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$29.66",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "Edgewell (Schick, Banana Boat, Hawaiian Tropic) is a low-growth consumer staples restructuring story. Its price strength comes from takeover interest: the board rejected an unsolicited US$30/share bid from Yellow Wood Partners (Bloomberg, 23 Jun 2026), and the stock is now breaking out at about that bid price. The fundamentals fail SEPA. Adjusted EPS from continuing operations is flat to down (Q3 FY26 $0.72 vs $0.72; Q2 $0.60 vs $0.69), sales growth is about 1-2%, margins are shrinking, and GAAP EPS is far below adjusted because of repeated restructuring charges.",
+      "catalyst": "Rejected US$30/share private-equity approach from Yellow Wood Partners (Bloomberg, 23 Jun 2026) keeps takeover speculation alive; RBC expects FY27 to benefit from lapping tariff headwinds (Oct 2026).",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS (cont. ops): Q1 FY26 (Oct-Dec 25) -$0.16 vs -$0.10; Q2 (Jan-Mar 26) $0.60 vs $0.69; Q3 (Apr-Jun) $0.72 vs $0.72. FY25 adj $2.52 vs $3.05",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Net sales Q1 FY26 +1.9%, Q2 +0.6%, Q3 +1.7% ($570.1M); organic -0.5%, -2.4%, +1.1%. FY26 organic guide flat to +0.5%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Adj GM Q3 FY26 44.5% (-30bp), Q2 43.4% (-310bp), Q1 39.5% (-210bp); Q3 adj op inc $53.0M vs $63.6M. Tariffs/inflation. No Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: repeated 'one-off' charges. 9M FY26 restructuring $71.9M + impairment $37.4M; FY26 GAAP EPS guide $0-0.20 vs adj $1.80-2.00",
+          "result": "FAIL"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3 FY26 adj EPS $0.72 beat $0.64 consensus, sales missed (~$581M est); FY26 adj guide narrowed to $1.80-2.00, midpoint unchanged (5 Aug)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: rejected Yellow Wood $30/sh bid (23 Jun 2026, Bloomberg); FY27 tariff lap per RBC. Speculative, not an earnings driver",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Laggard/turnaround in household & personal care; RS 89 driven by takeover talk. Group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "46.09M sh (31 Jul 26), down ~4% YoY; cap ~$1.37B; inst. 91.9% (MarketBeat), 228 13F holders Q2 26; only insider sale: CAO 333 sh Nov 25",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Jun 2026: cash $397.1M, debt $1,279.2M, net debt $882.1M (3.7x adj); 9M FY26 OCF $47.1M; ROE -1.3% TTM (aggregator). No raise likely",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q4 FY26 results 12 Nov 2026 BMO; implied Q4 adj EPS $0.64-0.84; FY27 guide is key. Short 11.3% of float (Oct 2026); price sits at the $30 bid level",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q3 FY26 (qtr to 30 Jun 2026), filed Aug 2026; next earnings 12 Nov 2026; no shelf, ATM or secondary found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "No earnings or sales growth: adjusted EPS from continuing operations is flat to down, and organic sales are about flat for FY26",
+        "Takeover premium may already be in the price: the stock trades at about the rejected US$30 bid, and with no new approach it could give back the June gain",
+        "FY27 guidance on 12 Nov 2026 could disappoint on tariffs, inflation or weak sun care, while short interest is 11.3% of float",
+        "Leverage of 3.7x net debt to adjusted EBITDA and continuing restructuring and impairment charges",
+        "Would only change the verdict with a firm takeover offer, which is an event trade rather than SEPA, or with organic growth and adjusted EPS growth reaccelerating above 20%"
+      ],
+      "next_event": "Q4 and full-year FY26 results (Jul-Sep 2026), 12 Nov 2026 before the open, call 8:00 am ET (company release, 15 Oct 2026)",
+      "hold_through_event": "NO",
+      "sources": [
+        {
+          "title": "Q3 FY26 earnings release, 8-K Ex 99.1 (5 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001096752/000162828026052881/q3fy26-epcexhibit991.htm"
+        },
+        {
+          "title": "Q3 FY26 press release (IR site)",
+          "url": "https://ir.edgewell.com/news-and-events/press-releases/2026/08-05-2026-110041255?sc_lang=en"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Jun 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001096752/000162828026053128/epc-20260630.htm"
+        },
+        {
+          "title": "Q2 FY26 earnings release, 8-K Ex 99.1 (6 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001096752/000162828026030870/epcexhibit99103312026.htm"
+        },
+        {
+          "title": "Q1 FY26 earnings release, 8-K Ex 99.1 (Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1096752/000162828026006183/epcexhibit99112312025.htm"
+        },
+        {
+          "title": "Q4/FY25 earnings release, 8-K Ex 99.1 (13 Nov 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1096752/000162828025051816/epcexhibit99109302025.htm"
+        },
+        {
+          "title": "Q4 FY26 results date announcement (Finviz copy of company release)",
+          "url": "https://finviz.com/news/403232/edgewell-personal-care-company-to-webcast-a-discussion-of-fourth-quarter-and-fiscal-year-2026-results-on-november-12-2026"
+        },
+        {
+          "title": "Seeking Alpha: rallies on takeover talk (23 Jun 2026)",
+          "url": "https://seekingalpha.com/news/4605968-edgewell-personal-care-rallies-on-takeover-talk"
+        },
+        {
+          "title": "Yahoo/StockStory: why EPC is soaring (Yellow Wood $30 bid)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-edgewell-personal-care-epc-210446381.html"
+        },
+        {
+          "title": "Form 4 CAO John Dunham sale, 20 Nov 2025 (StockTitan copy)",
+          "url": "https://www.stocktitan.net/sec-filings/EPC/form-4-edgewell-personal-care-co-insider-trading-activity-fdaa7a30d440.html"
+        },
+        {
+          "title": "MarketBeat: new 12-month high, ratings, ownership (aggregator, 4 Nov 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-edgewell-personal-care-nyse-epc-hits-new-12-month-high-heres-what-happened-2026-11-04/"
+        },
+        {
+          "title": "MarketBeat: RBC reiterates, consensus (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/royal-bank-of-canada-forecasts-strong-price-appreciation-for-edgewell-personal-care-nyseepc-stock-2026-08-06/"
+        },
+        {
+          "title": "StockAnalysis statistics: shares, short interest, ROE (aggregator)",
+          "url": "https://stockanalysis.com/stocks/epc/statistics/"
+        },
+        {
+          "title": "InsiderSet 13F holders Q2 2026 (aggregator)",
+          "url": "https://www.insiderset.com/stocks/EPC"
+        },
+        {
+          "title": "Earnings Whispers Q3 FY26 surprise (aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/EPC"
+        }
+      ]
+    },
+    "US:DXCM": {
+      "market": "US",
+      "code": "DXCM",
+      "name": "Dexcom",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$88.48",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Dexcom is recovering from its 2025 collapse: Q3 2026 (reported 29 Oct) beat on adj EPS ($0.73 vs $0.67 consensus), margins widened and FY26 guidance was raised, with a CMS decision on non-insulin type 2 coverage due by end-2026. But sales growth is only +11% and slowing, and adj EPS growth decelerated from +46% to +20%, below the SEPA bar. The flagged drop was 21 Oct 2026 (-6.4% to $80.26 on 1.8x volume) with no company news found, read as pre-earnings repositioning; the stock has since recovered above its $85.25 pivot.",
+      "catalyst": "Expected CMS decision before end-2026 to extend Medicare CGM coverage to non-insulin type 2 patients (effective ~mid-2027), backed by the CONNECT trial in NEJM on 14 Oct 2026; G7 15 Day rollout.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS Q4'25 $0.68 (+51%), Q1'26 $0.56 (+75%), Q2'26 $0.70 (+46%), Q3'26 $0.73 vs $0.61 (+20%); decelerating. GAAP Q3 $0.72 vs $0.70",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Rev Q4'25 +13%, Q1'26 +15% (12% org), Q2 +13% (12% org), Q3 $1.344B +11% (US +14%, intl +5%); organic but <20% and slowing",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q3'26 non-GAAP GM 65.1% vs 61.3%, op margin 25.3% vs 22.6%; still expanding but gains narrowing (840bp Q1, 590 Q2, 270 Q3). No Code 33",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Concern: inventory $771M vs $629M Dec-25 (+23%, finished goods +74%) vs sales +11%; 9M OCF $1,120M vs $1,147M; $1B buyback aids EPS",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q3'26 adj EPS $0.73 vs $0.67 cons, rev $1.344B vs $1.33B; FY26 guide raised to $5.20-5.25B, op margin ~24%; targets mostly raised since Jul",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: CMS non-insulin T2 coverage decision due by end-2026 (eff. mid-2027); CONNECT trial in NEJM 14 Oct 2026; G7 15 Day ~50% of US base",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "CGM market leader with Abbott; turnaround from 2025 slump; RS 84. CVS/Aetna move some plans to Libre-exclusive from 1 Jan 2027. Group not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "372.95M sh (22 Oct 26), ~US$33B cap; inst ~98% (agg, over-owned). 10b5-1 sales by CFO, a director, EVP Sep-Oct 2026 (small); no buys",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash+securities $1.82B, converts $1.24B, net cash ~$0.58B (calc); 9M FCF >$900M; TTM ROE ~39% (calc). No raise likely",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "CMS coverage decision by end-2026 (binary); Q4'26 results ~mid-Feb 2027 (est.); short 4.29% of float (30 Sep), down from 5.71% in Jul",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q3 2026 (to 30 Sep 2026), filed ~29-30 Oct 2026; next earnings ~mid-Feb 2027 (est.); no secondary, shelf or ATM found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Largest recent drop: 21 Oct 2026 -6.4% to $80.26 on 1.8x volume, no company news found (aggregators); likely pre-earnings repositioning",
+        "CMS could delay or narrow non-insulin type 2 coverage, the main growth story for 2027",
+        "Competition and pricing: CVS Caremark/Aetna plans shift to Abbott Libre-exclusive from 1 Jan 2027 (<4% of US revenue per management); intl growth only +5%",
+        "Quality and manufacturing: Class I FDA correction of G7 apps (Mar 2026), inventory build, Ireland ramp may pressure Q4'26/early-2027 margins",
+        "Would upgrade if CMS approves broad coverage and revenue growth reaccelerates toward 20% with EPS growth back above 25%"
+      ],
+      "next_event": "CMS decision on non-insulin type 2 CGM coverage (expected before end-2026); Q4 2026 results ~mid-Feb 2027 (estimated; Q4 2025 was reported 12 Feb 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (29 Oct 2026; SEC fetch blocked, figures via securities.io summary)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001093557/000109355726000193/dxcm09302026-exhibit991.htm"
+        },
+        {
+          "title": "Securities.io: Dexcom raises 2026 outlook as Q3 revenue grows 11% (29 Oct 2026)",
+          "url": "https://www.securities.io/dexcom-raises-2026-outlook-as-q3-revenue-grows-11-to-1-344-billion/"
+        },
+        {
+          "title": "10-Q for quarter ended 30 Sep 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001093557/000109355726000195/dxcm-20260930.htm"
+        },
+        {
+          "title": "Q2 2026 earnings release (Business Wire, 30 Jul 2026)",
+          "url": "https://secure.businesswire.com/news/home/20260730069364/en/Dexcom-Reports-Second-Quarter-2026-Financial-Results"
+        },
+        {
+          "title": "Q1 2026 earnings release (IR site, 30 Apr 2026)",
+          "url": "https://investors.dexcom.com/news/news-details/2026/Dexcom-Reports-First-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Q4/FY2025 earnings release (IR site, 12 Feb 2026)",
+          "url": "https://investors.dexcom.com/news/news-details/2026/Dexcom-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Q3 2026 earnings call summary (MarketBeat, aggregator)",
+          "url": "https://marketbeat.com/instant-alerts/transcript-what-dexcom-dxcm-said-on-its-q3-earnings-call-2026-10-29/"
+        },
+        {
+          "title": "StockStory: Q3 2026 vs consensus (aggregator)",
+          "url": "https://stockstory.org/us/stocks/nasdaq/dxcm/news/earnings/dexcom-nasdaqdxcm-beats-q3-2026-sales-expectations"
+        },
+        {
+          "title": "TickerSpark: DXCM -6.4% on 21 Oct 2026 (aggregator)",
+          "url": "https://tickerspark.ai/market/dexcom-inc-dxcm-drops-6-4-on-high-volume-1792613180715"
+        },
+        {
+          "title": "MarketBeat: DXCM falls 21 Oct 2026, insider sales, inst ownership (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-dexcom-nasdaq-dxcm-stock-falls-45-time-to-sell-2026-10-21/"
+        },
+        {
+          "title": "Form 4: CFO Sylvain 10b5-1 sale (10 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001093557/000109355726000173/wk-form4_1789416164.xml"
+        },
+        {
+          "title": "Form 4: CEO Leach tax withholding (22 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001093557/000109355726000159/wk-form4_1787688890.xml"
+        },
+        {
+          "title": "MedTech Dive: CONNECT trial in NEJM and CMS timing (15 Oct 2026)",
+          "url": "https://www.medtechdive.com/news/nejm-study-supports-cgm-use-for-people-with-diabetes-who-dont-take-insulin/833124/"
+        },
+        {
+          "title": "Dexcom: 2027 CVS Caremark/Aetna coverage change",
+          "url": "https://www.dexcom.com/en-us/cvs-aetna"
+        },
+        {
+          "title": "Benzinga short interest (aggregator)",
+          "url": "https://www.benzinga.com/quote/DXCM/short-interest"
+        },
+        {
+          "title": "MarketScreener consensus and 4 Nov 2026 close (aggregator)",
+          "url": "https://www.marketscreener.com/quote/stock/DEXCOM-INC-41643531/consensus/"
+        }
+      ]
+    },
+    "US:MTN": {
+      "market": "US",
+      "code": "MTN",
+      "name": "Vail Resorts",
+      "date": "2026-11-04",
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$161.08",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "Vail Resorts is breaking out of a first-stage base, but the fundamentals have gone the wrong way. FY26 (Aug 2025-Jul 2026) diluted EPS fell to $4.12 from $7.53 and revenue fell 4.3% after a historically poor western snow year. FY27 guidance shows only a partial recovery, and 2026/27 season-pass units are down about 12%. The move looks driven by the activist proxy contest (Oasis, with nominees including ex-Disney CEO Bob Chapek; vote on 14 Dec 2026) and a hoped-for weather rebound, not by earnings growth. That makes it a story or turnaround trade, not a SEPA earnings leader.",
+      "catalyst": "Oasis proxy contest (two nominees incl. Bob Chapek) at the 14 Dec 2026 annual meeting, plus ~$110M resource-efficiency savings targeted by end FY27 (DEFR14A 2 Nov 2026; 8-K 28 Sep 2026)",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil EPS: Q1 FY26 (Aug-Oct25) -5.20 vs -4.62; Q2 (Nov-Jan) 5.87 vs 6.53 (-10%); Q3 (Feb-Apr26) 8.81 vs 10.46 (-16%); Q4 -5.34 vs -4.99",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Revenue: Q2 FY26 -4.7%, Q3 -7.0% ($1,205M), Q4 +2.5% ($278M, off-season); FY26 $2,838M vs $2,964M (-4.3%); skier visits Q3 -15.5%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "FY26 Resort EBITDA $745.7M vs $844.1M (-11.7%); margin ~26.3% vs 28.5%; net margin 5.2% vs 9.4%. No Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: weather-driven, high-fixed-cost model. ~$11M one-off efficiency costs FY26, ~$14M FY27. FY26 EPS $4.12 < $8.88 dividend",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q4 FY26 EPS -5.34 vs consensus -5.40 (small beat, 28 Sep 2026). FY26 guide cut in Mar and Apr 2026. FY27 NI guide $158-233M; consensus FY27 EPS $5.84 (EW)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "WEAK-MODERATE: Oasis proxy fight (Chapek nominee, vote 14 Dec 2026); $110M savings target by FY27; snow rebound hoped for. Not an earnings driver yet",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Market leader in ski resorts (Epic Pass) but a cyclical, weather-exposed laggard and turnaround; RS 76. Leisure group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "35.6M shares (~US$5.7B). Institutions 94.9% (MarketBeat, over-owned). CEO Katz bought 37,500 sh at $131.81 on 16 Mar 2026. No open-market sales found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "31 Jul 2026: cash $231M, debt $3,186M, net debt $2,918M (3.9x EBITDA, up from $2,754M). Liquidity ~$0.8B. Dividend $8.88/yr. ROE not found. Raise unlikely",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q1 FY27 results ~9 Dec 2026 (est.), proxy vote 14 Dec. Early-season snow and pass sales are swing factors. Short 19-21% of float, rising",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "10-K FY26 filed late Sep 2026; next earnings ~9 Dec 2026. Credit agreement amended Oct 2026. No secondary, shelf or ATM found",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Earnings and sales both fell in FY26; season-pass units down ~12% and dollars down ~6% for 2026/27 (through 18 Sep 2026), which limits the FY27 recovery",
+        "Another poor early-season snow year in the Rockies or Tahoe would hit Q2 FY27 (Nov-Jan) bookings and guidance at the 9 Dec release",
+        "Proxy-contest outcome on 14 Dec 2026: an activist loss could remove the speculative premium; a win could bring strategic churn",
+        "Net debt 3.9x EBITDA and rising, while the $8.88 dividend exceeds FY26 EPS of $4.12; dividend cut risk",
+        "Would change only if Q1/Q2 FY27 show EPS and revenue growth of 25%+ against the weak FY26 base, with guidance raised"
+      ],
+      "next_event": "Q1 FY27 results (Aug-Oct 2026) with season-pass update, ~9 Dec 2026 after the close (estimated, MarketBeat and scanner); annual meeting and proxy vote 14 Dec 2026",
+      "hold_through_event": "NO",
+      "sources": [
+        {
+          "title": "Q4 and FY2026 results, 8-K Ex 99.1 (28 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000812011/000081201126000048/a20260731pressrelease.htm"
+        },
+        {
+          "title": "Q3 FY2026 results, 8-K Ex 99.1 (8 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000812011/000081201126000025/a2026430pressrelease.htm"
+        },
+        {
+          "title": "Q2 FY2026 results, 8-K Ex 99.1 (9 Mar 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000013/a2026131pressrelease.htm"
+        },
+        {
+          "title": "Q1 FY2026 results, 8-K Ex 99.1 (10 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201125000240/a20251031pressrelease.htm"
+        },
+        {
+          "title": "10-K FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000812011/000081201126000049/mtn-20260731.htm"
+        },
+        {
+          "title": "DEFR14A proxy statement (2 Nov 2026), meeting 14 Dec 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000812011/000081201126000164/mtn-20261102.htm"
+        },
+        {
+          "title": "Oasis PREC14A summary (13 Oct 2026, StockTitan)",
+          "url": "https://www.stocktitan.net/sec-filings/MTN/prec14a-vail-resorts-inc-preliminary-contested-proxy-statement-eaa103e667d8.html"
+        },
+        {
+          "title": "Q4 FY26 release date notice (IR site, 4 Sep 2026)",
+          "url": "https://investors.vailresorts.com/node/23716"
+        },
+        {
+          "title": "MarketBeat ownership, short interest and estimates (aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/MTN/"
+        },
+        {
+          "title": "Earnings Whispers EPS vs consensus (aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/MTN"
+        },
+        {
+          "title": "Insider trading summary (aggregator)",
+          "url": "https://massive.com/quote/mtn/insider-trading"
+        },
+        {
+          "title": "Fintel short interest (aggregator)",
+          "url": "https://fintel.io/s/us/mtn"
         }
       ]
     }
