@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:51:40Z",
+ "updated": "2026-11-05T22:51:47Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -3483,91 +3483,91 @@
    "market": "US",
    "code": "CSX",
    "name": "CSX Corporation",
-   "date": "2026-10-27",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$52.27",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$50.83",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "CSX is a mature Eastern US Class I railroad in a productivity turnaround under CEO Steve Angel: Q3 2026 (Jul-Sep, reported 21 Oct 2026) GAAP EPS $0.57 vs $0.37 (+54%), +30% vs adjusted $0.44, and operating margin 39.1% vs 34.9% adjusted. But revenue growth is only +12%, more than half of it from fuel surcharge, Q2 EPS growth was +23% (below +25%), and the chart shows a late-stage base 4. That makes it a margin-driven trade, not a Minervini growth leader.",
-   "catalyst": "Steve Angel (CEO since Sep 2025) has a cost and productivity programme with 100+ initiatives; FY26 guide raised to high-single-digit revenue growth, 350bp+ margin expansion, FCF +80% (Q3 call, 21 Oct 2026). MODERATE.",
+   "summary": "CSX is a mature Eastern US Class I railroad in a cost and productivity turnaround under CEO Steve Angel. Q3 2026 (Jul-Sep, reported 21 Oct 2026) adjusted-comparable EPS rose 30% and operating margin reached 39.1%, but revenue grew 12% with over half from fuel surcharge, Q2 EPS growth was only +23%, and four insiders sold in Jun-Jul 2026. That makes it a margin-led trade in a late-stage base 4, not a Minervini growth leader.",
+   "catalyst": "CEO Steve Angel's (since Sep 2025) productivity programme: FY26 revenue guide raised to high-single-digit growth, 350bp+ margin expansion, FCF +80% (Q3 call, 21 Oct 2026). MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "GAAP dil. EPS vs yr ago: Q4'25 $0.39 vs $0.38 (+3%); Q1'26 $0.43 vs $0.34 (+26%); Q2'26 $0.54 vs $0.44 (+23%); Q3'26 $0.57 vs adj $0.44 (+30%)",
+     "finding": "GAAP dil EPS YoY: Q4'25 $0.39 +3%; Q1'26 $0.43 +26%; Q2 $0.54 +23%; Q3 $0.57 +54% (+30% vs adj $0.44). Q4 cons $0.51; FY26 $1.88 not a record",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Revenue Q1'26 $3.48B +2%, Q2 $3.94B +10%, Q3 $4.02B +12% YoY, all organic. Fuel surcharge $466M vs $234M, so ex-fuel only ~+6% (derived)",
+     "finding": "Revenue YoY: Q4'25 $3.51B -1%; Q1'26 $3.48B +2%; Q2 $3.94B +10%; Q3 $4.02B +12%, organic. Q3 fuel surcharge $466M vs $234M = 54% of the gain",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Op margin Q3'26 39.1% vs 34.9% adj (30.3% GAAP); Q2 38.3% +240bp. Margins expanding, but EPS growth dipped in Q2 (26%→23%→30%), so no Code 33",
+     "finding": "Op margin Q4'25 31.6%; Q2'26 38.3% (+240bp); Q3 39.1% vs 34.9% adj/30.3% GAAP. Expanding, but Q2 EPS growth dipped (26%>23%>30%): no Code 33",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "GAAP +54% is flattered by a $164M Q3'25 goodwill impairment. 9M'26 CFO $4.22B vs net $2.86B. Diluted shares -0.7% YoY. AR +14% YTD, in line with sales",
+     "finding": "Q3 GAAP +54% flattered by $164M Q3'25 goodwill hit. 9M'26 CFO $4.22B vs NI $2.86B. AR +14% YTD. Avg dil shares -0.8% YoY. Main issue: fuel-led revenue",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3'26 EPS $0.57 vs $0.52 consensus; rev $4.02B vs $3.95B (aggregator). FY26 revenue guide raised to high single digits; Q1 also beat ($0.43 vs $0.39)",
+     "finding": "Q3'26 (21 Oct) EPS $0.57 vs $0.53 cons, rev $4.02B vs $3.96B (MarketBeat). FY26 rev guide raised to high-single-digit; margin +350bp+, FCF +80% kept",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "New CEO Angel (Sep 2025) productivity drive; I-95 double-stack via Baltimore for 2027 intermodal bids. UP-NS merger could add rail M&A optionality. MODERATE",
+     "finding": "CEO Angel (since Sep 2025) productivity drive, 100+ 2027 initiatives; I-95 double-stack via Baltimore for 2027 bids (Q3 call, 21 Oct 2026). MODERATE",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical turnaround, one of 4 large US Class Is. Intermodal record (+7% Q3). Peer strength near highs not verified; freight cycle phase not found",
+     "finding": "Cyclical turnaround; 1 of 4 big US Class Is. UNP, NSC, CSX hit 52-wk highs 23 Jul 2026; current peer status and freight cycle phase not found",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "1,843M shares (30 Sep 2026); ~US$94B mkt cap (aggregator). Buybacks 23M shares/$1.05B 9M'26; $5.2B authority. Large float, listed since 1980",
-     "result": "CAUTION"
+     "finding": "1,843M sh (30 Sep 26), -6.7% in 3y; ~US$94B cap. Inst 80.2% Q2'26, rising (aggregator). 4 insiders sold Jun-Jul 26, none 10b5-1; CEO bought 25k Mar 26",
+     "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 2026: cash+ST inv $1.61B, debt $18.80B, net debt ~$17.2B. 9M'26 FCF $2.65B vs $1.07B. TTM ROE ~25% (derived). No raise risk",
+     "finding": "30 Sep 2026: cash+ST inv $1.61B, debt $18.80B, net debt $17.2B. 9M'26 FCF $2.65B vs $1.07B. TTM ROE ~26% (derived). No raise risk",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Next: Q4'26 results ~late Jan 2027 (date not found). UP-NS STB review ongoing, decision expected 2027. Fuel-surcharge antitrust appeal argued 11 Dec 2026",
+     "finding": "Q4'26 results late Jan 2027 (shortlist 28 Jan, unconfirmed). UP-NS comments due 18 Nov 2026. Short int 40.1M (15 Oct), 2.2%, 4.7 days, falling",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "10-Q for quarter to 30 Sep 2026 filed Oct 2026. No equity offering or ATM found; no new long-term debt in 9M'26. Next earnings ~Jan 2027",
+     "finding": "10-Q (Q3 to 30 Sep 2026) filed 21 Oct 2026. No equity offering or ATM; S-3ASR debt shelf Feb 2025; no new debt 9M'26. COO Cory retiring (12 Oct)",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Revenue growth is lean and fuel-dependent: $232M of the $430M Q3 revenue increase was fuel surcharge, which reverses if diesel falls.",
-    "UP-NS merger (STB accepted revised application 28 May 2026; schedule set 18 Aug 2026): CSX opposes it as a competitive threat, and BNSF-CSX tie-up talk adds headline volatility.",
-    "Late-stage base 4 in a mature large-cap: treat as a trade, sell into strength. Management flags 200-300bp sequential margin compression in Q4 from winter seasonality.",
-    "Pre-mortem for a 30% fall: freight or industrial recession hits merchandise and coal volume; export coal price slump; service meltdown or a fresh STB or regulatory blow.",
-    "Verdict would improve if revenue ex-fuel reaches double digits and EPS stays above +25% in Q4'26 (aggregator consensus $0.51 vs $0.39)."
+    "Fuel-led revenue: $232M of the $430M Q3'26 revenue increase was fuel surcharge (QFR), which reverses if diesel prices fall.",
+    "Insider selling: CFO Boone, director Zillmer, CLO Burns and CAO Williams sold Jun-Jul 2026 (not 10b5-1); Zillmer sold 19,500 more on 26 Oct 2026 at $51.24.",
+    "UP-NS merger review: comments and CSX responsive application due 18 Nov 2026, replies 16 Feb 2027; adverse rulings or headlines can move CSX either way.",
+    "Pre-mortem for a 30% fall: freight/industrial recession hits merchandise and coal; diesel and export coal slump cut fuel and coal revenue; service slip after COO exit.",
+    "Late-stage base 4 with institutional ownership ~80% (over-owned). Verdict improves if Q4'26 EPS beats +25% (cons $0.51 vs $0.39) on ex-fuel growth."
    ],
-   "next_event": "Q4 and FY2026 results, ~late January 2027 (exact date not found)",
+   "next_event": "Q4 and FY2026 results, late January 2027 (shortlist shows 28 Jan 2027; not confirmed by CSX)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "CSX Q3 2026 earnings press release (8-K Ex-99.1, SEC)",
+     "title": "CSX Q3 2026 earnings press release (8-K Ex-99.1, 21 Oct 2026, SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000039/pressrelease_q32026.htm"
-    },
-    {
-     "title": "CSX Q3 2026 Quarterly Financial Report (PDF)",
-     "url": "https://s2.q4cdn.com/859568992/files/content_files/Q3-2026-QFR-Final.pdf"
     },
     {
      "title": "CSX Form 10-Q, quarter ended 30 Sep 2026 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000040/csx-20260930.htm"
+    },
+    {
+     "title": "CSX Q3 2026 Quarterly Financial Report (PDF)",
+     "url": "https://s2.q4cdn.com/859568992/files/content_files/Q3-2026-QFR-Final.pdf"
     },
     {
      "title": "CSX Q2 2026 earnings press release (8-K Ex-99.1, SEC)",
@@ -3582,36 +3582,56 @@
      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000003/pressrelease_q42025.htm"
     },
     {
-     "title": "CSX Q3 2026 earnings call summary (BigGo Finance, aggregator)",
-     "url": "https://finance.biggo.com/news/US_CSX_2026-10-21"
+     "title": "CSX 8-K, COO Michael Cory retirement, 12 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000034/csx-20261012.htm"
     },
     {
-     "title": "CSX Q3 earnings beat estimates (Yahoo/Zacks, aggregator)",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/csx-q3-earnings-beat-estimates-145100559.html"
+     "title": "CSX SEC filings index incl. Form 4/144 (EDGAR submissions API)",
+     "url": "https://data.sec.gov/submissions/CIK0000277948.json"
+    },
+    {
+     "title": "CSX shares outstanding history (SEC XBRL API)",
+     "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000277948/dei/EntityCommonStockSharesOutstanding.json"
+    },
+    {
+     "title": "CSX Q3 earnings call highlights (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-csx-q3-earnings-call-highlights-2026-10-21/"
     },
     {
      "title": "CSX earnings and estimates (MarketBeat, aggregator)",
      "url": "https://www.marketbeat.com/stocks/NASDAQ/CSX/earnings/"
     },
     {
-     "title": "Wolfe Research raises CSX target, 23 Apr 2026 (aggregator)",
-     "url": "https://allmind.ai/news/349db1f542e4f3511f7a659299ef9bdffd990e09d001c86b1550b87d5e5ce3bc"
+     "title": "CSX institutional holders by quarter (VCP Scanner, aggregator)",
+     "url": "https://vcpscanner.com/stock/csx/institutional-holders"
     },
     {
-     "title": "STB UP-NS merger resources",
-     "url": "https://www.stb.gov/resources/major-railroad-mergers/"
+     "title": "CSX institutional holdings (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/csx/holdings"
     },
     {
-     "title": "STB press release PR-26-13, 28 May 2026",
-     "url": "https://www.stb.gov/wp-content/uploads/PR-26-13.pdf"
+     "title": "CSX short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/csx/shortinterest"
     },
     {
-     "title": "CSX joins fight to prevent UP-NS merger (Herald-Dispatch, 5 May 2026)",
-     "url": "https://www.herald-dispatch.com/business/csx-joins-fight-to-prevent-up-ns-merger/article_16396661-f4d6-48dc-8a35-811bb5d5e992.html"
+     "title": "STB PR-26-21: UP-NS procedural schedule, 18 Aug 2026",
+     "url": "https://www.stb.gov/news-communications/latest-news/pr-26-21/"
     },
     {
-     "title": "Proposed merger between Union Pacific and Norfolk Southern (Wikipedia, aggregator)",
-     "url": "https://en.wikipedia.org/wiki/Proposed_merger_between_Union_Pacific_and_Norfolk_Southern"
+     "title": "STB denies motions for summary denial of UP-NS merger (Progressive Railroading, 21 Sep 2026)",
+     "url": "https://www.progressiverailroading.com/federal_legislation_regulation/news/STB-denies-motions-seeking-summary-denial-of-UP-NS-merger--77788"
+    },
+    {
+     "title": "BNSF, CPKC and CSX to request broad access to combined UP-NS network (FreightWaves, 14 Sep 2026)",
+     "url": "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network"
+    },
+    {
+     "title": "Three railroad stocks hit fresh 52-week highs (Stocktwits, 23 Jul 2026)",
+     "url": "https://stocktwits.com/news-articles/markets/equity/these-three-railroad-stocks-hit-fresh-52-week-highs-today-what-s-got-investors-buzzing/cZZnDXsR7Uh"
+    },
+    {
+     "title": "CSX calendar (MarketScreener, aggregator)",
+     "url": "https://uk.marketscreener.com/quote/stock/CSX-CORPORATION-12201/calendar/"
     }
    ]
   },
@@ -10239,94 +10259,98 @@
    "market": "US",
    "code": "MNST",
    "name": "Monster Beverage",
-   "date": "2026-11-02",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$48.02",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$47.83",
    "verdict": "Watch only",
-   "confidence": "medium",
-   "summary": "The global energy-drink leader is growing sales about 20% on international expansion (Q2 2026, Apr-Jun, net sales +20.2%, ex-US +34.6%, reported 6 Aug 2026), but EPS growth has slowed from +41% to +19% GAAP and July sales rose only 14%. Clustered open-market insider selling in May 2026 (three insiders, ~$13.7M) caps the verdict at Watch only, and Q3 results land on 5 Nov 2026.",
-   "catalyst": "International expansion is driving growth (ex-US sales +34.6% to $1.16B in Q2 2026, 46% of sales; 8-K 6 Aug 2026), with selective US price increases planned for Q4 2026 and an investor meeting on 1 Dec 2026.",
+   "confidence": "high",
+   "summary": "Q3 2026 results came out on 5 Nov 2026 after the close. Sales hit a record but slowed: Q3 2026 (Jul-Sep) net sales rose 16.7% to $2.56B, while GAAP diluted EPS rose only 7.8% to $0.29 as gross margin fell to 54.7% (55.7% a year earlier) and operating margin to 28.0% (30.7%). The single biggest reason is that EPS growth has slowed for three quarters (+28%, +19%, +8%) while margins shrink. Clustered open-market insider selling in May 2026 would cap the verdict at Watch only in any case, and the stock fell about 5% after hours on the report.",
+   "catalyst": "International expansion: Q3 2026 sales outside the US rose 28.1% to $1.20B, 47% of total, and LATAM sales rose 48.8% (8-K, 5 Nov 2026). Selective US price increases are planned for Q4 2026, and an investor meeting is set for 1 Dec in New York.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Pre-split GAAP dil EPS YoY: Q3'25 $0.53 +41%; Q4'25 $0.46 +65%; Q1'26 $0.58 +28%; Q2'26 $0.59 +19% (adj +15%). Slowing; Q3'26e $0.30 post-split, ~+7%",
+     "finding": "GAAP dil EPS YoY (post-split): Q4'25 +65%, Q1'26 +28%, Q2'26 +19%, Q3'26 $0.29 +7.8% (adj $0.30 +8.5%). Slowing three quarters straight",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Net sales YoY: Q3'25 +17%, Q4'25 +18%, Q1'26 +27%, Q2'26 $2.54B +20% (FX-neutral +18%). Organic; ex-US +35%. July 2026 only +14%",
-     "result": "PASS"
-    },
-    {
-     "check": "Margins and Code 33",
-     "finding": "Q2'26 gross 55.9% vs 55.7%, op 29.2% vs 29.9%, net ~23.0% vs 23.2% (calc); Q1'26 gross 55.0% vs 56.5%. Flat; no Code 33",
+     "finding": "Net sales YoY: Q4'25 +17.6%, Q1'26 +26.9%, Q2'26 +20.2%, Q3'26 $2.56B +16.7% (FX-neutral +16.3%). Organic growth, slowing; ex-US +28.1%",
      "result": "CAUTION"
     },
     {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 gross 54.7% vs 55.7%, op 28.0% vs 30.7%, net 22.2% vs 23.9% (aluminum, freight, mix). Squeezed; no Code 33",
+     "result": "FAIL"
+    },
+    {
      "check": "Earnings quality",
-     "finding": "1H'26 OCF $1.11B vs NI $1.15B; adj vs GAAP gap small; Q4'25 +65% flattered by impairment base. Concern: AR +18% since Dec 2025",
+     "finding": "Adj vs GAAP gap small ($0.30 vs $0.29, Q3'26); $19.9M Kona impairment. 1H'26 OCF $1.11B vs NI $1.15B. Concern: AR +21% since Dec 2025 (30 Sep)",
      "result": "PASS"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2'26 adj EPS beat $0.60 vs $0.58 (pre-split), sales $2.54B vs $2.43B est; 5 straight beats. FY26e -0.1% 1M, +0.6% 3M (aggregator)",
+     "finding": "Q3'26 adj EPS $0.30 in line with $0.30 cons; sales $2.56B beat $2.49B by 2.8%; shares about -5% AH on 5 Nov. No guidance; post-report revisions not found",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: international surge (ex-US +34.6% Q2'26, 8-K 6 Aug 2026); selective US price rises planned Q4'26; investor day 1 Dec 2026",
+     "finding": "MODERATE: ex-US sales +28.1% to $1.20B (47% of total), LATAM +48.8%, in Q3'26 (8-K, 5 Nov 2026). US price rises planned Q4'26",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Global energy-drink leader, defensive growth. Group weak: CELH down ~39% YTD (Aug 2026). MNST near 52w high $50.17 (aggregator)",
+     "finding": "Global energy-drink leader and institutional favourite. Group weak: Celsius missed Q2'26 and its namesake brand sales turned negative (6 Aug 2026)",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Mkt cap ~$92.7B; inst 72.4% (aggregator). Clustered open-mkt sales May 2026: Tirre $8.5M, Hall $4.6M, CFO Kelly $0.6M; no buys",
+     "finding": "Inst 67.7% of shares, 1,378 13F holders (30 Jun 2026, aggregator). Clustered open-mkt sales, not 10b5-1, May-Jun 2026: Tirre $8.5M, Hall $4.6M, Carling $1.7M",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Jun 2026: cash+investments $4.20B, no debt; 1H'26 OCF $1.11B; ROE ~26% (aggregator). No raise needed",
+     "finding": "30 Sep 2026: cash+investments $4.63B, no debt, equity $9.84B; ROE ~24% TTM (calc). Q3 OCF not found (10-Q pending). No raise needed",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q3'26 results 5 Nov 2026 AMC (unconfirmed); investor day 1 Dec. Short int 44.5M (2.3%) 15 Oct, up from 36.7M 31 Jul. P/E ~44",
+     "finding": "Q3 reported 5 Nov 2026, about -5% AH. Investor meeting 1 Dec 2026; Q4 results ~late Feb 2027 (unconfirmed). Short int 44.5M on 15 Oct, up from 36.7M (31 Jul)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q 7 Aug 2026 (Q2); next earnings 5 Nov 2026. No S-3, ATM or offering found; ~$900M buyback left (5 Aug 2026)",
+     "finding": "Last 10-Q 7 Aug 2026 (Q2); Q3 10-Q not yet filed. Next earnings ~late Feb 2027 (unconfirmed). No S-3, ATM or offering in 12 months; $800M buyback left",
      "result": "PASS"
     }
    ],
    "risks": [
-    "EPS growth is slowing: adj EPS +36%, +30%, +24%, +15% over the last four quarters; Q3'26 consensus $0.30 vs $0.28 a year ago (~+7%, aggregator)",
-    "July 2026 sales ex-alcohol up only 14.3% vs +20.8% in Q2; a Q3 sales miss on 5 Nov could break the breakout",
-    "Aluminum, Midwest premium and tariffs are rising through end-2026; Q2 operating margin already fell to 29.2% from 29.9%",
-    "Insider selling clustered in May-Jun 2026 (Tirre, Hall, Kelly, Carling); no insider buys in 12 months; short interest up ~21% since 31 Jul",
-    "Next event: Q3 2026 results 5 Nov 2026 after close (Nasdaq calendar via aggregator, not company-confirmed); investor meeting 1 Dec 2026"
+    "Margin squeeze: Q3 2026 gross margin fell 100bp to 54.7% and operating margin 270bp to 28.0% on aluminum, freight and mix, so operating income rose only 6.4% against +16.7% sales.",
+    "EPS growth has slowed for three quarters (GAAP +28%, +19%, +8%) and sales growth slowed to 16.7%. Neither meets the SEPA growth bar.",
+    "Shares fell about 5% after hours on 5 Nov 2026 despite the sales beat. From $47.83 that is roughly $45, well below the $49.50 pivot, so the VCP is likely broken.",
+    "Insiders sold on the open market in May-Jun 2026 (Tirre, Hall, Kelly, Carling; none under 10b5-1) and no insider bought in 12 months. Short interest rose about 21% from 31 Jul to 15 Oct 2026.",
+    "Next events: an investor meeting in New York on 1 Dec 2026, then Q4/FY2026 results around late Feb 2027 (date not announced). Accelerating EPS and recovering margins would upgrade the verdict."
    ],
-   "next_event": "Q3 2026 results, 5 Nov 2026 after close (unconfirmed); investor meeting, New York, 1 Dec 2026",
-   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "next_event": "Investor meeting, New York, 1 Dec 2026; Q4/FY2026 results around late Feb 2027 (not yet announced)",
+   "hold_through_event": "NO",
    "sources": [
     {
-     "title": "Monster Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "title": "Monster Q3 2026 results, 8-K Ex 99.1 (SEC, 5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123387/tm2629095d1_ex99-1.htm"
+    },
+    {
+     "title": "Monster Q2 2026 results, 8-K Ex 99.1 (SEC, 6 Aug 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000865752/000110465926092046/tm2622396d1_ex99-1.htm"
     },
     {
-     "title": "Monster Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "title": "Monster Q1 2026 results, 8-K Ex 99.1 (SEC, 7 May 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000865752/000110465926057188/tm2613885d1_ex99-1.htm"
     },
     {
-     "title": "Monster Q4/FY2025 results, 8-K Ex 99.1 (SEC)",
+     "title": "Monster Q4/FY2025 results, 8-K Ex 99.1 (SEC, 26 Feb 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926020525/tm267393d1_ex99-1.htm"
     },
     {
-     "title": "Monster Q3 2025 results, 8-K Ex 99.1 (SEC)",
+     "title": "Monster Q3 2025 results, 8-K Ex 99.1 (SEC, 6 Nov 2025)",
      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465925107778/tm2530426d1_ex99-1.htm"
     },
     {
@@ -10334,44 +10358,52 @@
      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926092193/mnst-20260630x10q.htm"
     },
     {
+     "title": "8-K: CEO Americas Gehring resigns to rejoin Coca-Cola (SEC, 25 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926110965/tm2626151d1_8k.htm"
+    },
+    {
+     "title": "8-K: 2-for-1 stock split (SEC, 8 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926081842/tm2619964d1_8k.htm"
+    },
+    {
      "title": "Form 4: Emelie Tirre, May 2026 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/865752/000174709026000002/xslF345X06/form4-05152026_060517.xml"
     },
     {
-     "title": "Form 4: Rodney Sacks trust transfer, May 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/865752/000128435326000005/xslF345X06/form4-05272026_070501.xml"
+     "title": "Form 4: Mark Hall, May 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000128659526000002/xslF345X06/form4-05152026_060519.xml"
+    },
+    {
+     "title": "Form 4: Guy Carling, Jun 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/865752/000174721526000002/xslF345X06/form4-06122026_090644.xml"
+    },
+    {
+     "title": "SEC EDGAR filing index, Monster Beverage (CIK 865752)",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000865752&type=&dateb=&owner=include&count=40"
+    },
+    {
+     "title": "Investing.com: Monster shares fall despite Q3 revenue beat (5 Nov 2026)",
+     "url": "https://ca.investing.com/news/earnings/monster-beverage-shares-fall-despite-q3-revenue-beat-4936246"
+    },
+    {
+     "title": "24/7 Wall St: Monster Q3 2026, beat overshadowed by margin slide (aggregator)",
+     "url": "https://247wallst.com/cards/monster-beverage-q3-2026-earnings-mnst-01m6ptakhn2emp53phwh351d0r"
     },
     {
      "title": "Nasdaq: Monster Q2 2026 call highlights",
      "url": "https://www.nasdaq.com/articles/monster-beverage-q2-earnings-call-highlights"
     },
     {
-     "title": "Quantisnow: MNST insider transactions (aggregator)",
-     "url": "https://quantisnow.com/insiders/MNST"
-    },
-    {
-     "title": "Chartrow: MNST SEC filings list (aggregator)",
-     "url": "https://chartrow.com/quote/mnst/filings"
-    },
-    {
-     "title": "Chartrow: MNST earnings date and surprises (aggregator)",
-     "url": "https://chartrow.com/quote/mnst/earnings"
-    },
-    {
-     "title": "AAII: MNST estimate revisions (aggregator)",
-     "url": "https://www.aaii.com/investingideas/article/528199-what-you-need-to-know-about-monster-beverage-corporations-q3-earnings"
-    },
-    {
-     "title": "MarketBeat: MNST institutional ownership and analysts (aggregator)",
-     "url": "https://www.marketbeat.com/instant-alerts/filing-monster-beverage-corporation-mnst-shares-bought-by-north-dakota-state-investment-board-2026-10-31/"
+     "title": "Equibles: MNST institutional holdings (aggregator)",
+     "url": "https://equibles.com/stocks/mnst/holdings"
     },
     {
      "title": "Equibles: MNST short interest (aggregator)",
      "url": "https://equibles.com/stocks/mnst/shortinterest"
     },
     {
-     "title": "24/7 Wall St: energy drink sector, Celsius (10 Aug 2026)",
-     "url": "https://247wallst.com/investing/2026/08/10/the-energy-drink-buyout-prize-beverage-giants-are-circling/"
+     "title": "Seeking Alpha: Celsius slides as namesake brand sales turn negative (6 Aug 2026)",
+     "url": "https://seekingalpha.com/news/4627504-celsius-holdings-slides-after-sales-for-its-namesake-brand-turn-negative"
     }
    ]
   },
@@ -13840,6 +13872,418 @@
     {
      "title": "13Foresight: MMM 13F holder counts (aggregator)",
      "url": "https://www.13foresight.com/stock/MMM"
+    }
+   ]
+  },
+  "US:MRK": {
+   "market": "US",
+   "code": "MRK",
+   "name": "Merck & Co.",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$146.94",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Merck is a mega-cap pharma leader whose stock has a strong chart (RS 92, VCP 4% below pivot) after a Q3 2026 beat and guidance raise, but the fundamentals are not SEPA-grade. Non-GAAP EPS fell 3% in Q3 2026 (Jul-Sep) and is negative-to-flat even before acquisition charges, sales grow only ~5% with Keytruda nearly half of revenue, and management flags modest 2027 revenue growth ahead of Keytruda's Dec 2028 US patent expiry. Earnings FAIL and clustered EVP selling in Aug 2026 make this a Reject.",
+   "catalyst": "WEAK: new launches (Winrevair Q3'26 $694M +93%, Keytruda Qlex $830M, Ohtuvayre $184M from Verona) offset rather than outgrow Keytruda/Bridion/Januvia erosion (Q3 2026 release, 29 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Non-GAAP EPS Q3'26 $2.49 (-3% y/y); Q2 -$0.13, Q1 -$1.28 (deal charges) vs $2.13/$2.22; FY26 guide $2.77-2.82 vs FY25 record $8.98",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 $18.09B +5% (+4% ex-FX); Q2 +5%, Q1 +5%; ~$550M purchase-timing benefit + $184M acquired Ohtuvayre; Keytruda 48% of sales",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 non-GAAP GM 81.4% vs 81.9%; GAAP GM 72.9% vs 77.7%; non-GAAP R&D +13%, SG&A +10% vs sales +5%; no Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Repeated 'one-time' BD charges ($9.0B Cidara, $5.7B Terns, $0.4B SciBrunch in 2026); Q3 flattered by $550M timing and 10.9% tax rate",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q3'26 EPS $2.49 vs $2.12 consensus, sales $18.09B vs $17.23B; FY26 EPS guide raised to $2.77-2.82; Zacks Rank #5 (29 Oct 2026)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Winrevair +93%, Keytruda Qlex, Ohtuvayre launches; mgmt sees only modest 2027 revenue growth (Q3'26 remarks); WEAK",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Top-3 global pharma, institutional favourite; peers ABBV, LLY, GILD at/near highs (16 Oct 2026); RS 92; defensive, not growth",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~US$362B (2,465M sh, 31 Oct 2026); inst. 80.1% (30 Jun 2026); 5 EVPs sold ~228k sh ~$30M 5-13 Aug 2026, no buys",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $9.55B, debt $53.8B, net debt $44.2B (vs $34.8B Dec 2025); 9M'26 op cash flow $15.8B; ROE not found; no raise",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results ~2 Feb 2027; ATLAS UC Ph3 near-term; short int. 26.8M sh (1.1%) 15 Oct 2026, down from 34.4M; hold: profit cushion only",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filed early Nov 2026 (exact date not found); next earnings ~2 Feb 2027; no equity offering/ATM; $6B notes May 2026",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Keytruda (~48% of sales) loses US compound patent Dec 2028; Medicare price setting expected from 1 Jan 2029",
+    "Q3 2026 beat helped by ~$550M purchase timing and Winrevair inventory build, both to unwind (Q4 2026/2027)",
+    "2027 headwinds: Bridion/Januvia generics (>$2B), German cost law from 1 Jan 2027, vaccine hesitancy, mid-high single-digit opex growth",
+    "Clustered EVP open-market sales in Aug 2026 and 80% institutional ownership limit fresh demand",
+    "Q4 2026 results and 2027 guidance ~2 Feb 2027; consensus FY27 EPS $8.31 is below FY25 $8.98"
+   ],
+   "next_event": "Q4 2026 results and 2027 guidance, ~2 Feb 2027 (unconfirmed; shortlist next_earnings 2026-10-29 is stale)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Merck Q3 2026 results press release (Business Wire, 29 Oct 2026)",
+     "url": "https://www.businesswire.com/news/home/20261029138599/en/Merck-Co.-Inc.-Rahway-N.J.-USA-Announces-Third-Quarter-2026-Financial-Results-Highlights-Multiple-Milestones-Advancing-Broad-Diverse-Pipeline"
+    },
+    {
+     "title": "Merck Q3 2026 prepared remarks",
+     "url": "https://www.merck.com/wp-content/uploads/sites/124/2026/10/3Q26-Merck-Prepared-Remarks.pdf"
+    },
+    {
+     "title": "Merck Form 10-Q, quarter ended 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000310158/000031015826000248/mrk-20260930.htm"
+    },
+    {
+     "title": "Merck Q2 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000310158/000110465926090045/tm2621496d1_ex99-1.htm"
+    },
+    {
+     "title": "Merck Q1 2026 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000310158/000110465926052081/tm2612241d1_ex99-1.htm"
+    },
+    {
+     "title": "Merck Q4/FY2025 results, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926009495/tm264564d1_ex99-1.htm"
+    },
+    {
+     "title": "Zacks: MRK Q3 earnings and sales beat (Yahoo Finance, aggregator)",
+     "url": "https://finance.yahoo.com/healthcare/articles/mrk-q3-earnings-sales-beat-150600815.html"
+    },
+    {
+     "title": "sec-api.io Q3 2026 filing analysis (aggregator: Keytruda LOE, debt issues)",
+     "url": "https://sec-api.io/insights/merck-co-mrk-q3-2026-earnings-sec-filing-analysis"
+    },
+    {
+     "title": "SecForm4 MRK insider transactions (Form 4 aggregator)",
+     "url": "https://www.secform4.com/insider-trading/310158.htm"
+    },
+    {
+     "title": "Equibles MRK 13F institutional holdings (aggregator)",
+     "url": "https://equibles.com/stocks/mrk/holdings"
+    },
+    {
+     "title": "Equibles MRK short interest (aggregator)",
+     "url": "https://equibles.com/stocks/mrk/shortinterest"
+    },
+    {
+     "title": "MarketScreener MRK calendar and consensus (aggregator)",
+     "url": "https://www.marketscreener.com/quote/stock/MERCK-CO-INC-13611/calendar/"
+    },
+    {
+     "title": "Big pharma stocks near all-time highs (Tiger, 16 Oct 2026)",
+     "url": "https://www.itiger.com/news/2675342515"
+    }
+   ]
+  },
+  "US:LNTH": {
+   "market": "US",
+   "code": "LNTH",
+   "name": "Lantheus Holdings",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$100.7",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Lantheus agreed on 3 Aug 2026 to be bought by Curium for US$102.50 cash plus a non-transferable CVR worth up to US$12, and stockholders approved the deal on 14 Oct 2026. The 'VCP' near a US$102.9 pivot is merger-arbitrage pricing just under the cash price, not a growth setup. Q3 2026 results came out today: revenue rose 1.5%, GAAP EPS fell 19.5%, guidance stays suspended and there was no call, so upside is capped and the main risk is the deal breaking.",
+   "catalyst": "None for earnings. The Curium cash takeover (8-K, 3 Aug 2026) caps the share price near US$102.50, and CVR payouts depend on sales milestones in 2028-2030.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS Q3'26 $1.68 +32%, Q2 -1.3%, Q1 -4.6%, Q4'25 +4.7%; GAAP Q3 $0.33 -19.5%; FY25 adj $6.08 vs $6.76",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 rev $389.9M +1.5%; 9M +1.8%; Pylarify -0.7%, SPECT divested; Neuraceq +123% (acquired Jul 2025)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 GM 62.4% vs 57.9%, but GAAP op inc $32.2M vs $43.6M (-26%); no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3'26 GAAP $0.33 vs adj $1.68; $31.0M impairment; 9M'26 incl $59.4M sale gain; SBC $57.9M 9M; OCF $102.0M Q3",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "FY26 guidance suspended 6 Aug 2026 (merger), still suspended 5 Nov; no Q3 call; FTC second request 21 Oct",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Curium takeover at $102.50 cash + CVR up to $12 (3 Aug 2026) caps upside; no earnings catalyst. WEAK",
+     "result": "FAIL"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Radiopharma imaging (Pylarify Q3'26 $238.9M, flat); takeover target, trades as merger arb; peers not checked",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "65.4M sh (2 Nov 26); 398 13F holders Q1'26, inst % not found reliably; D&O 1.8%; no open-mkt insider buys/sales found in 12m",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 26: cash $683.6M, debt $571.7M, net cash $111.9M; 9M'26 OCF $319.3M; ROE not found; no raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "FTC 2nd request 21 Oct 26; close targeted 1H27; outside date 2 May 27 (ext to 30 Nov 27); short int 3.63M (15 Oct), falling",
+     "result": "FAIL"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filed with results (5 Nov 26); next earnings not announced; no ATM/offering found; 2.625% converts due Dec 2027",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Deal break: FTC second request (21 Oct 2026). Curium owes only a US$100M regulatory reverse fee, and the US$102.50 price was a 21% premium to the unaffected 21 May 2026 close",
+    "Upside is capped at US$102.50 cash. The CVR (up to US$12) can't be traded and depends on 2028-2030 sales milestones",
+    "The underlying business is flat: Pylarify -0.7% and GAAP EPS -19.5% in Q3 2026. FY26 guidance is suspended",
+    "Timing: close targeted for 1H 2027; outside date 2 May 2027, extendable to 30 Nov 2027 for regulatory approvals",
+    "A rival bid could change the picture, but none has been reported"
+   ],
+   "next_event": "FTC second-request compliance/HSR clearance, close targeted 1H 2027; Q4 2026 earnings date not announced (not found)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "Lantheus Reports Third Quarter 2026 Financial Results (GlobeNewswire, 5 Nov 2026)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/05/3396238/0/en/lantheus-reports-third-quarter-2026-financial-results.html"
+    },
+    {
+     "title": "Lantheus Form 10-Q Q3 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526448622/lnth-20260930.htm"
+    },
+    {
+     "title": "Q2 2026 results, 8-K Ex 99.1 (6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526336771/lnth-ex99_1.htm"
+    },
+    {
+     "title": "Q1 2026 results, 8-K Ex 99.1 (7 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526210369/lnth-ex99_1.htm"
+    },
+    {
+     "title": "Q4/FY2025 results, 8-K Ex 99.1 (26 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526073439/lnth-ex99_1.htm"
+    },
+    {
+     "title": "Curium-Lantheus merger announcement, 8-K Ex 99.1 (3 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526329622/d148563dex991.htm"
+    },
+    {
+     "title": "Definitive merger proxy DEFM14A",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526384284/d180727ddefm14a.htm"
+    },
+    {
+     "title": "8-K special meeting vote results (14 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526421732/d183496d8k.htm"
+    },
+    {
+     "title": "8-K FTC second request (22 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526428324/d19181d8k.htm"
+    },
+    {
+     "title": "FTC extends review of Lantheus-Curium merger (EconoTimes)",
+     "url": "https://econotimes.com/FTC-Extends-Antitrust-Review-of-Planned-Lantheus-Curium-Merger-1761290"
+    },
+    {
+     "title": "LNTH insider transactions (aggregator)",
+     "url": "https://quantisnow.com/insiders/LNTH"
+    },
+    {
+     "title": "LNTH institutional holders Q1 2026 13F (aggregator)",
+     "url": "https://www.insiderset.com/stocks/LNTH/institutional-ownership"
+    },
+    {
+     "title": "LNTH short interest (aggregator, FINRA data)",
+     "url": "https://equibles.com/stocks/lnth/shortinterest"
+    }
+   ]
+  },
+  "US:WELL": {
+   "market": "US",
+   "code": "WELL",
+   "name": "Welltower",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$245.43",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "Welltower is the largest healthcare REIT. Senior housing occupancy and pricing gains plus about $21B of 2026 acquisitions lifted Q3 2026 normalized FFO 24.6% to $1.67 and drove a third guidance raise to $6.47-6.53. It stays Watch only because headline sales growth (+38%) is mostly bought: organic SHO same-store revenue was +9.1%. The deals are funded by a constant ATM ($7.56B of stock sold in 9M 2026, shares +37% in 3 years), and the stock is in a late-stage base 6 with 10-year yields near 5.4%.",
+   "catalyst": "SHO occupancy (+320bp) and RevPOR (+5.3%) lifted Q3 2026 SHO SSNOI 21%; $7.7B of deals closed or under contract after quarter end (Q3 release, 26 Oct 2026). MODERATE.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Norm FFO/sh: Q4'25 $1.45 +28%, Q1'26 $1.47 +23%, Q2 $1.60 +25%, Q3 $1.67 +24.6%; GAAP EPS Q2 +36%, Q3 +32%. FY26 guide $6.50 record",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3 2026 revenue $3.72B, +38.4% YoY (Q1 +38%, Q2 +39%), mostly acquired: organic SHO same-store revenue +9.1%, total SSNOI +15.8%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 net margin 11.2% vs 10.5%; SHO SSNOI +21% on revenue +9.1% shows operating leverage. FFO and sales growth flat, not accelerating: no Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "9M'26 property-sale gains $634M vs $71M; Q3 normalizing items $0.25/sh (deal costs $125M). NAREIT FFO guide cut to $6.10 mid while normalized raised",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 norm FFO $1.67 vs $1.64 consensus; revenue in line/slight miss. FY26 guide raised a 3rd time to $6.47-6.53 (26 Oct). Stock fell 5.2% on 27 Oct",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "SHO occupancy/pricing upcycle and $21B of 2026 investments ($7.7B after Q3) per 26 Oct 2026 release. Long-running story, not new: MODERATE",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Sector leader and institutional favourite, about $180B market cap. Peer Ventas Q3'26 nFFO +10%, SHOP SSNOI +15.5%. Late base 6, rate-sensitive",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Shares 536.0M (Oct 23) to 733.6M (Oct 26), +37%. ATM sold 34.6M shares/$7.56B in 9M'26, $4.49B left. Inst 99.2% (Q2'26). Only insider trade: director buy",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $2.27B, debt $19.67B, net debt $17.26B, 3.02x adj EBITDA, $9.5B liquidity. 9M OCF $2.68B (+20%) exceeds dividends",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results date not announced (Q4'25 was 10 Feb 2026). Short interest 16.7M (2.3% of shares out, 15 Oct) down from 19.1M on 15 Jul",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "10-Q filed 27 Oct 2026. $7.5B ATM renewed 28 Jul 2026, 1.62M shares sold in Oct. Shelf 333-286204. No underwritten common offering found in last 12 months",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Persistent ATM supply: $7.56B sold in 9M 2026 at avg $218.07, $4.49B capacity left (23 Oct 2026); the $7.7B pipeline needs more equity",
+    "Rates: per the Q3 call, the Fed hiked in Sep 2026 and the 10-year hit 5.36%; a richly valued REIT (~37x forward AFFO, TIKR) is exposed to multiple compression",
+    "Late-stage base 6, and the largest one-day drop in 6 months came in the last 2 weeks (-5.2% on 27 Oct after Q3)",
+    "Over-owned: 99.2% institutional (Q2 2026, aggregator), so few new buyers are left",
+    "Turns to Buy: organic SHO revenue growth back near 20%, or equity issuance slowing while FFO/sh growth stays above 25%"
+   ],
+   "next_event": "Q4 2026 results: date not announced (Q4 2025 was released 10 Feb 2026). Dividend record date 10 Nov 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Welltower Q3 2026 earnings release (8-K Ex 99.1, 26 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000766704/000076670426000043/a3q26pressreleaseprnnewswi.htm"
+    },
+    {
+     "title": "Welltower 10-Q for quarter ended 30 Sep 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000766704/000076670426000046/well-20260930.htm"
+    },
+    {
+     "title": "Welltower Q2 2026 earnings release (27 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000766704/000076670426000026/a2q26earningsrelease991.htm"
+    },
+    {
+     "title": "Welltower Q1 2026 earnings release (28 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000766704/000076670426000018/a1q26earningsrelease991.htm"
+    },
+    {
+     "title": "Welltower Q4 2025 earnings release (10 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000005/a4q25earningsrelease991.htm"
+    },
+    {
+     "title": "$7.5B ATM prospectus supplement (424B5, 28 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000162828026050175/welltowerinc-prospectussup.htm"
+    },
+    {
+     "title": "OP unit exchange prospectus supplement (424B5, 27 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000162828026067623/welltowerinc-424b5xoctober.htm"
+    },
+    {
+     "title": "Form 4: director Gundlach open-market purchase (27 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000119312526371418/ownership.xml"
+    },
+    {
+     "title": "SEC EDGAR filing index for Welltower (Form 4s, 13Gs, 424B5s)",
+     "url": "https://data.sec.gov/submissions/CIK0000766704.json"
+    },
+    {
+     "title": "SEC XBRL shares outstanding history (dei)",
+     "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000766704/dei/EntityCommonStockSharesOutstanding.json"
+    },
+    {
+     "title": "Welltower Q3 2026 earnings call summary (Bullfincher)",
+     "url": "https://bullfincher.io/companies/welltower/earnings-call/fy2026-q3"
+    },
+    {
+     "title": "TIKR: Welltower fell 5% as Q3 revenue misses despite raised FFO outlook",
+     "url": "https://www.tikr.com/blog/welltower-fell-5-as-q3-revenue-misses-despite-raised-ffo-outlook"
+    },
+    {
+     "title": "Earnings Whispers Q3 2026 preview (consensus)",
+     "url": "https://www.earningswhispers.com/article/WELL/20671"
+    },
+    {
+     "title": "Senior Housing News: Welltower $2.7B Q3 acquisitions",
+     "url": "https://seniorhousingnews.com/2026/10/26/welltower-reports-2-7b-in-senior-housing-acquisitions-in-third-quarter/"
+    },
+    {
+     "title": "Institutional holders (VCP Scanner, 13F aggregator)",
+     "url": "https://vcpscanner.com/stock/well/institutional-holders"
+    },
+    {
+     "title": "Short interest (Equibles, FINRA data)",
+     "url": "https://equibles.com/stocks/well/short-interest"
+    },
+    {
+     "title": "Zacks: Ventas Q3 2026 results (peer)",
+     "url": "https://www.zacks.com/stock/news/3017600/ventas-q3-ffo-&-revenues-beat-estimates-on-strong-shop-growth"
     }
    ]
   }
