@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:24:51Z",
+ "updated": "2026-11-05T22:51:40Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -7911,143 +7911,119 @@
    "market": "US",
    "code": "GWW",
    "name": "W. W. Grainger",
-   "date": "2026-10-29",
+   "date": "2026-11-05",
    "status_at_review": "Breaking out",
-   "price_at_review": "US$1371.86",
+   "price_at_review": "US$1451.39",
    "verdict": "Watch only",
    "confidence": "high",
-   "summary": "Grainger, the largest US MRO distributor (~US$64.6B cap, calc), has re-accelerated as the MRO market turned up: Q1/Q2'26 EPS +18%/+21% on ~10% sales growth, guidance raised twice. But growth is below SEPA's 25%/20% bar, Q2 was helped by a one-off US$43M tariff refund, Q3 consensus implies only +14%, and officers sold in a cluster in Mar-May 2026.",
-   "catalyst": "MRO demand turned positive in 2026 (ISM PMI 54.5 in Sep, 9th month of expansion) plus Endless Assortment growth ~20%, driving two 2026 guidance raises; MODERATE.",
+   "summary": "Grainger, the largest US MRO distributor (~US$65.9B cap), beat Q3 2026 on 4 Nov (adj EPS $12.54, +22.8%; sales +11.3%, +14.9% daily organic cc) and raised FY26 guidance a third time to $47.00-48.00. Growth is accelerating but still below SEPA's 25% EPS / 20% sales bars. Clustered officer selling in Mar-May 2026 (supply FAIL) caps the verdict at Watch only, and receivables are growing faster than sales.",
+   "catalyst": "MRO upcycle (ISM PMI 55.5 Oct 2026; data-center and power projects) plus Endless Assortment at +19.3% (Zoro US +25.2%) drove a third 2026 guidance raise on 4 Nov 2026; MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Dil EPS YoY: Q3'25 adj $10.21 +3%; Q4'25 $9.44 -3%; Q1'26 $11.65 +18%; Q2'26 $12.01 +21% (GAAP=adj). Accelerating, under 25%; Q3e $11.64 +14%",
+     "finding": "Adj dil EPS YoY: Q4'25 $9.44 -3%; Q1'26 $11.65 +18%; Q2'26 $12.01 +21%; Q3'26 $12.54 +22.8% (GAAP $12.42 +103%, UK-exit base). Accelerating, <25%",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Sales YoY: Q3'25 +6.1%; Q4'25 +4.5%; Q1'26 $4.74B +10.1%; Q2'26 $5.02B +10.3% (13.7% daily organic cc). Organic; ~4pt is price. Under 20%",
+     "finding": "Sales YoY: Q1'26 +10.1%; Q2'26 +10.3%; Q3'26 $5.18B +11.3% (+14.9% daily organic cc; Oct ~+18% prelim). Organic, part price. Under 20%",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Op margin Q1'26 16.7% (+110bp), Q2'26 16.1% (+120bp); GM Q2 39.5% (+100bp, ~90bp tariff refund). Q3 guided mid-15%. No Code 33",
+     "finding": "Q3'26 GM 38.8% (+20bp); adj op margin 16.1% (+90bp) after +110bp Q1, +120bp Q2. Sales/EPS accelerate, margin gains don't: no Code 33",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "Q2'26 EPS includes US$43M IEEPA tariff refund (~$0.69/sh, calc): ex-refund ~+13.5% (calc). AR +14% YoY vs sales +10% (calc). 1H OCF $1.18B > NI",
+     "finding": "AR $2.88B +19.5% YoY vs sales +11.3% (30 Sep 26, calc). Q3 tariff refund ~10bp offset by fire write-off; Q4 leans on rebates. 9M OCF $1.84B > NI $1.71B",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Beat Q1'26 by $1.44, Q2'26 by $0.71 ($12.01 vs $11.30). FY26 EPS guide raised twice: $42.25-44.75 to $45.50-47.25 (4 Aug). Targets mixed since Aug",
+     "finding": "Q3'26 adj EPS $12.54 vs $11.64 cons (+7.7%), sales +2.5% beat; 4/4 beats. FY26 guide raised 3rd time to $47.00-48.00 (was $45.50-47.25) vs $46.31 cons",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: MRO market positive after years of declines (Q2 call, 4 Aug 2026); ISM PMI 54.5 Sep 2026; Zoro US +18%, MonotaRO +24% (Q2'26)",
+     "finding": "MODERATE: MRO demand improving across all end markets (Q3 call, 4 Nov 2026); ISM PMI 55.5 Oct 2026; Zoro US +25.2%, MonotaRO +13.6% (Q3'26)",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Market leader, cyclical, early-mid cycle. Peer FAST Q3'26 sales +15.5%, EPS +20% (14 Oct). GWW +39% 1yr vs XLI +9%. Consensus Hold (13-18 analysts)",
+     "finding": "Market leader, cyclical, early-mid cycle. Peer FAST Q3'26 sales +15.5%, EPS +20% (14 Oct). GWW +38.5% YTD vs S&P +10.6%; near 52w high $1,521",
      "result": "PASS"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Clustered sales: CFO 24 Mar & 2 Apr 2026; 3 officers 12 May 2026 (~$3.2M); CEO $26M Dec 2025. No buys. Inst ~81% (aggregator). Shares -6% in 3y",
+     "finding": "Clustered sales: CFO 24 Mar & 2 Apr 2026; 3 officers 12 May 2026 (~$3.2M); CEO $26M Dec 2025. No buys; none since. Inst 80.7% (Aug 26). Shares -6.4%/3y",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Jun 2026: cash $589M, debt $2.41B, net debt $1.82B (calc); equity $4.51B; TTM ROE ~41% (calc). 1H26 OCF $1.18B, FY26 buybacks ~$1B. No raise risk",
+     "finding": "30 Sep 2026: cash $768M, debt $2.69B, net debt $1.92B (calc); equity $4.34B. 9M26 OCF $1.84B, FY26 OCF guide $2.35-2.45B, buybacks ~$1B. No raise risk",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q3'26 results 4 Nov 2026 pre-market (IR site, confirmed). Q3 margin guided down to mid-15% as refund laps. Short int 1.04M sh, 2.4% float (31 Aug), +11%",
+     "finding": "Next: Q4'26 results ~2 Feb 2027 (not yet confirmed). Q4 op margin guided ~15.5%; rebates/tariff refunds reset in 2027. Short int 2.4% float (31 Aug)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2'26, filed 4 Aug 2026. Next earnings 4 Nov 2026. S-3ASR (7 May 2026) registers debt only. No secondary, equity shelf or ATM",
+     "finding": "Last 10-Q: Q3'26, filed 4 Nov 2026. Next earnings ~2 Feb 2027. S-3ASR (7 May 2026) debt only. No secondary, equity offering or ATM",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Q3'26 report 4 Nov (6 days): guided op margin falls to mid-15% as Q2 tariff refund laps; stock at pivot with no cushion",
-    "Valuation ~29.6x FY26 consensus EPS $46.31 (calc), above the average analyst target (~$1,254, MarketBeat); consensus is Hold",
-    "MRO cycle or tariff/freight cost inflation could squeeze price-cost; MonotaRO pre-buy (~$45M) reversal",
-    "CFO resigned effective 4 Sep 2026; interim CFO (controller) while search runs",
-    "Verdict upgrades if Q3/Q4 EPS growth reaches 25%+ ex one-offs and insider selling stays quiet"
+    "Q4'26 guide implies adj EPS $10.80-11.80 vs $9.44 (+14% to +25%, calc); op margin steps down to ~15.5% and depends on supplier rebates",
+    "2027 headwinds flagged on Q3 call: supplier rebates and tariff-refund benefits reset; Adroit acquisition integration drag of 10-15bp",
+    "Receivables up 19.5% YoY vs sales +11.3% (30 Sep 2026, calc); price increases could cause customer friction",
+    "Valuation ~30x FY26 guide midpoint $47.50 (calc at $1,451); consensus Zacks Rank #3 Hold; interim CFO since Sep 2026",
+    "Verdict upgrades to SEPA candidate if EPS growth reaches 25%+ and no further insider selling through the May 2026 cluster's 12-month window"
    ],
-   "next_event": "Q3 2026 results, Wed 4 Nov 2026 before market open (confirmed, Grainger IR; call 10:00 CT)",
+   "next_event": "Q4/FY2026 results, ~2 Feb 2027 (scanner date; not yet confirmed by Grainger IR)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
+     "title": "Q3 2026 earnings release, 4 Nov 2026 (8-K Ex 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000277135/000027713526000088/gww8kex991q32026.htm"
+    },
+    {
+     "title": "Form 10-Q, quarter ended 30 Sep 2026 (filed 4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713526000090/gww-20260930.htm"
+    },
+    {
      "title": "Q2 2026 earnings release, 4 Aug 2026 (8-K Ex 99.1)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000277135/000027713526000076/gww8kex991q22026.htm"
-    },
-    {
-     "title": "Q1 2026 earnings release, 7 May 2026 (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000277135/000027713526000056/gww8kex991q12026.htm"
-    },
-    {
-     "title": "Q4/FY2025 earnings release, 3 Feb 2026 (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713526000004/gww8kex991q42025.htm"
     },
     {
      "title": "Q3 2025 earnings release, 31 Oct 2025 (8-K Ex 99.1)",
      "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713525000145/gww8kex991q32025.htm"
     },
     {
-     "title": "Q2 2025 earnings release (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713525000126/gww8kex991q22025.htm"
-    },
-    {
-     "title": "Q2 2023 earnings release (8-K Ex 99.1)",
+     "title": "Q2 2023 earnings release (8-K Ex 99.1), share count base",
      "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713523000051/gww8kex991q22023.htm"
     },
     {
-     "title": "Form 10-Q, quarter ended 30 Jun 2026",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000277135/000027713526000079/gww-20260630.htm"
+     "title": "Grainger SEC filing index (EDGAR submissions, Form 4/144 list)",
+     "url": "https://data.sec.gov/submissions/CIK0000277135.json"
     },
     {
-     "title": "Form S-3ASR, 7 May 2026 (debt securities)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000277135/000110465926057260/tm2613527-1_s3asr.htm"
+     "title": "Q3 2026 earnings call transcript (Investing.com)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ww-grainger-tops-q3-2026-estimates-lifts-outlook-93CH-5000819"
     },
     {
-     "title": "Q3 2026 earnings conference call event (Grainger IR)",
-     "url": "https://invest.grainger.com/events-and-presentations/event-details/2026/Q3-2026-Grainger-Earnings-Conference-Call/default.aspx"
+     "title": "GWW Q3 earnings vs estimates (aggregator, Zacks via Yahoo)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/w-w-grainger-gww-q3-140502250.html"
     },
     {
-     "title": "Grainger CFO resigns, interim named (StreetInsider, 3 Aug 2026)",
-     "url": "https://www.streetinsider.com/Corporate+News/Grainger+CFO+resigns%2C+interim+replacement+named/26854259.html"
-    },
-    {
-     "title": "Q2 2026 call highlights (aggregator, Nasdaq)",
-     "url": "https://www.nasdaq.com/articles/ww-grainger-q2-earnings-call-highlights"
-    },
-    {
-     "title": "Q2 2026 call highlights (aggregator, GuruFocus)",
-     "url": "https://www.gurufocus.com/news/9003685/ww-grainger-inc-gww-q2-2026-earnings-call-highlights-strong-sales-growth-and-raised-guidance-amid-tariff-refunds"
-    },
-    {
-     "title": "Q2 2026 beat vs consensus (aggregator, Nasdaq/Zacks)",
-     "url": "https://www.nasdaq.com/articles/grainger-beats-q2-earnings-estimates-margin-gains-raises-outlook"
-    },
-    {
-     "title": "Earnings preview, 22 Oct 2026 (aggregator, Barchart via Yahoo)",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-w-w-grainger-111447724.html"
+     "title": "Q3 2026 sales top estimates, outlook (aggregator, StockStory via Yahoo)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/w-w-grainger-nyse-gww-130925559.html"
     },
     {
      "title": "Insider trades (aggregator, MarketBeat)",
      "url": "https://www.marketbeat.com/stocks/NYSE/GWW/insider-trades/"
-    },
-    {
-     "title": "Form 144 filings (aggregator, Equibles)",
-     "url": "https://equibles.com/stocks/gww/proposed-sales"
     },
     {
      "title": "Form 4 history (aggregator, secform4)",
@@ -8062,16 +8038,12 @@
      "url": "https://www.marketbeat.com/stocks/NYSE/GWW/short-interest/"
     },
     {
-     "title": "Analyst forecasts (aggregator, MarketBeat)",
-     "url": "https://www.marketbeat.com/stocks/NYSE/GWW/forecast/"
-    },
-    {
      "title": "Fastenal Q3 2026 results, 14 Oct 2026 (aggregator, Finviz)",
      "url": "https://finviz.com/news/402232/fastenal-company-reports-2026-third-quarter-earnings"
     },
     {
-     "title": "ISM Manufacturing PMI September 2026 (Textile World)",
-     "url": "https://www.textileworld.com/textile-world/2026/10/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report/"
+     "title": "ISM Manufacturing PMI October 2026 report (55.5)",
+     "url": "https://www.miningstockeducation.com/2026/11/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report/"
     }
    ]
   },
@@ -10803,155 +10775,127 @@
    "market": "US",
    "code": "USFD",
    "name": "US Foods Holding",
-   "date": "2026-11-02",
+   "date": "2026-11-05",
    "status_at_review": "Breaking out",
-   "price_at_review": "US$105.8",
+   "price_at_review": "US$106.85",
    "verdict": "Watch only",
-   "confidence": "high",
-   "summary": "The No. 2 US broadline foodservice distributor is compounding steadily. Q2 FY26 (Mar-Jun, ended 27 Jun 2026) adj EPS rose 21% to a record $1.44 on sales up only 4.5%, with margin programmes and buybacks doing most of the work. Sales growth in the low single digits and adj EPS growth below 25% mean it is a quality compounder, not a SEPA earnings leader. Q3 results land 5 Nov 2026, three days away.",
-   "catalyst": "Weak: margin programmes (over $300M vendor savings targeted by 2027, $75M+ indirect procurement in 2026), a fifth straight quarter of faster independent case growth (+5.1%), and a $1B buyback launched Nov 2025 after PFGC merger talks ended (Q2 call, 6 Aug 2026).",
+   "confidence": "medium",
+   "summary": "The No. 2 US broadline foodservice distributor is a steady margin-and-buyback compounder, not a SEPA earnings leader. Q3 FY26 (Jun-Sep, ended 26 Sep 2026, reported 5 Nov 2026) adj EPS rose 17.8% to $1.26, but net sales grew only 2.1% and missed consensus by about 1.8%, and the FY26 guide was narrowed with a lower top end (adj EPS +18-20% from +18-24%, sales +4-5% from +4-6%). Sales growth near 2% and EPS growth under 25% keep it on watch; StockStory reported the shares up about 5% to $115.40 after the release (close not verified).",
+   "catalyst": "Weak: margin programmes (over $300M cost-of-goods savings in the 3-year plan, AI adding $75M+ adj EBITDA in 2026 rising to $110M+ in 2027), independent cases +5.0% and net new accounts +5.5% (Q3 call, 5 Nov 2026), plus buybacks ($450M left).",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj dil EPS YoY: Q3'25 $1.07 +26%; Q4'25 $1.04 +24%; Q1'26 $0.78 +15%; Q2'26 $1.44 +21% (GAAP $1.24 +29%). FY25 record $3.98. Q3e $1.18-1.25 (aggregator)",
+     "finding": "Adj dil EPS YoY: Q4'25 $1.04 +24%; Q1'26 $0.78 +15%; Q2'26 $1.44 +21%; Q3'26 $1.26 +17.8% (GAAP $1.00 +49%). FY26 guide +18-20%. Below 25%",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Net sales YoY: Q3'25 +4.8%, Q4'25 +3.3%, Q1'26 +2.8%, Q2'26 $10.53B +4.5%. Organic cases +1.7%; FY26 guide +4-6%. Far below 20%",
+     "finding": "Net sales YoY: Q1'26 +2.8%, Q2'26 +4.5%, Q3'26 $10.40B +2.1% (cases +1.3%, organic +1.2%). FY26 guide cut to +4-5% incl 53rd week",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q2'26 gross 18.2% vs 17.6%, adj EBITDA 5.7% vs 5.4%, net 2.6% vs 2.2% (calc). Q1'26 gross 17.2% vs 17.3%. Sales not accelerating, so no Code 33",
+     "finding": "Q3'26 gross 18.3% vs 17.2% (LIFO swing helped), adj EBITDA 5.3% vs 5.0%, net 2.1% vs 1.5%. Sales decelerating, so no Code 33",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "H1'26 OCF $725M, flat YoY while NI rose. Diluted shares down 5.4% YoY (Q2'26). Q1 GAAP $0.52 vs adj $0.78. Main concern: buybacks lift EPS",
+     "finding": "Q3'26 GAAP GP had $49M LIFO swing; restructuring $34M. YTD OCF $1,160M vs NI $609M. Diluted sh -4.7% YoY. Adj EPS +17.8% vs EBITDA +9.9%",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2'26 adj EPS $1.44 vs $1.36 est; sales $10.53B vs $10.46B (6 Aug 2026). FY26 guide reaffirmed, not raised. Estimate revisions not found",
+     "finding": "Q3'26 adj EPS $1.26 vs $1.25 est; sales $10.40B vs $10.59B (miss). FY26 guide top end cut 5 Nov 2026: EPS +18-20% (was 18-24%)",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "WEAK: cost programmes ($300M+ by 2027), independent cases +5.1% (Q2'26), $1B buyback after PFGC talks ended (Nov 2025). Incremental, not transformative",
+     "finding": "WEAK: $300M+ COGS savings plan, AI EBITDA $75M+ to $110M+ (2027), indep cases +5.0%, Prime Line buy (Oct 2026, $110M+ sales). Incremental",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Institutional favourite, defensive distributor gaining share for 21 straight quarters. Peer group strength not verified; Sysco reports 3 Nov 2026",
+     "finding": "Share-gaining No. 2 distributor, institutional favourite. Peer Sysco Q1 FY27 (3 Nov 2026): sales +2.8%, adj EPS +3.5%, sales guide to low end",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Mkt cap ~$22.9B (calc, 216.3M sh at 31 Jul 2026). Diluted sh 251.0M Q2'23 to 220.5M Q2'26 (-12%). Inst 98.8% (aggregator). 5 insider sellers in 12m, 0 buys",
+     "finding": "Mkt cap ~$23.1B (calc, 216.3M sh 31 Jul 2026). Inst 98.76% (MarketBeat). Open-mkt sales: Hancock 7 Aug, Taylor 13 Aug 2026; 0 buys in 12m",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "27 Jun 2026: cash $56M, debt $5.24B, net debt $5.18B, 2.6x leverage. FY25 OCF $1.37B. TTM ROE ~17% (calc). No raise needed",
+     "finding": "26 Sep 2026: cash $54M, debt $5.10B, net debt $5.05B, 2.4x net leverage. YTD OCF $1.16B, capex $266M. $810M loan refinanced to 2033",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q3 results 5 Nov 2026 BMO, 3 days away; Sysco reports 3 Nov. Short interest 13.9M, 7.6 days to cover (15 Oct), up 29% since 14 Aug",
+     "finding": "Q4 FY26 results date not found (2027 guide due Feb 2027). Short interest 13.94M, 7.61 days to cover (15 Oct 2026), up 29% since 14 Aug",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q (Q2, ended 27 Jun 2026) posted 6 Aug 2026. Next earnings 5 Nov 2026. No shelf, ATM or offering found. $640M buyback left",
+     "finding": "Last 10-Q: Q2 (ended 27 Jun 2026) filed 6 Aug 2026; Q3 10-Q not found yet. No shelf, ATM or offering found. $450M buyback left",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Pre-mortem 1: Q3 shows slower gross profit per case (lapping a Food Fanatics event) and FY26 guide is cut or held while estimates imply only +10-17% EPS",
-    "Pre-mortem 2: restaurant traffic weakens (chain cases -1.5% in Q2'26) or food deflation squeezes the 4-6% sales guide",
-    "Pre-mortem 3: over-ownership (inst ~98.8%) plus rising short interest (13.9M, 7.6 days) creates heavy supply on any miss",
-    "Insider supply: officers Hancock (7 Aug 2026, $2.4M) and Taylor (13 Aug 2026, $1.3M) sold, not under 10b5-1 plans; no insider buys in 12 months",
-    "Next event: Q3 FY26 results 5 Nov 2026 BMO. A raised FY26 guide with sales accelerating toward 6%+ would improve the case, but it still would not meet SEPA sales criteria"
+    "Pre-mortem 1: restaurant traffic weakens further (chain cases -1.5% in Q3'26; October soft patch noted on the 5 Nov 2026 call) and the narrowed FY26 guide is missed",
+    "Pre-mortem 2: protein deflation keeps cutting sales growth (management estimated 100-150 bp drag) and fuel and selling costs (about 1 pt headwind in Q4) squeeze EBITDA growth",
+    "Pre-mortem 3: over-ownership (inst 98.76%) plus rising short interest (13.94M, 7.61 days at 15 Oct 2026) adds heavy supply after the guidance cut",
+    "Insider supply: officers Hancock (7 Aug 2026, $2.36M) and Taylor (13 Aug 2026, $1.28M after option exercise) sold on the open market; no insider buys in 12 months",
+    "Next event: Q4 FY26 results and 2027 guidance, expected Feb 2027 (exact date not found). Sales growth back above 5% with an EPS guide of 20%+ would improve the case"
    ],
-   "next_event": "Q3 FY26 results and call, 5 Nov 2026, before the open (confirmed in company release, 15 Oct 2026); Sysco Q1 FY27, 3 Nov 2026",
+   "next_event": "Q4 FY26 results and FY27 guidance, Feb 2027 (company said 2027 guidance comes in February; exact date not found)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
+     "title": "US Foods Q3 FY26 results, 8-K Ex 99.1 (SEC, 5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000053/usfd09262026ex991.htm"
+    },
+    {
+     "title": "US Foods 8-K cover, 5 Nov 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000053/usfd-20261105.htm"
+    },
+    {
      "title": "US Foods Q2 FY26 results, 8-K Ex 99.1 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000043/usfd06272026ex991.htm"
-    },
-    {
-     "title": "US Foods Q1 FY26 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000030/usfd03282026ex991.htm"
-    },
-    {
-     "title": "US Foods Q4 and FY25 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591826000005/usfd12272025ex991.htm"
-    },
-    {
-     "title": "US Foods Q3 FY25 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591825000144/usfd09272025ex991.htm"
-    },
-    {
-     "title": "US Foods Q2 FY23 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591823000124/usfd712023ex991.htm"
     },
     {
      "title": "US Foods 10-Q, quarter ended 27 Jun 2026 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000166591826000045/usfd-20260627.htm"
     },
     {
-     "title": "EDGAR filing index for Q2 FY26 10-Q (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591826000045/"
+     "title": "Q3 2026 earnings call transcript and summary (gloom.sh, aggregator)",
+     "url": "https://gloom.sh/stocks/usfd/transcripts/q3-2026"
+    },
+    {
+     "title": "StockStory: US Foods misses Q3 2026 revenue estimates (aggregator)",
+     "url": "https://stockstory.org/us/stocks/nyse/usfd/news/earnings/us-foods-nyseusfd-misses-q3-2026-revenue-estimates"
+    },
+    {
+     "title": "Earnings Whispers: USFD Q3 2026 consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/usfd"
+    },
+    {
+     "title": "Sysco Q1 FY27 results, 8-K press release (SEC, 3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000096021/000009602126000046/syy2027q1pressrelease.htm"
+    },
+    {
+     "title": "Equibles: USFD insider trading (aggregator, Form 4 data)",
+     "url": "https://equibles.com/stocks/usfd/insider-trading"
     },
     {
      "title": "Form 4: W. S. Hancock sale, 7 Aug 2026 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000183193926000006/wk-form4_1786480238.xml"
     },
     {
-     "title": "Form 4: D. Flitman gifts, 14 Aug 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001665918/000136768826000008/wk-form4_1786996820.xml"
-    },
-    {
-     "title": "US Foods Q3 2026 conference call notice (15 Oct 2026)",
-     "url": "https://s21.q4cdn.com/460693622/files/doc_news/US-Foods-to-Host-Third-Quarter-2026-Financial-Results-Conference-Call-and-Webcast-2026.pdf"
-    },
-    {
-     "title": "Q2 2026 earnings call transcript (Webull, aggregator)",
-     "url": "https://www.webull.com/news/15706654075323392"
-    },
-    {
-     "title": "MarketBeat: Q2 2026 results vs consensus (aggregator)",
-     "url": "https://www.marketbeat.com/instant-alerts/us-foods-nyseusfd-updates-fy-2026-earnings-guidance-2026-08-06/"
-    },
-    {
-     "title": "InsiderTrades: USFD insider trades and ownership (aggregator)",
-     "url": "https://www.insidertrades.com/us-foods-holding-corp-stock"
-    },
-    {
-     "title": "Equibles: USFD insider trading (aggregator)",
-     "url": "https://equibles.com/stocks/usfd/insider-trading"
-    },
-    {
-     "title": "InsiderSet: USFD 13F holders, Q2 2026 (aggregator)",
-     "url": "https://www.insiderset.com/stocks/USFD/institutional-ownership"
+     "title": "MarketBeat: USFD institutional ownership (aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/USFD/institutional-ownership"
     },
     {
      "title": "Equibles: USFD short interest (aggregator)",
      "url": "https://equibles.com/stocks/usfd/short-interest?range=3m"
-    },
-    {
-     "title": "Earnings Whispers: USFD Q3 2026 date and consensus (aggregator)",
-     "url": "https://www.earningswhispers.com/stocks/usfd"
-    },
-    {
-     "title": "FreightWaves: PFG and US Foods end merger talks (Nov 2025)",
-     "url": "https://www.freightwaves.com/news/performance-food-group-us-foods-end-merger-talks"
-    },
-    {
-     "title": "Finviz: Sysco to report Q1 FY27 on 3 Nov",
-     "url": "https://finviz.com/news/401694/sysco-to-announce-first-quarter-fiscal-year-2027-financial-results-on-november-3"
     }
    ]
   },
@@ -13440,6 +13384,462 @@
     {
      "title": "State Street substantial holding, 28 Aug 2026 (FilingReader, aggregator)",
      "url": "https://filingreader.com/news-wire/sydney/2026-08-28/state-street-boosts-stake-in-reliance-worldwide-to-over-seven-percent"
+    }
+   ]
+  },
+  "US:CBOE": {
+   "market": "US",
+   "code": "CBOE",
+   "name": "Cboe Global Markets",
+   "date": "2026-11-05",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$353.07",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "Cboe, the dominant US index-options exchange (exclusive SPX/VIX), is having a record year. Q3 2026 (Jul-Sep, reported 30 Oct) adjusted EPS rose 36% to $3.63, beating the $3.44 consensus, and 2026 organic net revenue guidance was raised for the third time, to high teens. The verdict is Watch only because sales growth has slowed below 20% (net revenue +29% in Q1, +25% in Q2, +18% in Q3 2026), EPS growth is easing too, and revenue depends on market volatility. Small director sales were clustered in Feb 2026 and institutions own about 82%.",
+   "catalyst": "Record 0DTE/retail index-options activity, an S&P 500 options licence extended to 2051 (8-K, 28 Sep 2026), XSP volume doubling after the June 2026 pattern-day-trader rule repeal, and KPI event contracts launching Nov 2026 (MODERATE).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS Q3'26 $3.63 +36%, Q2 $3.56 +45%, Q1 $3.70 +48%, Q4'25 $3.06 +46%; GAAP Q3 $4.08 +43%. Slowing; 9M adj $10.88 > FY25 record",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net revenue Q3'26 $712.2M +18% (organic ~+19%), Q2 +25%, Q1 +29%, Q4'25 +28%; decelerating below 20%; volatility-driven",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Adj op margin Q3'26 71.4% vs 65.3%; GAAP 75.0% vs 61.2%; adj opex -3% y/y. Expanding, but no Code 33 (sales and EPS decelerating)",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3 GAAP got a $71.5M non-taxable Australia sale gain; realignment costs recur ($45.5M 9M'26); $14M CAT note provision; A/R up 28% since Dec",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 adj EPS $3.63 vs $3.44 consensus (+5.5%); 2026 organic net revenue guide raised to high teens (from mid single digit in Feb); opex guide cut to $830-845M",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: S&P licence to 2051 (28 Sep 2026); record 0DTE (65% of SPX); XSP doubled after PDT repeal; KPI event contracts launch Nov 2026",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Market leader, institutional favourite; cyclical on volatility (-23% in 6 days to 3 Jun 2026). Peer CME Q3'26 record revenue +13%",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "104.3M sh (23 Oct 2026), -1.2% in 3 yrs; inst 81.7% (May 2026). No buys; 3 insiders sold Feb 2026 (5.7k sh), more in May/Aug",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $2,662.6M, debt $1,444.3M (net cash $1,218M), 0.7x leverage; 9M OCF $2,273.9M (incl $1,420M margin deposits); FY25 ROE ~21%",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4 results early Feb 2027 (unset). Short interest 3.16% of float (30 Sep), up 3 reports running. Volatility-sensitive; S&P fee step-up 1 Jan 2027",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 30 Oct 2026; next earnings early Feb 2027 (not confirmed). Automatic shelf S-3ASR filed 20 Feb 2026; no ATM or secondary found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Volumes depend on volatility: a calm market could cut index-options volumes, as the June 2026 sell-off showed (about -23% in six days to 3 Jun, then -7% on 16 Jun as the VIX fell).",
+    "Growth is slowing: net revenue growth fell from +29% (Q1) to +18% (Q3 2026), and adjusted EPS growth from +48% to +36%. Q4 laps a strong Q4 2025 (+28% net revenue).",
+    "The S&P licence fee step-up starts 1 Jan 2027, AI-driven tech cost inflation is building, and 2027 expense guidance arrives in early Feb 2027.",
+    "Supply: institutions own about 82% (MarketBeat, May 2026), there were no insider buys, and three insiders made small sales in Feb 2026. The trailing P/E of 24.7 is above the industry's 19.7 (AAII, 5 Nov 2026).",
+    "What would change the verdict: Q4 2026 net revenue growth back above 20%, or meaningful revenue from event contracts, while the breakout above the US$351.58 pivot holds."
+   ],
+   "next_event": "Q4/FY2026 results and 2027 guidance, expected early Feb 2027 (date not yet announced; FY2025 results came out 6 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Cboe Q3 2026 earnings release (8-K Ex 99.1, 30 Oct 2026), via Finviz",
+     "url": "https://finviz.com/news/412485/cboe-global-markets-reports-results-for-third-quarter-2026"
+    },
+    {
+     "title": "Cboe Form 10-Q for quarter ended 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001374310/000162828026068447/cboe-20260930.htm"
+    },
+    {
+     "title": "Cboe Q2 2026 earnings release (8-K Ex 99.1, 31 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001374310/000162828026051217/cboe-20260731xex991.htm"
+    },
+    {
+     "title": "Cboe Q1 2026 earnings release (1 May 2026)",
+     "url": "https://ir.cboe.com/news/news-details/2026/Cboe-Global-Markets-Reports-Results-for-First-Quarter-2026-and-Continued-Execution-of-Strategic-Realignment/default.aspx"
+    },
+    {
+     "title": "Cboe Q4/FY2025 earnings release (8-K Ex 99.1, 6 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026005944/cboe-20260206xex991.htm"
+    },
+    {
+     "title": "Cboe Q3 2026 earnings call transcript (Mitrade)",
+     "url": "https://www.mitrade.com/insights/news/live-news/article-8-2219982-20261031"
+    },
+    {
+     "title": "Cboe 8-K: S&P master licence agreement to 2051 (29 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm"
+    },
+    {
+     "title": "AAII: Cboe Q3 earnings vs consensus and estimate revisions (5 Nov 2026)",
+     "url": "https://www.aaii.com/investingideas/article/524397-what-you-need-to-know-about-cboe-global-markets-incs-q3-earnings"
+    },
+    {
+     "title": "Barchart: Cboe analyst outlook, FY2026 EPS consensus (21 Aug 2026)",
+     "url": "https://www.barchart.com/story/news/3968940/cboe-global-markets-stock-outlook-is-wall-street-bullish-or-bearish"
+    },
+    {
+     "title": "SecForm4: Cboe insider transactions",
+     "url": "https://www.secform4.com/insider-trading/1374310.htm"
+    },
+    {
+     "title": "Form 4: Froetscher 10b5-1 sale (12 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001374310/000149384826000005/form4-08142026_080819.xml"
+    },
+    {
+     "title": "Form 4: Tomczyk RSU vest and tax withholding (12 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001374310/000135092126000006/form4-10142026_081024.xml"
+    },
+    {
+     "title": "MarketBeat: CBOE institutional ownership",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/CBOE/institutional-ownership"
+    },
+    {
+     "title": "MarketBeat: CBOE short interest",
+     "url": "https://www.marketbeat.com/stocks/BATS/CBOE/short-interest/"
+    },
+    {
+     "title": "Trefis: Cboe down 23% in 6-day losing streak (3 Jun 2026)",
+     "url": "https://www.trefis.com/articles/601169/cboe-global-markets-stock-in-shambles-down-23-with-6-day-losing-streak/2026-06-03"
+    },
+    {
+     "title": "TradingKey: Cboe falls 7% on lower volatility (16 Jun 2026)",
+     "url": "https://www.tradingkey.com/news/market-movers/261970744-market-movers-cboe-20260616"
+    },
+    {
+     "title": "CME Group Q3 2026 record revenue (Mondo Visione)",
+     "url": "https://mondovisione.com/media-and-resources/news/cme-group-inc-reports-highest-q3-revenue-on-record-for-q3-2026-20261021/"
+    }
+   ]
+  },
+  "US:EW": {
+   "market": "US",
+   "code": "EW",
+   "name": "Edwards Lifesciences",
+   "date": "2026-11-05",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$100.82",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "Edwards, the TAVR leader, beat Q3 2026 (adj EPS $0.80 +19%, sales +10.5%) and raised FY26 guidance for the third time, with TMTT +44%, a new CMS NCD and positive PROGRESS data as tailwinds. But adjusted EPS growth (16-22%) and sales growth (~11%) are below SEPA's 25%/20% bars, and insiders sold in a cluster with no buying. It is a quality large-cap breakout, not a SEPA earnings leader.",
+   "catalyst": "CMS final TAVR NCD (10 Sep 2026) adding asymptomatic severe AS, plus PROGRESS moderate-AS trial win (2 Nov 2026) and TMTT growing 44%.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS Q3'26 $0.80 +19%, Q2 $0.78 +16%, Q1 $0.78 +22%, Q4'25 $0.58 -2%; GAAP Q3 $0.53 +6%. Below 25%; FY26 guide $2.97-3.05 (+18%)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 (Jul-Sep) sales $1.716B +10.5% (+11.2% cc, organic); Q2 +13.6%, Q1 +16.7% reported: under 20% and slowing; TAVR is 72% of sales",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 adj GM 78.7% vs 77.9%, adj op margin 30.3% vs 27.5%; Q2 30.0% vs 28.2%. Expanding, but no Code 33 (sales decelerating)",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Big GAAP/adj gap: 9M'26 GAAP EPS $1.61 vs adj $2.35 (charges every qtr, $220M IPR&D impairment Q3). OCF 9M $1.27B vs GAAP NI $0.93B",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 (4 Nov 2026) adj EPS $0.80 vs $0.74 est, sales $1.72B vs $1.68B; FY26 guide raised 3rd time; 6+ PT raises 5 Nov",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: CMS final TAVR NCD covers asymptomatic severe AS (10 Sep 2026); PROGRESS moderate-AS win (2 Nov 2026); TMTT +44% Q3",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Structural-heart/TAVR market leader, institutional favourite; peer group (BSX, ABT, MDT) strength near highs not found/verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Cap ~$57B; shares 575.0M (Oct-26) -5% in 3y; inst 79.5%. No insider buys; 9 insiders sold ~$28M Nov25-Oct26, 6 in Jul27-Aug31 cluster",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $3.11B + ST inv $1.53B vs debt $0.60B (net cash ~$4.0B); 9M OCF $1.27B; ROE TTM ~9% GAAP, ~16% adj (calc.)",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Investor conf 4 Dec 2026 (2027 guide); Q4 results date not announced (~Feb 2027). Short int 1.6% of float, falling. Hold: cushion only",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 4 Nov 2026 (Q3); routine S-3ASR shelf 21 Jul 2025, no takedown; no ATM or offering found; buybacks $714M 9M'26",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "4 Dec 2026 investor conference: 2027 guide may disappoint; management says TAVR share gains have plateaued",
+    "Moderate-AS indication still investigational; FDA timing not disclosed",
+    "Recurring 'special' charges (impairments, litigation, $174M tax hit) make GAAP EPS far below adjusted",
+    "Competition in TEER/TAVR from Abbott, Boston Scientific, Medtronic; TAVR is ~72% of sales",
+    "Valuation ~57x trailing GAAP EPS leaves little room for a growth slowdown"
+   ],
+   "next_event": "Investor Conference with 2027 guidance, 4 Dec 2026; Q4 2026 results not yet scheduled (Q4 2025 was reported 10 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release, 8-K Ex 99.1 (4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001099800/000109980026000053/ex-991q32026.htm"
+    },
+    {
+     "title": "Q3 2026 Form 10-Q (filed 4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000054/ew-20260930.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release, 8-K Ex 99.1 (23 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001099800/000109980026000038/ex-991q22026.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release, 8-K Ex 99.1 (23 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000021/ex-991q12026.htm"
+    },
+    {
+     "title": "Q4 2025 earnings release, 8-K Ex 99.1 (10 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000006/ex-991q42025.htm"
+    },
+    {
+     "title": "Edwards comments on JenaValve acquisition, 8-K (9 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000002/a8-kxexpressreleasexblocked.htm"
+    },
+    {
+     "title": "8-K: D. Bobo retirement notice (28 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000048/ew-20260825.htm"
+    },
+    {
+     "title": "SEC EDGAR filing index and Form 4s (Nov 2025-Oct 2026)",
+     "url": "https://data.sec.gov/submissions/CIK0001099800.json"
+    },
+    {
+     "title": "SEC XBRL company facts (cash flow, balance sheet, shares)",
+     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001099800.json"
+    },
+    {
+     "title": "BigGo Finance: Q3 2026 earnings call summary",
+     "url": "https://finance.biggo.com/news/US_EW_2026-11-04"
+    },
+    {
+     "title": "MarketBeat: BTIG raises EW target, consensus and ownership (5 Nov 2026)",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-edwards-lifesciences-nyse-ew-stock-price-target-raised-at-btig-research-2026-11-05/"
+    },
+    {
+     "title": "MarketBeat EW quote page (short interest, float)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/EW/"
+    },
+    {
+     "title": "24/7 Wall St: EW Q3 2026 vs estimates",
+     "url": "https://247wallst.com/cards/edwards-lifesciences-q3-2026-earnings-ew-01m6ma2d0pw2dagwngq508ee6k"
+    },
+    {
+     "title": "Fintel EW (short interest cross-check)",
+     "url": "https://fintel.io/s/us/EW"
+    },
+    {
+     "title": "PROGRESS trial results release (2 Nov 2026)",
+     "url": "https://finviz.com/news/413409/progress-trial-demonstrates-edwards-tavr-is-superior-to-clinical-surveillance-for-moderate-as-patients-with-at-risk-features"
+    },
+    {
+     "title": "MedTech Dive: CMS expands TAVR coverage to asymptomatic patients (11 Sep 2026)",
+     "url": "https://www.medtechdive.com/news/cms-expands-tavr-medicare-coverage-to-asymptomatic-patients/830186/"
+    }
+   ]
+  },
+  "US:MMM": {
+   "market": "US",
+   "code": "MMM",
+   "name": "3M Company",
+   "date": "2026-11-05",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$187.77",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "3M is a margin-and-buyback turnaround under CEO Bill Brown: Q3 2026 (Jul-Sep) adjusted EPS rose 12% to $2.50 and FY26 guidance was raised, and the 3 Nov 2026 $7.35B PFAS injury settlement lifted shares to an 8.5-year high. But GAAP sales grew only 1.0% (organic +3.3% adjusted) and EPS growth runs ~11-14%, far below SEPA's 25%+ bar. Clustered insider selling in Jul-Aug 2026 adds a supply FAIL.",
+   "catalyst": "MODERATE: 3 Nov 2026 $7.35B (PV $5.8B) PFAS personal-injury settlement removes a major overhang; 19 Oct 2026 Amazon data-center warrant deal tied to up to $6B of purchases.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS (new basis) Q3'26 $2.50 +12%, Q2'26 $2.40 +11%, Q1'26 $2.14 +14%, Q4'25 $1.83 +9%; GAAP Q3 $2.63 +70% (Solventum gain). <25%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 GAAP sales $6.58B +1.0% YoY (organic +0.2%); adj organic +3.3%; YTD GAAP +1.6%; S&I helped by Madison acquisition (Jul 2026)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 adj op margin 26.2% vs 25.1%, GAAP 23.7% vs 22.2%, gross ~42.3% vs 41.8%; expanding via cost/price, not volume. No Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Recurring PFAS/litigation 'special' items every quarter; Q3'26 OCF $486M vs adj FCF $1.2B; diluted shares -2.9% YoY (buybacks) flatter EPS",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3'26 adj EPS $2.50 vs $2.39 est (20 Oct 2026); FY26 guide raised to $9.10-9.15; PTs up: JPM $185->191, Bernstein $171->197 (21 Oct)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: PFAS injury settlement 3 Nov 2026 (~99% of claims); Amazon warrant 19 Oct 2026; data center rev ~$700M 2026 vs $550M 2025",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Large-cap industrial turnaround/cyclical, not a growth leader; shares at 8.5-yr high 4 Nov 2026; group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "516.7M shs (30 Sep 26), shrinking; inst 65.25% (MarketBeat Oct 26); insiders 0.19%; 5 insiders sold 22 Jul-5 Aug 2026, no open-mkt buys",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 26: cash $4.84B+$0.31B secs, debt $15.0B (net ~$9.9B); equity $4.13B; $5.8B Q4 PFAS charge; FY26 adj FCF ~$4.8B; no raise likely",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results 19 Jan 2027 (scanner date) with 2027 guide; PFAS opt-in thresholds/walk-away rights; SI 1.88% of float (30 Sep 26), down 3.1%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 20 Oct 2026 (Q3); next earnings 19 Jan 2027; no secondary offering or ATM found; shelf registration not found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "PFAS settlement is opt-in: participation thresholds (sealed) and 3M/plaintiff walk-away rights could unwind it; claimant list due 13 Nov 2026.",
+    "Sales growth only ~1-3%; consumer electronics down mid-teens and China down high single digits in Q3 2026.",
+    "Q4 2026 $5.8B pre-tax charge and $7.35B cash obligation 2028-2034 on top of $15.0B debt.",
+    "Clustered insider exercise-and-sell activity in Feb and Jul-Aug 2026 with no open-market buying.",
+    "Stock gapped ~10% to an 8.5-year high on 4 Nov 2026; a weak 2027 guide on 19 Jan 2027 could unwind the move."
+   ],
+   "next_event": "Q4 and FY2026 results with 2027 guidance, 19 Jan 2027 (scanner date; company confirmation not found)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "3M Q3 2026 earnings release (8-K Ex 99.1, 20 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000308/q32026-8kerexx991.htm"
+    },
+    {
+     "title": "3M Q3 2026 results press release (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/3m-reports-third-quarter-2026-results-raises-full-year-eps-guidance"
+    },
+    {
+     "title": "3M Q2 2026 earnings release (8-K Ex 99.1, 21 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000242/q22026-8kerexx991.htm"
+    },
+    {
+     "title": "3M Q1 2026 earnings release (8-K Ex 99.1, 21 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000171/q12026-8kerexx991.htm"
+    },
+    {
+     "title": "3M Q4/FY2025 earnings release (8-K Ex 99.1, 20 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000003/q42025-8kerexx991.htm"
+    },
+    {
+     "title": "3M 10-Q for quarter ended 30 Sep 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000311/mmm-20260930.htm"
+    },
+    {
+     "title": "3M 10-Q filing details (last10k)",
+     "url": "https://last10k.com/sec-filings/mmm/0000066740-26-000311.htm"
+    },
+    {
+     "title": "3M AFFF personal injury settlement press release (8-K, 3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000318/pressrelease-xnov2026xv2.htm"
+    },
+    {
+     "title": "MDL Update: 3M AFFF settlement terms and deadlines",
+     "url": "https://mdlupdate.com/news/3m-afff-personal-injury-settlement-2026/"
+    },
+    {
+     "title": "Reuters via Investing.com: 3M stock soars after settlement (4 Nov 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/3m-stock-soars-following-735-billion-forever-chemicals-settlement-5001151"
+    },
+    {
+     "title": "Motley Fool: 3M Q3 2026 earnings call transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/20/3m-mmm-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "title": "Investing.com: 3M Q3 2026 earnings call transcript",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-3m-tops-q3-2026-profit-views-as-shares-rise-93CH-4960515"
+    },
+    {
+     "title": "Zacks via Yahoo: MMM Q3 earnings top estimates (aggregator)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/mmm-q3-earnings-top-estimates-142400617.html?.tsrc=rss"
+    },
+    {
+     "title": "The Star/Reuters: 3M expands Amazon data center partnership",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/3m-expands-amazon-data-center-partnership-shares-gain"
+    },
+    {
+     "title": "BNN Bloomberg: 3M Madison Fire & Rescue deal",
+     "url": "https://www.bnnbloomberg.ca/business/2026/03/19/3m-expands-safety-portfolio-with-us195-billion-madison-fire-deal/"
+    },
+    {
+     "title": "StockTitan: MMM Form 4 filings (aggregator)",
+     "url": "https://www.stocktitan.net/sec-filings/MMM/form-4.html"
+    },
+    {
+     "title": "Motley Fool: Rhodes Form 4 exercise-and-sell (22 Jul 2026)",
+     "url": "https://www.fool.com/coverage/filings/2026/07/31/industrial-giant-sees-insider-selling-according-to-latest-sec-filing/"
+    },
+    {
+     "title": "MarketBeat: JPMorgan PT $191 (21 Oct 2026), ownership data",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-3m-nyse-mmm-given-new-19100-price-target-at-jpmorgan-chase-co-2026-10-21/"
+    },
+    {
+     "title": "Investing.com: Bernstein raises 3M PT (21 Oct 2026)",
+     "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-3m-stock-price-target-on-data-center-partnerships-93CH-4963318"
+    },
+    {
+     "title": "MarketBeat: MMM short interest (FINRA, 30 Sep 2026)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/MMM/short-interest"
+    },
+    {
+     "title": "13Foresight: MMM 13F holder counts (aggregator)",
+     "url": "https://www.13foresight.com/stock/MMM"
     }
    ]
   }
