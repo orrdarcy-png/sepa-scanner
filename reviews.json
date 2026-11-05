@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:24:40Z",
+ "updated": "2026-11-05T19:24:51Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -5019,76 +5019,76 @@
    "market": "ASX",
    "code": "DBI",
    "name": "Dalrymple Bay Infrastructure",
-   "date": "2026-10-28",
+   "date": "2026-11-05",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "DBI owns the fully contracted, take-or-pay Dalrymple Bay met-coal export terminal and is growing steadily: 1H26 EPS +13.8% and FFO +10.2% with an 8.1% TIC lift from July 2026. It is a sound yield/infrastructure name, but EPS and sales growth are far below SEPA's 25%+/20%+ thresholds, so it is a technical trade at best, not a fundamental SEPA leader.",
-   "catalyst": "TIC up 8.1% to ~A$4.02/t from 1 Jul 2026, a further ~A$0.53/t NECAP uplift expected 1 Jul 2027, and the possible ADEX expansion (up to 14.9Mtpa).",
+   "summary": "DBI owns the fully contracted, 100% take-or-pay Dalrymple Bay met-coal export terminal: 1H26 EPS 9.9c (+13.8%), FFO +10.2%, and TIC up 8.1% from 1 Jul 2026. This is a steady regulated-style yield compounder, but EPS and core revenue growth are well below SEPA's 25%/20% bars. No ASX announcements since 21 Oct 2026, so it remains a technical trade at best, not a fundamental SEPA leader.",
+   "catalyst": "TIC up 8.1% to A$4.02/t from 1 Jul 2026; A$370.6m committed NECAP (SL1A, RL4) due in the asset base by 1 Jul 2027; 8X/ADEX expansion (up to 14.9Mtpa) still unapproved.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "1H26 (Jan-Jun) EPS 9.9c vs 8.7c 1H25 (+13.8%); 1H25 NPAT +17.1%; 2H25 stat. loss on $103m refi cost. Slowing, <25%. Consensus not found",
+     "finding": "1H26 EPS 9.9c vs 8.7c 1H25 (+13.8%); NPAT 1H25 +17.1%, 2H25 loss (A$103m refi cost). Slowing, <25%. FY26 cons EPS A$0.22 (aggregator)",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "1H26 income A$433.3m +9.6%, but core TIC rev only +3.6% and handling +6.1%; capital works pass-through +27.5%. Organic, far below 20%",
+     "finding": "1H26 income A$433.3m vs 395.4m (+9.6%); core TIC rev +3.6%, handling +6.1%, pass-through capital works +27.5%. Organic, <20%",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "1H26 EBITDA +4.7% vs income +9.6% (margin ~34.7% vs 36.4%, pass-through mix); NPAT margin ~11.4% vs 10.9%. No Code 33",
+     "finding": "1H26 EBITDA A$150.5m +4.7% vs income +9.6% (margin ~34.7% vs 36.4%); NPAT margin 11.4% vs 10.9%. No Code 33",
      "result": "CAUTION"
     },
     {
      "check": "Earnings quality",
-     "finding": "Biggest concern: capitalised interest A$7.3m vs 3.8m flatters NPAT; 1H26 OCF A$128.7m vs 68.1m incl. A$42.9m timing inflow",
+     "finding": "Biggest concern: capitalised interest A$7.3m vs 3.8m (1H25) flatters NPAT. 1H26 OCF A$128.7m vs 68.1m, well above NPAT A$49.2m",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance, revisions",
-     "finding": "25 Aug 2026 1H26 in line (no consensus found); TY26/27 DPS guide 28.62c (+8.5%) reaffirmed; RBC Hold A$5.40 (30 Sep 2026)",
+     "finding": "No result in last 90 days besides 25 Aug 1H26 (in line); TY26/27 DPS guide 28.62c (+8.5%); Morgans Hold->Accumulate A$5.47 (2 Sep 2026)",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: TIC +8.1% to A$4.02/t from 1 Jul 2026; ~A$0.53/t NECAP uplift 1 Jul 2027; ADEX up to 14.9Mtpa unapproved",
+     "finding": "MODERATE: TIC +8.1% to A$4.02/t from 1 Jul 2026; A$370.6m NECAP into asset base by Jul 2027; 8X/ADEX 14.9Mtpa not approved",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Contracted met-coal port (14% of seaborne met coal), defensive yield name, not a growth leader. PHCC ~US$265.5/t (24 Sep 2026); peers not verified",
+     "finding": "Contracted infra/yield name, 14% of seaborne met coal (2025); not a growth leader. AU PHCC US$272.4/t (16 Oct 2026); peers not verified",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Mkt cap ~A$2.8B, ~496m shares, no new shares (issued capital flat); BlackRock 5.00%->6.03% (7 Oct 2026); inst % not found; director buy",
+     "finding": "Mkt cap A$2.77B (5 Nov 2026), 495.76m securities, flat; BlackRock >5% since 31 Aug, 6.03% 7 Oct 2026; inst % not found; no insider selling found",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Jun 2026 net debt A$2,012m, cash A$44.9m, liquidity A$261m, BBB; all-in rate ~7%. High leverage but cash generative; raise unlikely",
+     "finding": "30 Jun 2026 net debt A$2,012m (vs 1,976m Dec 25), cash A$44.9m, undrawn A$216.5m, BBB; equity A$1,035m. Leveraged, raise unlikely",
      "result": "CAUTION"
     },
     {
      "check": "Event risk",
-     "finding": "Next results ~22 Feb 2027 (aggregator); SL1A/Reclaimer 4 commissioning end-2026; shorts up ~0.9m->7.8m shares (25 Sep-22 Oct 2026)",
+     "finding": "Q3-26 dist. record date 1 Dec 2026 (indicative); FY26 results ~late Feb 2027 not confirmed. ASIC shorts 0.18% 25 Sep->1.57% 22 Oct->1.33% 30 Oct",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; A$350m AMTN debt issue Mar 2026. Revenue-generating",
+     "finding": "No placement, SPP, entitlement offer or trading halt in last 12 months (to 5 Nov 2026); A$350m AMTN debt Mar 2026. Listed Dec 2020",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Growth is structurally single-digit: EPS +13.8%, core TIC revenue +3.6% (1H26)",
-    "Interest rate ~7% and capitalised interest moving to expense from Jul 2027 will weigh on FFO",
-    "Short interest rose ~9x from late Sep to 22 Oct 2026",
-    "Coal policy/royalties deterring new mines; contract renewals (to 2033) due by 30 Jun 2027",
-    "Late-stage base 5 and heaviest recent volume on a down day (scanner warnings)"
+    "Growth is structurally single-digit: 1H26 EPS +13.8%, core TIC revenue +3.6%",
+    "Shorts jumped from 0.18% (25 Sep) to 1.57% (22 Oct 2026); only eased to 1.33% by 30 Oct (ASIC)",
+    "~7% all-in debt cost; capitalised interest moves to expense as NECAP enters asset base Jul 2027",
+    "Coal policy/royalty risk to new Bowen Basin mines; contracts to Jun 2028 rely on evergreen renewals",
+    "Late-stage base 5 and heaviest 6-month volume on a down day (scanner warnings)"
    ],
-   "next_event": "FY2026 full-year results, ~22 Feb 2027 (aggregator date, not yet confirmed by DBI)",
+   "next_event": "Q3-26 distribution record date 1 Dec 2026 (indicative, ASX 12 Dec 2025); FY2026 results ~late Feb 2027, not yet confirmed by DBI",
    "hold_through_event": "YES",
    "sources": [
     {
@@ -5108,44 +5108,48 @@
      "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n7wr4672c055.pdf"
     },
     {
-     "title": "DBI 2026 AGM addresses (ASX, 20 May 2026)",
-     "url": "https://announcements.asx.com.au/asxpdf/20260520/pdf/06zrxj4t2xzq10.pdf"
+     "title": "DBI 2026 key dates (ASX, 12 Dec 2025, via Webull)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20251212/499501984/4d2f6ec78321b99cb45a1943d2755a3b.pdf"
     },
     {
-     "title": "1H26 earnings call transcript (Investing.com)",
-     "url": "https://ca.investing.com/news/transcripts/earnings-call-transcript-dalrymple-bay-infrastructure-lifts-h1-2026-payout-93CH-4814871"
+     "title": "BlackRock Form 603 (2 Jun 2026, via Webull)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260602/499501984/8df346fb14e289cc717078e6d82bae12.pdf"
     },
     {
-     "title": "BlackRock change in substantial holding (Listcorp, 9 Oct 2026)",
-     "url": "https://www.listcorp.com/asx/dbi/dalrymple-bay-infrastructure-limited/news/change-in-substantial-holding-3419685.html"
+     "title": "BlackRock Form 605 (30 Jun 2026, via Webull)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260630/499501984/6f6933ea34a1e305b71d0a664e320b5f.pdf"
     },
     {
-     "title": "Director Laidlaw on-market purchase (TipRanks)",
-     "url": "https://www.tipranks.com/news/company-announcements/dalrymple-bay-infrastructure-director-laidlaw-acquires-first-stake-of-20000-stapled-securities"
+     "title": "ASX announcements list and header data (ASX/Markit API)",
+     "url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/dbi/announcements"
     },
     {
-     "title": "Brookfield exits DBI (DCN, Sep 2025)",
-     "url": "https://www.thedcn.com.au/news/brookfield-out-of-dalrymple-bay"
+     "title": "DBI announcements list (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/dbi/dalrymple-bay-infrastructure-limited/announcements"
     },
     {
-     "title": "DBI short interest (Fintel, aggregator)",
-     "url": "https://fintel.io/ss/au/dbi"
+     "title": "ASIC daily aggregated short positions (30 Oct 2026 report)",
+     "url": "https://download.asic.gov.au/short-selling/RR20261030-001-SSDailyAggShortPos.csv"
     },
     {
-     "title": "RBC Hold, A$5.40 target (ad-hoc-news)",
-     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/rbc-sets-aud-5-40-target-for-dalrymple-bay-infrastructure-stock/70367480"
-    },
-    {
-     "title": "Oct/Nov 2026 investor presentation summary (Kalkine)",
+     "title": "Oct/Nov 2026 investor presentation summary (Kalkine, 20 Oct 2026)",
      "url": "https://kalkinemedia.com/au/news/announcements/dalrymple-bay-infrastructure-unveils-october-november-2026-investor-presentation-highlighting-strong-h1-financials"
     },
     {
-     "title": "Premium coking coal price, 24 Sep 2026 (SMM)",
-     "url": "https://news.metal.com/newscontent/104134637-global-premium-coking-coal-spot-benchmark-rises-to-26550tonne"
+     "title": "Morgans upgrade to Accumulate, A$5.47 (Motley Fool, 3 Sep 2026)",
+     "url": "https://www.fool.com.au/2026/09/03/3-asx-shares-just-got-big-upgrades-and-are-tipped-to-rise-almost-30/"
+    },
+    {
+     "title": "Analyst consensus (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/quote/asx/DBI/forecast/"
+    },
+    {
+     "title": "Coking coal prices October 2026 (GMK Center, 21 Oct 2026)",
+     "url": "https://gmk.center/en/news/global-prices-for-coking-coal-have-been-volatile-in-october/"
     }
    ],
    "status_at_review": "Buy-ready",
-   "price_at_review": "A$5.57"
+   "price_at_review": "A$5.61"
   },
   "ASX:ASX": {
    "market": "ASX",
@@ -13320,6 +13324,122 @@
     {
      "title": "Gold price Oct 2026 (aggregator)",
      "url": "https://pricegold.net/2026/october/"
+    }
+   ]
+  },
+  "ASX:RWC": {
+   "market": "ASX",
+   "code": "RWC",
+   "name": "Reliance Worldwide Corporation",
+   "date": "2026-11-05",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$4.51",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Plumbing products maker (SharkBite, reports in US$, half-yearly) whose earnings fell in FY26 on US tariffs, copper costs and weak US/UK housing. The chart strength comes from a binding Brookfield cash scheme at US$3.38/share (SID 16 Sep 2026), so upside is capped at the deal price and there is no earnings-driven SEPA setup. Scheme meeting 4 Dec 2026, implementation expected 18 Dec 2026.",
+   "catalyst": "Brookfield scheme at US$3.38 cash/share (SID 16 Sep 2026); caps upside at deal value, not an earnings catalyst.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "FY26 (to Jun-26) adj EPS US16.5c, -13.2% vs FY25 19.0c; basic 0.8c vs 16.1c. 1H FY26 adj NPAT -31.3% vs 1H FY25. Not a record year",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "FY26 net sales US$1,305.6m, -0.7% vs FY25; adj +1.5% const ccy. 1H FY26 US$645.4m, -4.6% vs 1H FY25. FY27 guide mid-high single digit",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "FY26 adj EBITDA margin 18.5% vs 21.1% FY25 (adj EBITDA US$242.1m, -12.8%). Gross margin not found. FY27 margin guided flat. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY26 stat NPAT US$6.3m vs adj US$125.1m: US$104m APAC restructure/impairment. Op cash US$263.4m, 108.8% of adj EBITDA (97.6% FY25)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "FY26 result 18 Aug 2026 showed falls; no final dividend, buyback suspended. FY27: sales +mid-high SD, margin flat. Estimate revisions not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Brookfield cash scheme US$3.38/sh, SID 16 Sep 2026; go-shop ended 16 Oct with no rival bid. Caps upside; no earnings catalyst: WEAK",
+     "result": "FAIL"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Plumbing products leader (US push-to-connect); cyclical tied to US/UK housing repair and remodel, which RWC says stays weak in FY27. Group strength not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "762.6m fully diluted shares (FY26 pres). Inst % not found; State Street >7% (28 Aug 2026, aggregator). Director 3Y trades in 12m not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash US$28.6m, debt US$272.0m, net debt US$243.4m (US$331.6m Jun-25); leverage 1.1x vs 1.3x. ROE not found. No raise risk",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Scheme vote 4 Dec 2026, court 7 Dec, implementation 18 Dec. Failed vote/approval = drop to standalone value. Short interest not found",
+     "result": "FAIL"
+    },
+    {
+     "check": "Market extras",
+     "finding": "No placement, SPP or entitlement offer found in last 12m. Takeover scheme in progress; delisting expected Dec 2026 if approved",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Upside capped at US$3.38 scheme consideration; A$ value moves with AUD/USD (A$4.81 at 0.7031 per booklet, 30 Oct 2026)",
+    "Scheme fails (vote, court, or FIRB/ACCC/US/Germany/Ukraine clearances) and price reverts to standalone value on falling earnings",
+    "Standalone earnings weak: FY26 adj EPS -13.2%, margins down 2.6 points, FY27 margin guided flat",
+    "Ex-deal pre-mortem: US housing slump, copper/tariff cost squeeze, APAC restructure slippage",
+    "Shares expected to stop trading 7 Dec 2026 if the scheme is approved"
+   ],
+   "next_event": "Scheme meeting 4 Dec 2026 (court 7 Dec, implementation 18 Dec); next results (1H FY27, ~Feb 2027) only if scheme fails. Shortlist date 18 Aug 2026 is stale",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "FY26 Full Year Results Announcement, 18 Aug 2026 (ASX announcement, rwc.com)",
+     "url": "https://www.rwc.com/sites/default/files/media-file-public/RWC%20FY26%20Full%20Year%20Results%20Announcement.pdf"
+    },
+    {
+     "title": "FY26 Results Presentation, 18 Aug 2026 (rwc.com)",
+     "url": "https://www.rwc.com/sites/default/files/media-file-public/RWC%20FY26%20Full%20Year%20Results%20Presentation.pdf"
+    },
+    {
+     "title": "HY26 Interim Results Announcement, Feb 2026 (via investorpa mirror)",
+     "url": "https://investorpa.com/announcement/257108/"
+    },
+    {
+     "title": "Go Shop conclusion, 19 Oct 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20261019/pdf/075gk37w3yf8zm.pdf"
+    },
+    {
+     "title": "Scheme Booklet registered by ASIC, 30 Oct 2026 (ASX announcement)",
+     "url": "https://announcements.asx.com.au/asxpdf/20261030/pdf/0761ctw3c04d1d.pdf"
+    },
+    {
+     "title": "Brookfield SID coverage, 16 Sep 2026 (Motley Fool, aggregator)",
+     "url": "https://www.fool.com.au/2026/09/16/brookfield-moves-to-acquire-reliance-worldwide-corporation-at-a-43-premium/"
+    },
+    {
+     "title": "1H FY26 results coverage, 17 Feb 2026 (Motley Fool, aggregator)",
+     "url": "https://www.fool.com.au/2026/02/17/reliance-worldwide-half-year-earnings-profit-falls-dividend-steady/"
+    },
+    {
+     "title": "SID terms and conditions summary (ts2.tech, aggregator)",
+     "url": "https://ts2.tech/en/reliance-worldwide-signs-brookfield-deal-the-a4-75-value-now-floats-with-the-dollar/"
+    },
+    {
+     "title": "State Street substantial holding, 28 Aug 2026 (FilingReader, aggregator)",
+     "url": "https://filingreader.com/news-wire/sydney/2026-08-28/state-street-boosts-stake-in-reliance-worldwide-to-over-seven-percent"
     }
    ]
   }
