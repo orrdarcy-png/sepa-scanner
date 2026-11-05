@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:51:47Z",
+ "updated": "2026-11-05T22:55:08Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -7527,135 +7527,127 @@
    "market": "US",
    "code": "AIZ",
    "name": "Assurant, Inc.",
-   "date": "2026-11-04",
+   "date": "2026-11-05",
    "status_at_review": "Breaking out",
-   "price_at_review": "US$308.52",
+   "price_at_review": "US$306.87",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "Assurant beat again on 3 Nov 2026: Q3'26 adj EPS $6.15 vs $4.57-4.79 consensus, revenue $3.53B (+9%), and FY26 guidance raised a third time (adj EPS ex-cats now low double digits). But adj EPS growth slowed to +7% YoY (about +12% ex-cats) from +26% in Q2, Q4 consensus ($5.32) sits below last year's $5.61, and sales growth stays single-digit. Clustered insider selling in May-Aug 2026 plus 93-97% institutional ownership remains a supply FAIL that caps the verdict at Watch only.",
-   "catalyst": "Connected Living growth (Q3'26 adj EBITDA +23%; US Cellular, Best Buy, Chase programs; devices serviced +2.8M YoY) plus Freedom Mortgage lender-placed win (~2.6M loans ramping); MODERATE.",
+   "summary": "Assurant beat again in Q3'26 (adj EPS $6.15 vs $4.57 consensus, revenue $3.53B +9%) and raised FY26 guidance a third time; the 10-Q (5 Nov) confirms strong cash flow (9M OCF $1.38B, +19%) and steady buybacks (49.07M shares, -6.7% in 3 years). But adj EPS growth slowed to +7% (+12% ex-cats) from +26%, sales grow only ~9%, and GAAP margins were flat. The supply check still fails: five insiders sold Mar-Aug 2026, and the 10-Q discloses a new CEO 10b5-1 plan to sell up to 40,000 shares, which caps the verdict at Watch only.",
+   "catalyst": "Connected Living earnings growth (Q3'26 adj EBITDA +23% on mobile supply chain and device protection programs), with FY26 Global Lifestyle guide raised to mid-to-high-teens adj EBITDA growth on 3 Nov 2026; MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS YoY: Q4'25 $5.61 +17%; Q1'26 $5.95 +76%; Q2 $6.41 +26%; Q3 $6.15 vs $5.73 +7% (ex-cats ~+12%). Q4 cons $5.32 vs $5.61. GAAP Q3 not found",
+     "finding": "Adj EPS YoY: Q4'25 $5.61 +17%, Q1'26 $5.95 +76%, Q2 $6.41 +26%, Q3 $6.15 +7% (ex-cat +12%). GAAP Q3 $5.49 +6%. Decelerating; FY26 record likely",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Q3'26 revenue $3.53B vs $3.23B (+9%); Q2 +9%, Q1 +11%. Lifestyle $2.66B +11%, Housing $745M +6%. Organic but well below 20%",
+     "finding": "Revenue YoY: Q4'25 $3.35B +8%, Q1'26 $3.42B +11%, Q2 $3.45B +9%, Q3 $3.53B +9% (Lifestyle +11%, Housing +6%). Organic, but well under 20%",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q3'26 adj EBITDA ex-cats +12% vs revenue +9%; pre-tax margin 9.9%. Modest expansion; EPS decelerating so no Code 33",
-     "result": "PASS"
+     "finding": "Q3'26 GAAP pre-tax margin 9.9% vs 10.2% Q3'25; net 7.8% vs 8.2%. Adj EBITDA ex-cat margin 13.7% vs 13.4%. Flat; no Code 33",
+     "result": "CAUTION"
     },
     {
      "check": "Earnings quality",
-     "finding": "Biggest concern: low cats and PYD drive headline growth ($52M less PYD in FY26); 1H CL had $13M one-off JV gains; half of auto premium +25% is timing",
+     "finding": "9M'26 OCF $1.38B vs NI $848M (good); receivables +4% YTD vs rev +10%. Concern: light cats/PYD ($61M 9M'26) flatter growth; AOCI -$902M",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3'26 adj EPS $6.15 vs $4.57 Zacks (+35%), 4 of 4 beats; FY26 guide raised 3 Nov (3rd raise) to adj EBITDA ~+10%, EPS low-double-digit ex-cats",
+     "finding": "Q3'26 adj EPS $6.15 vs $4.57 Zacks (+35%), 4/4 beats; FY26 guide raised 3 Nov (3rd raise). PTs up 5 Nov: KBW $345, BMO $338",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: Connected Living EBITDA +23% Q3'26 (new carrier/retail programs, 69M devices) and Freedom Mortgage 2.6M-loan ramp (Q2-Q3'26)",
+     "finding": "MODERATE: Connected Living adj EBITDA +23% Q3'26 (mobile supply chain, device protection programs); Lifestyle FY26 guide raised to mid-high teens",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Steady specialty insurer/compounder, not a fast grower. Stock +23% YTD vs S&P +10%; Zacks Multi-line insurance group in bottom 39% of industries",
+     "finding": "Leading specialty insurer/compounder, not a fast grower. +23% YTD vs S&P +10% (3 Nov); Zacks multi-line insurance group in bottom 39%",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Cap ~$14.7B, 49.7M sh (buybacks). Inst ~93-97% (over-owned). 5 insiders sold May-Aug 2026 (~$10.4M), no buys; none since 6 Aug",
+     "finding": "Cap ~$15.1B, 49.07M sh (30 Oct 26), -6.7% in 3y. Inst >90% (MarketBeat 92.7%). 5 insiders sold Mar-Aug 26; CEO 10b5-1 plan 40k sh (15 Sep)",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "Holdco liquidity $954M (30 Sep 26) vs $911M Q2; debt ~$2.2B (Q2); buybacks $305M YTD to 31 Oct, FY26 $350M. TTM ROE ~17% (prior calc). No raise",
+     "finding": "30 Sep 26: debt $2.21B, holdco liquidity $954M, equity $5.99B; TTM ROE ~18% (GAAP NI/avg equity). Buybacks $305M Jan-Oct. No raise",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q4'26 results ~early Feb 2027 (est.); Q4 cons $5.32 below $5.61 yr-ago; late cat/PYD risk. Short int 1.7% of float, up from Jan",
+     "finding": "Q4'26 results date not announced (Q4'25 was 10 Feb 26). Q4 cons $5.32 (pre-Q3) vs $5.61. Short ~2.9% of shares, rising. Winter cat/PYD risk",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2'26 filed 6 Aug 2026 (Q3 10-Q not yet filed); next earnings ~Feb 2027. WKSI S-3ASR Jan 2024, S-8 May 2026; no offering/ATM",
+     "finding": "Q3'26 10-Q filed 5 Nov 2026; next earnings ~Feb 2027 (unconfirmed). S-3ASR shelf Jan 2024, S-8 May 2026; no offering or ATM",
      "result": "PASS"
     }
    ],
    "risks": [
-    "EPS growth decelerated sharply: Q3'26 adj EPS +7% (ex-cats ~+12%) after +26% in Q2; Q4 consensus $5.32 is below Q4'25 $5.61",
-    "Headline growth leans on benign catastrophes and reserve releases; FY26 guide already absorbs $52M less favorable PYD in Housing",
-    "Clustered insider selling (CFO, CLO, CSTO, CAO, Connected Living head; May-Aug 2026) and 93-97% institutional ownership",
-    "Pre-mortem: Q4/winter cat losses; Connected Living client loss or wireless disruption (AI price shopping, Starlink); rotation out of defensive financials",
-    "Would upgrade if ex-cat EPS reaccelerates toward 25%+ with sales growth rising and no further insider selling"
+    "EPS deceleration: Q3'26 adj EPS +7% (ex-cats +12%) after +26% in Q2; pre-Q3 Q4 consensus $5.32 sits below Q4'25's $5.61",
+    "Earnings flattered by benign cats and reserve releases: Housing favorable PYD $61M in 9M'26 (vs $91M 9M'25); FY26 guide assumes no Q4 PYD",
+    "Insider supply: open-market sales by CFO, CLO, CSTO, CAO, Connected Living head (Mar-Aug 2026) and new 10b5-1 plans (CEO 40k sh, Nair 9.8k, Lumsden 3.9k)",
+    "Pre-mortem for a 30% drop: large winter/early-2027 cat losses; Connected Living client loss or mobile trade-in volatility; rotation out of defensive financials/rate shock (AOCI -$902M)",
+    "Would upgrade if ex-cat EPS reaccelerates toward 25% with rising sales growth and insider selling stops"
    ],
-   "next_event": "Q4/FY2026 results, ~early-mid Feb 2027 (estimated from Feb 2026 timing; not yet confirmed)",
+   "next_event": "Q4/FY2026 results, date not yet announced (Q4'25 results were released 10 Feb 2026, so likely early-mid Feb 2027)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "Q3 2026 earnings release, 8-K Ex 99.1 (3 Nov 2026) - located via search; sec.gov fetch failed, figures taken from wires below",
+     "title": "Assurant Q3 2026 Form 10-Q (filed 5 Nov 2026, acc. 0001267238-26-000046)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000046/"
+    },
+    {
+     "title": "Q3 2026 earnings release, 8-K Ex 99.1 (3 Nov 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000043/aiz-20260930exx991pressrel.htm"
-    },
-    {
-     "title": "Q3 2026 earnings call transcript (Investing.com, 4 Nov 2026)",
-     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-assurant-beats-q3-2026-estimates-shares-rise-premarket-93CH-4999735"
-    },
-    {
-     "title": "What Assurant said on its Q3 call (MarketBeat, 4 Nov 2026, aggregator)",
-     "url": "https://marketbeat.com/instant-alerts/transcript-what-assurant-aiz-said-on-its-q3-earnings-call-2026-11-04/?amp="
-    },
-    {
-     "title": "Assurant (AIZ) beats Q3 earnings and revenue estimates (Zacks via Yahoo, 3 Nov 2026)",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-beats-q3-earnings-235503387.html"
-    },
-    {
-     "title": "Assurant Q3 2026 beats on revenue (StockStory, aggregator)",
-     "url": "https://stockstory.org/us/stocks/nyse/aiz/news/earnings/assurants-nyseaiz-q3-2026-beats-on-revenue"
-    },
-    {
-     "title": "Assurant Q3 2026 earnings card (247 Wall St, aggregator)",
-     "url": "https://247wallst.com/cards/assurant-q3-2026-earnings-aiz-01m6hnk9976ewhpp67dj2gezjg"
-    },
-    {
-     "title": "AIZ Q3 2026 earnings and insider trades (Quiver Quant, aggregator)",
-     "url": "https://www.quiverquant.com/news/ASSURANT+($AIZ)+Releases+Q3+2026+Earnings,+Stock+Rises"
-    },
-    {
-     "title": "Q3 2025 results (RTTNews, year-ago comparison)",
-     "url": "https://www.rttnews.com/3590706/assurant-inc-q3-profit-increases-beats-estimates.aspx"
     },
     {
      "title": "Q2 2026 earnings release, 8-K Ex 99.1 (4 Aug 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000039/aiz-20260630exx991pressrel.htm"
     },
     {
-     "title": "Q2 2026 Form 10-Q",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000041/aiz-20260630.htm"
+     "title": "Q1 2026 earnings release, 8-K Ex 99.1 (5 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000024/"
     },
     {
-     "title": "AIZ SEC filings list 2026 (Chartrow, aggregator)",
-     "url": "https://chartrow.com/quote/aiz/filings"
+     "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (10 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000006/"
     },
     {
-     "title": "AIZ ownership and short float (Chartmill, aggregator)",
-     "url": "https://www.chartmill.com/stock/quote/AIZ/ownership"
+     "title": "SEC EDGAR filing index and Form 4/144 filings for Assurant (CIK 1267238)",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1267238&type=4"
     },
     {
-     "title": "Previous review context: institutional holders (Fintel, aggregator)",
+     "title": "Q3 2026 earnings call transcript (Investing.com, 4 Nov 2026)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-assurant-beats-q3-2026-estimates-shares-rise-premarket-93CH-4999735"
+    },
+    {
+     "title": "Assurant (AIZ) beats Q3 earnings and revenue estimates (Zacks via Yahoo, 3 Nov 2026, aggregator)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-beats-q3-earnings-235503387.html"
+    },
+    {
+     "title": "KBW raises Assurant price target to $345 (MarketBeat, 5 Nov 2026, aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-assurant-nyse-aiz-stock-price-target-raised-at-keefe-bruyette-woods-2026-11-05/"
+    },
+    {
+     "title": "BMO Capital adjusts Assurant price target to $338 from $320 (MarketScreener, 5 Nov 2026)",
+     "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-price-target-on-assurant-to-338-from-320-ce785fdcde8cf325"
+    },
+    {
+     "title": "AIZ institutional ownership, 13F holders (Fintel, aggregator)",
      "url": "https://fintel.io/so/us/aiz"
     },
     {
-     "title": "Short interest history (Equibles, aggregator)",
-     "url": "https://equibles.com/stocks/aiz/shortinterest"
+     "title": "AIZ short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/AIZ"
     }
    ]
   },
