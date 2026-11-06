@@ -1,64 +1,6 @@
 {
- "generated": "2026-11-05T22:22:58Z",
+ "generated": "2026-11-06T08:29:11Z",
  "stocks": [
-  {
-   "code": "GNG",
-   "symbol": "GNG.AX",
-   "name": "GR ENGINEERING SERVICES LIMITED",
-   "industry": "Materials",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 7.26,
-   "pivot": 7.225,
-   "dist_pivot": 0.5,
-   "rs": 96,
-   "score": 67,
-   "stage": "2",
-   "base_no": 8,
-   "warnings": [
-    "Late-stage base (\u2248 base 8): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "3W 25/6 2T",
-   "next_earnings": "2025-08-20",
-   "priority": 1
-  },
-  {
-   "code": "BVS",
-   "symbol": "BVS.AX",
-   "name": "BRAVURA SOLUTIONS LIMITED.",
-   "industry": "Software & Services",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 3.46,
-   "pivot": 3.455,
-   "dist_pivot": 0.1,
-   "rs": 94,
-   "score": 64,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "12W 14/6 3T",
-   "next_earnings": "2026-08-12",
-   "priority": 2
-  },
   {
    "code": "THC",
    "symbol": "THC",
@@ -85,7 +27,7 @@
    "as_of": "2026-11-05",
    "footprint": "10W 12/8 2T",
    "next_earnings": "2026-10-29",
-   "priority": 3
+   "priority": 1
   },
   {
    "code": "XHR",
@@ -113,7 +55,7 @@
    "as_of": "2026-11-05",
    "footprint": "13W 22/5 3T",
    "next_earnings": "2026-11-03",
-   "priority": 4
+   "priority": 2
   },
   {
    "code": "CBOE",
@@ -141,7 +83,7 @@
    "as_of": "2026-11-05",
    "footprint": "23W 39/5 5T",
    "next_earnings": "2026-10-30",
-   "priority": 5
+   "priority": 3
   },
   {
    "code": "GWW",
@@ -169,7 +111,7 @@
    "as_of": "2026-11-05",
    "footprint": "15W 13/8 2T",
    "next_earnings": "2027-02-02",
-   "priority": 6
+   "priority": 4
   },
   {
    "code": "MTN",
@@ -197,7 +139,7 @@
    "as_of": "2026-11-05",
    "footprint": "14W 20/4 3T",
    "next_earnings": "2026-12-09",
-   "priority": 7
+   "priority": 5
   },
   {
    "code": "EW",
@@ -225,7 +167,7 @@
    "as_of": "2026-11-05",
    "footprint": "17W 16/8 3T",
    "next_earnings": "2026-11-04",
-   "priority": 8
+   "priority": 6
   },
   {
    "code": "AIZ",
@@ -253,35 +195,7 @@
    "as_of": "2026-11-05",
    "footprint": "12W 14/10 2T",
    "next_earnings": "2026-11-03",
-   "priority": 9
-  },
-  {
-   "code": "SOL",
-   "symbol": "SOL.AX",
-   "name": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
-   "industry": "Financial Services",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 47.48,
-   "pivot": 46.94,
-   "dist_pivot": 1.2,
-   "rs": 76,
-   "score": 46,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "6W 9/7 2T",
-   "next_earnings": "2026-09-24",
-   "priority": 10
+   "priority": 7
   },
   {
    "code": "LGF",
@@ -290,11 +204,11 @@
    "industry": "Not Applic",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 2.33,
+   "price": 2.3,
    "pivot": 2.29,
-   "dist_pivot": 1.7,
-   "rs": 80,
-   "score": 43,
+   "dist_pivot": 0.4,
+   "rs": 82,
+   "score": 44,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
@@ -306,10 +220,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "10W 15/6 2T",
+   "as_of": "2026-11-06",
+   "footprint": "11W 15/6 2T",
    "next_earnings": null,
-   "priority": 11
+   "priority": 8
   },
   {
    "code": "USFD",
@@ -340,7 +254,7 @@
    "as_of": "2026-11-05",
    "footprint": "12W 19/6 2T",
    "next_earnings": "2026-11-05",
-   "priority": 12
+   "priority": 9
   },
   {
    "code": "MMM",
@@ -368,35 +282,7 @@
    "as_of": "2026-11-05",
    "footprint": "14W 14/7 2T",
    "next_earnings": "2027-01-19",
-   "priority": 13
-  },
-  {
-   "code": "PWH",
-   "symbol": "PWH.AX",
-   "name": "PWR HOLDINGS LIMITED",
-   "industry": "Automobiles & Components",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 11.44,
-   "pivot": 11.77,
-   "dist_pivot": -2.8,
-   "rs": 84,
-   "score": 55,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "11W 25/6 2T",
-   "next_earnings": "2025-08-11",
-   "priority": 14
+   "priority": 10
   },
   {
    "code": "WGN",
@@ -405,9 +291,9 @@
    "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 4.71,
+   "price": 4.67,
    "pivot": 4.91,
-   "dist_pivot": -4.1,
+   "dist_pivot": -4.9,
    "rs": 80,
    "score": 44,
    "stage": "2",
@@ -423,10 +309,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
+   "as_of": "2026-11-06",
    "footprint": "20W 26/10 6T",
    "next_earnings": "2025-08-19",
-   "priority": 15
+   "priority": 11
   },
   {
    "code": "MRK",
@@ -454,7 +340,7 @@
    "as_of": "2026-11-05",
    "footprint": "10W 11/10 2T",
    "next_earnings": "2026-10-29",
-   "priority": 16
+   "priority": 12
   },
   {
    "code": "LNTH",
@@ -484,7 +370,35 @@
    "as_of": "2026-11-05",
    "footprint": "18W 12/4 5T",
    "next_earnings": "2026-11-05",
-   "priority": 17
+   "priority": 13
+  },
+  {
+   "code": "RWC",
+   "symbol": "RWC.AX",
+   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+   "industry": "Capital Goods",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 4.52,
+   "pivot": 4.57,
+   "dist_pivot": -1.1,
+   "rs": 86,
+   "score": 55,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-06",
+   "footprint": "5W 13/3 2T",
+   "next_earnings": "2026-08-18",
+   "priority": 14
   },
   {
    "code": "PAG",
@@ -512,35 +426,7 @@
    "as_of": "2026-11-05",
    "footprint": "14W 15/1 2T",
    "next_earnings": "2026-10-28",
-   "priority": 18
-  },
-  {
-   "code": "RWC",
-   "symbol": "RWC.AX",
-   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
-   "industry": "Capital Goods",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 4.51,
-   "pivot": 4.57,
-   "dist_pivot": -1.3,
-   "rs": 85,
-   "score": 53,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "5W 13/2 2T",
-   "next_earnings": "2026-08-18",
-   "priority": 19
+   "priority": 15
   },
   {
    "code": "CSX",
@@ -570,7 +456,35 @@
    "as_of": "2026-11-05",
    "footprint": "14W 14/5 2T",
    "next_earnings": "2027-01-28",
-   "priority": 20
+   "priority": 16
+  },
+  {
+   "code": "SOL",
+   "symbol": "SOL.AX",
+   "name": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
+   "industry": "Financial Services",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 47.51,
+   "pivot": 47.75,
+   "dist_pivot": -0.5,
+   "rs": 78,
+   "score": 46,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-06",
+   "footprint": "6W 9/7 2T",
+   "next_earnings": "2026-09-24",
+   "priority": 17
   },
   {
    "code": "MNST",
@@ -600,7 +514,7 @@
    "as_of": "2026-11-05",
    "footprint": "16W 18/9 2T",
    "next_earnings": "2026-11-05",
-   "priority": 21
+   "priority": 18
   },
   {
    "code": "WELL",
@@ -631,7 +545,7 @@
    "as_of": "2026-11-05",
    "footprint": "14W 14/10 3T",
    "next_earnings": "2026-10-26",
-   "priority": 22
+   "priority": 19
   },
   {
    "code": "SDF",
@@ -640,11 +554,11 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 5.82,
+   "price": 5.81,
    "pivot": 5.82,
-   "dist_pivot": 0.0,
-   "rs": 86,
-   "score": 40,
+   "dist_pivot": -0.2,
+   "rs": 87,
+   "score": 41,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -656,10 +570,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
+   "as_of": "2026-11-06",
    "footprint": "52W 41/0 22T",
    "next_earnings": "2026-08-26",
-   "priority": 23
+   "priority": 20
   },
   {
    "code": "EVT",
@@ -668,11 +582,11 @@
    "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 15.89,
-   "pivot": 15.98,
-   "dist_pivot": -0.6,
-   "rs": 82,
-   "score": 37,
+   "price": 15.75,
+   "pivot": 15.99,
+   "dist_pivot": -1.5,
+   "rs": 84,
+   "score": 39,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -684,10 +598,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "62W 36/18 11T",
+   "as_of": "2026-11-06",
+   "footprint": "62W 36/18 12T",
    "next_earnings": "2026-08-24",
-   "priority": 24
+   "priority": 21
   },
   {
    "code": "DBI",
@@ -696,11 +610,11 @@
    "industry": "Transportation",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.61,
+   "price": 5.6,
    "pivot": 5.79,
-   "dist_pivot": -3.1,
-   "rs": 75,
-   "score": 36,
+   "dist_pivot": -3.3,
+   "rs": 77,
+   "score": 38,
    "stage": "2",
    "base_no": 5,
    "warnings": [
@@ -715,10 +629,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
+   "as_of": "2026-11-06",
    "footprint": "19W 15/5 4T",
    "next_earnings": "2025-08-25",
-   "priority": 25
+   "priority": 22
   },
   {
    "code": "ALL",
@@ -727,15 +641,15 @@
    "industry": "Consumer Services",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 66.05,
+   "price": 65.86,
    "pivot": 66.71,
-   "dist_pivot": -1.0,
-   "rs": 77,
-   "score": 31,
+   "dist_pivot": -1.3,
+   "rs": 76,
+   "score": 30,
    "stage": "2",
    "base_no": 1,
    "warnings": [
-    "Reports earnings in 7 days (2026-11-12): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 6 days (2026-11-12): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -745,10 +659,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-05",
-   "footprint": "60W 39/7 16T",
+   "as_of": "2026-11-06",
+   "footprint": "61W 39/7 16T",
    "next_earnings": "2026-11-12",
-   "priority": 26
+   "priority": 23
   }
  ]
 }
