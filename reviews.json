@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T22:27:30Z",
+  "updated": "2026-11-06T22:27:41Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -6239,7 +6239,7 @@
       "market": "US",
       "code": "VCTR",
       "name": "Victory Capital Holdings",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "status_at_review": "Buy-ready",
       "price_at_review": "US$119.24",
       "verdict": "Watch only",
@@ -14283,7 +14283,7 @@
       "market": "US",
       "code": "AHR",
       "name": "American Healthcare REIT, Inc.",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "status_at_review": "Breaking out",
       "price_at_review": "US$57.91",
       "verdict": "Watch only",
@@ -14435,7 +14435,7 @@
       "market": "US",
       "code": "BIO",
       "name": "Bio-Rad Laboratories",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "status_at_review": "Buy-ready",
       "price_at_review": "US$381.57",
       "verdict": "Reject",
@@ -14587,7 +14587,7 @@
       "market": "US",
       "code": "BEN",
       "name": "Franklin Templeton, Inc. (formerly Franklin Resources)",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "status_at_review": "Buy-ready",
       "price_at_review": "US$33.73",
       "verdict": "Watch only",
@@ -14751,7 +14751,7 @@
       "market": "US",
       "code": "AZTA",
       "name": "Azenta, Inc.",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "status_at_review": "Buy-ready",
       "price_at_review": "US$39.16",
       "verdict": "Reject",
@@ -14912,6 +14912,154 @@
         {
           "title": "StockAnalysis AZTA overview (aggregator)",
           "url": "https://stockanalysis.com/stocks/azta/"
+        }
+      ]
+    },
+    "US:EVTC": {
+      "market": "US",
+      "code": "EVTC",
+      "name": "EVERTEC, Inc.",
+      "date": "2026-11-07",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "US$33.55",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "EVERTEC is buying growth in Brazil (Tecnobank, Dimensa): Q3 2026 revenue rose 24% (21% constant currency) and adjusted EPS 16% to $1.07, with a beat and a third guidance raise. But GAAP EPS has fallen year on year for four straight quarters (Q3 $0.49 vs $0.51), margins are compressing, adjusted EPS growth leans on buybacks, and the CEO sold about a third of his direct stake on 4 Nov 2026 just below the pivot. Earnings fail the Minervini test, so it is a reject despite the clean chart.",
+      "catalyst": "MODERATE: Dimensa acquisition (closed 30 Apr 2026) and the Transbank Chile contract (Aug 2026) widen the LatAm business, but Transbank revenue mostly lands in 2028.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "GAAP dil EPS Q3'26 $0.49 (-4%), Q2 $0.09 (-85%), Q1 $0.38 (-24%), Q4'25 $0.56 (-10%); adj EPS +16%/+18%/+3%/+7%; FY26 GAAP guide $1.66-1.74 vs $2.20",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q3'26 rev $283.0M +24% (+21% cc) vs Q3'25; Q2 +20%, Q1 +8%. Jump is Dimensa/Tecnobank buys; organic not disclosed (LatAm low double digit, PR low-mid single)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "GAAP op margin 9M'26 18.4% vs 20.9%; Q3 adj EBITDA margin 39.0% vs 40.5%; Q3 net margin 10.6% vs 14.4%. Mix-driven squeeze; no Code 33",
+          "result": "FAIL"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Adj EPS $1.07 vs GAAP $0.49 (Q3'26); repeat 'one-offs' (cyber, impairment, deal fees); diluted shares -6.7% YoY lift adj EPS (adj NI only +8.3%)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises and guidance",
+          "finding": "Q3'26 adj EPS $1.07 vs ~$0.97-0.98 consensus, rev $283.0M vs $273.7M (aggregator); FY26 guide raised 3rd time: adj EPS $4.00-4.08. Revisions not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Dimensa (Brazil, closed 30 Apr 2026, ~$203M), Transbank Chile deal (Aug 2026; revenue from 2H27-2028), Popular 10% discount lapped Oct 2026",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Mid-cap PR/LatAm processor and ATH network owner; not a growth leader (FY26 adj EPS +10.5-12.7%); payments peers near highs: not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "CEO sold 145,000 sh 4 Nov 2026 @~$34.5-35.1 (~$5.0M, ~32% of direct holding, not 10b5-1); Aug'26 sales by 2 EVPs + director; inst ~99% (Q2'26, aggregator)",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 2026: cash $284.1M, term loans+revolver $1,292.8M principal, net lev 2.46x (1.81x yr ago); 9M OCF $176.3M vs $157.0M; facility extended 5 Nov; no raise",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q4/FY26 + 2027 outlook ~late Feb 2027 (date not set); cyber class action (consol. complaint 5 Oct 2026); short 4.35% float, falling (aggregator); Q1 day -17%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q filed 4 Nov 2026 (Q3); next earnings not announced; no active shelf/ATM (S-3ASR May 2021 lapsed); last secondary Aug 2022 (Popular)",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "FY2027 outlook (late Feb 2027) faces lower EBT renewal pricing in Puerto Rico, lower Getnet volumes in Brazil and tougher Merchant Acquiring comps (Q3 call).",
+        "CEO sold 145,000 shares at ~$34.5-35.1 on 4 Nov 2026, outside a 10b5-1 plan, right at the $35.29 pivot.",
+        "Leverage up to 2.46x net debt/adj EBITDA on ~$1.3B floating-rate debt; GAAP interest expense +30% YoY in Q3 2026.",
+        "Brazil currency and political risk: $6.0M of Q3 revenue came from FX; LatAm now ~46% of segment revenue.",
+        "Cybersecurity incident class actions (consolidated complaint 5 Oct 2026) and Popular concentration (MSA minimums to Sep 2028)."
+      ],
+      "next_event": "Q4/FY2026 results and 2027 outlook, expected late Feb 2027 (date not announced; FY2025 was reported 26 Feb 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "EVERTEC Q3 2026 earnings release (8-K Ex 99.1, 3 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000052/ex99109302026.htm"
+        },
+        {
+          "title": "EVERTEC Q3 2026 Form 10-Q (filed 4 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000054/evtc-20260930.htm"
+        },
+        {
+          "title": "EVERTEC Q2 2026 earnings release (8-K Ex 99.1, 4 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000043/ex991063026.htm"
+        },
+        {
+          "title": "EVERTEC Q1 2026 earnings release (8-K Ex 99.1, 6 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000027/ex991033126.htm"
+        },
+        {
+          "title": "EVERTEC Q4/FY2025 earnings release (8-K Ex 99.1, 26 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000008/ex991123125.htm"
+        },
+        {
+          "title": "EVERTEC Q3 2025 earnings release (8-K Ex 99.1, 6 Nov 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986525000052/ex991093025.htm"
+        },
+        {
+          "title": "Credit facility renewal (8-K Ex 99.1, 6 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000162828026071284/exhibit991pressrelease-ren.htm"
+        },
+        {
+          "title": "Dimensa share purchase agreement (8-K, 2 Feb 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000004/evtc-20260202.htm"
+        },
+        {
+          "title": "CEO Form 4 (filed 5 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000140760726000005/xslF345X06/primarydocument.xml"
+        },
+        {
+          "title": "CEO Form 144 (filed 4 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559865/000195004726010715/xsl144X01/primary_doc.xml"
+        },
+        {
+          "title": "EVERTEC SEC filing index (Form 4s, 144s, shelf history)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559865&type=&dateb=&owner=include&count=40"
+        },
+        {
+          "title": "Q3 2026 earnings call transcript (Motley Fool)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/evertec-evtc-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "title": "Q3 2026 preview, consensus (aggregator, Finviz/Earnings Whispers)",
+          "url": "https://finviz.com/news/408336/evertec-must-show-its-raised-2026-outlook-holds-as-wins-pile-up-and-margins-stall"
+        },
+        {
+          "title": "Q3 2026 slides and stock reaction (aggregator, Investing.com)",
+          "url": "https://www.investing.com/news/company-news/evertec-q3-2026-slides-latin-america-drives-24-revenue-growth-93CH-4996793"
+        },
+        {
+          "title": "EVTC statistics, short interest (aggregator, StockAnalysis)",
+          "url": "https://stockanalysis.com/stocks/evtc/statistics"
+        },
+        {
+          "title": "EVTC institutional holders (aggregator, vcpscanner)",
+          "url": "https://vcpscanner.com/stock/evtc/institutional-holders"
+        },
+        {
+          "title": "EVTC analyst ratings (aggregator, MarketBeat)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/EVTC/forecast/"
         }
       ]
     }
