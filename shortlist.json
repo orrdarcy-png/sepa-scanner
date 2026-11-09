@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T22:16:46Z",
+ "generated": "2026-11-09T08:42:41Z",
  "stocks": [
   {
    "code": "THC",
@@ -142,34 +142,6 @@
    "priority": 5
   },
   {
-   "code": "LGF",
-   "symbol": "LGF.AX",
-   "name": "L1 GOLD FUND LIMITED",
-   "industry": "Not Applic",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 2.3,
-   "pivot": 2.29,
-   "dist_pivot": 0.4,
-   "rs": 82,
-   "score": 44,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": false,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "11W 15/6 2T",
-   "next_earnings": null,
-   "priority": 6
-  },
-  {
    "code": "USFD",
    "symbol": "USFD",
    "name": "US Foods",
@@ -197,7 +169,7 @@
    "as_of": "2026-11-06",
    "footprint": "12W 19/6 2T",
    "next_earnings": "2026-11-05",
-   "priority": 7
+   "priority": 6
   },
   {
    "code": "MMM",
@@ -225,6 +197,34 @@
    "as_of": "2026-11-06",
    "footprint": "14W 14/7 2T",
    "next_earnings": "2027-01-19",
+   "priority": 7
+  },
+  {
+   "code": "PWH",
+   "symbol": "PWH.AX",
+   "name": "PWR HOLDINGS LIMITED",
+   "industry": "Automobiles & Components",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 11.25,
+   "pivot": 11.77,
+   "dist_pivot": -4.4,
+   "rs": 82,
+   "score": 53,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": true,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-09",
+   "footprint": "11W 25/6 2T",
+   "next_earnings": "2025-08-11",
    "priority": 8
   },
   {
@@ -234,9 +234,9 @@
    "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 4.67,
+   "price": 4.71,
    "pivot": 4.91,
-   "dist_pivot": -4.9,
+   "dist_pivot": -4.1,
    "rs": 80,
    "score": 44,
    "stage": "2",
@@ -252,7 +252,7 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-09",
    "footprint": "20W 26/10 6T",
    "next_earnings": "2025-08-19",
    "priority": 9
@@ -372,34 +372,6 @@
    "priority": 13
   },
   {
-   "code": "RWC",
-   "symbol": "RWC.AX",
-   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
-   "industry": "Capital Goods",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 4.52,
-   "pivot": 4.57,
-   "dist_pivot": -1.1,
-   "rs": 86,
-   "score": 55,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "5W 13/3 2T",
-   "next_earnings": "2026-08-18",
-   "priority": 14
-  },
-  {
    "code": "BEN",
    "symbol": "BEN",
    "name": "Franklin Resources",
@@ -428,7 +400,7 @@
    "as_of": "2026-11-06",
    "footprint": "13W 16/8 2T",
    "next_earnings": "2026-11-06",
-   "priority": 15
+   "priority": 14
   },
   {
    "code": "PAG",
@@ -456,7 +428,7 @@
    "as_of": "2026-11-06",
    "footprint": "14W 15/1 2T",
    "next_earnings": "2026-10-28",
-   "priority": 16
+   "priority": 15
   },
   {
    "code": "AZTA",
@@ -486,7 +458,7 @@
    "as_of": "2026-11-06",
    "footprint": "5W 29/7 3T",
    "next_earnings": "2026-11-10",
-   "priority": 17
+   "priority": 16
   },
   {
    "code": "SOL",
@@ -495,11 +467,11 @@
    "industry": "Financial Services",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 47.51,
+   "price": 47.15,
    "pivot": 47.75,
-   "dist_pivot": -0.5,
-   "rs": 78,
-   "score": 46,
+   "dist_pivot": -1.3,
+   "rs": 77,
+   "score": 47,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -511,10 +483,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "6W 9/7 2T",
+   "as_of": "2026-11-09",
+   "footprint": "6W 9/2 3T",
    "next_earnings": "2026-09-24",
-   "priority": 18
+   "priority": 17
   },
   {
    "code": "EVTC",
@@ -542,7 +514,7 @@
    "as_of": "2026-11-06",
    "footprint": "62W 42/8 5T",
    "next_earnings": "2026-11-03",
-   "priority": 19
+   "priority": 18
   },
   {
    "code": "SDF",
@@ -555,7 +527,7 @@
    "pivot": 5.82,
    "dist_pivot": -0.2,
    "rs": 87,
-   "score": 41,
+   "score": 40,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -567,10 +539,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-09",
    "footprint": "52W 41/0 22T",
    "next_earnings": "2026-08-26",
-   "priority": 20
+   "priority": 19
   },
   {
    "code": "EVT",
@@ -579,11 +551,11 @@
    "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 15.75,
-   "pivot": 15.99,
-   "dist_pivot": -1.5,
-   "rs": 84,
-   "score": 39,
+   "price": 15.65,
+   "pivot": 16.0,
+   "dist_pivot": -2.2,
+   "rs": 83,
+   "score": 38,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -595,41 +567,38 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "62W 36/18 12T",
+   "as_of": "2026-11-09",
+   "footprint": "63W 36/18 12T",
    "next_earnings": "2026-08-24",
-   "priority": 21
+   "priority": 20
   },
   {
-   "code": "DBI",
-   "symbol": "DBI.AX",
-   "name": "DALRYMPLE BAY INFRASTRUCTURE LIMITED",
-   "industry": "Transportation",
+   "code": "LGF",
+   "symbol": "LGF.AX",
+   "name": "L1 GOLD FUND LIMITED",
+   "industry": "Not Applic",
    "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 5.6,
-   "pivot": 5.79,
-   "dist_pivot": -3.3,
-   "rs": 77,
-   "score": 38,
+   "setup": "cheat (3-C)",
+   "price": 2.38,
+   "pivot": 2.4,
+   "dist_pivot": -0.8,
+   "rs": 83,
+   "score": 34,
    "stage": "2",
-   "base_no": 5,
-   "warnings": [
-    "Heaviest volume in 6 months came on a down day recently",
-    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
-   ],
+   "base_no": 2,
+   "warnings": [],
    "ff": {
-    "data": true,
+    "data": false,
     "pass": false,
     "accel": false,
     "code33": false
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "19W 15/5 4T",
-   "next_earnings": "2025-08-25",
-   "priority": 22
+   "as_of": "2026-11-09",
+   "footprint": "11W 15/13 1T",
+   "next_earnings": null,
+   "priority": 21
   },
   {
    "code": "ALL",
@@ -638,15 +607,15 @@
    "industry": "Consumer Services",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 65.86,
+   "price": 65.54,
    "pivot": 66.71,
-   "dist_pivot": -1.3,
-   "rs": 76,
+   "dist_pivot": -1.8,
+   "rs": 75,
    "score": 30,
    "stage": "2",
    "base_no": 1,
    "warnings": [
-    "Reports earnings in 6 days (2026-11-12): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 3 days (2026-11-12): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -656,10 +625,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-06",
-   "footprint": "61W 39/7 16T",
+   "as_of": "2026-11-09",
+   "footprint": "61W 39/3 17T",
    "next_earnings": "2026-11-12",
-   "priority": 23
+   "priority": 22
   }
  ]
 }
