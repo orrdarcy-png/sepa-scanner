@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T19:25:55Z",
+  "updated": "2026-11-10T22:31:17Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -8179,143 +8179,147 @@
       "market": "US",
       "code": "LAMR",
       "name": "Lamar Advertising Company",
-      "date": "2026-10-29",
+      "date": "2026-11-10",
       "status_at_review": "Breaking out",
-      "price_at_review": "US$159.03",
+      "price_at_review": "US$163.4",
       "verdict": "Reject",
       "confidence": "high",
-      "summary": "Lamar, the largest US billboard REIT (~US$16.2B cap, calc), is seeing ad demand re-accelerate: Q2'26 revenue +6.5%, AFFO/share +8% to $2.40, record 49.2% EBITDA margin and a raised FY26 AFFO guide of $8.75-8.90. But it is a mid-single-digit grower: GAAP diluted EPS fell 10% in H1'26 (Q2 +4%) and FY26 EPS guidance implies only +3-4%, far from SEPA's 25%+ bar.",
-      "catalyst": "Ad demand re-acceleration (AI/tech advertisers, 2026 midterm political spend, programmatic) lifted acq-adjusted revenue growth to 6.1% in Q2'26 and drove a guidance raise on 6 Aug 2026; MODERATE.",
+      "summary": "Lamar, the largest US billboard REIT (~US$16.6B cap at US$163.4 x 101.58M sh, calc), beat Q3'26 on 5 Nov 2026 (AFFO/sh $2.41, +9.5%; revenue +6.6%) and raised FY26 guidance a second time, helped by national (+~20%) and >$40M political spend. But it is still a mid-single-digit grower: 9M'26 GAAP diluted EPS fell 2% ($4.17 vs $4.27), Q3 GAAP EPS +14% was flattered by a $16.9M gain, and the FY26 EPS guide implies only +4-5%, far below SEPA's 25%+ bar.",
+      "catalyst": "MODERATE: ad demand re-accelerating (national +~20%, programmatic +40%, record October +14% acq-adj incl. >$40M 2026 political); FY26 AFFO/sh guide raised to $8.87-8.97 on 5 Nov 2026, but political spend does not recur in 2027.",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "GAAP dil EPS YoY: Q3'25 $1.40 -3%; Q1'26 $1.00 -26% (Vistar gain in base); Q2'26 $1.58 +4%; H1'26 -10%. AFFO/sh Q2 $2.40 +8%. FY26 EPS guide +3-4%",
+          "finding": "GAAP dil EPS YoY: Q4'25 $1.50 vs -$0.01; Q1'26 $1.00 -26%; Q2 $1.58 +4%; Q3 $1.59 +14% (gain-aided); 9M $4.17 -2%. FY26 guide $6.01-6.04 (+4-5% calc)",
           "result": "FAIL"
         },
         {
           "check": "Sales",
-          "finding": "Revenue YoY: Q3'25 +3.8%; Q4'25 +2.8%; Q1'26 $528M +4.5%; Q2'26 $617M +6.5% (acq-adj +6.1%, best since Q2'22). Mostly organic; far under 20%",
+          "finding": "Revenue YoY: Q4'25 +2.8%; Q1'26 +4.5%; Q2 +6.5%; Q3'26 $624.5M +6.6% (acq-adj +6.2%); 9M +5.9%. Accelerating but mostly organic single-digit, far under 20%",
           "result": "CAUTION"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "Adj EBITDA margin Q2'26 49.2% record vs 48.1% (calc); Q1 42.9% vs 41.6% (calc). GAAP op margin Q2 33.7% vs 34.1% (calc). No Code 33",
+          "finding": "Q3'26 adj EBITDA margin 49.1% vs 47.9%, GAAP op 33.5% vs 32.3%, net 26.4% vs 24.6% (all calc); 9M EBITDA 47.3% vs 46.1%. No Code 33 (single-digit growth)",
           "result": "PASS"
         },
         {
           "check": "Earnings quality",
-          "finding": "H1'26 OCF $400M vs NI $267M; 2026 gains small ($15M H1). Concern: GAAP EPS swung by gains (Vistar $68M Q1'25); receivables +9% vs sales +6.5%",
+          "finding": "9M'26 OCF $683.9M vs NI $431.5M; OCF +15%. Concern: Q3 gain $16.9M vs $2.2M; ex-gain Q3 NI ~+4% (calc). AR +6.5% since Dec vs 9M sales +5.9%; SBC $38.3M 9M",
           "result": "PASS"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "Q2'26 AFFO/sh $2.40 vs $2.21 est (agg); rev $616.7M vs $608M. 6 Aug: FY26 AFFO/sh guide raised to $8.75-8.90 from $8.50-8.70; EPS to $5.95-5.99",
+          "finding": "Q3'26 AFFO/sh $2.41 vs $2.23 cons (agg), rev $624.5M vs $619.8M. 5 Nov: FY26 AFFO/sh guide $8.87-8.97 (from $8.75-8.90), EPS $6.01-6.04 (from $5.95-5.99)",
           "result": "PASS"
         },
         {
           "check": "Catalyst",
-          "finding": "Ad demand re-accelerating: AI/tech and political spend, programmatic; acq-adj revenue +6.1% in Q2'26, guide raised 6 Aug 2026. MODERATE",
+          "finding": "MODERATE: national +~20%, programmatic +40% in Q3'26; Oct revenue >$232M +14% acq-adj (~+7% ex-political), record month; guide raised 5 Nov 2026",
           "result": "PASS"
         },
         {
           "check": "Category and group",
-          "finding": "Largest US billboard REIT, institutional favourite, mid-cycle ad market. Peer OUT +36% YTD at 1 Jul (trade press); CCO being sold to Mubadala",
+          "finding": "Largest US billboard REIT, institutional favourite, mid-cycle ad market. Peer OUTFRONT Q3'26 revenue +9.3% (5 Nov 2026); out-of-home group strong",
           "result": "PASS"
         },
         {
           "check": "Supply and ownership",
-          "finding": "~101.6M sh (Jul 26), -0.4% vs Jul 23 (calc); no raises. Inst 84-94% (agg): over-owned. Sales: CFO Mar/May, EVP Mar, dir Sep (~$3.7M calc); no buys",
+          "finding": "101.58M sh (30 Oct 26), ~flat 3 yrs; no raises. Inst 93.8% (agg, Jul 26): over-owned. Sales: CFO 7,600 sh 9 Nov 26 (~$1.19M, not 10b5-1), dir Sep; no buys",
           "result": "CAUTION"
         },
         {
           "check": "Balance sheet",
-          "finding": "30 Jun 26: debt $3.51B, cash $68M, net debt ~3.1x TTM adj EBITDA (calc); liquidity $720M; H1 OCF $400M. ROE ~57% (calc, low book). No raise needed",
+          "finding": "30 Sep 26: debt $3.50B, cash $54.1M, liquidity $721M; credit-facility leverage 2.84x (call). 9M OCF $683.9M vs $592.9M. ROE ~57% TTM (calc, low book)",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "Q3 results 5 Nov 2026 pre-mkt (verified); midterms 3 Nov. Short int 3.16M sh (15 Oct, 3.1% of shares), down 26% in 6 mths. Hold: profit cushion only",
+          "finding": "Q4'26 results ~late Feb 2027 (TBA; Q4'25 was 20 Feb 2026) with 2027 outlook vs political comps. Short int 3.2M sh (15 Oct 26, ~3.2%), down 8%",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q 6 Aug 2026 (Q2). Next earnings 5 Nov 2026. Auto shelf (Jul 2024) and US$400M ATM both unused; no secondary; no buybacks in 2026",
+          "finding": "Last 10-Q: Q3'26 filed 5 Nov 2026. Next earnings ~late Feb 2027 (TBA). US$400M ATM unused at 30 Sep 26; no shelf issuance or secondary; $250M buyback unused",
           "result": "PASS"
         }
       ],
       "risks": [
-        "Q3 results 5 Nov 2026: Q3 consensus AFFO/sh ~$2.26 (+3%, agg) and rev ~$621M; Q4/2027 pacing is the swing factor",
-        "2026 midterm political spend rolls off after 3 Nov, making 2027 comparisons harder",
-        "Ad recession or tariff-driven pullback by local and national advertisers",
-        "Higher bond yields could de-rate REITs; ~US$3.5B debt and AR facility at variable rates",
-        "Insiders only sell (CFO, EVP, director in 2026) and institutions own 84-94%: little new sponsorship"
+        "2027 comparisons: >$40M of 2026 political revenue (nearly half in Q4) does not recur; ex-political October growth was ~7%",
+        "Cost creep: FY26 acq-adj expense growth now ~4.25% vs ~3% earlier; ERP phase two paused and 48% margin target likely slips to 2027-28 (agg)",
+        "Ad recession or tariff-driven pullback by local and national advertisers; higher bond yields could de-rate REITs (~US$1.1B SOFR-linked debt incl. AR facility)",
+        "Insiders only sell (CFO 9 Nov 2026 after 2 Nov LTIP conversion, director 14 Sep 2026, CFO/EVP earlier in 2026) and institutions own ~94%",
+        "Verdict would only change if GAAP EPS growth reached 25%+ for two quarters on sustained 20%+ revenue growth, which the FY26 guide does not imply"
       ],
-      "next_event": "Q3 2026 results, 5 Nov 2026 before market open (call 8:00am CT), confirmed by company release 7 Oct 2026",
+      "next_event": "Q4 and FY2026 results with 2027 guidance, ~late Feb 2027 (not yet announced; Q4'25 was reported 20 Feb 2026); special dividend of at least $0.30 expected late Dec 2026",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
         {
-          "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026)",
+          "title": "Q3 2026 earnings release, 8-K Ex 99.1 (5 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000027/lamr8kexhibit9912026q3.htm"
+        },
+        {
+          "title": "Q3 2026 Form 10-Q (5 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000030/lamr-20260930.htm"
+        },
+        {
+          "title": "Form 4: CFO Jay Johnson sale of 7,600 sh on 9 Nov 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119248226000504/form4.xml"
+        },
+        {
+          "title": "8-K Ex 99.1: dividend raised to $1.65 (1 Sep 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526378592/d81164dex991.htm"
+        },
+        {
+          "title": "Q2 2026 earnings release, 8-K Ex 99.1 (6 Aug 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000021/lamr8kexhibit9912026q2.htm"
         },
         {
-          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026)",
+          "title": "Q1 2026 earnings release, 8-K Ex 99.1 (7 May 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/0001090425/000109042526000014/lamr8kexhibit9912026q1.htm"
         },
         {
-          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (20 Feb 2026)",
+          "title": "Q4/FY2025 earnings release, 8-K Ex 99.1 (20 Feb 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000006/lamr8kexhibit9912025q4.htm"
         },
         {
-          "title": "Q3 2025 earnings release, 8-K Ex 99.1 (6 Nov 2025)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042525000008/lamr8kexhibit9912025q3.htm"
-        },
-        {
-          "title": "Q2 2026 Form 10-Q (6 Aug 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000024/lamr-20260630.htm"
-        },
-        {
-          "title": "8-K AR securitization amendment (6 Oct 2026)",
+          "title": "8-K AR securitization amendment (6 Oct 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526415546/d180378d8k.htm"
         },
         {
-          "title": "8-K dividend and buyback extension (26 Feb 2026)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526076937/d25344d8k.htm"
+          "title": "Q3 2026 call transcript (Earnings Whispers, aggregator)",
+          "url": "https://www.earningswhispers.com/transcript/LAMR/Q32026"
         },
         {
-          "title": "Form 4 filings, SEC EDGAR LAMR filing index",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090425&type=4"
+          "title": "Q3 2026 actual vs consensus (Earnings Whispers, aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/LAMR/202609"
         },
         {
-          "title": "Q3 2026 results date announcement (7 Oct 2026, via Finviz)",
-          "url": "https://finviz.com/news/400094/lamar-advertising-company-to-release-third-quarter-ended-september-30-2026-operating-results"
+          "title": "Q3 2026 analysis: political, national, 2027 comps (Finviz, aggregator)",
+          "url": "https://finviz.com/news/417292/lamar-beats-as-political-national-and-digital-demand-accelerate-but-2027-comps-and-cost-creep-complicate-the-raise"
         },
         {
-          "title": "Nasdaq: Q2 AFFO increases, raises FY26 guidance (prior guide)",
-          "url": "https://www.nasdaq.com/articles/lamar-advertising-q2-affo-increases-raises-fy26-guidance"
+          "title": "LAMR filing list incl. Form 4/144 Sep-Nov 2026 (Chartrow, aggregator)",
+          "url": "https://chartrow.com/quote/lamr/filings"
         },
         {
-          "title": "Q2 2026 call transcript excerpt (aggregator)",
-          "url": "https://statementdog.com/analysis/LAMR/earnings_calls/316225"
+          "title": "LAMR insider trading table (Options Analysis Suite, aggregator)",
+          "url": "https://www.optionsanalysissuite.com/stocks/lamr/insider-trading"
         },
         {
-          "title": "Earnings Whispers: Q2 consensus vs actual (aggregator)",
-          "url": "https://www.earningswhispers.com/epsdetails/LAMR"
+          "title": "LAMR short interest 15 Oct 2026 (Options Analysis Suite, aggregator)",
+          "url": "https://www.optionsanalysissuite.com/stocks/lamr/short-interest"
         },
         {
-          "title": "Benzinga earnings forecasts (aggregator)",
-          "url": "https://www.benzinga.com/quote/LAMR/earnings-forecasts"
+          "title": "MarketBeat: institutional ownership 93.78% (aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-lazard-asset-management-llc-boosts-position-in-lamar-advertising-company-lamr-2026-08-02/"
         },
         {
-          "title": "Equibles short interest and institutional ownership (aggregator)",
-          "url": "https://equibles.com/stocks/lamr/shortinterest"
+          "title": "OUTFRONT Q3 2026 revenue +9.3% (Securities.io, 5 Nov 2026)",
+          "url": "https://www.securities.io/outfront-q3-revenue-rises-9-3-as-transit-profit-surges/"
         },
         {
-          "title": "InsiderTrades/MarketBeat: institutional ownership 93.78% (aggregator)",
-          "url": "https://www.insidertrades.com/alerts/nasdaq-lamr-insider-buying-and-selling-2026-03-26"
-        },
-        {
-          "title": "Billboard Insider: Lamar and OUTFRONT outperform in 2Q 2026",
-          "url": "https://billboardinsider.com/lamar-and-outfront-outperform-market-in-2q-2026/"
+          "title": "OUTFRONT Q3 2026 earnings release, 8-K Ex 99.1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001579877/000157987726000047/ex9913q26earningsrelease.htm"
         }
       ]
     },
@@ -15187,45 +15191,45 @@
       "market": "US",
       "code": "BTSG",
       "name": "BrightSpring Health Services",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "verdict": "Watch only",
       "confidence": "high",
-      "summary": "KKR-backed home/community pharmacy (specialty, infusion, oncology) and home health provider growing revenue ~26% (about 24% organic) with adjusted EPS up 80-154% for four straight quarters, three FY26 guidance raises and a beat-and-raise Q3 (30 Oct 2026). Fundamentals qualify, but KKR sold 34.4M shares in two block secondaries in the last 12 months (Mar and Jun 2026), with management selling alongside, and still holds 13.6% with the lock-up expired; repeated major-holder selling caps it at Watch only.",
-      "catalyst": "STRONG: new limited-distribution specialty drug launches plus Amedisys/LHC home health branches (closed 4Q25) drove three FY26 guidance raises (adj EBITDA $760-790M to $850-860M, Feb-Oct 2026).",
+      "summary": "KKR-backed home/community pharmacy (specialty, infusion, oncology) and home health provider: 3Q26 revenue +26.4% and adjusted EPS +80% with a third FY26 guidance raise and 15-20% organic adj EBITDA growth targeted for 2027. Fundamentals qualify and nothing new has been filed since 5 Nov, but KKR sold 34.4M shares in two block secondaries in the last 12 months (Mar and Jun 2026), with management selling alongside, and it still holds 13.6%. That keeps supply/ownership a FAIL and caps the verdict at Watch only.",
+      "catalyst": "STRONG: 19 limited-distribution specialty drug launches YTD plus Amedisys/LHC home health branches (4Q25) drove three FY26 guidance raises (adj EBITDA $760-790M to $850-860M, Feb-Oct 2026).",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "Adj dil EPS 4Q25/1Q/2Q/3Q26 $0.33/0.39/0.45/0.54, +154%/+105%/+105%/+80% YoY; GAAP cont 3Q $0.46 vs $0.17. Slowing; record yr; 4Q cons $0.52",
+          "finding": "Adj dil EPS 4Q25/1Q/2Q/3Q26 $0.33/0.39/0.45/0.54, +154/+105/+105/+80% YoY; GAAP cont 3Q $0.46 vs $0.17. Slowing; record yr; 4Q cons $0.54",
           "result": "PASS"
         },
         {
           "check": "Sales",
-          "finding": "3Q26 rev $4.21B +26.4% (2Q +23.0%, 1Q +25.6%, 4Q25 +29.3%); ex $76M Amedisys/LHC ~24% organic. Pharmacy +26%, Provider +31%",
+          "finding": "3Q26 (Jul-Sep) rev $4.21B +26.4% (2Q +23.0%, 1Q +25.6%, 4Q25 +29.3%); ~24% organic ex Amedisys/LHC. Pharmacy +26%, Provider +31%",
           "result": "PASS"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "3Q26 GM 12.3% vs 11.8%, op 3.8% vs 2.6%, net (cont) 2.4% vs 1.1%; GM down QoQ from 13.3% (1Q) on specialty mix. No Code 33",
+          "finding": "3Q26 GM 12.3% vs 11.8%, op 3.8% vs 2.6%, net (cont) 2.4% vs 1.1% YoY; GM down QoQ from 13.3% (1Q26) on specialty mix. No Code 33",
           "result": "PASS"
         },
         {
           "check": "Earnings quality",
-          "finding": "Concern: growth is rev/script +24% (specialty mix) on scripts +2%. 3Q OCF $204M vs NI $101M; adj-GAAP gap $0.08; 2Q tax rate 7.4% helped GAAP",
+          "finding": "Concern: growth is rev/script +24% (specialty mix) on scripts +2% (3Q26). 3Q OCF $204M vs NI $101M; adj-GAAP gap $0.08; SBC $18M; $120M buyback 9M26",
           "result": "PASS"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "3Q26 adj EPS $0.54 vs $0.47-0.48 cons, rev $4.21B vs ~$3.9B; FY26 guide raised 3rd time; PTs raised Nov 2-3 (UBS 92, Leerink 92) (aggregator)",
+          "finding": "3Q26 adj EPS $0.54 vs $0.48 cons, rev $4.21B vs $3.95B (aggregator); FY26 guide raised 3rd time 30 Oct; 4Q cons $0.52 to $0.54; PTs raised Nov 2-3",
           "result": "PASS"
         },
         {
           "check": "Catalyst",
-          "finding": "STRONG: LDD specialty launches, 107 Amedisys/LHC branches (4Q25, +58% HH census), Community Living sale 30 Mar 2026 cut leverage to 1.79x",
+          "finding": "STRONG: 19 LDD specialty launches YTD 2026 (162 total), Amedisys/LHC branches (HH census +58%), 2027 target 15-20% organic adj EBITDA growth",
           "result": "PASS"
         },
         {
           "check": "Category and group",
-          "finding": "Leading independent home/specialty pharmacy + home health; RS 95; 17 Buy/1 Strong Buy/1 Hold (MarketBeat Nov 26). Peer group strength not verified",
+          "finding": "Leading independent home/specialty pharmacy + home health; RS 97 (scanner, 10 Nov 26); mostly Buy ratings (aggregator). Peer group strength not verified",
           "result": "PASS"
         },
         {
@@ -15235,30 +15239,34 @@
         },
         {
           "check": "Balance sheet",
-          "finding": "30 Sep 26: cash $718M, debt $2.18B, net debt ~$1.46B, leverage 1.79x (2.99x Dec 25); 9M26 OCF $371M vs $259M; ROE 16.7% (aggregator). No raise",
+          "finding": "30 Sep 26: cash $718M, LT debt $2.15B, net debt ~$1.43B, leverage 1.79x (2.15x Jun); 9M26 OCF $371M vs $259M; ROE not verified. No raise likely",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "Next: 4Q26 results ~25 Feb 2027 (aggregator, unconfirmed); TEU settle 1 Feb 2027. Short int 11.5M (15 Oct 26) vs 8.4M (31 Jul). KKR overhang",
+          "finding": "Next: 4Q26 results ~25 Feb 2027 (aggregator, unconfirmed); TEU settle 1 Feb 2027. Short int 11.5M (15 Oct 26) vs 8.4M (31 Jul 26). KKR overhang",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q: 3Q26 filed 30 Oct 2026. S-3ASR shelf (10 Jun 2025) used for 4 KKR secondaries (424B7 Jun/Oct 25, Mar/Jun 26); no ATM found",
+          "finding": "Last 10-Q: 3Q26 filed 30 Oct 2026. S-3ASR shelf (10 Jun 2025) used for KKR secondaries (424B7 Mar/Jun 26); no new 424B7 since 5 Jun; no ATM found",
           "result": "CAUTION"
         }
       ],
       "risks": [
-        "KKR still holds 26.8M shares (13.6%); its lock-up expired ~mid-Jul 2026 and it has sold after each of the last results windows, so another discounted block is likely",
-        "Pharmacy growth is driven by specialty drug mix (revenue per script +24%, scripts +2% in 3Q26); IRA Medicare drug price negotiation is already cutting home/community pharmacy revenue",
+        "KKR still holds 26.8M shares (13.6%, 13D/A 5 Jun 2026); its 60-day lock-up ended Aug 2026 and it has sold after results windows, so another discounted block is likely",
+        "Pharmacy growth driven by specialty mix (rev/script +24%, scripts +2% in 3Q26); IRA drug-price negotiation cut Home & Community Pharmacy revenue ~$200M in FY26 and continues in 2027",
         "Adj EPS growth decelerating (+105% to +80%) and gross margin falling QoQ (13.3% to 12.3%) as lower-margin specialty revenue grows",
-        "Late-stage base (base 7) after a run from ~$31 to $73.75; short interest up ~37% since July 2026",
-        "Upgrade would need KKR to fully exit or stop selling with no further insider sales; a guidance cut or new secondary would argue for Reject"
+        "Late-stage base (base 7) breakout with no specific news found for 10 Nov beyond a UBS conference appearance; 13F holdings exceed shares outstanding (over-owned) and short interest up ~37% since July",
+        "Upgrade needs KKR to fully exit or stop selling with no further insider sales; a guidance cut or new secondary would argue for Reject"
       ],
       "next_event": "4Q26 earnings, ~25 Feb 2027 (aggregator date; not yet confirmed by company)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
+        {
+          "title": "SEC EDGAR filing index for BTSG (checked 10 Nov 2026: no new 8-K/424B7/13D/A since 5 Nov)",
+          "url": "https://data.sec.gov/submissions/CIK0001865782.json"
+        },
         {
           "title": "BTSG 3Q26 earnings release, 8-K Ex 99.1 (30 Oct 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/1865782/000186578226000011/btsg-ex99_1.htm"
@@ -15280,8 +15288,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526078998/btsg-ex99_1.htm"
         },
         {
-          "title": "424B7 prospectus, June 2026 KKR secondary (SEC)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1865782/000186578226000010/btsg-20260605.htm"
+          "title": "Form 3: J. Hopper, new EVP Chief Legal Officer (event 26 Oct, filed 5 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1865782/000090883426000505/xslF345X06/form3.xml"
+        },
+        {
+          "title": "Form 4: CEO J. Rousseau tax withholding on RSU vest, 25 Oct 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1865782/000090883426000501/xslF345X06/form4.xml"
         },
         {
           "title": "Form 4: KKR sale 14.67M sh, 5 Jun 2026 (SEC)",
@@ -15292,7 +15304,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1865782/000114036126007946/form4.xml"
         },
         {
-          "title": "Schedule 13D/A: KKR 13.6% (event 3 Jun 2026, SEC)",
+          "title": "Schedule 13D/A: KKR 26.83M sh, 13.6% (event 3 Jun 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/1865782/000114036126024308/primary_doc.xml"
         },
         {
@@ -15308,20 +15320,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1865782/000031506626002704/primary_doc.xml"
         },
         {
-          "title": "Schedule 13G/A: Vanguard 4.57% (30 Sep 2026, SEC)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1865782/000210012126001029/primary_doc.xml"
+          "title": "UBS Global Healthcare Conference transcript, 10 Nov 2026 (Seeking Alpha, partial)",
+          "url": "https://seekingalpha.com/article/4965863-brightspring-health-services-inc-btsg-presents-at-2026-ubs-global-healthcare-conference"
         },
         {
-          "title": "Q3 2026 vs consensus (StockStory, aggregator)",
-          "url": "https://stockstory.org/us/stocks/nasdaq/btsg/news/earnings/brightspring-health-services-nasdaqbtsg-reports-upbeat-q3-2026-stock-soars"
-        },
-        {
-          "title": "Q3 2026 call deep dive (StockStory, aggregator)",
-          "url": "https://stockstory.org/us/stocks/nasdaq/btsg/news/earnings-call/btsg-q3-deep-dive-broad-based-growth-and-operational-execution-drive-outperformance"
-        },
-        {
-          "title": "Analyst PT changes and consensus, 3 Nov 2026 (MarketBeat, aggregator)",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-brightspring-health-services-nasdaq-btsg-price-target-raised-to-8400-2026-11-03/"
+          "title": "Q3 2026 earnings call highlights, 2027 outlook and IRA (Zacks via Yahoo, 2 Nov 2026, aggregator)",
+          "url": "https://finance.yahoo.com/healthcare/articles/btsg-q3-earnings-call-highlights-140000968.html"
         },
         {
           "title": "Earnings date and Q4 consensus (FXEmpire, aggregator)",
@@ -15332,16 +15336,16 @@
           "url": "https://equibles.com/stocks/btsg/shortinterest"
         },
         {
-          "title": "13F holders summary (SentiSense, aggregator)",
-          "url": "https://app.sentisense.ai/stocks/BTSG/holders"
+          "title": "13F holdings summary (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/btsg/holdings"
         },
         {
-          "title": "CMS CY2027 home health final rule +2.4% (Home Health Care News, 4 Nov 2026)",
-          "url": "https://homehealthcarenews.com/2026/11/cms-finalizes-2027-home-health-medicare-payment-rule-with-2-4-rate-increase/"
+          "title": "13F holders summary (SentiSense, aggregator)",
+          "url": "https://app.sentisense.ai/stocks/BTSG/holders"
         }
       ],
-      "status_at_review": "Buy-ready",
-      "price_at_review": "US$69.15"
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$72.49"
     },
     "US:FA": {
       "market": "US",
@@ -15942,6 +15946,358 @@
           "url": "https://www.livewiremarkets.com/wires/rba-payments-review-what-it-means-for-cuscal-banks-fintechs"
         }
       ]
+    },
+    "US:VIRT": {
+      "market": "US",
+      "code": "VIRT",
+      "name": "Virtu Financial, Inc.",
+      "date": "2026-11-10",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Global electronic market maker (NYSE: VIRT, ~US$9.0B market cap) riding high volatility and a capital base grown from $2.0B to $3.4B; 3Q26 (Jul-Sep) normalized adjusted EPS rose 69% to $1.77 and beat consensus, and 9M26 EPS already exceeds full-year 2025. But growth is lumpy (2Q26 only +19%), daily trading income has fallen for two quarters from the 1Q26 peak, consensus implies a 4Q26 EPS decline, and insiders sold in clusters in Feb and Aug 2026 (incl. a CEO prepaid forward), which caps it at Watch only.",
+      "catalyst": "MODERATE: trading capital expanded from $2.0B to $3.4B in a year (2Q26 call, 30 Jul 2026), funded by retained earnings and a $500M term loan (23 Jul 2026), deployed into crypto, options, ETF blocks and international markets.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Norm adj EPS 4Q25-3Q26 $1.85/$2.24/$1.82/$1.77: +62%/+72%/+19%/+69% YoY; GAAP 3Q26 $1.65 vs $0.86. 9M26 $5.83 > FY25 $5.73 (record yr)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "Rev 3Q26 $1,153.9M +39.9%, 2Q +19.0%, 1Q +30.7%; ANTI 3Q $704.0M +50.7%, all organic. But daily ANTI $12.9M/$11.6M/$11.0M Q1-Q3, falling",
+          "result": "PASS"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "3Q26 adj EBITDA margin 62.2% vs 57.3%, GAAP net 24.5% vs 18.1%; but 2Q26 60.8% vs 65.1%. Sequential EPS/ANTI declines: no Code 33",
+          "result": "PASS"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Small GAAP/adj gap (3Q $1.65 vs $1.77; SBC $33.8M); 9M OCF $461.1M vs $9.0M; no buyback lift. Concern: volatility-driven P&L, $500M debt",
+          "result": "PASS"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "3Q26 adj EPS $1.77 vs $1.48 cons (aggregator), shares ~+9% since. No guidance. FY26 cons $7.23 (agg.) implies 4Q ~$1.40 vs $1.85",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: trading capital $2.0B to $3.4B (2Q26 call), $500M term loan Jul 26, growth in crypto, options, ETF blocks, intl; record TTM",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Leading global electronic market maker; volatility/retail-volume cyclical, mid-late cycle. RS 85; 16% below $68.76 Aug high; IBKR Oct DARTs -4% YoY",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Clustered selling: COO 200k, EVP 100k (Feb 26); 3 directors + CEO 200k-sh VPF 17-20 Aug 26; no buys. TJMT Class D unchanged; no offerings; inst 45.8%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "30 Sep 26: cash $1,516.6M, LT debt $2,551.8M (+$500M TLB Jul 26), ST borr $184.1M; mgmt leverage 1.4x; 9M26 OCF $461.1M; ROE ~52% (agg.)",
+          "result": "PASS"
+        },
+        {
+          "check": "Event risk",
+          "finding": "4Q26 results ~4 Feb 2027 (scanner; not confirmed). Texas reincorporation Dec 26 (14C). Short int 4.95M sh (30 Sep 26), flat 4.6-5.4M since Jun",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: 3Q26 filed 6 Nov 2026. No S-3, 424B, ATM or secondary filed in last 12 months; buyback authorization expired 24 Apr 2026",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Earnings depend on market volatility and retail volumes: daily ANTI fell from $12.9M (1Q26) to $11.0M (3Q26); IBKR Oct 2026 DARTs -4% YoY",
+        "FY26 consensus $7.23 (aggregator) vs 9M26 actual $5.83 implies 4Q26 ~$1.40, below 4Q25's $1.85 (a YoY decline)",
+        "Insider supply: Feb 2026 COO/EVP sales of 300k sh, Aug 2026 three directors sold plus CEO Simons 200k-share variable prepaid forward; no insider buying",
+        "Late-stage base (~base 6) breaking out 16% below the $68.76 Aug 2026 high; higher debt ($2.55B) and interest ($43.2M in 3Q26 vs $33.3M)",
+        "Upgrade needs no further insider selling and 4Q26 results (~4 Feb 2027, unconfirmed) showing EPS still growing YoY vs $1.85"
+      ],
+      "next_event": "4Q26 and FY26 results, ~4 Feb 2027 (scanner date; not yet announced; 4Q25 was reported 29 Jan 2026)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "VIRT 3Q26 earnings release, 8-K Ex 99.1 (5 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm"
+        },
+        {
+          "title": "VIRT 3Q26 Form 10-Q (filed 6 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000159238626000034/virt-20260930.htm"
+        },
+        {
+          "title": "VIRT 2Q26 earnings release, 8-K Ex 99.1 (30 Jul 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000159238626000023/exhibit991q226.htm"
+        },
+        {
+          "title": "VIRT 1Q26 earnings release, 8-K Ex 99.1 (29 Apr 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000159238626000012/exhibit991q126.htm"
+        },
+        {
+          "title": "VIRT 4Q25/FY25 earnings release (29 Jan 2026, company IR)",
+          "url": "https://ir.virtu.com/static-files/893898c3-9bf7-4852-b8ab-f540b95f3ecd"
+        },
+        {
+          "title": "VIRT 3Q23 earnings release, 8-K Ex 99.1 (share count 3 years ago, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000159238623000072/exhibit991q323.htm"
+        },
+        {
+          "title": "PRE 14C information statement: Texas reincorporation, TJMT consent (5 Nov 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000110465926123382/tm2629052-1_pre14c.htm"
+        },
+        {
+          "title": "8-K: $500M incremental Term B-2 loan, Amendment No. 4 (23 Jul 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000095014226002156/eh260810393_8k.htm"
+        },
+        {
+          "title": "Form 4: CEO Aaron Simons 200k-share variable prepaid forward (20 Aug 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000208045626000007/xslF345X06/wk-form4_1787264299.xml"
+        },
+        {
+          "title": "Form 4: Joseph Molluso sale of 200,000 sh (19 Feb 2026, SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000160247226000006/xslF345X05/wk-form4_1771626487.xml"
+        },
+        {
+          "title": "VIRT filings index incl. Form 4/144/13G (SEC EDGAR)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001592386&type=&dateb=&owner=include&count=100"
+        },
+        {
+          "title": "Schedule 13G/A: Vanguard Capital Mgmt 4.98% at 30 Sep 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000210011926001636/xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "title": "Schedule 13G/A: FMR 3.8% at 30 Sep 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1592386/000031506626002876/xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "title": "3Q26 vs consensus and daily ANTI trend (Earnings Whispers via Finviz, aggregator)",
+          "url": "https://finviz.com/news/417187/virtu-beats-handily-but-its-third-quarter-is-another-step-down-from-the-q1-peak"
+        },
+        {
+          "title": "3Q26 review, buyback expiry, debt (Finsee, aggregator)",
+          "url": "https://finsee.ai/earnings/virt/2026/q3/en/"
+        },
+        {
+          "title": "2Q26 call highlights: capital base, term loan (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/virtu-financial-q2-earnings-call-highlights-2026-08-01/"
+        },
+        {
+          "title": "1Q26 call highlights (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/virtu-financial-q1-earnings-call-highlights-2026-05-02/"
+        },
+        {
+          "title": "Insider trades and insider ownership 46.8% (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/VIRT/insider-trades/"
+        },
+        {
+          "title": "Institutional ownership 45.78% (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/VIRT/institutional-ownership/"
+        },
+        {
+          "title": "Form 144 proposed sales list (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/virt/proposed-sales"
+        },
+        {
+          "title": "Short interest history (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/virt/short-interest"
+        },
+        {
+          "title": "FY26 consensus EPS $7.23 (vcpscanner, aggregator)",
+          "url": "https://www.vcpscanner.com/valuation/virt/estimates"
+        },
+        {
+          "title": "Market cap, 52-week range, PT consensus (StockAnalysis, aggregator)",
+          "url": "https://www.stockanalysis.com/stocks/virt/"
+        },
+        {
+          "title": "Analyst PT changes Jun-Jul 2026, ROE (MarketBeat, aggregator)",
+          "url": "https://www.marketbeat.com/instant-alerts/virtu-financial-nysevirt-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-28/"
+        },
+        {
+          "title": "IBKR October 2026 brokerage metrics (Business Wire via Finviz)",
+          "url": "https://finviz.com/news/413393/interactive-brokers-group-reports-brokerage-metrics-and-other-financial-information-for-october-2026-includes-reg-nms-execution-statistics"
+        }
+      ],
+      "status_at_review": "Breaking out",
+      "price_at_review": "US$57.75"
+    },
+    "US:WLY": {
+      "market": "US",
+      "code": "WLY",
+      "name": "John Wiley & Sons",
+      "date": "2026-11-10",
+      "verdict": "Reject",
+      "confidence": "high",
+      "summary": "Wiley (Class A WLY; Class B WLYB) is a 219-year-old research and education publisher in a cost-cutting and AI-licensing turnaround; FY26 (May 25-Apr 26) adj EPS rose 15% to $4.19 on margin expansion, but revenue was flat. The latest quarter, Q1 FY27 (May-Jul 2026), had revenue -3% (about -6% organic ex Emerald) and adj EPS -10% to $0.44 (GAAP loss of $0.23) as Learning fell 19% and AI licensing lapped a $29M prior-year quarter. Falling EPS and sales fail both core SEPA tests despite strong RS (89) and a VCP setup, so it is Reject on fundamentals.",
+      "catalyst": "MODERATE: Emerald Publishing acquisition (closed 1 Jun 2026, ~$452M, +$78M revenue and ~+$0.10 adj EPS in FY27) plus AI content licensing (FY27 target >$50M vs $49M in FY26; partners incl. Anthropic, OpenEvidence, DOE Genesis Mission), but AI revenue is roughly flat year on year.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Adj EPS Q2-Q4 FY26 $1.10/$0.97/$1.67: +13%/+15%/+22%; Q1 FY27 (May-Jul 26) $0.44 vs $0.49, -10%; GAAP -$0.23 vs $0.22. FY27 guide $4.60-5.05",
+          "result": "FAIL"
+        },
+        {
+          "check": "Sales",
+          "finding": "Q1 FY27 rev $386.4M vs $396.8M (-3%; ex $13M Emerald ~-6%); Learning -19%, Research +4%. FY26 $1,676.5M flat; 5 qtrs -2% to +1%",
+          "result": "FAIL"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Q1 FY27 adj op margin 8.0% vs 8.6%, adj EBITDA 17.6% vs 17.8%, GAAP op 0.8% vs 7.8%; FY26 adj EBITDA 26.2% vs 24.0%. No Code 33",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "Biggest concern: recurring 'one-offs' (restructuring $25.6M FY25, $19.2M FY26, $16.5M Q1 FY27); FY26 GAAP lifted by $58M tax item; buybacks cut shares 4.9% YoY",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "Q1 FY27 (3 Sep 26) adj EPS $0.44: beat $0.40 (EarningsWhispers) / miss $0.46 (Finviz), both agg.; FY27 guide only reaffirmed; FY27 cons $4.80",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Emerald buy (1 Jun 26, ~$452M, +$78M rev FY27); AI licensing >$50M FY27 vs $49M FY26, $14M contracted Q2-Q3; DOE Genesis Mission",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Legacy STM/education publisher in restructuring turnaround, not a growth leader; RS 89, 52-wk high $57.45 (agg.); publishing peer strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "Mkt cap ~$2.58B; 50.68M sh (31 Aug 26), -10% vs FY23; no raises. Wiley family 93% of Class B (63% votes). No open-mkt insider buys/sales; inst 74-83% (agg.)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "31 Jul 26: cash $106.4M, debt ~$1,291M, net $1,185M (2.7x vs 1.9x) after Emerald; facilities mature Nov 2027; FY26 OCF $260.5M; TTM GAAP ROE ~25% (calc)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "Q2 FY27 results ~3 Dec 2026 (estimated, not yet announced). Short int 4.48M sh (30 Sep 26) vs 3.12M (15 Jan 26), ~10.7% of Class A, 9.3 days to cover (agg.)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Last 10-Q: Q1 FY27, filed 4 Sep 2026. No S-3 shelf, 424B, ATM or secondary on EDGAR since 2023; $192.4M buyback authority left (31 Jul 26)",
+          "result": "PASS"
+        }
+      ],
+      "risks": [
+        "Q2 FY27 (Aug-Oct 2026) results ~3 Dec 2026 (date estimated, not yet announced): Q2 FY26 included ~$6M AI revenue and management says AI deals are lumpy; another YoY revenue/EPS decline would break the VCP",
+        "Learning revenue fell 19% in Q1 FY27 (Academic and Professional both -19%; print, consumer retail and corporate assessments weak), and its adj EBITDA fell 55% to $14.0M",
+        "Leverage rose to 2.7x net debt/EBITDA (net debt $1,185M at 31 Jul 2026) after the debt-funded Emerald deal; revolver and term loan both mature Nov 2027, so refinancing is due within ~12 months",
+        "Short interest climbed from 3.12M shares (15 Jan 2026) to 4.48M (30 Sep 2026), ~10.7% of Class A with 9.3 days to cover (Equibles, aggregator); a miss could be amplified",
+        "What would change the verdict: a return to +20%+ revenue and adj EPS growth YoY (e.g., Q2/Q3 FY27 with Emerald, AI and cost savings) and an upward FY27 guidance revision; a dual-class structure keeps Wiley family control (63% of votes)"
+      ],
+      "next_event": "Q2 FY27 (Aug-Oct 2026) results, ~3 Dec 2026 (estimated; not yet announced; Q2 FY26 was reported 4 Dec 2025)",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "Q1 FY27 earnings release (Business Wire, 3 Sep 2026)",
+          "url": "https://www.businesswire.com/news/home/20260903256667/en/Wiley-Reports-First-Quarter-2027-Results-Q1-in-Line-With-Expectations-and-Full-Year-Outlook-Reaffirmed"
+        },
+        {
+          "title": "Q1 FY27 Form 10-Q, quarter to 31 Jul 2026 (SEC, filed 4 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000162828026060632/jwa-20260731.htm"
+        },
+        {
+          "title": "Q1 FY27 earnings call transcript (Wiley IR, 3 Sep 2026)",
+          "url": "https://s27.q4cdn.com/812717746/files/doc_financials/2027/q1/Q127-Earnings-Transcript.pdf"
+        },
+        {
+          "title": "Q4 FY26 and FY26 earnings release, 8-K Ex 99.1 (SEC, 16 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000107140/000162828026043447/ex991fy26q4.htm"
+        },
+        {
+          "title": "Q3 FY26 earnings release, 8-K Ex 99.1 (SEC, 5 Mar 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000010714026000009/ex991.htm"
+        },
+        {
+          "title": "Q2 FY26 earnings release, 8-K Ex 99.1 (SEC, 4 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000010714025000194/ex991.htm"
+        },
+        {
+          "title": "Q1 FY26 earnings release (Business Wire, 4 Sep 2025)",
+          "url": "https://www.businesswire.com/news/home/20250904941401/en"
+        },
+        {
+          "title": "8-K: Emerald Publishing acquisition (SEC, 2 Jun 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000010714026000034/jwa-20260601.htm"
+        },
+        {
+          "title": "8-K: FY26 buyback allocation raised to $100M (SEC, 10 Dec 2025)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000010714025000200/jwa-20251210.htm"
+        },
+        {
+          "title": "8-K: 2026 annual meeting results and share counts (SEC, 29 Sep 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000162828026063848/jwa-20260924.htm"
+        },
+        {
+          "title": "2026 proxy statement DEF 14A: Class A/B structure and Wiley family holdings (SEC, 13 Aug 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000010714026000041/jwa-20260813.htm"
+        },
+        {
+          "title": "Form 4: Deborah E. Wiley sale of 75,000 sh to issuer, 9 Jan 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000110465926003449/tm263120-1_4seq1.xml"
+        },
+        {
+          "title": "Form 4: Bradford Wiley gift of 65,000 sh (SEC, 6 Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000110465926113978/tm2626838-1_4seq1.xml"
+        },
+        {
+          "title": "Form 4: Deborah E. Wiley gift of 25,000 sh (SEC, 13 Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000110465926115604/tm2627515-1_4seq1.xml"
+        },
+        {
+          "title": "Schedule 13G: LSV Asset Management 5.8% of Class A at 30 Sep 2026 (SEC, 10 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000105047026000020/primary_doc.xml"
+        },
+        {
+          "title": "Schedule 13G/A: Clarkston Capital 2.21% at 31 Mar 2026, down from 5.98% (SEC, 14 May 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/107140/000090572926000101/primary_doc.xml"
+        },
+        {
+          "title": "Wiley filings index incl. Form 4/144 (SEC EDGAR submissions API)",
+          "url": "https://data.sec.gov/submissions/CIK0000107140.json"
+        },
+        {
+          "title": "Q1 FY27 vs consensus, shares fall (Finviz, aggregator, 3 Sep 2026)",
+          "url": "https://finviz.com/news/388752/wiley-shares-fall-after-q1-revenue-and-earnings-miss-estimates"
+        },
+        {
+          "title": "WLY EPS details and FY27 consensus (Earnings Whispers, aggregator)",
+          "url": "https://www.earningswhispers.com/epsdetails/WLY"
+        },
+        {
+          "title": "Short interest history (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/wly/short-interest"
+        },
+        {
+          "title": "Institutional ownership 83.3% (Equibles, aggregator)",
+          "url": "https://equibles.com/stocks/WLY"
+        },
+        {
+          "title": "Q4 FY26 beat, institutional ownership 73.94% (MarketBeat, aggregator, 17 Jun 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/john-wiley-sons-nysewly-hits-new-12-month-high-on-earnings-beat-2026-06-17/"
+        },
+        {
+          "title": "Price, 52-week range, next earnings estimate (StockAnalysis, aggregator)",
+          "url": "https://stockanalysis.com/stocks/wly"
+        }
+      ],
+      "status_at_review": "Buy-ready",
+      "price_at_review": "US$50.95"
     }
   }
 }
