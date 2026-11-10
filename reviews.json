@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T04:27:25Z",
+  "updated": "2026-11-10T19:25:55Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -873,147 +873,119 @@
       "market": "ASX",
       "code": "EVT",
       "name": "EVT Limited",
-      "date": "2026-11-02",
+      "date": "2026-11-10",
       "status_at_review": "Buy-ready",
-      "price_at_review": "A$15.18",
+      "price_at_review": "A$15.69",
       "verdict": "Watch only",
       "confidence": "medium",
-      "summary": "EVT runs Event Cinemas, Rydges/QT/LyLo hotels and Thredbo on a property base valued at A$2.24bn (30 Jun 2026). Normalised NPAT is growing fast (1H FY26 +28.5%, FY26 +41.3%) and Q1 FY27 EBITDA rose 17%; an A$800m non-core property sale program and a Rothschild structure review add a catalyst. Revenue growth is only 6.3% (FY26), far short of the 20% sales test, so it stays Watch only.",
-      "catalyst": "A$800m non-core property divestment program and Rothschild group structure review, due within FY27 (24 Aug 2026); Arawa Park sold NZ$18m, 38.5% above book (AGM, 23 Oct 2026).",
+      "summary": "EVT runs Event Cinemas, Rydges/QT/LyLo hotels and Thredbo on a large property base. Normalised NPAT grew strongly (1H FY26 +28.5%, FY26 A$54.3m +41.3%) and Q1 FY27 EBITDA rose 17%, with an A$800m property sale program and structure review as catalysts. Revenue growth of 6.3% (FY26) is far below the 20% sales test, and the direction of Perpetual's 9 Nov 2026 holding change could not be verified, so it stays Watch only.",
+      "catalyst": "A$800m non-core property divestment program and Rothschild group structure review due within FY27 (FY26 result, 24 Aug 2026); Arawa Park sold NZ$18m, 38.5% above book (AGM, 23 Oct 2026).",
       "scorecard": [
         {
           "check": "Earnings",
-          "finding": "Norm NPAT 1H FY25 +8.3%, 2H FY25 ~+38% (calc), 1H FY26 A$40.5m +28.5%, 2H FY26 A$13.8m ~+100% (calc); FY26 EPS 31.2c vs 20.6c",
+          "finding": "Norm NPAT 1H FY26 A$40.5m +28.5%, FY26 A$54.3m +41.3% (2H ~+100%, calc); FY26 basic EPS 31.2c vs 20.6c (+51%). Record not verified",
           "result": "PASS"
         },
         {
           "check": "Sales",
-          "finding": "FY26 norm revenue A$1,314.9m +6.3% (FY25 +1.3%); 1H FY26 A$683.8m +5.4%. Organic, improving, but far below 20%",
+          "finding": "FY26 norm revenue A$1,314.9m +6.3% vs A$1,236.9m (FY25 +1.3%); 1H FY26 A$683.8m +5.4%. Organic, improving, far below 20%",
           "result": "CAUTION"
         },
         {
           "check": "Margins and Code 33",
-          "finding": "FY26 norm EBITDA margin 13.3% vs 13.0%, norm NPAT margin 4.1% vs 3.1% (calc). Expanding; no Code 33 as sales growth is low",
+          "finding": "FY26 norm EBITDA A$174.4m, margin 13.3% vs 13.0%; norm NPAT margin 4.1% vs 3.1% (calc). Expanding; no Code 33 (sales growth low)",
           "result": "PASS"
         },
         {
           "check": "Earnings quality",
-          "finding": "Stat NPAT A$50.7m vs norm A$54.3m; sig items -A$8.8m (FY25 -A$5.9m) recur. OCF after leases A$151.1m (FY25 A$120.4m); dividends A$66.6m > NPAT",
+          "finding": "FY26 stat NPAT A$50.7m vs norm A$54.3m; sig items -A$8.8m (FY25 -A$5.9m) recur. FY26 dividends A$66.6m > stat NPAT",
           "result": "CAUTION"
         },
         {
           "check": "Surprises, guidance and revisions",
-          "finding": "FY26 beat-driven rally (24 Aug 26); AGM 23 Oct 26: Q1 FY27 EBITDA A$72.5m +17%, FY27 growth reaffirmed; Thredbo A$16-20m; revisions not found",
+          "finding": "FY26 result rally (24 Aug 26); AGM 23 Oct 26: Q1 FY27 EBITDA A$72.5m +17%, FY27 growth reaffirmed. Avg target A$16.00, 6 analysts (agg, 15 Oct)",
           "result": "CAUTION"
         },
         {
           "check": "Catalyst",
-          "finding": "MODERATE: A$800m divestments + Rothschild structure review (24 Aug 26); Arawa Park NZ$18m 38.5% above book, LyLo Fremantle A$8m (23 Oct 26)",
+          "finding": "MODERATE: A$800m divestments + Rothschild structure review (24 Aug 26); Arawa Park NZ$18m 38.5% above book (23 Oct 26). No update since",
           "result": "PASS"
         },
         {
           "check": "Category and group",
-          "finding": "Cyclical leisure/hotel turnaround with property backing; Q1 FY27 Entertainment EBITDA +171%. Removed from ASX 200 (21 Sep 26). Peer strength not found",
+          "finding": "Cyclical leisure/hotel turnaround with property backing; Q1 FY27 Entertainment EBITDA +171%. Removed from ASX 200 (Sep 26). Peers not found",
           "result": "CAUTION"
         },
         {
           "check": "Supply and ownership",
-          "finding": "162.9m shares (ASIC 27 Oct 26), ~flat; Rydge-linked ~45%, Perpetual 15.8% (agg); inst 44.8%. Insiders: Grant buy 1k (Mar 26); no sales in 12m",
-          "result": "PASS"
+          "finding": "~162.9m shares, flat; Rydge-linked ~35% (2023 notice); inst ~45% (agg). Perpetual 13.72% (Dec 25); 9 Nov 26 change: direction/size not found",
+          "result": "CAUTION"
         },
         {
           "check": "Balance sheet",
-          "finding": "30 Jun 26: cash A$64.9m, bank debt A$541.1m, net debt A$476.1m (FY25 ~A$311.9m calc), A$750m facility to Mar 2029; ROE ~5.5% (calc). No raise likely",
+          "finding": "30 Jun 26: cash A$64.9m, net debt A$476.1m (FY25 ~A$311.9m), A$750m facility to 2029; equity A$920.5m, ROE ~5.4% (calc). No raise likely",
           "result": "PASS"
         },
         {
           "check": "Event risk",
-          "finding": "Next: 1H FY27 result ~late Feb 2027 (TBA). Structure review outcome in FY27. Short interest 3.62% (29 Jul) to 1.65% (27 Oct 26), falling",
+          "finding": "Next: 1H FY27 result ~late Feb 2027 (TBA). Structure review outcome any time in FY27. Short interest 3.62% (29 Jul) to 1.65% (27 Oct 26)",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "No placement, SPP, entitlement offer or trading halt found in last 12 months; no ASX announcements since 23 Oct 2026; DRP suspended",
+          "finding": "No placement, SPP, entitlement offer or trading halt in last 12 months; only new ASX item since 23 Oct is PPT holding change (9 Nov 26)",
           "result": "PASS"
         }
       ],
       "risks": [
-        "Revenue growth is only ~6%, so profit growth relies on margin recovery and the cinema film slate (2H FY27 slate not yet formed).",
-        "Thredbo FY27 EBITDA guided A$16-20m after Q1 EBITDA fell A$9.0m on the worst snow in 40+ years; Hotels Q1 EBITDA -A$0.4m.",
-        "Net debt rose to A$476.1m and FY26 dividends (A$66.6m) exceeded statutory NPAT; asset sales need to deliver to deleverage.",
-        "Structure review or 525 George St sale could disappoint; first strike on remuneration report at 23 Oct 2026 AGM; ASX 200 exit cut index demand.",
-        "Next event: 1H FY27 results, expected late Feb 2027 (date not yet announced; 1H FY26 was 23 Feb 2026)."
+        "Revenue growth only ~6% (FY26), so profit growth relies on margin recovery and the cinema film slate.",
+        "Perpetual (13.7% at Dec 2025) lodged a change in substantial holding on 9 Nov 2026; if it is a sell-down, a large holder is supplying stock into the breakout.",
+        "Net debt rose to A$476.1m (30 Jun 2026) and FY26 dividends exceeded statutory NPAT; asset sales need to deliver.",
+        "Thredbo FY27 EBITDA guided A$16-20m after the worst snow season in 40+ years; structure review or property sales could disappoint.",
+        "Next event: 1H FY27 results, expected late Feb 2027 (date not announced; 1H FY26 was 23 Feb 2026)."
       ],
       "next_event": "1H FY27 half-year results, expected late Feb 2027 (date not announced; 1H FY26 released 23 Feb 2026). Structure review outcome possible any time in FY27",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
         {
-          "title": "ASX announcements list for EVT (ASX API, checked 2 Nov 2026: latest 23 Oct 2026)",
-          "url": "https://asx.api.markitdigital.com/asx-research/1.0/companies/evt/announcements"
-        },
-        {
-          "title": "AGM addresses - Strong Q1, Hotels growth strategy advances (ASX, 23 Oct 2026)",
-          "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152108-2A1705747?access_token=83ff96335c2d45a094df02a206a39ff4"
-        },
-        {
-          "title": "Results of AGM, first strike (ASX, 23 Oct 2026)",
-          "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152331-2A1705838?access_token=83ff96335c2d45a094df02a206a39ff4"
-        },
-        {
           "title": "FY26 Appendix 4E and financial report (ASX, 24 Aug 2026)",
           "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733cn6jf8p381.pdf"
         },
         {
-          "title": "FY26 results presentation (ASX, 24 Aug 2026)",
+          "title": "Perpetual ASX announcements list: 'Change in substantial holding for EVT' 9 Nov 2026 (content not retrieved)",
+          "url": "https://www.perpetual.com.au/shareholders/asx-announcements/"
+        },
+        {
+          "title": "EVT announcements list, Oct-Nov 2026 (InvestSMART, aggregator)",
+          "url": "https://www.investsmart.com.au/security/asx/evt/evt-limited/announcements"
+        },
+        {
+          "title": "AGM addresses - Strong Q1, Hotels growth strategy advances (ASX, 23 Oct 2026; from prior review)",
+          "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152108-2A1705747?access_token=83ff96335c2d45a094df02a206a39ff4"
+        },
+        {
+          "title": "FY26 results presentation (ASX, 24 Aug 2026; from prior review)",
           "url": "https://announcements.asx.com.au/asxpdf/20260824/pdf/0733hv6r4vtrc5.pdf"
         },
         {
-          "title": "1H FY26 results announcement (ASX, 23 Feb 2026)",
+          "title": "1H FY26 results announcement (ASX, 23 Feb 2026; from prior review)",
           "url": "https://announcements.asx.com.au/asxpdf/20260223/pdf/06wltxqvdcx1xp.pdf"
         },
         {
-          "title": "1H FY25 results announcement (ASX, 24 Feb 2025)",
-          "url": "https://announcements.asx.com.au/asxpdf/20250224/pdf/06fv1dd7pg3b9j.pdf"
-        },
-        {
-          "title": "FY25 results announcement (ASX, 25 Aug 2025)",
-          "url": "https://announcements.asx.com.au/asxpdf/20250825/pdf/06n8l6mjyqcmqn.pdf"
-        },
-        {
-          "title": "Key FY26 dates (ASX, 3 Aug 2026)",
-          "url": "https://announcements.asx.com.au/asxpdf/20260803/pdf/072cjgtf0vwszz.pdf"
-        },
-        {
-          "title": "Notice of AGM (ASX, 21 Sep 2026)",
-          "url": "https://announcements.asx.com.au/asxpdf/20260921/pdf/0749ybs4s4x8hk.pdf"
-        },
-        {
-          "title": "Appendix 3Y J. Hastings rights vesting (3 Sep 2026, via Webull)",
-          "url": "https://bulletin.webull.com/qbd/announcement/20260903/499502611/4c1b1db1f118c9f72ecdc1c1840f7641.pdf"
-        },
-        {
-          "title": "ASIC short position report 27 Oct 2026",
-          "url": "https://download.asic.gov.au/short-selling/RR20261027-001-SSDailyAggShortPos.csv"
-        },
-        {
-          "title": "S&P/ASX 200 removal, Sep 2026 rebalance (InvestSMART, aggregator)",
-          "url": "https://www.investsmart.com.au/investment-tools/shares/asx-price-sensitive-announcements/asx-evt/2572313"
-        },
-        {
-          "title": "Director interest changes (InvestSMART, aggregator)",
-          "url": "https://www.investsmart.com.au/security/asx/evt/evt-limited/change-in-directors-interest"
-        },
-        {
-          "title": "Ownership and insider trades (Simply Wall St, aggregator, 25 Aug 2026)",
-          "url": "https://simplywall.st/stocks/au/media/asx-evt/evt-shares/ownership"
-        },
-        {
-          "title": "Perpetual substantial holding change Dec 2025 (FilingReader, aggregator)",
+          "title": "Perpetual holding in EVT 12.70% to 13.72%, 17 Dec 2025 (FilingReader, aggregator)",
           "url": "https://filingreader.com/news-wire/sydney/2025-12-19/perpetual-limited-adjusts-holdings-in-aspen-clover-and-evt"
         },
         {
-          "title": "Christmas film season article, price A$15.18 (Kalkine, aggregator, 2 Nov 2026)",
-          "url": "https://kalkinemedia.com/au/stocks/consumer/blockbuster-season-can-evt-asxevt-cash-in-on-christmas-movies"
+          "title": "ASIC short position report 27 Oct 2026 (from prior review)",
+          "url": "https://download.asic.gov.au/short-selling/RR20261027-001-SSDailyAggShortPos.csv"
+        },
+        {
+          "title": "EVT statistics: ownership, analyst targets (StockAnalysis, aggregator, 15 Oct 2026)",
+          "url": "https://stockanalysis.com/quote/asx/EVT/statistics/"
+        },
+        {
+          "title": "Substantial holders list (Market Index, aggregator)",
+          "url": "https://www.marketindex.com.au/asx/evt"
         }
       ]
     },
@@ -15834,6 +15806,142 @@
       ],
       "status_at_review": "Buy-ready",
       "price_at_review": "US$108.56"
+    },
+    "ASX:CCL": {
+      "market": "ASX",
+      "code": "CCL",
+      "name": "Cuscal Limited",
+      "date": "2026-11-10",
+      "status_at_review": "Buy-ready",
+      "price_at_review": "A$5.96",
+      "verdict": "Watch only",
+      "confidence": "medium",
+      "summary": "Cuscal is an AA- rated ADI that provides payments infrastructure for card issuing, NPP and data services. It bought Indue (closed 1 Dec 2025) and Paymark (closed 29 May 2026), and now guides to mid-20s% underlying NPAT growth for FY27, with directors buying on market. Growth is mostly acquired, though: organic operating income grew only about 6% in FY26 and 1H FY26 underlying EPS rose just 4%, so earnings and sales don't yet meet SEPA standards.",
+      "catalyst": "Indue and Paymark acquisitions: FY27 guidance is mid-20s% underlying NPAT growth, with A$15-20m post-tax synergies by FY29 (FY26 results, 20 Aug 2026). Rated MODERATE.",
+      "scorecard": [
+        {
+          "check": "Earnings",
+          "finding": "Underlying EPS FY26 23.9c (+20%); 1H FY26 12.6c (+4% vs 1H FY25). Derived 2H NPAT +30% (A$22.0m). Accelerating but not 2 halves at +25%",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Sales",
+          "finding": "FY26 underlying NOI A$347.7m (+20%), but Indue A$34.8m + Paymark A$5.2m means organic about +6%. 1H FY26 +10% (+6% ex Indue)",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Margins and Code 33",
+          "finding": "Underlying NPAT margin FY26 13.3% vs 13.2% FY25; EBITDA margin 23.5% vs 24.1%. Flat; Code 33 not met",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Earnings quality",
+          "finding": "FY26 statutory NPAT A$42.7m vs underlying A$46.2m. Integration costs A$25-30m over 3 yrs will recur. Cash flow is deposit-driven, so not meaningful",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Surprises, guidance and revisions",
+          "finding": "FY26 underlying NPAT +20% beat the mid-teens guidance and Ord Minnett's 16.8% (20 Aug 2026). FY27 guide mid-20s%. Estimate revisions not found",
+          "result": "PASS"
+        },
+        {
+          "check": "Catalyst",
+          "finding": "MODERATE: Indue/Paymark synergies of A$15-20m post-tax by FY29 (A$2.1m realised FY26); added to S&P/ASX 300 on 21 Sep 2026",
+          "result": "PASS"
+        },
+        {
+          "check": "Category and group",
+          "finding": "Niche leader in issuer and NPP processing for mutual banks and fintechs; up 55% over 52 wks (Sep 2026). Peer group strength not verified",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Supply and ownership",
+          "finding": "About 199.8m shares (+5.3% YoY), mkt cap ~A$1.2B, institutions 23% (aggregator). Directors bought on market Aug-Oct 2026; no sells",
+          "result": "PASS"
+        },
+        {
+          "check": "Balance sheet",
+          "finding": "No borrowings; capital adequacy 19.1% at 30 Jun 2026 (target 18-19%); underlying ROE 11.7% (FY25 10.5%). Profitable, but low capital headroom for more M&A",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Event risk",
+          "finding": "1H FY27 results date not announced (prior: 24 Feb 2026). AGM held 20 Oct 2026. No binary events found; short interest not found",
+          "result": "CAUTION"
+        },
+        {
+          "check": "Market extras",
+          "finding": "Trading halt 14 Apr 2026. A$30m placement at A$4.00 + SPP up to 0.75m shares (closed oversubscribed 13 May 2026) to fund Paymark",
+          "result": "CAUTION"
+        }
+      ],
+      "risks": [
+        "Organic growth is only about 6%; a miss on Indue/Paymark synergies or integration would undercut the FY27 mid-20s% NPAT guidance",
+        "Net interest income (FY26 A$39.4m, +27%) depends on client deposits and the RBA cash rate; rate cuts would hit earnings",
+        "Low capital headroom (19.1% vs 18-19% target) means any further acquisition would likely need another equity raise, as with the A$4.00 placement in Apr 2026",
+        "Trailing P/E about 28x (Sep 2026, aggregator) on a late-stage base; the stock is near the A$6.35 average broker target",
+        "RBA card reforms (interchange cuts from 1 Oct 2026, foreign-card cap 1 Apr 2027) may squeeze small issuer clients; impact indirect as Cuscal passes interchange through"
+      ],
+      "next_event": "1H FY27 results, late Feb 2027 (date not yet announced; 1H FY26 was 24 Feb 2026). AGM was held 20 Oct 2026",
+      "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+      "sources": [
+        {
+          "title": "FY26 Results Presentation (ASX, 20 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z52sqf8p81d.pdf"
+        },
+        {
+          "title": "FY26 Results Announcement (ASX, 20 Aug 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z4r5xjh1j1q.pdf"
+        },
+        {
+          "title": "1H FY26 Results Investor Presentation (Feb 2026)",
+          "url": "https://www.cuscal.com/wp-content/uploads/2026/02/Cuscal-FY26-Half-Year-Results-Investor-Presentation.pdf"
+        },
+        {
+          "title": "1H FY26 Results Announcement (ASX, 24 Feb 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260224/pdf/06wn6yjxcs23ht.pdf"
+        },
+        {
+          "title": "Proposed issue of securities: placement and SPP (ASX, 14 Apr 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260414/pdf/06ygg5378g67sh.pdf"
+        },
+        {
+          "title": "2026 Notice of AGM (ASX, 18 Sep 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260918/pdf/07476c06dlxbnc.pdf"
+        },
+        {
+          "title": "2026 AGM Presentation and voting results (ASX, 20 Oct 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20261020/pdf/075jy9t9wnvlxc.pdf"
+        },
+        {
+          "title": "S&P DJI September 2026 quarterly rebalance (ASX, 4 Sep 2026)",
+          "url": "https://announcements.asx.com.au/asxpdf/20260904/pdf/073rbz4q8nrckg.pdf"
+        },
+        {
+          "title": "Cuscal investor centre: key dates",
+          "url": "https://www.cuscal.com/investors/"
+        },
+        {
+          "title": "InvestSMART: CCL announcements list (aggregator)",
+          "url": "https://www.investsmart.com.au/security/asx/ccl/cuscal-limited/announcements"
+        },
+        {
+          "title": "InvestSMART: CCL director interest changes (aggregator)",
+          "url": "https://www.investsmart.com.au/security/asx/ccl/cuscal-limited/change-in-directors-interest?page=1"
+        },
+        {
+          "title": "StockAnalysis: CCL statistics (aggregator, Sep 2026)",
+          "url": "https://stockanalysis.com/quote/asx/CCL/statistics/"
+        },
+        {
+          "title": "Motley Fool: Cuscal FY26 earnings (20 Aug 2026)",
+          "url": "https://www.fool.com.au/2026/08/20/cuscal-fy26-earnings-profit-jumps-49-on-indue-paymark-deals/"
+        },
+        {
+          "title": "Livewire: RBA payments review and what it means for Cuscal",
+          "url": "https://www.livewiremarkets.com/wires/rba-payments-review-what-it-means-for-cuscal-banks-fintechs"
+        }
+      ]
     }
   }
 }
