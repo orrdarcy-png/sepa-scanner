@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:32:12Z",
+  "updated": "2026-11-10T04:27:25Z",
   "reviews": {
     "ASX:BVS": {
       "market": "ASX",
@@ -15375,10 +15375,10 @@
       "market": "US",
       "code": "FA",
       "name": "First Advantage Corporation",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "verdict": "Watch only",
       "confidence": "medium",
-      "summary": "Largest US background-screening provider after the Oct 2024 Sterling deal; 3Q26 (Jul-Sep) was a clean beat and raise, with organic revenue +13.8% and adjusted EPS +27%. But growth is decelerating (adj. EPS +67%/+53%/+30%/+27% over four quarters; guidance implies 4Q26 revenue ~+3%), organic sales are below the 20% bar, and Silver Lake sold 12.5M shares in Aug 2026 while still holding 42.8%, which with clustered insider 10b5-1 sales caps it at Watch only.",
+      "summary": "Largest US background-screening provider after the Oct 2024 Sterling deal; 3Q26 (Jul-Sep) was a clean beat and raise (organic revenue +13.8%, adjusted EPS +27%), but EPS growth is decelerating and organic sales are below the 20% bar. Re-reviewed on 10 Nov because Silver Lake launched a second secondary on 9 Nov 2026: 15.0M shares underwritten plus up to 5.3M distributed to its LPs (not locked up), on top of the Aug 2026 sale. Heavy sponsor supply keeps it Watch only.",
       "catalyst": "MODERATE: Sterling synergies at/above target, large enterprise contract wins and Digital Identity/AI products lifted 3Q26 organic growth to +13.8% and FY26 guide raised twice (Aug and 5 Nov 2026).",
       "scorecard": [
         {
@@ -15418,7 +15418,7 @@
         },
         {
           "check": "Supply and ownership",
-          "finding": "Silver Lake sold 12.5M sh @$22.20 + 4.0M LP payout (12 Aug 26), still 42.8%; 3 insider 10b5-1 sales May-Jun 26; inst. 94.9% (agg.)",
+          "finding": "Silver Lake: 12.5M sh sold Aug 26; new 15.0M sh secondary + up to 5.3M LP payout launched 9 Nov 26 (FWP). 3 insider 10b5-1 sales May-Jun 26; inst 94.9% (agg.)",
           "result": "FAIL"
         },
         {
@@ -15428,17 +15428,17 @@
         },
         {
           "check": "Event risk",
-          "finding": "Next: 4Q26 results, date not announced (4Q25 was 26 Feb 2026). Short int. 9.02M sh (15 Oct 26), down from 16.0M (30 Jun 26)",
+          "finding": "Pricing of 9 Nov 26 secondary pending (fixed-price, likely at a discount); 4Q26 results ~late Feb 2027 (TBA). Short int 9.02M sh (15 Oct 26), down from 16.0M",
           "result": "CAUTION"
         },
         {
           "check": "Market extras",
-          "finding": "Last 10-Q: 3Q26, filed 5 Nov 2026. S-3ASR automatic shelf 10 Aug 2026 used for Silver Lake secondary (424B7); no ATM or primary raise",
+          "finding": "Last 10-Q: 3Q26, filed 5 Nov 2026. S-3ASR shelf used for Aug 26 and 9 Nov 26 Silver Lake secondaries (no FA proceeds); no ATM or primary raise",
           "result": "CAUTION"
         }
       ],
       "risks": [
-        "Silver Lake still holds 73.5M shares (42.8%) with its 30-day lock-up expired 9 Sep 2026; the live S-3ASR shelf makes another secondary easy",
+        "Silver Lake launched a 15.0M-share secondary on 9 Nov 2026 plus up to 5.3M shares to LPs that are not locked up; after it, 30-day lock-up only, and officers/directors are not locked up",
         "Growth deceleration: guidance implies 4Q26 revenue ~+3% and adj EPS ~+8%; consensus next-12-month EPS growth only ~11% (aggregator)",
         "Part of 2026 base growth came from one-off customer re-screening projects and early holiday hiring; tougher comps from late-2025 contract launches",
         "High leverage (~3.6x net debt/TTM adj EBITDA) and hiring-cycle sensitivity; AI or a labour-market slowdown could cut screening volumes",
@@ -15447,6 +15447,10 @@
       "next_event": "4Q26 and FY26 results, ~late Feb 2027 (not yet announced; 4Q25 was reported 26 Feb 2026)",
       "hold_through_event": "ONLY WITH A PROFIT CUSHION",
       "sources": [
+        {
+          "title": "FWP: launch of Silver Lake secondary offering (SEC, 9 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1210677/000119312526453889/d124856dfwp.htm"
+        },
         {
           "title": "FA 3Q26 earnings release, 8-K Ex 99.1 (5 Nov 2026, SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/1210677/000119312526448337/fa-ex99_1.htm"
