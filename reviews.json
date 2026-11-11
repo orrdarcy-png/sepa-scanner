@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:22:44Z",
+ "updated": "2026-11-11T22:40:23Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -3159,131 +3159,135 @@
    "market": "US",
    "code": "APOG",
    "name": "Apogee Enterprises, Inc.",
-   "date": "2026-11-04",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$47.99",
+   "date": "2026-11-11",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$47.91",
    "verdict": "Reject",
    "confidence": "high",
-   "summary": "Apogee makes architectural glass, metals, services and coatings. It beat Q2 FY27 (Jun-Aug 2026; adj EPS $1.17 vs ~$0.64 consensus) and raised guidance, helped by the Kalwall and Groglass deals and Project Fortify savings. Nothing has changed since the 27 Oct Reject. The biggest problem is that raised FY27 guidance of $3.00-3.40 still implies 2H adj EPS of $1.26-1.66, against $1.94 a year earlier. Consensus has Q3 at $0.80 vs $1.02, a 22% fall. This is a cyclical, acquisition-led recovery, not a SEPA earnings leader.",
-   "catalyst": "Kalwall (closed 1 Jul 2026, ~$85M revenue) and Groglass (announced 2 Sep, reported closed Sep 2026, ~$30M revenue), plus Fortify savings, drove the 6 Oct 2026 FY27 guidance raise (MODERATE).",
+   "summary": "Apogee makes architectural glass, metals, services and coatings. It beat Q2 FY27 (Jun-Aug 2026; adj EPS $1.17 vs $0.98, +19%; GAAP $1.07, -3%) and raised FY27 guidance, helped by the Kalwall and Groglass deals and Fortify savings. Nothing material has changed since the 4 Nov Reject. The only new items are a dividend-reinvestment Form 4 and the 2 Nov 8-K extending interim CEO Nolan to Apr 2027 while the CEO search goes on. The biggest problem: the $3.00-3.40 FY27 guide implies 2H adj EPS of $1.26-1.66 vs $1.94 a year earlier, and consensus Q3 is $0.80 vs $1.02. This is not a SEPA earnings leader.",
+   "catalyst": "Kalwall (closed 1 Jul 2026) and Groglass (closed 18 Sep 2026, up to ~$71.8M), plus Fortify savings, drove the 6 Oct 2026 FY27 guidance raise to $3.00-3.40 (MODERATE).",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS Q3FY26 $1.02 -14%, Q4 $0.92 +3%, Q1FY27 $0.57 +2%, Q2FY27 (Jun-Aug26) $1.17 +19%. FY27 guide $3.00-3.40 < FY26 $3.47",
+     "finding": "Adj EPS Q3FY26 $1.02 -14%, Q4 $0.92 +3%, Q1FY27 $0.57 +2%, Q2FY27 (Jun-Aug26) $1.17 +19% (GAAP $1.07 -3%). FY27 guide $3.00-3.40 < FY26 $3.47",
      "result": "FAIL"
     },
     {
      "check": "Sales",
-     "finding": "Q2 FY27 $391.1M +9.2% (organic +4.6%, Kalwall +4.6pts); 6M +4.1% (organic +1.8%); Q1 -1.1%; FY26 organic -1.6%. Acquisition-led",
+     "finding": "Q2 FY27 $391.1M +9.2% (Kalwall $16.4M, ~4.6pts; volume lower); 6M $733.8M +4.1%; FY27 guide $1.46-1.50B. Acquisition-led",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q2 FY27 GM 24.6% vs 23.1%, op margin 8.6% vs 7.5%; 6M op 7.1% vs 4.8%. Still below FY25 GM 26.4%/op 8.7%. No Code 33",
+     "finding": "Q2 FY27 GM 24.6% vs 23.1%, op 8.6% vs 7.5%; 6M op 7.1% vs 4.8%. Below FY25 levels (GM 26.4%). No Code 33 (EPS not accelerating)",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "Recurring adj items (Fortify restructuring, acq/integration costs); Q2 GAAP $1.07 vs adj $1.17. 6M OCF $43.3M vs NI $33.9M OK; inventory up (10-Q)",
+     "finding": "Recurring adj items (Fortify, acquisition costs); Q2 GAAP $1.07 vs adj $1.17. 6M OCF $43.3M OK; inventory $116.8M vs $98.1M Feb (+19%, incl. Kalwall)",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2 FY27 (6 Oct) adj EPS $1.17 vs ~$0.64 est, rev $391.1M vs ~$351M; FY27 guide raised to $3.00-3.40. Zacks to Strong Buy 16 Oct",
+     "finding": "Q2 FY27 (6 Oct) adj $1.17 vs ~$0.64 est; FY27 guide raised to $3.00-3.40 from $2.70-3.25. FY27 consensus $2.88 still below guide low end (Benzinga)",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: Kalwall closed 1 Jul 2026; Groglass closed Sep 2026 (adviser Oaklins); Fortify savings. Mgmt: adds revenue but only modest FY27 EPS",
+     "finding": "MODERATE: Kalwall closed 1 Jul 2026; Groglass closed 18 Sep 2026 (8-K); Fortify 2 savings. Interim CEO; permanent CEO search ongoing (8-K 2 Nov)",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical turnaround in nonresidential construction; mgmt says glass demand soft, fewer jobs and project delays (Q2 call). Services backlog $833M +5% YoY",
+     "finding": "Cyclical turnaround in nonresidential construction; Q2 volume lower in Metals and Glass, 'mixed demand'. Services backlog $833M vs $792M at FY26 end",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "20.89M shs, ~$1.0B cap; shs ~-2% YoY; ~232 13F holders ~92% (Q2 2026, implied): over-owned. Only open-mkt sale: 1,200 shs 28 Oct",
+     "finding": "20.90M shs (Oct 2026), ~$1.0B cap; diluted shs -3.2% YoY; ~92% inst (13F, aggr.): over-owned. Sales: officer 1,200 shs 27 Oct; ex-director 144s 30k shs Oct",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "29 Aug 2026: cash $36.5M, LT debt $335.5M (vs $232.3M Feb), leverage 1.7x; FY26 OCF $122.5M; Groglass adds debt. ROE not verified. No raise",
+     "finding": "29 Aug 2026: cash $36.5M, LT debt $335.5M (vs $232.3M Feb), leverage 1.7x; equity $523M; 6M OCF $43.3M; buybacks $16.1M. ROE not verified. No raise",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q3 FY27 results ~6 Jan 2027 (not yet confirmed). Consensus Q3 $0.80 vs $1.02 a year ago. Short 0.87M shs, 4.3% of float, up from ~0.79M",
+     "finding": "Q3 FY27 results ~6 Jan 2027 (date not yet announced by company). Consensus Q3 $0.80 vs $1.02. Short 0.87M shs, 4.3% float (Fintel). CEO search",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: quarter ended 29 Aug 2026 (filed ~2 Oct 2026). Next earnings ~6 Jan 2027. No shelf, ATM or secondary offering found",
+     "finding": "Last 10-Q: quarter ended 29 Aug 2026, filed 6 Oct 2026. Next earnings ~6 Jan 2027. S-8 only (20 Aug 2026); no shelf, ATM or secondary found",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Guidance implies 2H FY27 adj EPS down 14-35% YoY; consensus Q3 $0.80 vs $1.02, Q4 $0.81 vs $0.92",
-    "Nonresidential construction cycle: glass demand soft, project delays, and organic growth is only low single digits",
-    "Debt up ~$100M+ after Kalwall and Groglass; integration and aluminium cost risk",
-    "Pre-mortem for a 30% fall: the Q2 beat proves one-off and Q3 misses; margins slip back as glass orders weaken; the ~92% institutional base sells on a cut",
+    "FY27 guide implies 2H adj EPS down 14-35% YoY; consensus Q3 $0.80 vs $1.02 a year earlier",
+    "Nonresidential construction cycle: volumes falling in Metals and Glass, growth is price and acquisitions",
+    "Leadership: interim CEO Nolan extended to 30 Apr 2027 while a permanent CEO is sought; a new CEO could reset guidance",
+    "Pre-mortem for a 30% fall: Q3 misses as the Q2 beat proves one-off; aluminium and glass costs squeeze margins; the ~92% institutional base sells on a guide cut",
     "Next event: Q3 FY27 results ~6 Jan 2027. Two quarters of +25% adj EPS with real organic growth would change the verdict"
    ],
-   "next_event": "Q3 FY27 results (Sep-Nov 2026), ~6 Jan 2027 (estimated, not yet confirmed)",
+   "next_event": "Q3 FY27 results (Aug 30-Nov 28, 2026), ~6 Jan 2027 (not yet confirmed by company)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "Apogee FY27 Q2 results release (6 Oct 2026, via Finviz/Business Wire)",
-     "url": "https://finviz.com/news/399029/apogee-enterprises-reports-fiscal-2027-second-quarter-results"
+     "title": "Q2 FY27 results release, 8-K Ex-99.1 (SEC, 6 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000100/a82926fy27q2results.htm"
     },
     {
-     "title": "Apogee FY26 Q4 and full-year results (IR site, 24 Apr 2026)",
-     "url": "https://www.apog.com/node/25216"
+     "title": "Form 10-Q, quarter ended 29 Aug 2026 (SEC filing index, filed 6 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000103/0000006845-26-000103-index.htm"
     },
     {
-     "title": "Apogee Q2 FY27 earnings call transcript (Earnings Whispers)",
+     "title": "8-K 2 Nov 2026: CEO Nolan term extension letter (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000105/apogeeenterprises-extens.htm"
+    },
+    {
+     "title": "Groglass acquisition completed, 8-K Ex-99.1 (SEC, 18 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000093/exhibit991-pressrelease.htm"
+    },
+    {
+     "title": "Form 4, Alvord dividend reinvestment (SEC, filed 6 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000169298326000012/wk-form4_1793975624.xml"
+    },
+    {
+     "title": "Form 4, Nolan RSU/DSU grant (SEC, filed 3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000133174826000014/wk-form4_1793738436.xml"
+    },
+    {
+     "title": "Form 4, Christian sale of 1,200 shs (SEC, filed 28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000208506726000010/wk-form4_1793207063.xml"
+    },
+    {
+     "title": "Form 144, Wagner (former director), 13 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000195917326007351/primary_doc.xml"
+    },
+    {
+     "title": "Schedule 13G/A, Vanguard Portfolio Management 4.09% (SEC, 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6845/000210012126001075/primary_doc.xml"
+    },
+    {
+     "title": "Q2 FY27 earnings call transcript (Earnings Whispers)",
      "url": "https://earningswhispers.com/transcript/APOG/Q22027"
-    },
-    {
-     "title": "Q1 FY27 results vs estimates (Earnings Whispers, aggregator)",
-     "url": "https://www.earningswhispers.com/epsdetails/APOG"
-    },
-    {
-     "title": "Q3 FY26 results summary (Rallies.ai, aggregator)",
-     "url": "https://rallies.ai/news/apogee-reports-q3-sales-of-3486m-eps-falls-to-077-and-cuts-fy26-outlook"
-    },
-    {
-     "title": "Q2 FY27 vs estimates (StockStory via Webull, aggregator)",
-     "url": "https://www.webull.com/news/15701133396476928"
-    },
-    {
-     "title": "Groglass acquisition closing (Oaklins deal page)",
-     "url": "https://www.oaklins.com/au/en/deals/112241/"
     },
     {
      "title": "Benzinga earnings forecasts (aggregator)",
      "url": "https://www.benzinga.com/quote/APOG/earnings-forecasts"
     },
     {
-     "title": "MarketBeat price targets (aggregator)",
-     "url": "https://www.marketbeat.com/stocks/NASDAQ/APOG/price-target/"
-    },
-    {
-     "title": "Blarkad insider transactions (Form 4 aggregator)",
-     "url": "https://blarkad.com/ticker/APOG/insiders"
+     "title": "Fintel short interest (aggregator)",
+     "url": "https://fintel.io/s/us/apog"
     },
     {
      "title": "InsiderSet institutional ownership, 13F Q2 2026 (aggregator)",
      "url": "https://www.insiderset.com/stocks/APOG/institutional-ownership"
     },
     {
-     "title": "Fintel short interest (aggregator)",
-     "url": "https://fintel.io/s/us/apog"
-    },
-    {
-     "title": "Previous review's SEC 10-Q, quarter ended 29 Aug 2026 (not re-fetched; SEC blocked)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000006845/000000684526000103/apog-20260829.htm"
+     "title": "Apogee FY26 Q4 and full-year results (IR site, 24 Apr 2026)",
+     "url": "https://www.apog.com/node/25216"
     }
    ]
   },
@@ -11867,78 +11871,78 @@
    "market": "US",
    "code": "FIVE",
    "name": "Five Below",
-   "date": "2026-11-04",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$252.01",
+   "date": "2026-11-11",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$250.74",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "Five Below's growth has re-accelerated: five straight double-digit comp quarters, adjusted EPS +158% in Q1 FY26 and +107% in Q2 FY26, sales +23-33%, and FY26 guidance raised twice. Fundamentals pass the SEPA bar, but three insiders sold within days of the Q2 report (4-9 Sep 2026; the two Form 4s checked were not 10b5-1), which counts as clustered selling and caps the verdict at Watch only. Guidance also implies growth slowing in 2H (Q3 comps +8-10% vs +14.1%).",
-   "catalyst": "CEO Winnie Park's turnaround: trend-led product and traffic gains drove comps +22.7% Q1 and +14.1% Q2 FY26, with FY26 guidance raised 3 Jun and 2 Sep 2026 (8-K releases) and ~150 new stores a year.",
+   "summary": "Five Below's turnaround under CEO Winnie Park is still in full swing: five straight double-digit comp quarters, adjusted EPS +158% (Q1 FY26) and +107% (Q2 FY26) on sales +32.5% and +22.9%, FY26 guidance raised twice, and since 4 Nov Truist has raised its Q3 comp estimate to +15% on card data and Bernstein lifted its target. The fundamentals clear the SEPA bar, but SEC Form 4s show five insiders (a director, COO, CHRO, CMOO and CAO) selling on the open market between 4 and 14 Sep 2026, none marked 10b5-1. That clustered selling caps the verdict at Watch only; there has been no new open-market selling since.",
+   "catalyst": "CEO Winnie Park's turnaround: trend-led product and traffic gains drove comps +22.7% in Q1 and +14.1% in Q2 FY26, with FY26 guidance raised on 3 Jun and 2 Sep 2026 (8-K releases) and ~150 new stores a year.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS Q3 FY25 $0.68 (+62%), Q4 $4.31 (+24%), Q1 FY26 $2.22 (+158%), Q2 FY26 (May-Jul) $1.68 vs $0.81 (+107%). FY26 guide adj $9.83-10.31",
+     "finding": "Adj EPS Q3 FY25 $0.68 (+62%), Q4 $4.31 (+24%), Q1 FY26 $2.22 (+158%), Q2 FY26 (May-Jul) $1.68 vs $0.81 (+107%). FY26 guide $9.83-10.31",
      "result": "PASS"
     },
     {
      "check": "Sales",
-     "finding": "Net sales +23.1% Q3 FY25, +24.3% Q4, +32.5% Q1 FY26, +22.9% Q2 FY26 ($1,261.5M); organic (comps +14.1%, stores +8.8%). Q3 guide ~+18%",
+     "finding": "Sales +23.1% Q3 FY25, +24.3% Q4, +32.5% Q1 FY26, +22.9% Q2 FY26 ($1,261.5M); organic (comps +14.1%, stores +8.8%). Q3 guide ~+18%",
      "result": "PASS"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Adj op margin Q2 FY26 9.0% vs 5.4%, Q1 12.0% vs 6.1%; adj GM 35.6% vs 33.4%. No Code 33: sales growth slowed 32.5%->22.9%",
+     "finding": "Q2 FY26 adj op margin 9.0% vs 5.4%, adj GM 35.6% vs 33.4%; Q1 adj op 12.0% vs 6.1%. No Code 33: sales growth slowed 32.5% to 22.9%",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "Biggest concern: Q2 GAAP EPS $3.99 incl. $163.6M IEEPA tariff refund ($2.33/sh), excluded from adj. 1H OCF $443M vs $226M; inventory +17.7% < sales",
+     "finding": "Biggest concern: Q2 GAAP EPS $3.99 incl $163.6M IEEPA tariff refund, excluded from adj. 1H OCF $442.7M vs $225.7M; inventory +17.7% < sales",
      "result": "PASS"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2 adj EPS $1.68 vs Zacks consensus $1.34 (+25%), sales $1.26B vs $1.19B; FY26 adj EPS guide raised 2 Sep to $9.83-10.31 from $8.65-9.05",
+     "finding": "Q2 adj EPS $1.68 vs ~$1.40 consensus; FY26 guide raised 2 Sep. 5 Nov: Truist Q3 comp est 10%->15%, FY26 EPS $10.20->$10.45",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "STRONG: Park-led turnaround, 5 straight double-digit comp qtrs, FY26 guide raised 3 Jun and 2 Sep 2026; ~150 net new stores/yr, Puerto Rico 2H27",
+     "finding": "STRONG: Park-led turnaround, 5 straight double-digit comp qtrs, FY26 guide raised 3 Jun and 2 Sep 2026; ~150 net new stores/yr",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Turnaround / leader in teen-tween value retail; RS 82. Discount-retail group strength (OLLI, DG, TJX) not verified",
+     "finding": "Turnaround / leader in teen-tween value retail; RS 81, 52-wk high $263.88. Discount-retail group strength (OLLI, DG, TJX) not verified",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "55.05M shs (2 Sep 2026), ~US$13.9B cap; inst ~106% (Chartmill, aggregator). 4-9 Sep 2026: Devine, Bull, Gellerman sold (2 checked: not 10b5-1)",
+     "finding": "55.24M shs, ~US$13.9B cap; inst ~106% (Chartmill). 4-14 Sep 2026: 5 insiders sold open market, none 10b5-1; none since",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "1 Aug 2026: cash+ST inv $1,188M, no debt, leases $2.04B; 1H FY26 OCF $443M; $600M buyback authorised 29 Aug 2026. ROE not found",
+     "finding": "1 Aug 2026: cash+ST inv $1,188M, no debt; ABL raised to $450M to 2031 (8-K 14 Oct); 1H OCF $443M; $600M buyback. ROE ~22% (aggregator)",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q3 FY26 results ~3 Dec 2026 (EW; scanner 2 Dec); guide comps +8-10%, EPS $1.01-1.13, consensus $1.12; securities class action certified; SI ~4.1%",
+     "finding": "Q3 FY26 results 2 or 3 Dec 2026 (unconfirmed); guide comps +8-10%, EPS $1.01-1.13 vs consensus ~$1.12-1.13; class actions; SI ~4.1%",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed ~Sep 2026; next earnings ~3 Dec 2026; no shelf, ATM or secondary found; $60M buyback in Q2",
+     "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed 3 Sep 2026; next earnings ~2-3 Dec 2026; no shelf, ATM or secondary found",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Clustered insider selling after the Q2 report (4-9 Sep 2026): director Devine, COO Bull and CHRO Gellerman sold on the open market (Devine and Gellerman Form 4s not 10b5-1). Director Sargent also sold 20,000 shares in Mar 2026",
-    "Growth is set to slow in 2H FY26: the Q3 comp guide is +8-10% vs +14.1% in Q2, and FY guidance implies Q4 adj EPS growth of roughly +13-24%",
-    "Pre-mortem: a holiday-quarter comp miss as trend items fade, fuel and labor costs eating margins, or derating from a premium multiple after tripling in 12 months",
-    "Legal overhang: securities class action certified 3 Aug 2026, consumer suits seeking IEEPA tariff refunds, derivative suits",
-    "Would upgrade to SEPA candidate if insider selling stops and Q3 (3 Dec) beats with comps above 10% and another guidance raise"
+    "Clustered insider selling 4-14 Sep 2026 after the Q2 report: director Devine, COO Bull (~10.5k shs), CHRO Gellerman, CMOO Hawkins and CAO Specter (5,500 shs) sold on the open market; no Form 4 marked 10b5-1",
+    "Growth is guided to slow in 2H FY26: Q3 comp guide +8-10% vs +14.1% in Q2; the bar has risen as Truist now models +15% comps",
+    "Pre-mortem: a holiday-quarter comp miss as trend items fade, margin pressure from tariffs and labor, or derating after the stock tripled off its 52-week low",
+    "Legal overhang: securities class action certified Aug 2026, consumer suits over IEEPA tariff refunds, a data-privacy suit (Oct 2026)",
+    "Would upgrade to SEPA candidate if Q3 (2-3 Dec) beats with comps above 10% and another guidance raise, with no further insider selling"
    ],
-   "next_event": "Q3 FY26 results (Aug-Oct 2026), ~3 Dec 2026 after the close (Earnings Whispers; scanner shows 2 Dec)",
+   "next_event": "Q3 FY26 results (Aug-Oct 2026), 2 or 3 Dec 2026 after the close (date not yet confirmed by the company)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
@@ -11946,8 +11950,40 @@
      "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000023/q22026fivebelowexhibit991.htm"
     },
     {
-     "title": "10-Q for quarter ended 1 Aug 2026",
+     "title": "10-Q for quarter ended 1 Aug 2026 (filed 3 Sep 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000027/five-20260801.htm"
+    },
+    {
+     "title": "8-K: ABL credit facility amendment (14 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000072/five-20261014.htm"
+    },
+    {
+     "title": "8-K: director Scott Settersten elected (21 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000050/five-20260921.htm"
+    },
+    {
+     "title": "Form 4: M. Devine sale (4 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000034/form4.xml"
+    },
+    {
+     "title": "Form 4: K. Bull sale (4 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000035/form4.xml"
+    },
+    {
+     "title": "Form 4: M. Gellerman sale (9 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000038/form4.xml"
+    },
+    {
+     "title": "Form 4: J. Hawkins sale (10 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000042/form4.xml"
+    },
+    {
+     "title": "Form 4: E. Specter sale (14 Sep 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000044/form4.xml"
+    },
+    {
+     "title": "Form 4: director retainer shares (2 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000079/form4.xml"
     },
     {
      "title": "Q1 FY2026 earnings release, 8-K Ex 99.1 (3 Jun 2026)",
@@ -11958,44 +11994,32 @@
      "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000006/q42025fivebelowexhibit991.htm"
     },
     {
-     "title": "Q3 FY2025 earnings release, 8-K Ex 99.1 (3 Dec 2025)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760925000048/q32025fivebelowexhibit991.htm"
+     "title": "Investing.com: Truist raises target to $302 and Q3 comp estimate (5 Nov 2026, aggregator)",
+     "url": "https://www.investing.com/news/analyst-ratings/truist-raises-five-below-stock-price-target-on-stronger-sales-growth-93CH-5002764"
     },
     {
-     "title": "Form 4: M. Devine sale (4 Sep 2026)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000034/form4.xml"
+     "title": "Rallies.ai: Bernstein target $272 to $279 (11 Nov 2026, aggregator)",
+     "url": "https://rallies.ai/news/five-below-target-price-raised-to-279-from-272-d7904505e3b678bc"
     },
     {
-     "title": "Form 4: M. Gellerman sale (9 Sep 2026)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000038/form4.xml"
+     "title": "DailyPolitical/MarketBeat: ratings, ROE, insider and institutional data (11 Nov 2026, aggregator)",
+     "url": "https://www.dailypolitical.com/2026/11/11/riverbridge-partners-llc-sells-24337-shares-of-five-below-inc-five.html"
     },
     {
-     "title": "Motley Fool: insiders trim positions after Q2 (13 Sep 2026)",
-     "url": "https://fool.com/investing/2026/09/13/insiders-trim-positions-in-five-below-stock-after"
+     "title": "TipRanks earnings date and consensus (aggregator)",
+     "url": "https://www.tipranks.com/stocks/five/earnings"
     },
     {
-     "title": "Nasdaq: Q2 earnings call highlights (2 Sep 2026)",
-     "url": "https://www.nasdaq.com/articles/five-below-q2-earnings-call-highlights"
-    },
-    {
-     "title": "Zacks: post-earnings estimate revisions (2 Oct 2026, aggregator)",
-     "url": "https://www.zacks.com/stock/news/2999572/five-below-five-down-7-8-since-last-earnings-report-can-it-rebound"
+     "title": "Earnings Whispers next date and consensus (aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/FIVE"
     },
     {
      "title": "Chartmill ownership and short interest (aggregator)",
      "url": "https://chartmill.com/stock/quote/FIVE/ownership"
     },
     {
-     "title": "secform4.com insider holdings list (aggregator)",
-     "url": "https://www.secform4.com/insider-holders/1177609.html"
-    },
-    {
-     "title": "Rallies.ai: director Sargent sale, Mar 2026 (aggregator)",
-     "url": "https://rallies.ai/news/five-below-slides-as-insider-sale-headlines-and-valuation-jitters-hit-momentum-trade"
-    },
-    {
-     "title": "Earnings Whispers next date and consensus (aggregator)",
-     "url": "https://www.earningswhispers.com/stocks/five"
+     "title": "Top Class Actions: data-privacy suit (3 Oct 2026)",
+     "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/five-below-accused-of-secretly-sharing-users-shopping-data-with-third-parties/"
     }
    ]
   },
@@ -16740,6 +16764,522 @@
     {
      "title": "Perseus on gold M&A, 7 Oct 2026 (Kitco/Reuters)",
      "url": "https://www.kitco.com/news/off-the-wire/2026-10-07/perseus-says-gold-ma-activity-high-deals-hard-close-over-price"
+    }
+   ]
+  },
+  "US:SWKS": {
+   "market": "US",
+   "code": "SWKS",
+   "name": "Skyworks Solutions",
+   "date": "2026-11-11",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$87.64",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Skyworks closed its cash-and-stock merger with Qorvo on 5 Oct 2026. The combined RF/analog company is now about 59% larger by share count, and the investment case is cost synergies (US$500M+ over 24-36 months), not organic growth. Standalone fundamentals fail SEPA: non-GAAP EPS fell in all four FY26 quarters, worsening to -27% in Q4. Revenue fell every quarter, margins are being squeezed, and cash flow and inventory quality deteriorated. The breakout is technical only, and the first combined-quarter EPS guide (US$1.25) is below the year-ago US$1.54.",
+   "catalyst": "Qorvo combination closed 5 Oct 2026 (8-K Ex.99.1), with US$500M+ cost synergies targeted and ~US$150M opex savings in FY27. MODERATE: cost-driven, not demand-driven.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Non-GAAP EPS YoY: Q1 FY26 -4%, Q2 -7%, Q3 -19%, Q4 (Jul-Sep 26) $1.28 vs $1.76 -27%; GAAP Q4 $0.15 vs $0.94. FY26 $5.05 vs $5.93",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q4 FY26 rev $1,045.7M -5.0% YoY; Q3 -3.1%, Q2 -1.0%, Q1 -3.1%; FY26 $3.96B -3.1%. Q1 FY27 guide $1.8-1.9B growth is acquired (Qorvo)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q4 FY26 non-GAAP GM 44.4% vs 46.5%, op margin 21.7% vs 24.0%; GAAP op margin 2.1% vs 10.1%. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY26 OCF $550M vs $1,301M; Q4 FCF -$61M; inventory $1,070M +42% YoY vs sales -5%; GAAP/non-GAAP EPS gap $0.15 vs $1.28 in Q4",
+     "result": "FAIL"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q4 (3 Nov 26) beat by $0.01; Q1 FY27 guide $1.25 vs $1.54 yr-ago. Stock -17% after hours; GS Sell $78, BofA PT $72",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Qorvo merger closed 5 Oct 2026; $500M+ cost synergies in 24-36 mo, $250-300M FY27 exit run-rate; Moody's upgrade to Baa3. MODERATE",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Cyclical RF laggard/consolidation play; Apple ~62% of revenue; Android shrinking; phones guided down low teens QoQ. Peer-group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Diluted shares 151.5M (Q4 FY26) to ~241M guided Q1 FY27 via deal stock. Inst. 99.6% (Nov 2025, aggregator). Insiders: no buys; 2 small sales on 19 Nov 2025",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "2 Oct 2026 (pre-close): cash $2,606M, debt $2,473M; cash went out at close ($32.50/QRVO share). Post-close net debt not found; FY26 GAAP NI $172M; Baa3/BBB+",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next results 2 Feb 2027 (scanner). Short interest 31.4% of float (14 Aug 2026), mostly arb-driven; post-close figure not found. Integration and Apple-award risk",
+     "result": "FAIL"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q: Q3 FY26 (qtr to 3 Jul 2026), filing date not found; FY26 10-K pending. ~$2B debt raised 2026 and $1.4B debt exchange; no equity offering or ATM found",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "First combined quarter (Dec 2026) guided to non-GAAP EPS of US$1.25, below the year-ago US$1.54 standalone. Per-share accretion is not yet visible.",
+    "Customer concentration: Apple is ~62% of standalone revenue. Management was asked about the largest customer's agreement with a competitor, and future content awards are a binary risk.",
+    "Integration and synergy execution, plus input-cost inflation that management says is hard to pass through in smartphones.",
+    "Supply overhang: ~90M new shares went to former Qorvo holders, and short interest was elevated (31% in Aug 2026). The post-earnings low was US$72.86 on 3-4 Nov 2026.",
+    "Next event: Q1 FY27 results on 2 Feb 2027. What would change the verdict: combined EPS growth above 25% year on year with organic revenue growth, which is unlikely before mid-2027."
+   ],
+   "next_event": "Q1 FY27 results (first combined quarter, Oct-Dec 2026), 2 Feb 2027",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "Skyworks Q4 FY26 earnings release (8-K Ex.99.1, 3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000004127/000000412726000052/q426earningsreleaseformex9.htm"
+    },
+    {
+     "title": "Skyworks Q3 FY26 earnings release (8-K Ex.99.1, 28 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000004127/000000412726000047/q3268-kex991earningsrelease.htm"
+    },
+    {
+     "title": "Skyworks Q2 FY26 earnings release (8-K Ex.99.1, 5 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000004127/000000412726000014/q2268-kex991earningsrelease.htm"
+    },
+    {
+     "title": "Skyworks Q1 FY26 earnings release (8-K Ex.99.1, 3 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000005/q1268-kex991earningsrelease.htm"
+    },
+    {
+     "title": "Skyworks completes combination with Qorvo (8-K Ex.99.1, 5 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000004127/000110465926113538/tm2626934d1_ex99-1.htm"
+    },
+    {
+     "title": "Q4 FY26 earnings call transcript (Investing.com)",
+     "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-skyworks-falls-17-after-q4-2026-beat-93CH-5676564"
+    },
+    {
+     "title": "Q3 FY26 call highlights: dividend ended, $2B buyback (MarketBeat)",
+     "url": "https://www.marketbeat.com/instant-alerts/skyworks-solutions-q3-earnings-call-highlights-2026-07-28/"
+    },
+    {
+     "title": "Post-earnings price action and analyst targets (24/7 Wall St, 4 Nov 2026)",
+     "url": "https://247wallst.com/investing/2026/11/04/skyworks-is-still-up-31-this-year-is-swks-stock-topping-out-and-breaking-down/"
+    },
+    {
+     "title": "Q4 beat and segment detail (Zacks via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-q4-earnings-beat-estimates-171800153.html"
+    },
+    {
+     "title": "Insider Form 4 transactions (secform4.com, aggregator)",
+     "url": "https://www.secform4.com/insider-trading/4127.htm"
+    },
+    {
+     "title": "Short interest 31.36% Aug 2026 (Quiver Quant, aggregator)",
+     "url": "https://www.quiverquant.com/news/Skyworks+Solutions+Stock+Short+Interest+Falls+to+31.36%25"
+    },
+    {
+     "title": "Ownership snapshot Nov 2025 (Chartmill, aggregator)",
+     "url": "https://www.chartmill.com/stock/quote/SWKS/ownership"
+    }
+   ]
+  },
+  "US:IEX": {
+   "market": "US",
+   "code": "IEX",
+   "name": "IDEX Corporation",
+   "date": "2026-11-11",
+   "status_at_review": "Breaking out",
+   "price_at_review": "US$239.96",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "IDEX is a high-quality industrial compounder whose earnings are re-accelerating. Q3 2026 orders rose 13% organically, led by data-centre and semiconductor demand in HST (orders +21%), and FY26 guidance has been raised three times. Growth is still too slow for SEPA: adjusted EPS +12-15% and organic sales +5-8% are well short of the 25%/20% thresholds. Institutional ownership is about 98%, so it is a Watch only.",
+   "catalyst": "Data-centre liquid-cooling, semiconductor and space/defense demand drove Q2 2026 record orders of $1.07B (+28% organic) and Q3 orders of $991M (+13% organic). Guidance raised 28 Oct 2026.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS (Q4'25-Q3'26) +3%, +14%, +12%, +15% YoY; Q3 $2.33 vs $2.03, GAAP $1.95 vs $1.70. FY26 guide $8.91-8.96 vs $7.95 (+12%)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 $951.7M +8% (all organic); Q2 +6% (+5% org), Q1 +9% (+5% org), Q4'25 +4% (+1% org). Accelerating but well under 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 GM 45.1% vs 44.5%, op margin 21.9% vs 21.1%, adj EBITDA 27.8% (+50bp). No Code 33: EPS growth is below 25%",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3 OCF $239.5M vs NI $144.1M; FCF 124% of adj NI. Concerns: buybacks cut shares 1.6% YoY; Q2 had a +$0.08 tariff refund; inventory +10% YTD vs sales +8%",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 adj EPS $2.33 vs $2.24 est; Q2 $2.32 vs $2.11. FY26 guide raised 3 times, from $8.15-8.35 to $8.91-8.96. Oppenheimer FY27 est raised to $9.95 (Sep)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: data centre, semiconductor, space/defense and water are now over 1/3 of the portfolio. HST orders +21% in Q3'26; backlog gives visibility into 2027",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Large-cap quality industrial, institutional favourite, mid-cycle. Peer strength mixed (Nordson posted record Q, Aug'26); group RS not verified. Stock RS is 70",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$17.6B; 73.45M shares (23 Oct'26), down via buybacks. ~98% institutional (MarketBeat). CEO sold $3.3M (11 May'26), GC sold $92k (12 Aug); no buys",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep'26: cash $602.1M, debt $1,751.5M, net debt ~$1.15B, gross leverage 1.8x; 9M OCF $543.2M; ROE ~15.7%. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next: Q4'26 results, early Feb 2027 (not confirmed). Short interest 2.40M shares (~3.3%) at 30 Oct'26, down from 2.52M at 30 Sep. No binary events found",
+     "result": "PASS"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3 10-Q filed late Oct 2026 (cover date 23 Oct). No secondary offering, shelf or ATM found. Buybacks ~$75M/quarter",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Growth is too slow for SEPA (adj EPS +12-15%, organic sales +5-8%), and management flagged tougher YoY comps in 2027",
+    "Data-centre orders are lumpy; Q3 orders fell from Q2's record on timing",
+    "About 98% institutional ownership leaves few new buyers; CEO sold 18.75% of his holding in May 2026",
+    "Scanner flagged the largest one-day drop in 6 months within the last 2 weeks; the stock barely reacted to the Q3 beat (-0.2% on 28 Oct)",
+    "Input-cost inflation (energy), weak chemicals and flat life sciences could cap margins. Q4 margins are guided to step down sequentially"
+   ],
+   "next_event": "Q4 and FY2026 results, early Feb 2027 (exact date not announced; Q4 2025 was reported 4 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "IDEX Q3 2026 earnings release (PDF)",
+     "url": "https://s21.q4cdn.com/862080382/files/doc_earnings/2026/q3/earnings-result/IDEX-Q3-2026-Earnings-Release.pdf"
+    },
+    {
+     "title": "IDEX reports record Q3 2026 results (company)",
+     "url": "https://idexcorp.com/news/news-item/idex-reports-record-third-quarter-2026-results"
+    },
+    {
+     "title": "IDEX Q3 2026 earnings call transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/28/idex-iex-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "title": "IDEX Q3 2026 10-Q (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000832101/000083210126000029/iex-20260930.htm"
+    },
+    {
+     "title": "IDEX Q2 2026 results (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260729328606/en/IDEX-Reports-Second-Quarter-Results"
+    },
+    {
+     "title": "IDEX Q1 2026 results EX-99.1",
+     "url": "https://app.edgar.tools/filing/832101/0000832101-26-000007/iex-20260331xex991.htm"
+    },
+    {
+     "title": "IDEX Q4 and FY2025 results (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260204940450/en/IDEX-Reports-Fourth-Quarter-and-Full-Year-2025-Results"
+    },
+    {
+     "title": "Insider transactions (GreekSoup, aggregator)",
+     "url": "https://greeksoup.ai/stocks/us/iex/insiders/"
+    },
+    {
+     "title": "Institutional ownership and analyst data (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/filing-amundi-sells-268259-shares-of-idex-corporation-iex-2026-07-31/"
+    },
+    {
+     "title": "Short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/iex/short-interest"
+    },
+    {
+     "title": "Q3 2026 price reaction (TickerSpark)",
+     "url": "https://tickerspark.ai/market/idex-corporation-iex-slips-despite-earnings-beats-1793199647150"
+    },
+    {
+     "title": "Oppenheimer target raise, 9 Sep 2026 (Midas)",
+     "url": "https://www.getmidas.com/midasin-kulaklari/oppenheimer-idex-hedef-fiyatini-270-dolara-yukseltti-p-741243"
+    }
+   ]
+  },
+  "US:ATI": {
+   "market": "US",
+   "code": "ATI",
+   "name": "ATI Inc.",
+   "date": "2026-11-11",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$187.53",
+   "verdict": "Watch only",
+   "confidence": "high",
+   "summary": "ATI is in a jet-engine-driven upcycle: Q3 2026 (Jul-Sep) adj EPS rose 72% and sales 26%, both accelerating, margins expanded, and FY26 guidance has been raised three times. Fundamentals qualify, but clustered 10b5-1 selling by the CEO and an SVP (Aug-Sep 2026) is a FAIL on supply and ownership. That caps the verdict at Watch only, and institutions already hold about 95% of the stock.",
+   "catalyst": "Commercial jet-engine sales +39% YoY in Q3 2026 with titanium/nickel pricing power (PQ titanium lead times ~20 months), LTAs, and FY26 guidance raised 3x (29 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS YoY: Q4'25 +18%, Q1'26 +39%, Q2'26 +66% ($1.23), Q3'26 +72% ($1.46 vs $0.85); accelerating. GAAP Q3 $1.37 +76%. FY26 guide $5.17-5.23 vs $3.24",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "Sales YoY: Q4'25 0%, Q1'26 +1%, Q2'26 +11%, Q3'26 +26% ($1,423.7M); organic, sharp acceleration. Jet engines +39%. Only 1 quarter above 20% so far",
+     "result": "PASS"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 gross margin 26.7% vs 22.7%, op 19.1% vs 14.4%, adj EBITDA 23.0% vs 20.0%. EPS and sales accelerating 3 qtrs; margin gains not accelerating: near Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Small adj/GAAP gap ($0.09 special). Concern: Q3 OCF $154.6M < NI $189.8M; working capital +$342M YTD; Q4 needs ~$350M adj FCF for guide",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q3'26 adj EPS $1.46 vs $1.36-1.37 consensus; sales $1.42B vs $1.32B. FY26 EPS guide raised 3x ($3.99-4.27 to $5.17-5.23). Zacks Rank #1",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "STRONG: jet-engine boom plus pricing power, Boeing/Airbus/BWXT LTAs (BWXT 11 Jun 2026), backlog $4.3B +20% YoY; Investor Day new targets 12 Nov 2026",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Leader in aero titanium/nickel alloys; mid-cycle aero upcycle. Group off highs: HWM ~27% below Aug high (2 Nov); ATI ~19% below ~$231 Aug level",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$23.9B, 135.8M shs (-3.2% YoY). Inst ~94.5% (over-owned). CEO 6 plan sales Feb-Aug 2026 (~$41M) plus SVP Harris 5 sales Aug-Sep: clustered",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $442.3M, debt $1,857.5M, net debt ~$1.42B (~1.2x FY26 EBITDA guide). YTD OCF $414.6M; ROE ~28.7%. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Investor Day 12 Nov 2026 (new targets); Q4 results ~early Feb 2027 (date not confirmed). Short int 3.5% of float, up from 4.34M to 4.73M shs. Late base 7",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q 29 Oct 2026. Next earnings not announced (Q4'25 was 3 Feb 2026). No equity offering found; $450M notes issued 2026 (refi). Shelf/ATM: not found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Clustered insider selling: CEO ~US$41M under 10b5-1 plans in 2026 (latest 17 Aug at $231) and SVP Harris ~US$15M from Aug to Sep 2026",
+    "Over-owned: ~94.5% institutional with a late-stage (base 7) chart, so there are few new buyers and many potential sellers",
+    "Investor Day 12 Nov 2026: 'sell the news' if the new targets don't top elevated expectations",
+    "Cash conversion: working capital +US$342M YTD; a Q4 adj FCF miss (~US$350M needed) would hurt credibility",
+    "Upgrade path: insider selling stops plus a fresh breakout above the US$189.85 pivot with group confirmation; Q4 results early Feb 2027 (unconfirmed)"
+   ],
+   "next_event": "Investor Day, 12 Nov 2026; Q4 2026 results ~early Feb 2027 (date not yet announced)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "ATI Q3 2026 results release (29 Oct 2026)",
+     "url": "https://finviz.com/news/411330/ati-announces-third-quarter-2026-results"
+    },
+    {
+     "title": "ATI Q2 2026 results, 8-K Ex 99.1 (SEC, 6 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001018963/000162828026053856/form8-kq22026ex991.htm"
+    },
+    {
+     "title": "ATI Q1 2026 results release (30 Apr 2026)",
+     "url": "https://s27.q4cdn.com/226628310/files/doc_financials/2026/q1/Q1-2026-Press-Release-FINAL.pdf"
+    },
+    {
+     "title": "ATI Q4/FY2025 results, 8-K Ex 99.1 (3 Feb 2026)",
+     "url": "https://s27.q4cdn.com/226628310/files/doc_financials/2025/q4/Form-8-K-Q4-2025-EX-99-1-2-2-2026.pdf"
+    },
+    {
+     "title": "Q3 2026 earnings call highlights (Yahoo/GuruFocus)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ati-inc-ati-q3-2026-211115641.html"
+    },
+    {
+     "title": "Q3 2026 vs consensus (StockStory)",
+     "url": "https://stockstory.org/us/stocks/nyse/ati/news/earnings/ati-nyseati-beats-expectations-in-strong-q3-2026"
+    },
+    {
+     "title": "Q3 2026 beat, analyst targets, insider sales (MarketBeat)",
+     "url": "https://www.marketbeat.com/instant-alerts/earnings-ati-nyse-ati-issues-earnings-results-beats-expectations-by-009-eps-2026-10-29/"
+    },
+    {
+     "title": "Zacks: ATI Q3 beat, outlook raised (2 Nov 2026)",
+     "url": "https://www.zacks.com/stock/news/3020729/{https:/www.zackstrade.com/2019-1-dollar}"
+    },
+    {
+     "title": "ATI insider transactions (QuantisNow, aggregator)",
+     "url": "https://www.quantisnow.com/insiders/ATI"
+    },
+    {
+     "title": "CEO sale 17 Aug 2026 (InsiderTrades)",
+     "url": "https://www.insidertrades.com/alerts/nyse-ati-insider-buying-and-selling-2026-08-20/"
+    },
+    {
+     "title": "ATI SEC filings list 2026 (Chartrow)",
+     "url": "https://chartrow.com/quote/ati/filings"
+    },
+    {
+     "title": "ATI statistics: shares, ownership, short interest (StockAnalysis)",
+     "url": "https://stockanalysis.com/stocks/ati/statistics"
+    },
+    {
+     "title": "ATI to host Investor Day on 12 Nov 2026",
+     "url": "https://finviz.com/news/396179/ati-to-host-investor-day-on-november-12-2026"
+    },
+    {
+     "title": "ATI-BWXT naval nuclear agreement (ATI IR, 11 Jun 2026)",
+     "url": "https://ir.atimaterials.com/news-events/news-details/2026/ATI-Extends-Agreement-with-BWXT-to-Support-U-S--Naval-Nuclear-Propulsion-Program/default.aspx"
+    },
+    {
+     "title": "Howmet/peer move and distance from highs (Trefis, 3 Nov 2026)",
+     "url": "https://www.trefis.com/stock/hwm/articles/622197/what-just-happened-to-howmet-stock/2026-11-03"
+    }
+   ]
+  },
+  "US:TGT": {
+   "market": "US",
+   "code": "TGT",
+   "name": "Target Corporation",
+   "date": "2026-11-11",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$162.7",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Under new CEO Michael Fiddelke, Target has turned around: comps went from -2.7% (Q3 FY25) to +5.6% and +3.8% in 1H FY26, margins are rising, and FY26 guidance was raised twice. But underlying EPS growth is about +20% once the one-off $1.65/share tariff refund in Q2 is stripped out, sales growth is only about 5%, and three insiders sold in the open market within five days of the August report. That caps the verdict at Watch only, and earnings are due 18 Nov.",
+   "catalyst": "Turnaround under new CEO Michael Fiddelke (CEO since Feb 2026): comps back to +5.6%/+3.8% in Q1/Q2 FY26 after price cuts on 10,000+ items, plus FY26 sales and EPS guidance raised in May and Aug 2026; rated MODERATE.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS: Q3FY25 $1.78 (-4%), Q4 $2.44 (+2%), Q1FY26 $1.71 (+32%), Q2 $4.11 (+100%; ~+20% ex $1.65 tariff refund). Not a record year",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net sales Q1 FY26 (Feb-Apr 26) +6.7%, Q2 (May-Jul 26) +5.3%, all organic; comps +5.6%/+3.8%; well below 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q2 FY26 GM 33.7% vs 29.0% (~+100bp ex refunds); op margin 9.6% vs 5.2% (~5.9% ex refunds); expanding, but no Code 33",
+     "result": "PASS"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Biggest concern: $994M one-off IEEPA tariff refund in Q2 GAAP=adj EPS. 1H OCF $4.5B vs NI $2.7B; inventory +2.9% vs sales +5.3%; no buybacks",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q2 (19 Aug): $2.46 ex-refund vs ~$2.35 est; FY26 guide raised to $9.90-10.90 (ex-refund midpoint +$0.75); FY EPS est +24.9% in 3 months",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: new CEO Fiddelke (Feb 2026) turnaround, price cuts on 10k items, comp recovery and guidance raised twice (May and Aug 2026)",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround mega-cap discount retailer; RS 92, stock +70% in 1 year; peer strength (WMT/COST) near highs not verified for Nov 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Clustered open-market sales 21-25 Aug 2026: CAO Liegel, Kremer 15.5k @ $170, Cornell 50k @ $163.56; also May-Jun sales. Institutions 79.7%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "1 Aug 2026: cash $5.4B, debt $15.4B, net debt ~$9.9B; 1H OCF $4.5B; ROIC 15.4% TTM; derived ROE ~25% (includes refund)",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q3 FY26 results 18 Nov 2026; Q3 consensus EPS ~$2.06 vs $1.78 adj a year ago; ~16.4M shares short, 4.0 days to cover (trend not found)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 28 Aug 2026; next earnings 18 Nov 2026; S-3ASR shelf filed 28 Aug 2026 (routine); no secondary or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Reports 18 Nov 2026, in 7 days. The stock is 2.2% below its pivot, so there's no profit cushion yet.",
+    "The Q2 EPS doubling was mostly a one-off tariff refund ($1.65/share). Underlying growth is about +20%, and Q3 will be compared against an easy -2.7% comp base.",
+    "Several insiders sold in the open market (CAO, Kremer, executive chair Cornell twice). Institutions own 79.7%, close to over-owned.",
+    "Late-stage base 4, and the stock is up about 70% in a year. Consensus is Hold with an average target of about $160, so there's little valuation room.",
+    "Pre-mortem for a 30% fall: holiday comps fade; price cuts squeeze margins; tariff or consumer-spending shock."
+   ],
+   "next_event": "Q3 FY26 results (quarter ending Oct 2026), 18 Nov 2026",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Target Q2 2026 earnings release, 19 Aug 2026",
+     "url": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings"
+    },
+    {
+     "title": "Target Q4/FY2025 earnings release (8-K Ex-99), Mar 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm"
+    },
+    {
+     "title": "Target Q3 2025 earnings release (8-K Ex-99), Nov 2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741925000123/a2025q3ex-99.htm"
+    },
+    {
+     "title": "AP/ABC: Target Q1 2026 results, 20 May 2026",
+     "url": "https://abcnews.com/Business/wireStory/targets-comparable-sales-post-biggest-jump-4-years-133142732"
+    },
+    {
+     "title": "AAII: TGT estimates and revisions, 11 Nov 2026 (aggregator)",
+     "url": "https://www.aaii.com/investingideas/article/535240-what-you-need-to-know-about-target-corporations-q3-earnings"
+    },
+    {
+     "title": "TGT SEC filings list (aggregator)",
+     "url": "https://chartrow.com/quote/tgt/filings"
+    },
+    {
+     "title": "TGT Form 4 summary, Aug-Nov 2026 (aggregator)",
+     "url": "https://agent402.tools/reports/insider/TGT"
+    },
+    {
+     "title": "InsiderTrades: Kremer sale and institutional ownership, Aug 2026",
+     "url": "https://www.insidertrades.com/alerts/nyse-tgt-insider-buying-and-selling-2026-08-27/"
+    },
+    {
+     "title": "MarketBeat: Sylvester sale, 1 Jun 2026",
+     "url": "https://www.marketbeat.com/instant-alerts/target-nysetgt-insider-sells-125890000-in-stock-2026-06-01/"
+    },
+    {
+     "title": "ShortSqueeze: TGT short interest (aggregator)",
+     "url": "https://shortsqueeze.com/?symbol=TGT"
     }
    ]
   }
