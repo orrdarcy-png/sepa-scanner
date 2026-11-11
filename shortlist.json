@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T22:18:03Z",
+ "generated": "2026-11-11T08:29:16Z",
  "stocks": [
   {
    "code": "BTSG",
@@ -32,6 +32,36 @@
    "priority": 1
   },
   {
+   "code": "WGN",
+   "symbol": "WGN.AX",
+   "name": "WAGNERS HOLDING COMPANY LIMITED",
+   "industry": "Materials",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 4.99,
+   "pivot": 4.87,
+   "dist_pivot": 2.5,
+   "rs": 86,
+   "score": 52,
+   "stage": "2",
+   "base_no": 11,
+   "warnings": [
+    "Late-stage base (\u2248 base 11): treat as a trade, sell into strength"
+   ],
+   "ff": {
+    "data": true,
+    "pass": true,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-11",
+   "footprint": "20W 26/10 6T",
+   "next_earnings": "2025-08-19",
+   "priority": 2
+  },
+  {
    "code": "VIRT",
    "symbol": "VIRT",
    "name": "Virtu Financial, Inc.",
@@ -59,7 +89,7 @@
    "as_of": "2026-11-10",
    "footprint": "10W 25/7 3T",
    "next_earnings": "2027-02-04",
-   "priority": 2
+   "priority": 3
   },
   {
    "code": "VCTR",
@@ -89,7 +119,7 @@
    "as_of": "2026-11-10",
    "footprint": "10W 18/10 3T",
    "next_earnings": "2027-02-03",
-   "priority": 3
+   "priority": 4
   },
   {
    "code": "AHR",
@@ -117,7 +147,35 @@
    "as_of": "2026-11-10",
    "footprint": "14W 16/10 2T",
    "next_earnings": "2026-11-05",
-   "priority": 4
+   "priority": 5
+  },
+  {
+   "code": "SOL",
+   "symbol": "SOL.AX",
+   "name": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
+   "industry": "Financial Services",
+   "status": "Breaking out",
+   "setup": "VCP",
+   "price": 48.37,
+   "pivot": 47.91,
+   "dist_pivot": 1.0,
+   "rs": 78,
+   "score": 46,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-11",
+   "footprint": "7W 9/7 2T",
+   "next_earnings": "2026-09-24",
+   "priority": 6
   },
   {
    "code": "WAB",
@@ -147,7 +205,7 @@
    "as_of": "2026-11-10",
    "footprint": "14W 11/8 2T",
    "next_earnings": "2026-10-21",
-   "priority": 5
+   "priority": 7
   },
   {
    "code": "LAMR",
@@ -175,37 +233,37 @@
    "as_of": "2026-11-10",
    "footprint": "14W 14/7 2T",
    "next_earnings": "2026-11-05",
-   "priority": 6
+   "priority": 8
   },
   {
-   "code": "CCL",
-   "symbol": "CCL.AX",
-   "name": "CUSCAL LIMITED",
-   "industry": "Financial Services",
-   "status": "Buy-ready",
+   "code": "BHP",
+   "symbol": "BHP.AX",
+   "name": "BHP GROUP LIMITED",
+   "industry": "Materials",
+   "status": "Breaking out",
    "setup": "VCP",
-   "price": 5.96,
-   "pivot": 6.06,
-   "dist_pivot": -1.7,
-   "rs": 90,
-   "score": 66,
+   "price": 60.39,
+   "pivot": 60.26,
+   "dist_pivot": 0.2,
+   "rs": 74,
+   "score": 31,
    "stage": "2",
-   "base_no": 9,
+   "base_no": 4,
    "warnings": [
-    "Late-stage base (\u2248 base 9): treat as a trade, sell into strength"
+    "Late-stage base (\u2248 base 4): treat as a trade, sell into strength"
    ],
    "ff": {
     "data": true,
-    "pass": true,
+    "pass": false,
     "accel": false,
     "code33": false
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "5W 14/5 2T",
-   "next_earnings": "2025-02-26",
-   "priority": 7
+   "as_of": "2026-11-11",
+   "footprint": "11W 19/7 2T",
+   "next_earnings": "2026-08-17",
+   "priority": 9
   },
   {
    "code": "FIVE",
@@ -233,37 +291,7 @@
    "as_of": "2026-11-10",
    "footprint": "11W 24/9 2T",
    "next_earnings": "2026-12-02",
-   "priority": 8
-  },
-  {
-   "code": "WGN",
-   "symbol": "WGN.AX",
-   "name": "WAGNERS HOLDING COMPANY LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 4.84,
-   "pivot": 4.87,
-   "dist_pivot": -0.6,
-   "rs": 83,
-   "score": 48,
-   "stage": "2",
-   "base_no": 11,
-   "warnings": [
-    "Late-stage base (\u2248 base 11): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "20W 26/10 6T",
-   "next_earnings": "2025-08-19",
-   "priority": 9
+   "priority": 10
   },
   {
    "code": "MRK",
@@ -291,7 +319,7 @@
    "as_of": "2026-11-10",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 10
+   "priority": 11
   },
   {
    "code": "LNTH",
@@ -319,7 +347,7 @@
    "as_of": "2026-11-10",
    "footprint": "19W 12/4 5T",
    "next_earnings": "2026-11-05",
-   "priority": 11
+   "priority": 12
   },
   {
    "code": "BIO",
@@ -347,7 +375,7 @@
    "as_of": "2026-11-10",
    "footprint": "10W 12/10 2T",
    "next_earnings": "2026-11-04",
-   "priority": 12
+   "priority": 13
   },
   {
    "code": "LGND",
@@ -378,7 +406,7 @@
    "as_of": "2026-11-10",
    "footprint": "18W 17/9 3T",
    "next_earnings": "2026-10-29",
-   "priority": 13
+   "priority": 14
   },
   {
    "code": "SEIC",
@@ -406,7 +434,7 @@
    "as_of": "2026-11-10",
    "footprint": "10W 12/6 3T",
    "next_earnings": "2027-01-27",
-   "priority": 14
+   "priority": 15
   },
   {
    "code": "GRMN",
@@ -436,7 +464,7 @@
    "as_of": "2026-11-10",
    "footprint": "13W 16/6 4T",
    "next_earnings": "2026-10-28",
-   "priority": 15
+   "priority": 16
   },
   {
    "code": "WLY",
@@ -464,7 +492,7 @@
    "as_of": "2026-11-10",
    "footprint": "15W 20/7 3T",
    "next_earnings": "2026-12-03",
-   "priority": 16
+   "priority": 17
   },
   {
    "code": "APOG",
@@ -492,20 +520,20 @@
    "as_of": "2026-11-10",
    "footprint": "19W 32/10 3T",
    "next_earnings": "2027-01-06",
-   "priority": 17
+   "priority": 18
   },
   {
-   "code": "SOL",
-   "symbol": "SOL.AX",
-   "name": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
-   "industry": "Financial Services",
+   "code": "INA",
+   "symbol": "INA.AX",
+   "name": "INGENIA COMMUNITIES GROUP",
+   "industry": "Equity Real Estate Investment Trusts (REITs)",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 47.47,
-   "pivot": 47.91,
-   "dist_pivot": -0.9,
-   "rs": 76,
-   "score": 44,
+   "price": 5.3,
+   "pivot": 5.445,
+   "dist_pivot": -2.7,
+   "rs": 82,
+   "score": 47,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -517,10 +545,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "7W 9/7 2T",
-   "next_earnings": "2026-09-24",
-   "priority": 18
+   "as_of": "2026-11-11",
+   "footprint": "62W 42/7 4T",
+   "next_earnings": "2026-08-25",
+   "priority": 19
   },
   {
    "code": "SDF",
@@ -529,10 +557,66 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 5.83,
+   "price": 5.82,
    "pivot": 5.83,
-   "dist_pivot": 0.0,
-   "rs": 85,
+   "dist_pivot": -0.2,
+   "rs": 84,
+   "score": 41,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-11",
+   "footprint": "53W 41/4 21T",
+   "next_earnings": "2026-08-26",
+   "priority": 20
+  },
+  {
+   "code": "PRU",
+   "symbol": "PRU.AX",
+   "name": "PERSEUS MINING LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 6.63,
+   "pivot": 6.64,
+   "dist_pivot": -0.2,
+   "rs": 82,
+   "score": 40,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-11",
+   "footprint": "7W 24/24 1T",
+   "next_earnings": "2026-08-26",
+   "priority": 21
+  },
+  {
+   "code": "EVT",
+   "symbol": "EVT.AX",
+   "name": "EVT LIMITED",
+   "industry": "Media & Entertainment",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 15.64,
+   "pivot": 16.0,
+   "dist_pivot": -2.2,
+   "rs": 79,
    "score": 38,
    "stage": "2",
    "base_no": 1,
@@ -545,10 +629,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "53W 41/4 21T",
-   "next_earnings": "2026-08-26",
-   "priority": 19
+   "as_of": "2026-11-11",
+   "footprint": "63W 36/4 13T",
+   "next_earnings": "2026-08-24",
+   "priority": 22
   },
   {
    "code": "DBI",
@@ -561,11 +645,10 @@
    "pivot": 5.79,
    "dist_pivot": -2.6,
    "rs": 74,
-   "score": 36,
+   "score": 35,
    "stage": "2",
    "base_no": 5,
    "warnings": [
-    "Heaviest volume in 6 months came on a down day recently",
     "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
    ],
    "ff": {
@@ -576,68 +659,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-10",
+   "as_of": "2026-11-11",
    "footprint": "20W 15/6 4T",
    "next_earnings": "2025-08-25",
-   "priority": 20
-  },
-  {
-   "code": "EVT",
-   "symbol": "EVT.AX",
-   "name": "EVT LIMITED",
-   "industry": "Media & Entertainment",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 15.69,
-   "pivot": 16.0,
-   "dist_pivot": -1.9,
-   "rs": 79,
-   "score": 35,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "63W 36/18 12T",
-   "next_earnings": "2026-08-24",
-   "priority": 21
-  },
-  {
-   "code": "ALL",
-   "symbol": "ALL.AX",
-   "name": "ARISTOCRAT LEISURE LIMITED",
-   "industry": "Consumer Services",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 65.77,
-   "pivot": 66.71,
-   "dist_pivot": -1.4,
-   "rs": 76,
-   "score": 31,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Reports earnings in 2 days (2026-11-12): don't hold a full position into the report without a profit cushion"
-   ],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-10",
-   "footprint": "61W 39/3 17T",
-   "next_earnings": "2026-11-12",
-   "priority": 22
+   "priority": 23
   },
   {
    "code": "LGF",
@@ -646,9 +671,9 @@
    "industry": "Not Applic",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 2.39,
-   "pivot": 2.42,
-   "dist_pivot": -1.2,
+   "price": 2.35,
+   "pivot": 2.4,
+   "dist_pivot": -2.1,
    "rs": 80,
    "score": 31,
    "stage": "2",
@@ -662,10 +687,40 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-10",
+   "as_of": "2026-11-11",
    "footprint": "11W 15/13 1T",
    "next_earnings": null,
-   "priority": 23
+   "priority": 24
+  },
+  {
+   "code": "ALL",
+   "symbol": "ALL.AX",
+   "name": "ARISTOCRAT LEISURE LIMITED",
+   "industry": "Consumer Services",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 65.89,
+   "pivot": 66.71,
+   "dist_pivot": -1.2,
+   "rs": 75,
+   "score": 31,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [
+    "Reports earnings in 1 days (2026-11-12): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "pass": false,
+    "accel": false,
+    "code33": false
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-11",
+   "footprint": "61W 39/3 18T",
+   "next_earnings": "2026-11-12",
+   "priority": 25
   }
  ]
 }
