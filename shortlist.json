@@ -1,36 +1,6 @@
 {
- "generated": "2026-11-11T22:31:39Z",
+ "generated": "2026-11-12T07:05:19Z",
  "stocks": [
-  {
-   "code": "WGN",
-   "symbol": "WGN.AX",
-   "name": "WAGNERS HOLDING COMPANY LIMITED",
-   "industry": "Materials",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 4.99,
-   "pivot": 4.87,
-   "dist_pivot": 2.5,
-   "rs": 86,
-   "score": 52,
-   "stage": "2",
-   "base_no": 11,
-   "warnings": [
-    "Late-stage base (\u2248 base 11): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "pass": true,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "20W 26/10 6T",
-   "next_earnings": "2025-08-19",
-   "priority": 1
-  },
   {
    "code": "VCTR",
    "symbol": "VCTR",
@@ -50,16 +20,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 120.775,
+    "max": 126.8138,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "10W 18/10 3T",
    "next_earnings": "2027-02-03",
-   "priority": 2
+   "priority": 1
   },
   {
    "code": "SWKS",
@@ -71,23 +50,32 @@
    "price": 87.64,
    "pivot": 85.43,
    "dist_pivot": 2.6,
-   "rs": 88,
-   "score": 50,
+   "rs": 89,
+   "score": 51,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 85.43,
+    "max": 89.7015,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "7W 21/6 3T",
    "next_earnings": "2027-02-02",
-   "priority": 3
+   "priority": 2
   },
   {
    "code": "SOL",
@@ -96,26 +84,35 @@
    "industry": "Financial Services",
    "status": "Breaking out",
    "setup": "VCP",
-   "price": 48.37,
-   "pivot": 47.91,
+   "price": 48.85,
+   "pivot": 48.37,
    "dist_pivot": 1.0,
-   "rs": 78,
-   "score": 46,
+   "rs": 82,
+   "score": 50,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 48.37,
+    "max": 50.7885,
+    "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "7W 9/7 2T",
    "next_earnings": "2026-09-24",
-   "priority": 4
+   "priority": 3
   },
   {
    "code": "AHR",
@@ -134,16 +131,25 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 58.06,
+    "max": 60.963,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "14W 16/10 2T",
    "next_earnings": "2026-11-05",
-   "priority": 5
+   "priority": 4
   },
   {
    "code": "WAB",
@@ -164,16 +170,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 303.9,
+    "max": 319.095,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "15W 11/8 2T",
    "next_earnings": "2026-10-21",
-   "priority": 6
+   "priority": 5
   },
   {
    "code": "IEX",
@@ -194,46 +209,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 238.18,
+    "max": 250.089,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "15W 10/8 3T",
    "next_earnings": "2026-10-28",
-   "priority": 7
-  },
-  {
-   "code": "BHP",
-   "symbol": "BHP.AX",
-   "name": "BHP GROUP LIMITED",
-   "industry": "Materials",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 60.39,
-   "pivot": 60.26,
-   "dist_pivot": 0.2,
-   "rs": 74,
-   "score": 31,
-   "stage": "2",
-   "base_no": 4,
-   "warnings": [
-    "Late-stage base (\u2248 base 4): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "11W 19/7 2T",
-   "next_earnings": "2026-08-17",
-   "priority": 8
+   "priority": 6
   },
   {
    "code": "FIVE",
@@ -252,16 +246,237 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": true,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 48,
+    "pct": 5.7,
+    "vol_mult": 2.4,
+    "held": true
+   },
+   "buy": {
+    "trigger": 258.66,
+    "max": 271.593,
+    "grade": "A"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "11W 24/9 2T",
    "next_earnings": "2026-12-02",
+   "priority": 7
+  },
+  {
+   "code": "WAF",
+   "symbol": "WAF.AX",
+   "name": "WEST AFRICAN RESOURCES LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 3.53,
+   "pivot": 3.71,
+   "dist_pivot": -4.9,
+   "rs": 70,
+   "score": 44,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": true,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 45,
+    "pct": 5.0,
+    "vol_mult": 2.1,
+    "held": false
+   },
+   "buy": {
+    "trigger": 3.71,
+    "max": 3.8955,
+    "grade": "A"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "9W 20/5 2T",
+   "next_earnings": "2026-09-10",
+   "priority": 8
+  },
+  {
+   "code": "INA",
+   "symbol": "INA.AX",
+   "name": "INGENIA COMMUNITIES GROUP",
+   "industry": "Equity Real Estate Investment Trusts (REITs)",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 5.3,
+   "pivot": 5.445,
+   "dist_pivot": -2.7,
+   "rs": 84,
+   "score": 48,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 11,
+    "pct": 5.0,
+    "vol_mult": 3.4,
+    "held": true
+   },
+   "buy": {
+    "trigger": 5.445,
+    "max": 5.7173,
+    "grade": "A"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "62W 42/7 4T",
+   "next_earnings": "2026-08-25",
    "priority": 9
+  },
+  {
+   "code": "ROST",
+   "symbol": "ROST",
+   "name": "Ross Stores",
+   "industry": "Apparel Retail",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 241.27,
+   "pivot": 249.3,
+   "dist_pivot": -3.2,
+   "rs": 74,
+   "score": 48,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [
+    "Reports earnings in 8 days (2026-11-19): don't hold a full position into the report without a profit cushion"
+   ],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": true,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 57,
+    "pct": 6.5,
+    "vol_mult": 2.5,
+    "held": true
+   },
+   "buy": {
+    "trigger": 249.3,
+    "max": 261.765,
+    "grade": "A"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-11",
+   "footprint": "14W 14/8 3T",
+   "next_earnings": "2026-11-19",
+   "priority": 10
+  },
+  {
+   "code": "EVT",
+   "symbol": "EVT.AX",
+   "name": "EVT LIMITED",
+   "industry": "Media & Entertainment",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 15.72,
+   "pivot": 16.0,
+   "dist_pivot": -1.7,
+   "rs": 79,
+   "score": 39,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 58,
+    "pct": 5.1,
+    "vol_mult": 3.0,
+    "held": true
+   },
+   "buy": {
+    "trigger": 16.0,
+    "max": 16.8,
+    "grade": "A"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "63W 36/4 18T",
+   "next_earnings": "2026-08-24",
+   "priority": 11
+  },
+  {
+   "code": "ALK",
+   "symbol": "ALK.AX",
+   "name": "ALKANE RESOURCES LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 1.81,
+   "pivot": 1.9,
+   "dist_pivot": -4.7,
+   "rs": 87,
+   "score": 60,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": true,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 1.9,
+    "max": 1.995,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "7W 30/5 2T",
+   "next_earnings": "2026-10-23",
+   "priority": 12
   },
   {
    "code": "ATI",
@@ -282,16 +497,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": true,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 189.85,
+    "max": 199.3425,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "13W 37/5 2T",
    "next_earnings": "2026-10-29",
-   "priority": 10
+   "priority": 13
   },
   {
    "code": "TGT",
@@ -313,16 +537,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 166.4281,
+    "max": 174.7495,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "11W 15/5 2T",
    "next_earnings": "2026-11-18",
-   "priority": 11
+   "priority": 14
   },
   {
    "code": "LNTH",
@@ -341,16 +574,67 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 102.9,
+    "max": 108.045,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "19W 12/4 5T",
    "next_earnings": "2026-11-05",
-   "priority": 12
+   "priority": 15
+  },
+  {
+   "code": "AUC",
+   "symbol": "AUC.AX",
+   "name": "AUSGOLD LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 1.35,
+   "pivot": 1.39,
+   "dist_pivot": -2.9,
+   "rs": 93,
+   "score": 58,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 60,
+    "pct": 4.7,
+    "vol_mult": 16.5,
+    "held": true
+   },
+   "buy": {
+    "trigger": 1.39,
+    "max": 1.4595,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "11W 24/4 4T",
+   "next_earnings": "2025-07-29",
+   "priority": 16
   },
   {
    "code": "BIO",
@@ -369,16 +653,25 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 394.73,
+    "max": 414.4665,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "11W 12/3 3T",
    "next_earnings": "2026-11-04",
-   "priority": 13
+   "priority": 17
   },
   {
    "code": "MRK",
@@ -397,16 +690,30 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 59,
+    "pct": 8.7,
+    "vol_mult": 3.3,
+    "held": true
+   },
+   "buy": {
+    "trigger": 153.37,
+    "max": 161.0385,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 14
+   "priority": 18
   },
   {
    "code": "GRMN",
@@ -427,16 +734,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": false,
     "accel": true,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 296.95,
+    "max": 311.7975,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "13W 16/6 4T",
    "next_earnings": "2026-10-28",
-   "priority": 15
+   "priority": 19
   },
   {
    "code": "LGND",
@@ -458,16 +774,25 @@
    ],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 325.96,
+    "max": 342.258,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "18W 17/9 3T",
    "next_earnings": "2026-10-29",
-   "priority": 16
+   "priority": 20
   },
   {
    "code": "SEIC",
@@ -486,72 +811,62 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 110.9,
+    "max": 116.445,
+    "grade": "B"
    },
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-11",
    "footprint": "10W 12/6 3T",
    "next_earnings": "2027-01-27",
-   "priority": 17
+   "priority": 21
   },
   {
-   "code": "APOG",
-   "symbol": "APOG",
-   "name": "Apogee Enterprises, Inc.",
-   "industry": "Building Products",
+   "code": "PRU",
+   "symbol": "PRU.AX",
+   "name": "PERSEUS MINING LIMITED",
+   "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 47.91,
-   "pivot": 49.5,
-   "dist_pivot": -3.2,
-   "rs": 84,
-   "score": 52,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "19W 32/5 4T",
-   "next_earnings": "2027-01-06",
-   "priority": 18
-  },
-  {
-   "code": "INA",
-   "symbol": "INA.AX",
-   "name": "INGENIA COMMUNITIES GROUP",
-   "industry": "Equity Real Estate Investment Trusts (REITs)",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 5.3,
-   "pivot": 5.445,
+   "price": 6.46,
+   "pivot": 6.64,
    "dist_pivot": -2.7,
-   "rs": 82,
-   "score": 47,
+   "rs": 79,
+   "score": 51,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 6.64,
+    "max": 6.972,
+    "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "62W 42/7 4T",
-   "next_earnings": "2026-08-25",
-   "priority": 19
+   "as_of": "2026-11-12",
+   "footprint": "7W 24/4 2T",
+   "next_earnings": "2026-08-26",
+   "priority": 22
   },
   {
    "code": "SDF",
@@ -563,34 +878,6 @@
    "price": 5.82,
    "pivot": 5.83,
    "dist_pivot": -0.2,
-   "rs": 84,
-   "score": 41,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "53W 41/4 21T",
-   "next_earnings": "2026-08-26",
-   "priority": 20
-  },
-  {
-   "code": "PRU",
-   "symbol": "PRU.AX",
-   "name": "PERSEUS MINING LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 6.63,
-   "pivot": 6.64,
-   "dist_pivot": -0.2,
    "rs": 82,
    "score": 40,
    "stage": "2",
@@ -598,44 +885,30 @@
    "warnings": [],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 111,
+    "pct": 32.4,
+    "vol_mult": 4.5,
+    "held": true
+   },
+   "buy": {
+    "trigger": 5.83,
+    "max": 6.1215,
+    "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "7W 24/24 1T",
+   "as_of": "2026-11-12",
+   "footprint": "53W 41/0 22T",
    "next_earnings": "2026-08-26",
-   "priority": 21
-  },
-  {
-   "code": "EVT",
-   "symbol": "EVT.AX",
-   "name": "EVT LIMITED",
-   "industry": "Media & Entertainment",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 15.64,
-   "pivot": 16.0,
-   "dist_pivot": -2.2,
-   "rs": 79,
-   "score": 38,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "63W 36/4 13T",
-   "next_earnings": "2026-08-24",
-   "priority": 22
+   "priority": 23
   },
   {
    "code": "DBI",
@@ -644,11 +917,11 @@
    "industry": "Transportation",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.64,
+   "price": 5.63,
    "pivot": 5.79,
-   "dist_pivot": -2.6,
-   "rs": 74,
-   "score": 35,
+   "dist_pivot": -2.8,
+   "rs": 75,
+   "score": 36,
    "stage": "2",
    "base_no": 5,
    "warnings": [
@@ -656,73 +929,63 @@
    ],
    "ff": {
     "data": true,
+    "eps": false,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 5.79,
+    "max": 6.0795,
+    "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "20W 15/6 4T",
    "next_earnings": "2025-08-25",
-   "priority": 23
-  },
-  {
-   "code": "LGF",
-   "symbol": "LGF.AX",
-   "name": "L1 GOLD FUND LIMITED",
-   "industry": "Not Applic",
-   "status": "Buy-ready",
-   "setup": "cheat (3-C)",
-   "price": 2.35,
-   "pivot": 2.4,
-   "dist_pivot": -2.1,
-   "rs": 80,
-   "score": 31,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": false,
-    "pass": false,
-    "accel": false,
-    "code33": false
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "11W 15/13 1T",
-   "next_earnings": null,
    "priority": 24
   },
   {
-   "code": "ALL",
-   "symbol": "ALL.AX",
-   "name": "ARISTOCRAT LEISURE LIMITED",
-   "industry": "Consumer Services",
+   "code": "LSF",
+   "symbol": "LSF.AX",
+   "name": "L1 LONG SHORT FUND LIMITED",
+   "industry": "Not Applic",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 65.89,
-   "pivot": 66.71,
-   "dist_pivot": -1.2,
-   "rs": 75,
-   "score": 31,
+   "price": 4.65,
+   "pivot": 4.71,
+   "dist_pivot": -1.3,
+   "rs": 70,
+   "score": 24,
    "stage": "2",
-   "base_no": 1,
+   "base_no": 5,
    "warnings": [
-    "Reports earnings in 1 days (2026-11-12): don't hold a full position into the report without a profit cushion"
+    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
    ],
    "ff": {
     "data": true,
+    "eps": true,
     "pass": false,
     "accel": false,
-    "code33": false
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 4.71,
+    "max": 4.9455,
+    "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-11",
-   "footprint": "61W 39/3 18T",
-   "next_earnings": "2026-11-12",
+   "as_of": "2026-11-12",
+   "footprint": "9W 16/16 1T",
+   "next_earnings": "2025-08-20",
    "priority": 25
   }
  ]
