@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:40:23Z",
+ "updated": "2026-11-12T19:26:01Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -17280,6 +17280,586 @@
     {
      "title": "ShortSqueeze: TGT short interest (aggregator)",
      "url": "https://shortsqueeze.com/?symbol=TGT"
+    }
+   ]
+  },
+  "ASX:ALK": {
+   "market": "ASX",
+   "code": "ALK",
+   "name": "Alkane Resources Ltd",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$1.81",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Alkane is now a three-mine gold-antimony producer (Tomingley, Costerfield, Bjorkdal) after its Aug-2025 merger with Mandalay. FY26 was a record year: EPS 17.69c vs 5.46c and operating cash flow A$460M, with A$440M of cash and bullion. The verdict is capped at Watch only by repeated on-market selling from director Bradford Mills (about 100M shares since Jan-2026) and the CEO in Sep-2026, while gold and antimony prices in A$ are falling and Q1 FY27 revenue was down 20% on the prior quarter.",
+   "catalyst": "MODERATE: higher earnings after the Mandalay merger, ASX 200 entry (22 Apr 2026), and a maiden 2c dividend plus a A$50M buyback (Aug/Sep 2026); San Antonio access at Tomingley follows the Newell Hwy switch in the Jun-2027 quarter.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Basic EPS 1H FY26 5.32c vs 2.18c (+144%); 2H FY26 12.37c vs 3.28c (+277%, derived); FY26 17.69c record (+224%). Q1 FY27 EPS not found",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "FY26 revenue A$935.8M vs A$262.4M (+257%), mostly Mandalay acquisition. Q1 FY27 A$206M: +40% YoY but -20% vs Q4 FY26 A$257M",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "FY26 gross margin 37% vs 22%; net 24% vs 13%. Q1 FY27 margin over AISC A$2,323/oz vs Q3 FY26 ~A$3,387/oz (falling). Code 33 not met",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY26 operating cash flow A$460M is 2.0x NPAT A$229M; stockpile fair-value uplift expensed. Main concern: Tomingley hedges at A$2,854/oz cap the realised price",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q1 FY27 output 40.7koz, FY27 guidance kept; stock -4.8% on results day. MA Financial cut to Hold, A$1.75 (16 Oct); Ord Minnett Buy, A$2.20",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: merger scale (Aug-25), ASX 200 entry (Apr-26), maiden dividend + A$50M buyback (Sep-26), reserves up at all 3 mines (Sep-26)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Cyclical mid-tier gold/antimony miner, late cycle: gold A$5,800/oz (12 Nov) vs A$6,035 avg Sep qtr; US$ gold ~28% below Jan-26 peak; antimony falling",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Shares 1,366M vs 606M (Jun-25, merger). Director B Mills sold 50M (Jan), 27M (Feb-Mar), 25M (Sep-26); CEO sold 2M (Sep-26). Inst % not found",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash+bullion A$440M, equipment debt A$16M, A$110M RCF undrawn; FY26 ROE ~20.5%. No raise likely; A$55-60M tax due Dec qtr",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q1 FY27 accounts not found; Dec-26 quarterly late Jan-27; 1H FY27 results about mid-Feb 2027. Gold price is the swing factor. Short interest not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "No placement, SPP or trading halt found in the last 12 months (merger shares issued Aug-25). On-market buyback of up to A$50M active. Producer",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Gold in A$ is falling from its Jan-2026 peak and antimony prices are falling; earnings are highly leveraged to both",
+    "Repeated large on-market sales by director Bradford Mills (about 100M shares in 2026) are overhang/supply",
+    "Costerfield grade and dilution problems (Q1 FY27 AISC A$3,194/oz) plus A$160-190M of FY27 growth capex",
+    "21k oz of Tomingley hedges at about A$2,854/oz and a A$55-60M tax payment hit Dec-qtr cash",
+    "Next results: Dec-2026 quarterly (late Jan 2027) and 1H FY27 results (about mid-Feb 2027). Re-rate to candidate if insider selling stops and gold turns up"
+   ],
+   "next_event": "Dec-2026 quarterly report (late Jan 2027, date not announced); 1H FY27 results about mid-Feb 2027 (1H FY26 was released 13 Feb 2026). Q1 FY27 financial statements not found",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Quarterly Report to 30 September 2026 (Alkane)",
+     "url": "https://alkres.com/quarterly-report-to-30-september-2026/"
+    },
+    {
+     "title": "Q1 FY27 quarterly report details (StockTitan, aggregator)",
+     "url": "https://www.stocktitan.net/news/ALKEF/alkane-resources-quarterly-report-september-ufhg5ojjk8ht.html"
+    },
+    {
+     "title": "Record FY26 NPAT A$228.7M (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/08/21/3348911/0/en/record-fy26-net-profit-after-tax-of-a-228-7-million-up-590.html"
+    },
+    {
+     "title": "Appendix 4E and FY26 statutory accounts (ASX, 21 Aug 2026)",
+     "url": "https://newsfile.moomoo.com/public/NN-PersistNoticeAttachment/7781/20260821/ASX-FTP-6A1339588.PDF"
+    },
+    {
+     "title": "Q2 and H1 FY2026 results (StockTitan, aggregator)",
+     "url": "https://www.stocktitan.net/news/ALKEF/alkane-resources-announces-record-operating-record-financial-results-dadj4dlqdlav.html"
+    },
+    {
+     "title": "Q1 FY2026 Operating & Financial Results (StockTitan, aggregator)",
+     "url": "https://www.stocktitan.net/news/ALKEF/q1-fy2026-operating-financial-8ujymb5iy479.html"
+    },
+    {
+     "title": "Q3 FY2026 record profit A$93M (ASX, 15 May 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260515/pdf/06zm6477z46fv4.pdf"
+    },
+    {
+     "title": "Q1 FY2026 revenue A$147M (Seeking Alpha)",
+     "url": "https://seekingalpha.com/news/4509979-alkane-resources-ltd-reports-q1-results"
+    },
+    {
+     "title": "Q1 FY27 earnings call transcript (Investing.com)",
+     "url": "https://za.investing.com/news/stock-market-news/earnings-call-transcript-alkane-resources-posts-steady-q1-2027-output-as-shares-fall-93CH-4521151"
+    },
+    {
+     "title": "ALK announcements list (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/alk/alkane-resources-ltd/announcements"
+    },
+    {
+     "title": "ALK director interest notices (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/alk/alkane-resources-ltd/change-in-directors-interest"
+    },
+    {
+     "title": "ALK quote and substantial holders (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/alk/alkane-resources-ltd"
+    },
+    {
+     "title": "Appendix 3Y N Earner, 31 Aug 2026",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260902/499500182/a9c56e7f9dc6270cff17d19a056cdb6c.pdf"
+    },
+    {
+     "title": "CEO sells $3.9M of shares (Motley Fool, 11 Sep 2026)",
+     "url": "https://www.fool.com.au/2026/09/11/ceo-sells-3-9-million-of-shares-should-investors-be-worried/"
+    },
+    {
+     "title": "MA Financial Hold, A$1.75 target",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ma-financial-sets-aud-1-75-target-for-alkane-resources-stock/70376105"
+    },
+    {
+     "title": "Ord Minnett Buy, A$2.20 target",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ord-minnett-sets-aud-2-20-target-for-alkane-resources-stock/70351470"
+    },
+    {
+     "title": "Alkane to enter S&P/ASX 200 (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alkane-resources-enter-p-asx-011300874.html"
+    },
+    {
+     "title": "Gold plunges to 1-year low (Motley Fool, 2 Nov 2026)",
+     "url": "https://www.fool.com.au/2026/11/02/gold-plunges-to-a-1-year-low-triggering-global-sell-off-time-to-buy-gold-or-miners/"
+    },
+    {
+     "title": "Live gold price in AUD (12 Nov 2026)",
+     "url": "https://www.goldcalculator.com.au/live-gold-price"
+    }
+   ]
+  },
+  "ASX:AUC": {
+   "market": "ASX",
+   "code": "AUC",
+   "name": "Ausgold Ltd",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$1.35",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Ausgold is a pre-revenue WA gold developer (Katanning, 1.33Moz reserves, FID not taken) that agreed on 17 Aug 2026 to a recommended OceanaGold scheme: 0.03365 OGC shares or A$1.36 cash (capped A$194m pool) per share. At A$1.35 the stock is pinned to the deal terms, with the scheme vote on 27 Nov 2026 and last ASX trading day on 2 Dec 2026, so there is no SEPA earnings or breakout upside left. The 'VCP' is merger-arbitrage trading, and with no earnings or sales the stock fails the method outright.",
+   "catalyst": "OceanaGold scheme of arrangement announced 17 Aug 2026 (implied A$1.36/share, A$776m, 28% premium); this caps upside rather than driving earnings, so WEAK for SEPA.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "No earnings: FY26 (Jun-26) net loss A$9.72m vs FY25 loss A$10.75m. Pre-revenue developer; no consensus EPS found.",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "No revenue (FY26). Katanning is pre-production; FID was targeted for end-2026 but has not been taken.",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "n/a: no sales, so there are no margins. Code 33 is not met.",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "No earnings to assess. FY26 operating cash flow was -A$1.65m, offset by interest income; spending is funded by equity.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "No analyst estimates found. Independent expert (Oct-26) values AUC at A$1.25-1.46 and says the scheme is fair and reasonable; no guidance changes.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "OceanaGold scheme (17 Aug 2026) at A$1.36 implied fixes the exit price. WEAK as an upside catalyst; no rival bid found.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Gold developer and takeover target. A$ gold A$6,074/oz (30 Sep 2026) vs A$7,111 peak (Feb 2026): late-cycle, softening.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "549.8m shares, about A$742m cap. Top 20 hold 76.6% (Aug-26); L1 10.2%, JPM 5.0%. Heavy dilution FY26. No insider sales found.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Cash A$87.4m, no debt (30 Jun 2026); 5B item 8.7 = 8.4 quarters. A$20m OGC bridge loan from Nov-26. Sep-26 5B not found.",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Binary scheme vote on 27 Nov 2026, second court hearing 1 Dec. If it fails, standalone pre-bid price was A$1.065 (-21%). Short data not found.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "A$80m placement plus SPP at A$0.80 (Nov-25, T2 Jan-26). Developer, so power play only. Delists after last trade 2 Dec 2026.",
+     "result": "FAIL"
+    }
+   ],
+   "risks": [
+    "Upside is capped at deal value: A$1.36 cash (pool capped at A$194m, scale-back) or 0.03365 OGC shares, which move with OGC and gold.",
+    "Scheme vote failure or a court or MAC issue would send AUC back to standalone value (pre-bid close A$1.065 on 14 Aug 2026).",
+    "Falling gold price (A$ gold down about 15% from the Feb-2026 peak to Sep-2026) erodes the scrip value and OGC's share price.",
+    "As a standalone business, Katanning still needs FID and project funding, so further dilution would be likely.",
+    "Cause of the scanner's ~60-day-ago +4.7% gap could not be confirmed in primary sources; the decisive event was the 17 Aug 2026 bid."
+   ],
+   "next_event": "Scheme meeting 27 Nov 2026 (cash election deadline 20 Nov; second court hearing 1 Dec; last trading 2 Dec; implementation 11 Dec 2026)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "OceanaGold Agrees to Acquire Ausgold (ASX announcement, 17 Aug 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260817/pdf/072v90xcnvqwk9.pdf"
+    },
+    {
+     "title": "OceanaGold Announces Acquisition of Ausgold (PR Newswire, 17 Aug 2026)",
+     "url": "https://www.prnewswire.com/apac/news-releases/oceanagold-announces-acquisition-of-ausgold-302852703.html"
+    },
+    {
+     "title": "Scheme meeting and scheme booklet (ASX release, 21 Oct 2026)",
+     "url": "https://ausgoldlimited.com/wp-content/uploads/AusgoldProjectRamASXAnnouncementRegardingSchemeMeetingAndSchemeBookletPerFirstCourtHearingOrders21Oct26.pdf"
+    },
+    {
+     "title": "Quarterly report and Appendix 5B, June 2026 quarter",
+     "url": "https://api.investi.com.au/api/announcements/auc/679b468a-72a.pdf"
+    },
+    {
+     "title": "Ausgold Annual Report FY26 (1 Sep 2026)",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260901/499502615/eb8648bfe6f1533bfac5088cafc6e74a.pdf"
+    },
+    {
+     "title": "Placement and SPP announcement (ASX, 19 Nov 2025)",
+     "url": "https://announcements.asx.com.au/asxpdf/20251119/pdf/06s5skp9p1tnhz.pdf"
+    },
+    {
+     "title": "Form 604 L1 Capital (11 Sep 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260911/pdf/0740dgwgg4w2pj.pdf"
+    },
+    {
+     "title": "Form 603 JPMorgan (14 Sep 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260915/pdf/07431p4mky4j13.pdf"
+    },
+    {
+     "title": "FIRB approval for scheme (DiscoveryAlert, aggregator, 28 Oct 2026)",
+     "url": "https://discoveryalert.com/asx-stock-news/mining/auc-ausgold-ltd-oceanagold-takeover-firb-approval-october-2026/"
+    },
+    {
+     "title": "ACCC waiver WA-95041 (MergerLoop, aggregator)",
+     "url": "https://www.mergerloop.com.au/deals/WA-95041/oceanagold-ausgold"
+    },
+    {
+     "title": "Gold price in A$ monthly (YCharts, aggregator)",
+     "url": "https://ycharts.com/indicators/gold_price_in_australian_dollar_monthly"
+    },
+    {
+     "title": "Ausgold share price and director transactions (Motley Fool, aggregator)",
+     "url": "https://www.fool.com.au/tickers/asx-auc/"
+    },
+    {
+     "title": "Gold's slide and Ausgold deal choice (Kalkine, aggregator)",
+     "url": "https://kalkinemedia.com/au/stocks/gold/golds-slide-raises-the-stakes-which-deal-will-ausgold-asxauc-choose"
+    }
+   ]
+  },
+  "ASX:LSF": {
+   "market": "ASX",
+   "code": "LSF",
+   "name": "L1 Long Short Fund Ltd",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$4.65",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "LSF is a leveraged long/short LIC managed by L1 Capital that had a record FY26 (net portfolio return +45.4%, EPS 100.41c vs 15.91c), but its 'earnings' are mark-to-market investment gains and pre-tax NTA has fallen from about $4.56 (11 Aug) to $4.11 (31 Oct) and $4.20 (5 Nov). At A$4.65 the shares trade at roughly a 10.7% premium to pre-tax NTA ($4.1991, 5 Nov) and 16% to post-tax NTA, so the breakout relies on the premium widening rather than on growth in underlying value. That makes it Watch only, not a SEPA candidate.",
+   "catalyst": "WEAK: quarterly dividends rising (3.5c to 3.9c fully franked, Q1 FY27 3.9c payable 8 Dec 2026) and a strong track record; no new earnings driver beyond portfolio returns.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "FY26 EPS 100.41c vs 15.91c (record); 1H FY26 65.80c vs -12.02c. FY27 to date NTA down (Oct -2.3%), so 1H FY27 is set to fall YoY",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "FY26 total income $1,308.7m vs $317.5m, almost all investment gains (1H: $725m net gains). Not recurring sales; n/a for a LIC",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "n/a for a LIC. FY26 performance fee $228.5m + mgmt fee $35.7m vs NPAT $634.6m; 20% fee above high watermark. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "FY26 NPAT $634.6m mostly unrealised gains; operating cash flow -$182.1m (FY25 +$161.8m). Pre/post-tax NTA gap ~$0.20",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "No guidance or analyst consensus found. Last 90 days: Sep-Oct returns negative (CY YTD 21.4% Aug to 13.7% Oct); Oct -2.3% vs index +1.4%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: rising quarterly fully franked dividends (14.6c FY26, +14.5%); board reshuffle 21 Sep 2026. No earnings catalyst",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Top-performing LIC (3y 23.6% p.a., 5y 17.1% p.a. to Aug 2026) at ~10.7% premium to pre-tax NTA; peer group performance not checked",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "634.7m shares, ~1%/yr DRP growth only; founders Landau 8.52% and Lamm 8.23%, partly escrowed to Apr 2028; no sales found; top-20 42.3%",
+     "result": "PASS"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Jun 2026: cash $1,903.9m, broker borrowings $2,458.3m, shorts $1,275.8m, long book $4,367.4m. Leveraged but no corporate debt or raise need",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "1H FY27 results expected about late Feb 2027 (date not announced). Weekly NTA releases; risk the 10.7% premium compresses. Short interest not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "No placement, SPP, entitlement offer or trading halt found in 12m; DRP only. On-market buyback (10%) open to 31 May 2027, unused in FY26",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Premium of about 10.7% to pre-tax NTA ($4.1991, 5 Nov 2026) can compress fast; LSF has historically traded near or below NTA",
+    "NTA falling since August (pre-tax ~$4.56 on 11 Aug to $4.11 at 31 Oct), so 1H FY27 EPS is likely to be far below 1H FY26's 65.80c",
+    "Leveraged gross book (long $4.37bn, short $1.28bn, broker borrowings $2.46bn at 30 Jun 2026) amplifies drawdowns, e.g. MinRes fell 15.7% in Oct",
+    "Governance: founders left the board on 21 Sep 2026 and were replaced by L1 Group executives; this is key-person risk around L1 Capital",
+    "Late-stage base 5 per scanner: treat as a trade only"
+   ],
+   "next_event": "Nov 2026 monthly report (~9-10 Dec 2026) and weekly NTA; 1H FY27 half-year results (Appendix 4D) expected around late Feb 2027 (1H FY26 was released 20 Feb 2026; 2027 date not found)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "LSF Appendix 4E and FY26 Annual Report, 26 Aug 2026 (ASX)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0737nbr0grmhl6.pdf"
+    },
+    {
+     "title": "LSF Appendix 4D 1H FY26, 20 Feb 2026 (ASX)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260220/pdf/06wjh0ty4wmfj6.pdf"
+    },
+    {
+     "title": "LSF August 2026 monthly investment update",
+     "url": "https://bulletin.webull.com/qbd/announcement/20260908/499500996/eeae3be06eff661f20281c7d0b901d61.pdf"
+    },
+    {
+     "title": "LSF NTA as at 5 Nov 2026 (Kalkine summary of ASX release)",
+     "url": "https://kalkinemedia.com/au/news/announcements/l1-long-short-fund-reports-nta-of-41991-pre-tax-as-of-5-november-2026"
+    },
+    {
+     "title": "LSF NTA as at 11 Aug 2026 (Kalkine summary)",
+     "url": "https://kalkinemedia.com/au/news/announcements/l1-long-short-fund-limited-reports-nta-of-45596-per-share-as-of-august-11-2026"
+    },
+    {
+     "title": "LSF October 2026 return -2.3% (ad-hoc-news, aggregator)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/l1-long-short-fund-stock-october-return-fell-2-3-prozent/70488934"
+    },
+    {
+     "title": "LSF FY26 final dividend 3.8c (Kalkine summary)",
+     "url": "https://kalkinemedia.com/au/news/announcements/l1-long-short-fund-limited-announces-38-cents-fully-franked-final-dividend-for-fy26"
+    },
+    {
+     "title": "LSF declares 3.9c dividend (TipRanks)",
+     "url": "https://www.tipranks.com/news/company-announcements/l1-long-short-fund-declares-3-9c-fully-franked-dividend"
+    },
+    {
+     "title": "LSF FY26 45.4% net return and board changes (TipRanks)",
+     "url": "https://www.tipranks.com/news/company-announcements/l1-long-short-fund-reports-45-4-fy2026-net-portfolio-return"
+    },
+    {
+     "title": "LSF board reshuffle effective 21 Sep 2026 (Kalkine)",
+     "url": "https://kalkinemedia.com/au/news/announcements/l1-long-short-fund-limited-announces-board-reshuffle-with-new-executive-directors-effective-september-21-2026"
+    },
+    {
+     "title": "Lamm final director's interest notice (TipRanks)",
+     "url": "https://www.tipranks.com/news/company-announcements/l1-long-short-fund-director-raphael-lamm-resigns-confirms-lockedin-shareholdings"
+    },
+    {
+     "title": "Mayne Report: questions for 2026 LSF AGM",
+     "url": "https://www.maynereport.com/articles/2026/11/10-0645-2092.html"
+    },
+    {
+     "title": "MarketScreener LSF news list",
+     "url": "https://in.marketscreener.com/quote/stock/L1-LONG-SHORT-FUND-LIMITE-41593569/news/"
+    },
+    {
+     "title": "LSF Nov 2025 investor update (Quartr summary)",
+     "url": "https://quartr.com/events/l1-long-short-fund-limited-lsf-status-update_FsJtkmt0"
+    },
+    {
+     "title": "LSF share price 12 Nov 2026 (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/lsf/l1-long-short-fund-limited/share-price"
+    },
+    {
+     "title": "LSF price history (StockAnalysis)",
+     "url": "https://stockanalysis.com/quote/asx/LSF/history/"
+    }
+   ]
+  },
+  "ASX:WAF": {
+   "market": "ASX",
+   "code": "WAF",
+   "name": "West African Resources Ltd",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "A$3.53",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "WAF is a Burkina Faso gold producer reporting in A$ with a December year-end. The Kiaka ramp-up has roughly tripled revenue and doubled EPS: H1 2026 EPS was 30.7c, up 88%, and the Sep-2026 quarter set a record of 127,950oz with A$710m notional net cash. The verdict is capped at Watch only because of clustered director selling (founder Hyde sold A$7.9m in Apr 2026). Other concerns are a falling A$ gold price (-14.6% YTD to Oct 2026), an H1 NPAT miss against consensus, and rising Burkina Faso state take.",
+   "catalyst": "MODERATE-STRONG: Kiaka's first full year of dual-mine production. Kiaka made 76,030oz in Sep-26Q, up 13% QoQ, and group 2026 guidance is 430-490koz (Q3 2026 quarterly, 28 Oct 2026). Toega first gold is due Q1 2027.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Basic EPS 30.7c in H1 2026, +88% vs 16.3c; H2 2025 25.3c (derived), +99%. FY25 record 41.6c (+101%). Slight deceleration. FY26 consensus 70.5c (FNArena).",
+     "result": "PASS"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue A$1,462.7m in H1 2026, +206% vs A$477.3m; H2 2025 +176%. All organic from the Kiaka ramp-up; Q3 2026 gold sales were A$813m.",
+     "result": "PASS"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Gross margin 60.0% in H1 2026 vs 54.9%, but net margin fell to 29.9% from 45.0% on tax, royalties, withholding tax and FX. Code 33 not met.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "H1 2026 OCF A$689.8m vs NPAT A$436.6m. Biggest concern is rising state take: royalties A$181.5m, withholding tax in A$122.1m other expenses, and NCI.",
+     "result": "PASS"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "H1 2026 NPAT A$437m missed Visible Alpha's ~A$598m. 2026 guidance held 28 Oct. Canaccord raised its target 2 Nov; Ord Minnett unchanged 29 Sep.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "Kiaka ramp-up drove a record Q3 2026 of 127,950oz at AISC US$1,570/oz. Toega first gold Q1 2027 and a 10-year outlook Q1 2027. Rated MODERATE-STRONG.",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Mid-tier unhedged gold producer, cyclical and late in the cycle. A$ gold A$5,567/oz at end-Oct 2026, -14.6% YTD (WGC). Peer strength not checked.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "1.144bn shares, +11% in 3 yrs; top 20 hold 90.8%. Clustered director sales: Hyde A$7.9m and Mounsey Apr-26; Hopkins A$3.4m Dec-25. No buys.",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Cash A$1,195m at 30 Sep 2026 (before A$229m dividend); debt A$388m at 30 Jun 2026, repaying early. Net cash ~A$710m; FY25 ROE ~32%. No raise needed.",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "SOPAMIB Kiaka 25% deal due Q4 2026; Dec-Q update early Jan 2027; FY26 results ~mid-Mar 2027 (not announced). Short interest not found.",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "No placement, SPP or entitlement offer in 12 months (last raise 2024). Suspended until ~25 Nov 2025 over Kiaka stake push. Producer.",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Burkina Faso sovereign risk: state stake in Kiaka rising to 40% (WAF 85% to 60%), higher royalties, a 15% priority dividend, and the 2025 nationalisations of other miners",
+    "A$ gold price falling (-7.4% in Oct 2026, -14.6% YTD); WAF is fully unhedged, so H2 2026 realised price and margins will be lower",
+    "Founder and director selling (Hyde sold ~14% of his holding in Apr 2026) with no insider buying",
+    "Kiaka bottlenecks: explosives permit still pending and power reliability (a ~US$50m HFO plant from 2027); Toega delivery behind schedule",
+    "Consensus miss history: H1 2026 NPAT ~27% below Visible Alpha consensus despite record production"
+   ],
+   "next_event": "SOPAMIB Kiaka stake completion (expected Dec-2026 quarter); Dec-2026 quarter production update ~early Jan 2027; FY2026 full-year results ~mid-March 2027 (prior year 17 Mar 2026; exact date not announced)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "WAF June 2026 Half Year Financial Report (ASX, 10 Sep 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260910/pdf/073xyz0grn3c5k.pdf"
+    },
+    {
+     "title": "WAF Delivers A$437 million NPAT for H1 2026 (ASX press release, 10 Sep 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260910/pdf/073xz153f2bk49.pdf"
+    },
+    {
+     "title": "WAF 2025 Annual Report (ASX, 17 Mar 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260317/pdf/06xhmqql06fvnh.pdf"
+    },
+    {
+     "title": "WAF June 2025 Half Year Report (ASX, 26 Aug 2025)",
+     "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06n9xrkgyr5sqv.pdf"
+    },
+    {
+     "title": "WAF records 127,950oz gold quarter, Sep-2026 quarterly summary (Surestone, aggregator)",
+     "url": "https://surestone.com.au/news/asx/waf/west-african-resources-records-127950oz-gold-quarter-2026-10-28"
+    },
+    {
+     "title": "WAF Q3 2026 production update (Discovery Alert, aggregator)",
+     "url": "https://discoveryalert.com/asx-stock-news/mining/waf-west-african-resources-q3-production-update-october-2026/"
+    },
+    {
+     "title": "Sep-2026 quarterly investor call transcript (Investing.com)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-west-african-resources-posts-record-q3-2026-output-93CH-4977160"
+    },
+    {
+     "title": "H1 2026 result vs Visible Alpha consensus (Skrill Network, aggregator)",
+     "url": "https://skrillnetwork.com/west-african-resources-asxwaf-post-more-than-doubles-half-year-profit-declares-dividend"
+    },
+    {
+     "title": "H1 2026 margins commentary (Simply Wall St via Webull, aggregator)",
+     "url": "https://www.webull.com/news/15553606540715008"
+    },
+    {
+     "title": "WAF announcements list (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/waf/west-african-resources-limited/announcements"
+    },
+    {
+     "title": "WAF announcements page 2 (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/waf/west-african-resources-limited/announcements?page=2"
+    },
+    {
+     "title": "WAF change in directors' interest (InvestSMART)",
+     "url": "https://www.investsmart.com.au/security/asx/waf/west-african-resources-limited/change-in-directors-interest"
+    },
+    {
+     "title": "State Street substantial holding 7.5% (Kalkine)",
+     "url": "https://kalkinemedia.com/au/news/announcements/state-street-corporation-increases-voting-power-in-west-african-resources-to-75"
+    },
+    {
+     "title": "FNArena consensus forecasts WAF (aggregator)",
+     "url": "https://fnarena.com/index.php/analysis-data/consensus-forecasts/stock-analysis/?code=WAF"
+    },
+    {
+     "title": "Gold Market Commentary October 2026 (World Gold Council)",
+     "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026"
+    },
+    {
+     "title": "Gold price in Australian dollars, monthly (YCharts/WGC)",
+     "url": "https://ycharts.com/indicators/gold_price_in_australian_dollar_monthly"
+    },
+    {
+     "title": "WAF resumes trading after Burkina Faso Kiaka stake talks (Mining Weekly, 25 Nov 2025)",
+     "url": "https://newsletter.en.creamermedia.com/article/waf-resumes-trading-after-confirming-constructive-talks-with-burkina-faso-over-kiaka-stake-2025-11-25"
     }
    ]
   }
