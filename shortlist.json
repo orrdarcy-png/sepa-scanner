@@ -1,82 +1,6 @@
 {
- "generated": "2026-11-12T20:49:58Z",
+ "generated": "2026-11-12T22:21:25Z",
  "stocks": [
-  {
-   "code": "VCTR",
-   "symbol": "VCTR",
-   "name": "Victory Capital Holdings, Inc.",
-   "industry": "Asset Management & Custody Banks",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 125.74,
-   "pivot": 120.775,
-   "dist_pivot": 4.1,
-   "rs": 95,
-   "score": 61,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [
-    "Largest one-day drop in 6 months happened in the last 2 weeks"
-   ],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 120.775,
-    "max": 126.8138,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "10W 18/10 3T",
-   "next_earnings": "2027-02-03",
-   "priority": 1
-  },
-  {
-   "code": "SWKS",
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions",
-   "industry": "Semiconductors",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 87.64,
-   "pivot": 85.43,
-   "dist_pivot": 2.6,
-   "rs": 89,
-   "score": 51,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 85.43,
-    "max": 89.7015,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "7W 21/6 3T",
-   "next_earnings": "2027-02-02",
-   "priority": 2
-  },
   {
    "code": "SOL",
    "symbol": "SOL.AX",
@@ -112,122 +36,7 @@
    "as_of": "2026-11-12",
    "footprint": "7W 9/7 2T",
    "next_earnings": "2026-09-24",
-   "priority": 3
-  },
-  {
-   "code": "AHR",
-   "symbol": "AHR",
-   "name": "American Healthcare REIT",
-   "industry": "Health Care REITs",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 59.23,
-   "pivot": 58.06,
-   "dist_pivot": 2.0,
-   "rs": 70,
-   "score": 43,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 58.06,
-    "max": 60.963,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "14W 16/10 2T",
-   "next_earnings": "2026-11-05",
-   "priority": 4
-  },
-  {
-   "code": "WAB",
-   "symbol": "WAB",
-   "name": "Wabtec",
-   "industry": "Construction Machinery & Heavy Transportation Equipment",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 304.18,
-   "pivot": 303.9,
-   "dist_pivot": 0.1,
-   "rs": 73,
-   "score": 43,
-   "stage": "2",
-   "base_no": 3,
-   "warnings": [
-    "Largest one-day drop in 6 months happened in the last 2 weeks"
-   ],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": true,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 303.9,
-    "max": 319.095,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "15W 11/8 2T",
-   "next_earnings": "2026-10-21",
-   "priority": 5
-  },
-  {
-   "code": "IEX",
-   "symbol": "IEX",
-   "name": "IDEX Corporation",
-   "industry": "Industrial Machinery & Supplies & Components",
-   "status": "Breaking out",
-   "setup": "VCP",
-   "price": 239.96,
-   "pivot": 238.18,
-   "dist_pivot": 0.7,
-   "rs": 70,
-   "score": 40,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [
-    "Largest one-day drop in 6 months happened in the last 2 weeks"
-   ],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 238.18,
-    "max": 250.089,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "15W 10/8 3T",
-   "next_earnings": "2026-10-28",
-   "priority": 6
+   "priority": 1
   },
   {
    "code": "FIVE",
@@ -236,11 +45,11 @@
    "industry": "Other Specialty Retail",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 250.74,
+   "price": 247.16,
    "pivot": 258.66,
-   "dist_pivot": -3.1,
-   "rs": 81,
-   "score": 56,
+   "dist_pivot": -4.4,
+   "rs": 80,
+   "score": 55,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -254,7 +63,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 48,
+    "days_ago": 49,
     "pct": 5.7,
     "vol_mult": 2.4,
     "held": true
@@ -266,10 +75,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "11W 24/9 2T",
    "next_earnings": "2026-12-02",
-   "priority": 7
+   "priority": 2
   },
   {
    "code": "WAF",
@@ -311,7 +120,7 @@
    "as_of": "2026-11-12",
    "footprint": "9W 20/5 2T",
    "next_earnings": "2026-09-10",
-   "priority": 8
+   "priority": 3
   },
   {
    "code": "INA",
@@ -353,7 +162,7 @@
    "as_of": "2026-11-12",
    "footprint": "62W 42/7 4T",
    "next_earnings": "2026-08-25",
-   "priority": 9
+   "priority": 4
   },
   {
    "code": "ROST",
@@ -362,15 +171,15 @@
    "industry": "Apparel Retail",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 241.27,
+   "price": 237.24,
    "pivot": 249.3,
-   "dist_pivot": -3.2,
-   "rs": 74,
-   "score": 48,
+   "dist_pivot": -4.8,
+   "rs": 71,
+   "score": 44,
    "stage": "2",
    "base_no": 3,
    "warnings": [
-    "Reports earnings in 8 days (2026-11-19): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 7 days (2026-11-19): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -382,7 +191,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 57,
+    "days_ago": 58,
     "pct": 6.5,
     "vol_mult": 2.5,
     "held": true
@@ -394,10 +203,10 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "14W 14/8 3T",
    "next_earnings": "2026-11-19",
-   "priority": 10
+   "priority": 5
   },
   {
    "code": "EVT",
@@ -439,7 +248,7 @@
    "as_of": "2026-11-12",
    "footprint": "63W 36/4 18T",
    "next_earnings": "2026-08-24",
-   "priority": 11
+   "priority": 6
   },
   {
    "code": "ALK",
@@ -476,46 +285,7 @@
    "as_of": "2026-11-12",
    "footprint": "7W 30/5 2T",
    "next_earnings": "2026-10-23",
-   "priority": 12
-  },
-  {
-   "code": "ATI",
-   "symbol": "ATI",
-   "name": "ATI Inc.",
-   "industry": "Aerospace & Defense",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 187.53,
-   "pivot": 189.85,
-   "dist_pivot": -1.2,
-   "rs": 79,
-   "score": 47,
-   "stage": "2",
-   "base_no": 7,
-   "warnings": [
-    "Late-stage base (\u2248 base 7): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "eps": true,
-    "pass": true,
-    "accel": true,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 189.85,
-    "max": 199.3425,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "13W 37/5 2T",
-   "next_earnings": "2026-10-29",
-   "priority": 13
+   "priority": 7
   },
   {
    "code": "TGT",
@@ -524,16 +294,16 @@
    "industry": "Consumer Staples Merchandise Retail",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 162.7,
+   "price": 160.9,
    "pivot": 166.4281,
-   "dist_pivot": -2.2,
+   "dist_pivot": -3.3,
    "rs": 92,
-   "score": 62,
+   "score": 61,
    "stage": "2",
    "base_no": 4,
    "warnings": [
     "Late-stage base (\u2248 base 4): treat as a trade, sell into strength",
-    "Reports earnings in 7 days (2026-11-18): don't hold a full position into the report without a profit cushion"
+    "Reports earnings in 6 days (2026-11-18): don't hold a full position into the report without a profit cushion"
    ],
    "ff": {
     "data": true,
@@ -552,47 +322,49 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "11W 15/5 2T",
    "next_earnings": "2026-11-18",
-   "priority": 14
+   "priority": 8
   },
   {
-   "code": "LNTH",
-   "symbol": "LNTH",
-   "name": "Lantheus Holdings",
-   "industry": "Health Care Supplies",
+   "code": "PK",
+   "symbol": "PK",
+   "name": "Park Hotels & Resorts",
+   "industry": "Hotel & Resort REITs",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 101.6,
-   "pivot": 102.9,
-   "dist_pivot": -1.3,
-   "rs": 89,
-   "score": 59,
+   "price": 16.25,
+   "pivot": 16.685,
+   "dist_pivot": -2.6,
+   "rs": 93,
+   "score": 60,
    "stage": "2",
-   "base_no": 2,
-   "warnings": [],
+   "base_no": 1,
+   "warnings": [
+    "Largest one-day drop in 6 months happened in the last 2 weeks"
+   ],
    "ff": {
     "data": true,
-    "eps": true,
+    "eps": false,
     "pass": false,
-    "accel": true,
+    "accel": false,
     "code33": false,
     "gap": false,
     "edge": false
    },
    "gap": null,
    "buy": {
-    "trigger": 102.9,
-    "max": 108.045,
+    "trigger": 16.685,
+    "max": 17.5192,
     "grade": "B"
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "19W 12/4 5T",
-   "next_earnings": "2026-11-05",
-   "priority": 15
+   "as_of": "2026-11-12",
+   "footprint": "3W 10/3 2T",
+   "next_earnings": "2026-11-04",
+   "priority": 9
   },
   {
    "code": "AUC",
@@ -634,44 +406,7 @@
    "as_of": "2026-11-12",
    "footprint": "11W 24/4 4T",
    "next_earnings": "2025-07-29",
-   "priority": 16
-  },
-  {
-   "code": "BIO",
-   "symbol": "BIO",
-   "name": "Bio-Rad Laboratories",
-   "industry": "Life Sciences Tools & Services",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 386.0,
-   "pivot": 394.73,
-   "dist_pivot": -2.2,
-   "rs": 84,
-   "score": 57,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": true,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 394.73,
-    "max": 414.4665,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "11W 12/3 3T",
-   "next_earnings": "2026-11-04",
-   "priority": 17
+   "priority": 10
   },
   {
    "code": "MRK",
@@ -680,9 +415,9 @@
    "industry": "Pharmaceuticals",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 147.18,
+   "price": 146.95,
    "pivot": 153.37,
-   "dist_pivot": -4.0,
+   "dist_pivot": -4.2,
    "rs": 88,
    "score": 57,
    "stage": "2",
@@ -698,7 +433,7 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 59,
+    "days_ago": 60,
     "pct": 8.7,
     "vol_mult": 3.3,
     "held": true
@@ -710,28 +445,26 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 18
+   "priority": 11
   },
   {
-   "code": "GRMN",
-   "symbol": "GRMN",
-   "name": "Garmin",
-   "industry": "Consumer Electronics",
+   "code": "LNTH",
+   "symbol": "LNTH",
+   "name": "Lantheus Holdings",
+   "industry": "Health Care Supplies",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 293.93,
-   "pivot": 296.95,
-   "dist_pivot": -1.0,
-   "rs": 80,
-   "score": 55,
+   "price": 101.25,
+   "pivot": 102.9,
+   "dist_pivot": -1.6,
+   "rs": 88,
+   "score": 57,
    "stage": "2",
-   "base_no": 3,
-   "warnings": [
-    "Largest one-day drop in 6 months happened in the last 2 weeks"
-   ],
+   "base_no": 2,
+   "warnings": [],
    "ff": {
     "data": true,
     "eps": true,
@@ -743,16 +476,53 @@
    },
    "gap": null,
    "buy": {
-    "trigger": 296.95,
-    "max": 311.7975,
+    "trigger": 102.9,
+    "max": 108.045,
     "grade": "B"
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "13W 16/6 4T",
-   "next_earnings": "2026-10-28",
-   "priority": 19
+   "as_of": "2026-11-12",
+   "footprint": "19W 12/4 5T",
+   "next_earnings": "2026-11-05",
+   "priority": 12
+  },
+  {
+   "code": "SEIC",
+   "symbol": "SEIC",
+   "name": "SEI Investments Company",
+   "industry": "Asset Management & Custody Banks",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 108.96,
+   "pivot": 111.19,
+   "dist_pivot": -2.0,
+   "rs": 78,
+   "score": 54,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 111.19,
+    "max": 116.7495,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "11W 12/6 3T",
+   "next_earnings": "2027-01-27",
+   "priority": 13
   },
   {
    "code": "LGND",
@@ -761,11 +531,11 @@
    "industry": "Biotechnology",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 316.83,
+   "price": 316.27,
    "pivot": 325.96,
-   "dist_pivot": -2.8,
+   "dist_pivot": -3.0,
    "rs": 92,
-   "score": 54,
+   "score": 53,
    "stage": "2",
    "base_no": 6,
    "warnings": [
@@ -789,47 +559,47 @@
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-12",
    "footprint": "18W 17/9 3T",
    "next_earnings": "2026-10-29",
-   "priority": 20
+   "priority": 14
   },
   {
-   "code": "SEIC",
-   "symbol": "SEIC",
-   "name": "SEI Investments Company",
-   "industry": "Asset Management & Custody Banks",
+   "code": "GRMN",
+   "symbol": "GRMN",
+   "name": "Garmin",
+   "industry": "Consumer Electronics",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 110.25,
-   "pivot": 110.9,
-   "dist_pivot": -0.6,
+   "price": 286.18,
+   "pivot": 296.95,
+   "dist_pivot": -3.6,
    "rs": 78,
-   "score": 54,
+   "score": 52,
    "stage": "2",
-   "base_no": 1,
+   "base_no": 3,
    "warnings": [],
    "ff": {
     "data": true,
     "eps": true,
     "pass": false,
-    "accel": false,
+    "accel": true,
     "code33": false,
     "gap": false,
     "edge": false
    },
    "gap": null,
    "buy": {
-    "trigger": 110.9,
-    "max": 116.445,
+    "trigger": 296.95,
+    "max": 311.7975,
     "grade": "B"
    },
    "market": "US",
    "currency": "US$",
-   "as_of": "2026-11-11",
-   "footprint": "10W 12/6 3T",
-   "next_earnings": "2027-01-27",
-   "priority": 21
+   "as_of": "2026-11-12",
+   "footprint": "13W 16/6 4T",
+   "next_earnings": "2026-10-28",
+   "priority": 15
   },
   {
    "code": "PRU",
@@ -866,6 +636,235 @@
    "as_of": "2026-11-12",
    "footprint": "7W 24/4 2T",
    "next_earnings": "2026-08-26",
+   "priority": 16
+  },
+  {
+   "code": "APOG",
+   "symbol": "APOG",
+   "name": "Apogee Enterprises, Inc.",
+   "industry": "Building Products",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 47.41,
+   "pivot": 49.5,
+   "dist_pivot": -4.2,
+   "rs": 83,
+   "score": 50,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 27,
+    "pct": 19.9,
+    "vol_mult": 7.1,
+    "held": true
+   },
+   "buy": {
+    "trigger": 49.5,
+    "max": 51.975,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "19W 32/5 4T",
+   "next_earnings": "2027-01-06",
+   "priority": 17
+  },
+  {
+   "code": "CUZ",
+   "symbol": "CUZ",
+   "name": "Cousins Properties",
+   "industry": "Office REITs",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 29.5,
+   "pivot": 30.77,
+   "dist_pivot": -4.1,
+   "rs": 71,
+   "score": 50,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": true,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 30.77,
+    "max": 32.3085,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "15W 18/6 2T",
+   "next_earnings": "2026-10-29",
+   "priority": 18
+  },
+  {
+   "code": "CSX",
+   "symbol": "CSX",
+   "name": "CSX Corporation",
+   "industry": "Rail Transportation",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 52.4,
+   "pivot": 52.62,
+   "dist_pivot": -0.4,
+   "rs": 80,
+   "score": 49,
+   "stage": "2",
+   "base_no": 4,
+   "warnings": [
+    "Late-stage base (\u2248 base 4): treat as a trade, sell into strength"
+   ],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 52.62,
+    "max": 55.251,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "15W 14/7 2T",
+   "next_earnings": "2027-01-28",
+   "priority": 19
+  },
+  {
+   "code": "UNP",
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "industry": "Rail Transportation",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 304.2,
+   "pivot": 306.34,
+   "dist_pivot": -0.7,
+   "rs": 73,
+   "score": 45,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": true,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 306.34,
+    "max": 321.657,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "16W 15/7 2T",
+   "next_earnings": "2027-01-26",
+   "priority": 20
+  },
+  {
+   "code": "CF",
+   "symbol": "CF",
+   "name": "CF Industries",
+   "industry": "Fertilizers & Agricultural Chemicals",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 124.92,
+   "pivot": 126.29,
+   "dist_pivot": -1.1,
+   "rs": 79,
+   "score": 45,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 126.29,
+    "max": 132.6045,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "9W 22/10 2T",
+   "next_earnings": "2026-11-05",
+   "priority": 21
+  },
+  {
+   "code": "ELV",
+   "symbol": "ELV",
+   "name": "Elevance Health",
+   "industry": "Managed Health Care",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 429.9,
+   "pivot": 448.54,
+   "dist_pivot": -4.2,
+   "rs": 77,
+   "score": 44,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 448.54,
+    "max": 470.967,
+    "grade": "B"
+   },
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-12",
+   "footprint": "3W 10/7 2T",
+   "next_earnings": "2027-01-28",
    "priority": 22
   },
   {
