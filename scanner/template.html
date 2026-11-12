@@ -219,6 +219,7 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 .buys{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px;margin-top:10px}
 .buy{display:block;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}
 .buy.a{border-color:var(--up);box-shadow:inset 3px 0 0 var(--up)}
+.buy.hold .act{color:var(--warn)}
 .gr{font-size:12px;font-weight:700;border-radius:6px;padding:1px 7px;white-space:nowrap;border:1px solid var(--line);color:var(--muted)}
 .gr.a{background:var(--up);border-color:var(--up);color:#fff}
 .buy .b1{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.buy .b1 b{font-size:17px}
@@ -414,11 +415,35 @@ function buyCalc(M, s){
   let sh=Math.floor(acct*rp/100/fx/((entry-stop)||1)); if(sh*entry*fx>acct*0.5) sh=Math.floor(acct*0.5/(entry*fx));
   return {now, entry, stop, sp, shares:sh, value:sh*entry*fx, risk:sh*(entry-stop)*fx};
 }
+/* Review gate: a buyable chart only counts as actionable when the morning SEPA review says "SEPA candidate" (and is under two weeks old). */
+function reviewGate(M, s){
+  const r=reviewFor(M,s);
+  if(!r) return {ok:false, state:REVIEWS_STATE==="ok"?"none":REVIEWS_STATE, r:null};
+  const age=daysOld(r.date);
+  if(age!=null&&age>14) return {ok:false, state:"stale", r};
+  if(r.verdict==="SEPA candidate") return {ok:true, state:"ok", r};
+  return {ok:false, state:r.verdict==="Watch only"?"watch":"reject", r};
+}
+function gatePill(g){
+  const [cls,txt] = {ok:["rv-c","Review ✓"], watch:["rv-w","Review: watch only"], reject:["rv-r","Review ✗ "+(g.r&&g.r.verdict!=="Reject"?g.r.verdict:"reject")],
+    stale:["rv-w","Review out of date"], none:["s-trend","Not reviewed yet"], loading:["s-trend","Checking review"], fail:["s-trend","Review unavailable"]}[g.state];
+  return `<span class="pill ${cls}" style="font-size:11px;padding:1px 7px">${esc(txt)}</span>`;
+}
 function buyAction(M, s){
-  const cur=M.currency||"", b=s.buy, k=buyCalc(M,s);
-  if(M.regime?.risk_on===false) return {act:`Watch only. Pivot ${fmtPx(b.trigger,cur)}`, lim:`If the market rule turns ON: buy above the pivot, up to <b class="mono">${fmtPx(b.max,cur)}</b>.`, k};
-  return k.now ? {act:`Buy now, around ${fmtPx(s.price,cur)}`, lim:`Broke out above ${fmtPx(b.trigger,cur)}. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k}
-               : {act:`Buy when it trades above ${fmtPx(b.trigger,cur)}`, lim:`Not before. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k};
+  const cur=M.currency||"", b=s.buy, k=buyCalc(M,s), g=reviewGate(M,s);
+  if(M.regime?.risk_on===false) return {act:`Watch only. Pivot ${fmtPx(b.trigger,cur)}`, lim:`If the market rule turns ON: buy above the pivot, up to <b class="mono">${fmtPx(b.max,cur)}</b>.`, k, g};
+  if(!g.ok){
+    const chart=`Chart trigger ${fmtPx(b.trigger,cur)}, max <b class="mono">${fmtPx(b.max,cur)}</b>.`;
+    const m={watch:["Hold off: review says Watch only","The SEPA review did not clear it. The reasons are in its review."],
+      reject:["Don't buy: review says "+esc(g.r?g.r.verdict:"Reject"),"The SEPA review did not clear it. The reasons are in its review."],
+      stale:["Wait: the review is over two weeks old","Re-run the review before buying."],
+      none:["Wait: not reviewed yet","The morning review hasn't covered it."],
+      loading:["Checking the review","One moment."],
+      fail:["Check the review first","Reviews couldn't load, so read the review before buying."]}[g.state];
+    return {act:m[0], lim:`${chart} ${m[1]}`, k, g, blocked:true};
+  }
+  return k.now ? {act:`Buy now, around ${fmtPx(s.price,cur)}`, lim:`Broke out above ${fmtPx(b.trigger,cur)}. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k, g}
+               : {act:`Buy when it trades above ${fmtPx(b.trigger,cur)}`, lim:`Not before. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k, g};
 }
 function gradePill(s){ const g=s.buy.grade==="A"?"A":"B";
   return `<span class="gr ${g==="A"?"a":""}" title="${g==="A"?"Grade A: buyable chart plus the tested edge (earnings gap + EPS growth)":"Grade B: buyable chart only, no tested edge"}">Grade ${g}</span>`; }
@@ -427,25 +452,33 @@ function buyCard(M, s){
   if(heldOf(M.name,s.code).length) notes.push("You already hold this.");
   if(s.breakout&&!s.breakout.strong_volume) notes.push("Breakout volume was light.");
   (s.warnings||[]).filter(w=>w.startsWith("Reports earnings")).forEach(w=>notes.push(w.split(":")[0]+": wait or go small."));
-  return `<button class="buy ${s.buy.grade==="A"?"a":""}" type="button" data-i="${M.stocks.indexOf(s)}">
-    <span class="b1"><b>${esc(s.code)}</b>${gradePill(s)}<span class="pill ${STATUS[s.status]}">${esc(s.status)}</span>${s.buy.grade==="A"?`<span class="fb fb-pass">Tested edge ✓</span>`:`<span class="fb fb-none">chart only</span>`}</span>
+  return `<button class="buy ${s.buy.grade==="A"&&!a.blocked?"a":""} ${a.blocked?"hold":""}" type="button" data-i="${M.stocks.indexOf(s)}">
+    <span class="b1"><b>${esc(s.code)}</b>${gradePill(s)}<span class="pill ${STATUS[s.status]}">${esc(s.status)}</span>${s.buy.grade==="A"?`<span class="fb fb-pass">Tested edge ✓</span>`:`<span class="fb fb-none">chart only</span>`}${gatePill(a.g)}</span>
     <span class="nm">${esc(s.name||s.industry||"")}</span>
     <div class="act">${a.act}</div><div class="lim">${a.lim}</div>
-    <div class="sz">Stop <b class="mono">${fmtPx(k.stop,cur)}</b> (${k.sp}% below) · <b class="mono">${k.shares.toLocaleString()}</b> shares ≈ A$${Math.round(k.value).toLocaleString()} · risk A$${Math.round(k.risk).toLocaleString()}</div>
+    ${a.blocked?"":`<div class="sz">Stop <b class="mono">${fmtPx(k.stop,cur)}</b> (${k.sp}% below) · <b class="mono">${k.shares.toLocaleString()}</b> shares ≈ A$${Math.round(k.value).toLocaleString()} · risk A$${Math.round(k.risk).toLocaleString()}</div>`}
     ${notes.length?`<div class="nt">${notes.map(esc).join(" ")}</div>`:""}</button>`;
 }
 function renderBuy(M){
   const el=$("#buylist"); if(!el) return;
   const all=M.stocks.filter(s=>s.buy), A=all.filter(s=>s.buy.grade==="A"), B=all.filter(s=>s.buy.grade!=="A"), on=M.regime?.risk_on;
+  const go=A.filter(s=>reviewGate(M,s).ok), wait=A.filter(s=>!reviewGate(M,s).ok), pl=n=>n===1?"":"s";
   const R=DATA.risk||{}, acct=store.get("acct",R.default_account||10000), rp=store.get("riskpct",R.default_risk_pct||1.25);
   if(on===undefined && !all.length){ el.innerHTML=`<h2>What to buy · ${esc(M.name)}</h2><p class="muted" style="margin:6px 0 0;font-size:14px">This list fills in after the next ${esc(M.name)} scan.</p>`; return; }
-  const ban = on ? `<div class="buyban on">Market rule is ON: new buys allowed. ${A.length?`${A.length} Grade A stock${A.length===1?"":"s"} to act on.`:"Nothing passes every test today, so there is nothing to buy."}</div>`
+  const ban = on ? `<div class="buyban on">Market rule is ON: new buys allowed. ${go.length?`${go.length} Grade A stock${pl(go.length)} cleared by the SEPA review to act on.`
+      :!A.length?"Nothing passes every test today, so there is nothing to buy."
+      :REVIEWS_STATE==="loading"?"Checking the SEPA reviews."
+      :REVIEWS_STATE==="fail"?`${A.length} Grade A chart${pl(A.length)}, but the SEPA reviews couldn't load. Read each review before buying.`
+      :`Nothing to act on: ${A.length} Grade A chart${pl(A.length)}, none cleared by the SEPA review.`}</div>`
                  : `<div class="buyban off">Do not buy today. The market rule is OFF. The prices below are for when it turns ON.</div>`;
   el.innerHTML = `<div class="buyhead"><h2>What to buy · ${esc(M.name)}</h2><span class="muted" style="font-size:13px">Sized for A$${Number(acct).toLocaleString()}, ${rp}% risk per trade. Change these in any stock's trade plan.</span></div>
     ${ban}
-    ${A.length?`<div class="buys">${A.map(s=>buyCard(M,s)).join("")}</div>`:(on?"":`<p class="muted" style="margin:10px 0 0;font-size:14px">No Grade A stock right now: none has both a buyable chart and the tested edge.</p>`)}
+    ${go.length?`<div class="buys">${go.map(s=>buyCard(M,s)).join("")}</div>`:""}
+    ${wait.length&&on!==false?`<p class="muted" style="margin:12px 0 0;font-size:14px">Grade A on the chart, but not cleared by the SEPA review:</p>`:""}
+    ${wait.length?`<div class="buys">${wait.map(s=>buyCard(M,s)).join("")}</div>`:""}
+    ${A.length?"":(on?"":`<p class="muted" style="margin:10px 0 0;font-size:14px">No Grade A stock right now: none has both a buyable chart and the tested edge.</p>`)}
     ${B.length?`<details style="margin-top:12px"><summary style="cursor:pointer;font-size:14px">Grade B: ${B.length} more with a buyable chart but without the tested edge (lower odds in the backtest)</summary><div class="buys">${B.map(s=>buyCard(M,s)).join("")}</div></details>`:""}
-    <p class="muted" style="font-size:12px;margin:10px 0 0"><b>Grade A</b> = buyable chart + tested edge (earnings gap and EPS up 25%+). <b>Grade B</b> = buyable chart only. Prices from the close on ${esc(M.as_of)}. If it opens above the "don't pay more than" price, skip it. Tap a stock for the chart and full plan.</p>`;
+    <p class="muted" style="font-size:12px;margin:10px 0 0"><b>Grade A</b> = buyable chart + tested edge (earnings gap and EPS up 25%+). <b>Grade B</b> = buyable chart only. A stock is only "to act on" when it is Grade A and its SEPA review, no more than two weeks old, says SEPA candidate. Prices from the close on ${esc(M.as_of)}. If it opens above the "don't pay more than" price, skip it. Tap a stock for the chart and full plan.</p>`;
   el.querySelectorAll("button.buy").forEach(b=>b.onclick=()=>openSheet(M, M.stocks[+b.dataset.i]));
 }
 
@@ -542,7 +575,7 @@ function fundBlock(s, cur){
     <p class="muted" style="font-size:12px;margin:8px 0 0">From Yahoo Finance. Coverage of ASX companies is patchy and most report half-yearly, so confirm with the prompts below before buying.</p>`;
 }
 /* ---------- morning SEPA reviews (written by the scheduled Claude task to the "data" branch) ---------- */
-let REVIEWS = {}, REVIEWS_UPDATED = null;
+let REVIEWS = {}, REVIEWS_UPDATED = null, REVIEWS_STATE = "loading"; /* loading | ok | fail */
 const RVCLS = {"SEPA candidate":"rv-c","Watch only":"rv-w","Reject":"rv-r"};
 function reviewFor(M, s){ return REVIEWS[M.name+":"+s.code] || null; }
 function daysOld(d){ return d ? Math.round((Date.now()-Date.parse(d))/864e5) : null; }
@@ -551,12 +584,16 @@ function reviewUrl(){
   if(!h.endsWith(".github.io")) return null;
   return `https://raw.githubusercontent.com/${h.split(".")[0]}/${seg[0]||h}/data/reviews.json`;
 }
+function reviewsDone(st){
+  REVIEWS_STATE=st;
+  if(DATA && markets.length){ const M=DATA.markets[state.market]; renderBuy(M); renderList(M); }
+}
 function loadReviews(){
-  const u=reviewUrl(); if(!u) return;
+  const u=reviewUrl(); if(!u) return reviewsDone("fail");
   fetch(u+"?t="+Math.floor(Date.now()/3e5), {cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
-    if(!j||!j.reviews) return; REVIEWS=j.reviews; REVIEWS_UPDATED=j.updated||null;
-    if(DATA && markets.length) renderList(DATA.markets[state.market]);
-  }).catch(()=>{});
+    if(!j||!j.reviews) return reviewsDone("fail");
+    REVIEWS=j.reviews; REVIEWS_UPDATED=j.updated||null; reviewsDone("ok");
+  }).catch(()=>reviewsDone("fail"));
 }
 function reviewBlock(M, s){
   const r=reviewFor(M,s);
@@ -580,7 +617,7 @@ function planBlock(s, cur){
   const entry = s.status==="Breaking out"||s.status==="Extended" ? s.price : (s.pivot || s.price);
   const held = heldOf(PLAN_M.name, s.code);
   return `${held.map(t=>`<div class="held">In your journal: <b class="mono">${left(t).toLocaleString()}</b> shares bought ${esc(fmtDate(t.opened))} at <b class="mono">${fmtPx(t.entry,cur)}</b>, stop <b class="mono">${fmtPx(t.stop,cur)}</b>. <a href="#journal" data-gojournal>Open the journal</a></div>`).join("")}
-    ${s.buy?(a=>`<div class="held">${gradePill(s)} <b>${a.act}.</b> ${a.lim} Stop ${fmtPx(a.k.stop,cur)} (${a.k.sp}% below entry).</div>`)(buyAction(PLAN_M,s)):`<div class="held">Not a buy yet: ${esc(s.status)}. ${s.pivot?`Watch for a tight setup under the pivot at ${fmtPx(s.pivot,cur)}.`:""}</div>`}
+    ${s.buy?(a=>`<div class="held">${gradePill(s)} <b>${a.act}.</b> ${a.lim}${a.blocked?"":` Stop ${fmtPx(a.k.stop,cur)} (${a.k.sp}% below entry).`}</div>`)(buyAction(PLAN_M,s)):`<div class="held">Not a buy yet: ${esc(s.status)}. ${s.pivot?`Watch for a tight setup under the pivot at ${fmtPx(s.pivot,cur)}.`:""}</div>`}
     <div class="plan">
     <label for="p-acct">Account size (A$)<input id="p-acct" type="number" inputmode="decimal" min="0" step="100" value="${acct}"></label>
     <label for="p-risk">Risk per trade (% of account)<input id="p-risk" type="number" inputmode="decimal" min="0.1" max="5" step="0.25" value="${rp}"></label>
