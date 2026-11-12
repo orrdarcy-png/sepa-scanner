@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:30:12Z",
+ "updated": "2026-11-12T22:30:15Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -12999,12 +12999,12 @@
    "market": "US",
    "code": "ROST",
    "name": "Ross Stores",
-   "date": "2026-11-04",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$245.74",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$237.24",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "Off-price leader Ross is in a traffic-led growth spurt under CEO Jim Conroy: comps +17% in Q1 FY26 and +10% in Q2 FY26, GAAP EPS +37% and +71% (+32% ex a $0.60 tariff refund), and FY26 EPS guidance raised to $8.61-8.77 from $6.61. But sales growth (+13% in Q2) is below the 20% SEPA bar and guided to slow to +9-11% in Q3, and insiders have sold in clusters (six insiders in Mar 2026, then a $11.3M non-10b5-1 CEO sale on 14 Sep 2026), which caps the verdict at Watch only.",
+   "summary": "Off-price leader Ross is in a traffic-led growth spurt under CEO Jim Conroy: comps +17% in Q1 FY26 and +10% in Q2 FY26, GAAP EPS +37% and +71% (+32% ex a $0.60 tariff refund), FY26 EPS guide raised to $8.61-8.77. Analysts keep upgrading (UBS to Buy, PT $315, 26 Oct; Cantor Overweight, PT $276, 10 Nov), but sales growth (+13%, guided +9-11% for Q3) is below the 20% bar and clustered insider selling caps the verdict at Watch only. Q3 results land 19 Nov, inside a week.",
    "catalyst": "New CEO Jim Conroy's customer-acquisition push: comps accelerated to +17% in Q1 FY26 and +10% in Q2 FY26, with FY26 EPS guidance raised on 21 May and 20 Aug 2026 (earnings releases).",
    "scorecard": [
     {
@@ -13029,7 +13029,7 @@
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2 EPS $2.66 vs consensus $1.94 (FMP) and guide $1.85-1.93; FY26 guide raised 20 Aug to $8.61-8.77 (was $7.50-7.74). PTs raised to $285-290",
+     "finding": "Q2 EPS $2.66 vs $1.94 cons; FY26 guide raised 20 Aug to $8.61-8.77. UBS Neutral->Buy PT $239->$315 (26 Oct); Cantor init OW $276 (10 Nov)",
      "result": "PASS"
     },
     {
@@ -13044,7 +13044,7 @@
     },
     {
      "check": "Supply and ownership",
-     "finding": "319.45M sh (14 Aug 2026), -6.6% vs 342.0M (Mar 2023); inst 94.4% (agg). Clustered insider sales Mar 2026 (6 names) and CEO $11.3M on 14 Sep 2026",
+     "finding": "319.45M sh (14 Aug 2026), -6.6% vs Mar 2023; inst 94.4% (agg). Clustered sales Mar 2026 (6 names) + CEO $11.3M 14 Sep; 12-mo ~$23M sold, 0 buys (agg)",
      "result": "FAIL"
     },
     {
@@ -13054,25 +13054,37 @@
     },
     {
      "check": "Event risk",
-     "finding": "Q3 FY26 results 19 Nov 2026 after close; guide EPS $1.75-1.83, consensus $1.82 (top of range); Q4 comp guide +4-5%. Short ~3.1%, 4.6 days",
+     "finding": "Q3 FY26 results confirmed 19 Nov 2026 ~4pm ET (PR 5 Nov); guide EPS $1.75-1.83; Q4 comp guide +4-5% vs +9% comp. Short ~3.1% (Oct, agg)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed late Aug 2026 (exact date not found); next earnings 19 Nov 2026; no offering, shelf or ATM found",
+     "finding": "Last 10-Q: Q2 FY26 (qtr to 1 Aug 2026), filed Aug 2026 (exact date not found); next earnings 19 Nov 2026; no offering, shelf or ATM found",
      "result": "PASS"
     }
    ],
    "risks": [
     "Sales growth +13% in Q2 FY26 and guided to +9-11% in Q3, below the SEPA 20% bar; Q4 comps guided only +4-5% against a +9% comparison",
-    "Q3 FY26 report on 19 Nov 2026 (15 days away) with consensus $1.82 at the top of the $1.75-1.83 guide; a soft Q4 outlook could break the new breakout",
+    "Q3 FY26 report on 19 Nov 2026 (7 days away) with consensus near the top of the $1.75-1.83 guide; stock already slipped below the $249.30 pivot (fell 4.3% on 5 Nov)",
     "Insider selling: six insiders sold in Mar-Apr 2026 (~$21M per Form 144s) and the CEO sold $11.3M on 14 Sep 2026 outside a 10b5-1 plan",
     "Over-owned: ~94% institutional (aggregator), so few new buyers left; FY26 EPS flattered by a ~$0.60 one-off tariff refund",
-    "Would upgrade if Q3 beats, Q4 guide rises and sales growth holds near 15-20% with no further insider selling"
+    "Would upgrade if Q3 beats, Q4 guide rises and sales growth holds near 15-20% with no further insider selling; also check for new Form 4 sales after the report"
    ],
-   "next_event": "Q3 FY26 results (Aug-Oct 2026), 19 Nov 2026 after the close (Earnings Whispers; scanner)",
+   "next_event": "Q3 FY26 results (Aug-Oct 2026), 19 Nov 2026 ~4:00pm ET, call 4:15pm ET (company press release, 5 Nov 2026)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
+    {
+     "title": "Q3 2026 earnings date announcement (PR Newswire via Webull, 5 Nov 2026)",
+     "url": "https://www.webull.com/news/15873177122661376"
+    },
+    {
+     "title": "Cantor Fitzgerald initiates Overweight, PT $276 (GuruFocus, 10 Nov 2026, aggregator)",
+     "url": "https://www.gurufocus.com/news/9189301/cantor-fitzgerald-initiates-overweight-on-ross-stores-rost-with-276-price-target"
+    },
+    {
+     "title": "UBS upgrades to Buy, PT $315 (Goldesel, 26 Oct 2026, aggregator)",
+     "url": "https://goldesel.de/aktien/news/ross-stores-aktie-ubs-stuft-auf-buy-hoch-und-hebt-kursziel-auf-315-dollar"
+    },
     {
      "title": "Q2 FY2026 earnings release (IR site, 20 Aug 2026)",
      "url": "https://investors.rossstores.com/node/23266"
