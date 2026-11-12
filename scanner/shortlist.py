@@ -16,7 +16,7 @@ import sys
 
 STATUSES = ("Breaking out", "Buy-ready")
 KEEP = ("code", "symbol", "name", "industry", "status", "setup", "price", "pivot", "dist_pivot",
-        "rs", "score", "stage", "base_no", "warnings", "ff", "gap")
+        "rs", "score", "stage", "base_no", "warnings", "ff", "gap", "buy")
 
 
 def build(data: dict, per_market: int = 15) -> dict:

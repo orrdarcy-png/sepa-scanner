@@ -213,6 +213,16 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 .plan .wide{grid-column:1/-1}
 .steps{margin:6px 0 0;padding-left:20px;display:grid;gap:6px;font-size:14px;max-width:70ch}
 .ferr{color:var(--down);font-size:13.5px;margin-top:8px}
+.buyhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.buyban{border-radius:8px;padding:10px 12px;font-size:14px;font-weight:600;margin-top:10px}
+.buyban.off{background:var(--down-soft);color:var(--down)}.buyban.on{background:var(--up-soft);color:var(--up)}
+.buys{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px;margin-top:10px}
+.buy{display:block;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}
+.buy.a{border-color:var(--up);box-shadow:inset 3px 0 0 var(--up)}
+.buy .b1{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.buy .b1 b{font-size:17px}
+.buy .nm{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.buy .act{font-size:16px;font-weight:700;margin:8px 0 2px}.buy .lim{font-size:13px}
+.buy .sz{font-size:13px;color:var(--muted);margin-top:6px}.buy .nt{font-size:12px;color:var(--warn);margin-top:6px}
 .held{background:var(--sunken);border-radius:8px;padding:8px 10px;font-size:14px;margin-bottom:10px}
 </style>
 
@@ -237,6 +247,8 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
       <div class="groups" id="groups"></div>
     </div>
   </section>
+
+  <section aria-label="What to buy"><div class="panel" id="buylist"></div></section>
 
   <section aria-label="Watchlist">
     <div class="listhead">
@@ -392,6 +404,47 @@ function renderMarket(M){
   $("#groups").innerHTML = (M.groups||[]).map(g=>`<span class="chip">${esc(g.group)}<span class="num">${g.count} · RS ${g.avg_rs}</span></span>`).join("") || `<span class="muted" style="font-size:13px">No group has two or more Trend Template stocks yet.</span>`;
 }
 
+/* ---------- buy list: which stocks, at what price ---------- */
+function buyCalc(M, s){
+  const R=DATA.risk||{}, acct=store.get("acct",R.default_account||10000), rp=store.get("riskpct",R.default_risk_pct||1.25), sp=store.get("stoppct",R.default_stop_pct||7);
+  const fx=(M.fx&&M.fx.aud_per)||1, b=s.buy, now=s.status==="Breaking out";
+  const entry = now ? s.price : b.trigger, stop=entry*(1-sp/100);
+  let sh=Math.floor(acct*rp/100/fx/((entry-stop)||1)); if(sh*entry*fx>acct*0.5) sh=Math.floor(acct*0.5/(entry*fx));
+  return {now, entry, stop, sp, shares:sh, value:sh*entry*fx, risk:sh*(entry-stop)*fx};
+}
+function buyAction(M, s){
+  const cur=M.currency||"", b=s.buy, k=buyCalc(M,s);
+  if(M.regime?.risk_on===false) return {act:`Watch only. Pivot ${fmtPx(b.trigger,cur)}`, lim:`If the market rule turns ON: buy above the pivot, up to <b class="mono">${fmtPx(b.max,cur)}</b>.`, k};
+  return k.now ? {act:`Buy now, around ${fmtPx(s.price,cur)}`, lim:`Broke out above ${fmtPx(b.trigger,cur)}. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k}
+               : {act:`Buy when it trades above ${fmtPx(b.trigger,cur)}`, lim:`Not before. Don't pay more than <b class="mono">${fmtPx(b.max,cur)}</b>.`, k};
+}
+function buyCard(M, s){
+  const cur=M.currency||"", a=buyAction(M,s), k=a.k, notes=[];
+  if(heldOf(M.name,s.code).length) notes.push("You already hold this.");
+  if(s.breakout&&!s.breakout.strong_volume) notes.push("Breakout volume was light.");
+  (s.warnings||[]).filter(w=>w.startsWith("Reports earnings")).forEach(w=>notes.push(w.split(":")[0]+": wait or go small."));
+  return `<button class="buy ${s.buy.grade==="A"?"a":""}" type="button" data-i="${M.stocks.indexOf(s)}">
+    <span class="b1"><b>${esc(s.code)}</b><span class="pill ${STATUS[s.status]}">${esc(s.status)}</span>${s.buy.grade==="A"?`<span class="fb fb-pass">Tested edge ✓</span>`:`<span class="fb fb-none">chart only</span>`}</span>
+    <span class="nm">${esc(s.name||s.industry||"")}</span>
+    <div class="act">${a.act}</div><div class="lim">${a.lim}</div>
+    <div class="sz">Stop <b class="mono">${fmtPx(k.stop,cur)}</b> (${k.sp}% below) · <b class="mono">${k.shares.toLocaleString()}</b> shares ≈ A$${Math.round(k.value).toLocaleString()} · risk A$${Math.round(k.risk).toLocaleString()}</div>
+    ${notes.length?`<div class="nt">${notes.map(esc).join(" ")}</div>`:""}</button>`;
+}
+function renderBuy(M){
+  const el=$("#buylist"); if(!el) return;
+  const all=M.stocks.filter(s=>s.buy), A=all.filter(s=>s.buy.grade==="A"), B=all.filter(s=>s.buy.grade!=="A"), on=M.regime?.risk_on;
+  const R=DATA.risk||{}, acct=store.get("acct",R.default_account||10000), rp=store.get("riskpct",R.default_risk_pct||1.25);
+  if(on===undefined && !all.length){ el.innerHTML=`<h2>What to buy · ${esc(M.name)}</h2><p class="muted" style="margin:6px 0 0;font-size:14px">This list fills in after the next ${esc(M.name)} scan.</p>`; return; }
+  const ban = on ? `<div class="buyban on">Market rule is ON: new buys allowed. ${A.length?`${A.length} stock${A.length===1?"":"s"} to act on.`:"Nothing passes every test today, so there is nothing to buy."}</div>`
+                 : `<div class="buyban off">Do not buy today. The market rule is OFF. The prices below are for when it turns ON.</div>`;
+  el.innerHTML = `<div class="buyhead"><h2>What to buy · ${esc(M.name)}</h2><span class="muted" style="font-size:13px">Sized for A$${Number(acct).toLocaleString()}, ${rp}% risk per trade. Change these in any stock's trade plan.</span></div>
+    ${ban}
+    ${A.length?`<div class="buys">${A.map(s=>buyCard(M,s)).join("")}</div>`:(on?"":`<p class="muted" style="margin:10px 0 0;font-size:14px">No stock has both a buyable chart and the tested edge right now.</p>`)}
+    ${B.length?`<details style="margin-top:12px"><summary style="cursor:pointer;font-size:14px">${B.length} more with a buyable chart but without the tested edge (lower odds in the backtest)</summary><div class="buys">${B.map(s=>buyCard(M,s)).join("")}</div></details>`:""}
+    <p class="muted" style="font-size:12px;margin:10px 0 0">Prices from the close on ${esc(M.as_of)}. If it opens above the "don't pay more than" price, skip it. Tap a stock for the chart and full plan.</p>`;
+  el.querySelectorAll("button.buy").forEach(b=>b.onclick=()=>openSheet(M, M.stocks[+b.dataset.i]));
+}
+
 /* ---------- list ---------- */
 function filtered(M){
   let s = M.stocks.slice();
@@ -523,6 +576,7 @@ function planBlock(s, cur){
   const entry = s.status==="Breaking out"||s.status==="Extended" ? s.price : (s.pivot || s.price);
   const held = heldOf(PLAN_M.name, s.code);
   return `${held.map(t=>`<div class="held">In your journal: <b class="mono">${left(t).toLocaleString()}</b> shares bought ${esc(fmtDate(t.opened))} at <b class="mono">${fmtPx(t.entry,cur)}</b>, stop <b class="mono">${fmtPx(t.stop,cur)}</b>. <a href="#journal" data-gojournal>Open the journal</a></div>`).join("")}
+    ${s.buy?(a=>`<div class="held"><b>${a.act}.</b> ${a.lim} Stop ${fmtPx(a.k.stop,cur)} (${a.k.sp}% below entry).</div>`)(buyAction(PLAN_M,s)):`<div class="held">Not a buy yet: ${esc(s.status)}. ${s.pivot?`Watch for a tight setup under the pivot at ${fmtPx(s.pivot,cur)}.`:""}</div>`}
     <div class="plan">
     <label for="p-acct">Account size (A$)<input id="p-acct" type="number" inputmode="decimal" min="0" step="100" value="${acct}"></label>
     <label for="p-risk">Risk per trade (% of account)<input id="p-risk" type="number" inputmode="decimal" min="0.1" max="5" step="0.25" value="${rp}"></label>
@@ -553,6 +607,7 @@ function calcPlan(cur){
   if(rp>2.5) w.push("More than 2.5% of the account at risk on one trade is above the book's range.");
   if(posA && feeA/posA>0.015) w.push(`Fees in and out are ${(feeA/posA*100).toFixed(1)}% of this position, a big bite out of a 5-7% stop. A larger position cuts that.`);
   $("#planalert").textContent = w.join(" ");
+  if(PLAN_M) renderBuy(PLAN_M);
 }
 let LAST_PLAN = null, PLAN_M = null;
 function openSheet(M, s){
@@ -1104,7 +1159,7 @@ function render(){
     $("#errtext").innerHTML = errs.map(([m,e])=>`<b>${esc(m)} scan didn't finish on the last run.</b> ${DATA.markets?.[m] ? "Showing the previous "+esc(m)+" results." : "No "+esc(m)+" results yet."} It retries on the next scheduled run. <span class="mono" style="font-size:12px">${esc(e)}</span>`).join("<br>"); }
   if(!DATA || !markets.length){ $("#rows").innerHTML = `<div class="empty">No scan data yet. Run the scanner once to fill this page.</div>`; return; }
   const M = DATA.markets[state.market];
-  renderTop(); renderMarket(M); renderList(M);
+  renderTop(); renderMarket(M); renderBuy(M); renderList(M);
   $("#foot").innerHTML = `Scanned ${new Date(DATA.generated).toLocaleString("en-AU",{dateStyle:"medium",timeStyle:"short"})}. Rules from Mark Minervini's <i>Trade Like a Stock Market Wizard</i> and <i>Think &amp; Trade Like a Champion</i>. Prices from Yahoo Finance, which can be delayed or wrong. This is a screening tool, not financial advice; check every chart yourself before trading.${DATA.demo?"":` <br><a href="sepa-watchlist.txt" download>TradingView watchlist</a>: the Breaking out and Buy-ready stocks, refreshed after each scan. In TradingView, open the watchlist menu, choose Import list… and pick this file.`}`;
 }
 $("#tvcopy").addEventListener("click", e=>{ const M=DATA.markets[state.market];

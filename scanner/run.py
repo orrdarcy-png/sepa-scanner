@@ -199,6 +199,10 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
         r["ff"]["gap"] = bool(r.get("gap"))
         r["ff"]["edge"] = bool(r.get("gap") and r["ff"].get("eps"))
         r["score"] = round(r["score_tech"] + r.get("fund_pts", 0))
+        # plain buy instruction: the trigger (pivot) and the highest price worth paying (pivot + max chase)
+        if r["status"] in ("Breaking out", "Buy-ready") and r.get("pivot"):
+            r["buy"] = {"trigger": r["pivot"], "max": r["pivot"] * (1 + cfg["vcp"]["max_chase_pct"] / 100),
+                        "grade": "A" if r["ff"]["edge"] else "B"}
         lst = r.get("listed")
         ft = (r.get("fund") or {}).get("first_trade")
         when = pd.Timestamp(lst) if lst is not None and not pd.isna(lst) else (pd.Timestamp(ft, unit="s") if ft else None)
