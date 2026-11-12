@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:26:01Z",
+ "updated": "2026-11-12T22:30:12Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -3763,127 +3763,123 @@
    "market": "US",
    "code": "UNP",
    "name": "Union Pacific Corporation",
-   "date": "2026-10-27",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$299.88",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$304.20",
    "verdict": "Watch only",
    "confidence": "high",
-   "summary": "Union Pacific is the most profitable US Class I railroad and is waiting on STB approval to buy Norfolk Southern and form the first US transcontinental railroad. Adjusted EPS growth sped up from -3% in Q4 2025 to +15% in Q3 2026 (quarter ended 30 Sep, reported 22 Oct). That is still well below the +25% SEPA bar, and much of the Q3 sales growth came from fuel surcharges, so it is not a SEPA earnings leader yet.",
-   "catalyst": "Pending Norfolk Southern merger (1 UNP share + US$88.82 cash per NS share; ~US$2.75B synergy target). STB comments are due 18 Nov 2026 and a decision is unlikely before fall 2027 (MODERATE).",
+   "summary": "Union Pacific is the most profitable US Class I railroad and is seeking STB approval to buy Norfolk Southern. Adjusted EPS growth sped up to +15% in Q3 2026 (quarter to 30 Sep, reported 22 Oct), but that is below the +25% SEPA bar and fuel drove much of the sales growth. Since 27 Oct the merger review has turned more hostile: on 4 Nov the STB denied UP's appeal over the CEO 'retaliation' video and ordered retaliation discovery by 4 Dec.",
+   "catalyst": "Pending Norfolk Southern merger (1 UNP share + US$88.82 cash per NS share). STB comments due 18 Nov 2026, decision deadline 28 Aug 2027; retaliation probe adds risk (MODERATE).",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Adj EPS YoY: Q4'25 -3% ($2.86), Q2'26 +13% ($3.41), Q3'26 +15% ($3.53); GAAP Q3 $3.49 +16%. Accelerating but <25%; FY25 GAAP $11.98 +8%",
+     "finding": "Adj EPS YoY: Q4'25 -3%, Q2'26 +13% ($3.41), Q3'26 +15% ($3.53 vs $3.08); GAAP Q3 $3.49 +16%. Accelerating but <25%. FY26E $13.13 (consensus)",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Q3'26 revenue $7.20B +15% YoY (Q1 +3%, Q2 +12%), but freight ex-fuel surcharge only +6%; fuel price +64%. Organic, no acquisition yet",
+     "finding": "Q3'26 revenue $7.20B +15% YoY (Q1 +3%, Q2 +12%); carloads +6%, fuel price $4.21 vs $2.56/gal, so much of growth is fuel surcharge. Organic",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q3'26 GAAP OR 59.1% vs 59.2%; adj OR 58.8% vs 58.5% (worse); Q2 adj 59.2% vs 58.1%. Margins flat to slightly down. No Code 33",
+     "finding": "Q3'26 GAAP OR 59.1% vs 59.2%; adj OR 58.8% vs 58.5% (worse). Mgmt: reported OR 'challenged by high fuel prices'. No Code 33",
      "result": "CAUTION"
     },
     {
      "check": "Earnings quality",
-     "finding": "9M'26 operating cash flow $8.30B vs net income $5.77B. Buybacks paused ($26M vs $2.68B), so EPS not flattered. Main concern: fuel-inflated revenue",
+     "finding": "9M'26 operating cash flow $8.30B (+17%) vs net income ~$5.8B. Buybacks paused ($26M vs $2.68B), so EPS not flattered. Concern: fuel-inflated revenue",
      "result": "PASS"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3 adj EPS $3.53 vs $3.47 consensus (aggregator). 2026 guide raised from mid- to high-single-digit EPS growth. TD Cowen 2026E $13.12 (from $13.15)",
+     "finding": "Q3 adj EPS $3.53 beat ~$3.47 (aggregator). 2026 high-single-digit EPS guide affirmed. Late-Oct PTs mixed: JPM 322->321, Evercore 329->322, Redburn 313->323",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: NS merger (agreed 29 Jul 2025), STB accepted 28 May 2026; EPS accretion only from 2nd full year after close; decision fall 2027 at earliest",
+     "finding": "MODERATE: NS merger; STB deadline 28 Aug 2027. 4 Nov STB denied UP appeal on CEO video, ordered retaliation discovery by 4 Dec 2026. Accretion only yr 2",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Market leader and institutional favourite; cyclical. Peers Q3'26: CSX adj EPS +30%, NSC adj EPS +10%. Group near highs: not found",
+     "finding": "Market leader, institutional favourite, cyclical (mid-cycle). Peers Q3'26: CSX adj EPS +30%, NSC +10%. Group strength near highs: not found",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "594.25M shares (16 Oct 2026); ~US$178B mkt cap (calc). 9M diluted shares 594.0M vs 596.7M. ~225M new shares at NS close (~27% of combined)",
-     "result": "CAUTION"
+     "finding": "Inst 80.4% (aggregator, Nov 2026). No open-mkt buys. Sales Mar-Jun 2026: EVP Ops (10b5-1, 2), CFO 2,000, EVP Mktg 27,387 (option ex) = cluster",
+     "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 2026: cash $2.21B + ST inv $0.88B, debt $30.32B; adj debt/EBITDA 2.4x (2.7x Dec-25); FY25 ROE 40.4%; ~3.3x leverage planned at close",
+     "finding": "30 Sep 2026: cash $2.21B + ST inv $0.88B, debt $30.32B; adj debt/EBITDA 2.4x; FY25 ROE 40.4%; ~3.3x leverage planned at NS close. No raise risk",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "STB comments/protests due 18 Nov 2026; DOJ/DOT comments 3 Dec 2026; Q4 results ~late Jan 2027 (date not found). Short interest 4.63% of float (15 Sep 2026)",
+     "finding": "STB comments 18 Nov; UP reply to CPKC 19 Nov; DOJ/DOT 3 Dec; retaliation discovery 4 Dec; Q4 results ~26 Jan 2027 (unconfirmed). SI 4.63% (15 Sep)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Q3'26 10-Q filed Oct 2026 (exact date not found). No secondary offering or ATM found. Merger shares registered (424B3, 2025). No debt issued in 9M'26",
+     "finding": "Q3 10-Q filed 22 Oct 2026. Next earnings ~26 Jan 2027 (not yet announced). No secondary, ATM or debt issue since 27 Oct; only Form 4s (div equivalents)",
      "result": "PASS"
     }
    ],
    "risks": [
-    "STB opposition (18 Nov comments, 3 Dec DOJ/DOT) could push back the merger, add conditions or block it",
-    "Q3 growth was fuel-driven: freight ex-fuel only +6%. Q4 fuel cost seen roughly doubling YoY (TD Cowen summary)",
-    "About 225M new shares plus extra debt at close (leverage to ~3.3x), with EPS accretion only from the 2nd full year",
-    "Short interest is 14.4 days to cover (15 Sep 2026), likely merger-arb hedging that can cap the price",
-    "Upgrade to SEPA candidate needs adjusted EPS of +25% or more for two quarters, or ex-fuel revenue acceleration"
+    "STB retaliation probe (discovery due 4 Dec 2026) could weaken the merger case, add conditions or put the review on hold",
+    "Comments due 18 Nov 2026: states, shippers, BNSF and CPKC oppose; CPKC asked the STB to dismiss the application",
+    "Q3 growth was fuel-driven (carloads +6%); the adjusted operating ratio worsened, and estimates are flat to trimmed",
+    "About 225M new shares plus extra debt at NS close (~3.3x leverage); CFO Hamann retires early 2027, successor not named",
+    "Upgrade needs adjusted EPS +25% or more for two quarters, or ex-fuel acceleration; Q4 results ~26 Jan 2027"
    ],
-   "next_event": "STB comment and protest deadline, 18 Nov 2026; Q4 2026 results ~late Jan 2027 (date not found)",
+   "next_event": "STB comment/protest deadline 18 Nov 2026; retaliation discovery due 4 Dec 2026; Q4 2026 results ~26 Jan 2027 (not yet confirmed)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
-     "title": "UNP Q3 2026 earnings release (8-K Ex 99.1)",
+     "title": "UNP Q3 2026 earnings release (8-K Ex 99.1, 22 Oct 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000319/a2026-10x228xkex991earning.htm"
     },
     {
-     "title": "UNP Q3 2026 Form 10-Q",
+     "title": "UNP Q3 2026 Form 10-Q (filed 22 Oct 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000321/unp-20260930.htm"
     },
     {
-     "title": "UNP Q2 2026 earnings release (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000249/a2026-07x238xkex991earning.htm"
+     "title": "UNP 8-K 16 Oct 2026: CFO retirement (Ex 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000305/a2026-10x168xkexhibit991.htm"
     },
     {
-     "title": "UNP Q1 2026 earnings release (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000154/a2026-04x238xkex991earning.htm"
+     "title": "UNP Form 4 filings, Nov 2025 to Nov 2026 (SEC EDGAR)",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000100885&type=4&owner=include&count=100"
     },
     {
-     "title": "UNP Q4 and FY2025 earnings release (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000032/a2026-01x278xkex991earning.htm"
+     "title": "STB Decision 53312 (4 Nov 2026): appeal denied, retaliation discovery",
+     "url": "https://www.railwayage.com/wp-content/uploads/2026/11/53312.pdf"
     },
     {
-     "title": "UNP-NS merger announcement (8-K Ex 99.1, 29 Jul 2025)",
-     "url": "https://www.sec.gov/Archives/edgar/data/100885/000119312525167154/d64537dex991.htm"
+     "title": "STB UP-NS merger resources page",
+     "url": "https://www.stb.gov/resources/major-railroad-mergers/"
     },
     {
-     "title": "NSC Q3 2026 earnings release (8-K Ex 99.1)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000702165/000119312526428384/nsc-ex99_1.htm"
+     "title": "Thompson Hine: STB procedural schedule for UP-NS",
+     "url": "https://www.thompsonhine.com/insights/stb-lifts-abeyance-in-union-pacific-norfolk-southern-merger-and-sets-procedural-schedule/"
     },
     {
-     "title": "Hogan Lovells: STB issues procedural schedule in UP/NS",
-     "url": "https://hlc.com/en/publications/all-aboard-surface-transportation-board-stb-issues-procedural-schedule-in-union-pacificnorfolk"
+     "title": "FreightWaves: STB orders UP to make video public (5 Nov 2026)",
+     "url": "https://www.freightwaves.com/?p=585138"
     },
     {
-     "title": "Progressive Railroading: STB sets procedural schedule for UP-NS merger",
-     "url": "https://www.progressiverailroading.com/m_a/news/STB-sets-procedural-schedule-for-consideration-of-UPNS-merger--77584"
+     "title": "WOWT: UP releases CEO video (6 Nov 2026)",
+     "url": "https://www.wowt.com/2026/11/06/union-pacific-releases-ceo-video-after-federal-regulators-order-it-made-public/?outputType=amp"
     },
     {
-     "title": "Railway Age: UP reports 16% increase in 3Q26 earnings",
-     "url": "https://www.railwayage.com/news/up-reports-16-increase-in-3q26-earnings/"
+     "title": "Flathead Beacon: State AGs op-ed against merger (3 Nov 2026)",
+     "url": "https://flatheadbeacon.com/2026/11/03/union-pacifics-proposal-to-buy-norfolk-southern-is-not-in-the-public-interest/"
     },
     {
-     "title": "Railway Age: UP, NS shareholders greenlight merger",
-     "url": "https://www.railwayage.com/freight/class-i/up-ns-shareholders-greenlight-merger/"
-    },
-    {
-     "title": "FMP: UNP Q3 2026 earnings vs estimates (aggregator)",
-     "url": "https://site.financialmodelingprep.com/market-news/union-pacific-q3-2026-earnings-beat-estimates"
+     "title": "DailyPolitical/MarketBeat: analyst actions, inst. ownership (aggregator, 10 Nov 2026)",
+     "url": "https://www.dailypolitical.com/2026/11/10/union-pacific-corporation-unp-stock-position-raised-by-retirement-systems-of-alabama.html"
     },
     {
      "title": "MarketBeat: UNP short interest (aggregator)",
@@ -3892,6 +3888,10 @@
     {
      "title": "AJOT: CSX Q3 2026 results",
      "url": "https://www.ajot.com/news/csx-corp-announces-third-quarter-2026-results"
+    },
+    {
+     "title": "NSC Q3 2026 earnings release (8-K Ex 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000702165/000119312526428384/nsc-ex99_1.htm"
     }
    ]
   },
@@ -17860,6 +17860,522 @@
     {
      "title": "WAF resumes trading after Burkina Faso Kiaka stake talks (Mining Weekly, 25 Nov 2025)",
      "url": "https://newsletter.en.creamermedia.com/article/waf-resumes-trading-after-confirming-constructive-talks-with-burkina-faso-over-kiaka-stake-2025-11-25"
+    }
+   ]
+  },
+  "US:PK": {
+   "market": "US",
+   "code": "PK",
+   "name": "Park Hotels & Resorts",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$16.25",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Park is a levered upper-upscale hotel REIT selling non-core hotels and renovating its core ones. Comparable RevPAR is accelerating (Q3 +8.4%, October ~+11%) and Adj. FFO guidance was raised again. But GAAP EPS is still loss-making in Q3, Adj. FFO/share is growing only ~11%, and total revenue is flat to falling. It fails Minervini's earnings and sales tests.",
+   "catalyst": "Royal Palm South Beach reopened Jul 2026 (mgmt: +200 bps to 2027 RevPAR); Q3 RevPAR +8.4%, Oct ~+11%; FY26 AFFO guide raised to $2.00-2.05 (4 Nov 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP EPS: Q3'26 -$0.10 vs -$0.08, Q2 $0.24 vs -$0.02, Q1 $0.05 vs -$0.29. AFFO/sh +11.2% Q3, +9.0% Q2, -2.2% Q1. Well below +25%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Total revenue Q3'26 $602M (-1.3% YoY), Q2 +1.2%, Q1 -1.4%; shrinking from asset sales. Comparable hotel revenue Q3 +5.7%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 operating margin 6.4% vs 9.7%; comparable hotel EBITDA margin 25.7% (+50 bps); FY26 opex guide raised to +4.5-5.0%. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Repeated impairments ($318M FY25, $35M 9M'26), $12M Q3 accelerated depreciation, ATO reserve. 9M OCF $315M exceeds GAAP NI. No buybacks in 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q3 AFFO $0.39 vs $0.34 consensus; FY26 AFFO guide raised to $2.00-2.05 (third raise). GAAP EPS guide cut to $0.31-0.36. Stock -8.3% on 5 Nov",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: Royal Palm reopened Jul 2026 (+200 bps to 2027 RevPAR); October RevPAR ~+11%; 2027 group pace +6%; non-core exits",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Cyclical turnaround in lodging; mid-cycle recovery. Peers HST and PEB are strong, with PEB reported at fresh highs. Not a growth leader",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "202.1M shares (30 Oct 2026), flat; mkt cap ~$3.3B. Institutions ~92.7% (MarketBeat, stale). Insiders: grants and tax withholding only, no open-market trades",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $295M, debt $3.92B, net debt ~$3.7B (~5.8x FY26 guided EBITDA), $1.7B variable-rate; liquidity $1.3B. TTM GAAP ROE negative",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next results ~late Feb 2027 (not confirmed). Short interest 27.5M (~14% of shares, 30 Oct), down 14%. Ground-lease litigation. Hold: profit cushion only",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q Q3'26 signed 5 Nov 2026. No ATM, offering or shelf found in the 10-Q excerpt. $275M buyback authorized but unused in 2026; dividend $0.25/qtr",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Total revenue shrinking and GAAP still loss-making; growth is RevPAR and FFO only",
+    "High leverage (~$3.7B net debt) and $1.7B variable-rate debt; Q4 carries ~$13M extra interest",
+    "Hawaii (storms, Ali'i Tower renovation) and cost inflation are squeezing conversion",
+    "Fell 8.3% after Q3 despite the beat; largest one-day drop in 6 months",
+    "Would change if: AFFO/sh growth reaches 25%+ and comparable revenue growth shows through after disposals"
+   ],
+   "next_event": "Q4 and FY2026 results, expected late Feb 2027 (date not announced; FY25 was reported 19 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release (Business Wire via Finviz), 4 Nov 2026",
+     "url": "https://finviz.com/news/416035/park-hotels-resorts-inc-reports-third-quarter-2026-results"
+    },
+    {
+     "title": "Form 10-Q Q3 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001617406/000161740626000050/pk-20260930.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260806422824/en/"
+    },
+    {
+     "title": "Q1 2026 earnings release (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260430188609/en"
+    },
+    {
+     "title": "Q4/FY2025 earnings release (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20260219430682/en"
+    },
+    {
+     "title": "Q3 2026 vs consensus and reaction (aggregator, Finviz)",
+     "url": "https://finviz.com/news/417490/park-hotels-tops-consensus-but-misses-the-whisper-as-revpar-acceleration-outruns-profit-conversion"
+    },
+    {
+     "title": "Q3 2026 call summary (aggregator, Quartr)",
+     "url": "https://quartr.com/events/park-hotels-resorts-inc-pk-q3-2026_ofhSBORq"
+    },
+    {
+     "title": "Form 4 insider transactions (aggregator, secform4)",
+     "url": "https://www.secform4.com/insider-trading/1617406.htm"
+    },
+    {
+     "title": "Institutional ownership (aggregator, MarketBeat)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/PK/institutional-ownership/"
+    },
+    {
+     "title": "Short interest (aggregator)",
+     "url": "https://www.optionsanalysissuite.com/stocks/pk/short-interest"
+    }
+   ]
+  },
+  "US:CUZ": {
+   "market": "US",
+   "code": "CUZ",
+   "name": "Cousins Properties",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$29.50",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Sun Belt lifestyle-office REIT with improving fundamentals: record 19.8% cash rent roll-ups, same-property cash NOI +7.4% and FY26 FFO guidance raised three times. But FFO/share growth is only +7-9% and revenue +4.5% in Q3 2026, far below SEPA's +25% bar, and the stock is over-owned by institutions.",
+   "catalyst": "Sun Belt office recovery with no new supply until ~2030: Q3 2026 cash rent spreads +19.8% (5-yr high), 1.4M sf late-stage pipeline (8-K and call, 29 Oct 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "FFO/sh Q3'26 $0.75 +8.7%, Q2 $0.75 +7.1%, Q1 $0.73 -1.4%; GAAP EPS Q3 $0.10 vs $0.05, Q2 $0.16 vs $0.09; FY25 FFO record $2.84 +5.6%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Revenue Q3'26 $259.4M +4.5%, Q2 $268.5M +11.8%, Q1 $263.1M +5.1%, Q4'25 +13.2%; decelerating, 2025 boosted by acquisitions",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Same-prop cash NOI +7.4% Q3'26 (+5.9% Q2); GAAP net margin thin, swung by $36.6M Q1 impairment; no Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Biggest concern: repeated impairments (Q4'25, Q1'26 $36.6M); FFO excludes them. Q1-Q2 buyback ~3.9M sh at $23.36 aids per-share",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 FFO $0.75 vs $0.73 consensus (+2.7%); FY26 FFO guide raised to $2.95-2.99 (from $2.92-2.98); targets mostly $33-36",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: record +19.8% rent roll-ups, 1.4M sf late pipeline, Sun Belt supply drought; 2401 McKinney Dallas tower possible 1H27",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Top Sun Belt office REIT, institutional favourite; early-mid office recovery cycle; peer strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "164.6M sh (down from 168.0M, buyback); inst ~94% (MarketBeat May-26), over-owned; only insider sale CAO 6,033 sh 20 Aug 26",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Debt (CUZ share) $3.76B, cash $5.2M; net debt/EBITDAre 5.43x Q3'26; 94% unsecured; ROE ~0.15% (aggregator)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Next: Q4'26 results ~early Feb 2027 (unconfirmed). Short int 12.1M sh, 7.4% float, rising (Oct 5). ADP Tempe lease ~1.5 yrs left",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filed late Oct 2026 (date unconfirmed); ATM: 3.9M forward-sold shares unsettled at $30.66 (~$120M), likely extended",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "FFO growth (+7-9%) is far below SEPA growth thresholds; GAAP EPS distorted by impairments",
+    "Development push (2401 McKinney, ~$900-1,000/sf costs) with undisclosed yield could dilute 2027 FFO",
+    "3.9M forward ATM shares plus ATM program cap upside near $30-31",
+    "Institutional ownership ~94%+ leaves few new buyers; short interest rising to 7.4% of float",
+    "Leasing volume slowed to 546k sf in Q3 vs ~925k sf in Q1-Q2; Legacy Union downtime and ADP renewal in 2027"
+   ],
+   "next_event": "Q4 2026 results and 2027 guidance, expected early Feb 2027 (date not announced; Q4'25 was 5 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release (8-K Ex 99.1, 29 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000025232/000002523226000076/cuz-ex99_1.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release (8-K Ex 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000025232/000002523226000061/aearningsreleaseex9912q26.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release (8-K Ex 99.1, 29 Apr 2026)",
+     "url": "https://app.edgar.tools/filing/25232/0000025232-26-000043/aearningsreleaseex9911q26.htm"
+    },
+    {
+     "title": "Q4 2025 earnings release (8-K Ex 99.1, 5 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/25232/000002523226000010/aearningsreleaseex9914q25.htm"
+    },
+    {
+     "title": "Q3 2026 earnings call transcript summary (Webull/Motley Fool)",
+     "url": "https://www.webull.com/news/15838916506459136"
+    },
+    {
+     "title": "Q3 2026 beat vs consensus (Finviz, aggregator)",
+     "url": "https://finviz.com/news/412784/cousins-properties-beats-modestly-as-rent-spreads-hit-five-year-high-but-a-dallas-development-bet-and-slower-leasing-temper-the-story"
+    },
+    {
+     "title": "Buyback increase to $500M (aggregator)",
+     "url": "https://rallies.ai/news/cousins-properties-boosts-buyback-authorization-to-500m-leaves-410m-available"
+    },
+    {
+     "title": "Insider Form 4 list (aggregator)",
+     "url": "https://blarkad.com/ticker/CUZ/insiders"
+    },
+    {
+     "title": "Institutional ownership (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/CUZ/institutional-ownership/"
+    },
+    {
+     "title": "Statistics: short interest, float (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/stocks/cuz/statistics/"
+    },
+    {
+     "title": "Analyst ratings (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/stocks/cuz/ratings/"
+    }
+   ]
+  },
+  "US:CF": {
+   "market": "US",
+   "code": "CF",
+   "name": "CF Industries",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$124.92",
+   "verdict": "Watch only",
+   "confidence": "medium",
+   "summary": "Low-cost North American nitrogen producer riding a 2026 price spike from the Iran war and Hormuz disruption; record 9M 2026 EPS $11.60 vs $6.39. But growth is decelerating fast (Q3 EPS +31%, sales +12%), Q2 and Q3 both missed consensus, the cycle looks late, and 8 insiders sold ~US$75M+ in Feb-Mar 2026, which caps the verdict at Watch only.",
+   "catalyst": "Middle East urea/ammonia supply cut since the Iran conflict (Mar 2026) plus EU/Trinidad closures lifted nitrogen prices; MODERATE and fading (Q3 8-K, 4 Nov 2026).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "GAAP dil EPS Q4'25 $2.59 +37%, Q1'26 $3.98 +115% (incl ~$170M litigation gain), Q2 $4.73 +100%, Q3 $2.87 +31%; sharp slowdown",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Sales",
+     "finding": "Net sales Q4'25 +23%, Q1'26 +19%, Q2 +18%, Q3 $1.86B +12% YoY; organic, price-driven, decelerating below 20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Gross margin Q2'26 51.5% vs 39.9%, but Q3 38.7% vs 38.1% flat; urea/UAN prices down YoY in Q3. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "9M'26 OCF $2.54B > NI $1.78B; one-offs: $170M litigation gain, $112M insurance BI; buybacks cut dil shares 6% (151.6M vs 161.2M)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 EPS $2.87 vs ~$3.02-3.12 consensus (miss); Q2 $4.73 vs $5.65 (miss); revenue beat Q3. Revision trend not found",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: Iran-war Gulf urea exports ~half normal, 37% EU ammonia offline, Trinidad 35% closing (Q3 8-K); Blue Point One only 2029",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Cyclical, late cycle: NOLA urea peaked ~$782/t Apr'26, ~$350 Jun; Tampa NH3 $825 May, $555 Sep, +$95 Nov; Henry Hub ~$2.8-3.1",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Clustered insider sales Feb20-Mar17 2026: 8 insiders incl ex-CEO Will ~$59M, total ~$75M+, no buys; inst. >100% (aggregator); cap ~$18B",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026 cash $2.82B (incl $496M JV), LT debt $3.22B; TTM OCF $3.08B, FCF $2.03B; ROE ~30% (aggregator); no raise risk",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4 results ~mid-Feb 2027 (est.); Hormuz/Iran ceasefire news can swing urea; short int 6.6% float, rising (8.3M to 10.0M sh)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3 10-Q (to 30 Sep 2026) filed Nov 2026; next earnings ~Feb 2027 (unconfirmed); no secondary, shelf or ATM found; $1.11B buyback left",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Middle East ceasefire/Hormuz reopening restores Gulf urea: NOLA fell 55% Apr-Jun 2026 on the last one",
+    "Rising Chinese urea exports (+2-4Mt in 2026 per CF) push global nitrogen prices lower",
+    "Two straight EPS misses; Q4 2025 comp $2.59 is a tougher base as pricing normalises",
+    "Clustered insider selling Feb-Mar 2026 and over-owned institutional base",
+    "Yazoo City still offline until 1H 2027; heavy Blue Point capex (~$3.7B plant)"
+   ],
+   "next_event": "Q4/FY2026 results, ~mid-Feb 2027 (not yet confirmed; FY2025 reported 18 Feb 2026)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release (8-K Ex 99.1, 4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000023/cf-11042026_ex991xearnings.htm"
+    },
+    {
+     "title": "Q2 2026 10-Q",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000019/cf-20260630.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release (BusinessWire)",
+     "url": "https://www.businesswire.com/news/home/20260506162870/en"
+    },
+    {
+     "title": "FY2025 earnings release (8-K Ex 99.1, 18 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000003/cf-02182026_ex991xearnings.htm"
+    },
+    {
+     "title": "Q3 2026 10-Q",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000025/cf-20260930.htm"
+    },
+    {
+     "title": "Q3 2026 EPS vs estimate (Quiver Quant, aggregator)",
+     "url": "https://www.quiverquant.com/news/CF+INDUSTRIES+HOLDINGS+%28%24CF%29+Releases+Q3+2026+Earnings%2C+Stock+Rises"
+    },
+    {
+     "title": "Q2 2026 EPS vs estimate (Earnings Whispers, aggregator)",
+     "url": "https://www.earningswhispers.com/epsdetails/CF"
+    },
+    {
+     "title": "Insider transactions (InsiderScreener, aggregator of Form 4s)",
+     "url": "https://www.insiderscreener.com/en/company/cf-industries-holdings-inc"
+    },
+    {
+     "title": "Statistics: short interest, ownership (StockAnalysis, aggregator)",
+     "url": "https://stockanalysis.com/stocks/cf/statistics/"
+    },
+    {
+     "title": "Tampa ammonia November 2026 (Fertilizer Daily)",
+     "url": "https://www.fertilizerdaily.com/20261102-tampa-ammonia-november-2026/"
+    },
+    {
+     "title": "NOLA urea down 55% from April peak (Fertilizer Daily)",
+     "url": "https://www.fertilizerdaily.com/20260624-nola-urea-prices-drop-55-from-april-peak-as-hormuz-ceasefire-and-renewed-chinese-exports-reshape-the-market/"
+    },
+    {
+     "title": "Natural Gas Market Indicators 29 Oct 2026 (AGA)",
+     "url": "https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-october-29-2026/"
+    }
+   ]
+  },
+  "US:ELV": {
+   "market": "US",
+   "code": "ELV",
+   "name": "Elevance Health",
+   "date": "2026-11-12",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$429.90",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Elevance is a managed-care turnaround. It has beaten estimates and raised FY26 guidance three times, and Medicaid looks to have bottomed in 2026. But this is not SEPA growth: revenue is about flat, FY26 adjusted EPS (guided at least $29) is below FY25's $30.29, and the Q3 beat was driven by $1.85/share of non-operating investment income. Earnings and sales both fail Minervini's thresholds.",
+   "catalyst": "Medicaid rate improvement and Medicare Advantage repricing (2027 MA rate +2.48%, finalized Apr 6 2026); FY26 adj EPS guide raised from $25.50 to at least $29 (Oct 21 2026), with at least 12% growth in 2027 off a $26.75 baseline.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS YoY: Q4'25 +3%, Q1'26 +5%, Q2 -16%, Q3 +16% ($6.99). GAAP Q3 $6.27 (+18%). FY26 guide >=$29 vs FY25 $30.29",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 total revenue $51.4B, +1.4% YoY (operating +0.7%); YTD +1.8%; medical membership -1.1% to 44.9M; organic",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3 MLR 90.6% vs 91.3%, but YTD 89.0% vs 88.9%; opex ratio 11.4% vs 10.5%; Health Benefits op gain -27.5%. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3 beat was $1.85/sh non-op income (NII +66%). $935M CMS MA RADV accrual excluded from adj EPS. YTD OCF $7.5B vs $4.2B (good)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 adj EPS $6.99 vs $4.71 consensus (FactSet); MLR 90.6% vs 91.1% est. FY26 guide raised to >=$29 from >=$27 (Oct 21 2026)",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "MODERATE: Medicaid trough in 2026, July state rates better than expected, MA repricing; 2027 >=12% growth off $26.75 baseline",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround, not a leader. Managed care rebounded from 2025 lows (HUM +45%, UNH +25% YTD at Jun 2026); ELV +25.6% YTD at Oct 20",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Institutions 89% (aggregator, over-owned). CFO sold 10,584 sh at ~$434-447 Oct 22 2026, not 10b5-1. CEO and director bought Jul 17 2026",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "Sep 30 2026: debt ~$30.8B, equity $44.8B, parent cash $2.4B; FY26 OCF guide >=$6.5B; buybacks $1.69B YTD. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4 results Jan 28 2027; 2028 MA Advance Notice ~early Feb 2027; RADV/CMS exposure; Medicaid work rules. Short 2.54% float (Aug 31)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q Oct 21 2026 (Q3); next earnings Jan 28 2027. S-3ASR auto shelf filed Oct 28 2026; no equity offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "FY26 adj EPS (>=$29) is still below FY25 $30.29; revenue flat and membership shrinking as Medicaid, MA and ACA exits continue",
+    "Q3 beat leaned on $1.85/sh non-operating investment income; Health Benefits op gain -27.5% YoY",
+    "MA policy: CMS RADV notice ($935M accrual, best estimate) could grow; 2028 Advance Notice due ~early Feb 2027",
+    "Medicaid work requirements and redeterminations (from the 2025 budget law) and ACA subsidy expiry may cut 2027 enrollment and worsen acuity",
+    "CFO's ~$4.6M open-market sale the day after Q3 results; institutions already own ~89%"
+   ],
+   "next_event": "Q4 FY2026 results and FY2027 guidance, 28 Jan 2027",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release (8-K, SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000115603926000068/a3q2026elvearningsrelease.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release (8-K, SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000115603926000058/a2q2026elvearningsrelease.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release (8-K, SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000115603926000039/a1q2026elvearningsrelease.htm"
+    },
+    {
+     "title": "Q4 and FY2025 earnings release (8-K, SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000006/a4q2025elvearningsrelease.htm"
+    },
+    {
+     "title": "Form 4, Mark Kaye, Oct 22 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000174869126000008/wk-form4_1792787407.xml"
+    },
+    {
+     "title": "Healthcare Dive: Elevance Q3 2026",
+     "url": "https://www.healthcaredive.com/news/elevance-medicaid-momentum-q3-2026-elv/833559/"
+    },
+    {
+     "title": "Dow Jones via Tiger: Q3 beat vs consensus, guidance (aggregator)",
+     "url": "https://www.itiger.com/news/2677986627"
+    },
+    {
+     "title": "actuary.info: Q3 2026 reserves and non-operating items (aggregator)",
+     "url": "https://actuary.info/insights/elevance-q3-2026-guidance-raised-health-benefits-margin-1-percent"
+    },
+    {
+     "title": "ELV SEC filings list (aggregator)",
+     "url": "https://chartrow.com/quote/elv/filings"
+    },
+    {
+     "title": "ELV insider transactions (aggregator)",
+     "url": "https://new.quantisnow.com/insiders/ELV"
+    },
+    {
+     "title": "CEO Boudreaux buy, Jul 17 2026 (aggregator)",
+     "url": "https://www.webull.com/news/15244412932400128"
+    },
+    {
+     "title": "Institutional ownership 89% (aggregator)",
+     "url": "https://www.insidertrades.com/alerts/nyse-elv-insider-buying-and-selling-2026-06-13/"
+    },
+    {
+     "title": "MarketBeat short interest (aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/ELV/short-interest/"
+    },
+    {
+     "title": "Becker's: CMS 2027 MA rate +2.48%",
+     "url": "https://www.beckershospitalreview.com/finance/cms-hikes-medicare-advantage-rate-2-48-for-2027-6-notes/"
+    },
+    {
+     "title": "Axios: ACA and Medicaid changes hang over health earnings",
+     "url": "https://www.axios.com/2026/07/17/aca-medicaid-changes-health-earnings"
+    },
+    {
+     "title": "WSJ Heard on the Street via Tiger: managed care group (aggregator)",
+     "url": "https://www.itiger.com/news/2644712935"
     }
    ]
   }
