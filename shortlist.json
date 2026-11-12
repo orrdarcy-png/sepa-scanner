@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:24:31Z",
+ "generated": "2026-11-12T20:49:58Z",
  "stocks": [
   {
    "code": "VCTR",
@@ -869,6 +869,43 @@
    "priority": 22
   },
   {
+   "code": "LGF",
+   "symbol": "LGF.AX",
+   "name": "L1 GOLD FUND LIMITED",
+   "industry": "Not Applic",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 2.32,
+   "pivot": 2.42,
+   "dist_pivot": -4.1,
+   "rs": 78,
+   "score": 42,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": false,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 2.42,
+    "max": 2.541,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-12",
+   "footprint": "12W 15/5 2T",
+   "next_earnings": null,
+   "priority": 23
+  },
+  {
    "code": "SDF",
    "symbol": "SDF.AX",
    "name": "STEADFAST GROUP LIMITED",
@@ -908,7 +945,7 @@
    "as_of": "2026-11-12",
    "footprint": "53W 41/0 22T",
    "next_earnings": "2026-08-26",
-   "priority": 23
+   "priority": 24
   },
   {
    "code": "DBI",
@@ -947,7 +984,7 @@
    "as_of": "2026-11-12",
    "footprint": "20W 15/6 4T",
    "next_earnings": "2025-08-25",
-   "priority": 24
+   "priority": 25
   },
   {
    "code": "LSF",
@@ -986,7 +1023,7 @@
    "as_of": "2026-11-12",
    "footprint": "9W 16/16 1T",
    "next_earnings": "2025-08-20",
-   "priority": 25
+   "priority": 26
   }
  ]
 }
