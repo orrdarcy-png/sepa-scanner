@@ -15,3 +15,10 @@ def test_tradingview_sections_and_prefixes():
 
 def test_tradingview_empty():
     assert tradingview({"stocks": []}) == "\n"
+
+
+def test_tested_edge_ranks_first():
+    from scanner.shortlist import build
+    st = lambda code, score, **ff: {"code": code, "status": "Buy-ready", "score": score, "ff": ff}
+    out = build({"markets": {"US": {"stocks": [st("AAA", 90), st("BBB", 60, edge=True), st("CCC", 80, **{"pass": True})]}}})
+    assert [s["code"] for s in out["stocks"]] == ["BBB", "CCC", "AAA"]

@@ -6,7 +6,8 @@ The optional third path also writes a TradingView watchlist import file (Import 
 watchlist menu), with a section per market and status, in priority order.
 
 Picks stocks that are Breaking out or Buy-ready in either market, best first:
-breakouts before buy-ready, stocks passing the fundamentals filter first, then by score.
+breakouts before buy-ready, then stocks with the tested edge (earnings gap + EPS growth),
+then stocks passing the fundamentals filter, then by score.
 """
 from __future__ import annotations
 
@@ -15,14 +16,15 @@ import sys
 
 STATUSES = ("Breaking out", "Buy-ready")
 KEEP = ("code", "symbol", "name", "industry", "status", "setup", "price", "pivot", "dist_pivot",
-        "rs", "score", "stage", "base_no", "warnings", "ff")
+        "rs", "score", "stage", "base_no", "warnings", "ff", "gap")
 
 
 def build(data: dict, per_market: int = 15) -> dict:
     picks = []
     for mname, m in (data.get("markets") or {}).items():
         rows = [s for s in m.get("stocks", []) if s.get("status") in STATUSES]
-        rows.sort(key=lambda s: (STATUSES.index(s["status"]), not (s.get("ff") or {}).get("pass"),
+        rows.sort(key=lambda s: (STATUSES.index(s["status"]), not (s.get("ff") or {}).get("edge"),
+                                 not (s.get("ff") or {}).get("pass"),
                                  -(s.get("score") or 0)))
         for s in rows[:per_market]:
             p = {k: s.get(k) for k in KEEP}
@@ -32,7 +34,8 @@ def build(data: dict, per_market: int = 15) -> dict:
             p["footprint"] = (s.get("base") or {}).get("footprint")
             p["next_earnings"] = (s.get("fund") or {}).get("next_earnings")
             picks.append(p)
-    picks.sort(key=lambda s: (STATUSES.index(s["status"]), not (s.get("ff") or {}).get("pass"),
+    picks.sort(key=lambda s: (STATUSES.index(s["status"]), not (s.get("ff") or {}).get("edge"),
+                                 not (s.get("ff") or {}).get("pass"),
                               -(s.get("score") or 0)))
     for i, p in enumerate(picks, 1):
         p["priority"] = i

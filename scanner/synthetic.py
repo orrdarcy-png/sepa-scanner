@@ -71,6 +71,12 @@ def demo_market(name: str, index_sym: str, n: int = 260, seed: int = 7):
         c, v = c[-days:], v[-days:]
         o, h, lo = _ohlc(c, rng, 0.012)
         vol = v * float(rng.uniform(2e5, 5e6))
+        if kind in ("uptrend", "breakout") and i % 16 < 8:
+            # plant an earnings-style gap up on heavy volume before the base's final contractions
+            k = days - 45
+            c[k:] = c[k:] * 1.06
+            o[k], h[k:], lo[k:], vol[k] = c[k - 1] * 1.055, h[k:] * 1.06, lo[k:] * 1.06, vol[k] * 5
+            h[k], lo[k], o[k + 1:] = max(h[k], o[k], c[k]), min(lo[k], o[k], c[k]), o[k + 1:] * 1.06
         for f, arr in zip(["Open", "High", "Low", "Close", "Volume"], [o, h, lo, c, vol]):
             data[f][sym] = arr
         rows.append({"code": code, "symbol": sym, "name": f"DEMO {NAMES[i % 26]} {i // 26 or ''}".strip(),

@@ -128,6 +128,8 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
     log.info("%s: %d symbols, %d liquid", name, len(stocks), len(liquid))
 
     rs = tech.rs_rating(tech.rs_raw(close[liquid]))
+    ecfg = {"gap_min_pct": 4, "gap_vol_mult": 2.0, "gap_lookback_days": 63, "breadth_on_pct": 55,
+            **(cfg.get("tested_edge") or {})}
     meta = uni.drop_duplicates("symbol").set_index("symbol")
     rows = []
     for s in liquid:
@@ -156,6 +158,9 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                   "industry": (m.get("industry") if hasattr(m, "get") else "") or "",
                   "listed": m.get("listed") if hasattr(m, "get") else None,
                   "turnover": float(turnover.get(s, 0)), "dates": [d.strftime("%Y-%m-%d") for d in df.index[-130:]]})
+        o_, c_, v_ = (df[k].to_numpy(dtype=float) for k in "ocv")
+        r["gap"] = tech.earnings_gap(o_, c_, v_, ecfg["gap_min_pct"], ecfg["gap_vol_mult"],
+                                     mcfg.get("gap_lookback_days", ecfg["gap_lookback_days"]))
         r["score_tech"] = tech_score(r)
         rows.append(r)
 
@@ -189,13 +194,16 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                                              "into the report without a profit cushion")
     for r in cands:
         r["ff"] = fundamental_flags(r.get("fund"), fcfg) if fcfg.get("enabled", True) else \
-            {"data": False, "pass": False, "accel": False, "code33": False}
+            {"data": False, "eps": False, "pass": False, "accel": False, "code33": False}
+        # tested edge: strong earnings gap + EPS growth, the two stock-level filters from the backtest
+        r["ff"]["gap"] = bool(r.get("gap"))
+        r["ff"]["edge"] = bool(r.get("gap") and r["ff"].get("eps"))
         r["score"] = round(r["score_tech"] + r.get("fund_pts", 0))
         lst = r.get("listed")
         ft = (r.get("fund") or {}).get("first_trade")
         when = pd.Timestamp(lst) if lst is not None and not pd.isna(lst) else (pd.Timestamp(ft, unit="s") if ft else None)
         r["years_listed"] = round((pd.Timestamp(cal[-1]) - when).days / 365.25, 1) if when is not None else None
-    cands.sort(key=lambda r: (STATUS_ORDER.get(r["status"], 9), -r["score"]))
+    cands.sort(key=lambda r: (STATUS_ORDER.get(r["status"], 9), not r["ff"]["edge"], -r["score"]))
     n_bo = sum(1 for r in cands if r["status"] == "Breaking out")
     out = {
         "name": name, "index": idx_sym, "currency": mcfg["currency"], "as_of": cal[-1].strftime("%Y-%m-%d"),
@@ -206,6 +214,13 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                                     if r["rs_line"]["new_high"] and ix["from_high"] < -5][:15],
         "stocks": [{k: v for k, v in r.items() if k not in ("score_tech", "listed")} for r in cands],
     }
+    # the backtest only bought in a "risk-on" market; half size in neutral markets did worse than sitting out
+    on = bool(ix["above200"] and br["pct_above_50"] >= ecfg["breadth_on_pct"])
+    out["regime"]["risk_on"] = on
+    out["regime"]["tested"] = (
+        f"Tested rule: new buys {'ON' if on else 'OFF'}. Index {'above' if ix['above200'] else 'below'} its 200-day, "
+        f"{br['pct_above_50']}% of stocks above their 50-day (needs {ecfg['breadth_on_pct']}%+). "
+        + ("" if on else "In the backtest, sitting out beat trading half size."))
     out["px"] = price_map(close[stocks], vol[stocks])
     fxc = mcfg.get("fx")  # e.g. "USD": convert to A$ for an Australian investor
     if fxc:
@@ -263,6 +278,9 @@ def main(argv=None):
             print(f"::notice title={name} fundamentals::{sum(1 for x in ff if x.get('data'))} of {len(st)} "
                   f"have Yahoo fundamentals, {sum(1 for x in ff if x.get('pass'))} pass EPS/sales growth, "
                   f"{sum(1 for x in ff if x.get('accel'))} accelerating, {sum(1 for x in ff if x.get('code33'))} Code 33")
+            print(f"::notice title={name} tested edge::{sum(1 for x in ff if x.get('gap'))} with an earnings gap, "
+                  f"{sum(1 for x in ff if x.get('edge'))} gap + EPS growth, new buys "
+                  f"{'ON' if m.get('regime', {}).get('risk_on') else 'OFF'}")
         for name, e in errors.items():
             print(f"::error title={name} scan failed::{e}")
     build(data, outdir / "index.html")

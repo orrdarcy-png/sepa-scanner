@@ -377,6 +377,7 @@ function renderMarket(M){
   $("#regime").innerHTML = `<span class="label">Market condition · ${esc(M.name)}</span>
     <div class="regime-head"><span class="dot"></span><h2>${esc(r.label)}</h2></div>
     <p class="advice">${esc(r.advice)}</p>
+    ${r.tested?`<p class="advice" style="font-weight:600">${esc(r.tested)}</p>`:""}
     <div class="stats">
       <div class="stat"><b>${pct(ix.from_high,false)}</b><span>Index from 52-week high</span></div>
       <div class="stat"><b>${b.pct_above_50}%</b><span>Stocks above 50-day</span></div>
@@ -405,7 +406,8 @@ function filtered(M){
 }
 function fbadge(s){
   const f=s.ff||{}; if(!f.data) return ` · <span class="fb fb-none">no fundamentals</span>`;
-  const b=[f.pass?`<span class="fb fb-pass">EPS+sales ✓</span>`:`<span class="fb fb-fail">growth ✗</span>`];
+  const b=[]; if(f.edge) b.push(`<span class="fb fb-pass" title="Earnings gap + EPS growth: the two filters that made SEPA profitable in the backtest">Tested edge ✓</span>`);
+  b.push(f.pass?`<span class="fb fb-pass">EPS+sales ✓</span>`:`<span class="fb fb-fail">growth ✗</span>`);
   if(f.code33) b.push(`<span class="fb fb-pass">Code 33</span>`); else if(f.accel) b.push(`<span class="fb fb-pass">accelerating</span>`);
   return " · "+b.join(" ");
 }
@@ -416,7 +418,7 @@ function renderList(M){
     .concat(ORDER.filter(k=>counts[k]).map(k=>`<button class="fbtn" type="button" data-f="${k}" aria-pressed="${state.filter===k}">${k}<span class="num">${counts[k]}</span></button>`)).join("");
   $("#filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.filter=b.dataset.f; renderList(M); });
   const fc = k => M.stocks.filter(x=>(x.ff||{})[k]).length;
-  const FF = [["any","All",M.stocks.length],["data","Has data",fc("data")],["pass","Passes EPS 25% + sales 20%",fc("pass")],["accel","Accelerating",fc("accel")],["code33","Code 33",fc("code33")]];
+  const FF = [["any","All",M.stocks.length],["edge","Tested edge: gap + EPS",fc("edge")],["data","Has data",fc("data")],["pass","Passes EPS 25% + sales 20%",fc("pass")],["accel","Accelerating",fc("accel")],["code33","Code 33",fc("code33")]];
   $("#ffilters").innerHTML = `<span class="label" style="align-self:center;margin-right:2px">Fundamentals</span>` + FF.map(([k,l,n])=>`<button class="fbtn" type="button" data-ff="${k}" aria-pressed="${state.fund===k}">${l}<span class="num">${n}</span></button>`).join("");
   $("#ffilters").querySelectorAll("button").forEach(b=>b.onclick=()=>{ state.fund=b.dataset.ff; store.set("fund",state.fund); renderList(M); });
   $("#listsub").textContent = `${M.stocks.length} of ${M.regime.universe} liquid ${M.name} stocks pass the Trend Template or show a power play. Tap a stock for its chart, checklist, trade plan and prompts.`;
@@ -461,6 +463,12 @@ function ttRows(tt){
     ma50_above_150_200:"50-day above the 150 and 200-day",above_50:"Price above the 50-day",above_52w_low:`At least 25% above the 52-week low (+${tt.pct_above_low}%)`,
     near_52w_high:`Within 25% of the 52-week high (${tt.pct_below_high}% below)`,rs_70:"RS rating 70 or higher"};
   return Object.entries(tt.criteria).map(([k,v])=>`<li><span class="${v===null?'na':v?'ok':'no'}">${v===null?'–':v?'✓':'✗'}</span><span>${L[k]||k}${v===null?' <span class="muted">(under 200 days of trading)</span>':''}</span></li>`).join("");
+}
+function edgeRows(M, s){
+  const g=s.gap, f=s.ff||{}, on=M.regime?.risk_on, li=(v,t)=>`<li><span class="${v?'ok':'no'}">${v?'✓':'✗'}</span><span>${t}</span></li>`;
+  return li(!!g, g?`Earnings gap: opened +${g.pct}% on ${g.vol_mult}x volume ${g.days_ago} sessions ago${g.held?"":" <span class='muted'>(has since given the gap back)</span>"}`:"No gap up of 4%+ on 2x volume since the last report")
+    + li(!!f.eps, f.eps?"Latest EPS up 25%+ on a year earlier (or turned to profit)":f.data?"Latest EPS growth under 25%":"No EPS data from Yahoo: check with the prompts")
+    + li(!!on, on?"Market is risk-on: new buys allowed":"Market is not risk-on: the tested rule is to sit out");
 }
 function fundBlock(s, cur){
   const f=s.fund; if(!f) return `<p class="muted" style="margin:0;font-size:14px">Fundamentals weren't fetched for this stock. Use the prompts below.</p>`;
@@ -520,6 +528,7 @@ function planBlock(s, cur){
     <label for="p-risk">Risk per trade (% of account)<input id="p-risk" type="number" inputmode="decimal" min="0.1" max="5" step="0.25" value="${rp}"></label>
     <label for="p-entry">Entry (pivot or price${FXR?", "+esc(cur):""})<input id="p-entry" type="number" inputmode="decimal" step="0.001" value="${(+entry).toFixed(entry<2?3:2)}"></label>
     <label for="p-stop">Stop below entry (%)<input id="p-stop" type="number" inputmode="decimal" min="1" max="15" step="0.5" value="${sp}"></label></div>
+    ${PLAN_M?.regime&&PLAN_M.regime.risk_on===false?`<div class="held">Tested rule says no new buys in this market. Sitting out beat half size in the backtest.</div>`:""}
     <div class="planout" id="planout"></div><div class="alert" id="planalert"></div>
     <div class="acts" style="margin-top:12px"><button class="btn primary" type="button" id="p-log">Log this trade in the journal</button></div>
     ${FXR?`<p class="muted" style="font-size:12px;margin:8px 0 0">Account, risk and position value are in A$ at A$1 = ${esc(cur)}${(1/FXR).toFixed(4)} (latest close). Entry and stop stay in ${esc(cur)}, the price you'll enter at your broker. Fees include CommSec's ${feeCfg().fxPct}% currency fee each way.</p>`:""}`;
@@ -582,6 +591,8 @@ function openSheet(M, s){
        <div style="font-size:13px;margin-top:10px" class="muted">RS line ${rsl.new_high?"<b class='pos'>at a new high</b>":"not at a new high"} · rising over 6 weeks: ${rsl.up_6w?"yes":"no"} · over 13 weeks: ${rsl.up_13w?"yes":"no"}</div>
      </div>
      <div class="panel"><h3 style="margin-bottom:8px">Trend Template · ${s.tt.passed}/${s.tt.applicable}</h3><ul class="checks">${ttRows(s.tt)}</ul></div>
+     <div class="panel"><h3 style="margin-bottom:8px">Tested edge · ${[s.gap,(s.ff||{}).eps,M.regime?.risk_on].filter(Boolean).length}/3</h3><ul class="checks">${edgeRows(M,s)}</ul>
+       <p class="muted" style="font-size:12px;margin:8px 0 0">The three rules that lifted SEPA's profit factor from 1.14 to 1.98 in your US backtest (2010-2026). ${M.name==="ASX"?"Not tested on ASX stocks: treat as a guide.":"Past results, not a promise."}</p></div>
      <div class="panel"><h3 style="margin-bottom:8px">SEPA review</h3>${reviewBlock(M,s)}</div>
      <div class="panel"><h3 style="margin-bottom:8px">Fundamentals</h3>${fundBlock(s,cur)}</div>
      <div class="panel"><h3 style="margin-bottom:8px">Trade plan</h3>${planBlock(s,cur)}</div>

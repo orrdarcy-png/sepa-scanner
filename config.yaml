@@ -12,6 +12,7 @@ markets:
     min_price: 0.20           # skip sub-20c stocks
     min_turnover: 1000000     # 50-day average daily turnover (price x volume), A$
     universe: auto            # auto = every listed company from the ASX directory; falls back to universes/asx_fallback.txt
+    gap_lookback_days: 126    # ASX companies report half-yearly, so look back 6 months for the earnings gap (not backtested)
   US:
     enabled: true
     index: "^GSPC"
@@ -44,6 +45,14 @@ fundamentals:
   max_names_per_market: 2000  # fetch fundamentals for every stock on the watchlist
   min_eps_growth_pct: 25
   min_sales_growth_pct: 20
+
+# The three rules that made SEPA profitable in the multistrat-bot backtest (US stocks, 2010-2026):
+# profit factor 1.14 with none of them, 1.98 with all three. Same numbers as that test.
+tested_edge:
+  gap_min_pct: 4              # opened at least 4% above the previous close...
+  gap_vol_mult: 2.0           # ...on at least 2x the 50-day average volume (a strong earnings reaction)
+  gap_lookback_days: 63       # ...within the last quarter (ASX overrides this above)
+  breadth_on_pct: 55          # new buys only when the index is above its 200-day and 55%+ of stocks are above their 50-day
 
 risk:
   default_account: 10000

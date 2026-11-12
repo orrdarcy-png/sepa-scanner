@@ -326,6 +326,18 @@ def sell_warnings(o, h, l, c, v, sma50, base_no) -> list[str]:
     return out
 
 
+def earnings_gap(o, c, v, min_pct=4.0, vol_mult=2.0, lookback=63) -> dict | None:
+    """Most recent gap up of min_pct or more on vol_mult x the 50-day average volume in the last
+    `lookback` sessions: the mark of a strong earnings reaction. Same rule as the backtest."""
+    t = len(c) - 1
+    for i in range(t, max(50, t - lookback), -1):
+        avg = float(np.mean(v[i - 50:i]))
+        if c[i - 1] > 0 and avg > 0 and o[i] >= c[i - 1] * (1 + min_pct / 100) and v[i] >= vol_mult * avg:
+            return {"days_ago": int(t - i), "pct": round(float(o[i] / c[i - 1] - 1) * 100, 1),
+                    "vol_mult": round(float(v[i] / avg), 1), "held": bool(c[t] >= c[i - 1])}
+    return None
+
+
 def up_down_volume(c, v, n=50) -> float | None:
     d = np.diff(c[-(n + 1):])
     vv = v[-n:]

@@ -55,3 +55,15 @@ def test_rs_rating_range():
     close = pd.DataFrame(np.cumprod(1 + np.random.default_rng(3).normal(0, 0.02, (300, 50)), axis=0))
     rs = tech.rs_rating(tech.rs_raw(close))
     assert rs.min() >= 1 and rs.max() <= 99
+
+
+def test_earnings_gap():
+    n = 200
+    c = np.full(n, 10.0); o = c.copy(); v = np.full(n, 1e6)
+    assert tech.earnings_gap(o, c, v) is None
+    o[180], c[180:], v[180] = 10.6, 10.8, 3e6          # +6% gap on 3x volume, 19 sessions ago
+    g = tech.earnings_gap(o, c, v)
+    assert g == {"days_ago": 19, "pct": 6.0, "vol_mult": 3.0, "held": True}
+    assert tech.earnings_gap(o, c, v, lookback=10) is None      # too long ago
+    v[180] = 1.5e6
+    assert tech.earnings_gap(o, c, v) is None                   # volume too light
