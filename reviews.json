@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:30:15Z",
+ "updated": "2026-11-13T22:28:52Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -3467,78 +3467,78 @@
    "market": "US",
    "code": "CSX",
    "name": "CSX Corporation",
-   "date": "2026-11-05",
+   "date": "2026-11-13",
    "status_at_review": "Buy-ready",
-   "price_at_review": "US$50.83",
+   "price_at_review": "US$52.05",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "CSX is a mature Eastern US Class I railroad in a cost and productivity turnaround under CEO Steve Angel. Q3 2026 (Jul-Sep, reported 21 Oct 2026) adjusted-comparable EPS rose 30% and operating margin reached 39.1%, but revenue grew 12% with over half from fuel surcharge, Q2 EPS growth was only +23%, and four insiders sold in Jun-Jul 2026. That makes it a margin-led trade in a late-stage base 4, not a Minervini growth leader.",
-   "catalyst": "CEO Steve Angel's (since Sep 2025) productivity programme: FY26 revenue guide raised to high-single-digit growth, 350bp+ margin expansion, FCF +80% (Q3 call, 21 Oct 2026). MODERATE.",
+   "summary": "CSX is a mature Eastern US Class I railroad in a cost and pricing turnaround under CEO Steve Angel. Q3 2026 (Jul-Sep, reported 21 Oct) GAAP EPS was $0.57 (+54% GAAP, +30% vs adjusted $0.44) and FY26 GAAP EPS (9M $1.54 plus Q4 consensus of about $0.50) is on track for a record above FY22's $1.95. But Q2 growth was only +23%, revenue gains lean on fuel surcharge, a cloud IT outage from 27 Oct is still leaving a backlog into Q4, and insiders sold in a cluster (Jun-Jul, plus a director on 26 Oct), which caps the verdict at Watch only.",
+   "catalyst": "CEO Angel's productivity and pricing push: FY26 revenue guide raised to high-single-digit, 350bp+ margin expansion, FCF +80% (Q3 call 21 Oct 2026); CFO at Baird 11 Nov 2026 targeted pricing above inflation in 2027. MODERATE.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "GAAP dil EPS YoY: Q4'25 $0.39 +3%; Q1'26 $0.43 +26%; Q2 $0.54 +23%; Q3 $0.57 +54% (+30% vs adj $0.44). Q4 cons $0.51; FY26 $1.88 not a record",
+     "finding": "GAAP dil EPS YoY: Q4'25 $0.39 +3%; Q1'26 $0.43 +26%; Q2 $0.54 +23%; Q3 $0.57 +54% (+30% vs adj $0.44). FY26 cons ~$2.01-2.04, record vs FY22 $1.95",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Revenue YoY: Q4'25 $3.51B -1%; Q1'26 $3.48B +2%; Q2 $3.94B +10%; Q3 $4.02B +12%, organic. Q3 fuel surcharge $466M vs $234M = 54% of the gain",
+     "finding": "Revenue YoY: Q4'25 $3.51B -1%; Q1'26 $3.48B +2%; Q2 $3.94B +10%; Q3 $4.02B +12%, organic; ~54% of Q3 gain fuel surcharge (QFR). Q4 cons $3.89B",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Op margin Q4'25 31.6%; Q2'26 38.3% (+240bp); Q3 39.1% vs 34.9% adj/30.3% GAAP. Expanding, but Q2 EPS growth dipped (26%>23%>30%): no Code 33",
+     "finding": "Op margin Q3'26 39.1% vs 30.3% GAAP/~31% adj Q3'25; Q2'26 38.3% (+240bp). Expanding, but EPS growth dipped Q2 (26%>23%>30% adj): no Code 33",
      "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "Q3 GAAP +54% flattered by $164M Q3'25 goodwill hit. 9M'26 CFO $4.22B vs NI $2.86B. AR +14% YTD. Avg dil shares -0.8% YoY. Main issue: fuel-led revenue",
+     "finding": "Q3 GAAP +54% flattered by $164M Q3'25 goodwill hit. 9M'26 CFO $4.22B vs NI $2.86B; AR +14% YTD; buybacks $1.06B 9M. Main issue: fuel-led revenue",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q3'26 (21 Oct) EPS $0.57 vs $0.53 cons, rev $4.02B vs $3.96B (MarketBeat). FY26 rev guide raised to high-single-digit; margin +350bp+, FCF +80% kept",
+     "finding": "Q3'26 EPS $0.57 beat; FY26 rev guide raised 21 Oct. Zacks FY26 est raised to $2.06 from $2.00 (4 Nov); cons up ~1.2% in 90d (aggregators)",
      "result": "PASS"
     },
     {
      "check": "Catalyst",
-     "finding": "CEO Angel (since Sep 2025) productivity drive, 100+ 2027 initiatives; I-95 double-stack via Baltimore for 2027 bids (Q3 call, 21 Oct 2026). MODERATE",
+     "finding": "CEO Angel productivity drive, 100+ cost initiatives, ~600 industrial projects, 2027 pricing push (Baird, 11 Nov 2026); Howard St Tunnel. MODERATE",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Cyclical turnaround; 1 of 4 big US Class Is. UNP, NSC, CSX hit 52-wk highs 23 Jul 2026; current peer status and freight cycle phase not found",
+     "finding": "Cyclical turnaround, 1 of 4 big US Class Is. US rail traffic +6.6% wk to 7 Nov, +3.9% YTD (AAR). Peer strength now and cycle phase not found",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "1,843M sh (30 Sep 26), -6.7% in 3y; ~US$94B cap. Inst 80.2% Q2'26, rising (aggregator). 4 insiders sold Jun-Jul 26, none 10b5-1; CEO bought 25k Mar 26",
+     "finding": "1,843M sh (30 Sep 26), ~US$96B cap. Inst 80.2% Q2'26, rising (aggregator). 4 insiders sold Jun-Jul 26 + dir Zillmer 19.5k 26 Oct, non-10b5-1",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 2026: cash+ST inv $1.61B, debt $18.80B, net debt $17.2B. 9M'26 FCF $2.65B vs $1.07B. TTM ROE ~26% (derived). No raise risk",
+     "finding": "30 Sep 2026: cash+ST inv $1.61B, debt $18.80B, net debt $17.2B; equity $14.38B. 9M'26 CFO $4.22B, capex $1.71B. No raise risk",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q4'26 results late Jan 2027 (shortlist 28 Jan, unconfirmed). UP-NS comments due 18 Nov 2026. Short int 40.1M (15 Oct), 2.2%, 4.7 days, falling",
+     "finding": "IT outage from 27 Oct, backlog weeks more (CFO 11 Nov), cost not disclosed. UP-NS comments due 18 Nov. Q4 results ~27-28 Jan 2027. SI 2.2% (15 Oct)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "10-Q (Q3 to 30 Sep 2026) filed 21 Oct 2026. No equity offering or ATM; S-3ASR debt shelf Feb 2025; no new debt 9M'26. COO Cory retiring (12 Oct)",
+     "finding": "10-Q (Q3 to 30 Sep 2026) filed Oct 2026. No equity offering or ATM found; debt shelf S-3ASR Feb 2025; no new filings found since 5 Nov",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Fuel-led revenue: $232M of the $430M Q3'26 revenue increase was fuel surcharge (QFR), which reverses if diesel prices fall.",
-    "Insider selling: CFO Boone, director Zillmer, CLO Burns and CAO Williams sold Jun-Jul 2026 (not 10b5-1); Zillmer sold 19,500 more on 26 Oct 2026 at $51.24.",
-    "UP-NS merger review: comments and CSX responsive application due 18 Nov 2026, replies 16 Feb 2027; adverse rulings or headlines can move CSX either way.",
-    "Pre-mortem for a 30% fall: freight/industrial recession hits merchandise and coal; diesel and export coal slump cut fuel and coal revenue; service slip after COO exit.",
-    "Late-stage base 4 with institutional ownership ~80% (over-owned). Verdict improves if Q4'26 EPS beats +25% (cons $0.51 vs $0.39) on ex-fuel growth."
+    "IT outage: cloud-services failure from 27 Oct 2026 halted crew calling and EDI interchange; CFO said 11 Nov the backlog may take weeks. Q4 cost and volume hit not disclosed.",
+    "Insider selling: CFO Boone, director Zillmer, CLO Burns and CAO Williams sold Jun-Jul 2026, and Zillmer sold 19,500 more at $51.24 on 26 Oct 2026 (not 10b5-1).",
+    "Fuel-led revenue: about half of the Q3 2026 revenue gain was fuel surcharge, which reverses if diesel falls; auto and housing weak per CFO (11 Nov).",
+    "UP-NS merger review: STB reopened participation over UP CEO remarks; comments due 18 Nov 2026, replies 16 Feb 2027. Headlines can move CSX either way.",
+    "Late-stage base 4 and ~80% institutional ownership. Verdict improves if Q4'26 EPS beats ~$0.50 (+28% vs $0.39) despite the outage and insider selling stops."
    ],
-   "next_event": "Q4 and FY2026 results, late January 2027 (shortlist shows 28 Jan 2027; not confirmed by CSX)",
+   "next_event": "Q4 and FY2026 results, late January 2027 (tentatively 27 Jan per Investing.com; shortlist 28 Jan; not confirmed by CSX)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
@@ -3550,72 +3550,68 @@
      "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000040/csx-20260930.htm"
     },
     {
-     "title": "CSX Q3 2026 Quarterly Financial Report (PDF)",
-     "url": "https://s2.q4cdn.com/859568992/files/content_files/Q3-2026-QFR-Final.pdf"
-    },
-    {
-     "title": "CSX Q2 2026 earnings press release (8-K Ex-99.1, SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000031/pressrelease_q22026.htm"
-    },
-    {
-     "title": "CSX Q1 2026 earnings press release (8-K Ex-99.1, SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794826000013/pressrelease_q12026.htm"
-    },
-    {
-     "title": "CSX Q4 and FY2025 earnings press release (8-K Ex-99.1, SEC)",
+     "title": "CSX Q4 and FY2025 earnings press release (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000003/pressrelease_q42025.htm"
     },
     {
-     "title": "CSX 8-K, COO Michael Cory retirement, 12 Oct 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000034/csx-20261012.htm"
+     "title": "CSX Q4 and FY2022 earnings press release (SEC, FY22 EPS $1.95)",
+     "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794823000003/pressrelease_q42022.htm"
     },
     {
-     "title": "CSX SEC filings index incl. Form 4/144 (EDGAR submissions API)",
+     "title": "Form 4, director John Zillmer sale 26 Oct 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000119312526436168/ownership.xml"
+    },
+    {
+     "title": "Form 4, COO Cory tax withholding 25 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000119312526405344/ownership.xml"
+    },
+    {
+     "title": "CSX SEC filings index (EDGAR submissions API)",
      "url": "https://data.sec.gov/submissions/CIK0000277948.json"
     },
     {
-     "title": "CSX shares outstanding history (SEC XBRL API)",
-     "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000277948/dei/EntityCommonStockSharesOutstanding.json"
+     "title": "CSX at Baird 2026 Global Industrial Conference transcript, 11 Nov 2026 (Seeking Alpha, partial)",
+     "url": "https://seekingalpha.com/article/4966637-csx-corporation-csx-presents-at-baird-2026-global-industrial-conference-2026-transcript"
     },
     {
-     "title": "CSX Q3 earnings call highlights (MarketBeat, aggregator)",
-     "url": "https://www.marketbeat.com/instant-alerts/transcript-csx-q3-earnings-call-highlights-2026-10-21/"
+     "title": "CSX CFO on volumes, pricing and outage at Baird (ad-hoc-news, 13 Nov 2026)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/csx-stock-cfo-targets-higher-pricing-as-2027-freight-grows/70505455"
     },
     {
-     "title": "CSX earnings and estimates (MarketBeat, aggregator)",
-     "url": "https://www.marketbeat.com/stocks/NASDAQ/CSX/earnings/"
+     "title": "CSX outage recovery, backlog to take weeks (shattered.io, 13 Nov 2026)",
+     "url": "https://shattered.io/csx-outage-recovery-ptc-dispatching-spared-backlog-weeks-boone/"
     },
     {
-     "title": "CSX institutional holders by quarter (VCP Scanner, aggregator)",
-     "url": "https://vcpscanner.com/stock/csx/institutional-holders"
+     "title": "CSX tech outage halts freight interchange (TechTimes, 29 Oct 2026)",
+     "url": "https://www.techtimes.com/articles/329662/20261029/csx-tech-outage-halts-class-i-freight-interchange-even-safety-systems-hold.htm"
     },
     {
-     "title": "CSX institutional holdings (Equibles, aggregator)",
-     "url": "https://equibles.com/stocks/csx/holdings"
+     "title": "CSX earnings analysis and next catalysts (Investing.com, 22 Oct 2026, aggregator)",
+     "url": "https://uk.investing.com/news/stock-market-news/csx-earnings-analysis-questions-answered-and-next-catalysts-93CH-4926412"
     },
     {
-     "title": "CSX short interest (Equibles, aggregator)",
-     "url": "https://equibles.com/stocks/csx/shortinterest"
+     "title": "Zacks raises CSX FY26 estimate (ad-hoc-news, 5 Nov 2026, aggregator)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/csx-stock-faces-higher-earnings-bar-after-zacks-upgrade/70464862"
+    },
+    {
+     "title": "STB reopens UP-NS merger participation (ad-hoc-news, 13 Nov 2026)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/norfolk-southern-stock-faces-fresh-merger-test-as-stb-reopens-filings/70504633"
     },
     {
      "title": "STB PR-26-21: UP-NS procedural schedule, 18 Aug 2026",
      "url": "https://www.stb.gov/news-communications/latest-news/pr-26-21/"
     },
     {
-     "title": "STB denies motions for summary denial of UP-NS merger (Progressive Railroading, 21 Sep 2026)",
-     "url": "https://www.progressiverailroading.com/federal_legislation_regulation/news/STB-denies-motions-seeking-summary-denial-of-UP-NS-merger--77788"
+     "title": "AAR weekly rail traffic, week ending 7 Nov 2026 (AJOT)",
+     "url": "https://www.ajot.com/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-7-2026"
     },
     {
-     "title": "BNSF, CPKC and CSX to request broad access to combined UP-NS network (FreightWaves, 14 Sep 2026)",
-     "url": "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network"
+     "title": "CSX institutional holders by quarter (VCP Scanner, aggregator)",
+     "url": "https://vcpscanner.com/stock/csx/institutional-holders"
     },
     {
-     "title": "Three railroad stocks hit fresh 52-week highs (Stocktwits, 23 Jul 2026)",
-     "url": "https://stocktwits.com/news-articles/markets/equity/these-three-railroad-stocks-hit-fresh-52-week-highs-today-what-s-got-investors-buzzing/cZZnDXsR7Uh"
-    },
-    {
-     "title": "CSX calendar (MarketScreener, aggregator)",
-     "url": "https://uk.marketscreener.com/quote/stock/CSX-CORPORATION-12201/calendar/"
+     "title": "CSX short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/csx/shortinterest"
     }
    ]
   },
@@ -9767,175 +9763,143 @@
    "market": "US",
    "code": "VAC",
    "name": "Marriott Vacations Worldwide",
-   "date": "2026-11-02",
-   "status_at_review": "Breaking out",
-   "price_at_review": "US$117.5",
+   "date": "2026-11-13",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$116.81",
    "verdict": "Watch only",
    "confidence": "medium",
-   "summary": "A timeshare turnaround under new CEO Matt Avril (appointed 17 Feb 2026): Q2 2026 (Apr-Jun, reported 6 Aug) contract sales rose 22%, adjusted EPS $2.31 beat $1.97 consensus, and FY26 adjusted EPS guidance was raised to $8.25-9.05. But GAAP EPS was negative in Q3-Q4 2025 and down 56% in Q1 2026, Q2's +20% GAAP / +18% adjusted is below the +25% bar, and revenue ex-reimbursements grew only 10%, so earnings and sales don't qualify yet; Q3 results on 4 Nov are the test.",
-   "catalyst": "New management (Avril CEO, Flaskey President/COO, 17 Feb 2026) with a modernization program targeting a $150-200M adjusted EBITDA benefit by end-2026; Q2 2026 contract sales +22% and FY26 guidance raised (6 Aug 2026).",
+   "summary": "A timeshare turnaround under CEO Matt Avril is gaining speed: Q3 2026 (Jul-Sep, reported 4 Nov) contract sales rose 29% with VPG +30%, adjusted EPS rose 56% to $2.64 (beat $2.57), GAAP EPS was $2.24 vs -$0.07, and FY26 adjusted EPS guidance was raised to $8.65-9.15. But reported revenue ex-reimbursements grew only 14% (total revenue missed consensus), Q2's adjusted EPS growth was +18% so two straight +25% quarters aren't there yet, the industry group isn't confirming, and the stock is over-owned (~89.5% institutional) in a late-stage base after an activist block sale.",
+   "catalyst": "New management (Avril CEO, Flaskey President/COO, 17 Feb 2026) driving contract sales +22% in Q2 and +29% in Q3 2026 with VPG +30%; Investor Day with multi-year framework on 9 Dec 2026.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "GAAP dil EPS YoY: Q3'25 -$0.07 vs $2.12; Q4'25 -$12.43 (impairments); Q1'26 $0.64 -56%; Q2'26 $2.12 +20%. Adj: -8%, -6%, -25%, +18%",
+     "finding": "Adj EPS YoY: Q4'25 -6%, Q1'26 -25%, Q2'26 +18%, Q3'26 $2.64 vs $1.69 +56%. GAAP Q3'26 $2.24 vs -$0.07. Accelerating; Q2 under +25%",
      "result": "CAUTION"
     },
     {
      "check": "Sales",
-     "finding": "Rev ex-reimb YoY: Q3'25 -2%, Q4'25 -3%, Q1'26 flat, Q2'26 $920M +10%. Contract sales Q2'26 +22% (VPG +23%, tours -1%); organic",
+     "finding": "Rev ex-reimb YoY: Q1'26 flat, Q2 +10%, Q3'26 $921M +14% (total $1.37B +8%, missed). Contract sales Q3 $565M +29%; organic",
      "result": "CAUTION"
     },
     {
      "check": "Margins and Code 33",
-     "finding": "Q2'26 adj EBITDA margin 23.4% vs 24.3%; net ~5.8% vs ~5.5% (calc). Mkt & sales cost -150bp of contract sales. No Code 33",
-     "result": "CAUTION"
+     "finding": "Q3'26 adj EBITDA margin 23.4% vs 20.9%; dev margin 31.0% vs 20.2%; Q2 margin had fallen 90bp, so no Code 33 yet",
+     "result": "PASS"
     },
     {
      "check": "Earnings quality",
-     "finding": "FY25 $577M impairments; modernization $122M FY25, $26M 1H26; restructuring again. 1H26 OCF $76M vs NI $99M; loan loss prov $122M vs $108M",
+     "finding": "Q3'26 GAAP $2.24 vs adj $2.64; restructuring $10M + modernization $6M again. Sales reserve $82M vs $57M (14.8% of contract sales). 9M OCF $204M vs NI $181M",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance and revisions",
-     "finding": "Q2'26 adj EPS $2.31 vs $1.97 est (6 Aug). FY26 adj EPS guide raised to $8.25-9.05 from $7.05-7.80; FY est +16% in 3 mo (aggregator)",
-     "result": "PASS"
+     "finding": "Q3 adj EPS $2.64 vs $2.57 beat, revenue $1.37B vs $1.41B miss (4 Nov). FY adj EPS guide up to $8.65-9.15; FCF top cut; Wells, Barclays cut PTs",
+     "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "MODERATE: new CEO Avril (17 Feb 2026) reset; modernization targets $150-200M EBITDA by end-2026; Q2'26 contract sales +22%, guide raised",
+     "finding": "MODERATE: new CEO Avril (17 Feb 2026) reset; contract sales +29%, VPG +30% Q3'26; Investor Day 9 Dec 2026 with multi-year framework",
      "result": "PASS"
     },
     {
      "check": "Category and group",
-     "finding": "Turnaround, not leader; stock +46% in 6 mo to 10 Sep vs industry -0.8% and HGV -7% (aggregator). Group not confirming",
+     "finding": "Turnaround, not leader. Peers weak: HGV Q3'26 contract sales -11%, stock -16.7% in 3 mo; TNL flat on Q3 (aggregators). Group not confirming",
      "result": "CAUTION"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Cap ~$4.0B (calc); shs 35.5M (Oct'23) to 34.4M (Jul'26); inst 89.5% (Aug'26). Impactive 13D sold 750k @$111.49, CAO 2.5k, Aug'26; no buys",
+     "finding": "Cap ~$4.0B (calc); shs 35.5M (Oct'23) to 34.42M (29 Oct'26); inst 89.5% (Nov'26). Impactive sold 750k @$111.49 Aug'26; insider buys Nov'25",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Jun 2026: cash $211M, corp debt $3.1B, non-recourse $2.4B; net corp lev 4.0x; equity $2.06B; TTM GAAP NI -$334M (calc); 1H OCF $76M",
+     "finding": "30 Sep 2026: cash $229M, corp debt $2.98B, non-recourse $2.42B; net corp lev 3.6x (4.0x Q2); equity $2.12B; 9M OCF $204M vs $22M; $571M 2027 converts",
      "result": "CAUTION"
     },
     {
      "check": "Event risk",
-     "finding": "Q3'26 results 4 Nov 2026 BMO; est adj EPS $2.57 vs $1.69 (aggregator). Short int 2.02M, 5.9% of shs, down from 2.69M Jul (15 Oct)",
+     "finding": "Investor Day 9 Dec 2026; Q4 results ~23 Feb 2027 (unconfirmed, est adj EPS $2.74). Short int 2.02M ~5.9% (15 Oct), down from 2.31M (14 Aug)",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Last 10-Q: Q2 (Apr-Jun 2026) filed 6 Aug 2026. Next earnings 4 Nov 2026. No 2026 offering, shelf or ATM found; $575M convert repaid Jan 2026",
+     "finding": "Last 10-Q: Q3 (Jul-Sep 2026) filed 4 Nov 2026. Next earnings ~23 Feb 2027 (est). No 2026 offering, shelf or ATM found; no buybacks 9M26",
      "result": "PASS"
     }
    ],
    "risks": [
-    "Q3 2026 results 4 Nov 2026 (pre-market, call 8:30 ET): consensus ~$2.57 adj EPS vs $1.69 a year ago is a high bar after the guide raise",
-    "Activist Impactive (9.8%, director seat) sold 750,000 shares at $111.49 on 19 Aug 2026 'rebalancing'; further sales would be an overhang",
-    "Over-owned: ~89.5% institutional (MarketBeat, Aug 2026); 593 holders with net shares -0.6% in the latest quarter (Fintel)",
-    "Leverage 4.0x net corporate debt plus rising loan loss provisions ($122M 1H26 vs $108M) leave it exposed to a consumer or travel slowdown",
-    "Late-stage base 4 bought at the pivot with no cushion; recurring modernization/restructuring charges keep GAAP far below adjusted EPS"
+    "Investor Day 9 Dec 2026: a multi-year framework that underwhelms after a +160% run from the 52-week low ($44.58) could break the late-stage base",
+    "Credit: Q3 2026 sales reserve rose to $82M (14.8% of contract sales vs 13.4% in Q2); a consumer slowdown would hit both sales and the $3.2B loan book",
+    "Over-owned (~89.5% institutional, MarketBeat Nov 2026) and activist Impactive sold 750,000 shares on 19 Aug 2026; further sales would be an overhang",
+    "Revenue lagging contract sales (Q3 ex-reimb +14%, total revenue missed by ~$40M) and peers weak (HGV contract sales -11% in Q3)",
+    "Leverage 3.6x net corporate debt with $571M of 2027 converts to refinance; Hurricane Lowell ~$16M EBITDA hit, Sheraton Kaua'i closed through Q4"
    ],
-   "next_event": "Q3 2026 results, 4 Nov 2026 (before open; call 8:30 a.m. ET)",
+   "next_event": "Investor Day, 9 Dec 2026 (New York); Q4 2026 results ~23 Feb 2027 (date not confirmed)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
+    {
+     "title": "VAC Q3 2026 results, 8-K Ex 99.1 (SEC, 4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000040/a2026q3pressreleaseschedul.htm"
+    },
+    {
+     "title": "VAC 10-Q, quarter ended 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000042/vac-20260930.htm"
+    },
     {
      "title": "VAC Q2 2026 results, 8-K Ex 99.1 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000035/a2026q2pressreleaseschedul.htm"
     },
     {
-     "title": "VAC Q1 2026 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000020/a2026q1pressreleaseschedul.htm"
-    },
-    {
-     "title": "VAC Q4 and FY2025 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000006/a2025q4earningsreleasesche.htm"
-    },
-    {
-     "title": "VAC Q3 2025 results, 8-K Ex 99.1 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435825000163/a2025q3pressreleaseschedul.htm"
-    },
-    {
-     "title": "VAC 10-Q, quarter ended 30 Jun 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000152435826000037/vac-20260630.htm"
-    },
-    {
-     "title": "VAC 10-Q, quarter ended 30 Sep 2023 (SEC, share count)",
-     "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435823000039/vac-20230930.htm"
+     "title": "VAC SEC filings list (company IR)",
+     "url": "https://ir.marriottvacationsworldwide.com/sec-filings"
     },
     {
      "title": "Impactive Capital Form 4, 19 Aug 2026 sale (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000090266426003590/ownership.xml"
     },
     {
-     "title": "Impactive Capital Schedule 13D/A No. 4 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000090266426003591/primary_doc.xml"
-    },
-    {
      "title": "Form 4: K. Pighini sale, 17 Aug 2026 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000191480726000008/wk-form4_1787058191.xml"
     },
     {
-     "title": "Form 4: R. Bukkapatnam tax withholding, 17 Aug 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000198414026000008/wk-form4_1787058258.xml"
+     "title": "Investing.com: Q3 2026 earnings call transcript (aggregator)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-marriott-vacations-tops-q3-eps-forecast-misses-revenue-93CH-4999945"
     },
     {
-     "title": "Form 4: D. Morgan director award, 30 Sep 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000130057226000010/wk-form4_1790886567.xml"
+     "title": "Earnings Whispers via Finviz: Q3 2026 review, Investor Day (aggregator)",
+     "url": "https://finviz.com/news/415710/marriott-vacations-sales-turnaround-gathers-speed-as-29-contract-growth-outruns-a-revenue-miss"
     },
     {
-     "title": "Form 4: C. E. Andrews director award, 30 Sep 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001524358/000121515026000010/wk-form4_1790886375.xml"
+     "title": "Cerbat Gem/MarketBeat: Wells Fargo PT cut, ownership (aggregator)",
+     "url": "https://www.thecerbatgem.com/2026/11/05/wells-fargo-company-issues-pessimistic-forecast-for-marriott-vacations-worldwide-nysevac-stock-price.html"
     },
     {
-     "title": "Quantisnow: VAC insider transactions list (aggregator)",
-     "url": "https://www.quantisnow.com/insiders/VAC"
+     "title": "TradingView: Wells Fargo lowers PT to $97 (aggregator)",
+     "url": "https://www.tradingview.com/news/tradingview:ea9c7786616a6:0-wells-fargo-maintains-marriott-vacations-at-underweight-lowers-price-target-to-97-from-100/"
     },
     {
-     "title": "Reuters via Tiger: Avril named CEO, Flaskey President (17 Feb 2026)",
-     "url": "https://www-web.itiger.com/news/2612845450"
-    },
-    {
-     "title": "Earnings Whispers: Q3 2026 report date",
-     "url": "https://www.earningswhispers.com/article/VAC/2610071035"
-    },
-    {
-     "title": "Benzinga: Q2 2026 vs consensus (aggregator)",
-     "url": "https://www.benzinga.com/markets/earnings/26/08/60993947"
-    },
-    {
-     "title": "Zacks: VAC up 46% in 6 months (aggregator)",
-     "url": "https://www.zacks.com/stock/news/2987834/marriott-vacations-stock-jumps-46-in-6-months-is-more-upside-ahead"
-    },
-    {
-     "title": "StockAnalysis: VAC analyst forecasts (aggregator)",
-     "url": "https://stockanalysis.com/stocks/vac/forecast/"
-    },
-    {
-     "title": "AAII: VAC estimate revisions (aggregator)",
-     "url": "https://www.aaii.com/investingideas/article/528076-what-you-need-to-know-about-marriott-vacations-worldwide-corporations-q3-earnings"
-    },
-    {
-     "title": "Ticker Report: Q3 2026 preview, consensus (aggregator)",
-     "url": "https://www.tickerreport.com/banking-finance/13639874/marriott-vacations-worldwide-vac-expected-to-release-quarterly-earnings-on-wednesday.html"
-    },
-    {
-     "title": "InsiderTrades/MarketBeat: Asmar sale, inst. ownership (aggregator)",
-     "url": "https://www.insidertrades.com/alerts/nyse-vac-insider-buying-and-selling-2026-08-21/"
-    },
-    {
-     "title": "Fintel: VAC institutional holders (aggregator)",
-     "url": "https://fintel.io/so/us/vac"
+     "title": "Massive: VAC insider trades (aggregator)",
+     "url": "https://massive.com/quote/vac/insider-trading"
     },
     {
      "title": "Equibles: VAC short interest (aggregator)",
      "url": "https://equibles.com/stocks/vac/shortinterest"
     },
     {
-     "title": "Barron's via Tiger: timeshare stocks (26 Dec 2025)",
-     "url": "https://www-web.itiger.com/news/2594211758"
+     "title": "FXEmpire: VAC next earnings and Q4 consensus (aggregator)",
+     "url": "https://fxempire.com/stocks/vac/earnings"
+    },
+    {
+     "title": "Webull/Simply Wall St: HGV Q3 2026 (aggregator)",
+     "url": "https://www.webull.com/news/15839521806851072"
+    },
+    {
+     "title": "Webull/Barchart: TNL Q3 2026 (aggregator)",
+     "url": "https://www.webull.com/news/15820041978105856"
+    },
+    {
+     "title": "HGV Q3 2026 results, 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001674168/000167416826000106/hgvq32026earningsreleaseex.htm"
     }
    ]
   },
@@ -13871,22 +13835,22 @@
    "market": "US",
    "code": "MRK",
    "name": "Merck & Co.",
-   "date": "2026-11-05",
+   "date": "2026-11-13",
    "status_at_review": "Buy-ready",
-   "price_at_review": "US$146.94",
+   "price_at_review": "US$147.76",
    "verdict": "Reject",
    "confidence": "high",
-   "summary": "Merck is a mega-cap pharma leader whose stock has a strong chart (RS 92, VCP 4% below pivot) after a Q3 2026 beat and guidance raise, but the fundamentals are not SEPA-grade. Non-GAAP EPS fell 3% in Q3 2026 (Jul-Sep) and is negative-to-flat even before acquisition charges, sales grow only ~5% with Keytruda nearly half of revenue, and management flags modest 2027 revenue growth ahead of Keytruda's Dec 2028 US patent expiry. Earnings FAIL and clustered EVP selling in Aug 2026 make this a Reject.",
-   "catalyst": "WEAK: new launches (Winrevair Q3'26 $694M +93%, Keytruda Qlex $830M, Ohtuvayre $184M from Verona) offset rather than outgrow Keytruda/Bridion/Januvia erosion (Q3 2026 release, 29 Oct 2026).",
+   "summary": "Merck is a mega-cap pharma leader with a strong chart (RS 88, VCP ~4% below the 153.37 pivot) after a Q3 2026 beat and guidance raise, but the fundamentals are not SEPA-grade. Non-GAAP EPS fell 3% in Q3 2026 (Jul-Sep) and full-year 2026 EPS is crushed by acquisition charges, sales grow only ~5% with Keytruda ~48% of revenue ahead of its Dec 2028 US patent expiry. Since the 5 Nov review the only material news is a positive Phase 2b MASH readout for efinopegdutide (9 Nov), which is years from revenue; earnings FAIL and clustered EVP selling in Aug 2026 keep this a Reject.",
+   "catalyst": "WEAK: launches (Winrevair Q3'26 $694M +93%, Keytruda Qlex $830M) offset rather than outgrow Keytruda/Bridion/Januvia erosion; efinopegdutide Ph2b MASH win (9 Nov 2026) is long-dated.",
    "scorecard": [
     {
      "check": "Earnings",
-     "finding": "Non-GAAP EPS Q3'26 $2.49 (-3% y/y); Q2 -$0.13, Q1 -$1.28 (deal charges) vs $2.13/$2.22; FY26 guide $2.77-2.82 vs FY25 record $8.98",
+     "finding": "Non-GAAP EPS Q3'26 $2.49 vs $2.58 (-3%); GAAP $2.04 vs $2.32 (-12%); Q2/Q1'26 negative (deal charges); FY26 guide $2.77-2.82 vs FY25 $8.98",
      "result": "FAIL"
     },
     {
      "check": "Sales",
-     "finding": "Q3'26 $18.09B +5% (+4% ex-FX); Q2 +5%, Q1 +5%; ~$550M purchase-timing benefit + $184M acquired Ohtuvayre; Keytruda 48% of sales",
+     "finding": "Q3'26 $18.1B +5% (+4% ex-FX); Q2 +5%, Q1 +5%; ~$550M purchase-timing benefit + acquired Ohtuvayre $184M; Keytruda $8.6B (~48%)",
      "result": "CAUTION"
     },
     {
@@ -13896,53 +13860,53 @@
     },
     {
      "check": "Earnings quality",
-     "finding": "Repeated 'one-time' BD charges ($9.0B Cidara, $5.7B Terns, $0.4B SciBrunch in 2026); Q3 flattered by $550M timing and 10.9% tax rate",
+     "finding": "Repeated 'one-time' BD charges (~$6.05/sh in FY26 guide: Cidara, Terns, SciBrunch); Q3 flattered by ~$550M timing and 10.9% tax rate",
      "result": "CAUTION"
     },
     {
      "check": "Surprises, guidance, revisions",
-     "finding": "Q3'26 EPS $2.49 vs $2.12 consensus, sales $18.09B vs $17.23B; FY26 EPS guide raised to $2.77-2.82; Zacks Rank #5 (29 Oct 2026)",
+     "finding": "Q3'26 EPS $2.49 vs $2.12 est, sales beat; FY26 guide raised to $2.77-2.82 (29 Oct); FY27 consensus $7.93 (MarketScreener 13 Nov) < FY25",
      "result": "CAUTION"
     },
     {
      "check": "Catalyst",
-     "finding": "Winrevair +93%, Keytruda Qlex, Ohtuvayre launches; mgmt sees only modest 2027 revenue growth (Q3'26 remarks); WEAK",
+     "finding": "WEAK: Winrevair +93%, Keytruda Qlex; efinopegdutide Ph2b MASH 63% resolution vs 13% pbo (9 Nov 2026), years from sales",
      "result": "CAUTION"
     },
     {
      "check": "Category and group",
-     "finding": "Top-3 global pharma, institutional favourite; peers ABBV, LLY, GILD at/near highs (16 Oct 2026); RS 92; defensive, not growth",
+     "finding": "Top-3 global pharma, institutional favourite; peers ABBV, LLY, GILD near highs (16 Oct 2026); RS 88; defensive, not growth leader",
      "result": "PASS"
     },
     {
      "check": "Supply and ownership",
-     "finding": "Mkt cap ~US$362B (2,465M sh, 31 Oct 2026); inst. 80.1% (30 Jun 2026); 5 EVPs sold ~228k sh ~$30M 5-13 Aug 2026, no buys",
+     "finding": "Mkt cap ~US$364B (2,465M sh, 31 Oct 2026); inst. 80.1% (30 Jun 2026); 5 EVPs sold ~228k sh 5-13 Aug 2026; no buys, nothing new since",
      "result": "FAIL"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 2026: cash $9.55B, debt $53.8B, net debt $44.2B (vs $34.8B Dec 2025); 9M'26 op cash flow $15.8B; ROE not found; no raise",
+     "finding": "30 Sep 2026 (10-Q): cash $9.55B, debt $53.78B, net debt ~$44.2B (vs $34.8B Dec 2025); 9M'26 op cash flow $15.85B; ROE not found",
      "result": "PASS"
     },
     {
      "check": "Event risk",
-     "finding": "Q4'26 results ~2 Feb 2027; ATLAS UC Ph3 near-term; short int. 26.8M sh (1.1%) 15 Oct 2026, down from 34.4M; hold: profit cushion only",
+     "finding": "Q4'26 results + 2027 guide 2 Feb 2027; short int. 26.6M sh 30 Oct 2026, down from 34.4M 15 Sep; 2027 LOE/IRA headwinds; hold: cushion only",
      "result": "CAUTION"
     },
     {
      "check": "Market extras",
-     "finding": "Q3'26 10-Q filed early Nov 2026 (exact date not found); next earnings ~2 Feb 2027; no equity offering/ATM; $6B notes May 2026",
+     "finding": "Q3'26 10-Q (cover date 31 Oct 2026; filing date not found); next earnings 2 Feb 2027; no equity offering/ATM; $6B notes May 2026",
      "result": "PASS"
     }
    ],
    "risks": [
     "Keytruda (~48% of sales) loses US compound patent Dec 2028; Medicare price setting expected from 1 Jan 2029",
     "Q3 2026 beat helped by ~$550M purchase timing and Winrevair inventory build, both to unwind (Q4 2026/2027)",
-    "2027 headwinds: Bridion/Januvia generics (>$2B), German cost law from 1 Jan 2027, vaccine hesitancy, mid-high single-digit opex growth",
-    "Clustered EVP open-market sales in Aug 2026 and 80% institutional ownership limit fresh demand",
-    "Q4 2026 results and 2027 guidance ~2 Feb 2027; consensus FY27 EPS $8.31 is below FY25 $8.98"
+    "2027 headwinds: Bridion/Januvia generics, German cost law from 1 Jan 2027, vaccine softness; mgmt sees only modest 2027 revenue growth",
+    "Clustered EVP open-market sales in Aug 2026 and ~80% institutional ownership limit fresh demand",
+    "Q4 2026 results and 2027 guidance on 2 Feb 2027 could reset estimates; FY27 consensus ($7.93) is below FY25 non-GAAP $8.98"
    ],
-   "next_event": "Q4 2026 results and 2027 guidance, ~2 Feb 2027 (unconfirmed; shortlist next_earnings 2026-10-29 is stale)",
+   "next_event": "Q4 2026 results and 2027 guidance, 2 Feb 2027 (per MarketScreener; shortlist next_earnings 2026-10-29 is stale)",
    "hold_through_event": "ONLY WITH A PROFIT CUSHION",
    "sources": [
     {
@@ -13950,12 +13914,20 @@
      "url": "https://www.businesswire.com/news/home/20261029138599/en/Merck-Co.-Inc.-Rahway-N.J.-USA-Announces-Third-Quarter-2026-Financial-Results-Highlights-Multiple-Milestones-Advancing-Broad-Diverse-Pipeline"
     },
     {
+     "title": "Merck Form 10-Q, quarter ended 30 Sep 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000310158/000031015826000248/mrk-20260930.htm"
+    },
+    {
      "title": "Merck Q3 2026 prepared remarks",
      "url": "https://www.merck.com/wp-content/uploads/sites/124/2026/10/3Q26-Merck-Prepared-Remarks.pdf"
     },
     {
-     "title": "Merck Form 10-Q, quarter ended 30 Sep 2026 (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000310158/000031015826000248/mrk-20260930.htm"
+     "title": "Merck efinopegdutide Phase 2b MASH results release (9 Nov 2026)",
+     "url": "https://s2.q4cdn.com/584635680/files/doc_news/Merck-Announces-Positive-Results-from-Phase-2b-Trial-of-Efinopegdutide-in-Adults-with-Metabolic-Dysfunction-Associated-Steatohepatiti-BQO25.pdf"
+    },
+    {
+     "title": "Merck news releases (checked 29 Oct-13 Nov 2026)",
+     "url": "https://www.merck.com/media/news/"
     },
     {
      "title": "Merck Q2 2026 results, 8-K Ex 99.1 (SEC)",
@@ -13968,14 +13940,6 @@
     {
      "title": "Merck Q4/FY2025 results, 8-K Ex 99.1 (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926009495/tm264564d1_ex99-1.htm"
-    },
-    {
-     "title": "Zacks: MRK Q3 earnings and sales beat (Yahoo Finance, aggregator)",
-     "url": "https://finance.yahoo.com/healthcare/articles/mrk-q3-earnings-sales-beat-150600815.html"
-    },
-    {
-     "title": "sec-api.io Q3 2026 filing analysis (aggregator: Keytruda LOE, debt issues)",
-     "url": "https://sec-api.io/insights/merck-co-mrk-q3-2026-earnings-sec-filing-analysis"
     },
     {
      "title": "SecForm4 MRK insider transactions (Form 4 aggregator)",
@@ -13991,7 +13955,7 @@
     },
     {
      "title": "MarketScreener MRK calendar and consensus (aggregator)",
-     "url": "https://www.marketscreener.com/quote/stock/MERCK-CO-INC-13611/calendar/"
+     "url": "https://uk.marketscreener.com/quote/stock/MERCK-CO-INC-13611/calendar/"
     },
     {
      "title": "Big pharma stocks near all-time highs (Tiger, 16 Oct 2026)",
@@ -14003,12 +13967,12 @@
    "market": "US",
    "code": "LNTH",
    "name": "Lantheus Holdings",
-   "date": "2026-11-05",
+   "date": "2026-11-13",
    "status_at_review": "Buy-ready",
-   "price_at_review": "US$100.7",
+   "price_at_review": "US$101.59",
    "verdict": "Reject",
    "confidence": "high",
-   "summary": "Lantheus agreed on 3 Aug 2026 to be bought by Curium for US$102.50 cash plus a non-transferable CVR worth up to US$12, and stockholders approved the deal on 14 Oct 2026. The 'VCP' near a US$102.9 pivot is merger-arbitrage pricing just under the cash price, not a growth setup. Q3 2026 results came out today: revenue rose 1.5%, GAAP EPS fell 19.5%, guidance stays suspended and there was no call, so upside is capped and the main risk is the deal breaking.",
+   "summary": "Lantheus agreed on 3 Aug 2026 to be bought by Curium for US$102.50 cash plus a non-transferable CVR worth up to US$12. Stockholders approved the deal on 14 Oct 2026, and the FTC issued a second request on 21 Oct. At US$101.59 the 'VCP' just under the US$102.9 pivot is merger-arbitrage pricing, not a growth setup. Re-checked on 13 Nov: no new 8-K, Form 4, offering or deal update found since the Q3 2026 results and 10-Q (5 Nov). The business is flat (Q3 revenue +1.5%, GAAP EPS -19.5%), so upside is capped and the main risk is the deal breaking.",
    "catalyst": "None for earnings. The Curium cash takeover (8-K, 3 Aug 2026) caps the share price near US$102.50, and CVR payouts depend on sales milestones in 2028-2030.",
    "scorecard": [
     {
@@ -14028,7 +13992,7 @@
     },
     {
      "check": "Earnings quality",
-     "finding": "Q3'26 GAAP $0.33 vs adj $1.68; $31.0M impairment; 9M'26 incl $59.4M sale gain; SBC $57.9M 9M; OCF $102.0M Q3",
+     "finding": "Q3'26 GAAP $0.33 vs adj $1.68; $31.0M impairment; 9M'26 incl $59.4M sale gain; SBC $57.9M 9M; 9M OCF $319.3M; no buybacks 2026",
      "result": "CAUTION"
     },
     {
@@ -14048,12 +14012,12 @@
     },
     {
      "check": "Supply and ownership",
-     "finding": "65.4M sh (2 Nov 26); 398 13F holders Q1'26, inst % not found reliably; D&O 1.8%; no open-mkt insider buys/sales found in 12m",
+     "finding": "65.4M sh (2 Nov 26); inst % not found reliably; D&O 1.8%; Form 4s 12m only awards/tax withholding, no open-mkt buys/sales",
      "result": "CAUTION"
     },
     {
      "check": "Balance sheet",
-     "finding": "30 Sep 26: cash $683.6M, debt $571.7M, net cash $111.9M; 9M'26 OCF $319.3M; ROE not found; no raise needed",
+     "finding": "30 Sep 26 (10-Q): cash $683.6M, debt $571.7M, net cash $111.9M; equity $1,355.7M; 9M'26 OCF $319.3M; ROE not found",
      "result": "PASS"
     },
     {
@@ -14063,18 +14027,18 @@
     },
     {
      "check": "Market extras",
-     "finding": "Q3'26 10-Q filed with results (5 Nov 26); next earnings not announced; no ATM/offering found; 2.625% converts due Dec 2027",
+     "finding": "Q3'26 10-Q filed 5 Nov 26; next earnings not announced; no ATM/offering/shelf use found to 13 Nov; 2.625% converts due Dec 2027",
      "result": "CAUTION"
     }
    ],
    "risks": [
-    "Deal break: FTC second request (21 Oct 2026). Curium owes only a US$100M regulatory reverse fee, and the US$102.50 price was a 21% premium to the unaffected 21 May 2026 close",
+    "Deal break: FTC second request (21 Oct 2026). Curium owes only a US$100M regulatory reverse fee; US$102.50 was a 21% premium to the unaffected 21 May 2026 close",
     "Upside is capped at US$102.50 cash. The CVR (up to US$12) can't be traded and depends on 2028-2030 sales milestones",
     "The underlying business is flat: Pylarify -0.7% and GAAP EPS -19.5% in Q3 2026. FY26 guidance is suspended",
     "Timing: close targeted for 1H 2027; outside date 2 May 2027, extendable to 30 Nov 2027 for regulatory approvals",
     "A rival bid could change the picture, but none has been reported"
    ],
-   "next_event": "FTC second-request compliance/HSR clearance, close targeted 1H 2027; Q4 2026 earnings date not announced (not found)",
+   "next_event": "FTC second-request compliance/HSR clearance, close targeted 1H 2027; Q4 2026 earnings date not announced (not found as of 13 Nov 2026)",
    "hold_through_event": "NO",
    "sources": [
     {
@@ -14112,6 +14076,10 @@
     {
      "title": "8-K FTC second request (22 Oct 2026)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001521036/000119312526428324/d19181d8k.htm"
+    },
+    {
+     "title": "Lantheus receives FTC second request on Curium deal (Seeking Alpha)",
+     "url": "https://seekingalpha.com/news/4655930-lantheus-receives-ftc-second-request-on-curium-deal"
     },
     {
      "title": "FTC extends review of Lantheus-Curium merger (EconoTimes)",
@@ -18388,6 +18356,150 @@
     {
      "title": "WSJ Heard on the Street via Tiger: managed care group (aggregator)",
      "url": "https://www.itiger.com/news/2644712935"
+    }
+   ]
+  },
+  "US:HUM": {
+   "market": "US",
+   "code": "HUM",
+   "name": "Humana",
+   "date": "2026-11-13",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$450.00",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "Humana is a Stars-recovery turnaround. About 95% of members are in 4+ star plans for 2027 (Bonus Year 2028, released 9 Oct 2026), which drove a 16% gap up, and the company beat Q3 2026 and raised guidance. But earnings are falling, not growing: Q3 2026 adjusted EPS was -$0.70 vs +$3.24, FY26 adjusted EPS guidance is at least $9.50 vs $17.14 in FY25, and margins are being squeezed. The earnings acceleration SEPA needs is a 2027-2028 story, not a reported fact.",
+   "catalyst": "2027 Star Ratings (CMS, 8 Oct 2026; HUM 8-K 9 Oct): about 95% of members in 4+ star plans vs about 20% before, which restores quality bonus revenue from 2028 (STRONG).",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Adj EPS: Q1'26 $10.31 vs $11.58 (-11%), Q2 $7.61 vs $6.27 (+21%), Q3 -$0.70 vs $3.24; FY26 guide >=$9.50 vs $17.14 FY25",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 GAAP revenue $41.16B vs $32.65B, +26% YoY (Q2 +26%); organic, from individual MA members +23% to 6.46M",
+     "result": "PASS"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 benefit ratio 93.9% vs 91.1%; operating margin 0.2% vs 1.2%; opex ratio better at 11.3% vs 12.6%. No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3 GAAP EPS $1.33 lifted by a $358M noncash put/call reversal; YTD operating cash flow $5.38B vs $2.57B. Prior-period reserve releases fell",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 (6 Nov 2026): adj EPS -$0.70 vs -$1.00 consensus; revenue $41.16B vs $40.9B; FY26 adj guide raised to >=$9.50 from >=$9.00; targets raised",
+     "result": "PASS"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "STRONG: 2027 Stars (9 Oct 2026) put about 95% of members in 4+ star plans vs about 20%; member-weighted rating 4.17; bonus tailwind from 2028",
+     "result": "PASS"
+    },
+    {
+     "check": "Category and group",
+     "finding": "MA turnaround. On 12 Oct 2026 HUM was +62% over 1 year and at its high; CNC +84%, ELV about 1% off its high; UNH and CVS lag",
+     "result": "PASS"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Institutions about 92% (Aug 2026, aggregator); about 122M diluted shares, flat. Sales: CLO Ventura 5,495 sh (9 Nov) and director 440 sh (10 Nov)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "At 30 Sep 2026: debt $12.5B; cash $6.9B; debt-to-cap 40.9% vs 40.3%; parent cash $528M vs $1.94B; ROE not found; no raise signalled",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Investor update 10 Dec 2026; Q4 results about 5 Feb 2027 (est., consensus Q4 EPS -$7.60); 2028 advance rate notice; Part D trend 14-15%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q2 10-Q filed Jul 2026; Q3 10-Q date not found; next earnings about 5 Feb 2027; $1.0B junior notes Mar 2026; no equity offering or ATM found",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "No earnings growth yet: FY26 adjusted EPS guidance (>=$9.50) is down about 45% from FY25's $17.14; Q4 2026 consensus is a loss of about $7.60.",
+    "Medical cost trend rising: 2027 core medical trend 8-9% (vs 7-8% in 2026) and Part D 14-15%. The thin MA margin leaves little room for error.",
+    "Over-owned: about 92% institutional ownership, and the stock is up about 68% in 6 months, so it is crowded after the Stars re-rating.",
+    "Event dates: investor update 10 Dec 2026, AEP membership and mix, and Q4/FY27 guidance about 5 Feb 2027 (estimated date).",
+    "Would change the verdict: FY27 guidance showing adjusted EPS up sharply (40%+) with expanding MA margin."
+   ],
+   "next_event": "Investor update 10 Dec 2026; Q4 2026 results about 5 Feb 2027 (estimated)",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release, brief (8-K Ex 99.1, 6 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000064/hum-2026q3xex99x1briefxsep.htm"
+    },
+    {
+     "title": "Q3 2026 detailed release (8-K Ex 99.2)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000064/hum-2026q3xex99x2detailedx.htm"
+    },
+    {
+     "title": "8-K, 9 Oct 2026: 2027 Star Ratings",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000057/hum-20261009.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release (8-K, 29 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000045/hum-2026q2xex99x1briefxjul.htm"
+    },
+    {
+     "title": "Q4 2025 earnings release (8-K, 11 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000005/hum-2025q4xex99x1briefxfeb.htm"
+    },
+    {
+     "title": "Q1 2026 results (Business Wire repost)",
+     "url": "https://insurancenewsnet.com/oarticle/humana-reports-first-quarter-2026-financial-results-affirms-full-year-2026-adjusted-financial-guidance"
+    },
+    {
+     "title": "Q3 2026 earnings call transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/humana-hum-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "title": "Form 4: Ventura sale, 9 Nov 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000176829126000008/form4.xml"
+    },
+    {
+     "title": "Form 4: Frederick sale, 10 Nov 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000180224126000010/form4.xml"
+    },
+    {
+     "title": "Insider transactions list (secform4, aggregator)",
+     "url": "https://www.secform4.com/insider-trading/49071.htm"
+    },
+    {
+     "title": "Raymond James on Q3 beat (Investing.com)",
+     "url": "https://www.investing.com/news/analyst-ratings/raymond-james-reiterates-humana-stock-rating-on-q3-beat-93CH-5008608"
+    },
+    {
+     "title": "Stars ratings boost, 95% in 4+ star plans (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-gets-major-ratings-183909402.html"
+    },
+    {
+     "title": "Managed care group performance, 12 Oct 2026",
+     "url": "https://www.theclosingprint.net/2026/10/managed-care-health-insurers-deep-dive-2026-10-12/"
+    },
+    {
+     "title": "Institutional ownership 92.38% (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/filing-janus-henderson-group-plc-raises-stock-holdings-in-humana-inc-hum-2026-08-03/"
+    },
+    {
+     "title": "Next earnings date and consensus (Earnings Whispers, aggregator)",
+     "url": "https://www.earningswhispers.com/stocks/HUM"
+    },
+    {
+     "title": "$1.0B junior subordinated notes, Mar 2026",
+     "url": "https://policy.humana.com/news-and-resources/news-press/2026/humana-prices--1-0-billion-fixed-to-fixed-rate-junior"
     }
    ]
   }
