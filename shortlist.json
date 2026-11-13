@@ -1,41 +1,46 @@
 {
- "generated": "2026-11-12T22:21:25Z",
+ "generated": "2026-11-13T08:31:33Z",
  "stocks": [
   {
-   "code": "SOL",
-   "symbol": "SOL.AX",
-   "name": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
-   "industry": "Financial Services",
-   "status": "Breaking out",
+   "code": "PWH",
+   "symbol": "PWH.AX",
+   "name": "PWR HOLDINGS LIMITED",
+   "industry": "Automobiles & Components",
+   "status": "Buy-ready",
    "setup": "VCP",
-   "price": 48.85,
-   "pivot": 48.37,
-   "dist_pivot": 1.0,
-   "rs": 82,
-   "score": 50,
+   "price": 11.41,
+   "pivot": 11.85,
+   "dist_pivot": -3.7,
+   "rs": 86,
+   "score": 60,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
    "ff": {
     "data": true,
-    "eps": false,
-    "pass": false,
+    "eps": true,
+    "pass": true,
     "accel": false,
     "code33": false,
-    "gap": false,
-    "edge": false
+    "gap": true,
+    "edge": true
    },
-   "gap": null,
+   "gap": {
+    "days_ago": 60,
+    "pct": 4.5,
+    "vol_mult": 4.8,
+    "held": true
+   },
    "buy": {
-    "trigger": 48.37,
-    "max": 50.7885,
-    "grade": "B"
+    "trigger": 11.85,
+    "max": 12.4425,
+    "grade": "A"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "7W 9/7 2T",
-   "next_earnings": "2026-09-24",
+   "as_of": "2026-11-13",
+   "footprint": "12W 25/4 2T",
+   "next_earnings": "2025-08-11",
    "priority": 1
   },
   {
@@ -81,58 +86,16 @@
    "priority": 2
   },
   {
-   "code": "WAF",
-   "symbol": "WAF.AX",
-   "name": "WEST AFRICAN RESOURCES LIMITED",
-   "industry": "Materials",
+   "code": "MND",
+   "symbol": "MND.AX",
+   "name": "MONADELPHOUS GROUP LIMITED",
+   "industry": "Capital Goods",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 3.53,
-   "pivot": 3.71,
-   "dist_pivot": -4.9,
-   "rs": 70,
-   "score": 44,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": true,
-    "pass": true,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": true
-   },
-   "gap": {
-    "days_ago": 45,
-    "pct": 5.0,
-    "vol_mult": 2.1,
-    "held": false
-   },
-   "buy": {
-    "trigger": 3.71,
-    "max": 3.8955,
-    "grade": "A"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "9W 20/5 2T",
-   "next_earnings": "2026-09-10",
-   "priority": 3
-  },
-  {
-   "code": "INA",
-   "symbol": "INA.AX",
-   "name": "INGENIA COMMUNITIES GROUP",
-   "industry": "Equity Real Estate Investment Trusts (REITs)",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 5.3,
-   "pivot": 5.445,
-   "dist_pivot": -2.7,
-   "rs": 84,
+   "price": 33.94,
+   "pivot": 35.3,
+   "dist_pivot": -3.9,
+   "rs": 78,
    "score": 48,
    "stage": "2",
    "base_no": 1,
@@ -147,7 +110,49 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 11,
+    "days_ago": 2,
+    "pct": 4.1,
+    "vol_mult": 2.3,
+    "held": true
+   },
+   "buy": {
+    "trigger": 35.3,
+    "max": 37.065,
+    "grade": "A"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-13",
+   "footprint": "37W 28/5 6T",
+   "next_earnings": "2026-08-25",
+   "priority": 3
+  },
+  {
+   "code": "INA",
+   "symbol": "INA.AX",
+   "name": "INGENIA COMMUNITIES GROUP",
+   "industry": "Equity Real Estate Investment Trusts (REITs)",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 5.29,
+   "pivot": 5.445,
+   "dist_pivot": -2.8,
+   "rs": 85,
+   "score": 48,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 12,
     "pct": 5.0,
     "vol_mult": 3.4,
     "held": true
@@ -159,7 +164,7 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
+   "as_of": "2026-11-13",
    "footprint": "62W 42/7 4T",
    "next_earnings": "2026-08-25",
    "priority": 4
@@ -215,10 +220,10 @@
    "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 15.72,
+   "price": 15.64,
    "pivot": 16.0,
-   "dist_pivot": -1.7,
-   "rs": 79,
+   "dist_pivot": -2.2,
+   "rs": 80,
    "score": 39,
    "stage": "2",
    "base_no": 1,
@@ -233,7 +238,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 58,
+    "days_ago": 59,
     "pct": 5.1,
     "vol_mult": 3.0,
     "held": true
@@ -245,47 +250,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "63W 36/4 18T",
+   "as_of": "2026-11-13",
+   "footprint": "63W 36/4 19T",
    "next_earnings": "2026-08-24",
    "priority": 6
-  },
-  {
-   "code": "ALK",
-   "symbol": "ALK.AX",
-   "name": "ALKANE RESOURCES LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 1.81,
-   "pivot": 1.9,
-   "dist_pivot": -4.7,
-   "rs": 87,
-   "score": 60,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": true,
-    "pass": true,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 1.9,
-    "max": 1.995,
-    "grade": "B"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "7W 30/5 2T",
-   "next_earnings": "2026-10-23",
-   "priority": 7
   },
   {
    "code": "TGT",
@@ -325,7 +293,7 @@
    "as_of": "2026-11-12",
    "footprint": "11W 15/5 2T",
    "next_earnings": "2026-11-18",
-   "priority": 8
+   "priority": 7
   },
   {
    "code": "PK",
@@ -364,49 +332,7 @@
    "as_of": "2026-11-12",
    "footprint": "3W 10/3 2T",
    "next_earnings": "2026-11-04",
-   "priority": 9
-  },
-  {
-   "code": "AUC",
-   "symbol": "AUC.AX",
-   "name": "AUSGOLD LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 1.35,
-   "pivot": 1.39,
-   "dist_pivot": -2.9,
-   "rs": 93,
-   "score": 58,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": false
-   },
-   "gap": {
-    "days_ago": 60,
-    "pct": 4.7,
-    "vol_mult": 16.5,
-    "held": true
-   },
-   "buy": {
-    "trigger": 1.39,
-    "max": 1.4595,
-    "grade": "B"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "11W 24/4 4T",
-   "next_earnings": "2025-07-29",
-   "priority": 10
+   "priority": 8
   },
   {
    "code": "MRK",
@@ -448,7 +374,7 @@
    "as_of": "2026-11-12",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 11
+   "priority": 9
   },
   {
    "code": "LNTH",
@@ -485,6 +411,90 @@
    "as_of": "2026-11-12",
    "footprint": "19W 12/4 5T",
    "next_earnings": "2026-11-05",
+   "priority": 10
+  },
+  {
+   "code": "RWC",
+   "symbol": "RWC.AX",
+   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+   "industry": "Capital Goods",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 4.62,
+   "pivot": 4.68,
+   "dist_pivot": -1.3,
+   "rs": 84,
+   "score": 56,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 42,
+    "pct": 6.5,
+    "vol_mult": 5.9,
+    "held": true
+   },
+   "buy": {
+    "trigger": 4.68,
+    "max": 4.914,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-13",
+   "footprint": "6W 13/1 2T",
+   "next_earnings": "2026-08-18",
+   "priority": 11
+  },
+  {
+   "code": "AUC",
+   "symbol": "AUC.AX",
+   "name": "AUSGOLD LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 1.325,
+   "pivot": 1.39,
+   "dist_pivot": -4.7,
+   "rs": 91,
+   "score": 56,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": false
+   },
+   "gap": {
+    "days_ago": 61,
+    "pct": 4.7,
+    "vol_mult": 16.5,
+    "held": true
+   },
+   "buy": {
+    "trigger": 1.39,
+    "max": 1.4595,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-13",
+   "footprint": "11W 24/5 4T",
+   "next_earnings": "2025-07-29",
    "priority": 12
   },
   {
@@ -565,6 +575,43 @@
    "priority": 14
   },
   {
+   "code": "PRU",
+   "symbol": "PRU.AX",
+   "name": "PERSEUS MINING LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 6.35,
+   "pivot": 6.64,
+   "dist_pivot": -4.4,
+   "rs": 81,
+   "score": 52,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 6.64,
+    "max": 6.972,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-13",
+   "footprint": "7W 24/5 2T",
+   "next_earnings": "2026-08-26",
+   "priority": 15
+  },
+  {
    "code": "GRMN",
    "symbol": "GRMN",
    "name": "Garmin",
@@ -599,43 +646,6 @@
    "as_of": "2026-11-12",
    "footprint": "13W 16/6 4T",
    "next_earnings": "2026-10-28",
-   "priority": 15
-  },
-  {
-   "code": "PRU",
-   "symbol": "PRU.AX",
-   "name": "PERSEUS MINING LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 6.46,
-   "pivot": 6.64,
-   "dist_pivot": -2.7,
-   "rs": 79,
-   "score": 51,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 6.64,
-    "max": 6.972,
-    "grade": "B"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "7W 24/4 2T",
-   "next_earnings": "2026-08-26",
    "priority": 16
   },
   {
@@ -868,52 +878,15 @@
    "priority": 22
   },
   {
-   "code": "LGF",
-   "symbol": "LGF.AX",
-   "name": "L1 GOLD FUND LIMITED",
-   "industry": "Not Applic",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 2.32,
-   "pivot": 2.42,
-   "dist_pivot": -4.1,
-   "rs": 78,
-   "score": 42,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": false,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 2.42,
-    "max": 2.541,
-    "grade": "B"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "12W 15/5 2T",
-   "next_earnings": null,
-   "priority": 23
-  },
-  {
    "code": "SDF",
    "symbol": "SDF.AX",
    "name": "STEADFAST GROUP LIMITED",
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 5.82,
+   "price": 5.8,
    "pivot": 5.83,
-   "dist_pivot": -0.2,
+   "dist_pivot": -0.5,
    "rs": 82,
    "score": 40,
    "stage": "2",
@@ -929,7 +902,7 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 111,
+    "days_ago": 112,
     "pct": 32.4,
     "vol_mult": 4.5,
     "held": true
@@ -941,10 +914,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
+   "as_of": "2026-11-13",
    "footprint": "53W 41/0 22T",
    "next_earnings": "2026-08-26",
-   "priority": 24
+   "priority": 23
   },
   {
    "code": "DBI",
@@ -953,11 +926,11 @@
    "industry": "Transportation",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.63,
+   "price": 5.64,
    "pivot": 5.79,
-   "dist_pivot": -2.8,
-   "rs": 75,
-   "score": 36,
+   "dist_pivot": -2.6,
+   "rs": 76,
+   "score": 37,
    "stage": "2",
    "base_no": 5,
    "warnings": [
@@ -980,31 +953,29 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
+   "as_of": "2026-11-13",
    "footprint": "20W 15/6 4T",
    "next_earnings": "2025-08-25",
-   "priority": 25
+   "priority": 24
   },
   {
-   "code": "LSF",
-   "symbol": "LSF.AX",
-   "name": "L1 LONG SHORT FUND LIMITED",
-   "industry": "Not Applic",
+   "code": "SNL",
+   "symbol": "SNL.AX",
+   "name": "SUPPLY NETWORK LIMITED",
+   "industry": "Consumer Discretionary Distribution & Retail",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 4.65,
-   "pivot": 4.71,
-   "dist_pivot": -1.3,
-   "rs": 70,
-   "score": 24,
+   "price": 35.6,
+   "pivot": 36.0,
+   "dist_pivot": -1.1,
+   "rs": 72,
+   "score": 28,
    "stage": "2",
-   "base_no": 5,
-   "warnings": [
-    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
-   ],
+   "base_no": 2,
+   "warnings": [],
    "ff": {
     "data": true,
-    "eps": true,
+    "eps": false,
     "pass": false,
     "accel": false,
     "code33": false,
@@ -1013,15 +984,52 @@
    },
    "gap": null,
    "buy": {
-    "trigger": 4.71,
-    "max": 4.9455,
+    "trigger": 36.0,
+    "max": 37.8,
     "grade": "B"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-12",
-   "footprint": "9W 16/16 1T",
-   "next_earnings": "2025-08-20",
+   "as_of": "2026-11-13",
+   "footprint": "62W 32/3 12T",
+   "next_earnings": "2025-08-25",
+   "priority": 25
+  },
+  {
+   "code": "AUB",
+   "symbol": "AUB.AX",
+   "name": "AUB GROUP LIMITED",
+   "industry": "Insurance",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 31.97,
+   "pivot": 32.18,
+   "dist_pivot": -0.7,
+   "rs": 74,
+   "score": 22,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 32.18,
+    "max": 33.789,
+    "grade": "B"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-13",
+   "footprint": "52W 45/12 13T",
+   "next_earnings": "2026-08-25",
    "priority": 26
   }
  ]
