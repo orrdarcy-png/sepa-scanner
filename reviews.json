@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:28:52Z",
+ "updated": "2026-11-13T22:28:57Z",
  "reviews": {
   "ASX:BVS": {
    "market": "ASX",
@@ -18500,6 +18500,290 @@
     {
      "title": "$1.0B junior subordinated notes, Mar 2026",
      "url": "https://policy.humana.com/news-and-resources/news-press/2026/humana-prices--1-0-billion-fixed-to-fixed-rate-junior"
+    }
+   ]
+  },
+  "US:NWL": {
+   "market": "US",
+   "code": "NWL",
+   "name": "Newell Brands",
+   "date": "2026-11-13",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$5.78",
+   "verdict": "Reject",
+   "confidence": "medium",
+   "summary": "Newell is a highly leveraged consumer-durables turnaround. Sales have just returned to low single-digit growth after more than four years of declines, and normalized margins are edging up. Earnings fail SEPA: GAAP losses continue (Q3 2026 -$0.19), normalized Q3 EPS rose only 18%, and Q2's jump came from one-time tariff refunds. Consensus sees FY2027 normalized EPS falling about 10%. Operating cash flow guidance was cut from about $400M to about $150M, and net debt is about 4.5x EBITDA.",
+   "catalyst": "Return to sales growth (Q2 2026, first in 4+ years; Q3 core +3.3%), plus about 25 major launches and the Aug 2026 refinancing. Rated WEAK: no step-change in earnings power.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Norm. EPS Q3'26 $0.20 vs $0.17 (+18%); Q2 +75% incl. ~$0.21 tariff refunds; Q1 -$0.05 vs -$0.01; GAAP Q3 -$0.19; FY27 cons. -10%",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "Q3'26 (Jul-Sep) sales $1,873M +3.7% YoY, core +3.3%; Q2 +3.0%; Q1 -1.1%; FY25 -5.0%. Organic but far below +20%",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 norm. GM 35.2% vs 34.5%, norm. op 9.8% vs 8.9%; GAAP op 1.4% vs 6.6%. Mgmt sees 2027 margin below 2026. No Code 33",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Biggest concern: GAAP vs norm. gap ($157M adj. in Q3'26 incl. $101M impairment). FY26 OCF guide cut ~$400M to ~$150M. 9M OCF $93M",
+     "result": "FAIL"
+    },
+    {
+     "check": "Surprises, guidance and revisions",
+     "finding": "Q3 (30 Oct 2026): EPS $0.20 in line, sales beat $1.85B est. FY26 sales guide raised, EPS mid $0.75 unchanged, OCF cut. Stock -11% that day",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: sales back to growth (Q2'26 release, 31 Jul 2026), ~25 launches in 2026, $600M 2031 notes refi (Aug 2026), Moody's outlook to stable",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Turnaround/laggard in housewares. Q3'26 sales still below Q3'23 ($2,048M); categories seen flat to -1% in 2027. Peer group strength not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Mkt cap ~$2.46B (calc.); shares 414.2M Q3'23 to 425.9M Q3'26 (+2.8%). 13F >100% (Sep'26, prov.). CHRO and CLO sold in open market May/Aug'26",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 2026: cash $249M, debt $4,841M, net debt $4,592M (~4.5x norm. EBITDA). GAAP loss so ROE negative. Equity raise unlikely: Aug'26 debt refi",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results expected early Feb 2027 (not confirmed). Short interest 39.7M (~9.3%) on 30 Oct 2026, down from 60.6M peak (15 Jul)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Q3'26 10-Q filing date not found (Q1 10-Q filed 1 May 2026). $2.75B S-3 shelf (May 2024); $600M 144A notes (Aug 2026); no ATM found",
+     "result": "CAUTION"
+    }
+   ],
+   "risks": [
+    "Earnings tailwind fades: FY27 consensus EPS $0.69 vs ~$0.76 FY26 (-10%), and the FY26 figure includes ~$0.17 of out-of-period tariff refunds",
+    "High leverage: net debt $4.59B, nearly 2x market cap; OCF guide cut to ~$150M as factoring is reduced",
+    "About $150M of 2027 inflation (resin-heavy) and modest early-2027 price rises could hurt volumes",
+    "Repeated impairments and restructuring ($101M tradename impairment in Q3'26) keep GAAP EPS negative",
+    "Outdoor & Recreation still shrinking (Q3'26 core -6.4%); a weak holiday season would undercut Q4 guide of $0.17-0.19 vs $0.18"
+   ],
+   "next_event": "Q4 and FY2026 results, early Feb 2027 (date not confirmed; prior Q4 reported 6 Feb 2026)",
+   "hold_through_event": "NO",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release, 8-K Ex 99.1 (SEC, 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000814453/000081445326000035/exhibit991_q3xseptemberx20.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release, 8-K Ex 99.1 (SEC, 31 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000814453/000081445326000024/exhibit991_q2xjunex2026.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release, 8-K Ex 99.1 (SEC, 1 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000814453/000081445326000013/exhibit991_q1xmarchx2026.htm"
+    },
+    {
+     "title": "Q4/FY2025 earnings release (6 Feb 2026)",
+     "url": "https://ir.newellbrands.com/news-releases/news-release-details/newell-brands-announces-fourth-quarter-and-full-year-2025"
+    },
+    {
+     "title": "Q3 2023 earnings release, 8-K Ex 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/814453/000081445323000143/exhibit991_q3xseptemberx20.htm"
+    },
+    {
+     "title": "Q3 2026 earnings call transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/newell-brands-nwl-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "title": "$600M 6.25% notes due 2031 pricing (Business Wire, Aug 2026)",
+     "url": "https://www.businesswire.com/news/home/20260805420852/en/"
+    },
+    {
+     "title": "Q1 2026 10-Q summary (Quantisnow)",
+     "url": "https://qnow.quantisnow.com/insight/sec-form-10-q-filed-by-newell-brands-inc-6526621"
+    },
+    {
+     "title": "$2.75B mixed shelf (TheFly, May 2024)",
+     "url": "https://tipranks.com/news/the-fly/newell-brands-files-2-75b-mixed-securities-shelf"
+    },
+    {
+     "title": "Consensus estimates, aggregator (StockAnalysis)",
+     "url": "https://stockanalysis.com/stocks/nwl/forecast/"
+    },
+    {
+     "title": "Q3 stock reaction (TIKR, 30 Oct 2026)",
+     "url": "https://www.tikr.com/blog/newell-brands-sinks-11-despite-raised-sales-outlook-as-inflation-exceeded-our-expectations"
+    },
+    {
+     "title": "Q3 vs consensus (Zacks)",
+     "url": "https://www.zacks.com/stock/news/3019781/nwl-q3-earnings-meet-estimates-sales-beat-on-broad-based-growth"
+    },
+    {
+     "title": "Insider trades, aggregator (Stockcircle)",
+     "url": "https://stockcircle.com/insider-trades/NWL"
+    },
+    {
+     "title": "CHRO sale (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/newell-insider-sells-100-direct-135248694.html"
+    },
+    {
+     "title": "Institutional holders, aggregator (Equibles)",
+     "url": "https://equibles.com/stocks/nwl/holdings"
+    },
+    {
+     "title": "Short interest, aggregator (Equibles)",
+     "url": "https://equibles.com/stocks/nwl/shortinterest"
+    }
+   ]
+  },
+  "US:RNR": {
+   "market": "US",
+   "code": "RNR",
+   "name": "RenaissanceRe Holdings",
+   "date": "2026-11-13",
+   "status_at_review": "Buy-ready",
+   "price_at_review": "US$353.62",
+   "verdict": "Reject",
+   "confidence": "high",
+   "summary": "RenaissanceRe is a top property-cat and specialty reinsurer whose shares are near highs on the back of strong 2026 underwriting, a lighter cat year than 2025 and heavy buybacks. The fundamentals are going the wrong way for SEPA: Q3 2026 operating EPS fell 18.6% YoY, GAAP EPS was a loss, gross premiums written fell for a fourth straight quarter, and management expects property-cat rates to keep falling at 1/1/2027. Earnings and Sales both FAIL, so it is rejected, even though book value and capital strength are solid.",
+   "catalyst": "WEAK: ongoing buybacks ($1.01B in 9M 2026, 10-Q) and a portfolio yield up to ~5.8-6% (Q3 2026 call, 28 Oct 2026); no new growth driver while cat pricing softens.",
+   "scorecard": [
+    {
+     "check": "Earnings",
+     "finding": "Op EPS (non-GAAP) Q3'26 $12.71 -18.6% YoY, Q2 $12.92 +5.1%; GAAP Q3 -$4.02 vs $19.40. FY25 op EPS $39.10 -9% (no record)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Sales",
+     "finding": "GPW Q3'26 $2.10B -9.5% YoY, Q2 -12.5%, Q1 -16.3%, Q4'25 -4.1%; NPE Q3 -13.7%. Planned casualty cuts and lower property rates",
+     "result": "FAIL"
+    },
+    {
+     "check": "Margins and Code 33",
+     "finding": "Q3'26 combined ratio 79.7% vs 68.4% Q3'25 (9.3 pts from large losses); 9M 75.1% vs 92.1% (2025 LA wildfires). No Code 33",
+     "result": "FAIL"
+    },
+    {
+     "check": "Earnings quality",
+     "finding": "Q3 GAAP loss from $879.8M MTM bond losses; property relies on reserve releases (32 pts Q3); casualty CR 110.6%. Buybacks shrink share count",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Surprises, guidance, revisions",
+     "finding": "Q3 op EPS $12.71 vs ~$10.41 consensus (AAII, aggregator); FY26 estimates +14.9% over 3 months; Q4 consensus $10.36 vs $13.34 a year ago",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Catalyst",
+     "finding": "WEAK: buybacks ($310M Q3, $144M 1-23 Oct) and yield up to ~5.8%; cat rates seen falling at 1/1/27 (Q3 call, 28 Oct 2026)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Category and group",
+     "finding": "Leader in property cat; cyclical, late in the cycle: YTD cat pricing down mid-teens and more softening expected. Peer strength near highs not verified",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Supply and ownership",
+     "finding": "Shares 40.41M (23 Oct 26) vs 51.17M (30 Oct 23), -21%. Inst ~99.97% (MarketBeat Jul 26). Sells: Sanders May, Qutub Jul, Ross Aug-Sep (10b5-1)",
+     "result": "FAIL"
+    },
+    {
+     "check": "Balance sheet",
+     "finding": "30 Sep 26: cash $1.10B, debt $2.33B, equity $11.35B; BVPS $259.61 +12.3% YoY; 9M op CF $2.33B (-27%); 9M op ROE 20.3%. No raise needed",
+     "result": "PASS"
+    },
+    {
+     "check": "Event risk",
+     "finding": "Q4'26 results not yet dated (Q4'25 was 3 Feb 26); 1/1/27 renewals; Middle East war losses. Short interest 1.17M (30 Oct), down from 1.65M (15 Jun)",
+     "result": "CAUTION"
+    },
+    {
+     "check": "Market extras",
+     "finding": "Last 10-Q filed 28 Oct 2026 (Q3). S-3ASR shelf filed 7 May 2026; no 2026 takedown/424B or ATM found. Next earnings ~early Feb 2027 (unconfirmed)",
+     "result": "PASS"
+    }
+   ],
+   "risks": [
+    "Property-cat rates falling again at 1/1/2027 (mid-teens drop YTD 2026), plus planned casualty cuts and more ceded premium, will shrink 2027 net premiums",
+    "Casualty social inflation of ~10-12% outpacing rate increases of ~8-10%; adverse reserve development risk (Q3'26 C&S combined ratio 110.6%)",
+    "A large cat event or further Middle East war and energy losses (Ras Laffan reserved at full-limit share)",
+    "Rising yields cause mark-to-market losses on the $36.2B portfolio (Q3'26 -$879.8M), hitting GAAP EPS and BVPS",
+    "Would change the verdict: operating EPS and premiums growing YoY again, e.g. after a hard-market reset following a major cat event"
+   ],
+   "next_event": "Q4 2026 results, early Feb 2027 (date not yet announced; Q4 2025 was released 3 Feb 2026); 1/1/2027 reinsurance renewals",
+   "hold_through_event": "ONLY WITH A PROFIT CUSHION",
+   "sources": [
+    {
+     "title": "Q3 2026 earnings release (8-K, 27 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000913144/000091314426000096/rnrearningsrelease2026q3.htm"
+    },
+    {
+     "title": "Q3 2026 10-Q",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000913144/000091314426000098/rnr-20260930.htm"
+    },
+    {
+     "title": "Q2 2026 earnings release (8-K, 22 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000913144/000091314426000081/rnrearningsrelease2026q2.htm"
+    },
+    {
+     "title": "Q1 2026 earnings release (8-K, 28 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000913144/000091314426000063/rnrearningsrelease2026q1.htm"
+    },
+    {
+     "title": "Q4 2025 earnings release (8-K, 3 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/913144/000091314426000003/rnrearningsrelease2025q4.htm"
+    },
+    {
+     "title": "Q3 2023 10-Q (share count)",
+     "url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000114/rnr-20230930.htm"
+    },
+    {
+     "title": "Q3 2026 earnings call transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/28/renaissancere-rnr-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "title": "Q3 consensus and revisions (AAII, aggregator)",
+     "url": "https://www.aaii.com/investingideas/article/517898-what-you-need-to-know-about-renaissancere-holdings-ltds-q3-earnings"
+    },
+    {
+     "title": "Analyst ratings and targets (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/RNR/forecast/"
+    },
+    {
+     "title": "Insider trades (MarketBeat, aggregator)",
+     "url": "https://www.marketbeat.com/stocks/NYSE/RNR/insider-trades/"
+    },
+    {
+     "title": "Form 4 feed (Quantisnow, aggregator)",
+     "url": "https://quantisnow.com/insiders/RNR"
+    },
+    {
+     "title": "Institutional ownership (MarketBeat, Jul 2026, aggregator)",
+     "url": "https://www.marketbeat.com/instant-alerts/filing-renaissancere-holdings-ltd-rnr-stake-lowered-by-south-dakota-investment-council-2026-07-30/"
+    },
+    {
+     "title": "Short interest (Equibles, aggregator)",
+     "url": "https://equibles.com/stocks/rnr/shortinterest"
+    },
+    {
+     "title": "SEC filings list (Chartrow, aggregator)",
+     "url": "https://chartrow.com/quote/rnr/filings"
+    },
+    {
+     "title": "Cat pricing outlook into 2027 (Reinsurance News, 4 Mar 2026)",
+     "url": "https://www.reinsurancene.ws/reinsurers-largely-in-agreement-that-cat-pricing-will-decline-into-2027-absent-a-major-event-say-analysts/"
     }
    ]
   }
