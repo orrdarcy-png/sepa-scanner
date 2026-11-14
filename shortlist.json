@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:20:17Z",
+ "generated": "2026-11-14T09:27:38Z",
  "stocks": [
   {
    "code": "BTSG",
@@ -38,6 +38,60 @@
     "max": 77.2013,
     "grade": "A"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Fails on supply and ownership",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "EPS vs a year earlier (quarterly): Feb 2026 +50%, May 2026 +105%, Jul 2026 +104%, Oct 2026 +80%"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (quarterly): Sep 2026 +26%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 2.4% in Sep 2026 vs 1.7% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$490M vs net profit US$191M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: -5%, +26%, +13%, +15%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "FAIL",
+      "finding": "Share count +3.9% a year over 3 yr; institutions hold 100% (over-owned); 5 insiders sold US$878M in 180 days (latest 2026-09-14), 6.19% of the company; 4 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "CAUTION",
+      "finding": "Cash US$88M, debt US$2.71B: net debt US$2.62B; net debt is 5.3x a year's operating cash flow; ROE 16%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-30; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 1,
+    "cautions": 1
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
@@ -79,6 +133,90 @@
     "trigger": 11.85,
     "max": 12.4425,
     "grade": "A"
+   },
+   "checks": {
+    "verdict": "Pass",
+    "why": "Earnings and sales pass and nothing fails. Cautions: supply and ownership",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "Accelerating. Annual figures only, so check the latest half. EPS vs a year earlier (annual): Jun 2024 +14%, Jun 2025 -61%, Jun 2026 +83%"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (annual): Jun 2024 +18%, Jun 2025 -7%, Jun 2026 +31%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 10.5% in FY Jun 2026 vs 7.5% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +0.1% a year over 3 yr; institutions hold 42%; 1 insider sold A$9M in 180 days (latest 2026-08-26), 0.76% of the company; 1 bought on market (A$38k)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$7M, debt A$60M: net debt A$53M; ROE 17%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2025-08-11; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 1
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-08",
+      "text": "ASX waiver of Listing Rule 6.23.4",
+      "tag": null
+     },
+     {
+      "date": "2026-11-03",
+      "text": "Notification of cessation of securities - PWH",
+      "tag": null
+     },
+     {
+      "date": "2026-11-03",
+      "text": "Revised Securities Trading Policy",
+      "tag": null
+     },
+     {
+      "date": "2026-10-30",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-10-28",
+      "text": "Change in substantial holding",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/PWH",
+    "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
@@ -122,6 +260,60 @@
     "max": 271.593,
     "grade": "A"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Aug 2025 +50%, Dec 2025 +62%, Mar 2026 +24%, Jun 2026 +158%"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (quarterly): Jul 2026 +23%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 17.6% in Jul 2026 vs 4.2% in Jul 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Jan 2026: operating cash flow US$586M vs net profit US$359M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +29%, +165%, +8%, +24%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -0.2% a year over 3 yr; institutions hold 100% (over-owned); 5 insiders sold US$6M in 180 days (latest 2026-09-14), 0.04% of the company; 5 sold within 90 days of each other; 1 bought on m"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$932M, debt US$2.03B: net debt US$1.10B; ROE 28%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Next results 2026-12-02, 19 days away"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
@@ -163,6 +355,90 @@
     "trigger": 35.3,
     "max": 37.065,
     "grade": "A"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Latest earnings +52% on a year earlier (Yahoo summary only, no history to confirm)"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Sales +19% on a year earlier (Yahoo summary only)"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 4.6% in FY Jun 2026 vs 3.1% in FY Jun 2024"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +1.2% a year over 4 yr; institutions hold 34%; 1 bought on market (A$10k)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$294M, debt A$72M: net cash A$222M; ROE 24%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-09",
+      "text": "Monadelphous Business Update",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-11-02",
+      "text": "Notification regarding unquoted securities - MND",
+      "tag": null
+     },
+     {
+      "date": "2026-10-27",
+      "text": "Monadelphous Contracts Update",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-20",
+      "text": "Release of shares from voluntary escrow",
+      "tag": null
+     },
+     {
+      "date": "2026-10-18",
+      "text": "Appendix 4G",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/MND",
+    "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
@@ -206,6 +482,90 @@
     "max": 5.7173,
     "grade": "A"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth has more than halved. EPS vs a year earlier (annual): Jun 2024 -78%, Jun 2025 +826%, Jun 2026 +44%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Sales +13% on a year earlier (Yahoo summary only)"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 33.9% in FY Jun 2026 vs 3.0% in FY Jun 2024"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +0.0% a year over 4 yr; institutions hold 61%; 1 bought on market (A$26k)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$24M, debt A$1.01B: net debt A$984M; ROE 11%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-12",
+      "text": "Receipt of non-exclusive proposal from Warburg Pincus",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-11-12",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-11",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     },
+     {
+      "date": "2026-11-10",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-09",
+      "text": "AVID exercises matching right",
+      "tag": "price-sensitive"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/INA",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
@@ -248,54 +608,96 @@
     "max": 16.8,
     "grade": "A"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Sales isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "Annual figures only, so check the latest half. EPS vs a year earlier (annual): Jun 2024 -96%, Jun 2025 +600%, Jun 2026 +53%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 +4%, Jun 2025 0%, Jun 2026 +7%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 4.0% in FY Jun 2026 vs 2.8% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +0.2% a year over 3 yr; institutions hold 48%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$65M, debt A$1.39B: net debt A$1.33B; ROE 5%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-24; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (3 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 1
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-09",
+      "text": "Change in substantial holding from PPT",
+      "tag": null
+     },
+     {
+      "date": "2026-10-23",
+      "text": "Results of Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-10-22",
+      "text": "AGM addresses - Strong Q1, Hotels growth strategy advances",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-09-21",
+      "text": "Notice of Annual General Meeting/Proxy Form",
+      "tag": null
+     },
+     {
+      "date": "2026-09-21",
+      "text": "Annual Report to shareholders",
+      "tag": "results"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/EVT",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
    "footprint": "63W 36/4 19T",
    "next_earnings": "2026-08-24",
    "priority": 6
-  },
-  {
-   "code": "HUM",
-   "symbol": "HUM",
-   "name": "Humana",
-   "industry": "Managed Health Care",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 450.0,
-   "pivot": 451.0,
-   "dist_pivot": -0.2,
-   "rs": 98,
-   "score": 69,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": false
-   },
-   "gap": {
-    "days_ago": 25,
-    "pct": 16.4,
-    "vol_mult": 4.2,
-    "held": true
-   },
-   "buy": {
-    "trigger": 451.0,
-    "max": 473.55,
-    "grade": "B"
-   },
-   "market": "US",
-   "currency": "US$",
-   "as_of": "2026-11-13",
-   "footprint": "5W 12/4 2T",
-   "next_earnings": "2026-11-06",
-   "priority": 7
   },
   {
    "code": "VAC",
@@ -329,12 +731,66 @@
     "max": 126.4725,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Feb 2026 0%, May 2026 -25%, Aug 2026 +18%, Nov 2026 +56%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +8%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 6.0% in Sep 2026 vs -0.2% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$28M vs net profit -US$308M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +9%, -27%, +15%, +2%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -3.1% a year over 3 yr; institutions hold 90% (over-owned); 2 insiders sold US$84M in 180 days (latest 2026-08-19), 2.09% of the company"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "CAUTION",
+      "finding": "Cash US$406M, debt US$5.68B: net debt US$5.27B; net debt is 188.4x a year's operating cash flow; ROE -11%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-11-04; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 4
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "14W 26/13 2T",
    "next_earnings": "2026-11-04",
-   "priority": 8
+   "priority": 7
   },
   {
    "code": "TGT",
@@ -369,12 +825,66 @@
     "max": 174.7495,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Sales isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "Accelerating. EPS vs a year earlier (quarterly): Nov 2025 -4%, Mar 2026 +1%, May 2026 +32%, Aug 2026 +100%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Jul 2026 +5%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 7.1% in Jul 2026 vs 3.7% in Jul 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "CAUTION",
+      "finding": "FY to Jan 2026: operating cash flow US$6.56B vs net profit US$3.71B. Receivables +27% vs sales -2%"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +4%, +13%, +17%, +76%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -0.5% a year over 3 yr; institutions hold 89% (over-owned); 5 insiders sold US$20M in 180 days (latest 2026-08-25), 0.03% of the company; 5 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$5.49B, debt US$20.29B: net debt US$14.80B; ROE 26%"
+     },
+     {
+      "check": "Event risk",
+      "result": "CAUTION",
+      "finding": "Reports in 5 days (2026-11-18): wait, or go small until there's a profit cushion"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 4
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "12W 15/5 2T",
    "next_earnings": "2026-11-18",
-   "priority": 9
+   "priority": 8
   },
   {
    "code": "PK",
@@ -408,12 +918,66 @@
     "max": 17.5192,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, sales, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "Latest EPS is a loss (-0.01). EPS vs a year earlier (quarterly): Feb 2026 -56%, Apr 2026 +450%, Aug 2026 from a loss, Nov 2026 from a loss"
+     },
+     {
+      "check": "Sales",
+      "result": "FAIL",
+      "finding": "Sales flat or falling. Sales vs a year earlier (quarterly): Sep 2026 -1%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Loss-making and not improving. Net margin -3.0% in Sep 2026 vs -2.6% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$398M vs net profit -US$283M"
+     },
+     {
+      "check": "Surprises",
+      "result": "FAIL",
+      "finding": "Missed estimates last report. Last reports vs estimates: -2%, +38%, +48%, -128%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -3.7% a year over 3 yr; institutions hold 100% (over-owned); no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "CAUTION",
+      "finding": "Cash US$232M, debt US$4.05B: net debt US$3.81B; net debt is 9.6x a year's operating cash flow; ROE -5%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-11-04; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 4,
+    "cautions": 2
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "3W 10/4 2T",
    "next_earnings": "2026-11-04",
-   "priority": 10
+   "priority": 9
   },
   {
    "code": "MRK",
@@ -450,12 +1014,66 @@
     "max": 161.0385,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "EPS is falling. EPS vs a year earlier (quarterly): Feb 2026 +19%, Apr 2026 -158%, Aug 2026 -106%, Oct 2026 -4%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +5%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 28.0% in Sep 2026 vs 33.5% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$16.47B vs net profit US$18.25B"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +2%, +13%, +49%, +20%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -0.8% a year over 3 yr; institutions hold 83% (over-owned); 5 insiders sold US$30M in 180 days (latest 2026-08-13), 0.01% of the company; 5 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$14.56B, debt US$49.34B: net debt US$34.77B; ROE 5%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-29; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 2,
+    "cautions": 2
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 11
+   "priority": 10
   },
   {
    "code": "LNTH",
@@ -487,12 +1105,66 @@
     "max": 108.045,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Feb 2026 +5%, May 2026 -5%, Aug 2026 -1%, Nov 2026 +32%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +2%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Being squeezed. Net margin 5.7% in Sep 2026 vs 7.2% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$390M vs net profit US$234M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +43%, +19%, +19%, +33%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -1.5% a year over 3 yr; institutions hold 100% (over-owned); no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$359M, debt US$619M: net debt US$260M; ROE 22%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-11-05; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 4
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "19W 12/4 5T",
    "next_earnings": "2026-11-05",
-   "priority": 12
+   "priority": 11
   },
   {
    "code": "RWC",
@@ -529,12 +1201,96 @@
     "max": 4.914,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, sales, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "EPS is falling. EPS vs a year earlier (annual): Jun 2024 -21%, Jun 2025 +14%, Jun 2026 -95%"
+     },
+     {
+      "check": "Sales",
+      "result": "FAIL",
+      "finding": "Sales flat or falling. Sales vs a year earlier (annual): Jun 2024 0%, Jun 2025 +6%, Jun 2026 -1%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 0.5% in FY Jun 2026 vs 9.5% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count -1.8% a year over 3 yr; institutions hold 79%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$29M, debt A$378M: net debt A$350M; ROE 0%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-18; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 3,
+    "cautions": 0
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-04",
+      "text": "Dispatch of Scheme Booklet, letter and proxy form",
+      "tag": null
+     },
+     {
+      "date": "2026-10-30",
+      "text": "Scheme Booklet registered by ASIC",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-29",
+      "text": "Outcome of first Court hearing for Scheme of Arrangement",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-28",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     },
+     {
+      "date": "2026-10-27",
+      "text": "Ceasing to be a substantial holder from MUFG",
+      "tag": "holder sold down"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/RWC",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
    "footprint": "6W 13/1 2T",
    "next_earnings": "2026-08-18",
-   "priority": 13
+   "priority": 12
   },
   {
    "code": "AUC",
@@ -571,12 +1327,96 @@
     "max": 1.4595,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "Latest EPS is a loss (-0.0199). EPS vs a year earlier (annual): Jun 2024 from a loss, Jun 2025 from a loss, Jun 2026 from a loss"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales +90% on a year earlier (Yahoo summary only)"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "n/a",
+      "finding": "No margin history from Yahoo"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "FAIL",
+      "finding": "Share count +33.6% a year over 3 yr (heavy dilution); institutions hold 48%"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$87M, debt A$1M: net cash A$86M; ROE -6%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2025-07-29; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 2,
+    "cautions": 0
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-10-28",
+      "text": "FIRB Approval Received",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-21",
+      "text": "Scheme Meeting and Scheme Booklet",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-15",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-10-14",
+      "text": "Change of Director's Interest Notice - Dorward",
+      "tag": null
+     },
+     {
+      "date": "2026-10-14",
+      "text": "Notification regarding unquoted securities - AUC",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/AUC",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
    "footprint": "11W 24/5 4T",
    "next_earnings": "2025-07-29",
-   "priority": 14
+   "priority": 13
   },
   {
    "code": "SEIC",
@@ -608,12 +1448,66 @@
     "max": 116.7495,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Jan 2026 +16%, Apr 2026 +23%, Jul 2026 -7%, Oct 2026 +26%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +14%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Being squeezed. Net margin 25.4% in Sep 2026 vs 28.4% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "CAUTION",
+      "finding": "FY to Dec 2025: operating cash flow US$608M vs net profit US$715M. Receivables +22% vs sales +8%"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +3%, +9%, +16%, +4%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -3.1% a year over 3 yr; institutions hold 78%; 11 insiders sold US$30M in 180 days (latest 2026-11-10), 0.23% of the company; 10 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$434M, debt US$29M: net cash US$405M; ROE 27%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Next results 2027-01-27, 75 days away"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 5
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "11W 12/6 3T",
    "next_earnings": "2027-01-27",
-   "priority": 15
+   "priority": 14
   },
   {
    "code": "PRU",
@@ -645,12 +1539,96 @@
     "max": 6.972,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Fails on surprises",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth under 25%. EPS vs a year earlier (annual): Jun 2024 +14%, Jun 2025 +14%, Jun 2026 +18%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 +9%, Jun 2025 +22%, Jun 2026 +19%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Flat. Net margin 28.9% in FY Jun 2026 vs 29.7% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "FAIL",
+      "finding": "Missed estimates last report. Last reports vs estimates: +226%, -54%, -51%, -36%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count -1.0% a year over 3 yr; institutions hold 68%"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$924M, debt A$2M: net cash A$922M; ROE 21%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-26; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 1,
+    "cautions": 3
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-12",
+      "text": "Ceasing to be a substantial holder from MQG",
+      "tag": "holder sold down"
+     },
+     {
+      "date": "2026-11-12",
+      "text": "2026 AGM Webcast Details",
+      "tag": null
+     },
+     {
+      "date": "2026-11-08",
+      "text": "Update - Notification of buy-back - PRU",
+      "tag": null
+     },
+     {
+      "date": "2026-11-04",
+      "text": "Update - Notification of buy-back - PRU",
+      "tag": null
+     },
+     {
+      "date": "2026-11-02",
+      "text": "Update - Notification of buy-back - PRU",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/PRU",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
    "footprint": "7W 24/5 2T",
    "next_earnings": "2026-08-26",
-   "priority": 16
+   "priority": 15
   },
   {
    "code": "CUZ",
@@ -682,12 +1660,66 @@
     "max": 32.3085,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Feb 2026 -33%, Apr 2026 -42%, Jul 2026 +11%, Oct 2026 +120%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +4%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 6.6% in Sep 2026 vs 3.5% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "CAUTION",
+      "finding": "FY to Dec 2025: operating cash flow US$402M vs net profit US$41M. Receivables +53% vs sales +16%"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +8%, +18%, +28%, +6%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +3.5% a year over 3 yr; institutions hold 100% (over-owned); 1 insider sold US$178k in 180 days (latest 2026-08-20), 0.00% of the company"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "CAUTION",
+      "finding": "Cash US$6M, debt US$3.39B: net debt US$3.39B; net debt is 8.4x a year's operating cash flow; ROE 0%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-29; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 5
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "15W 18/6 2T",
    "next_earnings": "2026-10-29",
-   "priority": 17
+   "priority": 16
   },
   {
    "code": "APOG",
@@ -724,12 +1756,66 @@
     "max": 51.975,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth under 25%. EPS vs a year earlier (quarterly): Jan 2026 -14%, Apr 2026 +3%, Jun 2026 +2%, Oct 2026 +19%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Aug 2026 +9%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Flat. Net margin 5.7% in Aug 2026 vs 6.6% in Aug 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Feb 2026: operating cash flow US$122M vs net profit US$54M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +1%, +6%, +39%, +84%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -1.5% a year over 3 yr; institutions hold 100% (over-owned); 1 insider sold US$54k in 180 days (latest 2026-10-27), 0.01% of the company"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$40M, debt US$286M: net debt US$247M; ROE 13%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Next results 2027-01-06, 54 days away"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 4
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "20W 32/6 5T",
    "next_earnings": "2027-01-06",
-   "priority": 18
+   "priority": 17
   },
   {
    "code": "GRMN",
@@ -761,12 +1847,66 @@
     "max": 311.7975,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Sales isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "Accelerating. EPS vs a year earlier (quarterly): Feb 2026 +16%, Apr 2026 +29%, Jul 2026 +30%, Oct 2026 +39%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +12%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 27.3% in Sep 2026 vs 22.7% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$1.63B vs net profit US$1.66B"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +17%, +13%, +22%, +16%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +0.2% a year over 3 yr; institutions hold 59%; 6 insiders sold US$6M in 180 days (latest 2026-08-18), 0.01% of the company; 6 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$2.74B, debt US$165M: net cash US$2.57B; ROE 22%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-28; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "14W 16/6 4T",
    "next_earnings": "2026-10-28",
-   "priority": 19
+   "priority": 18
   },
   {
    "code": "CSX",
@@ -800,12 +1940,66 @@
     "max": 55.251,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Jan 2026 -7%, Apr 2026 +26%, Jul 2026 +23%, Oct 2026 +30%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +12%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 26.2% in Sep 2026 vs 19.3% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$4.61B vs net profit US$2.89B"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: -5%, +11%, +4%, +7%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -3.4% a year over 3 yr; institutions hold 83% (over-owned); 4 insiders sold US$10M in 180 days (latest 2026-10-26), 0.01% of the company; 4 sold within 90 days of each other"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$675M, debt US$19.35B: net debt US$18.68B; ROE 26%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Next results 2027-01-28, 76 days away"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 3
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "16W 14/7 2T",
    "next_earnings": "2027-01-28",
-   "priority": 20
+   "priority": 19
   },
   {
    "code": "NWL",
@@ -837,12 +2031,66 @@
     "max": 6.3105,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth under 25%. EPS vs a year earlier (quarterly): Feb 2026 +12%, May 2026 from a loss, Jul 2026 +75%, Oct 2026 +18%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +4%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Loss-making and not improving. Net margin -4.3% in Sep 2026 vs 1.2% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$264M vs net profit -US$285M"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: -2%, +42%, +112%, +1%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +0.4% a year over 3 yr; institutions hold 100% (over-owned); 2 insiders sold US$1M in 180 days (latest 2026-08-06), 0.04% of the company"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "CAUTION",
+      "finding": "Cash US$203M, debt US$5.22B: net debt US$5.02B; net debt is 19.0x a year's operating cash flow; ROE -13%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-30; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 1,
+    "cautions": 4
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "15W 31/12 5T",
    "next_earnings": "2026-10-30",
-   "priority": 21
+   "priority": 20
   },
   {
    "code": "RNR",
@@ -874,11 +2122,156 @@
     "max": 380.6355,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, sales, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "EPS is falling. EPS vs a year earlier (quarterly): Feb 2026 +66%, Apr 2026 from a loss, Jul 2026 +5%, Oct 2026 -19%"
+     },
+     {
+      "check": "Sales",
+      "result": "FAIL",
+      "finding": "Sales flat or falling. Sales vs a year earlier (quarterly): Sep 2026 -48%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Loss-making and not improving. Net margin -9.2% in Sep 2026 vs 28.8% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "PASS",
+      "finding": "FY to Dec 2025: operating cash flow US$3.69B vs net profit US$2.68B"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +28%, +22%, +10%, +22%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +0.2% a year over 3 yr; institutions hold 100% (over-owned); 3 insiders sold US$9M in 180 days (latest 2026-09-03), 0.06% of the company; repeated sales by Curtis Ross A"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$14.69B, debt US$2.33B: net cash US$12.36B; ROE 14%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-10-27; next date not set yet"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 3,
+    "cautions": 1
+   },
+   "news": null,
    "market": "US",
    "currency": "US$",
    "as_of": "2026-11-13",
    "footprint": "3W 13/5 2T",
    "next_earnings": "2026-10-27",
+   "priority": 21
+  },
+  {
+   "code": "ELV",
+   "symbol": "ELV",
+   "name": "Elevance Health",
+   "industry": "Managed Health Care",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 429.69,
+   "pivot": 448.54,
+   "dist_pivot": -4.2,
+   "rs": 76,
+   "score": 43,
+   "stage": "2",
+   "base_no": 2,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 448.54,
+    "max": 470.967,
+    "grade": "B"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth under 25%. EPS vs a year earlier (quarterly): Jan 2026 -13%, Apr 2026 +5%, Jul 2026 -16%, Oct 2026 +16%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (quarterly): Sep 2026 +1%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Flat. Net margin 2.7% in Sep 2026 vs 2.3% in Sep 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "CAUTION",
+      "finding": "Cash flow lags profit. FY to Dec 2025: operating cash flow US$4.29B vs net profit US$5.66B. Receivables +26% vs sales +13%"
+     },
+     {
+      "check": "Surprises",
+      "result": "PASS",
+      "finding": "Last reports vs estimates: +8%, +16%, +20%, +49%"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -2.5% a year over 3 yr; institutions hold 95% (over-owned); 2 insiders sold US$827k in 180 days (latest 2026-06-12), 0.00% of the company; 2 bought on market (US$1M)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash US$35.38B, debt US$32.05B: net cash US$3.33B; ROE 11%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Next results 2027-01-28, 76 days away"
+     },
+     {
+      "check": "Filings",
+      "result": "n/a",
+      "finding": "Couldn't load recent SEC filings"
+     }
+    ],
+    "fails": 0,
+    "cautions": 5
+   },
+   "news": null,
+   "market": "US",
+   "currency": "US$",
+   "as_of": "2026-11-13",
+   "footprint": "3W 10/7 2T",
+   "next_earnings": "2027-01-28",
    "priority": 22
   },
   {
@@ -915,6 +2308,90 @@
     "trigger": 5.83,
     "max": 6.1215,
     "grade": "B"
+   },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "Latest earnings -38% on a year earlier (Yahoo summary only, no history to confirm)"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 +19%, Jun 2025 +10%, Jun 2026 +18%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 17.3% in FY Jun 2026 vs 25.4% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +2.4% a year over 3 yr; institutions hold 52%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$1.82B, debt A$1.99B: net debt A$170M; ROE 12%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-26; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 2,
+    "cautions": 1
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-13",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-09",
+      "text": "Ceasing to be a substantial holder",
+      "tag": "holder sold down"
+     },
+     {
+      "date": "2026-11-08",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-08",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-06",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/SDF",
+    "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
@@ -955,6 +2432,90 @@
     "max": 6.0795,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, sales, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "EPS is falling. EPS vs a year earlier (annual): Dec 2023 +7%, Dec 2024 +7%, Dec 2025 -63%"
+     },
+     {
+      "check": "Sales",
+      "result": "FAIL",
+      "finding": "Sales flat or falling. Sales vs a year earlier (annual): Dec 2023 +4%, Dec 2024 +13%, Dec 2025 -3%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 4.4% in FY Dec 2025 vs 12.0% in FY Dec 2024"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +0.0% a year over 3 yr; institutions hold 27%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$110M, debt A$2.16B: net debt A$2.05B; ROE 3%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2025-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (2 checked)"
+     }
+    ],
+    "fails": 3,
+    "cautions": 0
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-10-20",
+      "text": "Issuer Quarterly Report",
+      "tag": "results"
+     },
+     {
+      "date": "2026-10-19",
+      "text": "Investor Presentation",
+      "tag": null
+     },
+     {
+      "date": "2026-10-08",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-08-30",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     },
+     {
+      "date": "2026-08-24",
+      "text": "2026 Half Year Financial Results - Investor Presentation",
+      "tag": "price-sensitive"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/DBI",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
@@ -992,6 +2553,90 @@
     "max": 37.8,
     "grade": "B"
    },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Latest earnings +22% on a year earlier (Yahoo summary only, no history to confirm)"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Sales +14% on a year earlier (Yahoo summary only)"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 11.8% in FY Jun 2026 vs 10.9% in FY Jun 2024"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +1.7% a year over 4 yr; institutions hold 34%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$18M, debt A$43M: net debt A$25M; ROE 32%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2025-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (3 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-10-26",
+      "text": "Results of Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-10-23",
+      "text": "2026 AGM Presentation",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-23",
+      "text": "Chairman's Address",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-09-23",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     },
+     {
+      "date": "2026-09-22",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/SNL",
+    "note": "Latest 5 ASX announcements"
+   },
    "market": "ASX",
    "currency": "A$",
    "as_of": "2026-11-13",
@@ -1028,6 +2673,90 @@
     "trigger": 32.18,
     "max": 33.789,
     "grade": "B"
+   },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on earnings, margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "FAIL",
+      "finding": "EPS is falling. EPS vs a year earlier (annual): Jun 2024 +92%, Jun 2025 +23%, Jun 2026 -49%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 +27%, Jun 2025 +10%, Jun 2026 +5%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 8.8% in FY Jun 2026 vs 17.4% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +6.4% a year over 3 yr (dilution); institutions hold 47%; no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$1.31B, debt A$1.20B: net cash A$112M; ROE 6%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 2,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-12",
+      "text": "Final Director's Interest Notice - Andrew Kendrick",
+      "tag": null
+     },
+     {
+      "date": "2026-11-12",
+      "text": "2026 AGM - Results",
+      "tag": "results"
+     },
+     {
+      "date": "2026-11-11",
+      "text": "2026 AGM - Chair Address and CEO Address Including Outlook",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-11-11",
+      "text": "2026 AGM - Presentation",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-10-27",
+      "text": "Ceasing to be a substantial holder",
+      "tag": "holder sold down"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/AUB",
+    "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
