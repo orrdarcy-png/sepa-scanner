@@ -39,6 +39,12 @@ ITEMS = {"2.02": "results released", "3.02": "unregistered share sale", "4.02": 
          "4.01": "auditor change", "1.03": "bankruptcy"}
 
 
+def _annotate(msg: str) -> None:
+    """Show a data-source problem on the GitHub Actions run page."""
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::warning title=Filings::{msg[:300]}")
+
+
 def _day(s) -> str:
     return str(s)[:10]
 
@@ -127,7 +133,9 @@ def fetch_sec(tickers: list[str], as_of: str, days: int = 30) -> dict[str, dict]
         ciks = {str(v["ticker"]).upper(): int(v["cik_str"]) for v in r.json().values()}
     except Exception as e:  # noqa: BLE001
         log.warning("SEC ticker list failed: %s", e)
+        _annotate(f"SEC ticker list: {type(e).__name__}: {e}")
         return out
+    errs = []
     for t in tickers:
         cik = ciks.get(t.upper()) or ciks.get(t.upper().replace(".", "-"))
         if not cik:
@@ -138,5 +146,8 @@ def fetch_sec(tickers: list[str], as_of: str, days: int = 30) -> dict[str, dict]
             out[t] = sec_summary((r.json().get("filings") or {}).get("recent") or {}, cik, as_of, days)
         except Exception as e:  # noqa: BLE001
             log.warning("SEC filings %s failed: %s", t, e)
+            errs.append(f"{t}: {type(e).__name__}: {e}")
         time.sleep(0.15)
+    if errs:
+        _annotate(f"SEC filings failed for {len(errs)} of {len(tickers)}. First: {errs[0]}")
     return out
