@@ -43,6 +43,11 @@ jobs:
           curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data.json" -o site/data.json || echo "no previous results yet"
       - name: Run the scan
         # 5:20pm run = ASX only, 7:30am run = US only, Run workflow button = your choice
+        env:
+          # Optional. The SEC wants a name and contact address on requests for filings. If the US filings
+          # check shows "no data", set a repository variable called SEC_USER_AGENT
+          # (Settings > Secrets and variables > Actions > Variables) to your name and contact address.
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
         run: |
           M="${{ github.event.inputs.market }}"
           case "${{ github.event.schedule }}" in
