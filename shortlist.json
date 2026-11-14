@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T09:27:38Z",
+ "generated": "2026-11-14T09:32:07Z",
  "stocks": [
   {
    "code": "BTSG",
@@ -261,13 +261,13 @@
     "grade": "A"
    },
    "checks": {
-    "verdict": "Mixed",
-    "why": "Earnings isn't strong enough yet",
+    "verdict": "Pass",
+    "why": "Earnings and sales pass and nothing fails. Cautions: supply and ownership",
     "rows": [
      {
       "check": "Earnings",
-      "result": "CAUTION",
-      "finding": "Only the latest period is 25%+. EPS vs a year earlier (quarterly): Aug 2025 +50%, Dec 2025 +62%, Mar 2026 +24%, Jun 2026 +158%"
+      "result": "PASS",
+      "finding": "EPS vs a year earlier (quarterly): Dec 2025 +62%, Mar 2026 +24%, Jun 2026 +158%, Sep 2026 +107%"
      },
      {
       "check": "Sales",
@@ -287,7 +287,7 @@
      {
       "check": "Surprises",
       "result": "PASS",
-      "finding": "Last reports vs estimates: +29%, +165%, +8%, +24%"
+      "finding": "Last reports vs estimates: +165%, +8%, +24%, +19%"
      },
      {
       "check": "Supply and ownership",
@@ -311,7 +311,7 @@
      }
     ],
     "fails": 0,
-    "cautions": 2
+    "cautions": 1
    },
    "news": null,
    "market": "US",
@@ -2129,7 +2129,7 @@
      {
       "check": "Earnings",
       "result": "FAIL",
-      "finding": "EPS is falling. EPS vs a year earlier (quarterly): Feb 2026 +66%, Apr 2026 from a loss, Jul 2026 +5%, Oct 2026 -19%"
+      "finding": "EPS is falling. EPS vs a year earlier (quarterly): Feb 2026 +66%, Apr 2026 from a loss, Jul 2026 -25%, Oct 2026 -19%"
      },
      {
       "check": "Sales",
@@ -2149,12 +2149,12 @@
      {
       "check": "Surprises",
       "result": "PASS",
-      "finding": "Last reports vs estimates: +28%, +22%, +10%, +22%"
+      "finding": "Last reports vs estimates: +28%, -39%, +10%, +22%"
      },
      {
       "check": "Supply and ownership",
       "result": "CAUTION",
-      "finding": "Share count +0.2% a year over 3 yr; institutions hold 100% (over-owned); 3 insiders sold US$9M in 180 days (latest 2026-09-03), 0.06% of the company; repeated sales by Curtis Ross A"
+      "finding": "Share count +0.2% a year over 3 yr; institutions hold 99% (over-owned); 3 insiders sold US$9M in 180 days (latest 2026-09-03), 0.06% of the company; repeated sales by Curtis Ross A"
      },
      {
       "check": "Balance sheet",
