@@ -86,6 +86,43 @@ def price_map(close: pd.DataFrame, vol: pd.DataFrame) -> dict:
     return out
 
 
+def numbers_check(name: str, mcfg: dict, cfg: dict, cands: list[dict], as_of: str, demo: bool) -> None:
+    """Free numbers check for every Breaking out and Buy-ready stock: the data-only parts of the full
+    SEPA review, plus recent announcements (ASX) or filings (SEC). Saved as r["checks"] and r["news"]."""
+    ncfg = cfg.get("numbers_check") or {}
+    if not ncfg.get("enabled", True):
+        return
+    from .checks import run_checks
+    todo = [r for r in cands if r["status"] in ("Breaking out", "Buy-ready")][:ncfg.get("max_names_per_market", 150)]
+    if not todo:
+        return
+    ccfg = {**(cfg.get("fundamentals") or {}), **ncfg}
+    if demo:
+        from .synthetic import demo_deep, demo_news
+        deep = {r["symbol"]: demo_deep(r["symbol"]) for r in todo}
+        news = {r["code"]: demo_news(r["code"], name, as_of) for r in todo}
+    else:
+        from .fundamentals import fetch_deep_many
+        from . import news as nw
+        deep = fetch_deep_many([r["symbol"] for r in todo], as_of, ccfg)
+        codes = [r["code"] for r in todo]
+        try:
+            news = nw.fetch_asx(codes, as_of, ccfg.get("news_days", 30)) if name == "ASX" else \
+                nw.fetch_sec(codes, as_of, ccfg.get("news_days", 30))
+        except Exception as e:  # noqa: BLE001
+            log.warning("%s announcements failed: %s", name, e)
+            news = {}
+    for r in todo:
+        n = news.get(r["code"]) or {"ok": False}
+        try:
+            r["checks"] = run_checks(r.get("fund"), deep.get(r["symbol"]), n, name, as_of, mcfg.get("currency", ""), ccfg)
+        except Exception as e:  # noqa: BLE001
+            log.warning("numbers check %s failed: %s", r["symbol"], e)
+            continue
+        if n.get("ok"):
+            r["news"] = {k: n.get(k) for k in ("items", "url", "note")}
+
+
 def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
     if demo:
         from .synthetic import demo_market
@@ -192,6 +229,7 @@ def scan_market(name: str, mcfg: dict, cfg: dict, demo: bool) -> dict:
                     if 0 <= days <= 14:
                         r["warnings"].append(f"Reports earnings in {days} days ({ne}): don't hold a full position "
                                              "into the report without a profit cushion")
+    numbers_check(name, mcfg, cfg, cands, cal[-1].strftime("%Y-%m-%d"), demo)
     for r in cands:
         r["ff"] = fundamental_flags(r.get("fund"), fcfg) if fcfg.get("enabled", True) else \
             {"data": False, "eps": False, "pass": False, "accel": False, "code33": False}
@@ -282,6 +320,12 @@ def main(argv=None):
             print(f"::notice title={name} fundamentals::{sum(1 for x in ff if x.get('data'))} of {len(st)} "
                   f"have Yahoo fundamentals, {sum(1 for x in ff if x.get('pass'))} pass EPS/sales growth, "
                   f"{sum(1 for x in ff if x.get('accel'))} accelerating, {sum(1 for x in ff if x.get('code33'))} Code 33")
+            ck = [x.get("checks") for x in st if x.get("checks")]
+            vc = {v: sum(1 for c in ck if c["verdict"] == v) for v in ("Pass", "Mixed", "Fail", "No data")}
+            src = "ASX announcements" if name == "ASX" else "SEC filings"
+            print(f"::notice title={name} numbers check::{len(ck)} buyable charts checked: {vc['Pass']} pass, "
+                  f"{vc['Mixed']} mixed, {vc['Fail']} fail, {vc['No data']} no data. {src} loaded for "
+                  f"{sum(1 for x in st if x.get('news'))} of {len(ck)}")
             print(f"::notice title={name} tested edge::{sum(1 for x in ff if x.get('gap'))} with an earnings gap, "
                   f"{sum(1 for x in ff if x.get('edge'))} gap + EPS growth, new buys "
                   f"{'ON' if m.get('regime', {}).get('risk_on') else 'OFF'}")

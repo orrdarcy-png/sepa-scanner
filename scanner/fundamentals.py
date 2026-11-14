@@ -229,3 +229,124 @@ def fundamental_flags(f: dict | None, cfg: dict) -> dict:
         rev_ok = f.get("rev_growth") is not None and f["rev_growth"] * 100 >= cfg["min_sales_growth_pct"]
     return {"data": True, "eps": bool(eps_ok), "pass": bool(eps_ok and rev_ok),
             "accel": bool(f.get("eps_accel") or f.get("rev_accel")), "code33": bool(f.get("code33"))}
+
+
+# ---------- deeper numbers for the numbers check (Breaking out and Buy-ready stocks only) ----------
+
+def _latest_two(df: pd.DataFrame, *names):
+    """(latest, prior, latest column date) for the first matching row, newest column first."""
+    r = _row(df, *names)
+    if r is None:
+        return None, None, None
+    r = r.dropna()
+    if r.empty:
+        return None, None, None
+    r.index = pd.to_datetime(r.index)
+    r = r.sort_index(ascending=False)
+    return _num(r.iloc[0]), (_num(r.iloc[1]) if len(r) > 1 else None), r.index[0]
+
+
+def _g(a, b):
+    return round((a - b) / abs(b) * 100, 1) if a is not None and b not in (None, 0) else None
+
+
+def insider_summary(tx: pd.DataFrame | None, today: pd.Timestamp, days: int = 180, cluster_days: int = 90,
+                    cluster_sellers: int = 3) -> dict | None:
+    """Open-market insider sales and purchases from Yahoo's insider transactions table.
+    Awards, gifts and option exercises are ignored. Yahoo can't tell planned (10b5-1) sales apart."""
+    if tx is None or tx.empty or "Text" not in tx.columns or "Start Date" not in tx.columns:
+        return None
+    t = tx.copy()
+    t["when"] = pd.to_datetime(t["Start Date"], errors="coerce")
+    t = t[(t["when"] >= today - pd.Timedelta(days=days)) & (t["when"] <= today + pd.Timedelta(days=1))]
+    txt = t["Text"].fillna("").str.strip().str.lower()
+    sales, buys = t[txt.str.startswith("sale")], t[txt.str.startswith("purchase")]
+    out = {"days": days,
+           "sellers": int(sales["Insider"].nunique()), "sales": int(len(sales)),
+           "sale_value": float(pd.to_numeric(sales["Value"], errors="coerce").fillna(0).sum()),
+           "buyers": int(buys["Insider"].nunique()), "buys": int(len(buys)),
+           "buy_value": float(pd.to_numeric(buys["Value"], errors="coerce").fillna(0).sum()),
+           "latest_sale": sales["when"].max().strftime("%Y-%m-%d") if len(sales) else None,
+           "cluster": None, "repeat": None}
+    if len(sales):
+        s = sales.sort_values("when")
+        # several different insiders selling within one window
+        best = 0
+        for d in s["when"].unique():
+            w = s[(s["when"] >= d) & (s["when"] <= d + pd.Timedelta(days=cluster_days))]
+            best = max(best, w["Insider"].nunique())
+        if best >= cluster_sellers:
+            out["cluster"] = int(best)
+        # one insider selling on three or more separate days
+        per = s.groupby("Insider")["when"].nunique()
+        if len(per) and per.max() >= 3:
+            out["repeat"] = str(per.idxmax()).title()
+    return out
+
+
+def fetch_deep(symbol: str, today=None, cfg: dict | None = None) -> dict:
+    """Cash flow, working capital, share count and insider trades. Every field is optional."""
+    import yfinance as yf
+
+    cfg = cfg or {}
+    today = pd.Timestamp(today) if today is not None else pd.Timestamp.today().normalize()
+    t = yf.Ticker(symbol)
+    out: dict = {}
+
+    def get(attr):
+        try:
+            d = getattr(t, attr)
+            return d if d is not None and not d.empty else None
+        except Exception as e:  # noqa: BLE001
+            log.debug("%s %s: %s", attr, symbol, e)
+            return None
+
+    cf, bs, inc = get("cashflow"), get("balance_sheet"), get("income_stmt")
+    ocf, _, when = _latest_two(cf, "Operating Cash Flow", "Cash Flow From Continuing Operating Activities")
+    ni, _, _ = _latest_two(inc, "Net Income", "Net Income Common Stockholders")
+    out["ocf"], out["ni"] = ocf, ni
+    out["fy"] = f"FY to {when.strftime('%b %Y')}" if when is not None else None
+    rev, rev0, _ = _latest_two(inc, "Total Revenue", "Operating Revenue")
+    out["sales_g"] = _g(rev, rev0)
+    ni_a, rev_a = _row(inc, "Net Income", "Net Income Common Stockholders"), _row(inc, "Total Revenue", "Operating Revenue")
+    if ni_a is not None and rev_a is not None:
+        m = (ni_a / rev_a.replace(0, np.nan) * 100).dropna()
+        m.index = pd.to_datetime(m.index)
+        out["net_margin_annual"] = [{"period": "FY " + d.strftime("%b %Y"), "margin": round(float(x), 1)}
+                                    for d, x in m.sort_index().items()]
+    a, b, _ = _latest_two(bs, "Accounts Receivable", "Receivables")
+    out["recv_g"] = _g(a, b)
+    a, b, _ = _latest_two(bs, "Inventory")
+    out["inv_g"] = _g(a, b)
+    cash, _, _ = _latest_two(bs, "Cash Cash Equivalents And Short Term Investments", "Cash And Cash Equivalents")
+    debt, _, _ = _latest_two(bs, "Total Debt")
+    if cash is not None:
+        out["cash"] = cash
+    if debt is not None:
+        out["debt"] = debt
+    sh = _row(bs, "Ordinary Shares Number", "Share Issued")
+    if sh is not None:
+        sh = sh.dropna()
+        sh.index = pd.to_datetime(sh.index)
+        sh = sh.sort_index()
+        if len(sh) >= 2 and sh.iloc[0] > 0:
+            yrs = max(1.0, (sh.index[-1] - sh.index[0]).days / 365.25)
+            out["dilution_pct_per_year"] = round(((float(sh.iloc[-1]) / float(sh.iloc[0])) ** (1 / yrs) - 1) * 100, 1)
+            out["dilution_years"] = round(yrs)
+    try:
+        out["insiders"] = insider_summary(t.insider_transactions, today, cfg.get("insider_days", 180),
+                                          cfg.get("insider_cluster_days", 90), cfg.get("insider_cluster_sellers", 3))
+    except Exception as e:  # noqa: BLE001
+        log.debug("insiders %s: %s", symbol, e)
+    return out
+
+
+def fetch_deep_many(symbols: list[str], today=None, cfg: dict | None = None, workers: int = 4) -> dict[str, dict]:
+    def one(sym):
+        try:
+            return fetch_deep(sym, today, cfg)
+        except Exception as e:  # noqa: BLE001
+            log.warning("deep fundamentals %s failed: %s", sym, e)
+            return {}
+    with ThreadPoolExecutor(workers) as ex:
+        return dict(zip(symbols, ex.map(one, symbols)))

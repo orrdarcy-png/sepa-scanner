@@ -103,3 +103,31 @@ def demo_fundamentals(sym: str) -> dict:
             "mcap": float(rng.uniform(2e8, 8e9)), "float": None, "inst_pct": float(rng.uniform(0.1, 0.7)),
             "pe": round(float(rng.uniform(12, 70)), 1), "next_earnings": None, "eps_annual_yoy": [], "rev_annual_yoy": [],
             "summary": "Synthetic demo company used to test the scanner."}
+
+
+def demo_deep(sym: str) -> dict:
+    rng = np.random.default_rng((abs(hash(sym)) + 1) % 2**32)
+    ni = float(rng.uniform(5e6, 2e8))
+    sellers = int(rng.choice([0, 0, 1, 3]))
+    return {"ocf": ni * float(rng.uniform(0.5, 1.6)), "ni": ni, "fy": "FY to Jun 2026",
+            "sales_g": float(rng.normal(20, 10)), "recv_g": float(rng.normal(20, 15)), "inv_g": None,
+            "cash": float(rng.uniform(1e7, 3e8)), "debt": float(rng.uniform(0, 2e8)),
+            "dilution_pct_per_year": round(float(rng.normal(2, 3)), 1), "dilution_years": 3,
+            "insiders": {"days": 180, "sellers": sellers, "sales": sellers, "sale_value": sellers * 4e5,
+                         "buyers": int(rng.choice([0, 1])), "buys": 1, "buy_value": 6e4,
+                         "latest_sale": "2026-09-14" if sellers else None, "cluster": 3 if sellers >= 3 else None,
+                         "repeat": None}}
+
+
+def demo_news(code: str, market: str, as_of: str) -> dict:
+    rng = np.random.default_rng((abs(hash(code)) + 2) % 2**32)
+    raise_ = rng.random() < 0.15
+    if market == "ASX":
+        items = [{"date": as_of, "text": "Proposed issue of securities" if raise_ else "Investor presentation", "tag": None},
+                 {"date": as_of, "text": "Half Year Results", "tag": "results"}]
+        flag = "Capital raise or new shares: Proposed issue of securities"
+    else:
+        items = [{"date": as_of, "text": "8-K: results released", "tag": "results"}]
+        flag = "Offering paperwork (424B5): check whether it is new shares or debt"
+    return {"ok": True, "days": 30, "count": len(items), "url": "https://example.com", "note": None, "items": items,
+            "flags": [{"level": "CAUTION", "date": as_of, "text": flag}] if raise_ else []}

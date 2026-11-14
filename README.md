@@ -50,6 +50,23 @@ The fundamental prompts are in `prompts/prompts.yaml`. They are market-aware: `m
 1. **Evening**: check the market condition first. In a correction, mostly stay in cash and build the watchlist from stocks holding up best.
 2. Open each **Breaking out** and **Buy-ready** stock. Confirm the chart yourself: Stage 2, contractions getting smaller left to right, volume drying up at the right side of the base.
 3. Run the **Full SEPA fundamental review** prompt on the best few. Skip anything that fails on earnings.
+
+## Numbers check (free, every scan)
+
+Each Breaking out and Buy-ready stock gets an automatic check of the parts of the full SEPA review that
+are pure data: earnings, sales, margins, cash flow against profit, estimate surprises, dilution, insider
+selling, debt and cash runway, the next results date, and recent ASX announcements or SEC filings
+(capital raises, halts, offerings). The result is Pass, Mixed, Fail or No data, shown on each buy card
+and in a Numbers check panel in each stock's sheet.
+
+- A stock is "to act on" when it is Grade A and the numbers check passes.
+- It replaces the daily Claude review, so nothing runs on a Claude plan day to day. A Claude review from
+  the last two weeks still overrides it.
+- It does not judge the catalyst, the industry group or guidance. Before a real buy, ask Claude to
+  "run SEPA on <code>".
+- Data is from Yahoo Finance (thin for some ASX companies), the ASX announcements feed (latest 5 per
+  company) and SEC EDGAR. Yahoo can't tell planned insider sales from discretionary ones.
+- Settings are in `config.yaml` under `numbers_check`. Code: `scanner/checks.py`, `scanner/news.py`.
 4. **Set price alerts at the pivot** in TradingView or CommSec. The page footer links to `sepa-watchlist.txt`, a TradingView import file of the Breaking out and Buy-ready stocks, rebuilt after each scan (watchlist menu → **Import list…**). Buy as the stock trades through the pivot on volume at least 40% above average; don't chase more than about 5% above it.
 5. **Before buying, write down your stop** (no more than 10% below entry; aim for 5-6% average losses) and size the position with the calculator so the stop costs no more than 1.25-2.5% of the account.
 6. Once the gain is 2-3 times your risk, move the stop to breakeven. Sell into strength on climax runs and late-stage bases; sell into weakness on the largest drop on the heaviest volume since the move began.

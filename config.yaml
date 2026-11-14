@@ -46,6 +46,23 @@ fundamentals:
   min_eps_growth_pct: 25
   min_sales_growth_pct: 20
 
+# Free numbers check, run on every scan for each Breaking out and Buy-ready stock: the parts of the full
+# SEPA review that are pure data (Yahoo statements and insider trades, ASX announcements, SEC filings).
+# A stock is "to act on" when it is Grade A and this check passes. It replaces the daily Claude review;
+# ask Claude to "run SEPA on <code>" for the catalyst and the judgement calls before a real buy.
+numbers_check:
+  enabled: true
+  max_names_per_market: 150
+  min_cash_conversion: 0.8        # operating cash flow under 80% of net profit = caution
+  max_dilution_pct_per_year: 5    # share count growing faster than this = caution, 3x this = fail
+  insider_days: 180               # look back this far for insider sales and purchases
+  insider_cluster_days: 90        # 3+ insiders selling inside this window = clustered selling
+  insider_cluster_sellers: 3
+  insider_fail_pct_of_mcap: 0.25  # clustered or repeated selling fails only above this share of the company
+  min_runway_months: 12           # cash burners with less than this = fail (a raise looks likely)
+  earnings_warn_days: 14
+  news_days: 30                   # flag capital raises, halts and offerings announced in this many days
+
 # The three rules that made SEPA profitable in the multistrat-bot backtest (US stocks, 2010-2026):
 # profit factor 1.14 with none of them, 1.98 with all three. Same numbers as that test.
 tested_edge:
