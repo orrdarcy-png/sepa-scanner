@@ -1,6 +1,132 @@
 {
- "generated": "2026-11-14T09:32:07Z",
+ "generated": "2026-11-16T09:58:50Z",
  "stocks": [
+  {
+   "code": "TEA",
+   "symbol": "TEA.AX",
+   "name": "TASMEA LIMITED",
+   "industry": "Capital Goods",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 10.02,
+   "pivot": 10.3,
+   "dist_pivot": -2.7,
+   "rs": 98,
+   "score": 66,
+   "stage": "2",
+   "base_no": 3,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": true,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 118,
+    "pct": 6.5,
+    "vol_mult": 4.1,
+    "held": true
+   },
+   "buy": {
+    "trigger": 10.3,
+    "max": 10.815,
+    "grade": "A"
+   },
+   "checks": {
+    "verdict": "Fail",
+    "why": "Fails on margins and code 33",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Latest earnings +94% on a year earlier (Yahoo summary only, no history to confirm)"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (annual): Jun 2024 +25%, Jun 2025 +37%, Jun 2026 +136%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "FAIL",
+      "finding": "Being squeezed. Net margin 5.5% in FY Jun 2026 vs 9.7% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +10.7% a year over 3 yr (dilution); institutions hold 6% (little sponsorship); no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$67M, debt A$155M: net debt A$88M; ROE 29%"
+     },
+     {
+      "check": "Event risk",
+      "result": "n/a",
+      "finding": "No next results date from Yahoo"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 1,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-05",
+      "text": "Update - Dividend/Distribution - TEA",
+      "tag": null
+     },
+     {
+      "date": "2026-11-05",
+      "text": "Change of Director's Interest Notice - Kristie Young",
+      "tag": null
+     },
+     {
+      "date": "2026-11-05",
+      "text": "Change of Director's Interest Notice - Jason Pryde",
+      "tag": null
+     },
+     {
+      "date": "2026-11-05",
+      "text": "Change of Director's Interest Notice - Mark Vartuli",
+      "tag": null
+     },
+     {
+      "date": "2026-11-05",
+      "text": "Change of Director's Interest Notice - Stephen Young",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/TEA",
+    "note": "Latest 5 ASX announcements"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-16",
+   "footprint": "6W 30/7 3T",
+   "next_earnings": null,
+   "priority": 1
+  },
   {
    "code": "BTSG",
    "symbol": "BTSG",
@@ -97,7 +223,7 @@
    "as_of": "2026-11-13",
    "footprint": "16W 26/7 5T",
    "next_earnings": "2026-10-30",
-   "priority": 1
+   "priority": 2
   },
   {
    "code": "PWH",
@@ -106,11 +232,11 @@
    "industry": "Automobiles & Components",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 11.41,
+   "price": 11.45,
    "pivot": 11.85,
-   "dist_pivot": -3.7,
-   "rs": 86,
-   "score": 60,
+   "dist_pivot": -3.4,
+   "rs": 87,
+   "score": 62,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -124,7 +250,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 60,
+    "days_ago": 61,
     "pct": 4.5,
     "vol_mult": 4.8,
     "held": true
@@ -220,10 +346,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "12W 25/4 2T",
+   "as_of": "2026-11-16",
+   "footprint": "12W 25/5 2T",
    "next_earnings": "2025-08-11",
-   "priority": 2
+   "priority": 3
   },
   {
    "code": "FIVE",
@@ -319,7 +445,7 @@
    "as_of": "2026-11-13",
    "footprint": "12W 24/9 2T",
    "next_earnings": "2026-12-02",
-   "priority": 3
+   "priority": 4
   },
   {
    "code": "MND",
@@ -328,11 +454,11 @@
    "industry": "Capital Goods",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 33.94,
+   "price": 34.14,
    "pivot": 35.3,
-   "dist_pivot": -3.9,
-   "rs": 78,
-   "score": 48,
+   "dist_pivot": -3.3,
+   "rs": 79,
+   "score": 49,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -346,7 +472,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 2,
+    "days_ago": 3,
     "pct": 4.1,
     "vol_mult": 2.3,
     "held": true
@@ -442,10 +568,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
+   "as_of": "2026-11-16",
    "footprint": "37W 28/5 6T",
    "next_earnings": "2026-08-25",
-   "priority": 4
+   "priority": 5
   },
   {
    "code": "INA",
@@ -454,11 +580,11 @@
    "industry": "Equity Real Estate Investment Trusts (REITs)",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.29,
+   "price": 5.3,
    "pivot": 5.445,
-   "dist_pivot": -2.8,
-   "rs": 85,
-   "score": 48,
+   "dist_pivot": -2.7,
+   "rs": 86,
+   "score": 49,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -472,7 +598,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 12,
+    "days_ago": 13,
     "pct": 5.0,
     "vol_mult": 3.4,
     "held": true
@@ -538,6 +664,21 @@
    "news": {
     "items": [
      {
+      "date": "2026-11-16",
+      "text": "Disclosure under Takeovers Panel GN 20 Equity Derivatives",
+      "tag": null
+     },
+     {
+      "date": "2026-11-15",
+      "text": "AVID exercises matching right and Peet ACCC determination",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-11-15",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
       "date": "2026-11-12",
       "text": "Receipt of non-exclusive proposal from Warburg Pincus",
       "tag": "price-sensitive"
@@ -546,21 +687,6 @@
       "date": "2026-11-12",
       "text": "Change in substantial holding",
       "tag": null
-     },
-     {
-      "date": "2026-11-11",
-      "text": "Becoming a substantial holder",
-      "tag": null
-     },
-     {
-      "date": "2026-11-10",
-      "text": "Change in substantial holding",
-      "tag": null
-     },
-     {
-      "date": "2026-11-09",
-      "text": "AVID exercises matching right",
-      "tag": "price-sensitive"
      }
     ],
     "url": "https://www.asx.com.au/markets/company/INA",
@@ -568,10 +694,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
+   "as_of": "2026-11-16",
    "footprint": "62W 42/7 4T",
    "next_earnings": "2026-08-25",
-   "priority": 5
+   "priority": 6
   },
   {
    "code": "EVT",
@@ -580,10 +706,10 @@
    "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 15.64,
+   "price": 15.59,
    "pivot": 16.0,
-   "dist_pivot": -2.2,
-   "rs": 80,
+   "dist_pivot": -2.6,
+   "rs": 81,
    "score": 39,
    "stage": "2",
    "base_no": 1,
@@ -598,7 +724,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 59,
+    "days_ago": 60,
     "pct": 5.1,
     "vol_mult": 3.0,
     "held": true
@@ -694,10 +820,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "63W 36/4 19T",
+   "as_of": "2026-11-16",
+   "footprint": "64W 36/4 20T",
    "next_earnings": "2026-08-24",
-   "priority": 6
+   "priority": 7
   },
   {
    "code": "VAC",
@@ -790,7 +916,7 @@
    "as_of": "2026-11-13",
    "footprint": "14W 26/13 2T",
    "next_earnings": "2026-11-04",
-   "priority": 7
+   "priority": 8
   },
   {
    "code": "TGT",
@@ -884,7 +1010,7 @@
    "as_of": "2026-11-13",
    "footprint": "12W 15/5 2T",
    "next_earnings": "2026-11-18",
-   "priority": 8
+   "priority": 9
   },
   {
    "code": "PK",
@@ -977,7 +1103,7 @@
    "as_of": "2026-11-13",
    "footprint": "3W 10/4 2T",
    "next_earnings": "2026-11-04",
-   "priority": 9
+   "priority": 10
   },
   {
    "code": "MRK",
@@ -1073,7 +1199,7 @@
    "as_of": "2026-11-13",
    "footprint": "11W 11/7 3T",
    "next_earnings": "2026-10-29",
-   "priority": 10
+   "priority": 11
   },
   {
    "code": "LNTH",
@@ -1164,7 +1290,7 @@
    "as_of": "2026-11-13",
    "footprint": "19W 12/4 5T",
    "next_earnings": "2026-11-05",
-   "priority": 11
+   "priority": 12
   },
   {
    "code": "RWC",
@@ -1173,11 +1299,11 @@
    "industry": "Capital Goods",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 4.62,
+   "price": 4.63,
    "pivot": 4.68,
-   "dist_pivot": -1.3,
-   "rs": 84,
-   "score": 56,
+   "dist_pivot": -1.1,
+   "rs": 85,
+   "score": 54,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
@@ -1191,7 +1317,7 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 42,
+    "days_ago": 43,
     "pct": 6.5,
     "vol_mult": 5.9,
     "held": true
@@ -1257,6 +1383,11 @@
    "news": {
     "items": [
      {
+      "date": "2026-11-16",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
       "date": "2026-11-04",
       "text": "Dispatch of Scheme Booklet, letter and proxy form",
       "tag": null
@@ -1275,11 +1406,6 @@
       "date": "2026-10-28",
       "text": "Becoming a substantial holder",
       "tag": null
-     },
-     {
-      "date": "2026-10-27",
-      "text": "Ceasing to be a substantial holder from MUFG",
-      "tag": "holder sold down"
      }
     ],
     "url": "https://www.asx.com.au/markets/company/RWC",
@@ -1287,135 +1413,9 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "6W 13/1 2T",
+   "as_of": "2026-11-16",
+   "footprint": "6W 13/2 2T",
    "next_earnings": "2026-08-18",
-   "priority": 12
-  },
-  {
-   "code": "AUC",
-   "symbol": "AUC.AX",
-   "name": "AUSGOLD LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 1.325,
-   "pivot": 1.39,
-   "dist_pivot": -4.7,
-   "rs": 91,
-   "score": 56,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": false
-   },
-   "gap": {
-    "days_ago": 61,
-    "pct": 4.7,
-    "vol_mult": 16.5,
-    "held": true
-   },
-   "buy": {
-    "trigger": 1.39,
-    "max": 1.4595,
-    "grade": "B"
-   },
-   "checks": {
-    "verdict": "Fail",
-    "why": "Fails on earnings",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "FAIL",
-      "finding": "Latest EPS is a loss (-0.0199). EPS vs a year earlier (annual): Jun 2024 from a loss, Jun 2025 from a loss, Jun 2026 from a loss"
-     },
-     {
-      "check": "Sales",
-      "result": "PASS",
-      "finding": "Sales +90% on a year earlier (Yahoo summary only)"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "n/a",
-      "finding": "No margin history from Yahoo"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "n/a",
-      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "FAIL",
-      "finding": "Share count +33.6% a year over 3 yr (heavy dilution); institutions hold 48%"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$87M, debt A$1M: net cash A$86M; ROE -6%"
-     },
-     {
-      "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2025-07-29; next date not set yet"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 2,
-    "cautions": 0
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-10-28",
-      "text": "FIRB Approval Received",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-10-21",
-      "text": "Scheme Meeting and Scheme Booklet",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-10-15",
-      "text": "Change in substantial holding",
-      "tag": null
-     },
-     {
-      "date": "2026-10-14",
-      "text": "Change of Director's Interest Notice - Dorward",
-      "tag": null
-     },
-     {
-      "date": "2026-10-14",
-      "text": "Notification regarding unquoted securities - AUC",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/AUC",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "11W 24/5 4T",
-   "next_earnings": "2025-07-29",
    "priority": 13
   },
   {
@@ -1510,127 +1510,6 @@
    "priority": 14
   },
   {
-   "code": "PRU",
-   "symbol": "PRU.AX",
-   "name": "PERSEUS MINING LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 6.35,
-   "pivot": 6.64,
-   "dist_pivot": -4.4,
-   "rs": 81,
-   "score": 52,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 6.64,
-    "max": 6.972,
-    "grade": "B"
-   },
-   "checks": {
-    "verdict": "Mixed",
-    "why": "Fails on surprises",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "CAUTION",
-      "finding": "Growth under 25%. EPS vs a year earlier (annual): Jun 2024 +14%, Jun 2025 +14%, Jun 2026 +18%"
-     },
-     {
-      "check": "Sales",
-      "result": "CAUTION",
-      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 +9%, Jun 2025 +22%, Jun 2026 +19%"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "CAUTION",
-      "finding": "Flat. Net margin 28.9% in FY Jun 2026 vs 29.7% in FY Jun 2025"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "FAIL",
-      "finding": "Missed estimates last report. Last reports vs estimates: +226%, -54%, -51%, -36%"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "PASS",
-      "finding": "Share count -1.0% a year over 3 yr; institutions hold 68%"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$924M, debt A$2M: net cash A$922M; ROE 21%"
-     },
-     {
-      "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2026-08-26; next date not set yet"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 1,
-    "cautions": 3
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-11-12",
-      "text": "Ceasing to be a substantial holder from MQG",
-      "tag": "holder sold down"
-     },
-     {
-      "date": "2026-11-12",
-      "text": "2026 AGM Webcast Details",
-      "tag": null
-     },
-     {
-      "date": "2026-11-08",
-      "text": "Update - Notification of buy-back - PRU",
-      "tag": null
-     },
-     {
-      "date": "2026-11-04",
-      "text": "Update - Notification of buy-back - PRU",
-      "tag": null
-     },
-     {
-      "date": "2026-11-02",
-      "text": "Update - Notification of buy-back - PRU",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/PRU",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "7W 24/5 2T",
-   "next_earnings": "2026-08-26",
-   "priority": 15
-  },
-  {
    "code": "CUZ",
    "symbol": "CUZ",
    "name": "Cousins Properties",
@@ -1719,7 +1598,7 @@
    "as_of": "2026-11-13",
    "footprint": "15W 18/6 2T",
    "next_earnings": "2026-10-29",
-   "priority": 16
+   "priority": 15
   },
   {
    "code": "APOG",
@@ -1815,7 +1694,7 @@
    "as_of": "2026-11-13",
    "footprint": "20W 32/6 5T",
    "next_earnings": "2027-01-06",
-   "priority": 17
+   "priority": 16
   },
   {
    "code": "GRMN",
@@ -1906,7 +1785,7 @@
    "as_of": "2026-11-13",
    "footprint": "14W 16/6 4T",
    "next_earnings": "2026-10-28",
-   "priority": 18
+   "priority": 17
   },
   {
    "code": "CSX",
@@ -1999,7 +1878,7 @@
    "as_of": "2026-11-13",
    "footprint": "16W 14/7 2T",
    "next_earnings": "2027-01-28",
-   "priority": 19
+   "priority": 18
   },
   {
    "code": "NWL",
@@ -2090,6 +1969,129 @@
    "as_of": "2026-11-13",
    "footprint": "15W 31/12 5T",
    "next_earnings": "2026-10-30",
+   "priority": 19
+  },
+  {
+   "code": "BSL",
+   "symbol": "BSL.AX",
+   "name": "BLUESCOPE STEEL LIMITED",
+   "industry": "Materials",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 32.71,
+   "pivot": 32.96,
+   "dist_pivot": -0.8,
+   "rs": 84,
+   "score": 45,
+   "stage": "2",
+   "base_no": 5,
+   "warnings": [
+    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
+   ],
+   "ff": {
+    "data": true,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 32.96,
+    "max": 34.608,
+    "grade": "B"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Sales isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "PASS",
+      "finding": "Accelerating. Annual figures only, so check the latest half. EPS vs a year earlier (annual): Jun 2024 -17%, Jun 2025 -89%, Jun 2026 +856%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 -6%, Jun 2025 -4%, Jun 2026 +2%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 4.8% in FY Jun 2026 vs 0.5% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -1.2% a year over 3 yr; institutions hold 53%; 1 insider sold A$287k in 180 days (latest 2026-09-04), 0.00% of the company"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$1.17B, debt A$1.77B: net debt A$600M; ROE 8%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-17; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-16",
+      "text": "Results of Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-11-15",
+      "text": "BSL 2026 AGM MD&CEO Address",
+      "tag": null
+     },
+     {
+      "date": "2026-11-15",
+      "text": "BSL 2026 AGM Chair Address",
+      "tag": null
+     },
+     {
+      "date": "2026-11-15",
+      "text": "BSL 2026 AGM Trading Update",
+      "tag": null
+     },
+     {
+      "date": "2026-10-28",
+      "text": "Change in substantial holding",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/BSL",
+    "note": "Latest 5 ASX announcements"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-16",
+   "footprint": "3W 11/3 2T",
+   "next_earnings": "2026-08-17",
    "priority": 20
   },
   {
@@ -2284,8 +2286,8 @@
    "price": 5.8,
    "pivot": 5.83,
    "dist_pivot": -0.5,
-   "rs": 82,
-   "score": 40,
+   "rs": 83,
+   "score": 41,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -2299,7 +2301,7 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 112,
+    "days_ago": 113,
     "pct": 32.4,
     "vol_mult": 4.5,
     "held": true
@@ -2395,8 +2397,8 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "53W 41/0 22T",
+   "as_of": "2026-11-16",
+   "footprint": "53W 41/1 22T",
    "next_earnings": "2026-08-26",
    "priority": 23
   },
@@ -2407,11 +2409,11 @@
    "industry": "Transportation",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.64,
+   "price": 5.63,
    "pivot": 5.79,
-   "dist_pivot": -2.6,
-   "rs": 76,
-   "score": 37,
+   "dist_pivot": -2.8,
+   "rs": 75,
+   "score": 36,
    "stage": "2",
    "base_no": 5,
    "warnings": [
@@ -2518,8 +2520,8 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "20W 15/6 4T",
+   "as_of": "2026-11-16",
+   "footprint": "21W 15/6 4T",
    "next_earnings": "2025-08-25",
    "priority": 24
   },
@@ -2530,10 +2532,10 @@
    "industry": "Consumer Discretionary Distribution & Retail",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 35.6,
-   "pivot": 36.0,
-   "dist_pivot": -1.1,
-   "rs": 72,
+   "price": 36.27,
+   "pivot": 36.42,
+   "dist_pivot": -0.4,
+   "rs": 75,
    "score": 28,
    "stage": "2",
    "base_no": 2,
@@ -2549,8 +2551,8 @@
    },
    "gap": null,
    "buy": {
-    "trigger": 36.0,
-    "max": 37.8,
+    "trigger": 36.42,
+    "max": 38.241,
     "grade": "B"
    },
    "checks": {
@@ -2639,8 +2641,8 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "62W 32/3 12T",
+   "as_of": "2026-11-16",
+   "footprint": "62W 32/12 11T",
    "next_earnings": "2025-08-25",
    "priority": 25
   },
@@ -2651,11 +2653,11 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 31.97,
+   "price": 31.7,
    "pivot": 32.18,
-   "dist_pivot": -0.7,
+   "dist_pivot": -1.5,
    "rs": 74,
-   "score": 22,
+   "score": 25,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -2760,8 +2762,8 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-13",
-   "footprint": "52W 45/12 13T",
+   "as_of": "2026-11-16",
+   "footprint": "52W 45/2 16T",
    "next_earnings": "2026-08-25",
    "priority": 26
   }
