@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:23:31Z",
+ "generated": "2026-11-17T08:33:55Z",
  "stocks": [
   {
    "code": "ARMK",
@@ -93,132 +93,6 @@
    "footprint": "13W 20/4 3T",
    "next_earnings": "2026-11-16",
    "priority": 1
-  },
-  {
-   "code": "TEA",
-   "symbol": "TEA.AX",
-   "name": "TASMEA LIMITED",
-   "industry": "Capital Goods",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 10.02,
-   "pivot": 10.3,
-   "dist_pivot": -2.7,
-   "rs": 98,
-   "score": 66,
-   "stage": "2",
-   "base_no": 3,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": true,
-    "pass": true,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": true
-   },
-   "gap": {
-    "days_ago": 118,
-    "pct": 6.5,
-    "vol_mult": 4.1,
-    "held": true
-   },
-   "buy": {
-    "trigger": 10.3,
-    "max": 10.815,
-    "grade": "A"
-   },
-   "checks": {
-    "verdict": "Fail",
-    "why": "Fails on margins and code 33",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "CAUTION",
-      "finding": "Latest earnings +94% on a year earlier (Yahoo summary only, no history to confirm)"
-     },
-     {
-      "check": "Sales",
-      "result": "PASS",
-      "finding": "Sales vs a year earlier (annual): Jun 2024 +25%, Jun 2025 +37%, Jun 2026 +136%"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "FAIL",
-      "finding": "Being squeezed. Net margin 5.5% in FY Jun 2026 vs 9.7% in FY Jun 2025"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "n/a",
-      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "CAUTION",
-      "finding": "Share count +10.7% a year over 3 yr (dilution); institutions hold 6% (little sponsorship); no insider buying or selling in 180 days"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$67M, debt A$155M: net debt A$88M; ROE 29%"
-     },
-     {
-      "check": "Event risk",
-      "result": "n/a",
-      "finding": "No next results date from Yahoo"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 1,
-    "cautions": 2
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-11-05",
-      "text": "Update - Dividend/Distribution - TEA",
-      "tag": null
-     },
-     {
-      "date": "2026-11-05",
-      "text": "Change of Director's Interest Notice - Kristie Young",
-      "tag": null
-     },
-     {
-      "date": "2026-11-05",
-      "text": "Change of Director's Interest Notice - Jason Pryde",
-      "tag": null
-     },
-     {
-      "date": "2026-11-05",
-      "text": "Change of Director's Interest Notice - Mark Vartuli",
-      "tag": null
-     },
-     {
-      "date": "2026-11-05",
-      "text": "Change of Director's Interest Notice - Stephen Young",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/TEA",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "6W 30/7 3T",
-   "next_earnings": null,
-   "priority": 2
   },
   {
    "code": "BTSG",
@@ -316,7 +190,7 @@
    "as_of": "2026-11-16",
    "footprint": "16W 26/7 5T",
    "next_earnings": "2026-10-30",
-   "priority": 3
+   "priority": 2
   },
   {
    "code": "PWH",
@@ -325,11 +199,11 @@
    "industry": "Automobiles & Components",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 11.45,
+   "price": 11.4,
    "pivot": 11.85,
-   "dist_pivot": -3.4,
-   "rs": 87,
-   "score": 62,
+   "dist_pivot": -3.8,
+   "rs": 85,
+   "score": 59,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -343,7 +217,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 61,
+    "days_ago": 62,
     "pct": 4.5,
     "vol_mult": 4.8,
     "held": true
@@ -439,10 +313,264 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "12W 25/5 2T",
+   "as_of": "2026-11-17",
+   "footprint": "12W 25/6 2T",
    "next_earnings": "2025-08-11",
+   "priority": 3
+  },
+  {
+   "code": "SHA",
+   "symbol": "SHA.AX",
+   "name": "SHAPE AUSTRALIA CORPORATION LIMITED",
+   "industry": "Capital Goods",
+   "status": "Buy-ready",
+   "setup": "cheat (3-C)",
+   "price": 7.31,
+   "pivot": 7.42,
+   "dist_pivot": -1.5,
+   "rs": 71,
+   "score": 33,
+   "stage": "2",
+   "base_no": 7,
+   "warnings": [
+    "Late-stage base (\u2248 base 7): treat as a trade, sell into strength"
+   ],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": true,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 64,
+    "pct": 8.0,
+    "vol_mult": 3.5,
+    "held": true
+   },
+   "buy": {
+    "trigger": 7.42,
+    "max": 7.791,
+    "grade": "A"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Latest earnings +52% on a year earlier (Yahoo summary only, no history to confirm)"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (annual): Jun 2024 -3%, Jun 2025 +14%, Jun 2026 +30%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Flat. Net margin 2.6% in FY Jun 2026 vs 2.2% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count -0.3% a year over 3 yr; institutions hold 10% (little sponsorship); 1 bought on market (A$74k)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$136M, debt A$38M: net cash A$98M; ROE 79%"
+     },
+     {
+      "check": "Event risk",
+      "result": "n/a",
+      "finding": "No next results date from Yahoo"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 3
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-16",
+      "text": "Becoming a substantial holder",
+      "tag": null
+     },
+     {
+      "date": "2026-11-12",
+      "text": "Ceasing to be a substantial holder",
+      "tag": "holder sold down"
+     },
+     {
+      "date": "2026-10-28",
+      "text": "Results of Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-10-28",
+      "text": "CEO's Address to the Annual General Meeting",
+      "tag": null
+     },
+     {
+      "date": "2026-10-28",
+      "text": "Chairman's Address to the Annual General Meeting",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/SHA",
+    "note": "Latest 5 ASX announcements"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-17",
+   "footprint": "6W 27/17 2T",
+   "next_earnings": null,
    "priority": 4
+  },
+  {
+   "code": "INA",
+   "symbol": "INA.AX",
+   "name": "INGENIA COMMUNITIES GROUP",
+   "industry": "Equity Real Estate Investment Trusts (REITs)",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 5.3,
+   "pivot": 5.445,
+   "dist_pivot": -2.7,
+   "rs": 87,
+   "score": 50,
+   "stage": "2",
+   "base_no": 1,
+   "warnings": [],
+   "ff": {
+    "data": true,
+    "eps": true,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": true,
+    "edge": true
+   },
+   "gap": {
+    "days_ago": 14,
+    "pct": 5.0,
+    "vol_mult": 3.4,
+    "held": true
+   },
+   "buy": {
+    "trigger": 5.445,
+    "max": 5.7173,
+    "grade": "A"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings and sales aren't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "CAUTION",
+      "finding": "Growth has more than halved. EPS vs a year earlier (annual): Jun 2024 -78%, Jun 2025 +826%, Jun 2026 +44%"
+     },
+     {
+      "check": "Sales",
+      "result": "CAUTION",
+      "finding": "Sales +13% on a year earlier (Yahoo summary only)"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "PASS",
+      "finding": "Expanding. Net margin 33.9% in FY Jun 2026 vs 3.0% in FY Jun 2024"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "PASS",
+      "finding": "Share count +0.0% a year over 4 yr; institutions hold 61%; 1 bought on market (A$26k)"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$24M, debt A$1.01B: net debt A$984M; ROE 11%"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2026-08-25; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-16",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-16",
+      "text": "Disclosure under Takeovers Panel GN 20 Equity Derivatives",
+      "tag": null
+     },
+     {
+      "date": "2026-11-15",
+      "text": "AVID exercises matching right and Peet ACCC determination",
+      "tag": "price-sensitive"
+     },
+     {
+      "date": "2026-11-15",
+      "text": "Change in substantial holding",
+      "tag": null
+     },
+     {
+      "date": "2026-11-12",
+      "text": "Receipt of non-exclusive proposal from Warburg Pincus",
+      "tag": "price-sensitive"
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/INA",
+    "note": "Latest 5 ASX announcements"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-17",
+   "footprint": "62W 42/7 4T",
+   "next_earnings": "2026-08-25",
+   "priority": 5
   },
   {
    "code": "MND",
@@ -451,10 +579,10 @@
    "industry": "Capital Goods",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 34.14,
+   "price": 33.8,
    "pivot": 35.3,
-   "dist_pivot": -3.3,
-   "rs": 79,
+   "dist_pivot": -4.2,
+   "rs": 80,
    "score": 49,
    "stage": "2",
    "base_no": 1,
@@ -469,7 +597,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 3,
+    "days_ago": 4,
     "pct": 4.1,
     "vol_mult": 2.3,
     "held": true
@@ -565,134 +693,8 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "37W 28/5 6T",
-   "next_earnings": "2026-08-25",
-   "priority": 5
-  },
-  {
-   "code": "INA",
-   "symbol": "INA.AX",
-   "name": "INGENIA COMMUNITIES GROUP",
-   "industry": "Equity Real Estate Investment Trusts (REITs)",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 5.3,
-   "pivot": 5.445,
-   "dist_pivot": -2.7,
-   "rs": 86,
-   "score": 49,
-   "stage": "2",
-   "base_no": 1,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": true,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": true
-   },
-   "gap": {
-    "days_ago": 13,
-    "pct": 5.0,
-    "vol_mult": 3.4,
-    "held": true
-   },
-   "buy": {
-    "trigger": 5.445,
-    "max": 5.7173,
-    "grade": "A"
-   },
-   "checks": {
-    "verdict": "Mixed",
-    "why": "Earnings and sales aren't strong enough yet",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "CAUTION",
-      "finding": "Growth has more than halved. EPS vs a year earlier (annual): Jun 2024 -78%, Jun 2025 +826%, Jun 2026 +44%"
-     },
-     {
-      "check": "Sales",
-      "result": "CAUTION",
-      "finding": "Sales +13% on a year earlier (Yahoo summary only)"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "PASS",
-      "finding": "Expanding. Net margin 33.9% in FY Jun 2026 vs 3.0% in FY Jun 2024"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "n/a",
-      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "PASS",
-      "finding": "Share count +0.0% a year over 4 yr; institutions hold 61%; 1 bought on market (A$26k)"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$24M, debt A$1.01B: net debt A$984M; ROE 11%"
-     },
-     {
-      "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2026-08-25; next date not set yet"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 0,
-    "cautions": 2
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-11-16",
-      "text": "Disclosure under Takeovers Panel GN 20 Equity Derivatives",
-      "tag": null
-     },
-     {
-      "date": "2026-11-15",
-      "text": "AVID exercises matching right and Peet ACCC determination",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-11-15",
-      "text": "Change in substantial holding",
-      "tag": null
-     },
-     {
-      "date": "2026-11-12",
-      "text": "Receipt of non-exclusive proposal from Warburg Pincus",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-11-12",
-      "text": "Change in substantial holding",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/INA",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "62W 42/7 4T",
+   "as_of": "2026-11-17",
+   "footprint": "37W 28/6 6T",
    "next_earnings": "2026-08-25",
    "priority": 6
   },
@@ -703,9 +705,9 @@
    "industry": "Media & Entertainment",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 15.59,
+   "price": 15.45,
    "pivot": 16.0,
-   "dist_pivot": -2.6,
+   "dist_pivot": -3.4,
    "rs": 81,
    "score": 39,
    "stage": "2",
@@ -721,7 +723,7 @@
     "edge": true
    },
    "gap": {
-    "days_ago": 60,
+    "days_ago": 61,
     "pct": 5.1,
     "vol_mult": 3.0,
     "held": true
@@ -817,7 +819,7 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "footprint": "64W 36/4 20T",
    "next_earnings": "2026-08-24",
    "priority": 7
@@ -1476,132 +1478,6 @@
    "priority": 14
   },
   {
-   "code": "RWC",
-   "symbol": "RWC.AX",
-   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
-   "industry": "Capital Goods",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 4.63,
-   "pivot": 4.68,
-   "dist_pivot": -1.1,
-   "rs": 85,
-   "score": 54,
-   "stage": "2",
-   "base_no": 2,
-   "warnings": [],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": true,
-    "edge": false
-   },
-   "gap": {
-    "days_ago": 43,
-    "pct": 6.5,
-    "vol_mult": 5.9,
-    "held": true
-   },
-   "buy": {
-    "trigger": 4.68,
-    "max": 4.914,
-    "grade": "B"
-   },
-   "checks": {
-    "verdict": "Fail",
-    "why": "Fails on earnings, sales, margins and code 33",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "FAIL",
-      "finding": "EPS is falling. EPS vs a year earlier (annual): Jun 2024 -21%, Jun 2025 +14%, Jun 2026 -95%"
-     },
-     {
-      "check": "Sales",
-      "result": "FAIL",
-      "finding": "Sales flat or falling. Sales vs a year earlier (annual): Jun 2024 0%, Jun 2025 +6%, Jun 2026 -1%"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "FAIL",
-      "finding": "Being squeezed. Net margin 0.5% in FY Jun 2026 vs 9.5% in FY Jun 2025"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "n/a",
-      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "PASS",
-      "finding": "Share count -1.8% a year over 3 yr; institutions hold 79%; no insider buying or selling in 180 days"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$29M, debt A$378M: net debt A$350M; ROE 0%"
-     },
-     {
-      "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2026-08-18; next date not set yet"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 3,
-    "cautions": 0
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-11-16",
-      "text": "Change in substantial holding",
-      "tag": null
-     },
-     {
-      "date": "2026-11-04",
-      "text": "Dispatch of Scheme Booklet, letter and proxy form",
-      "tag": null
-     },
-     {
-      "date": "2026-10-30",
-      "text": "Scheme Booklet registered by ASIC",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-10-29",
-      "text": "Outcome of first Court hearing for Scheme of Arrangement",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-10-28",
-      "text": "Becoming a substantial holder",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/RWC",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "6W 13/2 2T",
-   "next_earnings": "2026-08-18",
-   "priority": 15
-  },
-  {
    "code": "SEIC",
    "symbol": "SEIC",
    "name": "SEI Investments Company",
@@ -1690,7 +1566,7 @@
    "as_of": "2026-11-16",
    "footprint": "11W 12/3 4T",
    "next_earnings": "2027-01-27",
-   "priority": 16
+   "priority": 15
   },
   {
    "code": "CUZ",
@@ -1781,7 +1657,7 @@
    "as_of": "2026-11-16",
    "footprint": "15W 18/6 2T",
    "next_earnings": "2026-10-29",
-   "priority": 17
+   "priority": 16
   },
   {
    "code": "CSX",
@@ -1874,7 +1750,7 @@
    "as_of": "2026-11-16",
    "footprint": "16W 14/1 3T",
    "next_earnings": "2027-01-28",
-   "priority": 18
+   "priority": 17
   },
   {
    "code": "ELV",
@@ -1965,7 +1841,7 @@
    "as_of": "2026-11-16",
    "footprint": "4W 10/7 2T",
    "next_earnings": "2027-01-28",
-   "priority": 19
+   "priority": 18
   },
   {
    "code": "NWL",
@@ -2056,7 +1932,7 @@
    "as_of": "2026-11-16",
    "footprint": "15W 31/12 5T",
    "next_earnings": "2026-10-30",
-   "priority": 20
+   "priority": 19
   },
   {
    "code": "RNR",
@@ -2147,130 +2023,7 @@
    "as_of": "2026-11-16",
    "footprint": "3W 13/5 2T",
    "next_earnings": "2026-10-27",
-   "priority": 21
-  },
-  {
-   "code": "BSL",
-   "symbol": "BSL.AX",
-   "name": "BLUESCOPE STEEL LIMITED",
-   "industry": "Materials",
-   "status": "Buy-ready",
-   "setup": "VCP",
-   "price": 32.71,
-   "pivot": 32.96,
-   "dist_pivot": -0.8,
-   "rs": 84,
-   "score": 45,
-   "stage": "2",
-   "base_no": 5,
-   "warnings": [
-    "Late-stage base (\u2248 base 5): treat as a trade, sell into strength"
-   ],
-   "ff": {
-    "data": true,
-    "eps": false,
-    "pass": false,
-    "accel": false,
-    "code33": false,
-    "gap": false,
-    "edge": false
-   },
-   "gap": null,
-   "buy": {
-    "trigger": 32.96,
-    "max": 34.608,
-    "grade": "B"
-   },
-   "checks": {
-    "verdict": "Mixed",
-    "why": "Sales isn't strong enough yet",
-    "rows": [
-     {
-      "check": "Earnings",
-      "result": "PASS",
-      "finding": "Accelerating. Annual figures only, so check the latest half. EPS vs a year earlier (annual): Jun 2024 -17%, Jun 2025 -89%, Jun 2026 +856%"
-     },
-     {
-      "check": "Sales",
-      "result": "CAUTION",
-      "finding": "Growth under 20%. Sales vs a year earlier (annual): Jun 2024 -6%, Jun 2025 -4%, Jun 2026 +2%"
-     },
-     {
-      "check": "Margins and Code 33",
-      "result": "PASS",
-      "finding": "Expanding. Net margin 4.8% in FY Jun 2026 vs 0.5% in FY Jun 2025"
-     },
-     {
-      "check": "Earnings quality",
-      "result": "n/a",
-      "finding": "No cash flow statement from Yahoo"
-     },
-     {
-      "check": "Surprises",
-      "result": "n/a",
-      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
-     },
-     {
-      "check": "Supply and ownership",
-      "result": "CAUTION",
-      "finding": "Share count -1.2% a year over 3 yr; institutions hold 53%; 1 insider sold A$287k in 180 days (latest 2026-09-04), 0.00% of the company"
-     },
-     {
-      "check": "Balance sheet",
-      "result": "PASS",
-      "finding": "Cash A$1.17B, debt A$1.77B: net debt A$600M; ROE 8%"
-     },
-     {
-      "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2026-08-17; next date not set yet"
-     },
-     {
-      "check": "Announcements",
-      "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
-     }
-    ],
-    "fails": 0,
-    "cautions": 2
-   },
-   "news": {
-    "items": [
-     {
-      "date": "2026-11-16",
-      "text": "Results of Meeting",
-      "tag": "results"
-     },
-     {
-      "date": "2026-11-15",
-      "text": "BSL 2026 AGM MD&CEO Address",
-      "tag": null
-     },
-     {
-      "date": "2026-11-15",
-      "text": "BSL 2026 AGM Chair Address",
-      "tag": null
-     },
-     {
-      "date": "2026-11-15",
-      "text": "BSL 2026 AGM Trading Update",
-      "tag": null
-     },
-     {
-      "date": "2026-10-28",
-      "text": "Change in substantial holding",
-      "tag": null
-     }
-    ],
-    "url": "https://www.asx.com.au/markets/company/BSL",
-    "note": "Latest 5 ASX announcements"
-   },
-   "market": "ASX",
-   "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "3W 11/3 2T",
-   "next_earnings": "2026-08-17",
-   "priority": 22
+   "priority": 20
   },
   {
    "code": "SDF",
@@ -2279,11 +2032,11 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 5.8,
+   "price": 5.78,
    "pivot": 5.83,
-   "dist_pivot": -0.5,
-   "rs": 83,
-   "score": 41,
+   "dist_pivot": -0.9,
+   "rs": 85,
+   "score": 43,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -2297,7 +2050,7 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 113,
+    "days_ago": 114,
     "pct": 32.4,
     "vol_mult": 4.5,
     "held": true
@@ -2393,10 +2146,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "53W 41/1 22T",
+   "as_of": "2026-11-17",
+   "footprint": "54W 41/1 22T",
    "next_earnings": "2026-08-26",
-   "priority": 23
+   "priority": 21
   },
   {
    "code": "DBI",
@@ -2405,11 +2158,11 @@
    "industry": "Transportation",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 5.63,
+   "price": 5.55,
    "pivot": 5.79,
-   "dist_pivot": -2.8,
-   "rs": 75,
-   "score": 36,
+   "dist_pivot": -4.1,
+   "rs": 78,
+   "score": 38,
    "stage": "2",
    "base_no": 5,
    "warnings": [
@@ -2516,10 +2269,133 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "footprint": "21W 15/6 4T",
    "next_earnings": "2025-08-25",
-   "priority": 24
+   "priority": 22
+  },
+  {
+   "code": "PGF",
+   "symbol": "PGF.AX",
+   "name": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+   "industry": "Not Applic",
+   "status": "Buy-ready",
+   "setup": "VCP",
+   "price": 3.26,
+   "pivot": 3.33,
+   "dist_pivot": -2.1,
+   "rs": 74,
+   "score": 37,
+   "stage": "2",
+   "base_no": 4,
+   "warnings": [
+    "Late-stage base (\u2248 base 4): treat as a trade, sell into strength"
+   ],
+   "ff": {
+    "data": false,
+    "eps": false,
+    "pass": false,
+    "accel": false,
+    "code33": false,
+    "gap": false,
+    "edge": false
+   },
+   "gap": null,
+   "buy": {
+    "trigger": 3.33,
+    "max": 3.4965,
+    "grade": "B"
+   },
+   "checks": {
+    "verdict": "Mixed",
+    "why": "Earnings isn't strong enough yet",
+    "rows": [
+     {
+      "check": "Earnings",
+      "result": "n/a",
+      "finding": "No EPS history from Yahoo"
+     },
+     {
+      "check": "Sales",
+      "result": "PASS",
+      "finding": "Sales vs a year earlier (annual): Jun 2024 -1%, Jun 2025 +35%, Jun 2026 +42%"
+     },
+     {
+      "check": "Margins and Code 33",
+      "result": "CAUTION",
+      "finding": "Flat. Net margin 68.7% in FY Jun 2026 vs 68.7% in FY Jun 2025"
+     },
+     {
+      "check": "Earnings quality",
+      "result": "n/a",
+      "finding": "No cash flow statement from Yahoo"
+     },
+     {
+      "check": "Surprises",
+      "result": "n/a",
+      "finding": "No estimate history from Yahoo (guidance and revisions need a person)"
+     },
+     {
+      "check": "Supply and ownership",
+      "result": "CAUTION",
+      "finding": "Share count +5.6% a year over 3 yr (dilution); institutions hold 5% (little sponsorship); no insider buying or selling in 180 days"
+     },
+     {
+      "check": "Balance sheet",
+      "result": "PASS",
+      "finding": "Cash A$109M, debt A$137M: net debt A$28M"
+     },
+     {
+      "check": "Event risk",
+      "result": "PASS",
+      "finding": "Last reported 2025-08-05; next date not set yet"
+     },
+     {
+      "check": "Announcements",
+      "result": "PASS",
+      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+     }
+    ],
+    "fails": 0,
+    "cautions": 2
+   },
+   "news": {
+    "items": [
+     {
+      "date": "2026-11-15",
+      "text": "Net Tangible Asset Backing - 13 November 2026",
+      "tag": null
+     },
+     {
+      "date": "2026-11-11",
+      "text": "Monthly Report - 31 October 2026",
+      "tag": null
+     },
+     {
+      "date": "2026-11-08",
+      "text": "Net Tangible Asset Backing - 6 November 2026",
+      "tag": null
+     },
+     {
+      "date": "2026-11-04",
+      "text": "Results of 2026 Annual General Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-11-04",
+      "text": "Chairman's Address to Shareholders",
+      "tag": null
+     }
+    ],
+    "url": "https://www.asx.com.au/markets/company/PGF",
+    "note": "Latest 5 ASX announcements"
+   },
+   "market": "ASX",
+   "currency": "A$",
+   "as_of": "2026-11-17",
+   "footprint": "13W 11/3 3T",
+   "next_earnings": "2025-08-05",
+   "priority": 23
   },
   {
    "code": "SNL",
@@ -2528,11 +2404,11 @@
    "industry": "Consumer Discretionary Distribution & Retail",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 36.27,
-   "pivot": 36.42,
-   "dist_pivot": -0.4,
-   "rs": 75,
-   "score": 28,
+   "price": 35.71,
+   "pivot": 36.99,
+   "dist_pivot": -3.5,
+   "rs": 74,
+   "score": 29,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
@@ -2547,8 +2423,8 @@
    },
    "gap": null,
    "buy": {
-    "trigger": 36.42,
-    "max": 38.241,
+    "trigger": 36.99,
+    "max": 38.8395,
     "grade": "B"
    },
    "checks": {
@@ -2637,10 +2513,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "62W 32/12 11T",
+   "as_of": "2026-11-17",
+   "footprint": "63W 32/12 11T",
    "next_earnings": "2025-08-25",
-   "priority": 25
+   "priority": 24
   },
   {
    "code": "AUB",
@@ -2649,11 +2525,11 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 31.7,
+   "price": 31.39,
    "pivot": 32.18,
-   "dist_pivot": -1.5,
-   "rs": 74,
-   "score": 25,
+   "dist_pivot": -2.5,
+   "rs": 76,
+   "score": 26,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -2758,10 +2634,10 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-16",
-   "footprint": "52W 45/2 16T",
+   "as_of": "2026-11-17",
+   "footprint": "52W 45/3 16T",
    "next_earnings": "2026-08-25",
-   "priority": 26
+   "priority": 25
   }
  ]
 }
