@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T22:22:16Z",
+ "generated": "2026-11-23T08:53:27Z",
  "stocks": [
   {
    "code": "WKC",
@@ -280,22 +280,22 @@
    "priority": 3
   },
   {
-   "code": "RWC",
-   "symbol": "RWC.AX",
-   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
-   "industry": "Capital Goods",
+   "code": "GL1",
+   "symbol": "GL1.AX",
+   "name": "GLOBAL LITHIUM RESOURCES LIMITED",
+   "industry": "Materials",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 4.57,
-   "pivot": 4.68,
-   "dist_pivot": -2.4,
-   "rs": 90,
+   "price": 0.955,
+   "pivot": 1.0,
+   "dist_pivot": -4.5,
+   "rs": 97,
    "score": 59,
    "stage": "2",
    "base_no": 2,
    "warnings": [],
    "ff": {
-    "data": true,
+    "data": false,
     "eps": false,
     "pass": false,
     "accel": false,
@@ -304,34 +304,34 @@
     "edge": false
    },
    "gap": {
-    "days_ago": 47,
-    "pct": 6.5,
-    "vol_mult": 5.9,
+    "days_ago": 44,
+    "pct": 57.9,
+    "vol_mult": 14.4,
     "held": true
    },
    "buy": {
-    "trigger": 4.68,
-    "max": 4.914,
+    "trigger": 1.0,
+    "max": 1.05,
     "grade": "B"
    },
    "checks": {
-    "verdict": "Fail",
-    "why": "Fails on earnings, sales, margins and code 33",
+    "verdict": "No data",
+    "why": "Yahoo has no earnings or sales figures: check the announcements yourself",
     "rows": [
      {
       "check": "Earnings",
-      "result": "FAIL",
-      "finding": "EPS is falling. EPS vs a year earlier (annual): Jun 2024 -21%, Jun 2025 +14%, Jun 2026 -95%"
+      "result": "n/a",
+      "finding": "No EPS history from Yahoo"
      },
      {
       "check": "Sales",
-      "result": "FAIL",
-      "finding": "Sales flat or falling. Sales vs a year earlier (annual): Jun 2024 0%, Jun 2025 +6%, Jun 2026 -1%"
+      "result": "n/a",
+      "finding": "No sales history from Yahoo"
      },
      {
       "check": "Margins and Code 33",
-      "result": "FAIL",
-      "finding": "Being squeezed. Net margin 0.5% in FY Jun 2026 vs 9.5% in FY Jun 2025"
+      "result": "PASS",
+      "finding": "Expanding. Net margin -742.0% in FY Jun 2024 vs -3225.3% in FY Jun 2023"
      },
      {
       "check": "Earnings quality",
@@ -345,18 +345,18 @@
      },
      {
       "check": "Supply and ownership",
-      "result": "PASS",
-      "finding": "Share count -1.8% a year over 3 yr; institutions hold 79%; no insider buying or selling in 180 days"
+      "result": "CAUTION",
+      "finding": "Share count +8.3% a year over 4 yr (dilution); institutions hold 0% (little sponsorship); no insider buying or selling in 180 days"
      },
      {
       "check": "Balance sheet",
       "result": "PASS",
-      "finding": "Cash A$29M, debt A$378M: net debt A$350M; ROE 0%"
+      "finding": "Cash A$26M, debt A$673k: net cash A$26M; ROE -4%"
      },
      {
       "check": "Event risk",
-      "result": "PASS",
-      "finding": "Last reported 2026-08-18; next date not set yet"
+      "result": "n/a",
+      "finding": "No next results date from Yahoo"
      },
      {
       "check": "Announcements",
@@ -364,45 +364,45 @@
       "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
      }
     ],
-    "fails": 3,
-    "cautions": 0
+    "fails": 0,
+    "cautions": 1
    },
    "news": {
     "items": [
      {
+      "date": "2026-11-23",
+      "text": "Dispatch of Scheme Booklet",
+      "tag": null
+     },
+     {
+      "date": "2026-11-19",
+      "text": "Results of Annual General Meeting",
+      "tag": "results"
+     },
+     {
+      "date": "2026-11-18",
+      "text": "Scheme Booklet registered with ASIC",
+      "tag": "price-sensitive"
+     },
+     {
       "date": "2026-11-17",
-      "text": "Change in substantial holding",
+      "text": "Court approves convening of Scheme Meeting",
       "tag": null
      },
      {
-      "date": "2026-11-16",
-      "text": "Change in substantial holding",
-      "tag": null
-     },
-     {
-      "date": "2026-11-04",
-      "text": "Dispatch of Scheme Booklet, letter and proxy form",
-      "tag": null
-     },
-     {
-      "date": "2026-10-30",
-      "text": "Scheme Booklet registered by ASIC",
-      "tag": "price-sensitive"
-     },
-     {
-      "date": "2026-10-29",
-      "text": "Outcome of first Court hearing for Scheme of Arrangement",
-      "tag": "price-sensitive"
+      "date": "2026-11-17",
+      "text": "Ceasing to be a substantial holder",
+      "tag": "holder sold down"
      }
     ],
-    "url": "https://www.asx.com.au/markets/company/RWC",
+    "url": "https://www.asx.com.au/markets/company/GL1",
     "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-20",
-   "footprint": "7W 13/4 2T",
-   "next_earnings": "2026-08-18",
+   "as_of": "2026-11-23",
+   "footprint": "9W 20/7 2T",
+   "next_earnings": null,
    "priority": 4
   },
   {
@@ -504,25 +504,23 @@
    "priority": 5
   },
   {
-   "code": "PGF",
-   "symbol": "PGF.AX",
-   "name": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
-   "industry": "Not Applic",
+   "code": "APA",
+   "symbol": "APA.AX",
+   "name": "APA GROUP",
+   "industry": "Utilities",
    "status": "Buy-ready",
    "setup": "VCP",
-   "price": 3.24,
-   "pivot": 3.33,
-   "dist_pivot": -2.7,
-   "rs": 79,
-   "score": 41,
+   "price": 11.3,
+   "pivot": 11.46,
+   "dist_pivot": -1.4,
+   "rs": 85,
+   "score": 56,
    "stage": "2",
-   "base_no": 4,
-   "warnings": [
-    "Late-stage base (\u2248 base 4): treat as a trade, sell into strength"
-   ],
+   "base_no": 1,
+   "warnings": [],
    "ff": {
-    "data": false,
-    "eps": false,
+    "data": true,
+    "eps": true,
     "pass": false,
     "accel": false,
     "code33": false,
@@ -531,28 +529,28 @@
    },
    "gap": null,
    "buy": {
-    "trigger": 3.33,
-    "max": 3.4965,
+    "trigger": 11.46,
+    "max": 12.033,
     "grade": "B"
    },
    "checks": {
-    "verdict": "Mixed",
-    "why": "Earnings isn't strong enough yet",
+    "verdict": "Fail",
+    "why": "Fails on sales",
     "rows": [
      {
       "check": "Earnings",
-      "result": "n/a",
-      "finding": "No EPS history from Yahoo"
+      "result": "PASS",
+      "finding": "Accelerating. Annual figures only, so check the latest half. EPS vs a year earlier (annual): Jun 2024 +247%, Jun 2025 -90%, Jun 2026 +106%"
      },
      {
       "check": "Sales",
-      "result": "PASS",
-      "finding": "Sales vs a year earlier (annual): Jun 2024 -1%, Jun 2025 +35%, Jun 2026 +42%"
+      "result": "FAIL",
+      "finding": "Sales flat or falling. Sales vs a year earlier (annual): Jun 2024 +7%, Jun 2025 +5%, Jun 2026 -5%"
      },
      {
       "check": "Margins and Code 33",
-      "result": "CAUTION",
-      "finding": "Flat. Net margin 68.7% in FY Jun 2026 vs 68.7% in FY Jun 2025"
+      "result": "PASS",
+      "finding": "Expanding. Net margin 6.9% in FY Jun 2026 vs 3.1% in FY Jun 2025"
      },
      {
       "check": "Earnings quality",
@@ -566,64 +564,64 @@
      },
      {
       "check": "Supply and ownership",
-      "result": "CAUTION",
-      "finding": "Share count +5.6% a year over 3 yr (dilution); institutions hold 5% (little sponsorship); no insider buying or selling in 180 days"
+      "result": "PASS",
+      "finding": "Share count +3.9% a year over 3 yr; institutions hold 51%; no insider buying or selling in 180 days"
      },
      {
       "check": "Balance sheet",
       "result": "PASS",
-      "finding": "Cash A$109M, debt A$137M: net debt A$28M"
+      "finding": "Cash A$1.64B, debt A$14.15B: net debt A$12.52B; ROE 9%"
      },
      {
       "check": "Event risk",
       "result": "PASS",
-      "finding": "Last reported 2025-08-05; next date not set yet"
+      "finding": "Last reported 2026-08-20; next date not set yet"
      },
      {
       "check": "Announcements",
       "result": "PASS",
-      "finding": "No capital raise, halt or offering in the last 30 days (5 checked)"
+      "finding": "No capital raise, halt or offering in the last 30 days (4 checked)"
      }
     ],
-    "fails": 0,
-    "cautions": 2
+    "fails": 1,
+    "cautions": 0
    },
    "news": {
     "items": [
      {
-      "date": "2026-11-15",
-      "text": "Net Tangible Asset Backing - 13 November 2026",
-      "tag": null
-     },
-     {
       "date": "2026-11-11",
-      "text": "Monthly Report - 31 October 2026",
-      "tag": null
+      "text": "Ceasing to be a substantial holder",
+      "tag": "holder sold down"
      },
      {
-      "date": "2026-11-08",
-      "text": "Net Tangible Asset Backing - 6 November 2026",
+      "date": "2026-11-06",
+      "text": "APA strengthens funding position with EUR550m debt raise",
       "tag": null
      },
      {
       "date": "2026-11-04",
-      "text": "Results of 2026 Annual General Meeting",
+      "text": "Change of Director's Interest Notice - Adam Watson",
+      "tag": null
+     },
+     {
+      "date": "2026-11-04",
+      "text": "Notification regarding unquoted securities - APA",
+      "tag": null
+     },
+     {
+      "date": "2026-10-22",
+      "text": "Results of 2026 Annual Meeting",
       "tag": "results"
-     },
-     {
-      "date": "2026-11-04",
-      "text": "Chairman's Address to Shareholders",
-      "tag": null
      }
     ],
-    "url": "https://www.asx.com.au/markets/company/PGF",
+    "url": "https://www.asx.com.au/markets/company/APA",
     "note": "Latest 5 ASX announcements"
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-20",
-   "footprint": "14W 11/4 3T",
-   "next_earnings": "2025-08-05",
+   "as_of": "2026-11-23",
+   "footprint": "4W 6/3 2T",
+   "next_earnings": "2026-08-20",
    "priority": 6
   },
   {
@@ -908,11 +906,11 @@
    "industry": "Insurance",
    "status": "Buy-ready",
    "setup": "cheat (3-C)",
-   "price": 31.5,
+   "price": 31.34,
    "pivot": 32.18,
-   "dist_pivot": -2.1,
+   "dist_pivot": -2.6,
    "rs": 81,
-   "score": 32,
+   "score": 31,
    "stage": "2",
    "base_no": 1,
    "warnings": [],
@@ -1017,7 +1015,7 @@
    },
    "market": "ASX",
    "currency": "A$",
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "footprint": "53W 45/4 18T",
    "next_earnings": "2026-08-25",
    "priority": 10
