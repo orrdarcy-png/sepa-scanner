@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:50:01Z",
+ "generated": "2026-11-27T03:48:11Z",
  "stocks": [
   {
    "code": "ARMK",
@@ -63,7 +63,7 @@
      {
       "check": "Supply and ownership",
       "result": "CAUTION",
-      "finding": "Share count +0.5% a year over 3 yr; institutions hold 99% (over-owned); 1 insider sold US$4M in 180 days (latest 2026-08-13), 0.03% of the company"
+      "finding": "Share count +0.5% a year over 3 yr; institutions hold 99% (over-owned); 2 insiders sold US$5M in 180 days (latest 2026-11-23), 0.03% of the company"
      },
      {
       "check": "Balance sheet",
@@ -562,7 +562,7 @@
      {
       "check": "Supply and ownership",
       "result": "CAUTION",
-      "finding": "Share count -1.8% a year over 3 yr; institutions hold 93% (over-owned); 3 insiders sold US$2M in 180 days (latest 2026-11-17), 0.02% of the company; 3 sold within 90 days of each other"
+      "finding": "Share count -1.8% a year over 3 yr; institutions hold 93% (over-owned); 3 insiders sold US$3M in 180 days (latest 2026-11-25), 0.02% of the company; 3 sold within 90 days of each other"
      },
      {
       "check": "Balance sheet",
@@ -847,7 +847,7 @@
      {
       "check": "Supply and ownership",
       "result": "CAUTION",
-      "finding": "Share count -4.6% a year over 3 yr; institutions hold 84% (over-owned); 6 insiders sold US$28M in 180 days (latest 2026-11-18), 0.20% of the company; 6 sold within 90 days of each other"
+      "finding": "Share count -4.6% a year over 3 yr; institutions hold 84% (over-owned); 6 insiders sold US$29M in 180 days (latest 2026-11-23), 0.21% of the company; 6 sold within 90 days of each other"
      },
      {
       "check": "Balance sheet",
